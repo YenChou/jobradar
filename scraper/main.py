@@ -40,14 +40,14 @@ def load_cfg() -> dict:
         cat["skill_keywords"] = [norm(k) for k in cat["skill_keywords"]]
     for tag in cfg.get("bonus_tags", {}).values():
         tag["skill_keywords"] = [norm(k) for k in tag["skill_keywords"]]
-    for key in ("exclude_title", "seniority_boost_title", "seniority_penalty_title",
-                "contract_boost", "west_cities"):
-        cfg[key] = [norm(k) for k in cfg[key]]
+    for key in ("exclude_title", "exclude_title_foreign", "seniority_boost_title",
+                "seniority_penalty_title", "contract_boost", "west_cities"):
+        cfg[key] = [norm(k) for k in cfg.get(key, [])]
     return cfg
 
 
-def scrape_all(cfg: dict) -> tuple[list[dict], dict]:
-    from scraper.sources import france_travail, indeed_jobspy, wttj
+def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
+    from scraper.sources import apec, fashionjobs, france_travail, indeed_jobspy, isarta, wttj
 
     hours_old = int(os.environ.get("HOURS_OLD", "72"))
     per_term = int(os.environ.get("RESULTS_PER_TERM", "50"))
@@ -59,6 +59,9 @@ def scrape_all(cfg: dict) -> tuple[list[dict], dict]:
         ("Indeed", lambda: indeed_jobspy.fetch(terms, hours_old, per_term)),
         ("Welcome to the Jungle", lambda: wttj.fetch(terms)),
         ("France Travail", lambda: france_travail.fetch(terms, max_days_old=max(1, hours_old // 24))),
+        ("APEC", lambda: apec.fetch(terms)),
+        ("Fashion Jobs", lambda: fashionjobs.fetch(known_urls)),
+        ("Isarta", lambda: isarta.fetch(known_urls)),
     ]:
         try:
             batch = fn()
@@ -86,7 +89,20 @@ def _desc(datestr: str | None) -> str:
 def main() -> int:
     demo = "--demo" in sys.argv
     cfg = load_cfg()
-    raw, stats = demo_jobs() if demo else scrape_all(cfg)
+
+    # 先讀既有資料：讓列表型來源知道哪些職缺「已經補過詳情頁」，省去重抓。
+    # 只收 date_posted 有值的——列表型來源的詳情頁預算有限，當天沒補到的
+    # 職缺會缺日期／地點，下次執行要能再排進預算，否則永遠補不完。
+    known_urls: set[str] = set()
+    if OUT.exists():
+        try:
+            for j in json.loads(OUT.read_text(encoding="utf-8")).get("jobs", []):
+                if j.get("date_posted"):
+                    known_urls.update(s.get("url", "") for s in j.get("sources", []))
+        except (json.JSONDecodeError, KeyError):
+            pass
+
+    raw, stats = demo_jobs() if demo else scrape_all(cfg, known_urls)
     log.info("原始抓到 %d 筆：%s", len(raw), stats)
 
     # 分類 + 過濾
@@ -110,9 +126,13 @@ def main() -> int:
         j["first_seen"] = old.get("first_seen", today) if old else today
         history[j["id"]] = j
 
-    # 30 天過期下架
+    # 30 天過期下架 + 用「目前的」排除規則重新清洗歷史（規則更新即回溯生效）
     cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).strftime("%Y-%m-%d")
-    jobs = [j for j in history.values() if (j.get("first_seen") or today) >= cutoff]
+    jobs = [
+        j for j in history.values()
+        if (j.get("first_seen") or today) >= cutoff
+        and not enrich.excluded_title(j.get("title", ""), cfg)
+    ]
 
     # 排序：分數高在前，同分者新的在前
     jobs.sort(key=lambda j: (-j["score"], _desc(j.get("first_seen")), _desc(j.get("date_posted"))))

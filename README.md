@@ -13,6 +13,9 @@ GitHub Actions（每天 04:30 UTC ≈ 巴黎 06:30）
        ├─ sources/indeed_jobspy.py     Indeed（JobSpy）
        ├─ sources/wttj.py              Welcome to the Jungle（Algolia API）
        ├─ sources/france_travail.py    France Travail 官方 API（需金鑰，無則跳過）
+       ├─ sources/apec.py              APEC（站內搜尋 webservice）
+       ├─ sources/fashionjobs.py       Fashion Jobs（列表頁＋詳情頁 JSON-LD）
+       ├─ sources/isarta.py            Isarta（行銷／傳播職缺板列表頁）
        ├─ enrich.py                    分類、過濾、加權、去重
        └─ docs/data/jobs.json          （30 天滾動資料）
 docs/index.html                        GitHub Pages 網站
@@ -67,7 +70,7 @@ python -m http.server -d docs 8000   # 開 http://localhost:8000 看網站
 
 - **漏抓／誤抓**：改 `keywords.yml`（關鍵字、排除詞、城市加權），commit 即生效。
 - **加來源**：在 `scraper/sources/` 加一個模組，回傳同樣欄位的 dict list，
-  在 `main.py` 的 `scrape_all()` 註冊一行。Phase 2 預計加 APEC、Fashion Jobs、Isarta。
+  在 `main.py` 的 `scrape_all()` 註冊一行。Phase 2 已加入 APEC、Fashion Jobs、Isarta。
 - **LinkedIn**（Phase 3）：JobSpy 已支援，把 `site_name` 加上 `"linkedin"`；
   穩定抓取需要 residential proxy（約 $5–10/月），設定 `proxies=[...]`。
 

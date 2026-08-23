@@ -13,6 +13,8 @@ import re
 
 from scraper.util import job_id, norm, norm_title_for_dedupe
 
+FLAG_PAT = re.compile(r"[\U0001F1E6-\U0001F1FF]{2}")  # 國旗 emoji
+FR_FLAG = "\U0001F1EB\U0001F1F7"  # 🇫🇷
 REMOTE_PAT = re.compile(r"\b(remote|teletravail|full remote|100% remote)\b")
 HYBRID_PAT = re.compile(r"\b(hybride|hybrid|teletravail partiel)\b")
 CONTRACT_PAT = re.compile(r"\b(cdi|cdd|interim)\b")
@@ -25,10 +27,9 @@ def classify(job: dict, cfg: dict) -> dict | None:
     text_n = f"{title_n} \n {desc_n}"
     loc_n = norm(job.get("location"))
 
-    # 1) 硬性排除：Stage / Alternance
-    for kw in cfg["exclude_title"]:
-        if kw in title_n:
-            return None
+    # 1) 硬性排除：Stage/Alternance 與針對其他國家市場的職缺
+    if excluded_title(job.get("title") or "", cfg):
+        return None
 
     # 2) 分類：職稱優先，職稱沒中用描述前段補判
     categories: list[str] = []
@@ -78,8 +79,11 @@ def classify(job: dict, cfg: dict) -> dict | None:
         score += cfg.get("other_city_boost", 2)
 
     desc = (job.get("description") or "").strip()
+    # 公司名缺失時用 URL 當識別，避免不同公司同職稱被誤併
+    company_key = (job.get("company") or "").strip() or job.get("url", "")
     return {
-        "id": job_id(job.get("company", ""), job.get("title", "")),
+        "id": job_id(company_key, job.get("title", "")),
+        "_dedupe_key": company_key,
         "title": (job.get("title") or "").strip(),
         "company": (job.get("company") or "").strip(),
         "location": (job.get("location") or "").strip(),
@@ -96,6 +100,29 @@ def classify(job: dict, cfg: dict) -> dict | None:
         "description_snippet": re.sub(r"\s+", " ", desc)[:400],
         "sources": [{"name": job["source"], "url": job.get("url", "")}],
     }
+
+
+def excluded_title(title: str, cfg: dict) -> bool:
+    """職稱層級的硬性排除。也用在 main.py 清洗歷史資料，
+    所以規則更新後，既有的 jobs.json 也會在下一次執行時被重新過濾。"""
+    title_n = norm(title)
+
+    # Stage / Alternance
+    for kw in cfg["exclude_title"]:
+        if kw in title_n:
+            return True
+
+    # 針對其他國家市場的職缺（法國公司替海外市場開缺會掛在巴黎辦公室下，
+    # 騙過來源端的國家過濾）。職稱同時提到 France 就不套用（如 "France & BENELUX"）。
+    mentions_fr = FR_FLAG in title or re.search(r"\bfrance\b|\bfrancais|\bfr\b", title_n)
+    if not mentions_fr:
+        for fl in FLAG_PAT.findall(title):
+            if fl != FR_FLAG:
+                return True
+        for kw in cfg.get("exclude_title_foreign", []):
+            if re.search(rf"\b{re.escape(kw)}\b", title_n):
+                return True
+    return False
 
 
 def _detect_contract(raw, text_n: str) -> str | None:
@@ -141,7 +168,7 @@ def dedupe(jobs: list[dict]) -> list[dict]:
     """同公司＋正規化職稱視為同一職缺，合併來源連結。"""
     merged: dict[str, dict] = {}
     for j in jobs:
-        key = f"{norm(j['company'])}|{norm_title_for_dedupe(j['title'])}"
+        key = f"{norm(j.pop('_dedupe_key', j['company']))}|{norm_title_for_dedupe(j['title'])}"
         if key in merged:
             m = merged[key]
             known = {s["name"] for s in m["sources"]}
