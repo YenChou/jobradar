@@ -127,6 +127,43 @@ exclude_title:
   - "apprentissage"
   - "internship"
 
+# 硬性排除：職稱明顯針對其他國家市場（法國公司常替海外市場開缺、掛在巴黎辦公室下，
+# 會騙過來源端的國家過濾；職稱含非法國國旗 emoji 也會被程式自動排除）
+exclude_title_foreign:
+  - "germany"
+  - "deutschland"
+  - "allemagne"
+  - "italy"
+  - "italia"
+  - "italie"
+  - "spain"
+  - "espana"
+  - "espagne"
+  - "portugal"
+  - "netherlands"
+  - "pays-bas"
+  - "belgium"
+  - "belgique"
+  - "poland"
+  - "pologne"
+  - "switzerland"
+  - "suisse"
+  - "austria"
+  - "autriche"
+  - "united kingdom"
+  - "uk"
+  - "ireland"
+  - "irlande"
+  - "usa"
+  - "united states"
+  - "luxembourg"
+  - "denmark"
+  - "sweden"
+  - "norway"
+  - "dach"
+  - "benelux"
+  - "nordics"
+
 # 職級加分（+6）：符合 Yen 目標職級
 seniority_boost_title:
   - "junior"

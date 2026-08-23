@@ -71,7 +71,22 @@
   }
   input[type="search"]:focus-visible { outline:2px solid var(--accent); outline-offset:0; }
 
-  .count-line { font-size:13px; color:var(--muted); margin:4px 0 12px; }
+  .count-line { display:flex; flex-wrap:wrap; align-items:center; gap:10px; font-size:13px; color:var(--muted); margin:4px 0 12px; }
+  .count-line select {
+    font:inherit; font-size:13px; color:var(--ink); background:var(--surface);
+    border:1px solid var(--line); border-radius:6px; padding:3px 6px;
+  }
+  .pager { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:6px; margin:22px 0 0; }
+  .pager button {
+    all:unset; cursor:pointer; font-family:"JetBrains Mono","Noto Sans TC",monospace; font-size:13px;
+    min-width:34px; text-align:center; padding:6px 8px; border-radius:8px;
+    border:1px solid var(--line); background:var(--surface); color:var(--muted);
+    font-variant-numeric:tabular-nums;
+  }
+  .pager button.cur { background:var(--accent); border-color:var(--accent); color:var(--accent-ink); font-weight:700; }
+  .pager button:disabled { opacity:.4; cursor:default; }
+  .pager button:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+  .pager .ell { color:var(--muted); padding:0 2px; }
 
   .cards { display:grid; gap:10px; }
   .card {
@@ -165,9 +180,21 @@
     </div>
   </div>
 
-  <p class="count-line" id="countline"></p>
+  <div class="count-line">
+    <span id="countline"></span>
+    <label>每頁
+      <select id="perpage" aria-label="每頁顯示筆數">
+        <option value="10" selected>10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+      筆
+    </label>
+  </div>
   <div class="cards" id="cards"></div>
   <p class="empty" id="empty" hidden>沒有符合條件的職缺 — 放寬一點篩選試試。</p>
+  <nav class="pager" id="pager" aria-label="分頁"></nav>
 
   <details class="addbox">
     <summary>＋ 手動加入職缺（JobTeaser、TrueUp 的 email alert 看到好職缺時貼進來）</summary>
@@ -208,7 +235,8 @@ let statuses = store.get("jr_status", {});      // {jobId: "applied"|"interview"
 let manual  = store.get("jr_manual", []);       // 手動加入的職缺
 
 // ---- 狀態 ----
-const state = { view:"7d", q:"", cat:new Set(), region:new Set(), mode:new Set(), contract:new Set(), source:new Set(), status:new Set() };
+const state = { view:"7d", q:"", cat:new Set(), region:new Set(), mode:new Set(), contract:new Set(), source:new Set(), status:new Set(),
+                page:1, perPage: store.get("jr_perpage", 10) };
 let DATA = { jobs: [], generated_at: null, source_stats: {} };
 
 // ---- 載入資料 ----
@@ -249,21 +277,32 @@ function init(){
     rowSrc.appendChild(b);
   }
 
-  // 事件
+  // 事件（任何篩選變更都回到第 1 頁）
   document.querySelectorAll(".chipbtn").forEach(b => b.addEventListener("click", () => {
     const set = state[b.dataset.g];
     if (set.has(b.dataset.k)) set.delete(b.dataset.k); else set.add(b.dataset.k);
     b.setAttribute("aria-pressed", set.has(b.dataset.k) ? "true" : "false");
+    state.page = 1;
     render();
   }));
   document.querySelectorAll("#seg-view button").forEach(b => b.addEventListener("click", () => {
     state.view = b.dataset.v;
     document.querySelectorAll("#seg-view button").forEach(x => x.setAttribute("aria-pressed", x===b ? "true":"false"));
+    state.page = 1;
     render();
   }));
   let t;
   document.getElementById("q").addEventListener("input", e => {
-    clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 150);
+    clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); state.page = 1; render(); }, 150);
+  });
+  const pp = document.getElementById("perpage");
+  pp.value = String(state.perPage);
+  if (pp.value !== String(state.perPage)) { state.perPage = 10; pp.value = "10"; }  // 防呆：儲存值不在選項裡
+  pp.addEventListener("change", () => {
+    state.perPage = parseInt(pp.value, 10) || 10;
+    store.set("jr_perpage", state.perPage);
+    state.page = 1;
+    render();
   });
   document.getElementById("add-btn").addEventListener("click", addManual);
 
@@ -315,12 +354,60 @@ function render(){
     return true;
   });
 
-  document.getElementById("countline").textContent = "顯示 " + jobs.length + " 筆職缺";
+  // 分頁
+  const totalPages = Math.max(1, Math.ceil(jobs.length / state.perPage));
+  if (state.page > totalPages) state.page = totalPages;
+  const start = (state.page - 1) * state.perPage;
+  const pageJobs = jobs.slice(start, start + state.perPage);
+
+  document.getElementById("countline").textContent = jobs.length === 0
+    ? "顯示 0 筆職缺"
+    : "顯示 " + (start + 1) + "–" + (start + pageJobs.length) + " 筆，共 " + jobs.length + " 筆";
   document.getElementById("empty").hidden = jobs.length > 0;
 
   const wrap = document.getElementById("cards");
   wrap.innerHTML = "";
-  for (const j of jobs) wrap.appendChild(card(j, today));
+  for (const j of pageJobs) wrap.appendChild(card(j, today));
+
+  renderPager(totalPages);
+}
+
+function renderPager(totalPages){
+  const nav = document.getElementById("pager");
+  nav.innerHTML = "";
+  if (totalPages <= 1) return;
+
+  const mk = (label, page, opts = {}) => {
+    const b = document.createElement("button");
+    b.textContent = label;
+    if (opts.cur) { b.className = "cur"; b.setAttribute("aria-current", "page"); }
+    if (opts.disabled) b.disabled = true;
+    else b.addEventListener("click", () => {
+      state.page = page;
+      render();
+      document.querySelector(".count-line").scrollIntoView({ behavior: "auto", block: "nearest" });
+    });
+    nav.appendChild(b);
+  };
+  const ell = () => {
+    const s = document.createElement("span");
+    s.className = "ell"; s.textContent = "…";
+    nav.appendChild(s);
+  };
+
+  mk("‹", state.page - 1, { disabled: state.page === 1 });
+  // 頁碼窗口：首頁、尾頁永遠可見，中間顯示目前頁 ±2
+  const win = [];
+  for (let p = 1; p <= totalPages; p++) {
+    if (p === 1 || p === totalPages || Math.abs(p - state.page) <= 2) win.push(p);
+  }
+  let prev = 0;
+  for (const p of win) {
+    if (p - prev > 1) ell();
+    mk(String(p), p, { cur: p === state.page });
+    prev = p;
+  }
+  mk("›", state.page + 1, { disabled: state.page === totalPages });
 }
 
 function card(j, today){
