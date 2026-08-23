@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JobRadar France</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+  :root {
+    --bg:#F7F6F2; --surface:#FFFFFF; --surface-2:#EFEDE6; --ink:#20242B; --muted:#616875;
+    --line:#DCD9CF; --accent:#1D5DBF; --accent-ink:#FFFFFF; --accent-soft:#E4EDFB;
+    --good:#1F7A4D; --good-bg:#E2F1E8; --warn:#9A6410; --warn-bg:#F6ECD8;
+    --west:#7A3FA0; --west-bg:#F0E6F7;
+    --shadow:0 1px 3px rgba(32,36,43,.07);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:#14171D; --surface:#1C2027; --surface-2:#232833; --ink:#E7E9ED; --muted:#9AA2AF;
+      --line:#333945; --accent:#7FA8EF; --accent-ink:#10141B; --accent-soft:#24314A;
+      --good:#6FC79A; --good-bg:#1D3229; --warn:#DCAE5E; --warn-bg:#38301C;
+      --west:#C69AE3; --west-bg:#332440;
+      --shadow:0 1px 3px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg:#14171D; --surface:#1C2027; --surface-2:#232833; --ink:#E7E9ED; --muted:#9AA2AF;
+    --line:#333945; --accent:#7FA8EF; --accent-ink:#10141B; --accent-soft:#24314A;
+    --good:#6FC79A; --good-bg:#1D3229; --warn:#DCAE5E; --warn-bg:#38301C;
+    --west:#C69AE3; --west-bg:#332440;
+    --shadow:0 1px 3px rgba(0,0,0,.35);
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Noto Sans TC","Schibsted Grotesk","PingFang TC","Microsoft JhengHei",sans-serif;
+    font-size:15px; line-height:1.7;
+  }
+  .wrap { max-width:1060px; margin:0 auto; padding:28px 20px 80px; }
+  header.top { display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 16px; margin-bottom:6px; }
+  h1 { font-family:"Schibsted Grotesk","Noto Sans TC",sans-serif; font-weight:800; font-size:26px; margin:0; }
+  h1 .fr { color:var(--accent); }
+  .updated { font-family:"JetBrains Mono",monospace; font-size:12px; color:var(--muted); }
+  .stats { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 18px; }
+  .stat {
+    background:var(--surface); border:1px solid var(--line); border-radius:8px;
+    padding:6px 12px; font-size:12.5px; color:var(--muted); box-shadow:var(--shadow);
+  }
+  .stat b { color:var(--ink); font-variant-numeric:tabular-nums; }
+  .stat.new b { color:var(--good); }
+
+  .controls { display:flex; flex-direction:column; gap:10px; margin-bottom:18px; }
+  .row { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .row .lbl { font-size:12px; font-weight:700; letter-spacing:.08em; color:var(--muted); min-width:58px; }
+  .seg { display:inline-flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; background:var(--surface); }
+  .seg button {
+    all:unset; cursor:pointer; padding:6px 13px; font-size:13.5px; font-family:inherit; color:var(--muted);
+  }
+  .seg button[aria-pressed="true"] { background:var(--accent); color:var(--accent-ink); font-weight:700; }
+  .seg button:focus-visible { outline:2px solid var(--accent); outline-offset:-2px; }
+  .chipbtn {
+    all:unset; cursor:pointer; font-size:13px; padding:5px 12px; border-radius:99px;
+    border:1px solid var(--line); background:var(--surface); color:var(--muted); font-family:inherit;
+  }
+  .chipbtn[aria-pressed="true"] { background:var(--accent-soft); border-color:var(--accent); color:var(--accent); font-weight:700; }
+  .chipbtn:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+  input[type="search"] {
+    flex:1; min-width:200px; font:inherit; font-size:14px; color:var(--ink);
+    background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:7px 12px;
+  }
+  input[type="search"]:focus-visible { outline:2px solid var(--accent); outline-offset:0; }
+
+  .count-line { font-size:13px; color:var(--muted); margin:4px 0 12px; }
+
+  .cards { display:grid; gap:10px; }
+  .card {
+    background:var(--surface); border:1px solid var(--line); border-radius:12px;
+    padding:14px 16px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:6px;
+  }
+  .card.applied-done { opacity:.55; }
+  .card .head { display:flex; flex-wrap:wrap; gap:6px 10px; align-items:baseline; }
+  .card .title { font-weight:700; font-size:16px; }
+  .card .title a { color:var(--ink); text-decoration:none; }
+  .card .title a:hover { color:var(--accent); text-decoration:underline; text-underline-offset:3px; }
+  .card .co { color:var(--muted); font-size:14px; }
+  .badges { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .b {
+    font-size:11.5px; font-weight:700; line-height:1; padding:4px 8px; border-radius:99px; white-space:nowrap;
+  }
+  .b.cat { background:var(--accent-soft); color:var(--accent); }
+  .b.west { background:var(--west-bg); color:var(--west); }
+  .b.loc, .b.mode, .b.contract { background:var(--surface-2); color:var(--muted); }
+  .b.new { background:var(--good-bg); color:var(--good); }
+  .b.bonus { background:var(--warn-bg); color:var(--warn); }
+  .snippet { font-size:13px; color:var(--muted); line-height:1.6; }
+  .foot { display:flex; flex-wrap:wrap; gap:6px 12px; align-items:center; font-size:12.5px; color:var(--muted); }
+  .foot .src a { color:var(--accent); text-decoration:none; }
+  .foot .src a:hover { text-decoration:underline; }
+  .foot .date { font-family:"JetBrains Mono",monospace; font-size:11.5px; }
+  .track { margin-left:auto; display:flex; gap:4px; }
+  .track button {
+    all:unset; cursor:pointer; font-size:12px; padding:4px 10px; border-radius:6px;
+    border:1px solid var(--line); color:var(--muted); font-family:inherit;
+  }
+  .track button.on { background:var(--accent); border-color:var(--accent); color:var(--accent-ink); font-weight:700; }
+  .track button:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+
+  .empty { text-align:center; color:var(--muted); padding:60px 0; }
+  details.addbox { margin-top:26px; }
+  details.addbox summary { cursor:pointer; font-size:13.5px; color:var(--muted); }
+  .addform { display:grid; gap:8px; grid-template-columns:1fr 1fr; margin-top:10px; max-width:640px; }
+  .addform input { font:inherit; font-size:13.5px; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:7px 10px; }
+  .addform input.full { grid-column:1 / -1; }
+  .addform button {
+    all:unset; cursor:pointer; grid-column:1 / -1; justify-self:start;
+    background:var(--accent); color:var(--accent-ink); font-weight:700; font-size:13.5px;
+    padding:7px 16px; border-radius:8px; font-family:inherit;
+  }
+  footer.pagefoot { margin-top:36px; font-size:12px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
+  @media (max-width:640px){ .row .lbl{min-width:100%;} .addform{grid-template-columns:1fr;} }
+  @media (prefers-reduced-motion: reduce){ *{transition:none!important;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>JobRadar <span class="fr">France</span></h1>
+    <span class="updated" id="updated">載入中⋯</span>
+  </header>
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <div class="row">
+      <span class="lbl">時間</span>
+      <div class="seg" id="seg-view" role="group" aria-label="時間範圍">
+        <button data-v="24h" aria-pressed="false">最近 24 小時</button>
+        <button data-v="7d" aria-pressed="true">最近 7 天</button>
+        <button data-v="all" aria-pressed="false">全部（30 天）</button>
+      </div>
+      <input type="search" id="q" placeholder="搜尋職稱、公司、城市⋯" aria-label="搜尋">
+    </div>
+    <div class="row" id="row-cat"><span class="lbl">職類</span></div>
+    <div class="row" id="row-region"><span class="lbl">地區</span>
+      <button class="chipbtn" data-g="region" data-k="west" aria-pressed="false">西部優先區</button>
+      <button class="chipbtn" data-g="region" data-k="paris" aria-pressed="false">巴黎</button>
+      <button class="chipbtn" data-g="region" data-k="other" aria-pressed="false">其他城市</button>
+    </div>
+    <div class="row" id="row-mode"><span class="lbl">型態</span>
+      <button class="chipbtn" data-g="mode" data-k="remote" aria-pressed="false">Remote</button>
+      <button class="chipbtn" data-g="mode" data-k="hybrid" aria-pressed="false">Hybride</button>
+      <button class="chipbtn" data-g="mode" data-k="onsite" aria-pressed="false">Présentiel</button>
+    </div>
+    <div class="row" id="row-contract"><span class="lbl">合約</span>
+      <button class="chipbtn" data-g="contract" data-k="CDI" aria-pressed="false">CDI</button>
+      <button class="chipbtn" data-g="contract" data-k="CDD" aria-pressed="false">CDD</button>
+      <button class="chipbtn" data-g="contract" data-k="Intérim" aria-pressed="false">Intérim</button>
+    </div>
+    <div class="row" id="row-source"><span class="lbl">來源</span></div>
+    <div class="row" id="row-status"><span class="lbl">狀態</span>
+      <button class="chipbtn" data-g="status" data-k="none" aria-pressed="false">未處理</button>
+      <button class="chipbtn" data-g="status" data-k="applied" aria-pressed="false">已投遞</button>
+      <button class="chipbtn" data-g="status" data-k="interview" aria-pressed="false">面試中</button>
+      <button class="chipbtn" data-g="status" data-k="skipped" aria-pressed="false">略過</button>
+    </div>
+  </div>
+
+  <p class="count-line" id="countline"></p>
+  <div class="cards" id="cards"></div>
+  <p class="empty" id="empty" hidden>沒有符合條件的職缺 — 放寬一點篩選試試。</p>
+
+  <details class="addbox">
+    <summary>＋ 手動加入職缺（JobTeaser、TrueUp 的 email alert 看到好職缺時貼進來）</summary>
+    <div class="addform">
+      <input id="add-title" placeholder="職稱 *">
+      <input id="add-company" placeholder="公司 *">
+      <input id="add-url" class="full" placeholder="職缺網址 *">
+      <input id="add-location" placeholder="城市（可留白）">
+      <input id="add-note" placeholder="備註（可留白）">
+      <button id="add-btn">加入清單</button>
+    </div>
+  </details>
+
+  <footer class="pagefoot">
+    只索引摘要與原站連結，完整職缺請點回原站。投遞狀態與手動加入的職缺存在這台瀏覽器（localStorage）。
+    職缺超過 30 天自動下架。分類與排序規則見 repo 的 <code>keywords.yml</code>。
+  </footer>
+</div>
+
+<script>
+"use strict";
+const CATS = {
+  marketing_operations: "Marketing Ops",
+  performance_marketing: "Performance",
+  crm: "CRM",
+  marketing_analytics: "Analytics",
+  marketing_produit: "Produit",
+};
+const BONUS = { video_content: "影音內容" };
+const MODES = { remote:"Remote", hybrid:"Hybride", onsite:"Présentiel" };
+
+// ---- localStorage（包 try/catch：私密視窗等情境會擋）----
+const store = {
+  get(k, fb){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch(e){ return fb; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} },
+};
+let statuses = store.get("jr_status", {});      // {jobId: "applied"|"interview"|"skipped"}
+let manual  = store.get("jr_manual", []);       // 手動加入的職缺
+
+// ---- 狀態 ----
+const state = { view:"7d", q:"", cat:new Set(), region:new Set(), mode:new Set(), contract:new Set(), source:new Set(), status:new Set() };
+let DATA = { jobs: [], generated_at: null, source_stats: {} };
+
+// ---- 載入資料 ----
+fetch("data/jobs.json", { cache:"no-store" })
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { DATA = d; init(); })
+  .catch(() => {
+    document.getElementById("updated").textContent = "還沒有資料 — 等第一次抓取完成（或先跑 python -m scraper.main --demo）";
+  });
+
+function init(){
+  const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
+  document.getElementById("updated").textContent = gen ? "更新於 " + gen.toLocaleString("zh-TW", {hour12:false}) : "";
+
+  // 統計列
+  const st = document.getElementById("stats");
+  st.innerHTML = "";
+  addStat(st, "職缺總數", DATA.count ?? DATA.jobs.length, false);
+  addStat(st, "今日新增", DATA.new_today ?? 0, true);
+  for (const [name, n] of Object.entries(DATA.source_stats || {})) addStat(st, name, n, false);
+
+  // 職類 chips
+  const rowCat = document.getElementById("row-cat");
+  for (const [k, label] of Object.entries(CATS)) {
+    const b = document.createElement("button");
+    b.className = "chipbtn"; b.textContent = label;
+    b.dataset.g = "cat"; b.dataset.k = k; b.setAttribute("aria-pressed","false");
+    rowCat.appendChild(b);
+  }
+  // 來源 chips（從資料動態產生）
+  const rowSrc = document.getElementById("row-source");
+  const sources = new Set();
+  for (const j of allJobs()) for (const s of j.sources) sources.add(s.name);
+  for (const name of [...sources].sort()) {
+    const b = document.createElement("button");
+    b.className = "chipbtn"; b.textContent = name;
+    b.dataset.g = "source"; b.dataset.k = name; b.setAttribute("aria-pressed","false");
+    rowSrc.appendChild(b);
+  }
+
+  // 事件
+  document.querySelectorAll(".chipbtn").forEach(b => b.addEventListener("click", () => {
+    const set = state[b.dataset.g];
+    if (set.has(b.dataset.k)) set.delete(b.dataset.k); else set.add(b.dataset.k);
+    b.setAttribute("aria-pressed", set.has(b.dataset.k) ? "true" : "false");
+    render();
+  }));
+  document.querySelectorAll("#seg-view button").forEach(b => b.addEventListener("click", () => {
+    state.view = b.dataset.v;
+    document.querySelectorAll("#seg-view button").forEach(x => x.setAttribute("aria-pressed", x===b ? "true":"false"));
+    render();
+  }));
+  let t;
+  document.getElementById("q").addEventListener("input", e => {
+    clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); render(); }, 150);
+  });
+  document.getElementById("add-btn").addEventListener("click", addManual);
+
+  render();
+}
+
+function addStat(el, label, n, isNew){
+  const d = document.createElement("span");
+  d.className = "stat" + (isNew ? " new" : "");
+  d.innerHTML = label + " <b>" + n + "</b>";
+  el.appendChild(d);
+}
+
+function allJobs(){
+  const manualJobs = manual.map(m => ({
+    id: m.id, title: m.title, company: m.company, location: m.location || "",
+    city: m.location || "", region: "unknown", work_mode: null, contract: null,
+    categories: [], skills: [], bonus_tags: [], score: 999,  // 手動加入的排最前面
+    date_posted: m.added, first_seen: m.added, salary: null,
+    description_snippet: m.note || "", sources: [{ name: "手動加入", url: m.url }],
+    _manual: true,
+  }));
+  return manualJobs.concat(DATA.jobs || []);
+}
+
+function daysAgo(n){
+  const d = new Date(); d.setDate(d.getDate() - n);
+  return d.toISOString().slice(0,10);
+}
+
+function render(){
+  const today = new Date().toISOString().slice(0,10);
+  const cut24 = daysAgo(1), cut7 = daysAgo(7);
+  const jobs = allJobs().filter(j => {
+    const seen = j.first_seen || j.date_posted || today;
+    if (state.view === "24h" && seen < cut24) return false;
+    if (state.view === "7d"  && seen < cut7)  return false;
+    if (state.cat.size && !j.categories.some(c => state.cat.has(c)) && !j._manual) return false;
+    if (state.region.size && !state.region.has(j.region)) return false;
+    if (state.mode.size && !state.mode.has(j.work_mode)) return false;
+    if (state.contract.size && !state.contract.has(j.contract)) return false;
+    if (state.source.size && !j.sources.some(s => state.source.has(s.name))) return false;
+    const stt = statuses[j.id] || "none";
+    if (state.status.size && !state.status.has(stt)) return false;
+    if (state.q) {
+      const hay = (j.title + " " + j.company + " " + j.location + " " + j.description_snippet).toLowerCase();
+      if (!hay.includes(state.q)) return false;
+    }
+    return true;
+  });
+
+  document.getElementById("countline").textContent = "顯示 " + jobs.length + " 筆職缺";
+  document.getElementById("empty").hidden = jobs.length > 0;
+
+  const wrap = document.getElementById("cards");
+  wrap.innerHTML = "";
+  for (const j of jobs) wrap.appendChild(card(j, today));
+}
+
+function card(j, today){
+  const el = document.createElement("article");
+  const stt = statuses[j.id] || "none";
+  el.className = "card" + ((stt === "skipped" || stt === "applied") ? " applied-done" : "");
+
+  const mainUrl = j.sources[0] ? j.sources[0].url : "#";
+  const isNew = (j.first_seen || "") === today;
+
+  const badges = [];
+  if (isNew) badges.push('<span class="b new">NEW</span>');
+  for (const c of j.categories) if (CATS[c]) badges.push('<span class="b cat">' + CATS[c] + "</span>");
+  if (j.region === "west") badges.push('<span class="b west">西部 · ' + esc(j.city || j.location) + "</span>");
+  else if (j.city || j.location) badges.push('<span class="b loc">' + esc(j.city || j.location) + "</span>");
+  if (j.work_mode && MODES[j.work_mode]) badges.push('<span class="b mode">' + MODES[j.work_mode] + "</span>");
+  if (j.contract) badges.push('<span class="b contract">' + esc(j.contract) + "</span>");
+  for (const t of (j.bonus_tags || [])) if (BONUS[t]) badges.push('<span class="b bonus">' + BONUS[t] + "</span>");
+
+  const srcLinks = j.sources.map(s => '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>").join(" · ");
+
+  el.innerHTML =
+    '<div class="head"><span class="title"><a href="' + esc(mainUrl) + '" target="_blank" rel="noopener">' + esc(j.title) + "</a></span>" +
+    '<span class="co">' + esc(j.company) + "</span></div>" +
+    '<div class="badges">' + badges.join("") + "</div>" +
+    (j.description_snippet ? '<p class="snippet">' + esc(j.description_snippet) + "</p>" : "") +
+    '<div class="foot">' +
+      '<span class="src">' + srcLinks + "</span>" +
+      (j.salary ? "<span>" + esc(j.salary) + "</span>" : "") +
+      '<span class="date">' + esc(j.date_posted || j.first_seen || "") + "</span>" +
+      '<span class="track" role="group" aria-label="投遞狀態"></span>' +
+    "</div>";
+
+  const track = el.querySelector(".track");
+  for (const [k, label] of [["applied","已投遞"],["interview","面試中"],["skipped","略過"]]) {
+    const b = document.createElement("button");
+    b.textContent = label;
+    if (stt === k) b.className = "on";
+    b.addEventListener("click", () => {
+      if (statuses[j.id] === k) delete statuses[j.id]; else statuses[j.id] = k;
+      store.set("jr_status", statuses);
+      render();
+    });
+    track.appendChild(b);
+  }
+  return el;
+}
+
+function addManual(){
+  const v = id => document.getElementById(id).value.trim();
+  const title = v("add-title"), company = v("add-company"), url = v("add-url");
+  if (!title || !company || !url) { alert("職稱、公司、網址是必填"); return; }
+  manual.unshift({
+    id: "m_" + Date.now(), title, company, url,
+    location: v("add-location"), note: v("add-note"),
+    added: new Date().toISOString().slice(0,10),
+  });
+  store.set("jr_manual", manual);
+  ["add-title","add-company","add-url","add-location","add-note"].forEach(i => document.getElementById(i).value = "");
+  render();
+}
+
+function esc(s){
+  return String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+}
+</script>
+</body>
+</html>

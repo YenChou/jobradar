@@ -1,0 +1,196 @@
+# JobRadar France — 關鍵字設定檔
+# 改這個檔案就能調整分類與排序，不用動程式。
+# 所有比對都是「不分大小寫、不分重音」(chargé == charge)。
+
+categories:
+  marketing_operations:
+    label: "Marketing Operations"
+    # 職稱命中 → 歸入此類
+    title_keywords:
+      - "charge des operations marketing"
+      - "chargee des operations marketing"
+      - "coordinateur marketing"
+      - "coordinatrice marketing"
+      - "marketing operations"
+      - "marketing ops"
+    # 描述命中 → 加分（每個 +2，上限 +10）
+    skill_keywords:
+      - "automation"
+      - "processus"
+      - "workflow"
+      - "gestion de projet"
+      - "outils marketing"
+      - "hubspot"
+      - "salesforce"
+      - "zapier"
+
+  performance_marketing:
+    label: "Performance Marketing"
+    title_keywords:
+      - "charge d'acquisition"
+      - "chargee d'acquisition"
+      - "charge acquisition"
+      - "traffic manager"
+      - "specialiste seo"
+      - "specialiste sea"
+      - "performance marketing"
+      - "growth marketing"
+    skill_keywords:
+      - "roi"
+      - "roas"
+      - "conversion"
+      - "kpi"
+      - "a/b testing"
+      - "ab testing"
+      - "tracking"
+      - "seo"
+      - "sea"
+      - "google ads"
+      - "meta ads"
+      - "acquisition"
+      - "trafic"
+
+  crm:
+    label: "CRM"
+    title_keywords:
+      - "charge de crm"
+      - "chargee de crm"
+      - "charge crm"
+      - "chef de projet crm"
+      - "crm specialist"
+      - "crm manager"
+      - "responsable crm"
+    skill_keywords:
+      - "fidelisation"
+      - "emailing"
+      - "parcours client"
+      - "segmentation"
+      - "base de donnees"
+      - "newsletter"
+      - "marketing automation"
+
+  marketing_analytics:
+    label: "Marketing Analytics"
+    title_keywords:
+      - "data analyst marketing"
+      - "marketing data analyst"
+      - "web analyst"
+      - "analyste marketing"
+      - "marketing analytics"
+    skill_keywords:
+      - "sql"
+      - "tableau"
+      - "google analytics"
+      - "ga4"
+      - "data visualization"
+      - "dataviz"
+      - "reporting"
+      - "dashboard"
+      - "analyse de donnees"
+
+  marketing_produit:
+    label: "Marketing Produit"
+    title_keywords:
+      - "charge de marketing produit"
+      - "chargee de marketing produit"
+      - "marketing produit"
+      - "chef de produit"
+      - "product marketing"
+    skill_keywords:
+      - "lancement de produit"
+      - "go-to-market"
+      - "gtm"
+      - "roadmap"
+      - "etude de marche"
+      - "veille concurrentielle"
+      - "positionnement"
+
+# 跨類技能標籤：不成類，但命中會在職缺上顯示標籤（Yen 的加分技能）
+bonus_tags:
+  video_content:
+    label: "影音內容"
+    skill_keywords:
+      - "creation video"
+      - "montage video"
+      - "contenu digital"
+
+# ── 過濾與排序規則 ─────────────────────────────
+
+# 硬性排除：職稱含以下字樣直接丟棄
+exclude_title:
+  - "stage"
+  - "stagiaire"
+  - "alternance"
+  - "alternant"
+  - "alternante"
+  - "apprenti"
+  - "apprentissage"
+  - "internship"
+
+# 職級加分（+6）：符合 Yen 目標職級
+seniority_boost_title:
+  - "junior"
+  - "charge"      # chargé / chargée（去重音後）
+  - "chargee"
+  - "specialiste"
+  - "specialist"
+  - "coordinateur"
+  - "coordinatrice"
+
+# 資深降權（-8）：明顯不是目標職級
+seniority_penalty_title:
+  - "senior"
+  - "head of"
+  - "director"
+  - "directeur"
+  - "directrice"
+  - "vp "
+  - "confirme"    # confirmé
+
+# 合約加分（+4）：職稱或描述命中 CDI/CDD/Intérim
+contract_boost:
+  - "cdi"
+  - "cdd"
+  - "interim"
+
+# 西部城市加權（+10）：Yen 優先的法國西半邊
+west_cities:
+  - "bordeaux"
+  - "nantes"
+  - "rennes"
+  - "angers"
+  - "la rochelle"
+  - "brest"
+  - "tours"
+  - "poitiers"
+  - "niort"
+  - "vannes"
+  - "lorient"
+  - "saint-nazaire"
+  - "le mans"
+  - "caen"
+  - "bayonne"
+  - "biarritz"
+  - "anglet"
+  - "pau"
+  - "toulouse"
+  - "limoges"
+
+# Remote 加分（+6）；巴黎 +0；其他城市 +2
+remote_boost: 6
+west_boost: 10
+other_city_boost: 2
+
+# ── 爬蟲搜尋詞（各來源用這些詞去查） ──────────────
+search_terms:
+  - "marketing operations"
+  - "coordinateur marketing"
+  - "acquisition marketing"
+  - "traffic manager"
+  - "CRM marketing"
+  - "chef de projet CRM"
+  - "data analyst marketing"
+  - "web analyst"
+  - "marketing produit"
+  - "product marketing"
+  - "marketing automation"
