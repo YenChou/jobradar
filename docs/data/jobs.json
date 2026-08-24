@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-23T09:42:37Z",
+ "generated_at": "2026-08-24T05:12:01Z",
  "source_stats": {
-  "Indeed": 329,
+  "Indeed": 286,
   "Welcome to the Jungle": 874,
-  "France Travail": 15,
-  "APEC": 303,
-  "Fashion Jobs": 130,
-  "Isarta": 93
+  "France Travail": 13,
+  "APEC": 306,
+  "Fashion Jobs": 119,
+  "Isarta": 89
  },
- "count": 191,
- "new_today": 191,
+ "count": 194,
+ "new_today": 3,
  "jobs": [
   {
    "id": "db2f00d3e9ecbad5",
@@ -261,41 +261,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=6eca225eb4ee2f05"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "686929531f4a0b14",
-   "title": "Marketing Data Analyst",
-   "company": "CafeYn",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_analytics",
-    "marketing_operations"
-   ],
-   "skills": [
-    "dashboard",
-    "reporting",
-    "sql"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-08-19",
-   "salary": null,
-   "description_snippet": "**Join Cafeyn: Where Innovation Meets Inspiration** =================================================== At Cafeyn, we're redefining the way people discover, access, and enjoy premium digital content. Since 2006, we've evolved into one of Europe's leading digital reading platforms, serving more than 2 million users worldwide with unlimited, personalized access to thousands of newspapers and magazin",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=773149d305ac5959"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/lekiosk/jobs/marketing-data-analyst_paris"
     }
    ],
    "first_seen": "2026-08-23"
@@ -901,6 +866,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "97fb171ec7545b2c",
+   "title": "Marketing Manager B2B",
+   "company": "Licorne Society",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-23",
+   "salary": null,
+   "description_snippet": "**Marketing Manager B2B \\- Scale\\-up HRTech Innovante (Coaching \\& IA)** **Localisation** : Paris (Quartier Sentier / Réaumur) **Rémunération** : Jusqu'à 60/70 k€ \\+ BSPCE (Equity) **Télétravail** : 1 jour / semaine **Type de contrat** : CDI **L'Entreprise** : Qui sont\\-ils ? Notre client est une scale\\-up B2B autofinancée et très ambitieuse, qui transforme la manière dont les entreprises développ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=06cc48b9bb2663bb"
+    }
+   ],
+   "first_seen": "2026-08-24"
   },
   {
    "id": "6334bc6fa10973d6",
@@ -3167,6 +3158,32 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "686929531f4a0b14",
+   "title": "Marketing Data Analyst",
+   "company": "Cafeyn",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-21",
+   "salary": null,
+   "description_snippet": "Marketing Data Analyst",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lekiosk/jobs/marketing-data-analyst_paris"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "6215e0ecc605a4f9",
    "title": "Freelance – Growth Marketing & Acquisition (Minecraft)",
    "company": "Rivrs",
@@ -3677,6 +3694,60 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "c7a2764685c3de79",
+   "title": "Growth Marketing Manager F/H",
+   "company": "MICHAEL PAGE INTERNATIONAL FRANCE",
+   "location": "Paris 08 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-24",
+   "salary": "45 - 55 k€ brut annuel",
+   "description_snippet": "Rattaché·e au Chief of Staff International, le/la Growth Marketing Manager F/H intervient sur l'ensemble des leviers de croissance et de performance de l'activité. À ce titre, vos responsabilités comprennent notamment : Piloter les principaux indicateurs de croissance et de perf...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179295772W"
+    }
+   ],
+   "first_seen": "2026-08-24"
+  },
+  {
+   "id": "64ac545b72296f62",
+   "title": "Chef de Produit - Nutrition Végétale F/H",
+   "company": "CATHALA CONSEILS",
+   "location": "Bretagne - 36",
+   "city": "Bretagne - 36",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-27",
+   "salary": "40 - 50 k€ brut annuel",
+   "description_snippet": "CHEF DE PRODUIT (H/F) - NUTRITION VÉGÉTALERattaché(e) à la direction Marketing et Réglementaire de cette filiale, vous rejoignez le pôle Nutrition Végétale constitué d’une dizaine de personnes et êtes directement rattaché(e) à la Responsable Animation Marketing et Développement d...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179185998W"
+    }
+   ],
+   "first_seen": "2026-08-24"
+  },
+  {
    "id": "1f35bfd3a8655b44",
    "title": "Assistant(e) Chef de Produit Marketing",
    "company": "LELIÈVRE PARIS",
@@ -3733,6 +3804,32 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "ce517a0c0a24321b",
+   "title": "Product Marketing Manager Cloud F/H",
+   "company": "Direct Emploi",
+   "location": "Nice - 06",
+   "city": "Nice - 06",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-24",
+   "salary": "A partir de 60 k€ brut annuel",
+   "description_snippet": "Notre client est une entreprise spécialisée dans le secteur TECHNOLOGIE & TÉLÉCOMS. Elle se concentre sur la fourniture de solutions cloud innovantes et sur l'accompagnement de ses clients dans leur transformation digitale. Élaborer et mettre en œuvre des plans marketing pour les...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179296261W"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "5728e7311dfa8c36",
    "title": "Chef de Produit Senior H/F Téléphonie mobile",
    "company": "Linking Talents",
@@ -3754,32 +3851,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/linking-talents/jobs/chef-de-produit-senior-h-f-telephonie-mobile_neuilly-sur-seine_LT_J6wmQrw"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "50c920c4ffe46d82",
-   "title": "Assistant(e) Chef de Projets CRM - Communications Digitales – Janvier 2027",
-   "company": "PARFUMS CHRISTIAN DIOR",
-   "location": "Neuilly-Sur-Seine",
-   "city": "Neuilly-Sur-Seine",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-08-22",
-   "salary": null,
-   "description_snippet": "Souhaitez-vous rejoindre la Maison des Rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Assistant-chef-de-projets-crm-communications-digitales-janvier-2027,11894146.html"
     }
    ],
    "first_seen": "2026-08-23"
@@ -3838,32 +3909,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/datashake/jobs/traffic-manager-senior-cdi-paris_paris_DATAS_AMGqW4b"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "ce517a0c0a24321b",
-   "title": "Product Marketing Manager Cloud F/H",
-   "company": "Direct Emploi",
-   "location": "Nice - 06",
-   "city": "Nice - 06",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-08-21",
-   "salary": "A partir de 60 k€ brut annuel",
-   "description_snippet": "Notre client est une entreprise spécialisée dans le secteur TECHNOLOGIE & TÉLÉCOMS. Elle se concentre sur la fourniture de solutions cloud innovantes et sur l'accompagnement de ses clients dans leur transformation digitale. Élaborer et mettre en œuvre des plans marketing pour les...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179270094W"
     }
    ],
    "first_seen": "2026-08-23"
@@ -4261,6 +4306,32 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "50c920c4ffe46d82",
+   "title": "Assistant(e) Chef de Projets CRM - Communications Digitales – Janvier 2027",
+   "company": "PARFUMS CHRISTIAN DIOR",
+   "location": "France",
+   "city": "",
+   "region": "unknown",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": null,
+   "salary": null,
+   "description_snippet": "Souhaitez-vous rejoindre la Maison des Rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Assistant-chef-de-projets-crm-communications-digitales-janvier-2027,11894146.html"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "8603f20835b42169",
    "title": "Marketing Analyst",
    "company": "SALOMON",
@@ -4328,7 +4399,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 0,
-   "date_posted": "2026-08-20",
+   "date_posted": "2026-08-23",
    "salary": "45 - 65 k€ brut annuel",
    "description_snippet": "Notre client est une start-up SaaS B2B spécialisée dans la digitalisation des projets de rénovation énergétique et d’installation photovoltaïque. Sa plateforme permet aux professionnels du secteur de centraliser l’ensemble de leur cycle projet : études, dimensionnement, vente, d...",
    "sources": [
