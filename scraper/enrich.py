@@ -112,6 +112,11 @@ def excluded_title(title: str, cfg: dict) -> bool:
         if kw in title_n:
             return True
 
+    # 同樣是實習／建教，但寫成縮寫（Stg - / Alt - ）。整字比對，避免誤殺。
+    for kw in cfg.get("exclude_title_abbrev", []):
+        if re.search(rf"\b{re.escape(kw)}\b", title_n):
+            return True
+
     # 針對其他國家市場的職缺（法國公司替海外市場開缺會掛在巴黎辦公室下，
     # 騙過來源端的國家過濾）。職稱同時提到 France 就不套用（如 "France & BENELUX"）。
     mentions_fr = FR_FLAG in title or re.search(r"\bfrance\b|\bfrancais|\bfr\b", title_n)

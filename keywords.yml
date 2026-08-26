@@ -126,6 +126,17 @@ exclude_title:
   - "apprenti"
   - "apprentissage"
   - "internship"
+  # 採購職：法文職缺常寫成「Acheteur / Chef de Produit」，是採購不是行銷
+  - "acheteur"
+  - "acheteuse"
+
+# 硬性排除（整字比對）：實習／建教的縮寫寫法，例如「Stg - Assistant...」「Alt - Chargé...」。
+# 這些要整字比對，不能像 exclude_title 那樣用子字串——"alt" 會誤殺一堆正常字。
+exclude_title_abbrev:
+  - "stg"
+  - "alt"
+  - "stag"
+  - "appr"   # 不要用 "app"：會誤殺 App Marketing Manager 這類正當職缺
 
 # 硬性排除：職稱明顯針對其他國家市場（法國公司常替海外市場開缺、掛在巴黎辦公室下，
 # 會騙過來源端的國家過濾；職稱含非法國國旗 emoji 也會被程式自動排除）

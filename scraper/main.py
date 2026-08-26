@@ -40,7 +40,8 @@ def load_cfg() -> dict:
         cat["skill_keywords"] = [norm(k) for k in cat["skill_keywords"]]
     for tag in cfg.get("bonus_tags", {}).values():
         tag["skill_keywords"] = [norm(k) for k in tag["skill_keywords"]]
-    for key in ("exclude_title", "exclude_title_foreign", "seniority_boost_title",
+    for key in ("exclude_title", "exclude_title_foreign", "exclude_title_abbrev",
+                "seniority_boost_title",
                 "seniority_penalty_title", "contract_boost", "west_cities"):
         cfg[key] = [norm(k) for k in cfg.get(key, [])]
     return cfg
@@ -51,6 +52,12 @@ def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
 
     hours_old = int(os.environ.get("HOURS_OLD", "72"))
     per_term = int(os.environ.get("RESULTS_PER_TERM", "50"))
+
+    # 列表型來源用來判斷「這則值不值得花詳情頁名額」。直接重用 classify()：
+    # 它對「被排除」與「五類都沒中」都回 None，規則不會跟 keywords.yml 走鐘。
+    def worth_detail(job: dict) -> bool:
+        return enrich.classify(job, cfg) is not None
+
     terms = cfg["search_terms"]
 
     raw: list[dict] = []
@@ -59,8 +66,8 @@ def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
         ("Indeed", lambda: indeed_jobspy.fetch(terms, hours_old, per_term)),
         ("Welcome to the Jungle", lambda: wttj.fetch(terms)),
         ("France Travail", lambda: france_travail.fetch(terms, max_days_old=max(1, hours_old // 24))),
-        ("APEC", lambda: apec.fetch(terms)),
-        ("Fashion Jobs", lambda: fashionjobs.fetch(known_urls)),
+        ("APEC", lambda: apec.fetch(terms, results_per_term=per_term)),
+        ("Fashion Jobs", lambda: fashionjobs.fetch(known_urls, worth_detail)),
         ("Isarta", lambda: isarta.fetch(known_urls)),
     ]:
         try:

@@ -4,8 +4,12 @@
 職缺連結模式：/emploi/<company>/<title>,<ID>.html
 
 列表卡片有職稱、公司、描述摘要，但沒有地點；詳情頁帶 JSON-LD 的
-schema.org/JobPosting，地點、日期、合約型態一次到位，所以對「沒看過的」
-職缺再抓詳情頁（每次最多 DETAIL_LIMIT 筆，對站方友善）。
+schema.org/JobPosting，地點、日期、合約型態一次到位。
+
+詳情頁一則要一次請求，所以有 DETAIL_LIMIT 上限（對站方友善）。名額只花在
+worth_detail() 認可的職缺上——這個站三成是實習／建教，列表前段又多是店長、
+門市主管這類非行銷職缺，不先篩就會把名額全花在會被丟掉的職缺上，而且它們
+不會進 jobs.json、下次執行又被當成「還沒補過」，永遠推進不到真正要的職缺。
 """
 from __future__ import annotations
 
@@ -21,11 +25,14 @@ log = logging.getLogger("jobradar.fashionjobs")
 
 SEARCH_URL = "https://fr.fashionjobs.com/s/"
 JOB_LINK = re.compile(r"/emploi/[^\"'#?]+,(\d+)\.html")
-DETAIL_LIMIT = 30
+DETAIL_LIMIT = 150  # 先篩過才花名額，實際用量遠低於此；上限只是防爆
 HEADERS = {"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 
 # 這個站是時尚產業職缺板，用少量泛搜尋詞就能涵蓋五類
-SEARCH_TERMS = ["marketing", "crm", "acquisition", "data analyst"]
+SEARCH_TERMS = [
+    "marketing", "crm", "acquisition", "data analyst",
+    "chef de produit", "product marketing", "traffic manager", "e-commerce",
+]
 
 # schema.org 的 employmentType → 站上慣用的法文合約別
 EMPLOYMENT_TYPE = {
@@ -34,11 +41,14 @@ EMPLOYMENT_TYPE = {
 }
 
 
-def fetch(known_urls: set[str] | None = None) -> list[dict]:
+def fetch(known_urls: set[str] | None = None, worth_detail=None) -> list[dict]:
+    """worth_detail(job) → 這則值不值得花詳情頁名額（由 main.py 帶入分類規則）。"""
     known_urls = known_urls or set()
+    worth_detail = worth_detail or (lambda _job: True)
     jobs: list[dict] = []
     seen: set[str] = set()
     detail_budget = DETAIL_LIMIT
+    skipped = 0
 
     for term in SEARCH_TERMS:
         try:
@@ -74,8 +84,10 @@ def fetch(known_urls: set[str] | None = None) -> list[dict]:
                 "work_mode": None,
                 "salary": None,
             }
-            # 沒看過的職缺 → 抓詳情頁的 JSON-LD 補地點／日期／合約與完整描述
-            if full_url not in known_urls and detail_budget > 0:
+            # 值得收、且沒補過的職缺 → 抓詳情頁的 JSON-LD 補地點／日期／合約與完整描述
+            if not worth_detail(job):
+                skipped += 1
+            elif full_url not in known_urls and detail_budget > 0:
                 detail_budget -= 1
                 job.update(_detail(full_url))
                 time.sleep(1.5)
@@ -83,7 +95,8 @@ def fetch(known_urls: set[str] | None = None) -> list[dict]:
             found += 1
         log.info("Fashion Jobs %r → %d 筆", term, found)
         time.sleep(2)
-    log.info("Fashion Jobs 合計 %d 筆（詳情頁抓了 %d 次）", len(jobs), DETAIL_LIMIT - detail_budget)
+    log.info("Fashion Jobs 合計 %d 筆（詳情頁抓了 %d 次，預篩跳過 %d 筆）",
+             len(jobs), DETAIL_LIMIT - detail_budget, skipped)
     return jobs
 
 
