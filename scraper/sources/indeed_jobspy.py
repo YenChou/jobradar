@@ -8,6 +8,7 @@ from __future__ import annotations
 import logging
 import time
 
+from scraper.net import retry_call
 from scraper.util import to_date_str
 
 log = logging.getLogger("chasse.indeed")
@@ -22,17 +23,21 @@ def fetch(search_terms: list[str], hours_old: int = 72, results_per_term: int = 
 
     jobs: list[dict] = []
     for term in search_terms:
+        # JobSpy 內部自己發請求，用不到 net.session 那層重試，所以包在外面。
         try:
-            df = scrape_jobs(
-                site_name=["indeed"],
-                search_term=term,
-                location="France",
-                country_indeed="France",
-                results_wanted=results_per_term,
-                hours_old=hours_old,
-                description_format="markdown",
+            df = retry_call(
+                lambda: scrape_jobs(
+                    site_name=["indeed"],
+                    search_term=term,
+                    location="France",
+                    country_indeed="France",
+                    results_wanted=results_per_term,
+                    hours_old=hours_old,
+                    description_format="markdown",
+                ),
+                what=f"Indeed {term!r}",
             )
-        except Exception as e:  # 單一搜尋詞失敗不影響其他
+        except Exception as e:  # 重試到底仍失敗；單一搜尋詞失敗不影響其他
             log.warning("Indeed 搜尋 %r 失敗: %s", term, e)
             continue
 
