@@ -1,16 +1,56 @@
 {
- "generated_at": "2026-08-26T05:06:15Z",
+ "generated_at": "2026-08-26T14:37:48Z",
  "source_stats": {
-  "Indeed": 386,
-  "Welcome to the Jungle": 875,
-  "France Travail": 19,
-  "APEC": 315,
-  "Fashion Jobs": 123,
-  "Isarta": 91
+  "Indeed": 686,
+  "Welcome to the Jungle": 1721,
+  "France Travail": 24,
+  "APEC": 1583,
+  "Fashion Jobs": 515,
+  "Isarta": 152
  },
- "count": 239,
- "new_today": 22,
+ "count": 353,
+ "new_today": 140,
  "jobs": [
+  {
+   "id": "7528d414683d48e1",
+   "title": "Chargé de Marketing H/F",
+   "company": "Yuri & Neil",
+   "location": "Sens, BFC, FR",
+   "city": "Sens",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "kpi",
+    "roi",
+    "sea",
+    "seo",
+    "tracking",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 28,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "**Description de l’offre d’emploi** ----------------------------------- **Yuri \\& Neil Recrutement** te propose de rejoindre l’un de ses clients, une PME industrielle française à taille humaine d’environ 20 personnes, experte dans la conception d’équipements techniques de haute précision. Dans le cadre de cette mission de recrutement, Yuri \\& Neil intervient en tant qu’intermédiaire entre toi et l",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e886669e0ad6090e"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/yuri-neil/jobs/charge-de-marketing-h-f_sens"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
   {
    "id": "db2f00d3e9ecbad5",
    "title": "Performance Marketing Specialist, Mobile",
@@ -40,6 +80,68 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "b08d32f08e00fd72",
+   "title": "Lead Product Marketing Manager - 100% remote (H/F)",
+   "company": "Boond",
+   "location": "33 - Bordeaux",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "gtm",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Boond, c'est la plateforme SaaS qui booste la performance des ESN et cabinets de conseil. Fondée en 2009, Boond accompagne aujourd'hui 2 000 entreprises et 100 000 utilisateurs qui pilotent leur activité depuis notre solution (pas mal hein) Notre mission : Fédérer tous les métiers sur une seule plateforme. Recrutement, RH, CRM, facturation, CRA... On connecte consultants, recruteurs, commerciaux e",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6304533"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "d8db21ca3cd06b0c",
+   "title": "Lead Solutions Engineer",
+   "company": "Livestorm",
+   "location": "Lyon",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "hubspot",
+    "salesforce",
+    "workflow",
+    "zapier"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-06-26",
+   "salary": null,
+   "description_snippet": "Lead Solutions Engineer **Job requirements/Who You Are…** * **You have solid engineering fundamentals.** You're comfortable writing and maintaining scripts in Python or JavaScript, reading API documentation, and debugging JSON payloads and HTTP error responses. You don't need to be a full-stack engineer, but you're not relying on AI to write code you can't read — you can review it, own it, and mai",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/livestorm/jobs/lead-solutions-engineer_lyon"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "d0050cd63f9d0a6b",
@@ -74,6 +176,37 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "b40fefb03b637617",
+   "title": "Growth Marketing Lead - Remote/Anywhere",
+   "company": "JIGA",
+   "location": "Eu, N, FR",
+   "city": "Eu",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Jiga is on a mission to help the best hardware companies build faster. The problem: engineers designing physical products waste weeks chasing quotes, vetting suppliers, and managing procurement instead of actually engineering. Jiga fixes this by connecting engineers directly with vetted manufacturers (CNC, sheet metal, injection molding, 3D printing). We're a small, fully\\-funded, cashflow\\-positi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ffc864aa47a65cde"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "f6e45954c42da726",
@@ -131,6 +264,96 @@
     }
    ],
    "first_seen": "2026-08-25"
+  },
+  {
+   "id": "68b43ea4af33e1ae",
+   "title": "Traffic Manager Performance (H/F)",
+   "company": "Jules",
+   "location": "Roubaix, HDF, FR",
+   "city": "Roubaix",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "kpi",
+    "roas",
+    "roi",
+    "sea",
+    "seo",
+    "tracking",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "JULES habille les hommes depuis 30 ans, c’est la marque sparring partner, feel good et engagée...pour nos clients bien sûr, mais aussi nos candidats. Alors n'hésitez plus, rejoignez\\-nous ! **Chez Jules, nous nous engageons pour un\\[e] mo\\[n]de meilleur\\[e] et plus optimiste. Notre ambition est d’inspirer les hommes à s’habiller mieux, jour après jour.** *Nos équipes mettent tout en œuvre pour off",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9b8a1b7c2920e084"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "cea99aee8b2fe403",
+   "title": "Segment Lead FR - Team Market Strategy",
+   "company": "Lucca",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Segment Lead FR - Team Market Strategy <p><b><strong>What success looks like in this role</strong></b></p><ul><li><span>A clear and differentiated </span><b><strong>segment strategy and positioning</strong></b></li><li><span>Measurable improvement in </span><b><strong>win rate, conversion, and sales efficiency</strong></b></li><li><span>Strong alignment across </span><b><strong>Product, Sales, Mar",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lucca/jobs/segment-lead-fr-team-market-strategy_paris_LUCCA_kA2obXZ"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "72711d4585dc5d77",
+   "title": "Chef de Produit Junior Univers pédagogique / jouet F/H",
+   "company": "NGR",
+   "location": "Tours - 37",
+   "city": "Tours",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-08-26",
+   "salary": "40 - 45 k€ brut annuel",
+   "description_snippet": "Je recrute pour une PME innovante basée à Tours, spécialisée dans les produits pédagogiques jeunesse, un(e) Chef de Produit Junior (H/F) . Univers pédagogique / jouet Votre rôle : Participer au développement de produits ludiques et éducatifs, de l’idée jusqu’à leur mise sur le m...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179313956W"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "e0d9933396c9c14e",
@@ -283,6 +506,35 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "58d32ad3ccb35ca0",
+   "title": "Chef de produit H/F",
+   "company": "Stores-et-rideaux.com",
+   "location": "Châteaudun, CVL, FR",
+   "city": "Chateaudun",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "etude de marche",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "STORES\\-ET\\-RIDEAUX.COM est le 1er site internet de vente de stores et de rideaux sur\\-mesure fabriqués en France (plus de 300 000 clients / 4 millions de visites par an / 96% de satisfaction clients). La société STORES\\-ET\\-RIDEAUX.COM fait partie du groupe AGECLAIR dont la mission est d’améliorer le confort et le bien\\-être de tous grâce à des produits de grande qualité, sur mesure et respectueu",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=acd1e68889c9900d"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "4a7717712643728a",
    "title": "Chef de projet CRM & Engagement H/F",
    "company": "NEXTON",
@@ -414,6 +666,61 @@
    "first_seen": "2026-08-26"
   },
   {
+   "id": "ce430c4280d41e84",
+   "title": "Consultant(e) junior en stratégie digitale - SEA / Social Ads",
+   "company": "Growth Room",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-08-17",
+   "salary": null,
+   "description_snippet": "Consultant(e) junior en stratégie digitale - SEA / Social Ads **⭐ Tu auras un rôle clé dans la croissance de Growth Room. Tu seras un membre de l’équipe de départ, avec de belles responsabilités.** * Tu as fait un master dans une école de commerce, d'ingénierie ou dans une faculté. * Tu as déjà une appétence pour le Growth Marketing. *C'est un beau plus si tu as déjà une expérience (CDI, stage, al",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/growth-room-1/jobs/cdi-consultant-en-strategie-digitale-b2c_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "386073d47a373186",
+   "title": "Chef de produit (H/F)",
+   "company": "MAPEI France",
+   "location": "Toulouse",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-07-02",
+   "salary": null,
+   "description_snippet": "Chef de produit (H/F) <p><strong>Le profil que nous recherchons ?</strong></p><p>Issu(e) d’une formation supérieure (marketing, commerce ou ingénierie), vous justifiez d’une expérience confirmée en gestion de produits techniques, idéalement dans le secteur du bâtiment ou des systèmes constructifs.</p><p>Vous avez une bonne compréhension des réalités terrain et des enjeux applicateurs, vous permett",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/mapei/jobs/chef-de-produit-h-f_toulouse_MF_0j6NLy0"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "bef656683398825c",
    "title": "Brand, Product & Digital Marketing Manager",
    "company": "ATLINKS EUROPE",
@@ -463,7 +770,7 @@
    ],
    "bonus_tags": [],
    "score": 14,
-   "date_posted": "2026-08-24",
+   "date_posted": "2026-08-26",
    "salary": null,
    "description_snippet": "Traffic Manager (SMA/SEA) - CDI - Paris ### Expérience * Tu prépares Bac +4/5 avec spécialisation dans le marketing digital * Tu as un profil hybride commercial/consultant passionné par le digital ### Tu es la personne qu'il nous faut si : * Tu maîtrises les leviers d'acquisition payante (au moins Google Ads ou Meta Ads - certifications appréciées), à défaut tu es très motivé(e) pour apprendre * T",
    "sources": [
@@ -496,6 +803,39 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/petit-picotin/jobs/chef-de-produit-developpement_nantes"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "8603f20835b42169",
+   "title": "Marketing Analyst",
+   "company": "SALOMON",
+   "location": "Annecy",
+   "city": "Annecy",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations",
+    "performance_marketing",
+    "marketing_analytics"
+   ],
+   "skills": [
+    "a/b testing",
+    "kpi",
+    "reporting",
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-08-21",
+   "salary": null,
+   "description_snippet": "Description de l'entreprise Amer Sports is a sporting goods company with internationally recognized brands including Salomon, Arc'teryx, Peak Performance, Atomic and Wilson. \"The Mountain Sport Company\", Salomon was born in 1947 in the heart of the French Alps and the birthplace of modern alpinism. Salomon's commitment to innovative design and passion for mountain sports created a vast range of re",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/salomon/Marketing-analyst,12000985.html"
     }
    ],
    "first_seen": "2026-08-23"
@@ -819,6 +1159,41 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "179f740919dda62a",
+   "title": "Responsable Acquisition Digitale & Growth Marketing International H/F",
+   "company": "Crédit Agricole",
+   "location": "Massy, A8, FR",
+   "city": "Massy",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "a/b testing",
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roi",
+    "sea",
+    "seo",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "**Description du poste** ------------------------ Dans le cadre du développement de nos activités digitales de collecte d’épargne à l'international, nous recherchons un(e) Responsable Acquisition Digitale \\& Growth Marketing capable de piloter nos leviers d'acquisition, d'identifier de nouveaux relais de croissance et d'optimiser en permanence les performances marketing. Véritable moteur de la gén",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fa1177cb19fa4b42"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "7cec6b9a9900361b",
    "title": "Marketing Strategy Manager - Mandarin speaker",
    "company": "FeverUp",
@@ -835,7 +1210,9 @@
     "roi",
     "sea"
    ],
-   "bonus_tags": [],
+   "bonus_tags": [
+    "chinese"
+   ],
    "score": 12,
    "date_posted": "2026-08-25",
    "salary": null,
@@ -900,6 +1277,97 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WVKW"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "587671d78c17e390",
+   "title": "Consultant(e) Junior Outbound Growth Marketing",
+   "company": "Growth Room",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-08-17",
+   "salary": null,
+   "description_snippet": "Consultant(e) Junior Outbound Growth Marketing **⭐ Tu auras un rôle clé dans la croissance de Growth Room. Tu seras un membre de l’équipe de départ, avec de grosses responsabilités.** * Tu as fait un master dans une école de commerce, d’ingénierie ou dans une faculté. * Tu as déjà une appétence pour le Growth Marketing. *C'est un beau plus si tu as déjà une expérience (CDI, stage, alternance) dans",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/growth-room-1/jobs/growth-specialist-b2b_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "d4ce46741dd3d484",
+   "title": "Revenue Ops (H/F)",
+   "company": "Vroomly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "hubspot",
+    "workflow",
+    "zapier"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-08-11",
+   "salary": null,
+   "description_snippet": "Revenue Ops (H/F) ### 🚀 **Tu es notre pépite si :** **Expertise recherchée** * Tu disposes de **5 à 10 ans d’expérience** en RevOps, Sales Ops, Marketing Ops ou Business Ops. * Tu as déjà administré et fait évoluer un CRM complexe, idéalement HubSpot. * Tu maîtrises les sujets liés aux workflows, automatisations, qualité de données et optimisation de process. * Tu comprends les enjeux Sales et Mar",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/vroomly/jobs/revops-manager-french-speaking-lisbonne-h-f_lisboa_VROOM_PNLjM5m"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "b9a7c3543d8dfe10",
+   "title": "Head of Growth",
+   "company": "Bureaudestalents",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "kpi",
+    "meta ads",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-08-10",
+   "salary": null,
+   "description_snippet": "Head of Growth Vous justifiez d'au moins 5 ans d'expérience sur des fonctions Growth, Acquisition ou Performance Marketing dans un environnement Startup ou Scale-up. Vous avez idéalement évolué dans une entreprise SaaS B2B, une application mobile ou un environnement Product Led Growth. Vous maîtrisez notamment : * Meta Ads * Google Ads * Apple Search Ads * TikTok Ads * HubSpot * les outils de Prod",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/bureaudestalents/jobs/head-of-growth_paris"
     }
    ],
    "first_seen": "2026-08-26"
@@ -1311,6 +1779,149 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "f2389326d2bad75b",
+   "title": "CRM Manager",
+   "company": "Ornikar",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "marketing automation",
+    "segmentation"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "#### **À propos d'Ornikar Assurances** Chez Ornikar, nous accompagnons chaque année des centaines de milliers de jeunes vers le permis de conduire. Cette proximité unique avec 5 millions d'élèves passés par notre auto\\-école constitue un avantage compétitif majeur : elle nous permet de mieux connaître les jeunes conducteurs que quiconque, de les tarifer plus finement, et de leur offrir une expérie",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d5a5423b6e9c11bd"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "93d8cb3af077d72d",
+   "title": "PRODUCT MANAGER – EDUCATION BUSINESS & NEW PROJECTS F/H",
+   "company": "Paris Saint-Germain Football",
+   "location": "Boulogne-Billancourt, A8, FR",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Rejoindre le Paris Saint\\-Germain, c’est bien plus qu’intégrer un club sportif. C’est rejoindre une institution emblématique de Paris et du sport français, un acteur avec une forte dimension culturelle, un collectif de plus de 750 collaborateurs engagés dans plus de 100 métiers, unis par une même ambition : repousser les limites, innover et faire rayonner le Club, sur le terrain comme en coulisses",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1420de51367291a4"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "90629e247107b8ad",
+   "title": "Lead of Product",
+   "company": "WELLTECH",
+   "location": "Eu, N, FR",
+   "city": "Eu",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "**Who Are We?** Welltech is a global wellness technology company with Ukrainian roots. Our mission is **to build and scale wellness apps globally through state\\-of\\-the\\-art, tech\\-driven performance marketing.** We are one of the most established players in the wellness app space, and we are accelerating. Over **25\\.5 million** people across the world use our apps — **Muscle Booster, Yoga\\-Go, an",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=307ad7e185870236"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "c3bfcabbeb7b0430",
+   "title": "PRODUCT MANAGER – WELLNESS / RUNNING & NEW PROJECTS F/H",
+   "company": "Paris Saint-Germain Football",
+   "location": "Boulogne-Billancourt, A8, FR",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Rejoindre le Paris Saint\\-Germain, c’est bien plus qu’intégrer un club sportif. C’est rejoindre une institution emblématique de Paris et du sport français, un acteur avec une forte dimension culturelle, un collectif de plus de 750 collaborateurs engagés dans plus de 100 métiers, unis par une même ambition : repousser les limites, innover et faire rayonner le Club, sur le terrain comme en coulisses",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a4502838f0468939"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "f97126982ab47cec",
+   "title": "Go-To-Market Lead F/H/X",
+   "company": "Whoz",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "gtm",
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Go-To-Market Lead F/H/X Rattaché(e) au Head of Marketing, vous êtes responsable du pilotage et de l’exécution des Go-To-Market de Whoz. Votre mission : * Structurer et piloter les Go-To-Market (offres, segments, use cases) * Aligner et orchestrer les équipes Marketing, Sales et Product * Assurer un delivery rapide, fluide et de qualité * Contribuer directement à des livrables clés (messaging, asse",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/whoz/jobs/go-to-market-lead-h-f-x_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "f2e5c9dbc48a7e90",
    "title": "Manager de projet brand packaging H/F",
    "company": "ALDI",
@@ -1358,6 +1969,231 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179310452W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "1337482bd9aa3658",
+   "title": "Hachette Livre - Chef de produit - CDD - H/F",
+   "company": "Hachette Livre",
+   "location": "Vanves, A8, FR",
+   "city": "Vanves",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Le groupe Hachette Livre, 3ème éditeur mondial grand public, est une constellation de maisons d'édition qui évoluent dans des genres éditoriaux variés : Littérature, Education, Jeunesse, Pratique, Tourisme, Art de vivre, Fascicules, dans le but d'instruire, cultiver et divertir. Les maisons du Groupe opèrent de manière autonome permettant une créativité sans cesse renouvelée. Le Groupe poursuit ég",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=89447915d36bab34"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "3c7b0449bc9756a4",
+   "title": "Chargé de Marketing Stratégie & Performance F/H - (CDD 6 mois)",
+   "company": "Deloitte",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDD",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Chargé de Marketing Stratégie & Performance F/H - (CDD 6 mois) <p><b>Et si c’était vous ?</b></p><p></p><p>?<b>Profil recherché</b></p><ul><li><p>Au moins 5 ans d&#39;expérience en marketing BtoB, idéalement en cabinet de conseil, services professionnels ou environnement exigeant</p></li><li><p>Expérience sur des missions orientées stratégie, contenus et performance marketing</p></li><li><p>Solide",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/deloitte/jobs/charge-de-marketing-strategie-performance-f-h-cdd-6-mois_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "f0e22a9b2cddb9d2",
+   "title": "Performance Marketing Manager EMEA (H/F)",
+   "company": "CHRISTIAN DIOR COUTURE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-21",
+   "salary": null,
+   "description_snippet": "Christian Dior Couture is looking for a Performance Marketing Manager EMEA to support Dior’s EMEA performance marketing strategy, driving execution excellence, performance effectiveness and operational governance across Paid Search and Paid Social for 33 markets. This role sits at the intersection of performance marketing, project management and business performance. It ensures the successful orch",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/christian-dior-couture/Performance-marketing-manager-emea,12001581.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "21997d268f030d37",
+   "title": "Responsable CRM & Performance Commerciale F/H",
+   "company": "VILLADIM",
+   "location": "Tours - 37",
+   "city": "Tours",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-07",
+   "salary": "A partir de 35 k€ brut annuel",
+   "description_snippet": "À propos du poste Véritable interface entre les équipes commerciales, les fonctions support et la direction, vous contribuez activement à la performance commerciale et à l'optimisation de nos process grâce au pilotage du CRM, à la fiabilisation des données et à l'analyse des lev...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179244184W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "e2f063ce36861820",
+   "title": "CDD - Marketing Operations Project Manager - H/F/x",
+   "company": "YVES ROCHER",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-04",
+   "salary": null,
+   "description_snippet": "Depuis ses débuts, Sabon s'est engagé à utiliser des ingrédients naturels de haute qualité comme des sels, de la boue, des algues de la Mer Morte et des ingrédients végétaux soigneusement sélectionnés de la Méditerranée et au-delà, tels que l'huile d'olive, le beurre de karité et des huiles essentielles de plantes et de fruits. Grâce à des produits artisanaux, nourrissants et agréables, fabriqués ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/yves-rocher/Cdd-marketing-operations-project-manager-h-f-x,11932587.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "da8e3ce1d142c274",
+   "title": "Chef de Produit F/H",
+   "company": "cadremploi",
+   "location": "Poitiers - 86",
+   "city": "Poitiers",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-03",
+   "salary": "A partir de 50 k€ brut annuel",
+   "description_snippet": "LHH Recruitment Solutions, cabinet de conseil en recrutement et évaluation d’experts, cadres et dirigeants, accompagne son client dans le recrutement d’un Chef de Produit H/F basé à Poitiers. Déplacements ponctuels (salons professionnels, fournisseurs, adhérents) Poste majoritair...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179218809W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "5864d90b0c70a723",
+   "title": "CRM Manager F/H",
+   "company": "Oney",
+   "location": "Croix",
+   "city": "Croix",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "marketing automation"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-07-31",
+   "salary": "A négocier",
+   "description_snippet": "CRM Manager F/H <div><strong>Ce que nous plaira le plus chez vous, c'est vous-même ! Alors bien évidemment on vous préférera </strong>rigoureux, organisé, curieux, doté d'un excellent relationnel et d'un bon esprit d'analyse, car c'est ce qui vous permettra de réussir votre mission. Par ailleurs, d'excellent contact, vous êtes force de proposition, vous suscitez l'adhésion et faites preuve de soup",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/oney/jobs/crm-manager-f-h_croix_ONEY_JwJeZOV"
+    },
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179210809W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "b11c13bd3e340c1f",
+   "title": "Growth Marketing Manager",
+   "company": "m-work",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roi",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-07-13",
+   "salary": null,
+   "description_snippet": "Growth Marketing Manager ### **Expérience** * 3 à 5 ans d'expérience en growth ou acquisition SaaS B2B * Tu sais ce qui marche en outbound B2B et tu n'as pas besoin qu'on te l'explique * Tu exécutes toi-même : tu ne gères pas des prestataires à la place de produire * Tu as un rapport direct à la performance — tu sais ce que ton travail génère en pipeline * Autonome, à l'aise pour prioriser sans ca",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/m-work-1/jobs/gtm-growth_paris_MWORK_bYX49bO"
     }
    ],
    "first_seen": "2026-08-26"
@@ -1419,6 +2255,62 @@
    "first_seen": "2026-08-24"
   },
   {
+   "id": "6171078b41bf1a23",
+   "title": "Chef de Produit Aéronautique F/H",
+   "company": "Hellowork",
+   "location": "Le Mans - 72",
+   "city": "Le Mans",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-26",
+   "salary": "35 - 55 k€ brut annuel",
+   "description_snippet": "Dans le cadre d'une création de poste, rattaché au Responsable Commercial et Marketing, vous intervenez en tant que Chef de Produit Aéronautique H/F en pilotant la stratégie marketing & développement de vos familles de produits dans une vision moyen terme. Dans ce cadre, vos m...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179313523W"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "ae790f8a2033834f",
+   "title": "Growth Acquisition Manager - CDI - Paris",
+   "company": "Orus",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Growth Acquisition Manager - CDI - Paris * **4 à 5 ans d'expérience** en SEO/GEO ou Growth Marketing * Expérience en startup ou scale-up, idéalement dans un contexte international, sur un produit B2B ou réglementé (assurance, fintech, legaltech…) * Solide expertise SEO et forte curiosité pour le GEO et l'AI Search * Expérience concrète en CRO et en expérimentation growth * Profil analytique, orien",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/orus/jobs/growth-acquisition-manager-cdi-paris_paris_ORUS_z3e31W8"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "6334bc6fa10973d6",
    "title": "Growth Marketing Specialist - BU Energy Management and Transversal (m/f/d)",
    "company": "Hager",
@@ -1472,32 +2364,6 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/6125039"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "6171078b41bf1a23",
-   "title": "Chef de Produit Aéronautique F/H",
-   "company": "Hellowork",
-   "location": "Le Mans - 72",
-   "city": "Le Mans",
-   "region": "west",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-08-20",
-   "salary": "35 - 55 k€ brut annuel",
-   "description_snippet": "Dans le cadre d'une création de poste, rattaché au Responsable Commercial et Marketing, vous intervenez en tant que Chef de Produit Aéronautique H/F en pilotant la stratégie marketing & développement de vos familles de produits dans une vision moyen terme. Dans ce cadre, vos m...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179285470W"
     }
    ],
    "first_seen": "2026-08-23"
@@ -1745,36 +2611,6 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "ae790f8a2033834f",
-   "title": "Growth Acquisition Manager - CDI - Paris",
-   "company": "Orus",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "sea",
-    "seo"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-07-24",
-   "salary": null,
-   "description_snippet": "Growth Acquisition Manager - CDI - Paris * **4 à 5 ans d'expérience** en SEO/GEO ou Growth Marketing * Expérience en startup ou scale-up, idéalement dans un contexte international, sur un produit B2B ou réglementé (assurance, fintech, legaltech…) * Solide expertise SEO et forte curiosité pour le GEO et l'AI Search * Expérience concrète en CRO et en expérimentation growth * Profil analytique, orien",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/orus/jobs/growth-acquisition-manager-cdi-paris_paris_ORUS_z3e31W8"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
    "id": "c4395467d0ff35ea",
    "title": "CRM Manager - B2B & B2C",
    "company": "Mozaik",
@@ -1992,6 +2828,36 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "e72ca5487bf5bee8",
+   "title": "Projets / Études / MOA/ Chef de produit H/F",
+   "company": "Credit Mutuel Arkea",
+   "location": "Le Relecq-Kerhuon, A2, FR",
+   "city": "Le Relecq-Kerhuon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-26",
+   "salary": "35 - 40 k€ brut annuel",
+   "description_snippet": "**Description du poste** ------------------------ ### **Métier** METIERS \\- Projets / Études / MOA/ Chef de produit ### **Intitulé du poste** Projets / Études / MOA/ Chef de produit H/F ### **Contrat** CDI ### **Rémunération (brut/an en €) (hors package social)** 35 000\\-40 000 ### **Votre mission** En tant que **Business Analyst Data et Services**, vos missions sont les suivantes : * Participer a",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8b133626528c3e80"
+    },
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179314666W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "655d9e1f63dac5ea",
    "title": "Senior, Field Marketing",
    "company": "Forterro",
@@ -2025,6 +2891,206 @@
    "first_seen": "2026-08-26"
   },
   {
+   "id": "a860bea89aeb6fbe",
+   "title": "Chef de Produit Marketing Développement Parfum CDI H/F",
+   "company": "SHISEIDO",
+   "location": "Neuilly-Sur-Seine",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Chef de Produit Marketing Développement Parfum CDI H/F QUI SOMMES-NOUS ? Reconnue comme la première entreprise de cosmétiques fondée au Japon, et classée au 8ème rang mondial des groupes de beauté, Shiseido incarne l'excellence absolue dans le domaine des soins, du maquillage et des parfums. La réputation de l'entreprise, fondée en 1872, s'appuie sur plus de 150 ans de recherche et d'innovation au",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/shiseido/Chef-de-produit-marketing-developpement-parfum-cdi-h-f,11902926.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "46fa16bc17ae3171",
+   "title": "Chef de Marché / Chef de Produit T-Shirt H/F",
+   "company": "PIMKIE",
+   "location": "Villeneuve-D'Ascq",
+   "city": "Villeneuve-D'Ascq",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-21",
+   "salary": null,
+   "description_snippet": "Pimkie est une marque omnicanale de mode française populaire avec un retail puissant. Elle s'adresse à toutes les jeunes femmes de 18 à 25 ans, quel que soit leur corps, leur personnalité et leurs envies. Accessible et inclusive, elle s'inspire des nouvelles générations pour imaginer les collections de demain. Notre mission est de proposer une mode tendance pour chaque instant de vie, partout et à",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/pimkie/Chef-de-marche-chef-de-produit-t-shirt-h-f,11999017.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "240f5c1289a8efd1",
+   "title": "Chef de Produit F/H",
+   "company": "LA BOUTIQUE DU COIFFEUR",
+   "location": "Tomblaine",
+   "city": "Tomblaine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-18",
+   "salary": null,
+   "description_snippet": "Sophie et son équipe sont à la recherche de leur futur Chef de Produit F/H, le poste est à pourvoir au sein de notre siège social à Tomblaine. Vous travaillerez en transverse, avec les différents services de notre entreprise et nos partenaires au sein d'un département marketing dynamique ! Voici les missions : - Réaliser les analyses marchés nécessaires pour recommander les plans d'actions adaptés",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/la-boutique-du-coiffeur/Chef-de-produit-f-h,11329288.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "f8be801d571c9617",
+   "title": "GTM lead",
+   "company": "Ecair",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm",
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-17",
+   "salary": null,
+   "description_snippet": "GTM lead * 5 à 7 ans en Product Marketing/GTM en start-up/scale-up B2B ou conseil en stratégie. * Vous avez piloté des lancements produit de bout en bout et mesuré leur adoption réelle. * Vous êtes à l'aise avec la donnée et analytique pour argumenter vos propositions et aider le Comex à arbitrer. * Vous savez faire avancer un sujet transverse dans l'organisation en autonomie et mener des projets ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/ecair/jobs/gtm-lead_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "17a15a65861a0c6b",
+   "title": "Chef de Produit - Chargé de Communication et Réseaux F/H",
+   "company": "Hellowork",
+   "location": "Mably - 42",
+   "city": "Mably - 42",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-10",
+   "salary": "27 - 31 k€ brut annuel",
+   "description_snippet": "Rejoignez notre équipe Marketing dans le cadre d'un remplacement de congé maternité ! Au sein d'un groupe en pleine évolution, vous accompagnerez l'ensemble de nos sociétés sur des missions variées mêlant gestion de produits, communication et animation des réseaux digitaux. Vér...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179248632W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "ef72d6c151ac1692",
+   "title": "CDI - Traffic Manager Senior - Petit Bateau",
+   "company": "YVES ROCHER",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "meta ads",
+    "roas",
+    "roi",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-06",
+   "salary": null,
+   "description_snippet": "Petit Bateau est la marque qui accompagne toutes les générations depuis plus de 130 ans Née à Troyes en 1893, la marque Petit Bateau est fière de son héritage français et de son savoir-faire qui permet de créer des vêtements qui traversent le temps. Petit Bateau incarne un esprit espiègle et joyeux, mais aussi engagée. La marque a en effet pris des engagements forts pour porter un mouvement de tra",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/yves-rocher/Cdi-traffic-manager-senior-petit-bateau,11942198.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "ffa84c52e1db4566",
+   "title": "Chef de Projet E-Merchandising Fragrance",
+   "company": "PARFUMS CHRISTIAN DIOR",
+   "location": "Neuilly-Sur-Seine",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-07-29",
+   "salary": null,
+   "description_snippet": "Souhaitez-vous rejoindre la Maison des rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Chef-de-projet-e-merchandising-fragrance,11916686.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "d9911c0f02a2126a",
    "title": "Growth & CRM Manager",
    "company": "2CGroup",
@@ -2053,6 +3119,63 @@
     }
    ],
    "first_seen": "2026-08-25"
+  },
+  {
+   "id": "50bc08518c3ff0b1",
+   "title": "Chef de Produit - Innovation Dior SPA & Wellness",
+   "company": "PARFUMS CHRISTIAN DIOR",
+   "location": "Neuilly-Sur-Seine",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-24",
+   "salary": null,
+   "description_snippet": "Souhaitez-vous rejoindre la Maison des rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Chef-de-produit-innovation-dior-spa-wellness,11788380.html"
+    }
+   ],
+   "first_seen": "2026-08-25"
+  },
+  {
+   "id": "a195607a65f71fd6",
+   "title": "Growth & Acquisition Manager",
+   "company": "Rise Up",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Growth & Acquisition Manager <ul><li><p><span>4 à 6 ans d’expérience en acquisition, demand generation, growth marketing ou marketing, impérativement en B2B SaaS.</span></p></li><li><p><span>Maîtrise d'un ou plusieurs outils de génération de leads (Cargo, Lemlist, Clay, Apollo, ZoomInfo, Cognism etc.)</span></p></li><li><p><span>Excellente maîtrise de HubSpot (CRM, workflows, reporting, automatisa",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/rise-up/jobs/growth-acquisition-manager_paris"
+    }
+   ],
+   "first_seen": "2026-08-23"
   },
   {
    "id": "5b6b10f5f89f1846",
@@ -2373,35 +3496,6 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "a195607a65f71fd6",
-   "title": "Growth & Acquisition Manager",
-   "company": "Rise Up",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "google ads"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-08-18",
-   "salary": null,
-   "description_snippet": "Growth & Acquisition Manager <ul><li><p><span>4 à 6 ans d’expérience en acquisition, demand generation, growth marketing ou marketing, impérativement en B2B SaaS.</span></p></li><li><p><span>Maîtrise d'un ou plusieurs outils de génération de leads (Cargo, Lemlist, Clay, Apollo, ZoomInfo, Cognism etc.)</span></p></li><li><p><span>Excellente maîtrise de HubSpot (CRM, workflows, reporting, automatisa",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/rise-up/jobs/growth-acquisition-manager_paris"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
    "id": "c89dd322d044a1b7",
    "title": "Demand Generation & Growth Marketing Lead H/F",
    "company": "EGERIE",
@@ -2455,6 +3549,35 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/batteries-for-people/jobs/growth-operations-manager-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "aa65c0393d8663ad",
+   "title": "Lead UX/UI Designer",
+   "company": "VEEPEE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "kpi",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-05",
+   "salary": null,
+   "description_snippet": "JOB DESCRIPTION Veepee is looking for a Lead of UX/UI for its Growth Marketing team. Attached to the Growth Director, the person in this position will lead the team of UX/UI designers, and will be in charge of defining the UX vision for the Veepee front experience, and assuring the optimization of the customer journey on all the Veepee sites, by following and analyzing the performance of each step",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/veepee/Lead-ux-ui-designer,11094781.html"
     }
    ],
    "first_seen": "2026-08-23"
@@ -2836,6 +3959,58 @@
    "first_seen": "2026-08-26"
   },
   {
+   "id": "0d70518447921e5d",
+   "title": "Responsable de partenariat Mobilité (F/H)",
+   "company": "MACIF",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Responsable de partenariat Mobilité (F/H) De formation supérieure ou égale au niveau Bac + 5, vous bénéficiez d'une expérience d'au moins 4 ans en marketing produit. Vous pouvez justifier : <br /><br />- D'une connaissance des produits et marchés assurantiels IARD, une spécialisation sur l'assurance auto serait idéale<br />- De capacités de gestion et coordination en transverse des projets dans le",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/macif/jobs/responsable-de-partenariat-mobilite-f-h_issy-les-moulineaux_MACIF_OYAxrNP"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "c20de2737755ae81",
+   "title": "Chef de produit Dispositif Medical F/H",
+   "company": "Meteojob",
+   "location": "Aix-en-Provence - 13",
+   "city": "Aix-En-Provence - 13",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-26",
+   "salary": "A partir de 40 k€ brut annuel",
+   "description_snippet": "Chef de Produit - Dispositif médical H/F Aix-en-Provence (13) | CDI L'entreprise Notre client est une entreprise spécialisée dans la conception et la commercialisation de dispositifs médicaux innovants dédiés notamment à la chirurgie orthopédique. À taille humaine et adossée à...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179312539W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "3b8fbb6e30e03416",
    "title": "CDI - Business Development Manager NAM (F/H/X)",
    "company": "Sephora",
@@ -2857,6 +4032,257 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=973db40759c9bf44"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "5fcf09fa67975574",
+   "title": "AI Growth Engineer - Marketing B2B",
+   "company": "On train",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "zapier"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "AI Growth Engineer - Marketing B2B * **5 à 10 ans d'expérience** en growth, marketing ops ou demand gen, idéalement en B2B à cycle de vente long. * **Double compétence** : vous venez du marketing et vous savez builder, ou vous venez de la technique et vous comprenez le marketing B2B. Les deux jambes sont nécessaires. * Maîtrise de la stack IA pour le growth : LLM en production, automatisation (Mak",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/on-train/jobs/ai-growth-engineer-marketing-b2b_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "acd5df1b520c2ad7",
+   "title": "Chef de Produit - Cybersécurité F/H",
+   "company": "Hellowork",
+   "location": "Courbevoie - 92",
+   "city": "Courbevoie - 92",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-24",
+   "salary": "A négocier",
+   "description_snippet": "En tant que Chef de Produit Cybersécurité, tu seras responsable du positionnement, du go-to-market et de la performance de notre portefeuille de solutions de cybersécurité (SIEM, SOAR, EDR, SOC ). Tu joueras un rôle clé dans la définition de l'offre, la coordination des lancem...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179300009W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "380829fc4e334cf7",
+   "title": "Sourcing Manager Cuir H/F",
+   "company": "CHRISTIAN DIOR COUTURE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-23",
+   "salary": null,
+   "description_snippet": "From the House of Dreams to the House of Talents « Quoi que vous fassiez - pour le travail ou le plaisir - faites-le avec passion ! Vivez avec passion... »* Christian Dior Christian Dior fut le couturier du rêve. Dès la fondation de sa Maison en 1947, marquée par la révolution du New Look, il métamorphose ses songes en de merveilleuses créations. Son esprit visionnaire n’a eu de cesse de magnifier",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/christian-dior-couture/Sourcing-manager-cuir-h-f,11717041.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "cf35b11b41dce0c9",
+   "title": "chef de produit référent Véhicules utilitaires légers F/H",
+   "company": "UGAP",
+   "location": "Champs-sur-Marne - 77",
+   "city": "Champs-Sur-Marne - 77",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-12",
+   "salary": "37 - 47 k€ brut annuel",
+   "description_snippet": "Rejoignez-nous ! Nous recherchons pour la direction marketing, dans le département marketing produits Véhicules, un chef de produit référent (F/H) en CDI . Ce poste est basé au siège à Champs sur Marne (77) à proximité du RER A – Station Noisy-Champs. La direction marketing, r...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179258039W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "2b77158a6fdaedd6",
+   "title": "Chef de produit - cloud F/H",
+   "company": "Hexanet",
+   "location": "Reims - 51",
+   "city": "Reims - 51",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-10",
+   "salary": "40 - 60 k€ brut annuel",
+   "description_snippet": "Dans le cadre de notre développement, nous recherchons, en CDI, un chef de produit cloud (H/F) sur Reims (51) ou Serris (77). Votre mission : Rattaché au Responsable Avant-vente, vous êtes garant de notre stratégie Produits/Solutions/Service sur le domaine du cloud, ainsi vous ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179249893W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "52d0332aa79f2c8b",
+   "title": "Chef de Produit Dior Maison H/F",
+   "company": "CHRISTIAN DIOR COUTURE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-08",
+   "salary": null,
+   "description_snippet": "From the house of dream to the house of talents « Quoi que vous fassiez - pour le travail ou le plaisir - faites-le avec passion ! Vivez avec passion... »* Christian Dior Christian Dior fut le couturier du rêve. Dès la fondation de sa Maison en 1947, marquée par la révolution du New Look, il métamorphose ses songes en de merveilleuses créations. Son esprit visionnaire n’a eu de cesse de magnifier ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/christian-dior-couture/Chef-de-produit-dior-maison-h-f,11838559.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "6318e20675121dd4",
+   "title": "Talent Pool - Chef de Produit Marketing Developpement Maquillage - F/H",
+   "company": "PARFUMS CHRISTIAN DIOR",
+   "location": "Neuilly-Sur-Seine",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-01",
+   "salary": null,
+   "description_snippet": "Souhaitez-vous rejoindre la Maison des rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Talent-pool-chef-de-produit-marketing-developpement-maquillage-f-h,11810695.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "999f1f1e1fb49706",
+   "title": "Senior Growth & Demand Generation Manager",
+   "company": "Jus Mundi",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit",
+    "performance_marketing"
+   ],
+   "skills": [
+    "a/b testing",
+    "acquisition",
+    "google ads",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-07-24",
+   "salary": null,
+   "description_snippet": "Senior Growth & Demand Generation Manager **Required Qualifications** * Deep expertise (6–10 years) in Growth Marketing and Demand Generation within B2B SaaS environments, with demonstrated success building scalable growth engines and driving qualified pipeline generation. * Excellent cross-functional collaboration skills, with the ability to partner closely with Sales, RevOps, Product Marketing, ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/jus-mundi/jobs/senior-growth-demand-generation-manager_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "6b3ec1e0cddac9ad",
+   "title": "Chef de Groupe Lipton, CDI, H/F",
+   "company": "PepsiCo France",
+   "location": "Colombes",
+   "city": "Colombes",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-07-22",
+   "salary": null,
+   "description_snippet": "Chef de Groupe Lipton, CDI, H/F <p><strong>Vos atouts pour être notre futur talent :</strong></p> <ul> <li>Ecole de Commerce Bac +5</li> <li>Minimum 10 ans d'expérience dans l'environnement FMCG</li> <li>Connaissances significatives sur la stratégie, les innovations, les consommateurs et les clients</li> <li>Solide expérience du marketing produit et de la planification média. Une sensibilité et ex",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/pepsico/jobs/chef-de-groupe-lipton-cdi-h-f_colombes"
     }
    ],
    "first_seen": "2026-08-26"
@@ -2886,37 +4312,6 @@
     }
    ],
    "first_seen": "2026-08-25"
-  },
-  {
-   "id": "213adcb2c71e55e2",
-   "title": "Assistant CRM & Acquisition (H/F)",
-   "company": "VANESSA BRUNO",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "performance_marketing",
-    "crm"
-   ],
-   "skills": [
-    "kpi",
-    "newsletter",
-    "sea"
-   ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "Rejoindre l’univers Vanessa Bruno : un stage CRM au cœur d’une maison iconique.Intégrer Vanessa Bruno, c’est entrer dans l’univers d’une Maison emblématique de lamode française, reconnue pour son élégance contemporaine et son sens du détail.Ce stage en CRM, à pourvoir à partir d’ août 2026 pour 6 mois, offre l’opportunité dedécouvrir de l’intérieur une marque en pleine dynamique digitale, au plus ",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/vanessa-bruno/Assistant-crm-acquisition,11916682.html"
-    }
-   ],
-   "first_seen": "2026-08-23"
   },
   {
    "id": "bd9b909f9a7efab2",
@@ -3057,32 +4452,6 @@
     {
      "name": "Fashion Jobs",
      "url": "https://fr.fashionjobs.com/emploi/ami-paris/Cdi-head-of-digital-performance-h-f,11882677.html"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "cf95883296a00d04",
-   "title": "Acheteur / Chef de produit Bonbons et Confiseries H/F",
-   "company": "CMP",
-   "location": "Le Blanc-Mesnil",
-   "city": "Le Blanc-Mesnil",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-08-17",
-   "salary": null,
-   "description_snippet": "Acheteur / Chef de produit Bonbons et Confiseries H/F Formation supérieure en Achats, Commerce International ou Marketing Produit. Nous recherchons un acheteur/chef de produit ayant impérativement une expérience dans l'univers de la confiserie, du chocolat ou des produits alimentaires gourmands, avec une pratique confirmée du sourcing et du développement produits en Asie. Bonne connaissance des co",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/cmp-groupe/jobs/acheteur-chef-de-produit-bonbons-et-confiseries-h-f_le-blanc-mesnil"
     }
    ],
    "first_seen": "2026-08-23"
@@ -3325,6 +4694,37 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179203151W"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "213adcb2c71e55e2",
+   "title": "Assistant CRM & Acquisition (H/F)",
+   "company": "VANESSA BRUNO",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing",
+    "crm"
+   ],
+   "skills": [
+    "kpi",
+    "newsletter",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-07-29",
+   "salary": null,
+   "description_snippet": "Rejoindre l’univers Vanessa Bruno : un stage CRM au cœur d’une maison iconique. Intégrer Vanessa Bruno, c’est entrer dans l’univers d’une Maison emblématique de la mode française, reconnue pour son élégance contemporaine et son sens du détail. Ce stage en CRM, à pourvoir à partir d’ août 2026 pour 6 mois, offre l’opportunité de découvrir de l’intérieur une marque en pleine dynamique digitale, au p",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/vanessa-bruno/Assistant-crm-acquisition,11916682.html"
     }
    ],
    "first_seen": "2026-08-23"
@@ -3805,6 +5205,34 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "a99d34b1f8882338",
+   "title": "Chef de produit F/H",
+   "company": "Hays France",
+   "location": "Amiens - 80",
+   "city": "Amiens - 80",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-26",
+   "salary": "A négocier",
+   "description_snippet": "En tant que Chef de produit, vous êtes rattaché à la Direction Marketing. Vous contribuez à la définition de la stratégie marketing de différentes gammes de produits, en lien avec le groupe basé à l'étranger, sur la base de la roadmap produits. Vous pilotez les lancements des nou...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179314894W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "c2ed6c9f2764161a",
    "title": "Lead Product Manager Planning (f/h/n)",
    "company": "Hublo",
@@ -3860,6 +5288,58 @@
    "first_seen": "2026-08-26"
   },
   {
+   "id": "c890aafd1394bbae",
+   "title": "CDD - Chef de Produit Chaussures - H/F",
+   "company": "ISABEL MARANT",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Tout commence en 1995, lorsque Isabel Marant fonde la maison à Paris. Presque trente ans plus tard, rien n’a changé : symbole inégalé du cool à la française, la marque puise son inspiration tout autour du monde pour réinventer le vestiaire urbain avec irrévérence. Au croisement des grandes maisons de luxe françaises et des marques de prêt-à-porter haut de gamme, Isabel Marant incarne une nouvelle ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/isabel-marant/Cdd-chef-de-produit-chaussures-h-f,12010581.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "afc2e7f90eaae2e2",
+   "title": "B2B & Trade Project Manager (Fixed Term) - M/W/x",
+   "company": "VEEPEE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Pioneer of online flash sales since 2001 and key player in European e-commerce, Veepee collaborates with over 7,000 brands to offer highly discounted products available for a limited time. Operating across various sectors, including fashion, home, wine, travel or beauty... Veepee achieved a turnover of 3.3 billion euros incl. VAT in 2024 and employs 5,000 staff members across 10 countries. JOB DES",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/veepee/B2b-trade-project-manager-m-w-x,11793792.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "b2d4192a86baa78b",
    "title": "RESPONSABLE CRM F/H",
    "company": "Sapiance RH",
@@ -3883,6 +5363,324 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179302365W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "b12c65161719b87c",
+   "title": "Indirect E-Commerce Coordinator - H/F",
+   "company": "ISABEL MARANT",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-19",
+   "salary": null,
+   "description_snippet": "Tout commence en 1995, lorsque Isabel Marant fonde la maison à Paris. Presque trente ans plus tard, rien n’a changé : symbole inégalé du cool à la française, la marque puise son inspiration tout autour du monde pour réinventer le vestiaire urbain avec irrévérence. Au croisement des grandes maisons de luxe françaises et des marques de prêt-à-porter haut de gamme, Isabel Marant incarne une nouvelle ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/isabel-marant/Indirect-e-commerce-coordinator-h-f,11992763.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "f100a0107b5b7877",
+   "title": "Chef de Produit / Développeur Cuir PAP Luxe H/F",
+   "company": "SINTEL",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-17",
+   "salary": null,
+   "description_snippet": "Depuis plus de 30 ans, SINTEL est un acteur majeur du recrutement, (Placement, Interim, Management de Transition, Technical & Executive Search) avec une expertise reconnue dans les secteurs : - Couture / Mode/ Luxe - Retail - Tertiaire / Finance - Supply Chain - Technique / Design En partenaire RH, nous intervenons auprès de sociétés, PME, groupes internationaux, apportant toute notre écoute, expe",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/sintel/Chef-de-produit-developpeur-cuir-pap-luxe-h-f,11985391.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "0a70d5bc3ad456a0",
+   "title": "Chef de Produit Chaine et Trame Luxe H/F",
+   "company": "SINTEL",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-17",
+   "salary": null,
+   "description_snippet": "Depuis plus de 30 ans, SINTEL est un acteur majeur du recrutement, (Placement, Interim, Management de Transition, Technical & Executive Search) avec une expertise reconnue dans les secteurs : • Couture / Mode/ Luxe • Retail • Tertiaire / Finance • Supply Chain • Technique / Design En partenaire RH, nous intervenons auprès de sociétés, PME, groupes internationaux, apportant toute notre écoute, expe",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/sintel/Chef-de-produit-chaine-et-trame-luxe-h-f,11985209.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "cf8d2eb390987013",
+   "title": "Chef de Produit Jersey (H/F)",
+   "company": "MODELOR COUTURE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-16",
+   "salary": null,
+   "description_snippet": "Fondée en 1974, l'agence Modelor est une référence dans les secteurs de la Mode et du Luxe. Notre métier consiste à sélectionner les hommes et les femmes qui font la réussite d'un produit ou d'un service. Nous avons l'ambition de trouver les meilleurs candidats dans leur spécialité. Réactivité, savoir faire exclusif et passion sont les clés de notre réussite. Nous recherchons pour notre client, un",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/modelor-couture/Chef-de-produit-jersey,11750923.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "f87776506d646817",
+   "title": "Chef de Produit Collection & Production (H/F)",
+   "company": "MODELOR COUTURE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-16",
+   "salary": null,
+   "description_snippet": "Fondée en 1974, l'agence Modelor est une référence dans les secteurs de la Mode et du Luxe. Notre métier consiste à sélectionner les hommes et les femmes qui font la réussite d'un produit ou d'un service. Nous avons l'ambition de trouver les meilleurs candidats dans leur spécialité. Réactivité, savoir faire exclusif et passion sont les clés de notre réussite. Nous recherchons pour notre client, un",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/modelor-couture/Chef-de-produit-collection-production,11750922.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "26e9683ab85c5650",
+   "title": "Chef de Produit Flou & Tailleur (H/F)",
+   "company": "MODELOR COUTURE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-16",
+   "salary": null,
+   "description_snippet": "Fondée en 1974, l'agence Modelor est une référence dans les secteurs de la Mode et du Luxe. Notre métier consiste à sélectionner les hommes et les femmes qui font la réussite d'un produit ou d'un service. Nous avons l'ambition de trouver les meilleurs candidats dans leur spécialité. Réactivité, savoir faire exclusif et passion sont les clés de notre réussite. Nous recherchons pour notre client, un",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/modelor-couture/Chef-de-produit-flou-tailleur,11750921.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "a4be72326448658a",
+   "title": "Chef de Produit Homme Sportswear & Chemises (H/F)",
+   "company": "MODELOR RETAIL",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-16",
+   "salary": null,
+   "description_snippet": "Fondée en 1974, l'agence Modelor est une référence dans les secteurs de la Mode et du Luxe. Notre métier consiste à sélectionner les hommes et les femmes qui font la réussite d'un produit ou d'un service. Nous avons l'ambition de trouver les meilleurs candidats dans leur spécialité. Réactivité, savoir faire exclusif et passion sont les clés de notre réussite. Nous recherchons pour notre client, un",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/modelor-retail/Chef-de-produit-homme-sportswear-chemises,11750848.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "5512655e83de89f4",
+   "title": "Chef de Produit Couture H/F",
+   "company": "SINTEL",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-14",
+   "salary": null,
+   "description_snippet": "Depuis plus de 30 ans, SINTEL est un acteur majeur du recrutement, (Placement, Interim, Management de Transition, Technical & Executive Search) avec une expertise reconnue dans les secteurs : • Couture / Mode/ Luxe • Retail • Tertiaire / Finance • Supply Chain • Technique / Design En partenaire RH, nous intervenons auprès de sociétés, PME, groupes internationaux, apportant toute notre écoute, expe",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/sintel/Chef-de-produit-couture-h-f,11977882.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "428e78cc9e396cc5",
+   "title": "Chef de Produit Négoce",
+   "company": "CONFIDENTIEL",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-13",
+   "salary": null,
+   "description_snippet": "Entreprise de prêt-à-porter féminin, notre entreprise développe et commercialise des collections de vêtements et d'accessoires à travers un réseau de distribution international. Forte d'une présence dans de nombreux pays et d'un réseau de points de vente en constante évolution, elle poursuit son développement en s'appuyant sur une forte culture produit et un savoir-faire reconnu. En tant que chef ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/Chef-de-produit-negoce,11970074.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "7957f95014d0f2c8",
+   "title": "Chef de produit #FEB2026 F/H",
+   "company": "KERSHIP",
+   "location": "Concarneau - 29",
+   "city": "Concarneau - 29",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-12",
+   "salary": "55 - 70 k€ brut annuel",
+   "description_snippet": "Rejoignez KERSHIP , spécialiste de la construction de navires de défense, en tant que Chef de produit F/H. Sous la responsabilité du Directeur des Offres et Marketing de KERSHIP, vous participez au développement de notre stratégie marketing et de notre positionnement sur notre...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179223962W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "1c0f3f4f6cff09fb",
+   "title": "Chef de Produit Ventes Sociétés F/H",
+   "company": "TOYOTA FRANCE LEXUS FRANCE",
+   "location": "Vaucresson - 92",
+   "city": "Vaucresson - 92",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-06",
+   "salary": "A négocier",
+   "description_snippet": "Sous l’autorité du Brand Manager Toyota Professional & Gamme Utilitaires, le Chef de Produit Ventes Sociétés suit l’évolution commerciale de la gamme de véhicules qui lui est confié. Il définit la gamme et les prix en fonction de leur positionnement sur le marché et en effectue l...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179238361W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "bd432b1ac12f2829",
+   "title": "Responsable Editorial et Automatisation Marketing F/H",
+   "company": "Hellowork",
+   "location": "Laval - 53",
+   "city": "Laval - 53",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-04",
+   "salary": "A négocier",
+   "description_snippet": "Votre mission Piloter la stratégie éditoriale du réseau tout en construisant une véritable machine de production de contenus augmentée par l'IA. Vous travaillez sous la responsabilité du Responsable Growth Marketing du réseau, au sein de la Direction Marketing. Définir et pil...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179227316W"
     }
    ],
    "first_seen": "2026-08-26"
@@ -3998,32 +5796,6 @@
    "first_seen": "2026-08-25"
   },
   {
-   "id": "163a914260883f5f",
-   "title": "CDD 3 mois Chef de Produits Marketing (H/F)",
-   "company": "Atlasformen",
-   "location": "Paris (75)",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "",
-   "sources": [
-    {
-     "name": "Isarta",
-     "url": "https://isarta.fr/?job=75806"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
    "id": "5f7bde03539fef81",
    "title": "Product Marketing Manager (PMM) - Produit digital",
    "company": "Thiga",
@@ -4045,6 +5817,63 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/thiga/jobs/product-marketing-manager_paris_THIGA_54V0Wr"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "163a914260883f5f",
+   "title": "CDD 3 mois Chef de Produits Marketing (H/F)",
+   "company": "Atlasformen",
+   "location": "Paris (75)",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-23",
+   "salary": null,
+   "description_snippet": "",
+   "sources": [
+    {
+     "name": "Isarta",
+     "url": "https://isarta.fr/?job=75806"
+    }
+   ],
+   "first_seen": "2026-08-23",
+   "date_assumed": true
+  },
+  {
+   "id": "5728e7311dfa8c36",
+   "title": "Chef de Produit Senior H/F Téléphonie mobile",
+   "company": "Linking Talents",
+   "location": "Neuilly-Sur-Seine",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-22",
+   "salary": "40 - 50 k€ brut annuel",
+   "description_snippet": "Chef de Produit Senior H/F Téléphonie mobile Titulaire d'une formation supérieure commerciale ou marketing, vous<br />justifiez d'une EXPÉRIENCE CONCLUANTE D'AU MOINS 5 ANS EN<br />TÉLÉPHONIE OU ACTIVITÉ CONNEXE (IT, TECH, GRANDE DISTRIBUTION,<br />GRANDE CONSOMMATION). Vous possédez une vraie appétence pour les<br />nouvelles technologies et les produits nomades, fun et connectés. <br /><br />A l",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/linking-talents/jobs/chef-de-produit-senior-h-f-telephonie-mobile_neuilly-sur-seine_LT_J6wmQrw"
+    },
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179294319W"
     }
    ],
    "first_seen": "2026-08-23"
@@ -4560,6 +6389,32 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "be31b2a2a33f60df",
+   "title": "CHEF DE PRODUITS MARKETING- F/H",
+   "company": "POMONA",
+   "location": "Antony - 92",
+   "city": "Antony - 92",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-26",
+   "salary": "A négocier",
+   "description_snippet": "Mettez un peu de vous chez nous ! Chez POMONA, nous jouons tous un rôle essentiel dans la réussite collective. Chaque produit, sélectionné et livré avec soin, permet à un restaurant, une cantine, un boulanger, un boucher, … de toujours mieux nourrir leurs clients. Venez donner le...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179314765W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "e0cc8817f4a013aa",
    "title": "Senior Product Marketing Manager (F/H/X) (H/F)",
    "company": "EDITIONS TECHNIQUES POUR L'AUTOMOBILE ET",
@@ -4641,60 +6496,1003 @@
    "first_seen": "2026-08-26"
   },
   {
-   "id": "96ebeb51e7c61e28",
-   "title": "Acheteur Chef de Produit H/F",
-   "company": "GROUPE PRINTEMPS",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
+   "id": "b014b5b3e94c6a03",
+   "title": "Chef de Produit F/H",
+   "company": "Hellowork",
+   "location": "Raillencourt-Sainte-Olle - 59",
+   "city": "Raillencourt-Sainte-Olle - 59",
+   "region": "other",
    "work_mode": "onsite",
    "contract": null,
    "categories": [
     "marketing_produit"
    ],
-   "skills": [
-    "veille concurrentielle"
-   ],
+   "skills": [],
    "bonus_tags": [],
    "score": 2,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "Vos missions :Vous serez responsable de votre portefeuille de marques et du pilotage de son offre (construction, performance et rentabilité) sur une ou plusieurs familles de produits. Et vous aurez la charge de :· Négocier des conditions commerciales du contrat annuel (remises avant et arrières, ristournes dont trade marketing, exclusivité en lien avec la trade marketing manager) ;· Mettre à jour ",
+   "date_posted": "2026-08-25",
+   "salary": "35 - 45 k€ brut annuel",
+   "description_snippet": "Notre client, entreprise dynamique implantée à Raillencourt-Sainte-Olle, à proximité de Cambrai, poursuit son développement et renforce son équipe Marketing Produits. Dans un environnement structuré et collaboratif, l'entreprise s'appuie sur une forte culture produit, une exige...",
    "sources": [
     {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/groupe-printemps/Acheteur-chef-de-produit-h-f,11907097.html"
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179307407W"
     }
    ],
-   "first_seen": "2026-08-25"
+   "first_seen": "2026-08-26"
   },
   {
-   "id": "b06bb961ea7ea56e",
-   "title": "Stg - Assistant Acheteur/Chef de Produit – Bijouterie H/F",
-   "company": "GROUPE PRINTEMPS",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
+   "id": "93e446b959947d68",
+   "title": "Growth Marketing Manager F/H",
+   "company": "Hellowork",
+   "location": "Paris 08 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-25",
+   "salary": "45 - 55 k€ brut annuel",
+   "description_snippet": "Rattaché·e au Chief of Staff International, le/la Growth Marketing Manager F/H intervient sur l'ensemble des leviers de croissance et de performance de l'activité. À ce titre, vos responsabilités comprennent notamment : * Piloter les principaux indicateurs de croissance et...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179307313W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "6178314eb6c084de",
+   "title": "Chef de Produit F/H",
+   "company": "HUMANI RH RECRUTEMENT",
+   "location": "Raillencourt-Sainte-Olle - 59",
+   "city": "Raillencourt-Sainte-Olle - 59",
+   "region": "other",
    "work_mode": "onsite",
    "contract": null,
    "categories": [
     "marketing_produit"
    ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-24",
+   "salary": "35 - 45 k€ brut annuel",
+   "description_snippet": "Notre client, entreprise dynamique implantée à Raillencourt-Sainte-Olle, à proximité de Cambrai, poursuit son développement et renforce son équipe Marketing Produits. Dans un environnement structuré et collaboratif, l’entreprise s’appuie sur une forte culture produit, une exigen...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179302026W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "5fb1fc8e0c4bf959",
+   "title": "CHEF DE PRODUIT GAZ/HYDROGENE F/H",
+   "company": "ADVANCE RH",
+   "location": "Longvic - 21",
+   "city": "Longvic - 21",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-24",
+   "salary": "A partir de 50 k€ brut annuel",
+   "description_snippet": "Au sein du service Commercial & Marketing et sous la responsabilité du Directeur Commercial & Marketing, vous êtes le/ la référent-e de votre gamme de produits, de leur définition jusqu’à leur fin de vie. Vos missions principales : Analyser les marchés gaz, biogaz et hydrogène ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179299997W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "c986084e66ae9cdf",
+   "title": "Chef de produits techniques⚡Spa & Wellness F/H",
+   "company": "PEPITE CONSEIL",
+   "location": "Marseille 01 - 13",
+   "city": "Marseille 01 - 13",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-24",
+   "salary": "65 - 75 k€ brut annuel",
+   "description_snippet": "Rattaché à la Direction Générale, vous occupez un rôle à la fois stratégique et opérationnel, véritable maillon fort entre la R&D, le commerce et le marketing. Vous êtes le pilote de la stratégie produits et le garant de la cohérence globale de l’offre. Vos principales mission...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179297724W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "63af6b27a863d500",
+   "title": "Chef de Produits F/H",
+   "company": "POTENTIELS",
+   "location": "Fort-de-France - 972",
+   "city": "Fort-De-France - 972",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-24",
+   "salary": "32 - 42 k€ brut annuel",
+   "description_snippet": "Au sein d'une équipe marketing, le (la) Chef de Produits définit la politique de développement d’une gamme de produits . Du lancement à la communication sans oublier la commercialisation, il ou elle intervient dans tous les processus : - Développer et gérer les stratégies de mar...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179300115W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "23236674f5aea5de",
+   "title": "Chef de Produits Ventes F/H",
+   "company": "LOXAM",
+   "location": "Puteaux - 92",
+   "city": "Puteaux - 92",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-21",
+   "salary": "A négocier",
+   "description_snippet": "Rattaché au Directeur des ventes, votre mission comportera 4 axes principaux : - Construction de l’offre Vente Connaissance du marché Outillage et Equipement du bâtiment. Vision court et moyen terme par famille pour atteindre les objectifs Loxam. Benchmark et veille concurre...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179292432W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "de8bdecdf787d90e",
+   "title": "Chef de Produit Gaz - Hydrogene F/H",
+   "company": "Hellowork",
+   "location": "Longvic - 21",
+   "city": "Longvic - 21",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-21",
+   "salary": "50 - 55 k€ brut annuel",
+   "description_snippet": "Au sein du service Commercial & Marketing et sous la responsabilité du Directeur Commercial & Marketing, vous êtes le/ la référent-e de votre gamme de produits, de leur définition jusqu'à leur fin de vie. Vos missions principales : - Analyser les marchés gaz, biogaz et hydrog...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179290520W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "ac2631db5d8f2cf9",
+   "title": "CHEF DE PRODUIT F/H",
+   "company": "LSA - LSA GESTION - ASSURPEOPLE",
+   "location": "Rueil-Malmaison - 92",
+   "city": "Rueil-Malmaison - 92",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-21",
+   "salary": "44 - 47 k€ brut annuel",
+   "description_snippet": "Au sein de la Direction Offre & Rentabilité du portefeuille d'Ascentiel Groupe, rattaché(e) à la Responsable Offres, vous rejoindrez une équipe dynamique composée d'une responsable et de deux chefs de produits. Ce que vous ferez En tant que Chef de produits IARD, vous jouerez ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179273409W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "4c80855ef1930d2e",
+   "title": "Chef Produit Ruminant F/H",
+   "company": "Hellowork",
+   "location": "Saint-Malo - 35",
+   "city": "Saint-Malo - 35",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-21",
+   "salary": "A négocier",
+   "description_snippet": "Rattaché(e) à la Responsable Technique & Marketing, en tant que Chef de Produit Ruminants vous êtes en charge du support technique et du portefeuille de produits ruminants. Vos missions : SUPPORT TECHNIQUE -Apporter une expertise technique sur une espèce donnée, en soutien...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179290470W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "de5ce14005c4d313",
+   "title": "Chef de produit textile Chasse F/H",
+   "company": "ADITO DEVELOPPEMENT",
+   "location": "Saint-Just-Saint-Rambert - 42",
+   "city": "Saint-Just-Saint-Rambert - 42",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-20",
+   "salary": "55 - 60 k€ brut annuel",
+   "description_snippet": "Rattaché(e) à la Direction Marketing/Offre, vous êtes le chef d'orchestre de votre ligne de produits. Vous maximisez le chiffre d'affaires et la rentabilité des collections textile Chasse en traduisant les besoins des pratiquants (approche, affût, battue) en innovations produits ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179206005W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "cee061cdede3df68",
+   "title": "Trade Marketing AC (/N) F/H",
+   "company": "BOSCH - BLAUPUNKT - BOSCH SERVICE - RECHANGE AUTOMOBILE",
+   "location": "Saint-Ouen - 93",
+   "city": "Saint-Ouen - 93",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-19",
+   "salary": "A négocier",
+   "description_snippet": "Dans le cadre du développement de nos activités Accessoires, nous recherchons un(e) Chef de Produits Marketing Gamme Accessoires afin d'assurer le développement, la profitabilité et la compétitivité de nos catégories de produits sur le marché français. Rattaché(e) à la Direction...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179281498W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "ca458109c6539028",
+   "title": "Consultant.e CRM & RevOps / Sales Ops Senior",
+   "company": "Make the Grade",
+   "location": "Saint-Jacques-De-La-Lande",
+   "city": "Saint-Jacques-De-La-Lande",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
    "skills": [
-    "veille concurrentielle"
+    "hubspot",
+    "salesforce"
    ],
    "bonus_tags": [],
    "score": 2,
-   "date_posted": null,
+   "date_posted": "2026-08-17",
    "salary": null,
-   "description_snippet": "Vos principales missions seront les suivantes :- Suivi et analyse des performances du portefeuille de marques: selI-out, sell-through, KPIs..- Participation à l’élaboration de la stratégie de l’offre: recherche de nouvelles marques, benchmark, veille concurrentielle, rédactions de supports PPT- Contribution aux achats des nouveautés (préparation des rendez-vous, sélection en showroom, comma",
+   "description_snippet": "Consultant.e CRM & RevOps / Sales Ops Senior Ce poste est **senior**. On ne cherche pas quelqu’un qui veut “apprendre HubSpot”. On cherche quelqu’un qui veut structurer la croissance des entreprises. ### Tu as : * 5+ ans d’expérience en **CRM / Sales Ops** / RevOps / Marketing Ops * Une maîtrise solide d’**HubSpot** (ou d’un CRM type Salesforce / Dynamics) * Une vraie compréhension des enjeux **Re",
    "sources": [
     {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/groupe-printemps/Stg-assistant-acheteur-chef-de-produit-bijouterie-h-f,11775423.html"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/make-the-grade/jobs/consultant-e-crm-revops-sales-ops-senior_saint-jacques-de-la-lande"
     }
    ],
-   "first_seen": "2026-08-25"
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "9f050c3c90cf3145",
+   "title": "Chef de Produits Touristique F/H",
+   "company": "Hellowork",
+   "location": "Rodez - 12",
+   "city": "Rodez - 12",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-17",
+   "salary": "35 - 40 k€ brut annuel",
+   "description_snippet": "Offre d'Emploi : Chef / Cheffe de Produit Tourisme (F/H) À propos du poste Sous la responsabilité de la direction de l'offre, vous êtes le pilier de la création et du développement de notre gamme de voyages. De l'idée initiale jusqu'à la mise en vente, vous concevez des séjours a...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179271000W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "c6213430096c85fc",
+   "title": "Assistant Chef de Produit F/H",
+   "company": "Hellowork",
+   "location": "Ancenis-Saint-Géréon   - 44",
+   "city": "Ancenis-Saint-Gereon - 44",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-17",
+   "salary": "30 - 30 k€ brut annuel",
+   "description_snippet": "Votre quotidien chez nous : Rattaché(e) à la Chef de Produits, vous prenez en charge le développement et l'animation des gammes GMS ainsi que les activités export de l'entreprise. À ce titre, vos principales missions sont de : · Suivre les performances des marques, des gamm...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179271138W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "ddde57526dcc7dd3",
+   "title": "chef de produit dispositifs médicaux F/H",
+   "company": "KOELIS",
+   "location": "Meylan - 38",
+   "city": "Meylan - 38",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-14",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "Rattaché(e) au Responsable Marketing Upstream, vous aurez pour objectif le pilotage de projets transverses et la gestion d’un portefeuille de produits. Vos activités principales seront : Pilotage de projets Marketing Upstream : Formaliser et optimiser les processus Upstream et...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179267290W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "85229a4250a4b59a",
+   "title": "Chef de Produits Crèmerie le Gall F/H",
+   "company": "Hellowork",
+   "location": "Plouvien - 29",
+   "city": "Plouvien - 29",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-14",
+   "salary": "A négocier",
+   "description_snippet": "Sous l'autorité du Responsable marketing/catégoriel, dans le cadre d'un projet de développement ambitieux, le Chef de produits crèmerie sera la pierre angulaire du pilotage opérationnel de l'univers crèmerie. A ce titre, vous : - Prenez en charge le développement des produits...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179253029W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "522ee5d05356acea",
+   "title": "Responsable Ligne Produits Anti-Chute F/H",
+   "company": "Hellowork",
+   "location": "Bernin - 38",
+   "city": "Bernin - 38",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-11",
+   "salary": "65 - 75 k€ brut annuel",
+   "description_snippet": "Missions principales : Vous pilotez l'offre Anti-chute à l'échelle mondiale, en combinant stratégie, marketing produit et action opérationnelle. Véritable chef d'orchestre, vous êtes le lien entre les besoins clients et le développement produit : - Être la voix du client : co...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179233395W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "1ce57099490c5bbb",
+   "title": "Chef de produit F/H",
+   "company": "FINAPOLLINE",
+   "location": "Mérignac - 33",
+   "city": "Merignac - 33",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-11",
+   "salary": "36 - 38 k€ brut annuel",
+   "description_snippet": "Vos missions Gestion de produits & stratégie : Participer à la définition des nouveaux produits, analyser les marchés, assurer une veille permanente et établir les plans marketing globaux. Cahiers des charges & R&D : Rédiger les cahiers des charges des nouveautés et piloter le...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179254751W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "cc089eed23879c93",
+   "title": "Growth Marketing Manager F/H",
+   "company": "cadremploi",
+   "location": "Paris 01 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-07",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "Rattaché·e au Chief of Staff International, le/la Growth Marketing Manager F/H intervient sur l'ensemble des leviers de croissance et de performance de l'activité. À ce titre, vos responsabilités comprennent notamment : * Piloter les principaux indicateurs de croissance et de per...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179241786W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "b82cbc50f26585c7",
+   "title": "Category Manager EPI F/H",
+   "company": "Mabéo Industries",
+   "location": "Bourg-en-Bresse - 01",
+   "city": "Bourg-En-Bresse - 01",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-07",
+   "salary": "45 - 60 k€ brut annuel",
+   "description_snippet": "Category Manager (H/F) Equipements de Protection individuelle (EPI) Rattaché(e) au Directeur de marché, vous élaborez le plan marketing Produits et Service de vos familles et êtes responsable de sa mise en oeuvre opérationnelle (sélection d'offre, lancement produit, positionn...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179243922W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "053ca3d4dcea5d2b",
+   "title": "Category Manager Epi F/H",
+   "company": "Hellowork",
+   "location": "Lyon 06 - 69",
+   "city": "Lyon 06 - 69",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-07",
+   "salary": "45 - 60 k€ brut annuel",
+   "description_snippet": "Category Manager (H/F) Equipements de Protection individuelle (EPI) Rattaché(e) au Directeur de marché, vous élaborez le plan marketing Produits et Service de vos familles et êtes responsable de sa mise en oeuvre opérationnelle (sélection d'offre, lancement produit, positionn...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179187295W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "67bf8c91be0492b0",
+   "title": "UN(E) CHEF DE PRODUIT LOGICIELS GENETIQUE ET BIOBANQUE F/H",
+   "company": "TECHNIDATA",
+   "location": "Grenoble - 38",
+   "city": "Grenoble - 38",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-05",
+   "salary": "A négocier",
+   "description_snippet": "Au sein de la Direction Marketing, Produits et Opérations, vous contribuez au niveau international à la coordination de l’équipe de chefs de produits et la définition de la stratégie, la priorisation et l’exécution du cycle de vie produit afin de maximiser l’impact utilisateur et...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179234924W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "920ff39e4dcf31e1",
+   "title": "Alliances Manager Manager - Partnership Manager F/H",
+   "company": "SIS",
+   "location": "Lyon 03 - 69",
+   "city": "Lyon 03 - 69",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-05",
+   "salary": "48 - 50 k€ brut annuel",
+   "description_snippet": "Votre équipe : Vous intégrez une équipe bienveillante, dynamique et solaire, composé de 3 alliances managers, une Partner Success Manager, une Presale Manager, une Product Marketing Specialist, un Legal Manager, avec pour dénominateur commun : faire des partenaires une source de...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179233905W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "733a22fe6b4eb4b6",
+   "title": "Category Manager / Chef de produits F/H",
+   "company": "ACL Conseil - Recrutement & chasse de tête",
+   "location": "Orly - 94",
+   "city": "Orly - 94",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-03",
+   "salary": "50 - 60 k€ brut annuel",
+   "description_snippet": "Acteur reconnu spécialisé dans la création, la fabrication et la distribution de desserts à destination des professionnels de la restauration, notre client développe des offres à forte valeur ajoutée. Dans le cadre d’un remplacement, l’entreprise recrute un·e Category Manager / ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179222036W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "c2bf38b16d9fba31",
+   "title": "Référent Produit & Marché F/H",
+   "company": "DELTA PLUS GROUP",
+   "location": "Apt - 84",
+   "city": "Apt - 84",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-03",
+   "salary": "A partir de 35 k€ brut annuel",
+   "description_snippet": "Au sein de la Direction Marketing Produits, vous pilotez et développez un portefeuille de produits dédié à l’univers des EPI antichute dans un environnement international. Véritable référent sur votre périmètre, vous contribuez à la croissance rentable de l’activité en combinan...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/178888311W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "99601ded43ee2e7b",
+   "title": "Chef de produit F/H",
+   "company": "ARKOMEDIKA",
+   "location": "Carros - 06",
+   "city": "Carros - 06",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-31",
+   "salary": "29 - 45 k€ brut annuel",
+   "description_snippet": "Depuis plus de 40 ans, Les Laboratoires ARKOPHARMA, développent et commercialisent, en France et dans plus de 65 pays, des solutions de santé naturelle. Rejoignez le laboratoire pharmaceutique leader dans le domaine du complément alimentaire et du bien-être, dans un contexte de...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179205213W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "bc80f32b1dcc1ba1",
+   "title": "Chef de produit F/H",
+   "company": "GALLIANCE",
+   "location": "Ancenis-Saint-Géréon   - 44",
+   "city": "Ancenis-Saint-Gereon - 44",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-31",
+   "salary": "42 - 44 k€ brut annuel",
+   "description_snippet": "Votre quotidien chez nous : Rattaché(e) au Responsable Marketing, vous prenez en charge le développement et l'animation des gammes GMS ainsi que les activités export de l'entreprise. À ce titre, vos principales missions sont de : · Développer et animer la marque Nature de Fran...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179214001W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "ba92a5d914ee3352",
+   "title": "Chef de Produit Phytothérapie F/H",
+   "company": "Hellowork",
+   "location": "Carros - 06",
+   "city": "Carros - 06",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-31",
+   "salary": "45 - 50 k€ brut annuel",
+   "description_snippet": "Au sein de la direction marketing internationale, le/la Chef(fe) de Produit Phytothérapie participe à la définition et à la mise en oeuvre de la stratégie de son portefeuille. sur des projets à dimension internationale.Vos missions seront de: * Contribuer à la définition de l...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179211806W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "2902f9f0fcc1a65f",
+   "title": "Chef de produit NDT F/H",
+   "company": "KWAN-TEK",
+   "location": "Ploemeur - 56",
+   "city": "Ploemeur - 56",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-31",
+   "salary": "A partir de 70 k€ brut annuel",
+   "description_snippet": "Votre mission Vous êtes la voix du marché et du client au sein de l'entreprise. Votre mission consiste à définir la stratégie produit permettant de transformer nos innovations en solutions à forte valeur ajoutée pour les acteurs du contrôle non destructif. À l'interface entre ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179215037W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "8f071373324d8177",
+   "title": "Chef de Marché Industrie F/H",
+   "company": "Hellowork",
+   "location": "Tinqueux - 51",
+   "city": "Tinqueux - 51",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-31",
+   "salary": "32 - 42 k€ brut annuel",
+   "description_snippet": "Vous êtes passionné(e) par le marketing produit et client ? Vous avez une appétence pour les produits techniques industriels, du bâtiment ? CGR recherche son/sa futur(e) Chef de Marché Industrie (H/F) pour rejoindre son équipe Stratégie Marché et Innovation basé à Tinqueux (51). ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179211405W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "7d165c6dd760f2d8",
+   "title": "Chef de Marché Industrie F/H",
+   "company": "CGR",
+   "location": "Tinqueux - 51",
+   "city": "Tinqueux - 51",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-30",
+   "salary": "32 - 42 k€ brut annuel",
+   "description_snippet": "Vous êtes passionné(e) par le marketing produit et client ? Vous avez une appétence pour les produits techniques industriels, du bâtiment ? CGR recherche son/sa futur(e) Chef de Marché Industrie (H/F) pour rejoindre son équipe Marketing basé à Tinqueux (51). Rattaché(é) à la Re...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179205196W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "a38d151692ce45c1",
+   "title": "CHEF DE PRODUIT TÉLÉPHONIE & ACCESSOIRES TECH F/H",
+   "company": "T'NB",
+   "location": "Salon-de-Provence - 13",
+   "city": "Salon-De-Provence - 13",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-30",
+   "salary": "A partir de 30 k€ brut annuel",
+   "description_snippet": "CHEF DE PRODUIT TÉLÉPHONIE & ACCESSOIRES TECH (F/H) VOS MISSIONS : DONNER DU PEPS, DE LA COHÉRENCE ET DE LA VALEUR À NOS GAMMES ! Au cœur de la Direction Marketing & Produit, vous prenez la responsabilité à 360° de vos familles de produits (charge, protection, connectique, aud...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179169912W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "748784f560bd930b",
+   "title": "Ingénieur Produits F/H",
+   "company": "ESRI FRANCE",
+   "location": "Meudon - 92",
+   "city": "Meudon - 92",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-29",
+   "salary": "A partir de 40 k€ brut annuel",
+   "description_snippet": "L’ingénieur(e) Produits contribue à l’organisation et à l’exécution du plan marketing produits, et son travail s’inscrit dans un rôle transverse de facilitateur, à la convergence de l’innovation autour des produits du système ArcGIS, du business, du succès client et des relations...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179200786W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "1a907995fb287562",
+   "title": "Chef de Produit B2B – Emballage Alimentaire / Hygiène F/H",
+   "company": "Seyos",
+   "location": "Luxembourg",
+   "city": "Luxembourg",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-28",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "Notre client, est un acteur de référence au Luxembourg depuis plus de 125 ans. Spécialisée dans les solutions d'emballage, d'hygiène, de fournitures de bureau et de mobilier, l'entreprise accompagne quotidiennement les professionnels grâce à une offre complète et un fort niveau d...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179193884W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "4ff949ac63338d4d",
+   "title": "Growth Marketing Manager F/H",
+   "company": "Meteojob",
+   "location": "Paris 09 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-27",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "Rattaché·e au Chief of Staff International, le/la Growth Marketing Manager F/H intervient sur l'ensemble des leviers de croissance et de performance de l'activité. À ce titre, vos responsabilités comprennent notamment : Piloter les principaux indicateurs de croissance et de per...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179184011W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "18797f8df2741783",
+   "title": "CHEF DE PRODUIT F/H",
+   "company": "Randstad professional",
+   "location": "Saint-Priest - 69",
+   "city": "Saint-Priest - 69",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-27",
+   "salary": "A négocier",
+   "description_snippet": "Notre client, situé à ST PRIEST, est une entreprise de fabrication et de distribution de produits chimiques pour le secteur industriel. En tant qu'architecte de la stratégie produit des Gaz Conditionnés pour le marché de l'Électronique en Europe, vous serez le pivot entre la str...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179189378W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "9d7cdf4f5454a5d3",
+   "title": "Entrepreneur·e en Résidence / Venture Lead (H/F)",
+   "company": "Ekinox",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "etude de marche"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-07-16",
+   "salary": null,
+   "description_snippet": "Entrepreneur·e en Résidence / Venture Lead (H/F) **Le profil recherché** Nous recherchons une personne capable de naviguer entre stratégie, produit, vente et exécution. Vous avez idéalement déjà été : * fondateur·rice ou cofondateur·rice d’une startup B2B ; * Entrepreneur·e en Résidence ; * Venture Builder ou Venture Lead ; * responsable du lancement d’une nouvelle activité ; * Head of Product, Pr",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/ekinox/jobs/entrepreneur-e-en-residence-venture-lead_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "c23e2e31a9a87a49",
@@ -4723,6 +7521,64 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "9f1d553d31b94df8",
+   "title": "CDI - Chef de produit développement confirmé (H/F)",
+   "company": "MAKE UP FOR EVER",
+   "location": "Levallois-Perret, A8, FR",
+   "city": "Levallois-Perret",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-23",
+   "salary": null,
+   "description_snippet": "### **Position** WELCOME TO THE COLLECTIVE Nous sommes un collectif qui ne cesse de faire évoluer le monde du maquillage. Au cœur de notre mission : la création de produits et services hautement performants conçus pour permettre à chacun de révéler sa propre personnalité. Ensemble, nous aspirons à faire de cette vision de la beauté une réalité en inspirant, en encourageant et en créant du lien ave",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=04186ebdddd2a35a"
+    },
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/make-up-for-ever/Cdi-chef-de-produit-developpement-confirme,12012208.html"
+    }
+   ],
+   "first_seen": "2026-08-25"
+  },
+  {
+   "id": "64ac545b72296f62",
+   "title": "Chef de Produit - Nutrition Végétale F/H",
+   "company": "CATHALA CONSEILS",
+   "location": "Saint-Malo - 35",
+   "city": "Saint-Malo - 35",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-25",
+   "salary": "40 - 50 k€ brut annuel",
+   "description_snippet": "CHEF DE PRODUIT (H/F) - NUTRITION VÉGÉTALE Rattaché(e) à la direction Marketing et Réglementaire de cette filiale, vous rejoignez le pôle Nutrition Végétale constitué d’une dizaine de personnes et êtes directement rattaché(e) à la Responsable Animation Marketing et Développemen...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179307967W"
+    }
+   ],
+   "first_seen": "2026-08-24"
+  },
+  {
    "id": "c7a2764685c3de79",
    "title": "Growth Marketing Manager F/H",
    "company": "MICHAEL PAGE INTERNATIONAL FRANCE",
@@ -4749,88 +7605,6 @@
     }
    ],
    "first_seen": "2026-08-24"
-  },
-  {
-   "id": "64ac545b72296f62",
-   "title": "Chef de Produit - Nutrition Végétale F/H",
-   "company": "CATHALA CONSEILS",
-   "location": "Bretagne - 36",
-   "city": "Bretagne - 36",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-07-27",
-   "salary": "40 - 50 k€ brut annuel",
-   "description_snippet": "CHEF DE PRODUIT (H/F) - NUTRITION VÉGÉTALERattaché(e) à la direction Marketing et Réglementaire de cette filiale, vous rejoignez le pôle Nutrition Végétale constitué d’une dizaine de personnes et êtes directement rattaché(e) à la Responsable Animation Marketing et Développement d...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179185998W"
-    }
-   ],
-   "first_seen": "2026-08-24"
-  },
-  {
-   "id": "1f35bfd3a8655b44",
-   "title": "Assistant(e) Chef de Produit Marketing",
-   "company": "LELIÈVRE PARIS",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "1. Analyse de l’offre et veille marché Participer à l'analyse des performances commerciales des collections (tissus, tapis, revêtements muraux, papiers peints/revêtements muraux, accessoires et gifting) afin d'identifier les opportunités de développement et d'optimisation. Contribuer à la création de dashboards pour un suivi efficace et régulier des performances de produits et des outils d’aide à ",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/lelievre-paris/Assistant-chef-de-produit-marketing,11988931.html"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "aa65c0393d8663ad",
-   "title": "Lead UX/UI Designer",
-   "company": "VEEPEE",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "kpi"
-   ],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "JOB DESCRIPTION Veepee is looking for a Lead of UX/UI for its Growth Marketing team. Attached to the Growth Director, the person in this position will lead the team of UX/UI designers, and will be in charge of defining the UX vision for the Veepee front experience, and assuring the optimization of the customer journey on all the Veepee sites, by following and analyzing the performance of each step",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/veepee/Lead-ux-ui-designer,11094781.html"
-    }
-   ],
-   "first_seen": "2026-08-23"
   },
   {
    "id": "ce517a0c0a24321b",
@@ -4877,7 +7651,7 @@
    ],
    "bonus_tags": [],
    "score": 2,
-   "date_posted": "2026-08-24",
+   "date_posted": "2026-08-26",
    "salary": null,
    "description_snippet": "Traffic Manager Senior - CDI - Paris ### Expérience * Tu as une expérience en agence de 2 à 5 ans * Tu as déjà mis en place une stratégie d'acquisition de A à Z * Tu es à l'aise dans la relation avec les annonceurs * Tu as un profil de consultant passionné par le digital * Tu as déjà géré des comptes en autonomie sur les différentes plateformes publicitaires ### Tu es la personne qu'il nous faut s",
    "sources": [
@@ -4889,14 +7663,14 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "5728e7311dfa8c36",
-   "title": "Chef de Produit Senior H/F Téléphonie mobile",
-   "company": "Linking Talents",
+   "id": "50c920c4ffe46d82",
+   "title": "Assistant(e) Chef de Projets CRM - Communications Digitales – Janvier 2027",
+   "company": "PARFUMS CHRISTIAN DIOR",
    "location": "Neuilly-Sur-Seine",
    "city": "Neuilly-Sur-Seine",
    "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
+   "work_mode": "onsite",
+   "contract": null,
    "categories": [
     "marketing_produit"
    ],
@@ -4905,11 +7679,11 @@
    "score": 2,
    "date_posted": "2026-08-22",
    "salary": null,
-   "description_snippet": "Chef de Produit Senior H/F Téléphonie mobile Titulaire d'une formation supérieure commerciale ou marketing, vous<br />justifiez d'une EXPÉRIENCE CONCLUANTE D'AU MOINS 5 ANS EN<br />TÉLÉPHONIE OU ACTIVITÉ CONNEXE (IT, TECH, GRANDE DISTRIBUTION,<br />GRANDE CONSOMMATION). Vous possédez une vraie appétence pour les<br />nouvelles technologies et les produits nomades, fun et connectés. <br /><br />A l",
+   "description_snippet": "Souhaitez-vous rejoindre la Maison des Rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
    "sources": [
     {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/linking-talents/jobs/chef-de-produit-senior-h-f-telephonie-mobile_neuilly-sur-seine_LT_J6wmQrw"
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Assistant-chef-de-projets-crm-communications-digitales-janvier-2027,11894146.html"
     }
    ],
    "first_seen": "2026-08-23"
@@ -4938,6 +7712,34 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=281ae865d4b9eee5"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "1f35bfd3a8655b44",
+   "title": "Assistant(e) Chef de Produit Marketing",
+   "company": "LELIÈVRE PARIS",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-20",
+   "salary": null,
+   "description_snippet": "Rejoignez C4 Industries à un moment charnière de son développement. Nous construisons un groupe de maisons patrimoniales françaises d’exception — Maison Lelièvre, la Faïencerie de Gien et Duvivier Canapés 1840 — réunies au sein de C4 Industries, notre nouvelle plateforme dédiée à l’art de vivre à la française. Toutes trois sont labellisées Entreprise du Patrimoine Vivant (EPV), et deux sont membre",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/lelievre-paris/Assistant-chef-de-produit-marketing,11988931.html"
     }
    ],
    "first_seen": "2026-08-23"
@@ -5335,6 +8137,58 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "cc195efaf129b735",
+   "title": "Chef de Produit/Marché EPI F/H",
+   "company": "Direct Emploi",
+   "location": "Paris 01 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-26",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "Notre client est un acteur majeur dans la distribution de produits industriels basé à Paris. Au sein d'une société familiale en pleine croissance et intégré dans une équipe marketing à taille humaine, le Chef de Marché a pour responsabilité la rentabilité d'une gamme de produits ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179296314W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "026deedfe99f2f40",
+   "title": "Growth Marketing Manager F/H",
+   "company": "Direct Emploi",
+   "location": "Paris 01 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-26",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "Notre entreprise évolue dans un secteur à forte composante digitale et accompagne le développement de plusieurs marques et offres à destination d'un marché en pleine transformation. Présente à l'international, elle s'appuie sur des solutions technologiques propriétaires, une cult...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179296238W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "a38c499ee6e74f5c",
    "title": "Assistante / assistant chef de produit maketing (f/h)",
    "company": "Réunion des musées nationaux - Grand Palais",
@@ -5361,12 +8215,12 @@
    "first_seen": "2026-08-26"
   },
   {
-   "id": "50bc08518c3ff0b1",
-   "title": "Chef de Produit - Innovation Dior SPA & Wellness",
-   "company": "PARFUMS CHRISTIAN DIOR",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
+   "id": "9508785c522c8ee1",
+   "title": "Assistant(e) Chef de Produit Logistique",
+   "company": "BLUEMARBLE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": null,
    "categories": [
@@ -5375,24 +8229,24 @@
    "skills": [],
    "bonus_tags": [],
    "score": 0,
-   "date_posted": null,
+   "date_posted": "2026-08-24",
    "salary": null,
-   "description_snippet": "Souhaitez-vous rejoindre la Maison des rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
+   "description_snippet": "BLUEMARBLE est une marque de vêtements pour homme basée à Paris et fondée en 2018 par Anthony Alvarez. Conférer à la singularité un statut universel, voilà le rêve visionnaire que BLUEMARBLE s'efforce de concrétiser chaque saison, en faisant d'une mosaïque de cultures les forces vives de sa marque. Concentrant dans ses collections et à chaque saison un vaste éventail de souvenirs accumulés au fil ",
    "sources": [
     {
      "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Chef-de-produit-innovation-dior-spa-wellness,11788380.html"
+     "url": "https://fr.fashionjobs.com/emploi/bluemarble/Assistant-chef-de-produit-logistique,12007316.html"
     }
    ],
-   "first_seen": "2026-08-25"
+   "first_seen": "2026-08-26"
   },
   {
-   "id": "e00773f977a2a661",
-   "title": "Alt - Assistant(e) Achat / Chef de Produit (Homme) H/F",
-   "company": "GROUPE PRINTEMPS",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
+   "id": "98872cc240e2f43d",
+   "title": "Assistant(e) Chef de Produit (Lemarie)",
+   "company": "MAISON LEMARIÉ",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": null,
    "categories": [
@@ -5401,16 +8255,123 @@
    "skills": [],
    "bonus_tags": [],
    "score": 0,
-   "date_posted": null,
+   "date_posted": "2026-08-24",
    "salary": null,
-   "description_snippet": "Rattaché(e) aux chefs de produits Homme, vous participerez activement à la gestion et au développement du portefeuille de marques.Vos missions principales seront :- Suivi et analyse des performances du portefeuille de marques : sell-out, sell-through, KPIs...- Participation à la stratégie de l’offre : recherche de nouvelles marques, benchmark, analyses concurrentielles, évènements et pop-up…- Coll",
+   "description_snippet": "Depuis sa naissance à Paris en 1880, Lemarié met son savoir-faire de plumassier au service de la création sous toutes ses formes. Au fil du temps, d’autres métiers d’art – fleuriste, couturier, plisseur, ennoblisseur textile – sont venus compléter sa pratique. Plumes légères, camélias emblématiques, plissés Lognon, effets de matière audacieux… Chaque création naît du geste précis de ses artisans, ",
    "sources": [
     {
      "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/groupe-printemps/Alt-assistant-achat-chef-de-produit-h-f,11956233.html"
+     "url": "https://fr.fashionjobs.com/emploi/maison-lemarie/Assistant-chef-de-produit,12007293.html"
     }
    ],
-   "first_seen": "2026-08-25"
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "728026cdce2b84d5",
+   "title": "Growth Marketing Manager 360° F/H",
+   "company": "TEAMIS",
+   "location": "Paris 17 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-19",
+   "salary": "A négocier",
+   "description_snippet": "En postulant à cette offre, vous aurez l'opportunité de rejoindre une jeune pousse innovante (SaaS B2B) qui révolutionne le secteur de la transition énergétique. Sa solution logicielle permet d'accélérer et de simplifier le déploiement de projets photovoltaïques en Europe. Il...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179282037W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "01940f093fa4ce3d",
+   "title": "Growth Marketing Manager 360° F/H",
+   "company": "Meteojob",
+   "location": "Paris 09 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-17",
+   "salary": "A négocier",
+   "description_snippet": "En postulant à cette offre, vous aurez l'opportunité de rejoindre une jeune pousse innovante (SaaS B2B) qui révolutionne le secteur de la transition énergétique. Sa solution logicielle permet d'accélérer et de simplifier le déploiement de projets photovoltaïques en Europe. ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179270519W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "922fb66fac845be8",
+   "title": "Growth Marketing Manager 360° F/H",
+   "company": "Hellowork",
+   "location": "Paris 17 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-17",
+   "salary": "45 - 60 k€ brut annuel",
+   "description_snippet": "En postulant à cette offre, vous aurez l'opportunité de rejoindre une jeune pousse innovante (SaaS B2B) qui révolutionne le secteur de la transition énergétique. Sa solution logicielle permet d'accélérer et de simplifier le déploiement de projets photovoltaïques en Europe. Ils...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179271402W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "95baa9c755ccc933",
+   "title": "Head of Marketing | CMO @ VC backed Company",
+   "company": "XAnge",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-13",
+   "salary": null,
+   "description_snippet": "Head of Marketing | CMO @ VC backed Company **Who we're looking for** We care about track record and mindset, not pedigree. 10+ years is a guideline, not a hard rule: exceptional profiles below that threshold are welcome. **Preferred experience:** you have owned the full marketing function in a startup or scale-up (Series A to C) and built a marketing team from 0 to 1 and beyond. * **Hard skills:*",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/xange/jobs/head-of-marketing-vc-backed-company_paris_XANGE_DmxXKWq"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "b150ba36cb0c5396",
@@ -5465,113 +8426,6 @@
     }
    ],
    "first_seen": "2026-08-25"
-  },
-  {
-   "id": "9f1d553d31b94df8",
-   "title": "CDI - Chef de produit développement confirmé (H/F)",
-   "company": "MAKE UP FOR EVER",
-   "location": "Levallois-Perret, A8, FR",
-   "city": "Levallois-Perret",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-08-23",
-   "salary": null,
-   "description_snippet": "### **Position** WELCOME TO THE COLLECTIVE Nous sommes un collectif qui ne cesse de faire évoluer le monde du maquillage. Au cœur de notre mission : la création de produits et services hautement performants conçus pour permettre à chacun de révéler sa propre personnalité. Ensemble, nous aspirons à faire de cette vision de la beauté une réalité en inspirant, en encourageant et en créant du lien ave",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=04186ebdddd2a35a"
-    }
-   ],
-   "first_seen": "2026-08-25"
-  },
-  {
-   "id": "50c920c4ffe46d82",
-   "title": "Assistant(e) Chef de Projets CRM - Communications Digitales – Janvier 2027",
-   "company": "PARFUMS CHRISTIAN DIOR",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "Souhaitez-vous rejoindre la Maison des Rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Assistant-chef-de-projets-crm-communications-digitales-janvier-2027,11894146.html"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "8603f20835b42169",
-   "title": "Marketing Analyst",
-   "company": "SALOMON",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "performance_marketing",
-    "marketing_analytics"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "Description de l'entreprise Amer Sports is a sporting goods company with internationally recognized brands including Salomon, Arc'teryx, Peak Performance, Atomic and Wilson. \"The Mountain Sport Company\", Salomon was born in 1947 in the heart of the French Alps and the birthplace of modern alpinism. Salomon's commitment to innovative design and passion for mountain sports created a vast range of re",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/salomon/Marketing-analyst,12000985.html"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "f85c8f4410a3d29c",
-   "title": "Consultant Data Analyst Marketing - F/H",
-   "company": "VML Enterprise Solutions",
-   "location": "Paris (75)",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_analytics"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "",
-   "sources": [
-    {
-     "name": "Isarta",
-     "url": "https://isarta.fr/?job=75786"
-    }
-   ],
-   "first_seen": "2026-08-23"
   },
   {
    "id": "bb60f1b8c47b16b5",
@@ -5659,6 +8513,33 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "f85c8f4410a3d29c",
+   "title": "Consultant Data Analyst Marketing - F/H",
+   "company": "VML Enterprise Solutions",
+   "location": "Paris (75)",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-23",
+   "salary": null,
+   "description_snippet": "",
+   "sources": [
+    {
+     "name": "Isarta",
+     "url": "https://isarta.fr/?job=75786"
+    }
+   ],
+   "first_seen": "2026-08-23",
+   "date_assumed": true
   },
   {
    "id": "221b1bbd4bd104b0",
@@ -6040,6 +8921,112 @@
    "first_seen": "2026-08-26"
   },
   {
+   "id": "966470bd69bb6280",
+   "title": "Chef de Produit Souliers Femme Senior (F/H)",
+   "company": "CHRISTIAN DIOR COUTURE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-08-22",
+   "salary": null,
+   "description_snippet": "From the House of Dreams to the House of Talents « Quoi que vous fassiez - pour le travail ou le plaisir - faites-le avec passion ! Vivez avec passion... »* Christian Dior Christian Dior fut le couturier du rêve. Dès la fondation de sa Maison en 1947, marquée par la révolution du New Look, il métamorphose ses songes en de merveilleuses créations. Son esprit visionnaire n’a eu de cesse de magnifier",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/christian-dior-couture/Chef-de-produit-souliers-femme-senior,11667777.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "e8713f66eae53cf6",
+   "title": "Chef de produit Senior",
+   "company": "BIOLOGIQUE RECHERCHE",
+   "location": "Suresnes",
+   "city": "Suresnes",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-07-30",
+   "salary": null,
+   "description_snippet": "Chef de produit Senior **Votre profil :** * Vous avez suivi une formation supérieure type Bac+5 * Vous bénéficiez d’un minimum de 4 ans d’expérience en gestion de projet, marketing stratégique dans les secteurs : cosmétiques, premium/luxe ou beauté. * L’anglais courant écrit et oral vous sera nécessaire * L’esprit d’équipe et un très bon relationnel font partis de vos atouts * Vous détenez de bonn",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/biologique-recherche-fr/jobs/chef-de-produit-senior_suresnes"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "0e5c892efbff11bf",
+   "title": "Talent Pool - Chef de Produit Marketing Developpement Soin Senior - F/H",
+   "company": "PARFUMS CHRISTIAN DIOR",
+   "location": "Neuilly-Sur-Seine",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-08-24",
+   "salary": null,
+   "description_snippet": "Souhaitez-vous rejoindre la Maison des rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Talent-pool-chef-de-produit-marketing-developpement-soin-senior-f-h,11788357.html"
+    }
+   ],
+   "first_seen": "2026-08-25"
+  },
+  {
+   "id": "fdc1430ca9b73b7c",
+   "title": "Talent Pool - Chef de Produit Marketing Developpement Parfum Senior - F/H",
+   "company": "PARFUMS CHRISTIAN DIOR",
+   "location": "Neuilly-Sur-Seine",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-08-24",
+   "salary": null,
+   "description_snippet": "Souhaitez-vous rejoindre la Maison des rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Talent-pool-chef-de-produit-marketing-developpement-parfum-senior-f-h,11788327.html"
+    }
+   ],
+   "first_seen": "2026-08-25"
+  },
+  {
    "id": "c4e5109c2687b528",
    "title": "Chef de projet CRM / Marketing Automation Senior - H/F",
    "company": "JOBGLOBER",
@@ -6282,6 +9269,162 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "5f500eb4215a399b",
+   "title": "Chef de Produit Senior Développement Tailleur bu Homme (H/F)",
+   "company": "CHRISTIAN DIOR COUTURE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-08-22",
+   "salary": null,
+   "description_snippet": "Au sein du service développement produit Homme PAPH Christian Dior Couture, et rattaché au Chef de Groupe Développement Formel ; vous contribuez au développement de la catégorie. Suivi du développement de la collection dans le respect des délais, de la qualité des modèles et du budget. Interface avec les façonniers, le studio, le service marketing et la production. Coordination des modèles lancés ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/christian-dior-couture/Chef-de-produit-senior-developpement-tailleur-bu-homme,11894817.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "78ee83721b47d206",
+   "title": "Chef de Produit Maille Confirmé H/F",
+   "company": "SINTEL",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-08-17",
+   "salary": null,
+   "description_snippet": "Depuis plus de 30 ans, SINTEL est un acteur majeur du recrutement, (Placement, Interim, Management de Transition, Technical & Executive Search) avec une expertise reconnue dans les secteurs : • Couture / Mode/ Luxe • Retail • Tertiaire / Finance • Supply Chain • Technique / Design En partenaire RH, nous intervenons auprès de sociétés, PME, groupes internationaux, apportant toute notre écoute, expe",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/sintel/Chef-de-produit-maille-confirme-h-f,11985208.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "9e70f828a3d21caa",
+   "title": "Chef de Produit / Développeur Confirmé PAP Luxe H/F",
+   "company": "SINTEL",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-08-17",
+   "salary": null,
+   "description_snippet": "Depuis plus de 30 ans, SINTEL est un acteur majeur du recrutement, (Placement, Interim, Management de Transition, Technical & Executive Search) avec une expertise reconnue dans les secteurs : - Couture / Mode/ Luxe - Retail - Tertiaire / Finance - Supply Chain - Technique / Design En partenaire RH, nous intervenons auprès de sociétés, PME, groupes internationaux, apportant toute notre écoute, expe",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/sintel/Chef-de-produit-developpeur-confirme-pap-luxe-h-f,11985207.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "a8f7d1cbaf4f992f",
+   "title": "Chef de Produit Jersey Confirmé H/F",
+   "company": "SINTEL",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-08-14",
+   "salary": null,
+   "description_snippet": "Depuis plus de 30 ans, SINTEL est un acteur majeur du recrutement, (Placement, Interim, Management de Transition, Technical & Executive Search) avec une expertise reconnue dans les secteurs : • Couture / Mode/ Luxe • Retail • Tertiaire / Finance • Supply Chain • Technique / Design En partenaire RH, nous intervenons auprès de sociétés, PME, groupes internationaux, apportant toute notre écoute, expe",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/sintel/Chef-de-produit-jersey-confirme-h-f,11977881.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "5de211a24de63c0d",
+   "title": "Chef de Produit Tailleur Confirmé H/F",
+   "company": "SINTEL",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-08-14",
+   "salary": null,
+   "description_snippet": "Depuis plus de 30 ans, SINTEL est un acteur majeur du recrutement, (Placement, Interim, Management de Transition, Technical & Executive Search) avec une expertise reconnue dans les secteurs : - Couture / Mode/ Luxe - Retail - Tertiaire / Finance - Supply Chain - Technique / Design En partenaire RH, nous intervenons auprès de sociétés, PME, groupes internationaux, apportant toute notre écoute, expe",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/sintel/Chef-de-produit-tailleur-confirme-h-f,11977880.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "29fb01666b528258",
+   "title": "Chef de Produit Senior Maroquinerie Lady Dior et Piliers H/F",
+   "company": "CHRISTIAN DIOR COUTURE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-08-02",
+   "salary": null,
+   "description_snippet": "Nous sommes à la recherche d’un Chef de Produit Senior Sac Femme – Lady Dior & Pilliers H/F, au sein du département Marketing Maroquinerie Femme. Votre rôle consiste à accompagner le développement des collections et leur commercialisation. Accompagner le développement des collections : Être garant que l’offre sur Lady Dior & les piliers soit équilibrée, porteuse de la vision artistique de la Maiso",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/christian-dior-couture/Chef-de-produit-senior-maroquinerie-lady-dior-et-piliers-h-f,11812412.html"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "75aef9dda9a08952",
    "title": "Chef de projet CRM Confirmé / Senior (H/F)",
    "company": "ASI",
@@ -6438,6 +9581,58 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "f8577fcf075ba03f",
+   "title": "Chef de produit Sénior F/H",
+   "company": "VAL DE RANCE",
+   "location": "Pleudihen-sur-Rance - 22",
+   "city": "Pleudihen-Sur-Rance - 22",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -6,
+   "date_posted": "2026-08-21",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "Pour accélérer le développement des marques nationales en France, notamment Val de Rance et Sous le pommier, nous recherchons un Chef de produits sénior(H/F) – basé à Pleudihen-sur-Rance Votre mission Rattaché(e) à la Direction générale, vous gérer le développement des marques de...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179273571W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "ddbc154349123add",
+   "title": "Chef de Produit Confirmé F/H",
+   "company": "Hellowork",
+   "location": "Levallois-Perret - 92",
+   "city": "Levallois-Perret - 92",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -6,
+   "date_posted": "2026-08-18",
+   "salary": "45 - 48 k€ brut annuel",
+   "description_snippet": "En tant que Chef de Produit, vous intervenez sur le scope SUSHI, POKE, ADD-ON & NOUVEAU CONCEPT sur les missions ci-dessous : LEAD SUR LE DEVELOPPEMENT D'INNOVATION : Recherche sur les tendances de consommation, tendances marché et suivi des concurrents Participation active ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179276006W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "f08e9842d17a62e1",
    "title": "CHEF DE PRODUIT SENIOR F/H",
    "company": "COLLINES DE PROVENCE",
@@ -6592,58 +9787,6 @@
     }
    ],
    "first_seen": "2026-08-23"
-  },
-  {
-   "id": "0e5c892efbff11bf",
-   "title": "Talent Pool - Chef de Produit Marketing Developpement Soin Senior - F/H",
-   "company": "PARFUMS CHRISTIAN DIOR",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -8,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "Souhaitez-vous rejoindre la Maison des rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Talent-pool-chef-de-produit-marketing-developpement-soin-senior-f-h,11788357.html"
-    }
-   ],
-   "first_seen": "2026-08-25"
-  },
-  {
-   "id": "fdc1430ca9b73b7c",
-   "title": "Talent Pool - Chef de Produit Marketing Developpement Parfum Senior - F/H",
-   "company": "PARFUMS CHRISTIAN DIOR",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -8,
-   "date_posted": null,
-   "salary": null,
-   "description_snippet": "Souhaitez-vous rejoindre la Maison des rêves ? Dans cette Maison, nous connaissons notre raison d’être qui est de rendre le monde plus beau et plus heureux, à l’instar du vœu le plus cher de Christian Dior. En nous rejoignant, vous consoliderez notre vision : Celle de devenir la Maison la plus désirable au monde, une référence absolue du luxe à la française, un symbole de joie et d’espérance. Cett",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Talent-pool-chef-de-produit-marketing-developpement-parfum-senior-f-h,11788327.html"
-    }
-   ],
-   "first_seen": "2026-08-25"
   }
  ]
 }
