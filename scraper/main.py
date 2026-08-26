@@ -1,4 +1,4 @@
-"""JobRadar France — 每日抓取主程式。
+"""Jo's Chasse — 每日抓取主程式。
 
 用法：
     python -m scraper.main            # 正常抓取（Actions 每天跑這個）
@@ -21,14 +21,14 @@ from pathlib import Path
 import yaml
 
 from scraper import enrich
-from scraper.util import norm, utcnow_iso
+from scraper.util import PARIS, norm, paris_today, utcnow_iso
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "data" / "jobs.json"
 RETENTION_DAYS = 30
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
-log = logging.getLogger("jobradar")
+log = logging.getLogger("chasse")
 
 
 def load_cfg() -> dict:
@@ -40,7 +40,8 @@ def load_cfg() -> dict:
         cat["skill_keywords"] = [norm(k) for k in cat["skill_keywords"]]
     for tag in cfg.get("bonus_tags", {}).values():
         tag["skill_keywords"] = [norm(k) for k in tag["skill_keywords"]]
-    for key in ("exclude_title", "exclude_title_foreign", "seniority_boost_title",
+    for key in ("exclude_title", "exclude_title_foreign", "exclude_title_abbrev",
+                "seniority_boost_title",
                 "seniority_penalty_title", "contract_boost", "west_cities"):
         cfg[key] = [norm(k) for k in cfg.get(key, [])]
     return cfg
@@ -51,6 +52,17 @@ def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
 
     hours_old = int(os.environ.get("HOURS_OLD", "72"))
     per_term = int(os.environ.get("RESULTS_PER_TERM", "50"))
+
+    # 列表型來源用來排詳情頁名額的順序。判斷只能看卡片摘要，而卡片摘要是截斷的，
+    # 所以「五類都沒中」不能當成判死——classify() 本來就有靠完整描述補救的路徑，
+    # 詳情頁不抓就永遠救不回來。只有標題層級的硬性排除（Stage／Alternance 等）
+    # 是拿到全文也不會翻盤的，那種才真的不值得花名額。
+    #   None = 不值得花　0 = 優先（卡片就看得出是目標職缺）　1 = 次要（名額有剩再補）
+    def detail_priority(job: dict) -> int | None:
+        if enrich.excluded_title(job.get("title") or "", cfg):
+            return None
+        return 0 if enrich.classify(job, cfg) else 1
+
     terms = cfg["search_terms"]
 
     raw: list[dict] = []
@@ -59,8 +71,8 @@ def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
         ("Indeed", lambda: indeed_jobspy.fetch(terms, hours_old, per_term)),
         ("Welcome to the Jungle", lambda: wttj.fetch(terms)),
         ("France Travail", lambda: france_travail.fetch(terms, max_days_old=max(1, hours_old // 24))),
-        ("APEC", lambda: apec.fetch(terms)),
-        ("Fashion Jobs", lambda: fashionjobs.fetch(known_urls)),
+        ("APEC", lambda: apec.fetch(terms, results_per_term=per_term)),
+        ("Fashion Jobs", lambda: fashionjobs.fetch(known_urls, detail_priority)),
         ("Isarta", lambda: isarta.fetch(known_urls)),
     ]:
         try:
@@ -97,7 +109,8 @@ def main() -> int:
     if OUT.exists():
         try:
             for j in json.loads(OUT.read_text(encoding="utf-8")).get("jobs", []):
-                if j.get("date_posted"):
+                # date_assumed 的日期是推定值、不代表詳情頁補過，仍要重排進預算
+                if j.get("date_posted") and not j.get("date_assumed"):
                     known_urls.update(s.get("url", "") for s in j.get("sources", []))
         except (json.JSONDecodeError, KeyError):
             pass
@@ -113,7 +126,7 @@ def main() -> int:
     kept = enrich.dedupe(kept)
 
     # 與歷史合併（保留 first_seen，讓「最近24小時／7天」視圖有依據）
-    today = utcnow_iso()[:10]
+    today = paris_today()
     history = {}
     if OUT.exists():
         try:
@@ -124,15 +137,29 @@ def main() -> int:
     for j in kept:
         old = history.get(j["id"])
         j["first_seen"] = old.get("first_seen", today) if old else today
+        # kept 裡的 j 是這次重新分類出來的新物件，會整筆蓋掉舊紀錄。列表型來源
+        # 這次若沒花詳情頁名額，date_posted 會是 None，下面就會被補成推定值——
+        # 那不只讓畫面從真日期退化成「約」，還會讓下次執行把它當成「沒補過」而
+        # 重抓同一頁，來回無限循環。所以先把上次拿到的真實公告日接回來。
+        if old and not j.get("date_posted") and not old.get("date_assumed"):
+            j["date_posted"] = old.get("date_posted")
         history[j["id"]] = j
 
     # 30 天過期下架 + 用「目前的」排除規則重新清洗歷史（規則更新即回溯生效）
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).strftime("%Y-%m-%d")
+    cutoff = (datetime.now(PARIS) - timedelta(days=RETENTION_DAYS)).strftime("%Y-%m-%d")
     jobs = [
         j for j in history.values()
         if (j.get("first_seen") or today) >= cutoff
         and not enrich.excluded_title(j.get("title", ""), cfg)
     ]
+
+    # 來源沒給公告日：假設「首次抓到的那天」就是公告日，並標記成推定值，
+    # 讓前端顯示成「約 YYYY-MM-DD」而不是冒充精確資料。
+    # 放在這裡而不是上面的迴圈，是為了連同「這次沒重抓到的歷史紀錄」一起補。
+    for j in jobs:
+        if not j.get("date_posted"):
+            j["date_posted"] = j.get("first_seen") or today
+            j["date_assumed"] = True
 
     # 排序：分數高在前，同分者新的在前
     jobs.sort(key=lambda j: (-j["score"], _desc(j.get("first_seen")), _desc(j.get("date_posted"))))

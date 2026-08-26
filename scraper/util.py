@@ -5,6 +5,7 @@ import hashlib
 import re
 import unicodedata
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 
 def strip_accents(text: str) -> str:
@@ -36,8 +37,16 @@ def job_id(company: str, title: str) -> str:
     return hashlib.sha1(key.encode()).hexdigest()[:16]
 
 
+PARIS = ZoneInfo("Europe/Paris")
+
+
 def utcnow_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def paris_today() -> str:
+    """站上所有日期都以巴黎當地日為準（職缺公告日本來就是法國當地日期）。"""
+    return datetime.now(PARIS).strftime("%Y-%m-%d")
 
 
 def to_date_str(value) -> str | None:

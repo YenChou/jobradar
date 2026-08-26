@@ -1,1 +1,1 @@
-"""JobRadar scraper package."""
+"""Jo's Chasse scraper package."""

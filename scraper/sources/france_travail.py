@@ -18,7 +18,10 @@ import requests
 
 from scraper.util import to_date_str
 
-log = logging.getLogger("jobradar.francetravail")
+log = logging.getLogger("chasse.francetravail")
+
+PAGE_SIZE = 150  # API 單次上限
+PAGES = 2
 
 TOKEN_URL = "https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire"
 SEARCH_URL = "https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search"
@@ -38,15 +41,18 @@ def fetch(search_terms: list[str], max_days_old: int = 7) -> list[dict]:
     jobs: list[dict] = []
     seen_ids: set[str] = set()
     for term in search_terms:
-        offers = _search(token, term, max_days_old)
-        for o in offers:
-            oid = o.get("id")
-            if oid in seen_ids:
-                continue
-            seen_ids.add(oid)
-            jobs.append(_to_job(o))
-        log.info("France Travail %r → %d 筆", term, len(offers))
-        time.sleep(1)
+        for page in range(PAGES):
+            offers = _search(token, term, max_days_old, page)
+            for o in offers:
+                oid = o.get("id")
+                if oid in seen_ids:
+                    continue
+                seen_ids.add(oid)
+                jobs.append(_to_job(o))
+            log.info("France Travail %r p%d → %d 筆", term, page, len(offers))
+            time.sleep(1)
+            if len(offers) < PAGE_SIZE:
+                break  # 不足一頁代表沒有下一頁
     return jobs
 
 
@@ -69,11 +75,13 @@ def _get_token(client_id: str, client_secret: str) -> str | None:
         return None
 
 
-def _search(token: str, term: str, max_days_old: int) -> list[dict]:
+def _search(token: str, term: str, max_days_old: int, page: int = 0) -> list[dict]:
+    lo = page * PAGE_SIZE
     params = {
         "motsCles": term,
-        "publieeDepuis": str(min(max_days_old, 31)),  # API 接受 1/3/7/14/31
-        "range": "0-99",
+        "publieeDepuis": str(min(max_days_old, 31)),  # API 接受 1/3/7/14/31：新鮮度
+        "sort": "0",  # 0=關聯度遞減（1=日期、2=距離）。新鮮度已由 publieeDepuis 把關
+        "range": f"{lo}-{lo + PAGE_SIZE - 1}",
     }
     try:
         r = requests.get(
@@ -84,6 +92,8 @@ def _search(token: str, term: str, max_days_old: int) -> list[dict]:
         )
         if r.status_code == 204:  # 無結果
             return []
+        if r.status_code == 206:  # 部分內容：正常，代表還有更多筆
+            return r.json().get("resultats", [])
         r.raise_for_status()
         return r.json().get("resultats", [])
     except Exception as e:

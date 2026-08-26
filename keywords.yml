@@ -1,4 +1,4 @@
-# JobRadar France — 關鍵字設定檔
+# Jo's Chasse — 關鍵字設定檔
 # 改這個檔案就能調整分類與排序，不用動程式。
 # 所有比對都是「不分大小寫、不分重音」(chargé == charge)。
 
@@ -114,9 +114,46 @@ bonus_tags:
       - "montage video"
       - "contenu digital"
 
-# ── 過濾與排序規則 ─────────────────────────────
+  # 要求中文能力的職缺。
+  # 刻意不收單獨的 "chinois"——法文的「中國的」與「中文」同字，"marché chinois"
+  # （中國市場）不代表要會中文。所以模糊的那個字一律搭語言講法才算，
+  # 明確只指語言的字（mandarin、中文、HSK…）才單獨成立。
+  chinese:
+    label: "需中文"
+    skill_keywords:
+      # 明確指語言
+      - "mandarin"
+      - "cantonais"
+      - "chinese speaker"
+      - "chinese speaking"
+      - "chinese-speaking"
+      - "fluent in chinese"
+      - "native chinese"
+      - "chinese fluent"
+      - "hsk"
+      - "中文"
+      - "普通話"
+      - "普通话"
+      - "國語"
+      # "chinois" 搭語言講法
+      - "chinois courant"
+      - "courant en chinois"
+      - "bilingue chinois"
+      - "parle chinois"
+      - "parlez chinois"
+      - "parlant chinois"
+      - "maitrise du chinois"
+      - "langue chinoise"
+      - "chinois natif"
+      - "chinois obligatoire"
+      - "chinois exige"
+      - "chinois souhaite"
+      - "anglais/chinois"
+      - "anglais / chinois"
+      - "anglais et chinois"
+      - "francais/chinois"
+      - "chinois lu"
 
-# 硬性排除：職稱含以下字樣直接丟棄
 exclude_title:
   - "stage"
   - "stagiaire"
@@ -126,6 +163,17 @@ exclude_title:
   - "apprenti"
   - "apprentissage"
   - "internship"
+  # 採購職：法文職缺常寫成「Acheteur / Chef de Produit」，是採購不是行銷
+  - "acheteur"
+  - "acheteuse"
+
+# 硬性排除（整字比對）：實習／建教的縮寫寫法，例如「Stg - Assistant...」「Alt - Chargé...」。
+# 這些要整字比對，不能像 exclude_title 那樣用子字串——"alt" 會誤殺一堆正常字。
+exclude_title_abbrev:
+  - "stg"
+  - "alt"
+  - "stag"
+  - "appr"   # 不要用 "app"：會誤殺 App Marketing Manager 這類正當職缺
 
 # 硬性排除：職稱明顯針對其他國家市場（法國公司常替海外市場開缺、掛在巴黎辦公室下，
 # 會騙過來源端的國家過濾；職稱含非法國國旗 emoji 也會被程式自動排除）
