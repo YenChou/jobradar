@@ -15,7 +15,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-log = logging.getLogger("jobradar.isarta")
+log = logging.getLogger("chasse.isarta")
 
 LIST_URL = "https://isarta.fr/cgi-bin/emplois/jobs"
 JOB_LINK = re.compile(r"\?job=(\d+)")

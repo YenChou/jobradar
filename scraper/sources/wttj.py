@@ -13,7 +13,7 @@ import requests
 
 from scraper.util import to_date_str
 
-log = logging.getLogger("jobradar.wttj")
+log = logging.getLogger("chasse.wttj")
 
 ALGOLIA_APP = "CSEKHVMS53"
 ALGOLIA_KEY = "4bd8f6215d0cc52b26430765769e65a0"  # 公開搜尋金鑰（網站前端使用的同一組）

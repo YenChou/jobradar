@@ -15,7 +15,7 @@ import requests
 
 from scraper.util import to_date_str
 
-log = logging.getLogger("jobradar.apec")
+log = logging.getLogger("chasse.apec")
 
 SEARCH_URL = "https://www.apec.fr/cms/webservices/rechercheOffre"
 DETAIL_URL = "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/{id}"

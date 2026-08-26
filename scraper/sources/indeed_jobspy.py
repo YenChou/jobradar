@@ -10,7 +10,7 @@ import time
 
 from scraper.util import to_date_str
 
-log = logging.getLogger("jobradar.indeed")
+log = logging.getLogger("chasse.indeed")
 
 
 def fetch(search_terms: list[str], hours_old: int = 72, results_per_term: int = 50) -> list[dict]:

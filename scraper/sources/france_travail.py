@@ -18,7 +18,7 @@ import requests
 
 from scraper.util import to_date_str
 
-log = logging.getLogger("jobradar.francetravail")
+log = logging.getLogger("chasse.francetravail")
 
 TOKEN_URL = "https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire"
 SEARCH_URL = "https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search"
