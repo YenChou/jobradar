@@ -149,9 +149,9 @@
     <div class="row">
       <span class="lbl">時間</span>
       <div class="seg" id="seg-view" role="group" aria-label="時間範圍">
-        <button data-v="24h" aria-pressed="false">最近 24 小時</button>
-        <button data-v="7d" aria-pressed="true">最近 7 天</button>
-        <button data-v="all" aria-pressed="false">全部（30 天）</button>
+        <button data-v="24h" aria-pressed="false" title="依職缺公告日期（巴黎時區）；來源只提供到「日」，實際涵蓋今天與昨天公告的職缺">最近 24 小時</button>
+        <button data-v="7d" aria-pressed="true" title="依職缺公告日期（巴黎時區）">最近 7 天</button>
+        <button data-v="all" aria-pressed="false" title="站上保留的全部職缺（收錄後保留 30 天）">全部（30 天）</button>
       </div>
       <input type="search" id="q" placeholder="搜尋職稱、公司、城市⋯" aria-label="搜尋">
     </div>
@@ -328,18 +328,25 @@ function allJobs(){
   return manualJobs.concat(DATA.jobs || []);
 }
 
+// 職缺公告日期一律是「來源當地（法國）的日期」，且只精確到天。
+// 時間窗因此以 Europe/Paris 為基準，不受瀏覽者所在時區影響。
+const TZ = "Europe/Paris";
+const TZ_FMT = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year:"numeric", month:"2-digit", day:"2-digit" });
+function dateStr(d){ return TZ_FMT.format(d); }   // → "YYYY-MM-DD"
+
 function daysAgo(n){
   const d = new Date(); d.setDate(d.getDate() - n);
-  return d.toISOString().slice(0,10);
+  return dateStr(d);
 }
 
 function render(){
-  const today = new Date().toISOString().slice(0,10);
+  const today = dateStr(new Date());
   const cut24 = daysAgo(1), cut7 = daysAgo(7);
   const jobs = allJobs().filter(j => {
-    const seen = j.first_seen || j.date_posted || today;
-    if (state.view === "24h" && seen < cut24) return false;
-    if (state.view === "7d"  && seen < cut7)  return false;
+    // 時間篩選以「公告日期」為準；少數來源沒有公告日，退回首次收錄日免得整批消失。
+    const posted = j.date_posted || j.first_seen || today;
+    if (state.view === "24h" && posted < cut24) return false;
+    if (state.view === "7d"  && posted < cut7)  return false;
     if (state.cat.size && !j.categories.some(c => state.cat.has(c)) && !j._manual) return false;
     if (state.region.size && !state.region.has(j.region)) return false;
     if (state.mode.size && !state.mode.has(j.work_mode)) return false;
@@ -463,7 +470,7 @@ function addManual(){
   manual.unshift({
     id: "m_" + Date.now(), title, company, url,
     location: v("add-location"), note: v("add-note"),
-    added: new Date().toISOString().slice(0,10),
+    added: dateStr(new Date()),
   });
   store.set("jr_manual", manual);
   ["add-title","add-company","add-url","add-location","add-note"].forEach(i => document.getElementById(i).value = "");
