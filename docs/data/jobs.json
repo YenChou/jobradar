@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-25T05:05:15Z",
+ "generated_at": "2026-08-26T05:06:15Z",
  "source_stats": {
-  "Indeed": 312,
+  "Indeed": 386,
   "Welcome to the Jungle": 875,
-  "France Travail": 15,
-  "APEC": 272,
-  "Fashion Jobs": 117,
-  "Isarta": 89
+  "France Travail": 19,
+  "APEC": 315,
+  "Fashion Jobs": 123,
+  "Isarta": 91
  },
- "count": 217,
- "new_today": 23,
+ "count": 239,
+ "new_today": 22,
  "jobs": [
   {
    "id": "db2f00d3e9ecbad5",
@@ -76,6 +76,34 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "f6e45954c42da726",
+   "title": "Supplier Marketing Specialist",
+   "company": "Thermo Fisher Scientific",
+   "location": "Télétravail, FR",
+   "city": "Teletravail",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "**Work Schedule** Standard (Mon\\-Fri)**Environmental Conditions** Office**Job Description** As part of the Thermo Fisher Scientific team, you’ll discover meaningful work that makes a positive impact on a global scale. Join our colleagues in bringing our Mission to life every single day — enabling our customers to make the world healthier, cleaner and safer. We provide our global teams with the res",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c5248f9e3189cd1a"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "9c93c4192bdf92aa",
    "title": "B2B GROWTH MARKETING AND CRM SPECIALIST F/M",
    "company": "Adhex Technologies",
@@ -103,6 +131,36 @@
     }
    ],
    "first_seen": "2026-08-25"
+  },
+  {
+   "id": "e0d9933396c9c14e",
+   "title": "Chef de projet marketing CRM et acquisition (H/F)",
+   "company": "CMA Centre-Val de Loire",
+   "location": "Orléans, CVL, FR",
+   "city": "Orleans",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "kpi"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Vous les connaissez déjà. Nous travaillons pour eux. Lucas, le cordonnier d’en bas, Karim, le coiffeur du quartier, Louise, la boulangère … Acteurs économiques de proximité, fiers de leurs enseignes et de leurs métiers, ils dynamisent nos quartiers et participent à vie locale. À la Chambre de Métiers et de l’Artisanat Centre Val de Loire (CMA CVL), nous sommes plus de 600 à contribuer à les former",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f3c215ea678a9b28"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "a39e5e72b55416ac",
@@ -151,13 +209,13 @@
    ],
    "bonus_tags": [],
    "score": 16,
-   "date_posted": "2026-08-16",
+   "date_posted": "2026-08-25",
    "salary": null,
    "description_snippet": "Product Marketing Lead, Manager (PMM) - Full Remote ### **✨ Ce sera un match parfait si tu as…** * Tu as une vraie **mécanique go-to-market** : tu penses pénétration de marché, adoption, P&L, et tu sais switcher entre \"chercher du revenu sur l'existant\" et \"ouvrir de nouveaux marchés\". Tu peux me raconter un cas où ton boulot a bougé l'aiguille sur le revenu ou la pénétration * Tu as déjà owné des",
    "sources": [
     {
      "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/boondmanager/jobs/product-marketing-lead-manager-pmm-full-remote_BOOND_yKjzWNZ"
+     "url": "https://www.welcometothejungle.com/fr/companies/boondmanager/jobs/product-marketing-lead-manager-pmm-full-remote_BOOND_VxrdeON"
     }
    ],
    "first_seen": "2026-08-23"
@@ -223,6 +281,137 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "4a7717712643728a",
+   "title": "Chef de projet CRM & Engagement H/F",
+   "company": "NEXTON",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "marketing automation",
+    "parcours client",
+    "segmentation"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-08-25",
+   "salary": "A négocier",
+   "description_snippet": "**Description de l'entreprise** **Qui sommes\\-nous ?** Rejoindre NEXTON, c'est intégrer une entreprise où convergent l'esprit d'un cabinet de conseil, la créativité d'une agence et la dynamique d'une ESN ! Grâce à notre expertise, nous accompagnons des clients grands comptes et des pure players tels que SNCF, Orange, et BNP Paribas dans leurs stratégies d'évolution et d'innovation digitale. Fondée",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=55c508451e44ab41"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/chef-de-projet-crm-engagement-h-f_paris"
+    },
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179310299W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "6fef1b432961def1",
+   "title": "Chargé de communication et marketing H/F",
+   "company": "VDS",
+   "location": "Nieppe, HDF, FR",
+   "city": "Nieppe",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "newsletter"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "**Chargé de communication CDI** La société VANDERSCHOOTEN, c’est l’histoire d’un savoir\\-faire textile français qui traverse les générations et continue de se réinventer. Depuis plus de 80 ans, nous créons, fabriquons et distribuons un linge de maison qui allie exigence, esthétique et responsabilité, à travers 3 marques iconiques : * **Alexandre Turpault**, la référence du raffinement à la françai",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=980a89ad194f88db"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "fb571688ac6532f5",
+   "title": "Chef de produit H/F",
+   "company": "VMI - VENTILAIRSEC",
+   "location": "Couëron, B5, FR",
+   "city": "Coueron",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "**Qui sommes\\-nous ?** Industriel multi\\-spécialistes en traitement de l’air, le groupe VENTILAIRSEC conçoit et développe depuis 1986 des systèmes de ventilation pour le résidentiel et le petit tertiaire, sous sa marque emblématique VMI®. **Nous recherchons notre futur(e) chef(fe) de produits en CDI en lien direct avec le Responsable marketing et communication.** **A ce titre, ta mission sera la s",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c9bd59f0c5230fe7"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "45f580e70a51ec09",
+   "title": "Responsable Marketing CMO (H/F)",
+   "company": "Vroom Market",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "kpi",
+    "meta ads",
+    "roi",
+    "sea",
+    "tracking",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-08-24",
+   "salary": null,
+   "description_snippet": "**Tu es celui ou celle qui fait que les choses avancent ?** Vroom Market accélère. Et notre marketing doit accélérer avec nous. On cherche quelqu’un pour prendre les sujets en main : structurer la stratégie, piloter l'acquisition, développer la marque, driver une petite équipe, et faire en sorte que les bonnes idées deviennent des actions concrètes. Quelqu’un capable de prendre de la hauteur sur u",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c4881d6a4962a750"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "bef656683398825c",
@@ -630,6 +819,92 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "7cec6b9a9900361b",
+   "title": "Marketing Strategy Manager - Mandarin speaker",
+   "company": "FeverUp",
+   "location": "Télétravail, FR",
+   "city": "Teletravail",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roi",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Hey there! We're Fever, the world's leading tech platform for culture and live entertainment. Our mission? To democratize access to culture and entertainment. With our proprietary cutting\\-edge technology and data\\-driven approach, we're revolutionizing the way people engage with live entertainment. Every month, our platform inspires over 300 million people in \\+55 countries (and counting) to disc",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4559c29b86f66595"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "6e24d6b9ae82a2e0",
+   "title": "Chargé(e) de catégorie dph cdd H/F",
+   "company": "ALDI",
+   "location": "Villepinte, A8, FR",
+   "city": "Villepinte",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "**A propos de nous** **ALDI, grand groupe de distribution alimentaire européen, est leader sur son marché avec plus de 1300 points de vente,16 sociétés régionales et 16 entrepôts répartis partout en France.****Notre enseigne s’engage, chaque jour, à réinventer le discount pour rendre les courses aussi simples et rapides que possible en apportant au plus près des consommateurs les meilleurs produit",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ceab4ae7d8990e74"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "a4db7c8c2190d2e4",
+   "title": "Chef de produit marketing H/F",
+   "company": "GS27",
+   "location": "37 - TAUXIGNY ST BAULD",
+   "city": "37 - Tauxigny St Bauld",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement",
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-08-25",
+   "salary": "Annuel de 30000.0 Euros à 40000.0 Euros sur 12 mois",
+   "description_snippet": "VOTRE MISSION Piloter, structurer et accélérer la performance produit Rattaché(e) au responsable marketing, vous êtes garant de votre portefeuille produits de A à Z, avec une forte dimension stratégique et une orientation business. Stratégie & développement produit - Définir et piloter la roadmap produit (innovation, extensions de gamme, rationalisation) - Identifier les opportunités de marché et ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WVKW"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "cf7f660f605c5e79",
    "title": "Chef de projet CRM & Expérience client H/F - CDI - Paris (17ème)",
    "company": "Rexel France",
@@ -1034,6 +1309,58 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "f2e5c9dbc48a7e90",
+   "title": "Manager de projet brand packaging H/F",
+   "company": "ALDI",
+   "location": "Villepinte, A8, FR",
+   "city": "Villepinte",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "**A propos de nous** ALDI, grand groupe de distribution alimentaire européen, est leader sur son marché avec plus de 1300 points de vente,16 sociétés régionales et 16 entrepôts répartis partout en France. Notre enseigne s’engage, chaque jour, à réinventer le discount pour rendre les courses aussi simples et rapides que possible en apportant au plus près des consommateurs les meilleurs produits au ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1c61660387b1d61c"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "527357d600b22ed7",
+   "title": "Chef de Produit Aéronautique F/H",
+   "company": "MYRECRUTEUR",
+   "location": "Le Mans - 72",
+   "city": "Le Mans",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-25",
+   "salary": "35 - 55 k€ brut annuel",
+   "description_snippet": "Dans le cadre d'une création de poste, rattaché au Responsable Commercial et Marketing, vous intervenez en tant que Chef de Produit Aéronautique H/F en pilotant la stratégie marketing & développement de vos familles de produits dans une vision moyen terme. Dans ce cadre, vos mis...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179310452W"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "19fd71b2164ed733",
@@ -1663,6 +1990,39 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "655d9e1f63dac5ea",
+   "title": "Senior, Field Marketing",
+   "company": "Forterro",
+   "location": "Télétravail, FR",
+   "city": "Teletravail",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "We are looking for a strategic and hands\\-on Demand Gen Lead, passionate about data\\-driven marketing, thriving in a collaborative environment, and looking to make a measurable impact by shaping growth strategy in one of our most dynamic markets. Strong understanding of the full revenue engine, including how marketing, BDR, and sales contribute to pipeline quality and velocity. This role is respon",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=495b9be42986e019"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "d9911c0f02a2126a",
@@ -2389,6 +2749,39 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "2a546deac29bf164",
+   "title": "Responsable Marketing Produit",
+   "company": "Bleu",
+   "location": "Puteaux",
+   "city": "Puteaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-06-30",
+   "salary": "A négocier",
+   "description_snippet": "Responsable Marketing Produit * Vous êtes diplômé(e) d'une grande école d’ingénieur ou d’une formation en marketing équivalente à un niveau bac+5 avec une appétence pour les nouvelles technologies. * Vous avez au minimum 5 ans d’expérience, dont une expérience en Marketing Produit dans un environnement technologique. * Vous maitrisez les technologies et les enjeux du Cloud, et idéalement Microsoft",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/bleu/jobs/responsable-marketing-produit_puteaux_BLEU_a2J358o"
+    },
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179308488W"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "2ab8d1f19d33e7a1",
    "title": "Product Owner CRM / Chef de Projet CRM",
    "company": "eXalt",
@@ -2417,6 +2810,58 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "0f046ba4d72298b8",
+   "title": "Lead Product Marketing Manager - 100% remote F/H",
+   "company": "PMEJOB",
+   "location": "Paris 01 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-26",
+   "salary": "70 - 75 k€ brut annuel",
+   "description_snippet": "Boond est en train de Scale ! Boond, c'est la plateforme SaaS qui booste la performance des ESN et cabinets de conseil. On accompagne 2000 clients, ESN, cabinets de conseil et sociétés d'ingénierie, et près de 100 000 utilisateurs en France et à l'international. Le tout en 10...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179310992W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "3b8fbb6e30e03416",
+   "title": "CDI - Business Development Manager NAM (F/H/X)",
+   "company": "Sephora",
+   "location": "Neuilly-sur-Seine, A8, FR",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "**CDI \\- BUSINESS DEVELOPMENT MANAGER NAM** **(F/H/X)** Chez Sephora, la beauté, c’est se sentir reconnu, valorisé et épanoui, aussi bien individuellement que collectivement. C’est tisser des liens profonds avec les autres, célébrer la diversité et l’inclusion, révéler son propre potentiel et agir chaque jour pour avoir un impact positif. Depuis notre création en 1969 à Limoges, en France, et notr",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=973db40759c9bf44"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "35ba13c655d46781",
    "title": "Chef de Groupe Marketing Produits Frais H/F",
    "company": "Galec - Mouvement E.Leclerc",
@@ -2438,34 +2883,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/galec-mouvement-e-leclerc/jobs/chef-de-groupe-marketing-produits-frais-h-f_ivry-sur-seine"
-    }
-   ],
-   "first_seen": "2026-08-25"
-  },
-  {
-   "id": "96ebeb51e7c61e28",
-   "title": "Acheteur Chef de Produit H/F",
-   "company": "GROUPE PRINTEMPS",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-08-24",
-   "salary": null,
-   "description_snippet": "Vos missions : Vous serez responsable de votre portefeuille de marques et du pilotage de son offre (construction, performance et rentabilité) sur une ou plusieurs familles de produits. Et vous aurez la charge de : · Négocier des conditions commerciales du contrat annuel (remises avant et arrières, ristournes dont trade marketing, exclusivité en lien avec la trade marketing manager) ; · Mettre à jo",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/groupe-printemps/Acheteur-chef-de-produit-h-f,11907097.html"
     }
    ],
    "first_seen": "2026-08-25"
@@ -2497,6 +2914,34 @@
     {
      "name": "Fashion Jobs",
      "url": "https://fr.fashionjobs.com/emploi/vanessa-bruno/Assistant-crm-acquisition,11916682.html"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "bd9b909f9a7efab2",
+   "title": "Global Product Marketing Manager",
+   "company": "Edflex",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Global Product Marketing Manager Un profil de « doer » à l'esprit stratégique, ultra-structuré, qui a grandi en environnement à forte croissance. * **Expertise PMM** : 3 à 5 ans en product marketing / enablement, idéalement en SaaS / scale-up, avec un vrai savoir-faire sur la structuration des GTM et l'alignement interne. * **Structuration & priorisation** : tu organises un périmètre large sans pe",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/my-mooc/jobs/global-product-marketing-manager_paris"
     }
    ],
    "first_seen": "2026-08-23"
@@ -2939,34 +3384,6 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "bd9b909f9a7efab2",
-   "title": "Global Product Marketing Manager",
-   "company": "Edflex",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "gtm"
-   ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-07-27",
-   "salary": null,
-   "description_snippet": "Global Product Marketing Manager Un profil de « doer » à l'esprit stratégique, ultra-structuré, qui a grandi en environnement à forte croissance. * **Expertise PMM** : 3 à 5 ans en product marketing / enablement, idéalement en SaaS / scale-up, avec un vrai savoir-faire sur la structuration des GTM et l'alignement interne. * **Structuration & priorisation** : tu organises un périmètre large sans pe",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/my-mooc/jobs/global-product-marketing-manager_paris"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
    "id": "e2fa25d9311b2aa2",
    "title": "Product Marketing Manager (H/F)",
    "company": "Loyoly",
@@ -3336,32 +3753,6 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "2a546deac29bf164",
-   "title": "Responsable Marketing Produit",
-   "company": "Bleu",
-   "location": "Puteaux",
-   "city": "Puteaux",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-06-30",
-   "salary": null,
-   "description_snippet": "Responsable Marketing Produit * Vous êtes diplômé(e) d'une grande école d’ingénieur ou d’une formation en marketing équivalente à un niveau bac+5 avec une appétence pour les nouvelles technologies. * Vous avez au minimum 5 ans d’expérience, dont une expérience en Marketing Produit dans un environnement technologique. * Vous maitrisez les technologies et les enjeux du Cloud, et idéalement Microsoft",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/bleu/jobs/responsable-marketing-produit_puteaux_BLEU_a2J358o"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
    "id": "cbffadb896b66e29",
    "title": "Chef(fe) de produit marketing Secteur IT en B2B",
    "company": "TRINAPS",
@@ -3412,6 +3803,89 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "c2ed6c9f2764161a",
+   "title": "Lead Product Manager Planning (f/h/n)",
+   "company": "Hublo",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Chez Hublo, nous sommes convaincus que les outils digitaux (et l’accompagnement humain) peuvent contribuer à transformer et améliorer le système de santé. **Notre vision est de permettre aux établissements de santé de devenir des lieux épanouissants et de libérer du temps aux soignants afin qu’ils puissent se recentrer sur leur mission première : soigner.** Pour y parvenir, nous mettons toute notr",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=cb5620c9c34638a7"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "c4418b939d9e3cd9",
+   "title": "Chef de Projet Trade Marketing RHF",
+   "company": "Avril",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Chef de Projet Trade Marketing RHF <p><strong>Pourquoi vous ?</strong></p> <p><strong>Vous réussirez grâce à :</strong></p> <p>Profil recherché :<br />Formation supérieure Bac+5 (École de commerce, Master Marketing ou équivalent).<br />Une première expérience réussie, y compris en alternance, sur un poste de Chef de Projet Trade Marketing RHF, Chef de Produit ou Chef de Projet Marketing est fortem",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/avril-fr/jobs/chef-de-projet-trade-marketing-rhf_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "b2d4192a86baa78b",
+   "title": "RESPONSABLE CRM F/H",
+   "company": "Sapiance RH",
+   "location": "Clermont-Ferrand - 63",
+   "city": "Clermont-Ferrand - 63",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "base de donnees"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-24",
+   "salary": "A négocier",
+   "description_snippet": "Ses principales missions seront les suivantes : Gérer et développer la base de données clients Data Gérer les campagnes CRM en lien avec l’équipe CRM : Coordonner la mise en œuvre des campagnes multicanales : définition et validation des envois des triggers marketing cross...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179302365W"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "6f0fd85999d94df8",
@@ -4086,6 +4560,143 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "e0cc8817f4a013aa",
+   "title": "Senior Product Marketing Manager (F/H/X) (H/F)",
+   "company": "EDITIONS TECHNIQUES POUR L'AUTOMOBILE ET",
+   "location": "94 - GENTILLY",
+   "city": "94 - Gentilly",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Les missions qui vous attendent : Vous serez responsable de : Compréhension du marché, des concurrents et des clients Vous êtes le garant de la connaissance marché chez Red-on-line et assurez sa diffusion auprès des équipes internes. Mener des recherches de marché continues : tendances sectorielles, dynamiques concurrentielles, évolutions réglementaires, taille de marché et positionnement produit.",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WVFS"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "9b5890d4ce6ef611",
+   "title": "Assistant Relation clients et Marketing Produits F/H",
+   "company": "Meteojob",
+   "location": "Bruyères - 88",
+   "city": "Bruyeres - 88",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-25",
+   "salary": "A partir de 25 k€ brut annuel",
+   "description_snippet": "Votre équipe Actua Epinal vous propose une offre d'emploi. Nous recrutons pour l'un de nos clients, Un Assistant Service Clients & Marketing Produits H/F Sous la responsabilité du Responsable Service Relation Clients, vous travaillerez en étroite collaboration avec le...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179304638W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "ea38c8e647502c0f",
+   "title": "Product Marketing Manager Cloud F/H",
+   "company": "Hellowork",
+   "location": "Nice - 06",
+   "city": "Nice - 06",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-25",
+   "salary": "60 - 70 k€ brut annuel",
+   "description_snippet": "* Élaborer et mettre en oeuvre des plans marketing pour les produits cloud ; * Analyser les tendances du marché et les besoins des clients pour ajuster les offres ; * Collaborer avec les équipes commerciales pour développer des outils et supports marketing ; * Superviser le...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179306201W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "96ebeb51e7c61e28",
+   "title": "Acheteur Chef de Produit H/F",
+   "company": "GROUPE PRINTEMPS",
+   "location": "France",
+   "city": "",
+   "region": "unknown",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": null,
+   "salary": null,
+   "description_snippet": "Vos missions :Vous serez responsable de votre portefeuille de marques et du pilotage de son offre (construction, performance et rentabilité) sur une ou plusieurs familles de produits. Et vous aurez la charge de :· Négocier des conditions commerciales du contrat annuel (remises avant et arrières, ristournes dont trade marketing, exclusivité en lien avec la trade marketing manager) ;· Mettre à jour ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/groupe-printemps/Acheteur-chef-de-produit-h-f,11907097.html"
+    }
+   ],
+   "first_seen": "2026-08-25"
+  },
+  {
+   "id": "b06bb961ea7ea56e",
+   "title": "Stg - Assistant Acheteur/Chef de Produit – Bijouterie H/F",
+   "company": "GROUPE PRINTEMPS",
+   "location": "France",
+   "city": "",
+   "region": "unknown",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": null,
+   "salary": null,
+   "description_snippet": "Vos principales missions seront les suivantes :- Suivi et analyse des performances du portefeuille de marques: selI-out, sell-through, KPIs..- Participation à l’élaboration de la stratégie de l’offre: recherche de nouvelles marques, benchmark, veille concurrentielle, rédactions de supports PPT- Contribution aux achats des nouveautés (préparation des rendez-vous, sélection en showroom, comma",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/groupe-printemps/Stg-assistant-acheteur-chef-de-produit-bijouterie-h-f,11775423.html"
+    }
+   ],
+   "first_seen": "2026-08-25"
+  },
+  {
    "id": "c23e2e31a9a87a49",
    "title": "Marketing Intern",
    "company": "Razer",
@@ -4107,34 +4718,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=c2a15a1308284d94"
-    }
-   ],
-   "first_seen": "2026-08-25"
-  },
-  {
-   "id": "b06bb961ea7ea56e",
-   "title": "Stg - Assistant Acheteur/Chef de Produit – Bijouterie H/F",
-   "company": "GROUPE PRINTEMPS",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-08-24",
-   "salary": null,
-   "description_snippet": "Vos principales missions seront les suivantes : - Suivi et analyse des performances du portefeuille de marques: selI-out, sell-through, KPIs.. - Participation à l’élaboration de la stratégie de l’offre: recherche de nouvelles marques, benchmark, veille concurrentielle, rédactions de supports PPT - Contribution aux achats des nouveautés (préparation des rendez-vous, sélection en showroom, co",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/groupe-printemps/Stg-assistant-acheteur-chef-de-produit-bijouterie-h-f,11775423.html"
     }
    ],
    "first_seen": "2026-08-25"
@@ -4264,7 +4847,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 2,
-   "date_posted": "2026-08-25",
+   "date_posted": "2026-08-26",
    "salary": "A partir de 60 k€ brut annuel",
    "description_snippet": "Notre client est une entreprise spécialisée dans le secteur TECHNOLOGIE & TÉLÉCOMS. Elle se concentre sur la fourniture de solutions cloud innovantes et sur l'accompagnement de ses clients dans leur transformation digitale. Élaborer et mettre en œuvre des plans marketing pour les...",
    "sources": [
@@ -4752,6 +5335,32 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "a38c499ee6e74f5c",
+   "title": "Assistante / assistant chef de produit maketing (f/h)",
+   "company": "Réunion des musées nationaux - Grand Palais",
+   "location": "Paris 12e, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "### **À propos de nous** Le GrandPalaisRmn est un opérateur culturel dont la mission est de favoriser l’accès à la culture sur l’ensemble du territoire national, et au\\-delà. Il regroupe des expertises d’excellence dans le domaine artistique et culturel : production d’expositions, accueil des publics, médiation, cours d’histoire de l’art, édition, gestion de boutiques de musées et édition de produ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0a4d0ceb0a53e103"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "50bc08518c3ff0b1",
    "title": "Chef de Produit - Innovation Dior SPA & Wellness",
    "company": "PARFUMS CHRISTIAN DIOR",
@@ -4773,6 +5382,32 @@
     {
      "name": "Fashion Jobs",
      "url": "https://fr.fashionjobs.com/emploi/parfums-christian-dior/Chef-de-produit-innovation-dior-spa-wellness,11788380.html"
+    }
+   ],
+   "first_seen": "2026-08-25"
+  },
+  {
+   "id": "e00773f977a2a661",
+   "title": "Alt - Assistant(e) Achat / Chef de Produit (Homme) H/F",
+   "company": "GROUPE PRINTEMPS",
+   "location": "France",
+   "city": "",
+   "region": "unknown",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": null,
+   "salary": null,
+   "description_snippet": "Rattaché(e) aux chefs de produits Homme, vous participerez activement à la gestion et au développement du portefeuille de marques.Vos missions principales seront :- Suivi et analyse des performances du portefeuille de marques : sell-out, sell-through, KPIs...- Participation à la stratégie de l’offre : recherche de nouvelles marques, benchmark, analyses concurrentielles, évènements et pop-up…- Coll",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/groupe-printemps/Alt-assistant-achat-chef-de-produit-h-f,11956233.html"
     }
    ],
    "first_seen": "2026-08-25"
@@ -4827,32 +5462,6 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/212VKKF"
-    }
-   ],
-   "first_seen": "2026-08-25"
-  },
-  {
-   "id": "e00773f977a2a661",
-   "title": "Alt - Assistant(e) Achat / Chef de Produit (Homme) H/F",
-   "company": "GROUPE PRINTEMPS",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-08-24",
-   "salary": null,
-   "description_snippet": "Rattaché(e) aux chefs de produits Homme, vous participerez activement à la gestion et au développement du portefeuille de marques. Vos missions principales seront : - Suivi et analyse des performances du portefeuille de marques : sell-out, sell-through, KPIs... - Participation à la stratégie de l’offre : recherche de nouvelles marques, benchmark, analyses concurrentielles, évènements et pop-up… - ",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/groupe-printemps/Alt-assistant-achat-chef-de-produit-h-f,11956233.html"
     }
    ],
    "first_seen": "2026-08-25"
@@ -4965,6 +5574,93 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "bb60f1b8c47b16b5",
+   "title": "Senior Product Marketing Manager Connect (h/f) en CDI à Paris",
+   "company": "Sewan",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Senior Product Marketing Manager Connect (h/f) en CDI à Paris <p>Nous recherchons un profil senior, capable de transformer un marché technique, concurrentiel et parfois banalisé en <strong>GTM clair, différenciant, activable et mesurable</strong>.</p><ul><li>5 ans et plus en Product Marketing B2B</li><li>Expérience dans un environnement télécom, connectivité, cloud, SaaS B2B, infrastructure ou ser",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sewan/jobs/senior-product-marketing-manager-connect-h-f-en-cdi-a-paris_paris_SEWAN_o56YwkO"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "9c6b0b9d53a31d66",
+   "title": "Senior Product Marketing Manager Voice (H/F) en CDI à Paris",
+   "company": "Sewan",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Senior Product Marketing Manager Voice (H/F) en CDI à Paris <p><strong>Ce qu’on cherche vraiment</strong></p><p>Un PMM qui sait faire le lien entre <strong>produit, marché, ventes et revenu</strong>.</p><p>Quelqu’un qui ne se contente pas de coordonner, mais qui produit : un positionnement, un pitch, une campagne, un sales play, une offre, une battlecard, un business case.</p><p>Un profil capable ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sewan/jobs/senior-product-marketing-manager-voice-h-f-en-cdi-a-paris_paris_SEWAN_y8yZNpg"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "b97bd4970c9164e5",
+   "title": "Senior Product Marketing Manager Cloud & Cyber (H/F) en CDI à Paris",
+   "company": "Sewan",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-08-26",
+   "salary": null,
+   "description_snippet": "Senior Product Marketing Manager Cloud & Cyber (H/F) en CDI à Paris <p>Nous recherchons un profil senior, capable de transformer des sujets techniques et parfois complexes en <strong>GTM clair, activable et mesurable</strong>.</p><ul><li>5 ans et plus en Product Marketing B2B</li><li>Expérience dans un environnement cloud, cybersécurité, SaaS B2B, infrastructure, services managés, MSP ou télécom</",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sewan/jobs/senior-product-marketing-manager-cloud-cyber-h-f-en-cdi-a-paris_paris_SEWAN_14bPVaO"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "221b1bbd4bd104b0",
    "title": "Growth Marketing Manager F/H",
    "company": "BLUETHINK",
@@ -5012,35 +5708,6 @@
     {
      "name": "Isarta",
      "url": "https://isarta.fr/?job=76042"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "bb60f1b8c47b16b5",
-   "title": "Senior Product Marketing Manager Connect (h/f) en CDI à Paris",
-   "company": "Sewan",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "gtm",
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-08-19",
-   "salary": null,
-   "description_snippet": "Senior Product Marketing Manager Connect (h/f) en CDI à Paris <p>Nous recherchons un profil senior, capable de transformer un marché technique, concurrentiel et parfois banalisé en <strong>GTM clair, différenciant, activable et mesurable</strong>.</p><ul><li>5 ans et plus en Product Marketing B2B</li><li>Expérience dans un environnement télécom, connectivité, cloud, SaaS B2B, infrastructure ou ser",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/sewan/jobs/senior-product-marketing-manager-connect-h-f-en-cdi-a-paris_paris_SEWAN_40gApR6"
     }
    ],
    "first_seen": "2026-08-23"
@@ -5173,64 +5840,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179211617W"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "9c6b0b9d53a31d66",
-   "title": "Senior Product Marketing Manager Voice (H/F) en CDI à Paris",
-   "company": "Sewan",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "gtm",
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-07-29",
-   "salary": null,
-   "description_snippet": "Senior Product Marketing Manager Voice (H/F) en CDI à Paris <p><strong>Ce qu’on cherche vraiment</strong></p><p>Un PMM qui sait faire le lien entre <strong>produit, marché, ventes et revenu</strong>.</p><p>Quelqu’un qui ne se contente pas de coordonner, mais qui produit : un positionnement, un pitch, une campagne, un sales play, une offre, une battlecard, un business case.</p><p>Un profil capable ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/sewan/jobs/senior-product-marketing-manager-voice-h-f-en-cdi-a-paris_paris_SEWAN_WYVGKgr"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "b97bd4970c9164e5",
-   "title": "Senior Product Marketing Manager Cloud & Cyber (H/F) en CDI à Paris",
-   "company": "Sewan",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "gtm",
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-07-29",
-   "salary": null,
-   "description_snippet": "Senior Product Marketing Manager Cloud & Cyber (H/F) en CDI à Paris <p>Nous recherchons un profil senior, capable de transformer des sujets techniques et parfois complexes en <strong>GTM clair, activable et mesurable</strong>.</p><ul><li>5 ans et plus en Product Marketing B2B</li><li>Expérience dans un environnement cloud, cybersécurité, SaaS B2B, infrastructure, services managés, MSP ou télécom</",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/sewan/jobs/senior-product-marketing-manager-cloud-cyber-h-f-en-cdi-a-paris_paris_SEWAN_yDMgK2K"
     }
    ],
    "first_seen": "2026-08-23"
@@ -5403,6 +6012,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "fe92a249a4cf35d5",
+   "title": "Traffic manager senior F/H",
+   "company": "Thelem assurances",
+   "location": "Chécy - 45",
+   "city": "Checy - 45",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-08-25",
+   "salary": "50 - 60 k€ brut annuel",
+   "description_snippet": "Nous recherchons un(e) Traffic manager senior en CDI pour rejoindre Thélem assurances situé Chécy (proche Orléans). Au sein du département Marketing Client et Communication, vous jouez un rôle clé dans le pilotage et l'optimisation des leviers digitaux. Intervenant dans un envir...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179282579W"
+    }
+   ],
+   "first_seen": "2026-08-26"
   },
   {
    "id": "c4e5109c2687b528",
