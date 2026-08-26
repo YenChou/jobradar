@@ -48,11 +48,12 @@ def classify(job: dict, cfg: dict) -> dict | None:
     if not categories:
         return None  # 五類都沒中 → 不收
 
-    # 3) 加分技能標籤（影音內容）
+    # 3) 附加標籤（影音內容、需中文）。比對職稱＋描述——語言要求常寫在職稱裡
+    #    （例如 "Marketing Strategy Manager - Mandarin speaker"）。
     bonus_tags = [
         key
         for key, tag in cfg.get("bonus_tags", {}).items()
-        if any(kw in desc_n for kw in tag["skill_keywords"])
+        if any(kw in text_n for kw in tag["skill_keywords"])
     ]
 
     # 4) 職級加分／降權

@@ -1,7 +1,12 @@
 """Welcome to the Jungle — 公開 Algolia 搜尋 API（前端同一組公開金鑰）。
 
-不解析網頁，直接拿 JSON。Algolia 單一查詢最多回 1000 筆，
-我們每個搜尋詞抓前幾頁就夠了。
+不解析網頁，直接拿 JSON。用預設 index（關聯度排序）——實測它本身就把當日
+發布的職缺排在前面，等於關聯度＋新鮮度兼顧；另一個 replica index
+wk_cms_jobs_production_published_at_desc 是純日期排序，會把「主動應徵」
+這類不相關的職缺推到最前面，所以不用。
+
+單一搜尋詞的命中數可達三千筆（'marketing' 有 3082 筆），抓不完也不該抓完，
+但原本每詞只抓 2 頁 × 50 筆＝100 筆太少，放寬到 6 頁。
 """
 from __future__ import annotations
 
@@ -30,7 +35,7 @@ HEADERS = {
 }
 
 
-def fetch(search_terms: list[str], pages_per_term: int = 2, hits_per_page: int = 50) -> list[dict]:
+def fetch(search_terms: list[str], pages_per_term: int = 6, hits_per_page: int = 50) -> list[dict]:
     jobs: list[dict] = []
     for term in search_terms:
         for page in range(pages_per_term):
@@ -42,7 +47,7 @@ def fetch(search_terms: list[str], pages_per_term: int = 2, hits_per_page: int =
             if len(hits) < hits_per_page:
                 break  # 沒有下一頁了
             time.sleep(1)
-        log.info("WTTJ %r 完成", term)
+        log.info("WTTJ %r → 累計 %d 筆", term, len(jobs))
         time.sleep(2)
     return jobs
 

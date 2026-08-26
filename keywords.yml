@@ -114,9 +114,46 @@ bonus_tags:
       - "montage video"
       - "contenu digital"
 
-# ── 過濾與排序規則 ─────────────────────────────
+  # 要求中文能力的職缺。
+  # 刻意不收單獨的 "chinois"——法文的「中國的」與「中文」同字，"marché chinois"
+  # （中國市場）不代表要會中文。所以模糊的那個字一律搭語言講法才算，
+  # 明確只指語言的字（mandarin、中文、HSK…）才單獨成立。
+  chinese:
+    label: "需中文"
+    skill_keywords:
+      # 明確指語言
+      - "mandarin"
+      - "cantonais"
+      - "chinese speaker"
+      - "chinese speaking"
+      - "chinese-speaking"
+      - "fluent in chinese"
+      - "native chinese"
+      - "chinese fluent"
+      - "hsk"
+      - "中文"
+      - "普通話"
+      - "普通话"
+      - "國語"
+      # "chinois" 搭語言講法
+      - "chinois courant"
+      - "courant en chinois"
+      - "bilingue chinois"
+      - "parle chinois"
+      - "parlez chinois"
+      - "parlant chinois"
+      - "maitrise du chinois"
+      - "langue chinoise"
+      - "chinois natif"
+      - "chinois obligatoire"
+      - "chinois exige"
+      - "chinois souhaite"
+      - "anglais/chinois"
+      - "anglais / chinois"
+      - "anglais et chinois"
+      - "francais/chinois"
+      - "chinois lu"
 
-# 硬性排除：職稱含以下字樣直接丟棄
 exclude_title:
   - "stage"
   - "stagiaire"

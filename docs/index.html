@@ -171,6 +171,10 @@
       <button class="chipbtn" data-g="contract" data-k="CDD" aria-pressed="false">CDD</button>
       <button class="chipbtn" data-g="contract" data-k="Intérim" aria-pressed="false">Intérim</button>
     </div>
+    <div class="row" id="row-tag"><span class="lbl">標籤</span>
+      <button class="chipbtn" data-g="tag" data-k="chinese" aria-pressed="false">需中文</button>
+      <button class="chipbtn" data-g="tag" data-k="video_content" aria-pressed="false">影音內容</button>
+    </div>
     <div class="row" id="row-source"><span class="lbl">來源</span></div>
     <div class="row" id="row-status"><span class="lbl">狀態</span>
       <button class="chipbtn" data-g="status" data-k="none" aria-pressed="false">未處理</button>
@@ -223,7 +227,7 @@ const CATS = {
   marketing_analytics: "Analytics",
   marketing_produit: "Produit",
 };
-const BONUS = { video_content: "影音內容" };
+const BONUS = { video_content: "影音內容", chinese: "需中文" };
 const MODES = { remote:"Remote", hybrid:"Hybride", onsite:"Présentiel" };
 
 // ---- localStorage（包 try/catch：私密視窗等情境會擋）----
@@ -235,7 +239,7 @@ let statuses = store.get("jr_status", {});      // {jobId: "applied"|"interview"
 let manual  = store.get("jr_manual", []);       // 手動加入的職缺
 
 // ---- 狀態 ----
-const state = { view:"7d", q:"", cat:new Set(), region:new Set(), mode:new Set(), contract:new Set(), source:new Set(), status:new Set(),
+const state = { view:"7d", q:"", cat:new Set(), region:new Set(), mode:new Set(), contract:new Set(), source:new Set(), status:new Set(), tag:new Set(),
                 page:1, perPage: store.get("jr_perpage", 10) };
 let DATA = { jobs: [], generated_at: null, source_stats: {} };
 
@@ -368,6 +372,7 @@ function render(){
     if (state.mode.size && !state.mode.has(j.work_mode)) return false;
     if (state.contract.size && !state.contract.has(j.contract)) return false;
     if (state.source.size && !j.sources.some(s => state.source.has(s.name))) return false;
+    if (state.tag.size && ![...state.tag].every(t => (j.bonus_tags || []).includes(t))) return false;
     const stt = statuses[j.id] || "none";
     if (state.status.size && !state.status.has(stt)) return false;
     if (state.q) {
