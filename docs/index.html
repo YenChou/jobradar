@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JobRadar France</title>
+<title>Jo's Chasse</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📡</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap">
@@ -140,7 +140,7 @@
 <body>
 <div class="wrap">
   <header class="top">
-    <h1>JobRadar <span class="fr">France</span></h1>
+    <h1>Jo's <span class="fr">Chasse</span></h1>
     <span class="updated" id="updated">載入中⋯</span>
   </header>
   <div class="stats" id="stats"></div>
@@ -149,7 +149,7 @@
     <div class="row">
       <span class="lbl">時間</span>
       <div class="seg" id="seg-view" role="group" aria-label="時間範圍">
-        <button data-v="24h" aria-pressed="false" title="依職缺公告日期（巴黎時區）；來源只提供到「日」，實際涵蓋今天與昨天公告的職缺">最近 24 小時</button>
+        <button data-v="24h" aria-pressed="false" title="依職缺公告日期（巴黎時區）。來源的日期只精確到「日」，所以這裡是今日與前一日公告的職缺，不是滾動 24 小時">今日＋前一日</button>
         <button data-v="7d" aria-pressed="true" title="依職缺公告日期（巴黎時區）">最近 7 天</button>
         <button data-v="all" aria-pressed="false" title="站上保留的全部職缺（收錄後保留 30 天）">全部（30 天）</button>
       </div>
@@ -249,7 +249,13 @@ fetch("data/jobs.json", { cache:"no-store" })
 
 function init(){
   const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
-  document.getElementById("updated").textContent = gen ? "更新於 " + gen.toLocaleString("zh-TW", {hour12:false}) : "";
+  const upd = document.getElementById("updated");
+  if (gen) {
+    upd.textContent = "更新於 " + clockIn(gen, VIEWER_TZ) + "（" + VIEWER_TZ + "）";
+    upd.title = "巴黎時間 " + clockIn(gen, TZ) + "\n時間篩選一律以巴黎當地日期為準，因為職缺公告日就是法國當地日期。";
+  } else {
+    upd.textContent = "";
+  }
 
   // 統計列
   const st = document.getElementById("stats");
@@ -332,7 +338,16 @@ function allJobs(){
 // 時間窗因此以 Europe/Paris 為基準，不受瀏覽者所在時區影響。
 const TZ = "Europe/Paris";
 const TZ_FMT = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year:"numeric", month:"2-digit", day:"2-digit" });
-function dateStr(d){ return TZ_FMT.format(d); }   // → "YYYY-MM-DD"
+function dateStr(d){ return TZ_FMT.format(d); }   // → "YYYY-MM-DD"（巴黎當地日）
+
+// 瀏覽者所在時區 — 篩選一律用巴黎，但畫面上的時刻用你自己的時區顯示。
+const VIEWER_TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
+function clockIn(d, tz){
+  return new Intl.DateTimeFormat("zh-TW", {
+    timeZone: tz, year:"numeric", month:"2-digit", day:"2-digit",
+    hour:"2-digit", minute:"2-digit", hour12:false,
+  }).format(d);
+}
 
 function daysAgo(n){
   const d = new Date(); d.setDate(d.getDate() - n);
@@ -343,7 +358,8 @@ function render(){
   const today = dateStr(new Date());
   const cut24 = daysAgo(1), cut7 = daysAgo(7);
   const jobs = allJobs().filter(j => {
-    // 時間篩選以「公告日期」為準；少數來源沒有公告日，退回首次收錄日免得整批消失。
+    // 時間篩選以「公告日期」為準。來源沒給公告日的，scraper 會用首次抓到的日期
+    // 代替並標上 date_assumed（畫面顯示「約」）；這裡的 fallback 只為相容舊資料。
     const posted = j.date_posted || j.first_seen || today;
     if (state.view === "24h" && posted < cut24) return false;
     if (state.view === "7d"  && posted < cut7)  return false;
@@ -444,7 +460,8 @@ function card(j, today){
     '<div class="foot">' +
       '<span class="src">' + srcLinks + "</span>" +
       (j.salary ? "<span>" + esc(j.salary) + "</span>" : "") +
-      '<span class="date">' + esc(j.date_posted || j.first_seen || "") + "</span>" +
+      '<span class="date"' + (j.date_assumed ? ' title="來源沒有提供公告日，這裡以首次抓到的日期代替"' : "") + ">" +
+        (j.date_assumed ? "約 " : "") + esc(j.date_posted || j.first_seen || "") + "</span>" +
       '<span class="track" role="group" aria-label="投遞狀態"></span>' +
     "</div>";
 

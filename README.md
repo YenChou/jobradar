@@ -1,14 +1,14 @@
-# JobRadar France 📡
+# Jo's Chasse 📡
 
 每天自動抓取法國求職平台，篩出五類行銷職缺（Marketing Operations、Performance
 Marketing、CRM、Marketing Analytics、Marketing Produit），發布成可篩選的靜態網站。
 
-規劃書（來源分級、關鍵字規格、付費選項）：見專案 Artifact「JobRadar France 規劃書」。
+規劃書（來源分級、關鍵字規格、付費選項）：見專案 Artifact「Jo's Chasse 規劃書」。
 
 ## 架構
 
 ```
-GitHub Actions（每天 04:30 UTC ≈ 巴黎 06:30）
+GitHub Actions（每天巴黎中午 12:00 — 排了 10:00／11:00 UTC 兩條 cron，由 workflow 依夏／冬令時間挑正確的那條）
   └─ python -m scraper.main
        ├─ sources/indeed_jobspy.py     Indeed（JobSpy）
        ├─ sources/wttj.py              Welcome to the Jungle（Algolia API）
@@ -32,7 +32,7 @@ keywords.yml                           所有分類與排序規則（改這裡�
 
 1. **建 GitHub repo 並推上這些檔案**
    ```bash
-   git init && git add -A && git commit -m "init JobRadar"
+   git init && git add -A && git commit -m "init Jo's Chasse"
    # 在 GitHub 建一個 repo（private 也可以），然後：
    git remote add origin git@github.com:<你的帳號>/jobradar.git
    git branch -M main && git push -u origin main
@@ -48,7 +48,7 @@ keywords.yml                           所有分類與排序規則（改這裡�
 3. **第一次手動跑爬蟲**
    repo → Actions → 「Daily job scrape」→ Run workflow。
    跑完會自動 commit `docs/data/jobs.json`，網站就有真實資料了。
-   之後每天早上自動跑，不用管它。
+   之後每天巴黎中午自動跑，不用管它。
 
 4. **（建議）France Travail 金鑰**（免費，5 分鐘）
    1. 到 https://francetravail.io 註冊

@@ -2,7 +2,10 @@ name: Daily job scrape
 
 on:
   schedule:
-    - cron: "30 4 * * *"   # 每天 04:30 UTC = 巴黎 06:30（實際觸發可能延遲 10–30 分鐘）
+    # GitHub 的 cron 只吃 UTC，巴黎會換日光節約時間，所以排兩條、再由 gate 步驟
+    # 挑出當下這一季正確的那條。實際觸發可能延遲 10–30 分鐘（GitHub 的已知行為）。
+    - cron: "0 10 * * *"   # 夏令時間 CEST(UTC+2) 的巴黎中午
+    - cron: "0 11 * * *"   # 冬令時間 CET(UTC+1) 的巴黎中午
   workflow_dispatch:        # 也可以在 Actions 頁面手動觸發
 
 permissions:
@@ -15,18 +18,41 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45   # 來源變多、每詞抓 100 筆之後，30 分鐘會卡在邊緣
     steps:
+      - name: Gate — 只在「巴黎中午」那條 cron 上執行
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "手動觸發 — 照常執行"
+            echo "run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          # 比對排程本身而不是當下時鐘，這樣就算 GitHub 延遲觸發也不會誤判
+          offset=$(TZ=Europe/Paris date +%z)
+          if [ "$offset" = "+0200" ]; then want="0 10 * * *"; else want="0 11 * * *"; fi
+          got="${{ github.event.schedule }}"
+          if [ "$got" = "$want" ]; then
+            echo "巴黎時區 $offset，本次排程 '$got' 對應中午 — 執行"
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "巴黎時區 $offset，本次排程 '$got' 不是中午那條 — 跳過"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
 
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
         with:
           python-version: "3.12"
           cache: pip
 
       - run: pip install -r requirements.txt
+        if: steps.gate.outputs.run == 'true'
 
       - name: Run scraper
+        if: steps.gate.outputs.run == 'true'
         env:
           FT_CLIENT_ID: ${{ secrets.FT_CLIENT_ID }}
           FT_CLIENT_SECRET: ${{ secrets.FT_CLIENT_SECRET }}
@@ -35,10 +61,11 @@ jobs:
         run: python -m scraper.main
 
       - name: Commit updated jobs.json
+        if: steps.gate.outputs.run == 'true'
         run: |
-          git config user.name "jobradar-bot"
+          git config user.name "jos-chasse-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/data/jobs.json
           git diff --cached --quiet && echo "No changes" && exit 0
-          git commit -m "chore: daily scrape $(date -u +%F)"
+          git commit -m "chore: daily scrape $(TZ=Europe/Paris date +%F)"
           git push
