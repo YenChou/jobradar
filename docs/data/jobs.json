@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-01T14:39:24Z",
+ "generated_at": "2026-09-02T14:13:39Z",
  "source_stats": {
-  "Indeed": 518,
-  "Welcome to the Jungle": 1701,
-  "France Travail": 18,
-  "APEC": 1568,
-  "Fashion Jobs": 513,
-  "Isarta": 143
+  "Indeed": 618,
+  "Welcome to the Jungle": 1692,
+  "France Travail": 19,
+  "APEC": 1584,
+  "Fashion Jobs": 531,
+  "Isarta": 148
  },
- "count": 493,
- "new_today": 36,
+ "count": 512,
+ "new_today": 19,
  "jobs": [
   {
    "id": "2feda34d05e9dd2d",
@@ -220,33 +220,34 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "7429964f6fd79575",
-   "title": "Responsable CRM & Marketing Relationnel",
-   "company": "DECOCLIM",
-   "location": "Le Muy, B8, FR",
-   "city": "Le Muy",
-   "region": "other",
-   "work_mode": "remote",
+   "id": "48ac4e6dbc9c17d6",
+   "title": "Product Marketing Manager (PMM) H/F",
+   "company": "RCA",
+   "location": "Nantes, B5, FR",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "crm"
+    "marketing_produit"
    ],
    "skills": [
-    "emailing",
-    "fidelisation",
-    "marketing automation",
-    "parcours client",
-    "segmentation"
+    "positionnement",
+    "roadmap"
    ],
    "bonus_tags": [],
    "score": 20,
    "date_posted": "2026-09-01",
    "salary": null,
-   "description_snippet": "**À PROPOS DE DECOClim** **Pionnier et leader français des habillages pour unités extérieures de climatisation et pompes à chaleur, DECOClim conçoit depuis 2013 des solutions haut de gamme alliant design, durabilité et performance.** Historiquement tournée vers les **professionnels**, DECOClim s’appuie sur un solide réseau d’installateurs et de distributeurs et poursuit son développement en France",
+   "description_snippet": "**Description de l'entreprise** Editeur de logiciels 100% autonome, basé en périphérie de Nantes, RCA développe deux gammes de logiciels : Une gamme de 12 modules à destination des cabinets d’expertise comptable et une plateforme digitale collaborative en mode SaaS destinée aux experts\\-comptables ainsi qu’à leurs clients (TPE). Depuis 15 ans, la société n’a cessé d’évoluer. Avec 3 personnes en 20",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d820bea7accdd961"
+     "url": "https://fr.indeed.com/viewjob?jk=375c62f28844908a"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/rca/jobs/product-marketing-manager-pmm-h-f_nantes"
     }
    ],
    "first_seen": "2026-09-01"
@@ -381,35 +382,6 @@
     }
    ],
    "first_seen": "2026-08-23"
-  },
-  {
-   "id": "48ac4e6dbc9c17d6",
-   "title": "Product Marketing Manager (PMM) H/F",
-   "company": "RCA",
-   "location": "Nantes, B5, FR",
-   "city": "Nantes",
-   "region": "west",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement",
-    "roadmap"
-   ],
-   "bonus_tags": [],
-   "score": 18,
-   "date_posted": "2026-09-01",
-   "salary": null,
-   "description_snippet": "**Description de l'entreprise** Editeur de logiciels 100% autonome, basé en périphérie de Nantes, RCA développe deux gammes de logiciels : Une gamme de 12 modules à destination des cabinets d’expertise comptable et une plateforme digitale collaborative en mode SaaS destinée aux experts\\-comptables ainsi qu’à leurs clients (TPE). Depuis 15 ans, la société n’a cessé d’évoluer. Avec 3 personnes en 20",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=375c62f28844908a"
-    }
-   ],
-   "first_seen": "2026-09-01"
   },
   {
    "id": "9a16904951314564",
@@ -560,6 +532,68 @@
     }
    ],
    "first_seen": "2026-08-25"
+  },
+  {
+   "id": "083778695f11fa90",
+   "title": "Consultant SEA / Traffic Manager SEA (Google Ads) - F/H",
+   "company": "AdPremier",
+   "location": "Sophia Antipolis, B8, FR",
+   "city": "Sophia Antipolis",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "google ads",
+    "meta ads",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "**Traffic Manager / Consultant SEA \\- Google Ads – F/H** **AdPremier est une agence de webmarketing en pleine croissance, certifiée Google Partner Premier, avec une forte spécialité en référencement payant (Google Ads, Facebook Ads..), mais pas que !** **Au sein d’une équipe dynamique et sous la responsabilité du CEO, tu seras en charge la gestion de ton propre portefeuille clients en tant que Tra",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=61d1a800d892c304"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "7429964f6fd79575",
+   "title": "Responsable CRM & Marketing Relationnel",
+   "company": "DECOCLIM",
+   "location": "Le Muy, B8, FR",
+   "city": "Le Muy",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "fidelisation",
+    "marketing automation",
+    "segmentation"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "**LE POSTE** Dans le cadre d’une **création de poste**, nous recherchons notre futur(e) **Responsable CRM \\& Marketing Relationnel**. Rattaché(e) à la **Directrice Marketing**, vous aurez pour mission de construire et piloter la stratégie **PRM / CRM B2B et B2C**, en France et à l’international. Votre objectif : **mieux connaître et activer nos prospects et clients, développer leur engagement et l",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d820bea7accdd961"
+    }
+   ],
+   "first_seen": "2026-09-01"
   },
   {
    "id": "0cd2e24f9df8baac",
@@ -1188,6 +1222,38 @@
    "first_seen": "2026-08-27"
   },
   {
+   "id": "2b77158a6fdaedd6",
+   "title": "Chef de produit cloud - h/f",
+   "company": "Hexanet",
+   "location": "Serris, A8, FR",
+   "city": "Serris",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-02",
+   "salary": "40 - 60 k€ brut annuel",
+   "description_snippet": "**Description entreprise :** ============================ Créée il y a 25 ans, HEXANET est le partenaire de croissance des entreprises et des DSI au service de leur développement digital. Notre expertise s’articule autour de 6 domaines clés : • Télécoms • Communications unifiées • Sécurité • Cloud • Infogérance • Intégration. En forte croissance, HEXANET compte aujourd’hui plus de 170 coéquipiers ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=696eacb9066fb5b2"
+    },
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179249893W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "58d32ad3ccb35ca0",
    "title": "Chef de produit H/F",
    "company": "Stores-et-rideaux.com",
@@ -1414,7 +1480,7 @@
    ],
    "bonus_tags": [],
    "score": 14,
-   "date_posted": "2026-08-31",
+   "date_posted": "2026-09-02",
    "salary": null,
    "description_snippet": "Traffic Manager (SMA/SEA) - CDI - Paris ### Expérience * Tu prépares Bac +4/5 avec spécialisation dans le marketing digital * Tu as un profil hybride commercial/consultant passionné par le digital ### Tu es la personne qu'il nous faut si : * Tu maîtrises les leviers d'acquisition payante (au moins Google Ads ou Meta Ads - certifications appréciées), à défaut tu es très motivé(e) pour apprendre * T",
    "sources": [
@@ -1801,6 +1867,66 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "701aa02b9ad7bead",
+   "title": "Marketing Analyst - Growth & Analytics (M/F/X)",
+   "company": "HelloFresh",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_analytics",
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "dashboard",
+    "kpi",
+    "roi",
+    "sql",
+    "tableau"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "### **Rejoins une superstar de la foodtech française** Chez HelloFresh, nous bousculons les habitudes alimentaires des français grâce à nos Box à cuisiner ! Notre ambition ? Révolutionner le quotidien de nos abonné.e.s, en promouvant une façon plus durable de cuisiner et en leur faisant découvrir de délicieuses recettes, créatives et équilibrées. L'alliance parfaite entre technologie et gastronomi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=33166d7557b5f57e"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "50e6aebafb57665c",
+   "title": "Chargé marketing produit & user engagement /X) F/H",
+   "company": "Infopro Digital",
+   "location": "Gentilly - 94",
+   "city": "Gentilly - 94",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-02",
+   "salary": "A négocier",
+   "description_snippet": "Infopro Digital, groupe B2B spécialisé dans l'information et la technologie, recherche actuellement un(e) Chargé(e) Marketing Produit & User Engagement en CDI pour renforcer l'équipe Marketing Produit. Les missions qui vous attendent : Vous serez responsable de : ❖ Pilo...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179350577W"
+    }
+   ],
+   "first_seen": "2026-09-02"
   },
   {
    "id": "5909059f7c8a3b99",
@@ -2706,6 +2832,178 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "289fd05c302f3320",
+   "title": "Chef de Produit Marketing H/F",
+   "company": "SAM OUTILLAGE",
+   "location": "Saint-Étienne, ARA, FR",
+   "city": "Saint-Etienne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "Company Overview Vous souhaitez intégrer une entreprise française tournée vers l’avenir ? Sam Outillage, lauréat du plan France Relance, s’engage dans une démarche de développement durable et continue à investir en France en développant sa stratégie 5I: Innovation, International, Internet, Individu et Industrie. Depuis près de 100 ans, nous concevons, fabriquons et vendons des solutions d’outillag",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c0e0eeb264996c71"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "7afa96676e31ded0",
+   "title": "Product Manager - Laser Products & Applications (H/F)",
+   "company": "Oxxius",
+   "location": "Lannion, A2, FR",
+   "city": "Lannion",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "*OXXIUS est une PME industrielle basée à Lannion qui développe, produit et commercialise une large gamme de produits laser miniaturisés et de systèmes optiques pour des laboratoires et fabricants d'instruments du monde entier, majoritairement dans le domaine des sciences de la vie. La dynamique de croissance de la société tournée majoritairement vers l'international conduit l'entreprise à consolid",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f1ff499b2dc8a46a"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "a47dcd5bc876091f",
+   "title": "Consultant(e) PRM / CRM & Marketing Automation",
+   "company": "Belacom",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "conversion",
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "Consultant(e) PRM / CRM & Marketing Automation ### Ce qui fait la différence * Expertise confirmée en **PRM / CRM & marketing automation** * Forte capacité à **analyser des funnels et à piloter la performance** * Solide culture **analytics orientée business** * Approche CRO centrée sur **l’impact et la rentabilité** * Capacité à gérer une **relation client dans la durée**, avec responsabilité des ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/belacom-1/jobs/consultant-prm-crm-marketing-automation_issy-les-moulineaux"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "f5ff62fad0d336fd",
+   "title": "Senior Events Specialist (H/F)",
+   "company": "Descartes Underwriting",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi",
+    "sea",
+    "tracking"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "**ABOUT DESCARTES UNDERWRITING** Join Descartes and contribute to our mission: *Building Resilience in a World at Risk.* Descartes is a corporate insurance group for worldwide companies and institutions. Descartes was born from a conviction that the growing complexity of corporate and climate risks demands a new approach to insurance. At the forefront of AI and Data analysis, Descartes utilises cu",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=183037c6a48ad956"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "2b5d1d40b6cc25a2",
+   "title": "Account Executive, EMEA",
+   "company": "Temporal Technologies",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "**Role Summary** ---------------- Our fast\\-moving and highly successful Strategic Sales team is growing, and we are seeking the next **Account Executive** in **Paris, France** to join our team! Temporal is a remote\\-first company; however, this role is focused on EMEA to better support our customers and collaborate more effectively with regional teammates. We are looking for those who share our v",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9f7bf2cc6668c968"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "0e88c58deb8e58b6",
+   "title": "Engineering Manager",
+   "company": "QuinStreet",
+   "location": "Télétravail, FR",
+   "city": "Teletravail",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea",
+    "tracking"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "**Powering Performance Marketplaces in Digital Media** QuinStreet is a pioneer in powering decentralized online **marketplaces that match searchers and \"research and compare\" consumers with brands**. We run these virtual\\- and private\\-label marketplaces in one of the nation's largest media networks. Our industry leading segmentation and AI\\-driven **matching technologies help consumers find bette",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=93120736e5d318eb"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
    "id": "a37381f3ef667125",
    "title": "Responsable produit marché (CPS) - Ag de précision",
    "company": "CNH Industrial",
@@ -3153,6 +3451,34 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/whoz/jobs/go-to-market-lead-h-f-x_paris"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "0f046ba4d72298b8",
+   "title": "Lead Product Marketing Manager - 100% remote F/H",
+   "company": "PMEJOB",
+   "location": "Paris 01 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-26",
+   "salary": "70 - 75 k€ brut annuel",
+   "description_snippet": "On ne te recrute pas pour capter la demande qui existe déjà mais pour pour construire notre stratégie GTM sur de nouveaux segments de marché et à l'international. Tu seras la voix du marché auprès du Produit, et la voix du Produit auprès du marché en France comme à l'internationa...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179310992W"
     }
    ],
    "first_seen": "2026-08-26"
@@ -3943,6 +4269,65 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "df6cff62f57c49fe",
+   "title": "Marketing Operations Lead",
+   "company": "SCOR",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "hubspot",
+    "salesforce",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "The **Marketing Operations Lead** is responsible for establishing and operating SCOR’s marketing operations function across business units: Property \\& Casualty (P\\&C) and Life \\& Health (L\\&H). The role owns the marketing automation ecosystem ensuring data quality, lead management, campaign execution, and performance measurement while implementing robust governance and GDPR\\-compliant processes. ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c71e14dee8eb3991"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "cbef7e7098467ffd",
+   "title": "Chef·fe de produit marketing & Communication",
+   "company": "LE GRENIER DES GASTRONOMES",
+   "location": "Hagetmau, NA, FR",
+   "city": "Hagetmau",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "**Qui nous sommes** Entreprise familiale landaise indépendante fondée en 2009, Le Grenier des Gastronomes réunit 55 personnes à Hagetmau autour du canard gras du Sud\\-Ouest. Nous opérons deux marques : Le Grenier des Gastronomes pour les professionnels de la restauration, et Les Thomasines en grande distribution. IGP Sud\\-Ouest, Label Rouge, PME\\+, médaille d'or au CGA 2026\\. **Votre rôle** Assure",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c9370f96e8c97067"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
    "id": "2de0500b3f93c1de",
    "title": "Responsable Marketing Produit (H/F)",
    "company": "PROMAN 229",
@@ -3966,6 +4351,36 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/6471583"
+    }
+   ],
+   "first_seen": "2026-09-01"
+  },
+  {
+   "id": "d3f3dd01538c6403",
+   "title": "Chef de produit marketing - Approvisionnement vert H/F",
+   "company": "Agregio Solutions",
+   "location": "La Défense, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-01",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "### **À propos de nous** ***À la recherche d’un nouveau défi ? Venez révéler le potentiel des énergies renouvelables intermittentes et bâtir ensemble un avenir neutre en carbone !*** **A PROPOS DE NOUS** Filiale à 100 % du groupe EDF, Agregio Solutions joue un rôle central dans la transition énergétique en aidant nos ses clients à optimiser leurs ressources renouvelables et à tirer parti des flexi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8c7a471b319c1535"
+    },
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179342255W"
     }
    ],
    "first_seen": "2026-09-01"
@@ -5152,6 +5567,60 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "a659e51fe1e8f7e5",
+   "title": "Chef(fe) de Produit Marques Grande Distribution F/H",
+   "company": "TRICOTAGE DES VOSGES",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "**L'entreprise** ---------------- Depuis plus de trente ans, Tricotage des Vosges fabrique avec passion des chaussettes et collants dans son usine en plein cœur des Vosges. Nous fabriquons et distribuons plus de 5 millions de chaussettes par an en France et à l’international dans les grands magasins, détaillants, GMS, boutiques et site e\\-commerce pour les marques Bleuforêt et Olympia. Vous avez e",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=97f7f244d0e8046c"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "107c67dec8989a23",
+   "title": "Assistant Marketing H/F",
+   "company": "IDMarket.com",
+   "location": "Soliers, N, FR",
+   "city": "Soliers",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "Rejoindre l'entreprise ID MARKET, c'est intégrer une entreprise à taille humaine leader sur son secteur en Normandie. Sa croissance et sa reconnaissance dans l'univers de la vente en ligne d'articles d'aménagement intérieur et extérieur ; elle le doit à son équipe jeune et dynamique dont l'esprit d'équipe et d'entreprise font sa réussite. Aujourd'hui, ID MARKET recherche **un(e) Assistant(e) Marke",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=97549c1a31538cd1"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
    "id": "89587726f909bc76",
    "title": "Assistant Chef de produits F/H",
    "company": "Speedy",
@@ -5838,32 +6307,6 @@
    "first_seen": "2026-08-26"
   },
   {
-   "id": "0f046ba4d72298b8",
-   "title": "Lead Product Marketing Manager - 100% remote F/H",
-   "company": "PMEJOB",
-   "location": "Paris 01 - 75",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-08-26",
-   "salary": "70 - 75 k€ brut annuel",
-   "description_snippet": "Boond est en train de Scale ! Boond, c'est la plateforme SaaS qui booste la performance des ESN et cabinets de conseil. On accompagne 2000 clients, ESN, cabinets de conseil et sociétés d'ingénierie, et près de 100 000 utilisateurs en France et à l'international. Le tout en 10...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179310992W"
-    }
-   ],
-   "first_seen": "2026-08-26"
-  },
-  {
    "id": "0d70518447921e5d",
    "title": "Responsable de partenariat Mobilité (F/H)",
    "company": "MACIF",
@@ -5999,32 +6442,6 @@
    "first_seen": "2026-08-26"
   },
   {
-   "id": "2b77158a6fdaedd6",
-   "title": "Chef de produit - cloud F/H",
-   "company": "Hexanet",
-   "location": "Reims - 51",
-   "city": "Reims - 51",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-08-10",
-   "salary": "40 - 60 k€ brut annuel",
-   "description_snippet": "Dans le cadre de notre développement, nous recherchons, en CDI, un chef de produit cloud (H/F) sur Reims (51) ou Serris (77). Votre mission : Rattaché au Responsable Avant-vente, vous êtes garant de notre stratégie Produits/Solutions/Service sur le domaine du cloud, ainsi vous ...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179249893W"
-    }
-   ],
-   "first_seen": "2026-08-26"
-  },
-  {
    "id": "999f1f1e1fb49706",
    "title": "Senior Growth & Demand Generation Manager",
    "company": "Jus Mundi",
@@ -6109,6 +6526,34 @@
     }
    ],
    "first_seen": "2026-08-25"
+  },
+  {
+   "id": "5105c6fcbab5b7d4",
+   "title": "traffic manager f/h",
+   "company": "ba&sh",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "traffic manager f/h **Vous vous reconnaissez dans ce parcours** **:** * Formation supérieure en commerce ou en digital * Intérêt prononcé pour le secteur de mode, du luxe et du retail * Entre 2 et 3 années d’expérience sur un poste similaire en traffic manager, en entreprise ou en agence * Disponible pour un CDD de 4 mois, à partir d'octobre 2026 **Vous vous démarquez pour votre** **:** * Esprit d",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/ba-sh-1/jobs/traffic-manager-f-h_paris_BASH_NdA8mqD"
+    }
+   ],
+   "first_seen": "2026-08-23"
   },
   {
    "id": "2a546deac29bf164",
@@ -6304,34 +6749,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179004489W"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "5105c6fcbab5b7d4",
-   "title": "traffic manager f/h",
-   "company": "ba&sh",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "sea"
-   ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-08-14",
-   "salary": null,
-   "description_snippet": "traffic manager f/h **Vous vous reconnaissez dans ce parcours** **:** * Formation supérieure en commerce ou en digital * Intérêt prononcé pour le secteur de mode, du luxe et du retail * Entre 2 et 3 années d’expérience sur un poste similaire en traffic manager, en entreprise ou en agence * Disponible pour un CDD de 4 mois, à partir d'octobre 2026 **Vous vous démarquez pour votre** **:** * Esprit d",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/ba-sh-1/jobs/traffic-manager-f-h_paris_BASH_NwmX8l3"
     }
    ],
    "first_seen": "2026-08-23"
@@ -7031,6 +7448,62 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "37aa4a17c1be5776",
+   "title": "Chef de projet CRM B2B ET Événementiel - Franprix F/H",
+   "company": "Meteojob",
+   "location": "Vitry-sur-Seine - 94",
+   "city": "Vitry-Sur-Seine - 94",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "fidelisation"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-02",
+   "salary": "A négocier",
+   "description_snippet": "Dans le cadre du renforcement de notre accompagnement auprèsdes franchisés, nous créons un poste de Chef de Projet CRM B2B &Événementiel . Rattaché(e) à l'équipe marketing, vous jouerez un rôle clédans la mise en œuvre de notre stratégie de fidélisation B2B et l'organisationde no...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179347486W"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "56695d3de29ef1aa",
+   "title": "CHEF DE PRODUITS H/F",
+   "company": "UNIKALO",
+   "location": "Mérignac, NA, FR",
+   "city": "Merignac",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "A propos La **S**ociété des **C**olorants du **S**ud\\-**O**uest (SCSO) \\- **UNIKALO**, créée en 1936 est une entreprise familiale actuellement dirigée par la 3ème génération de la famille fondatrice et regroupe deux activités distinctes : * **La production de peintures bâtiment et de produits de traitements de surface**, sur 3 sites industriels répartis à Mérignac (33\\), Cestas (33\\) et Carbonne (",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=00c9c7745c47f672"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
    "id": "02a74d1e78e2d22f",
    "title": "Appui commercial et clientèle F/H",
    "company": "AGREGIO",
@@ -7451,13 +7924,41 @@
    ],
    "bonus_tags": [],
    "score": 4,
-   "date_posted": "2026-08-28",
+   "date_posted": "2026-09-02",
    "salary": "55 - 70 k€ brut annuel",
    "description_snippet": "Rejoignez KERSHIP , spécialiste de la construction de navires de défense, en tant que Chef de produit F/H. Sous la responsabilité du Directeur des Offres et Marketing de KERSHIP, vous participez au développement de notre stratégie marketing et de notre positionnement sur notre...",
    "sources": [
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179223962W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "b014b5b3e94c6a03",
+   "title": "Chef de Produit F/H",
+   "company": "Hellowork",
+   "location": "Raillencourt-Sainte-Olle - 59",
+   "city": "Raillencourt-Sainte-Olle - 59",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-02",
+   "salary": "35 - 45 k€ brut annuel",
+   "description_snippet": "En tant que Chef de produit, vous êtes rattaché à la Direction Marketing. Vous contribuez à la définition de la stratégie marketing de différentes gammes de produits, en lien avec le groupe basé à l'étranger, sur la base de la roadmap produits. Vous pilotez les lancements des nou...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179307407W"
     }
    ],
    "first_seen": "2026-08-26"
@@ -7593,34 +8094,6 @@
     {
      "name": "Fashion Jobs",
      "url": "https://fr.fashionjobs.com/emploi/isabel-marant/Cdd-chef-de-produit-chaussures-h-f,12010581.html"
-    }
-   ],
-   "first_seen": "2026-08-26"
-  },
-  {
-   "id": "b014b5b3e94c6a03",
-   "title": "Chef de Produit F/H",
-   "company": "Hellowork",
-   "location": "Raillencourt-Sainte-Olle - 59",
-   "city": "Raillencourt-Sainte-Olle - 59",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "roadmap"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-08-25",
-   "salary": "35 - 45 k€ brut annuel",
-   "description_snippet": "En tant que Chef de produit, vous êtes rattaché à la Direction Marketing. Vous contribuez à la définition de la stratégie marketing de différentes gammes de produits, en lien avec le groupe basé à l'étranger, sur la base de la roadmap produits. Vous pilotez les lancements des nou...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179307407W"
     }
    ],
    "first_seen": "2026-08-26"
@@ -7903,6 +8376,32 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "a651d7b21f12f8ae",
+   "title": "E-commerce & CRM Manager",
+   "company": "Wopilo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "E-commerce & CRM Manager ### **Qualité requises 🚀** * Sympa (toujours), avec un peu d'humour (c'est mieux) et une mentalité startup (indispensable). * Vous avez une grande aisance sur les sujets techniques et êtes débrouillard·e dans la recherche de solutions et de l’utilisation des ressources comme l’IA, que vous savez intégrer intelligemment dans vos méthodes de travail. * Excellentes capacités ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/wopilo/jobs/e-commerce-crm-manager_paris_WOPIL_Gy5GbOJ"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "a156410619f3e2c2",
    "title": "Product Marketing Manager B2B - F / H",
    "company": "EPSOR",
@@ -7924,32 +8423,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/epsor/jobs/product-marketing-manager-b2b-f-h_paris_EPSOR_Dxm347X"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "a651d7b21f12f8ae",
-   "title": "E-commerce & CRM Manager",
-   "company": "Wopilo",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "crm"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-08-31",
-   "salary": null,
-   "description_snippet": "E-commerce & CRM Manager ### **Qualité requises 🚀** * Sympa (toujours), avec un peu d'humour (c'est mieux) et une mentalité startup (indispensable). * Vous avez une grande aisance sur les sujets techniques et êtes débrouillard·e dans la recherche de solutions et de l’utilisation des ressources comme l’IA, que vous savez intégrer intelligemment dans vos méthodes de travail. * Excellentes capacités ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/wopilo/jobs/e-commerce-crm-manager_paris_WOPIL_Gy5GbOJ"
     }
    ],
    "first_seen": "2026-08-23"
@@ -8496,11 +8969,11 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "d3f3dd01538c6403",
-   "title": "Chef de produit marketing - Approvisionnement vert F/H",
-   "company": "Agregio Solutions",
-   "location": "Courbevoie - 92",
-   "city": "Courbevoie - 92",
+   "id": "ee59260d82b49a2b",
+   "title": "Chef de Produit Plante F/H",
+   "company": "Hellowork",
+   "location": "Bouchemaine - 49",
+   "city": "Bouchemaine - 49",
    "region": "other",
    "work_mode": "onsite",
    "contract": null,
@@ -8510,16 +8983,42 @@
    "skills": [],
    "bonus_tags": [],
    "score": 2,
-   "date_posted": "2026-09-01",
-   "salary": "A partir de 45 k€ brut annuel",
-   "description_snippet": "Nous recherchons un·e Chef de produit marketing - Approvisionnement vert H/F pour rejoindre notre département Commerce Marketing. Le poste est à pourvoir sur notre site de Paris La Défense . Nous offrons la possibilité de télétravailler 2 à 3 jours par semaine. &#x1f5a5;? Concr...",
+   "date_posted": "2026-09-02",
+   "salary": "A négocier",
+   "description_snippet": "Rejoignez-nous pour faire grandir notre offre végétale Afin de renforcer notre équipe, nous recherchons un(e) Chef de Produit Plante pour piloter et développer notre offre végétale, de la stratégie produit jusqu'à sa mise sur le marché. Véritable référent(e) de l'univers Plan...",
    "sources": [
     {
      "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179342255W"
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179347783W"
     }
    ],
-   "first_seen": "2026-09-01"
+   "first_seen": "2026-09-02"
+  },
+  {
+   "id": "f12c68249bba765d",
+   "title": "Appui commercial et clientèle F/H",
+   "company": "Groupe Talents Handicap",
+   "location": "Nanterre, A8, FR",
+   "city": "Nanterre",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-30",
+   "salary": null,
+   "description_snippet": "*En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises \\& organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums.* *L'entreprise* ***EDF*** *recherche actuellement des profils :* Le groupe EDF est l'un des premiers électriciens mondiaux, à la pointe de l'innovat",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=697007e01bb56130"
+    }
+   ],
+   "first_seen": "2026-09-02"
   },
   {
    "id": "bb57ede56e84fe51",
@@ -8969,6 +9468,32 @@
    "first_seen": "2026-08-28"
   },
   {
+   "id": "1fdfb8c8bd1862d2",
+   "title": "CHEF PRODUIT F/H",
+   "company": "CHEZ GIRARD SAS",
+   "location": "Le Lamentin - 972",
+   "city": "Le Lamentin - 972",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-01",
+   "salary": "A négocier",
+   "description_snippet": "L'organisation recherche dans le cadre du renforcement de ses équipes un Chef de Produit. ACTIVITÉS PRINCIPALES ET MISSIONS Rattaché (e) à La Responsable Marketing, vous devrez assurer le développement et la mise en place opérationnelle des plans d'activation en Grande Distri...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179316758W"
+    }
+   ],
+   "first_seen": "2026-08-27"
+  },
+  {
    "id": "0e31c61cdad5c4c6",
    "title": "Traffic Manager Paid Social F/H",
    "company": "Le Figaro",
@@ -9122,32 +9647,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179316294W"
-    }
-   ],
-   "first_seen": "2026-08-27"
-  },
-  {
-   "id": "1fdfb8c8bd1862d2",
-   "title": "CHEF PRODUIT F/H",
-   "company": "CHEZ GIRARD SAS",
-   "location": "Le Lamentin - 972",
-   "city": "Le Lamentin - 972",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-08-26",
-   "salary": "A négocier",
-   "description_snippet": "L'organisation recherche dans le cadre du renforcement de ses équipes un Chef de Produit. ACTIVITÉS PRINCIPALES ET MISSIONS Rattaché (e) à La Responsable Marketing, vous devrez assurer le développement et la mise en place opérationnelle des plans d'activation en Grande Distri...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179316758W"
     }
    ],
    "first_seen": "2026-08-27"
@@ -10495,7 +10994,7 @@
    ],
    "bonus_tags": [],
    "score": 2,
-   "date_posted": "2026-08-31",
+   "date_posted": "2026-09-02",
    "salary": null,
    "description_snippet": "Traffic Manager Senior - CDI - Paris ### Expérience * Tu as une expérience en agence de 2 à 5 ans * Tu as déjà mis en place une stratégie d'acquisition de A à Z * Tu es à l'aise dans la relation avec les annonceurs * Tu as un profil de consultant passionné par le digital * Tu as déjà géré des comptes en autonomie sur les différentes plateformes publicitaires ### Tu es la personne qu'il nous faut s",
    "sources": [
@@ -11009,6 +11508,34 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "ad16235ee0d42d56",
+   "title": "Head of Marketing & Communication H/F",
+   "company": "Cerbair",
+   "location": "Montrouge, A8, FR",
+   "city": "Montrouge",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "**L’entreprise en quelques mots :** Leader français dans la lutte anti\\-drone, au sein de cette industrie émergente à très fort potentiel, ses systèmes renforcent la sécurité du public et des infrastructures critiques telles que des bases militaires, des navires de guerre, des prisons, des aéroports civils, des ports, des palais présidentiels et des convois de VIP. En hypercroissance constante, ce",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=22f4e4f740210392"
+    }
+   ],
+   "first_seen": "2026-09-02"
+  },
+  {
    "id": "580cebeacdf98da9",
    "title": "Chef de projet CRM & Data (H/F)",
    "company": "Comet Meetings",
@@ -11262,7 +11789,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 0,
-   "date_posted": "2026-09-01",
+   "date_posted": "2026-09-02",
    "salary": "A partir de 45 k€ brut annuel",
    "description_snippet": "Notre entreprise évolue dans un secteur à forte composante digitale et accompagne le développement de plusieurs marques et offres à destination d'un marché en pleine transformation. Présente à l'international, elle s'appuie sur des solutions technologiques propriétaires, une cult...",
    "sources": [
@@ -11288,13 +11815,39 @@
    "skills": [],
    "bonus_tags": [],
    "score": 0,
-   "date_posted": "2026-09-01",
+   "date_posted": "2026-09-02",
    "salary": "A partir de 45 k€ brut annuel",
    "description_snippet": "Notre client est un acteur majeur dans la distribution de produits industriels basé à Paris. Au sein d'une société familiale en pleine croissance et intégré dans une équipe marketing à taille humaine, le Chef de Marché a pour responsabilité la rentabilité d'une gamme de produits ...",
    "sources": [
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179339847W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "9508785c522c8ee1",
+   "title": "Assistant(e) Chef de Produit Logistique",
+   "company": "BLUEMARBLE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "BLUEMARBLE est une marque de vêtements pour homme basée à Paris et fondée en 2018 par Anthony Alvarez. Conférer à la singularité un statut universel, voilà le rêve visionnaire que BLUEMARBLE s'efforce de concrétiser chaque saison, en faisant d'une mosaïque de cultures les forces vives de sa marque. Concentrant dans ses collections et à chaque saison un vaste éventail de souvenirs accumulés au fil ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/bluemarble/Assistant-chef-de-produit-logistique,12039954.html"
     }
    ],
    "first_seen": "2026-08-26"
@@ -11347,32 +11900,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=0a4d0ceb0a53e103"
-    }
-   ],
-   "first_seen": "2026-08-26"
-  },
-  {
-   "id": "9508785c522c8ee1",
-   "title": "Assistant(e) Chef de Produit Logistique",
-   "company": "BLUEMARBLE",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-08-24",
-   "salary": null,
-   "description_snippet": "Assister l’équipe dans le suivi produit & production, de la conception jusqu’à la livraison, tout en apportant un soutien polyvalent aux activités quotidiennes du studio de création et du bureau.Suivi Produit / Production Participer au suivi des prototypes et échantillons (envois, retours, archivage)Aider à la préparation des dossiers techniques, fiches produits, et nomenclaturesContribuer à la mi",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/bluemarble/Assistant-chef-de-produit-logistique,12007316.html"
     }
    ],
    "first_seen": "2026-08-26"
@@ -12534,6 +13061,32 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "8e12209786f52e17",
+   "title": "Chef de projet CRM - Sénior F/H",
+   "company": "Abeille Assurances (Aéma Groupe)",
+   "location": "Bois-Colombes",
+   "city": "Bois-Colombes",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "Chef de projet CRM - Sénior F/H",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/abeille-assurances-aema-groupe/jobs/chef-de-projet-crm-senior-f-h_bois-colombes_AAAG_WxyQboV"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "c0791e41e996d1bb",
    "title": "Senior Product Marketing Manager (H/F)",
    "company": "Withings",
@@ -12583,32 +13136,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/jobglober/jobs/integration-implementation-specialist-h-f_paris"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "8e12209786f52e17",
-   "title": "Chef de projet CRM - Sénior F/H",
-   "company": "Abeille Assurances (Aéma Groupe)",
-   "location": "Bois-Colombes",
-   "city": "Bois-Colombes",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "crm"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -2,
-   "date_posted": "2026-08-08",
-   "salary": null,
-   "description_snippet": "Chef de projet CRM - Sénior F/H",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/abeille-assurances-aema-groupe/jobs/chef-de-projet-crm-senior-f-h_bois-colombes"
     }
    ],
    "first_seen": "2026-08-23"
@@ -12774,6 +13301,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "3eec2ad98dfa5665",
+   "title": "Head of Strategic & Offer Marketing",
+   "company": "Evaneos",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "Head of Strategic & Offer Marketing ### **Ce qu’on recherche** ✨ **Vous pourriez être la personne idéale pour ce poste si :** * Vous avez **8 à 12 ans d'expérience** en marketing stratégique, marketing de l'offre, product marketing ou management de catégories/offres dans un **environnement B2C digital**. Une expérience dans le voyage, les marketplaces ou les plateformes consumer/tech est un vrai p",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/evaneos/jobs/head-of-strategic-offer-marketing_paris"
+    }
+   ],
+   "first_seen": "2026-09-02"
   },
   {
    "id": "790b8c725959401b",
