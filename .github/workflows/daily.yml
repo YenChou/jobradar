@@ -2,10 +2,14 @@ name: Daily job scrape
 
 on:
   schedule:
-    # GitHub 的 cron 只吃 UTC，巴黎會換日光節約時間，所以排兩條、再由 gate 步驟
-    # 挑出當下這一季正確的那條。實際觸發可能延遲 10–30 分鐘（GitHub 的已知行為）。
-    - cron: "0 10 * * *"   # 夏令時間 CEST(UTC+2) 的巴黎中午
-    - cron: "0 11 * * *"   # 冬令時間 CET(UTC+1) 的巴黎中午
+    # GitHub 的 cron 只吃 UTC，巴黎會換日光節約時間，所以每個時段排兩條、
+    # 再由 gate 步驟挑出當下這一季正確的那條（另一條會被跳過）。
+    # 一天兩輪：中午收早上新上架的，傍晚收下午新上架的。
+    # 實際觸發可能延遲 10–30 分鐘（GitHub 的已知行為）。
+    - cron: "0 10 * * *"   # 夏令 CEST(UTC+2) 的巴黎中午
+    - cron: "0 11 * * *"   # 冬令 CET(UTC+1)  的巴黎中午
+    - cron: "0 17 * * *"   # 夏令 CEST(UTC+2) 的巴黎 19:00
+    - cron: "0 18 * * *"   # 冬令 CET(UTC+1)  的巴黎 19:00
   workflow_dispatch:        # 也可以在 Actions 頁面手動觸發
 
 permissions:
@@ -20,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45   # 來源變多、每詞抓 100 筆之後，30 分鐘會卡在邊緣
     steps:
-      - name: Gate — 只在「巴黎中午」那條 cron 上執行
+      - name: Gate — 只在對應當季時區的那兩條 cron 上執行
         id: gate
         run: |
           if [ "${{ github.event_name }}" != "schedule" ]; then
@@ -29,13 +33,22 @@ jobs:
           fi
           # 比對排程本身而不是當下時鐘，這樣就算 GitHub 延遲觸發也不會誤判
           offset=$(TZ=Europe/Paris date +%z)
-          if [ "$offset" = "+0200" ]; then want="0 10 * * *"; else want="0 11 * * *"; fi
+          if [ "$offset" = "+0200" ]; then
+            noon="0 10 * * *"; evening="0 17 * * *"
+          else
+            noon="0 11 * * *"; evening="0 18 * * *"
+          fi
           got="${{ github.event.schedule }}"
-          if [ "$got" = "$want" ]; then
-            echo "巴黎時區 $offset，本次排程 '$got' 對應中午 — 執行"
+          case "$got" in
+            "$noon")    slot="中午" ;;
+            "$evening") slot="傍晚" ;;
+            *)          slot="" ;;
+          esac
+          if [ -n "$slot" ]; then
+            echo "巴黎時區 $offset，本次排程 '$got' 對應$slot那輪 — 執行"
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
-            echo "巴黎時區 $offset，本次排程 '$got' 不是中午那條 — 跳過"
+            echo "巴黎時區 $offset，本次排程 '$got' 不屬於當季時段 — 跳過"
             echo "run=false" >> "$GITHUB_OUTPUT"
           fi
 

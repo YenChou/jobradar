@@ -16,9 +16,12 @@ import time
 
 import requests
 
+from scraper.net import session
+
 from scraper.util import to_date_str
 
 log = logging.getLogger("chasse.wttj")
+HTTP = session()
 
 ALGOLIA_APP = "CSEKHVMS53"
 ALGOLIA_KEY = "4bd8f6215d0cc52b26430765769e65a0"  # 公開搜尋金鑰（網站前端使用的同一組）
@@ -60,7 +63,7 @@ def _query(term: str, page: int, hits_per_page: int) -> list[dict] | None:
     )
     payload = {"requests": [{"indexName": INDEX, "params": params}]}
     try:
-        r = requests.post(ENDPOINT, data=json.dumps(payload), headers=HEADERS, timeout=30)
+        r = HTTP.post(ENDPOINT, data=json.dumps(payload), headers=HEADERS, timeout=30)
         r.raise_for_status()
         return r.json()["results"][0].get("hits", [])
     except Exception as e:
