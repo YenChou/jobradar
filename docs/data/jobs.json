@@ -1,16 +1,52 @@
 {
- "generated_at": "2026-09-04T14:08:17Z",
+ "generated_at": "2026-09-05T13:23:38Z",
  "source_stats": {
-  "Indeed": 630,
-  "Welcome to the Jungle": 1693,
-  "France Travail": 32,
-  "APEC": 1632,
-  "Fashion Jobs": 548,
-  "Isarta": 145
+  "Indeed": 605,
+  "Welcome to the Jungle": 1697,
+  "France Travail": 35,
+  "APEC": 1619,
+  "Fashion Jobs": 559,
+  "Isarta": 135
  },
- "count": 562,
- "new_today": 50,
+ "count": 579,
+ "new_today": 17,
  "jobs": [
+  {
+   "id": "9beff6543b7b3015",
+   "title": "Chargé de crm et marketing (H/F)",
+   "company": "université paris saclay",
+   "location": "Orsay, A8, FR",
+   "city": "Orsay",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDD",
+   "categories": [
+    "crm",
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "emailing",
+    "kpi",
+    "marketing automation",
+    "roi",
+    "segmentation",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 32,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "Entreprise Née de la volonté conjuguée d’universités, de grandes écoles et d’organismes de recherche, l’Université Paris\\-Saclay compte parmi les grandes universités européennes et mondiales, couvrant les secteurs des Sciences et Ingénierie, des Sciences de la Vie et Santé, et des Sciences Humaines et Sociales. Sa politique scientifique associe étroitement recherche et innovation, et s’exprime à l",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=6c56d38be30e28bf"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
   {
    "id": "2feda34d05e9dd2d",
    "title": "Growth Marketing Lead (B2B SaaS & Payments)",
@@ -91,8 +127,8 @@
    "work_mode": "onsite",
    "contract": null,
    "categories": [
-    "marketing_analytics",
-    "marketing_operations"
+    "marketing_operations",
+    "marketing_analytics"
    ],
    "skills": [
     "automation",
@@ -514,6 +550,40 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "071cfb6f57743712",
+   "title": "Responsable Marketing Produits et CRM (H/F)",
+   "company": "Additi",
+   "location": "Rennes, A2, FR",
+   "city": "Rennes",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "roadmap",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-09-05",
+   "salary": null,
+   "description_snippet": "**Additi** **Contrat à Rennes 35000** ### **Vos futures missions ?** Rattaché(e) à la direction de CessionPME, vous pilotez l'ensemble de la stratégie marketing et son exécution opérationnelle, autour de sept grands domaines : **1\\. Stratégie marketing \\& croissance** ----------------------------------------- * Définir et piloter la stratégie marketing globale de CessionPME.com, en cohérence avec ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=aa2b0e8c7ba44084"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/additi/jobs/responsable-marketing-h-f_rennes"
+    }
+   ],
+   "first_seen": "2026-09-04"
+  },
+  {
    "id": "d4510a00ac17f04f",
    "title": "Marketing Operations - Turf F/H",
    "company": "Betclic Group",
@@ -879,34 +949,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=f7510fecacaa4227"
-    }
-   ],
-   "first_seen": "2026-09-04"
-  },
-  {
-   "id": "071cfb6f57743712",
-   "title": "Responsable Marketing Produits et CRM (H/F)",
-   "company": "Additi",
-   "location": "Rennes",
-   "city": "Rennes",
-   "region": "west",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "roadmap"
-   ],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-08-07",
-   "salary": null,
-   "description_snippet": "Responsable Marketing Produits et CRM (H/F) 🔎PROFIL RECHERCHÉ : VOTRE PARCOURS • Formation supérieure Bac+4/5 en marketing, marketing digital, communication ou école de commerce. • 5 ans minimum d'expérience en marketing digital, dont une expérience significative sur un site à forte audience, une marketplace, une plateforme de mise en relation ou un pure player du web. • Une expérience en environn",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/additi/jobs/responsable-marketing-h-f_rennes"
     }
    ],
    "first_seen": "2026-09-04"
@@ -1366,6 +1408,37 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "d65c0fd2e4effb51",
+   "title": "Traffic manager (H/F)",
+   "company": "THELEM ASSURANCES",
+   "location": "45 - Chécy",
+   "city": "45 - Checy",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-05",
+   "salary": "Annuel de 50000.0 Euros à 60000.0 Euros - De 50000 à 60000 € (Euros) par an",
+   "description_snippet": "Description du poste : Nous recherchons un(e) Traffic manager senior en CDI pour rejoindre Thélem assurances basé à Chécy (proche Orléans). Au sein du département Marketing Client et Communication, vous jouez un rôle clé dans le pilotage et l'optimisation des leviers digitaux. Intervenant dans un environnement fortement transverse, vous contribuez activement à la performance digitale, à la générat",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6638123"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
    "id": "e813ed5ba03ddb5c",
    "title": "Chef de Produit International Junior H/F",
    "company": "Lafuma Mobilier SAS",
@@ -1424,37 +1497,6 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/213HYDF"
-    }
-   ],
-   "first_seen": "2026-09-04"
-  },
-  {
-   "id": "3c9e493d0fef8f69",
-   "title": "Web Analyst E-Commerce",
-   "company": "QUICK INTERIM",
-   "location": "Gonesse",
-   "city": "Gonesse",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "marketing_analytics"
-   ],
-   "skills": [
-    "analyse de donnees",
-    "dashboard",
-    "ga4",
-    "reporting"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-09-03",
-   "salary": null,
-   "description_snippet": "QUICK EMPLOI est une agence de recrutement spécialisée dans les métiers de la communication, du digital, du marketing et des fonctions tertiaires. Nous accompagnons les entreprises dans leurs besoins en talents en proposant des solutions de recrutement sur mesure en intérim, CDD, CDI et freelance. Notre approche repose sur la proximité, l'écoute et une parfaite connaissance des métiers que nous re",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/quick-interim/Web-analyst-e-commerce,12045456.html"
     }
    ],
    "first_seen": "2026-09-04"
@@ -1741,38 +1783,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/mapei/jobs/chef-de-produit-h-f_toulouse_MF_0j6NLy0"
-    }
-   ],
-   "first_seen": "2026-08-26"
-  },
-  {
-   "id": "2b77158a6fdaedd6",
-   "title": "Chef de produit cloud - h/f",
-   "company": "Hexanet",
-   "location": "Serris, A8, FR",
-   "city": "Serris",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "roadmap"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-09-02",
-   "salary": "40 - 60 k€ brut annuel",
-   "description_snippet": "**Description entreprise :** ============================ Créée il y a 25 ans, HEXANET est le partenaire de croissance des entreprises et des DSI au service de leur développement digital. Notre expertise s’articule autour de 6 domaines clés : • Télécoms • Communications unifiées • Sécurité • Cloud • Infogérance • Intégration. En forte croissance, HEXANET compte aujourd’hui plus de 170 coéquipiers ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=696eacb9066fb5b2"
-    },
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179249893W"
     }
    ],
    "first_seen": "2026-08-26"
@@ -2365,6 +2375,93 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "b6107a3dda1abf27",
+   "title": "Product Marketing Manager",
+   "company": "Ornikar",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "#### **À propos de l’équipe Strategy \\& Development** L’équipe Strategy \\& Development d’Ornikar joue un rôle central dans la définition et l’exécution de la stratégie de l’entreprise. Elle est en charge du développement des offres, de veille concurrentielle, de la finance stratégique et de la coordination des initiatives transverses. #### **Nous recherchons un·e Product Marketing Manager** En tan",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=950fa3c3ca2d210d"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/ornikar/jobs/product-marketing-manager_paris_ORNIK_NApD3Y7"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "439d18346745b919",
+   "title": "Chef de Produit Junior (H/F/X)",
+   "company": "Orliman",
+   "location": "La Mézière, A2, FR",
+   "city": "La Meziere",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "**Qui sommes\\-nous ?** Un sportif qui se fait une entorse ? Une femme enceinte qui a mal au dos ? Un salarié qui a une tendinite au poignet ? ORLIMAN propose des solutions orthopédiques adaptées à chaque articulation du corps, pour différents types de patients. Présents en pharmacie, nous sommes **le n°3 sur le marché français de l'orthopédie et de la podologie**, avec 130 salariés et un chiffre d",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=843dd094a4e550cc"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "cf8dd9ae6383367c",
+   "title": "H/F Sales & CRM Specialist – Maison de Luxe - CDI",
+   "company": "DEPECH'MODE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "fidelisation"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "Au cœur du monde du luxe et de la mode, Depech'Mode se distingue comme un expert du recrutement de personnel qualifié pour des missions au sein des enseignes les plus prestigieuses du secteur. Nous proposons des professionnels compétents et passionnés, disponibles pour des missions en intérim, CDD ou CDI. Plongez dans l'univers fascinant de la mode et du luxe avec Depech'Mode ! Si vous êtes animé(",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/depech-mode/H-f-sales-crm-specialist-maison-de-luxe-cdi,12052515.html"
+    }
+   ],
+   "first_seen": "2026-09-05"
   },
   {
    "id": "a297b453da073d2d",
@@ -3118,6 +3215,36 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "8ba537ffadcbed00",
+   "title": "Growth Marketing Manager – Startup EdTech",
+   "company": "KLIMA SCHOOL - ANDROMEDE",
+   "location": "Nanterre",
+   "city": "Nanterre",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "kpi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "Growth Marketing Manager – Startup EdTech Tu es probablement la bonne personne si : * Excellent sens du contact, empathie, patience et écoute active. * **Esprit analytique fort** * Tu es créatif(ve) et tu aimes produire du contenu qui donne envie d'être vu * Tu as **3 à 5 ans d’expérience en marketing digital,** avec une forte composante SEO/SEA. * Tu maîtrises **SEO, SEA, outils d’analyse (SEMrus",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/klima-school-andromede/jobs/growth-marketing-manager_nanterre"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "afcf9c8d08ce64b6",
    "title": "RevOps Manager – AI, Data & Automation",
    "company": "Mayday",
@@ -3144,36 +3271,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/mayday/jobs/revops_paris"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "8ba537ffadcbed00",
-   "title": "Growth Marketing Manager – Startup EdTech",
-   "company": "KLIMA SCHOOL - ANDROMEDE",
-   "location": "Nanterre",
-   "city": "Nanterre",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "kpi",
-    "sea",
-    "seo"
-   ],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-08-27",
-   "salary": null,
-   "description_snippet": "Growth Marketing Manager – Startup EdTech Tu es probablement la bonne personne si : * Excellent sens du contact, empathie, patience et écoute active. * **Esprit analytique fort** * Tu es créatif(ve) et tu aimes produire du contenu qui donne envie d'être vu * Tu as **3 à 5 ans d’expérience en marketing digital,** avec une forte composante SEO/SEA. * Tu maîtrises **SEO, SEA, outils d’analyse (SEMrus",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/klima-school-andromede/jobs/growth-marketing-manager_nanterre"
     }
    ],
    "first_seen": "2026-08-23"
@@ -3410,6 +3507,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "08128b0ad8eef904",
+   "title": "Chef de Produit Digitaux - F/H - CDD",
+   "company": "FDJ UNITED",
+   "location": "Boulogne-Billancourt, A8, FR",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "**Votre mission** ----------------- ***At FDJ UNITED, we don't just follow the game, we reinvent it.*** *FDJ UNITED is one of Europe’s leading betting and gaming operators, with a vast portfolio of iconic brands and a reputation for technological excellence. With more than 5,000 employees and a presence in around fifteen regulated markets, the Group offers a diversified, responsible range of games",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=02f6904828a55f6d"
+    }
+   ],
+   "first_seen": "2026-09-05"
   },
   {
    "id": "a981e72e83c41533",
@@ -4388,6 +4511,36 @@
    "first_seen": "2026-08-24"
   },
   {
+   "id": "ae790f8a2033834f",
+   "title": "Growth Acquisition Manager - CDI - Paris",
+   "company": "Orus",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "Growth Acquisition Manager - CDI - Paris * **4 à 5 ans d'expérience** en SEO/GEO ou Growth Marketing * Expérience en startup ou scale-up, idéalement dans un contexte international, sur un produit B2B ou réglementé (assurance, fintech, legaltech…) * Solide expertise SEO et forte curiosité pour le GEO et l'AI Search * Expérience concrète en CRO et en expérimentation growth * Profil analytique, orien",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/orus/jobs/growth-acquisition-manager-cdi-paris_paris_ORUS_z3e31W8"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "6171078b41bf1a23",
    "title": "Chef de Produit Aéronautique F/H",
    "company": "Hellowork",
@@ -4409,36 +4562,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179313523W"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "ae790f8a2033834f",
-   "title": "Growth Acquisition Manager - CDI - Paris",
-   "company": "Orus",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "sea",
-    "seo"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-08-26",
-   "salary": null,
-   "description_snippet": "Growth Acquisition Manager - CDI - Paris * **4 à 5 ans d'expérience** en SEO/GEO ou Growth Marketing * Expérience en startup ou scale-up, idéalement dans un contexte international, sur un produit B2B ou réglementé (assurance, fintech, legaltech…) * Solide expertise SEO et forte curiosité pour le GEO et l'AI Search * Expérience concrète en CRO et en expérimentation growth * Profil analytique, orien",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/orus/jobs/growth-acquisition-manager-cdi-paris_paris_ORUS_z3e31W8"
     }
    ],
    "first_seen": "2026-08-23"
@@ -4959,6 +5082,148 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "2a254b9507444573",
+   "title": "Operational Marketing Product Assistant",
+   "company": "SHISEIDO",
+   "location": "Neuilly-Sur-Seine",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-05",
+   "salary": null,
+   "description_snippet": "Stage - Assistant(e) Chef de Produit Marketing Opérationnel - NARS H/F Stage de 6 mois - Janvier 2027 In every moment, in every life Beauty Fondé en 1872 au Japon, Shiseido est l'un des leaders mondiaux de la beauté, porté par des marques emblématiques dans les univers du soin, du parfum et du maquillage. Présent dans plus de 120 pays, le Groupe rassemble près de 32 000 collaborateurs autour de sa",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/shiseido/Operational-marketing-product-assistant,12052995.html"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "0386e695783402e6",
+   "title": "Responsable Marketing - CDI",
+   "company": "Simundia",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "etude de marche",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "### **À propos** Simundia, c’est une équipe de plus de 40 talents, ultra motivés et engagés autour d’une mission qui nous fait vibrer : permettre à chacun de transformer ses aspirations en actions ! Notre solution ? Le coaching situationnel, une expérience de coaching digital à la fois flexible, concret et efficace. Comment ça marche ? C’est simple : 3h de coaching pour développer ses soft\\-skills",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5b1dd16654cbc3f5"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "6d6b21c9768d8917",
+   "title": "Chef Produits",
+   "company": "FOCAL JMLAB",
+   "location": "La Talaudière, ARA, FR",
+   "city": "La Talaudiere",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "**Rejoignez l’excellence acoustique française** ----------------------------------------------- Au sein du Groupe Vervent Audio, nos 2 marques emblématiques, **Focal** et **Naim** se positionnent comme leader mondial dans le domaine du son grâce à des innovations constantes. Depuis 1979, Focal fabrique des équipements acoustiques haut de gamme de référence sur des marchés aussi diversifiés que les",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0c617fb3d8a406e2"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "0aadc30b0501ecf6",
+   "title": "Chef de produit H/F",
+   "company": "",
+   "location": "13 - Fuveau",
+   "city": "13 - Fuveau",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "LYNX RH recrute pour l'un de ses clients un Chef de Produit H/F spécialisé dans le domaine des dispositifs médicaux. Une expérience dans ce secteur ainsi qu'un anglais professionnel sont indispensables ! Des déplacements réguliers sur toute la France sont à prévoir. Pour rappel, Lynx RH intervient dans le recrutement en CDI, CDD et intérim, de profils Bac+2 à Bac +5 spécialisés en : - Fonctions Su",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6636511"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "3c9e493d0fef8f69",
+   "title": "Web Analyst E-Commerce",
+   "company": "QUICK INTERIM",
+   "location": "France",
+   "city": "",
+   "region": "unknown",
+   "work_mode": "onsite",
+   "contract": "Intérim",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [
+    "dashboard",
+    "reporting"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-03",
+   "salary": null,
+   "description_snippet": "Cette mission intérim est d'une durée d'1 mois renouvelable Le/La Web Analyst E-commerce est responsable de la collecte, de l’analyse et de la visualisation des données issues des sites e-commerce (France et international). Il/elle accompagne les équipes métiers (E-commerce, Acquisition, CRM) dans la compréhension de la performance digitale et la prise de décision, en garantissant la fiabilité et ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/quick-interim/Web-analyst-e-commerce,12045456.html"
+    }
+   ],
+   "first_seen": "2026-09-04"
   },
   {
    "id": "a27d18c59935a79e",
@@ -6370,6 +6635,88 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "27b61d4262ab5400",
+   "title": "Marketing Operations Specialist",
+   "company": "Yara",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "We at Yara are part of a global network, collaborating to profitably and responsibly solve some of the world's key challenges \\- resource scarcity, food insecurity and environmental change. **About the Unit** ------------------ As a dynamic **Marketing Operations** **Specialist**, you will contribute to the execution of marketing operations and administrative coordination, with a strong focus on s",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=83191514e56ae40c"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "55098f4f4ab8137c",
+   "title": "Field Event Marketing - France",
+   "company": "Algomarketing",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "### **Description** **B2B SaaS / AI \\| Talent Pool** **Location:** Paris, France **Working model:** Hybrid, with regional travel **Contract:** Typically 6–12 months via Algomarketing, with potential for extension Algomarketing is preparing for upcoming Regional Field Marketing Manager opportunities with a fast\\-growing global AI company, and we are starting to build a talent pool of strong field m",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=88565b525ac82642"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "a46fa7b7e6e01dd4",
+   "title": "Responsable CRM Salesforce et Interactions Omnicanales H/F/X",
+   "company": "Garance Mutuelle",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "parcours client"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "**Garance est un groupe mutualiste qui facilite l’accès et la compréhension de l’épargne pour ses adhérents. Depuis près de 40 ans, Garance innove sans cesse en accompagnant ses 247 148 épargnants vers leur indépendance ; avec pour but d’accorder leurs économies avec leurs projets ou leurs objectifs.** **Ce qui nous différencie, c’est notre mission : donner du sens à l’épargne en la rendant access",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=03e189724050f05b"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
    "id": "99d6b6203aea2bde",
    "title": "Chef de produits - industrie F/H/X",
    "company": "Socomec",
@@ -7406,6 +7753,32 @@
    "first_seen": "2026-08-26"
   },
   {
+   "id": "2b77158a6fdaedd6",
+   "title": "Chef de produit - cloud F/H",
+   "company": "Hexanet",
+   "location": "Reims - 51",
+   "city": "Reims - 51",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-10",
+   "salary": "40 - 60 k€ brut annuel",
+   "description_snippet": "Dans le cadre de notre développement, nous recherchons, en CDI, un chef de produit cloud (H/F) sur Reims (51) ou Serris (77). Votre mission : Rattaché au Responsable Avant-vente, vous êtes garant de notre stratégie Produits/Solutions/Service sur le domaine du cloud, ainsi vous ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179249893W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "999f1f1e1fb49706",
    "title": "Senior Growth & Demand Generation Manager",
    "company": "Jus Mundi",
@@ -8410,6 +8783,87 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "2cde46d689947bc3",
+   "title": "CDI- TISSOT-RESPONSABLE MARKETING ET COMMUNICATION FRANCE H/F",
+   "company": "Swatch Group",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations",
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "**Description du poste** ------------------------ Rattaché(e) au Brand Manager, le/la Responsable Marketing \\& Communication est garant(e) de la stratégie marketing et communication de la marque TISSOT sur le marché français. Il/elle assure le développement de la visibilité, de la notoriété et de la désirabilité de la marque au travers d'activations médias, événementielles, digitales et trade mark",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3835b380ca7ce761"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "8a41df2fe2db0467",
+   "title": "CDD - Merchandiser International Horlogerie",
+   "company": "Cartier",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "The story of Cartier is founded on audacity and passion. For more than 170 years we have embraced a bold, pioneering spirit that continues to inspire our teams across all Métiers from our boutiques to our workshops and corporate offices. Our 9000\\+ colleagues of 105 nationalities are united by a shared independent spirit and commitment to excellence, striving to continuously enrich our Maison’s he",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=62e83a1079e425bd"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
+   "id": "aa5cfa4083169334",
+   "title": "Assistant(e) Chef de produit Perfusion & Générique",
+   "company": "Fresenius Kabi",
+   "location": "Sèvres, A8, FR",
+   "city": "Sevres",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "**Assistant(e) Chef de produit Perfusion \\& Générique** **FRESENIUS KABI : qui sommes\\-nous ?** Notre vocation est de mettre les médicaments et technologies au service des professionnels de la santé, afin qu’ils puissent accompagner les patients, tant à l’hôpital qu’à leur domicile, et répondre aux défis auxquels ils sont confrontés, dans les situations aigües ou chroniques. Nous nous consacrons à",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1760f25ff6bf34c6"
+    }
+   ],
+   "first_seen": "2026-09-05"
   },
   {
    "id": "acfca734fcc7cc56",
@@ -9491,7 +9945,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 4,
-   "date_posted": "2026-09-02",
+   "date_posted": "2026-09-04",
    "salary": null,
    "description_snippet": "E-commerce & CRM Manager ### **Qualité requises 🚀** * Sympa (toujours), avec un peu d'humour (c'est mieux) et une mentalité startup (indispensable). * Vous avez une grande aisance sur les sujets techniques et êtes débrouillard·e dans la recherche de solutions et de l’utilisation des ressources comme l’IA, que vous savez intégrer intelligemment dans vos méthodes de travail. * Excellentes capacités ",
    "sources": [
@@ -10196,32 +10650,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179356375W"
-    }
-   ],
-   "first_seen": "2026-09-04"
-  },
-  {
-   "id": "d43d72bda1ecd891",
-   "title": "Chef de Produit Senior Offres en Optique H/F",
-   "company": "OPTIC 2000",
-   "location": "Clamart",
-   "city": "Clamart",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-03",
-   "salary": null,
-   "description_snippet": "Au sein de la Direction Marketing et Commerciale et rattaché(e) à la Responsable Offres et Programme de Fidélisation, le/la Chef de Produit Senior Offres pilote la conception, l'évolution et la performance des offres produits et services des enseignes Optic 2000, Lissac et Audio 2000. Véritable référent(e) de la stratégie d'offres, il/elle identifie les opportunités de croissance, construit des pr",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/optic-2000/Chef-de-produit-senior-offres-en-optique-h-f,12046529.html"
     }
    ],
    "first_seen": "2026-09-04"
@@ -11681,8 +12109,8 @@
    "id": "522ee5d05356acea",
    "title": "Responsable Ligne Produits Anti-Chute F/H",
    "company": "Hellowork",
-   "location": "Bernin - 38",
-   "city": "Bernin - 38",
+   "location": "Le Chambon-Feugerolles - 42",
+   "city": "Le Chambon-Feugerolles - 42",
    "region": "other",
    "work_mode": "onsite",
    "contract": null,
@@ -11692,13 +12120,13 @@
    "skills": [],
    "bonus_tags": [],
    "score": 2,
-   "date_posted": "2026-08-11",
+   "date_posted": "2026-08-12",
    "salary": "65 - 75 k€ brut annuel",
    "description_snippet": "Missions principales : Vous pilotez l'offre Anti-chute à l'échelle mondiale, en combinant stratégie, marketing produit et action opérationnelle. Véritable chef d'orchestre, vous êtes le lien entre les besoins clients et le développement produit : - Être la voix du client : co...",
    "sources": [
     {
      "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179233395W"
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179256563W"
     }
    ],
    "first_seen": "2026-08-26"
@@ -14234,6 +14662,34 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "ed039314017913e2",
+   "title": "Head of Marketing & Communications",
+   "company": "FTI Consulting, Inc.",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "salesforce"
+   ],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-09-04",
+   "salary": null,
+   "description_snippet": "**Qui sommes\\-nous ?** FTI Consulting est le premier cabinet d’expertise mondial pour les organisations confrontées à des crises et des transformations. Nous travaillons avec de nombreuses entreprises internationales de premier plan, des cabinets d’avocats, des banques et des sociétés de capital\\-investissement, qui nous confient leurs enjeux les plus importants. Qu'il s'agisse de résoudre des lit",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7233cc36e19f9b39"
+    }
+   ],
+   "first_seen": "2026-09-05"
+  },
+  {
    "id": "b539da6dba83497f",
    "title": "Head of Growth",
    "company": "fonio",
@@ -15242,6 +15698,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "d43d72bda1ecd891",
+   "title": "Chef de Produit Senior Offres en Optique H/F",
+   "company": "OPTIC 2000",
+   "location": "France",
+   "city": "",
+   "region": "unknown",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -8,
+   "date_posted": "2026-09-03",
+   "salary": null,
+   "description_snippet": "Au sein de la Direction Marketing et Commerciale et rattaché(e) à la Responsable Offres et Programme de Fidélisation, le/la Chef de Produit Senior Offres pilote la conception, l'évolution et la performance des offres produits et services des enseignes Optic 2000, Lissac et Audio 2000. Véritable référent(e) de la stratégie d'offres, il/elle identifie les opportunités de croissance, construit des pr",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/optic-2000/Chef-de-produit-senior-offres-en-optique-h-f,12046529.html"
+    }
+   ],
+   "first_seen": "2026-09-04"
   },
   {
    "id": "5aba4c718a1fa960",
