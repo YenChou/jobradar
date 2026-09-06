@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-05T13:23:38Z",
+ "generated_at": "2026-09-06T13:32:27Z",
  "source_stats": {
-  "Indeed": 605,
+  "Indeed": 514,
   "Welcome to the Jungle": 1697,
-  "France Travail": 35,
-  "APEC": 1619,
-  "Fashion Jobs": 559,
-  "Isarta": 135
+  "France Travail": 25,
+  "APEC": 1616,
+  "Fashion Jobs": 548,
+  "Isarta": 130
  },
- "count": 579,
- "new_today": 17,
+ "count": 583,
+ "new_today": 4,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -579,38 +579,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/additi/jobs/responsable-marketing-h-f_rennes"
-    }
-   ],
-   "first_seen": "2026-09-04"
-  },
-  {
-   "id": "d4510a00ac17f04f",
-   "title": "Marketing Operations - Turf F/H",
-   "company": "Betclic Group",
-   "location": "Bordeaux, NA, FR",
-   "city": "Bordeaux",
-   "region": "west",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [
-    "processus"
-   ],
-   "bonus_tags": [],
-   "score": 18,
-   "date_posted": "2026-09-01",
-   "salary": null,
-   "description_snippet": "**WE ARE BETCLIC** Betclic, leader européen des paris sportifs, est bien plus qu'un simple site de jeux en ligne ! Présente dans plusieurs pays et sur différents continents avec une offre incluant également le poker, les paris hippiques et les jeux de casino, notre entreprise se distingue par son esprit inspirant et tourné vers l'avenir : chaque journée y apporte son lot de nouveaux défis, au sein",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=7e767c6b83f2822a"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/betclic/jobs/marketing-operations-turf-f-h_bordeaux"
     }
    ],
    "first_seen": "2026-09-04"
@@ -1408,6 +1376,35 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "dba5da7b697ad6e8",
+   "title": "Chargé de Marketing H/F",
+   "company": "Groupe Covéa",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-05",
+   "salary": null,
+   "description_snippet": "Covéa Finance, société de gestion de portefeuille de Covéa groupe réunissant les assurances mutualistes MAAF, MMA, GMF et le réassureur PartnerRe est un acteur majeur de la finance au service de l'assurance. Créée en 2006, Covéa Finance gère actuellement plus de 84 milliards d'euros d'actifs. Sa philosophie de gestion se singularise par une approche raisonnée du rapport rendement/risque au cours d",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=78471e5769d1a700"
+    }
+   ],
+   "first_seen": "2026-09-06"
+  },
+  {
    "id": "d65c0fd2e4effb51",
    "title": "Traffic manager (H/F)",
    "company": "THELEM ASSURANCES",
@@ -1462,6 +1459,32 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=a0468e5c7189db00"
+    }
+   ],
+   "first_seen": "2026-09-04"
+  },
+  {
+   "id": "d4510a00ac17f04f",
+   "title": "Marketing Operations - Turf F/H",
+   "company": "Betclic Group",
+   "location": "Bordeaux",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-03",
+   "salary": null,
+   "description_snippet": "Marketing Operations - Turf F/H",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/betclic/jobs/marketing-operations-turf-f-h_bordeaux"
     }
    ],
    "first_seen": "2026-09-04"
@@ -2439,9 +2462,9 @@
    "id": "cf8dd9ae6383367c",
    "title": "H/F Sales & CRM Specialist – Maison de Luxe - CDI",
    "company": "DEPECH'MODE",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
+   "location": "France",
+   "city": "",
+   "region": "unknown",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
@@ -2454,7 +2477,7 @@
    "score": 12,
    "date_posted": "2026-09-04",
    "salary": null,
-   "description_snippet": "Au cœur du monde du luxe et de la mode, Depech'Mode se distingue comme un expert du recrutement de personnel qualifié pour des missions au sein des enseignes les plus prestigieuses du secteur. Nous proposons des professionnels compétents et passionnés, disponibles pour des missions en intérim, CDD ou CDI. Plongez dans l'univers fascinant de la mode et du luxe avec Depech'Mode ! Si vous êtes animé(",
+   "description_snippet": "Au sein d’une boutique d’une Maison de Luxe, le/la Sales & Customer Development Specialist joue un rôle clé dans le développement de l’activité commerciale et de la relation client.Au-delà de l’accueil et du conseil en boutique, vous êtes chargé(e) de développer activement la clientèle, d’identifier de nouvelles opportunités commerciales et de mettre en place des initiatives permettant d’accroître",
    "sources": [
     {
      "name": "Fashion Jobs",
@@ -3507,6 +3530,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "87d78eb68c9948bf",
+   "title": "CHEF DE PRODUIT F/H",
+   "company": "H2C CARRIERES",
+   "location": "Caen - 14",
+   "city": "Caen",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-02",
+   "salary": "A partir de 41 k€ brut annuel",
+   "description_snippet": "Vous aimez analyser un marché, faire évoluer une gamme et identifier les produits à fort potentiel ? Vous souhaitez rejoindre un environnement e-commerce dans lequel vous pourrez agir directement sur le développement de l’offre et la performance commerciale de vos produits ? ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179352987W"
+    }
+   ],
+   "first_seen": "2026-09-06"
   },
   {
    "id": "08128b0ad8eef904",
@@ -5084,34 +5133,6 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "2a254b9507444573",
-   "title": "Operational Marketing Product Assistant",
-   "company": "SHISEIDO",
-   "location": "Neuilly-Sur-Seine",
-   "city": "Neuilly-Sur-Seine",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-05",
-   "salary": null,
-   "description_snippet": "Stage - Assistant(e) Chef de Produit Marketing Opérationnel - NARS H/F Stage de 6 mois - Janvier 2027 In every moment, in every life Beauty Fondé en 1872 au Japon, Shiseido est l'un des leaders mondiaux de la beauté, porté par des marques emblématiques dans les univers du soin, du parfum et du maquillage. Présent dans plus de 120 pays, le Groupe rassemble près de 32 000 collaborateurs autour de sa",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/shiseido/Operational-marketing-product-assistant,12052995.html"
-    }
-   ],
-   "first_seen": "2026-09-05"
-  },
-  {
    "id": "0386e695783402e6",
    "title": "Responsable Marketing - CDI",
    "company": "Simundia",
@@ -6633,6 +6654,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "099c78e5d80eedf0",
+   "title": "Assistant(e) Achats & Développement Produit– E-commerce / Amazon (H/F) Débutant(e) accepté(e) - CDI",
+   "company": "Le Produit En Ligne",
+   "location": "Saint-Laurent-de-Mure, ARA, FR",
+   "city": "Saint-Laurent-De-Mure",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-05",
+   "salary": null,
+   "description_snippet": "CELIMS conçoit et vend des **valises et accessoires de voyage**. Nous sommes une PME lyonnaise d'une dizaine de personnes, réalisant **plus de 3 M€ de chiffre d'affaires**, présente sur Amazon dans six pays européens, sur Cdiscount et sur notre site celims.com. Nous ne nous contentons pas de revendre des produits catalogue : **nous les concevons et les faisons fabriquer**. Nouvelles dimensions, no",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=71610aa34796b194"
+    }
+   ],
+   "first_seen": "2026-09-06"
   },
   {
    "id": "27b61d4262ab5400",
@@ -8785,6 +8832,32 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "4739595d1df90062",
+   "title": "Chef de Produit Maroquinerie (H/F/x)",
+   "company": "CELINE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-05",
+   "salary": null,
+   "description_snippet": "Intégré(e) à l’équipe Collection Maroquinerie Femme, vous contribuerez à la définition des collections de Maroquinerie Femme, soit 4 collections par an. Vous aurez en charge les missions suivantes : Elaboration des briefs de collection et cadrage Définir les demandes et les besoins basés sur des informations qualitatives et des analyses quantitatives Planifier la taille et structure correcte pour ",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/celine/Chef-de-produit-maroquinerie,12055906.html"
+    }
+   ],
+   "first_seen": "2026-09-06"
+  },
+  {
    "id": "2cde46d689947bc3",
    "title": "CDI- TISSOT-RESPONSABLE MARKETING ET COMMUNICATION FRANCE H/F",
    "company": "Swatch Group",
@@ -8939,39 +9012,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/nopillo/jobs/founding-product-marketing-manager-h-f_paris"
-    }
-   ],
-   "first_seen": "2026-09-04"
-  },
-  {
-   "id": "9c28cbbbd06ce082",
-   "title": "Head of Product Marketing & Growth",
-   "company": "CybelAngel",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "gtm",
-    "roadmap"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-02",
-   "salary": null,
-   "description_snippet": "**Our job everyday is to protect the data and critical assets of businesses world\\-wide by discovering hidden vulnerabilities… before the bad guys do!** At **CybelAngel**, we see beyond perimeters to protect businesses from the most critical cybersecurity threats. Fortune 500 Global to mid\\-size companies world\\-wide, trust CybelAngel’s global team of approximately 130 team members to protect thei",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=da8b02e4ea4b6099"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/cybelangel/jobs/head-of-product-marketing-growth_clichy"
     }
    ],
    "first_seen": "2026-09-04"
@@ -10522,6 +10562,34 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "2a254b9507444573",
+   "title": "Operational Marketing Product Assistant",
+   "company": "SHISEIDO",
+   "location": "France",
+   "city": "",
+   "region": "unknown",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-05",
+   "salary": null,
+   "description_snippet": "Stage - Assistant(e) Chef de Produit Marketing Opérationnel - NARS H/F Stage de 6 mois - Janvier 2027 In every moment, in every life Beauty Fondé en 1872 au Japon, Shiseido est l'un des leaders mondiaux de la beauté, porté par des marques emblématiques dans les univers du soin, du parfum et du maquillage. Présent dans plus de 120 pays, le Groupe rassemble près de 32 000 collaborateurs autour de sa",
+   "sources": [
+    {
+     "name": "Fashion Jobs",
+     "url": "https://fr.fashionjobs.com/emploi/shiseido/Operational-marketing-product-assistant,12052995.html"
+    }
+   ],
+   "first_seen": "2026-09-05"
   },
   {
    "id": "b2eed9ca7457c293",
@@ -14713,6 +14781,32 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=c72abe08be5d68f4"
+    }
+   ],
+   "first_seen": "2026-09-04"
+  },
+  {
+   "id": "9c28cbbbd06ce082",
+   "title": "Head of Product Marketing & Growth",
+   "company": "CybelAngel",
+   "location": "Clichy",
+   "city": "Clichy",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "Head of Product Marketing & Growth **The profile we are looking for** **Required** * **Cybersecurity experience.** You have done product marketing inside a security vendor or platform. You understand what a detection product actually sells, why false positives are a commercial problem as much as a technical one, and how a security buyer builds a decision. This is not a domain we will teach you. * ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/cybelangel/jobs/head-of-product-marketing-growth_clichy"
     }
    ],
    "first_seen": "2026-09-04"
