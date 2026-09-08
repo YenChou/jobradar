@@ -13,9 +13,12 @@ import time
 
 import requests
 
+from scraper.net import session
+
 from scraper.util import to_date_str
 
 log = logging.getLogger("chasse.apec")
+HTTP = session()
 
 SEARCH_URL = "https://www.apec.fr/cms/webservices/rechercheOffre"
 DETAIL_URL = "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/{id}"
@@ -63,7 +66,7 @@ def _page(term: str, page: int, jobs: list[dict], seen: set[str], results_per_te
         "activeFiltre": True,
     }
     try:
-        r = requests.post(SEARCH_URL, data=json.dumps(payload), headers=HEADERS, timeout=30)
+        r = HTTP.post(SEARCH_URL, data=json.dumps(payload), headers=HEADERS, timeout=30)
         if r.status_code in (403, 405):
             log.warning("APEC 回 %s（很可能是 DataDome 反爬），整組跳過", r.status_code)
             return False

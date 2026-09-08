@@ -26,9 +26,12 @@ import re
 import time
 
 import requests
+
+from scraper.net import session
 from bs4 import BeautifulSoup
 
 log = logging.getLogger("chasse.fashionjobs")
+HTTP = session()
 
 SEARCH_URL = "https://fr.fashionjobs.com/s/"
 PAGES = 3  # 站上沒有排序參數，只能靠翻頁擴大涵蓋範圍
@@ -107,8 +110,8 @@ class _Ctx:
 def _page(term: str, page: int, ctx: "_Ctx") -> bool:
     """抓一頁；回傳 False 表示這個搜尋詞不用再往下翻。"""
     try:
-        r = requests.get(SEARCH_URL, params={"keyword": term, "page": page},
-                         headers=HEADERS, timeout=LIST_TIMEOUT)
+        r = HTTP.get(SEARCH_URL, params={"keyword": term, "page": page},
+                     headers=HEADERS, timeout=LIST_TIMEOUT)
         r.raise_for_status()
     except Exception as e:
         log.warning("Fashion Jobs 列表 %r p%d 失敗: %s", term, page, e)
@@ -180,7 +183,7 @@ def _company_from_url(href: str) -> str:
 def _detail(url: str) -> dict:
     """詳情頁的 schema.org/JobPosting，比刮 HTML 穩定。"""
     try:
-        r = requests.get(url, headers=HEADERS, timeout=DETAIL_TIMEOUT)
+        r = HTTP.get(url, headers=HEADERS, timeout=DETAIL_TIMEOUT)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         for sc in soup.find_all("script", type="application/ld+json"):

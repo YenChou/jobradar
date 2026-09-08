@@ -18,9 +18,12 @@ import re
 import time
 
 import requests
+
+from scraper.net import session
 from bs4 import BeautifulSoup
 
 log = logging.getLogger("chasse.isarta")
+HTTP = session()
 
 LIST_URL = "https://isarta.fr/cgi-bin/emplois/jobs"
 CATEGORIES = ["marketing", "marketing-numerique-communication", "web-numerique", "teletravail"]
@@ -42,7 +45,7 @@ def fetch(known_urls: set[str] | None = None) -> list[dict]:
 
 def _category(cat: str, jobs: list[dict], seen: set[str]) -> None:
     try:
-        r = requests.get(LIST_URL, params={"cat": cat}, headers=HEADERS, timeout=30)
+        r = HTTP.get(LIST_URL, params={"cat": cat}, headers=HEADERS, timeout=30)
         r.raise_for_status()
     except Exception as e:
         log.warning("Isarta 列表 cat=%s 失敗: %s", cat, e)

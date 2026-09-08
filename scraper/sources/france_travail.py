@@ -16,9 +16,12 @@ import time
 
 import requests
 
+from scraper.net import session
+
 from scraper.util import to_date_str
 
 log = logging.getLogger("chasse.francetravail")
+HTTP = session()
 
 PAGE_SIZE = 150  # API 單次上限
 PAGES = 2
@@ -58,7 +61,7 @@ def fetch(search_terms: list[str], max_days_old: int = 7) -> list[dict]:
 
 def _get_token(client_id: str, client_secret: str) -> str | None:
     try:
-        r = requests.post(
+        r = HTTP.post(
             TOKEN_URL,
             data={
                 "grant_type": "client_credentials",
@@ -84,7 +87,7 @@ def _search(token: str, term: str, max_days_old: int, page: int = 0) -> list[dic
         "range": f"{lo}-{lo + PAGE_SIZE - 1}",
     }
     try:
-        r = requests.get(
+        r = HTTP.get(
             SEARCH_URL,
             params=params,
             headers={"Authorization": f"Bearer {token}", "Accept": "application/json"},
