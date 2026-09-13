@@ -13,9 +13,12 @@ import time
 
 import requests
 
+from scraper.net import TIMEOUT, Budget, session
+
 from scraper.util import to_date_str
 
 log = logging.getLogger("chasse.apec")
+HTTP = session()
 
 SEARCH_URL = "https://www.apec.fr/cms/webservices/rechercheOffre"
 DETAIL_URL = "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/{id}"
@@ -39,14 +42,19 @@ def _pick(d: dict, *candidates, default=None):
 
 PAGE_SIZE = 100  # API 上限，給更大的值會被當成無效而退回 20 筆
 PAGES = 3
+TIME_BUDGET_S = 600   # 11 詞 × 3 頁；DataDome 擋人時不該把時間全耗在重試
 
 
 def fetch(search_terms: list[str], results_per_term: int = 100) -> list[dict]:
     jobs: list[dict] = []
     seen: set[str] = set()
+    budget = Budget(TIME_BUDGET_S)
     for term in search_terms:
+        if budget.expired():
+            log.warning("APEC 時間預算用完，%r 之後的搜尋詞跳過", term)
+            break
         for page in range(PAGES):
-            if not _page(term, page, jobs, seen, results_per_term):
+            if budget.expired() or not _page(term, page, jobs, seen, results_per_term):
                 break
     return jobs
 
@@ -63,7 +71,7 @@ def _page(term: str, page: int, jobs: list[dict], seen: set[str], results_per_te
         "activeFiltre": True,
     }
     try:
-        r = requests.post(SEARCH_URL, data=json.dumps(payload), headers=HEADERS, timeout=30)
+        r = HTTP.post(SEARCH_URL, data=json.dumps(payload), headers=HEADERS, timeout=TIMEOUT)
         if r.status_code in (403, 405):
             log.warning("APEC 回 %s（很可能是 DataDome 反爬），整組跳過", r.status_code)
             return False

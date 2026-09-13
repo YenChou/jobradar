@@ -16,12 +16,16 @@ import time
 
 import requests
 
+from scraper.net import TIMEOUT, Budget, session
+
 from scraper.util import to_date_str
 
 log = logging.getLogger("chasse.francetravail")
+HTTP = session()
 
 PAGE_SIZE = 150  # API 單次上限
 PAGES = 2
+TIME_BUDGET_S = 300
 
 TOKEN_URL = "https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire"
 SEARCH_URL = "https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search"
@@ -40,8 +44,14 @@ def fetch(search_terms: list[str], max_days_old: int = 7) -> list[dict]:
 
     jobs: list[dict] = []
     seen_ids: set[str] = set()
+    budget = Budget(TIME_BUDGET_S)
     for term in search_terms:
+        if budget.expired():
+            log.warning("France Travail 時間預算用完，%r 之後的搜尋詞跳過", term)
+            break
         for page in range(PAGES):
+            if budget.expired():
+                break
             offers = _search(token, term, max_days_old, page)
             for o in offers:
                 oid = o.get("id")
@@ -58,7 +68,7 @@ def fetch(search_terms: list[str], max_days_old: int = 7) -> list[dict]:
 
 def _get_token(client_id: str, client_secret: str) -> str | None:
     try:
-        r = requests.post(
+        r = HTTP.post(
             TOKEN_URL,
             data={
                 "grant_type": "client_credentials",
@@ -66,7 +76,7 @@ def _get_token(client_id: str, client_secret: str) -> str | None:
                 "client_secret": client_secret,
                 "scope": f"api_offresdemploiv2 o2dsoffre",
             },
-            timeout=30,
+            timeout=TIMEOUT,
         )
         r.raise_for_status()
         return r.json()["access_token"]
@@ -84,11 +94,11 @@ def _search(token: str, term: str, max_days_old: int, page: int = 0) -> list[dic
         "range": f"{lo}-{lo + PAGE_SIZE - 1}",
     }
     try:
-        r = requests.get(
+        r = HTTP.get(
             SEARCH_URL,
             params=params,
             headers={"Authorization": f"Bearer {token}", "Accept": "application/json"},
-            timeout=30,
+            timeout=TIMEOUT,
         )
         if r.status_code == 204:  # 無結果
             return []
