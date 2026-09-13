@@ -53,14 +53,21 @@ HEADERS = {
 BLOCKED_STATUS = (403, 429, 503)
 # Cloudflare 的 JS 挑戰頁回的是 200，body 卻不是職缺列表。沒有這組偵測的話
 # 整個來源會靜靜回 0 筆，log 看起來像「今天就是沒職缺」。
-CHALLENGE_MARKERS = (
-    "just a moment",
-    "attention required!",
+# 分兩類是因為誤判的代價是「整組收工，而且偽裝成今天剛好沒職缺」：
+#   CF 專屬字串不可能出現在正常頁面，全頁比對安全；
+#   "just a moment" 這種通用英文正常內文也可能出現，只在 <title> 裡比對。
+CHALLENGE_CF = (
     "cf-browser-verification",
     "challenge-platform",
     "_cf_chl",
-    "enable javascript and cookies",
+    "enable javascript and cookies to continue",
 )
+CHALLENGE_TITLES = ("just a moment", "attention required")
+TITLE_PAT = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
+
+
+class _Blocked(Exception):
+    """站方在擋我們。不重試——重試只會在對方推回來的當下加大足跡。"""
 
 # 這個站在 Cloudflare 後面，會依 TLS 指紋擋掉 requests/urllib3（連 robots.txt
 # 允許的路徑也擋）。用 tls_client 模擬瀏覽器指紋才拿得到內容。
@@ -78,15 +85,24 @@ def _http() -> Session:
     global _HTTP
     if _HTTP is None:
         s = Session(client_identifier="chrome_120", random_tls_extension_order=True)
-        s.get(BASE, headers=HEADERS, timeout_seconds=LIST_TIMEOUT)
+        r = s.get(BASE, headers=HEADERS, timeout_seconds=LIST_TIMEOUT)
+        # 暖身回應本身也要驗：被擋時回的是 200 挑戰頁、不會拋例外，
+        # 沒驗的話這顆從來沒拿到有效 cookie 的 session 會被快取起來，
+        # 而且之後的 log 會說是「列表被擋」，看不出問題出在暖身。
+        reason = blocked_reason(r)
+        if reason:
+            raise _Blocked(f"暖身就被擋（{reason}）")
         time.sleep(1)
         _HTTP = s          # 只有走到這裡才算暖身成功
     return _HTTP
 
 
 def _get(url: str, params: dict | None = None, timeout: int = LIST_TIMEOUT):
+    # _http() 放在 retry_call 外面：暖身被擋時拋的 _Blocked 不該被重試，
+    # 那只會在站方推回來的當下多送請求。
+    http = _http()
     return retry_call(
-        lambda: _http().get(url, params=params, headers=HEADERS, timeout_seconds=timeout),
+        lambda: http.get(url, params=params, headers=HEADERS, timeout_seconds=timeout),
         what=f"Fashion Jobs {url}",
         retries=RETRIES,
     )
@@ -98,9 +114,14 @@ def blocked_reason(r) -> str | None:
         return f"HTTP {r.status_code}"
     if r.status_code == 200:
         head = (r.text or "")[:4000].lower()
-        for marker in CHALLENGE_MARKERS:
+        for marker in CHALLENGE_CF:
             if marker in head:
                 return f"Cloudflare 挑戰頁（{marker}）"
+        m = TITLE_PAT.search(head)
+        title = m.group(1).strip() if m else ""
+        for marker in CHALLENGE_TITLES:
+            if marker in title:
+                return f"Cloudflare 挑戰頁（title: {title[:40]}）"
     return None
 
 
@@ -184,6 +205,11 @@ def _page(term: str, page: int, ctx: "_Ctx") -> bool:
     """抓一頁；回傳 False 表示這個搜尋詞不用再往下翻。"""
     try:
         r = _get(SEARCH_URL, {"keyword": term, "page": page}, LIST_TIMEOUT)
+    except _Blocked as e:
+        ctx.blocked = True
+        log.warning("Fashion Jobs %s，整組跳過", e)
+        return False
+    try:
         # 站方擋人時繼續打剩下的搜尋詞只會讓情況更糟，直接整組收工。
         # 注意不是只有 403：429／503 也是限流，而 Cloudflare 的 JS 挑戰頁
         # 回的是 200，要看 body 才認得出來。
@@ -266,6 +292,12 @@ def _detail(url: str, ctx: "_Ctx" = None) -> dict:
     """詳情頁的 schema.org/JobPosting，比刮 HTML 穩定。"""
     try:
         r = _get(url, None, DETAIL_TIMEOUT)
+    except _Blocked as e:
+        if ctx is not None:
+            ctx.blocked = True
+        log.warning("Fashion Jobs 詳情頁：%s，停止補詳情", e)
+        return {}
+    try:
         reason = blocked_reason(r)
         if reason:
             if ctx is not None:
