@@ -1,4 +1,4 @@
-"""Fashion Jobs France — 時尚產業職缺板（requests + BeautifulSoup）。
+"""Fashion Jobs France — 時尚產業職缺板（tls_client + BeautifulSoup）。
 
 搜尋：GET https://fr.fashionjobs.com/s/?keyword=<關鍵字>
 職缺連結模式：/emploi/<company>/<title>,<ID>.html
@@ -25,22 +25,105 @@ import logging
 import re
 import time
 
-import requests
-
-from scraper.net import Budget, session
 from bs4 import BeautifulSoup
+from tls_client import Session
+
+from scraper.net import Budget, retry_call
 
 log = logging.getLogger("chasse.fashionjobs")
-HTTP = session()
 
-SEARCH_URL = "https://fr.fashionjobs.com/s/"
-PAGES = 3  # 站上沒有排序參數，只能靠翻頁擴大涵蓋範圍
+BASE = "https://fr.fashionjobs.com"
+SEARCH_URL = f"{BASE}/s/"
+PAGES = 2  # 站方用 Cloudflare 擋機器人，把請求足跡壓低是為了不再被擋
 JOB_LINK = re.compile(r"/emploi/[^\"'#?]+,(\d+)\.html")
-DETAIL_LIMIT = 150      # 排過優先序才花名額，實際用量遠低於此；上限只是防爆
+DETAIL_LIMIT = 60       # 排過優先序才花名額；壓低是為了減少對站方的請求量
 TIME_BUDGET_S = 900     # 這個來源總共最多花 15 分鐘（列表＋詳情），超過就收工
-LIST_TIMEOUT = (10, 20)
-DETAIL_TIMEOUT = (10, 15)   # 詳情頁不值得為單頁卡住 30 秒
-HEADERS = {"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
+# tls_client 的 timeout 只吃純量秒數（沒有 connect/read 之分），別寫成 tuple
+LIST_TIMEOUT = 20
+DETAIL_TIMEOUT = 15     # 詳情頁不值得為單頁卡住 20 秒
+# 站方推回來的時候不該靠重試加大足跡，所以這個來源用比 net 預設更低的重試次數
+RETRIES = 1
+HEADERS = {
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9",
+}
+
+# 被擋的狀態碼。Cloudflare 限流／挑戰常用 429 和 503，不是只有 403。
+BLOCKED_STATUS = (403, 429, 503)
+# Cloudflare 的 JS 挑戰頁回的是 200，body 卻不是職缺列表。沒有這組偵測的話
+# 整個來源會靜靜回 0 筆，log 看起來像「今天就是沒職缺」。
+# 分兩類是因為誤判的代價是「整組收工，而且偽裝成今天剛好沒職缺」：
+#   CF 專屬字串不可能出現在正常頁面，全頁比對安全；
+#   "just a moment" 這種通用英文正常內文也可能出現，只在 <title> 裡比對。
+CHALLENGE_CF = (
+    "cf-browser-verification",
+    "challenge-platform",
+    "_cf_chl",
+    "enable javascript and cookies to continue",
+)
+CHALLENGE_TITLES = ("just a moment", "attention required")
+TITLE_PAT = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
+
+
+class _Blocked(Exception):
+    """站方在擋我們。不重試——重試只會在對方推回來的當下加大足跡。"""
+
+# 這個站在 Cloudflare 後面，會依 TLS 指紋擋掉 requests/urllib3（連 robots.txt
+# 允許的路徑也擋）。用 tls_client 模擬瀏覽器指紋才拿得到內容。
+# tls_client 不吃 net.session 那層 urllib3 Retry，所以重試改用 net.retry_call。
+_HTTP = None
+
+
+def _http() -> Session:
+    """取得已暖身的 session。Cloudflare 要先有首頁發的 cookie 才放行其他頁。
+
+    暖身成功才指派給 _HTTP：先指派的話，暖身請求一旦失敗（逾時、DNS 抖動這種
+    暫時性問題），之後每次都會拿到這顆沒有 cookie 的壞 session，暖身再也不會
+    重跑——一次網路抖動就讓整個來源當次歸零，而且救不回來。
+    """
+    global _HTTP
+    if _HTTP is None:
+        s = Session(client_identifier="chrome_120", random_tls_extension_order=True)
+        r = s.get(BASE, headers=HEADERS, timeout_seconds=LIST_TIMEOUT)
+        # 暖身回應本身也要驗：被擋時回的是 200 挑戰頁、不會拋例外，
+        # 沒驗的話這顆從來沒拿到有效 cookie 的 session 會被快取起來，
+        # 而且之後的 log 會說是「列表被擋」，看不出問題出在暖身。
+        reason = blocked_reason(r)
+        if reason:
+            raise _Blocked(f"暖身就被擋（{reason}）")
+        time.sleep(1)
+        _HTTP = s          # 只有走到這裡才算暖身成功
+    return _HTTP
+
+
+def _get(url: str, params: dict | None = None, timeout: int = LIST_TIMEOUT):
+    # _http() 放在 retry_call 外面：暖身被擋時拋的 _Blocked 不該被重試，
+    # 那只會在站方推回來的當下多送請求。
+    http = _http()
+    return retry_call(
+        lambda: http.get(url, params=params, headers=HEADERS, timeout_seconds=timeout),
+        what=f"Fashion Jobs {url}",
+        retries=RETRIES,
+    )
+
+
+def blocked_reason(r) -> str | None:
+    """這個回應是不是「站方在擋我們」？是的話回傳原因，否則 None。"""
+    if r.status_code in BLOCKED_STATUS:
+        return f"HTTP {r.status_code}"
+    if r.status_code == 200:
+        head = (r.text or "")[:4000].lower()
+        for marker in CHALLENGE_CF:
+            if marker in head:
+                return f"Cloudflare 挑戰頁（{marker}）"
+        m = TITLE_PAT.search(head)
+        title = m.group(1).strip() if m else ""
+        for marker in CHALLENGE_TITLES:
+            if marker in title:
+                return f"Cloudflare 挑戰頁（title: {title[:40]}）"
+    return None
+
 
 # 這個站是時尚產業職缺板，用少量泛搜尋詞就能涵蓋五類
 SEARCH_TERMS = [
@@ -88,7 +171,10 @@ def _spend_details(ctx: "_Ctx") -> None:
             ctx.unfetched = len(pending) - i
             break
         ctx.budget -= 1
-        job.update(_detail(job["url"]))
+        job.update(_detail(job["url"], ctx))
+        if ctx.blocked:
+            ctx.unfetched = len(pending) - i - 1
+            break
         time.sleep(1.5)
 
 
@@ -118,15 +204,23 @@ class _Ctx:
 def _page(term: str, page: int, ctx: "_Ctx") -> bool:
     """抓一頁；回傳 False 表示這個搜尋詞不用再往下翻。"""
     try:
-        r = HTTP.get(SEARCH_URL, params={"keyword": term, "page": page},
-                     headers=HEADERS, timeout=LIST_TIMEOUT)
-        # 403 代表站方擋了我們（整站都擋，連首頁也是）。繼續打剩下的搜尋詞
-        # 只會讓情況更糟，直接整組收工。
-        if r.status_code == 403:
+        r = _get(SEARCH_URL, {"keyword": term, "page": page}, LIST_TIMEOUT)
+    except _Blocked as e:
+        ctx.blocked = True
+        log.warning("Fashion Jobs %s，整組跳過", e)
+        return False
+    try:
+        # 站方擋人時繼續打剩下的搜尋詞只會讓情況更糟，直接整組收工。
+        # 注意不是只有 403：429／503 也是限流，而 Cloudflare 的 JS 挑戰頁
+        # 回的是 200，要看 body 才認得出來。
+        reason = blocked_reason(r)
+        if reason:
             ctx.blocked = True
-            log.warning("Fashion Jobs 回 403（被站方擋下），整組跳過")
+            log.warning("Fashion Jobs 被站方擋下（%s），整組跳過", reason)
             return False
-        r.raise_for_status()
+        if r.status_code != 200:
+            log.warning("Fashion Jobs 列表 %r p%d 回 %s", term, page, r.status_code)
+            return False
     except Exception as e:
         log.warning("Fashion Jobs 列表 %r p%d 失敗: %s", term, page, e)
         return False
@@ -194,11 +288,25 @@ def _company_from_url(href: str) -> str:
     return m.group(1).replace("-", " ").title() if m else ""
 
 
-def _detail(url: str) -> dict:
+def _detail(url: str, ctx: "_Ctx" = None) -> dict:
     """詳情頁的 schema.org/JobPosting，比刮 HTML 穩定。"""
     try:
-        r = HTTP.get(url, headers=HEADERS, timeout=DETAIL_TIMEOUT)
-        r.raise_for_status()
+        r = _get(url, None, DETAIL_TIMEOUT)
+    except _Blocked as e:
+        if ctx is not None:
+            ctx.blocked = True
+        log.warning("Fashion Jobs 詳情頁：%s，停止補詳情", e)
+        return {}
+    try:
+        reason = blocked_reason(r)
+        if reason:
+            if ctx is not None:
+                ctx.blocked = True
+            log.warning("Fashion Jobs 詳情頁被擋下（%s），停止補詳情", reason)
+            return {}
+        if r.status_code != 200:
+            log.debug("Fashion Jobs 詳情頁 %s 回 %s", url, r.status_code)
+            return {}
         soup = BeautifulSoup(r.text, "html.parser")
         for sc in soup.find_all("script", type="application/ld+json"):
             raw = sc.string or ""

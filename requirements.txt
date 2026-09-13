@@ -2,3 +2,4 @@ python-jobspy>=1.1.80
 requests>=2.31
 PyYAML>=6.0
 beautifulsoup4>=4.12
+tls-client>=1.0.1   # Fashion Jobs 需要瀏覽器 TLS 指紋才過得了 Cloudflare
