@@ -25,22 +25,47 @@ import logging
 import re
 import time
 
-import requests
-
-from scraper.net import Budget, session
 from bs4 import BeautifulSoup
+from tls_client import Session
+
+from scraper.net import Budget, retry_call
 
 log = logging.getLogger("chasse.fashionjobs")
-HTTP = session()
+# 這個站在 Cloudflare 後面，會依 TLS 指紋擋掉 requests/urllib3（連 robots.txt
+# 允許的路徑也擋）。用 tls_client 模擬瀏覽器指紋才拿得到內容。
+# tls_client 不吃 net.session 那層 urllib3 Retry，所以重試改用 net.retry_call。
+_HTTP = None
 
-SEARCH_URL = "https://fr.fashionjobs.com/s/"
-PAGES = 3  # 站上沒有排序參數，只能靠翻頁擴大涵蓋範圍
+
+def _http() -> Session:
+    """取得已暖身的 session。Cloudflare 要先有首頁發的 cookie 才放行其他頁。"""
+    global _HTTP
+    if _HTTP is None:
+        _HTTP = Session(client_identifier="chrome_120", random_tls_extension_order=True)
+        _HTTP.get(BASE, headers=HEADERS, timeout_seconds=LIST_TIMEOUT[1])
+        time.sleep(1)
+    return _HTTP
+
+
+def _get(url: str, params: dict | None = None, timeout: int = 20):
+    return retry_call(
+        lambda: _http().get(url, params=params, headers=HEADERS, timeout_seconds=timeout),
+        what=f"Fashion Jobs {url}",
+    )
+
+BASE = "https://fr.fashionjobs.com"
+SEARCH_URL = f"{BASE}/s/"
+PAGES = 2  # 站方用 Cloudflare 擋機器人，把請求足跡壓低是為了不再被擋
 JOB_LINK = re.compile(r"/emploi/[^\"'#?]+,(\d+)\.html")
-DETAIL_LIMIT = 150      # 排過優先序才花名額，實際用量遠低於此；上限只是防爆
+DETAIL_LIMIT = 60       # 排過優先序才花名額；壓低是為了減少對站方的請求量
 TIME_BUDGET_S = 900     # 這個來源總共最多花 15 分鐘（列表＋詳情），超過就收工
 LIST_TIMEOUT = (10, 20)
 DETAIL_TIMEOUT = (10, 15)   # 詳情頁不值得為單頁卡住 30 秒
-HEADERS = {"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
+HEADERS = {
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "accept-language": "fr-FR,fr;q=0.9",
+}
 
 # 這個站是時尚產業職缺板，用少量泛搜尋詞就能涵蓋五類
 SEARCH_TERMS = [
@@ -118,15 +143,16 @@ class _Ctx:
 def _page(term: str, page: int, ctx: "_Ctx") -> bool:
     """抓一頁；回傳 False 表示這個搜尋詞不用再往下翻。"""
     try:
-        r = HTTP.get(SEARCH_URL, params={"keyword": term, "page": page},
-                     headers=HEADERS, timeout=LIST_TIMEOUT)
+        r = _get(SEARCH_URL, {"keyword": term, "page": page}, LIST_TIMEOUT[1])
         # 403 代表站方擋了我們（整站都擋，連首頁也是）。繼續打剩下的搜尋詞
         # 只會讓情況更糟，直接整組收工。
         if r.status_code == 403:
             ctx.blocked = True
             log.warning("Fashion Jobs 回 403（被站方擋下），整組跳過")
             return False
-        r.raise_for_status()
+        if r.status_code != 200:
+            log.warning("Fashion Jobs 列表 %r p%d 回 %s", term, page, r.status_code)
+            return False
     except Exception as e:
         log.warning("Fashion Jobs 列表 %r p%d 失敗: %s", term, page, e)
         return False
@@ -197,8 +223,10 @@ def _company_from_url(href: str) -> str:
 def _detail(url: str) -> dict:
     """詳情頁的 schema.org/JobPosting，比刮 HTML 穩定。"""
     try:
-        r = HTTP.get(url, headers=HEADERS, timeout=DETAIL_TIMEOUT)
-        r.raise_for_status()
+        r = _get(url, None, DETAIL_TIMEOUT[1])
+        if r.status_code != 200:
+            log.debug("Fashion Jobs 詳情頁 %s 回 %s", url, r.status_code)
+            return {}
         soup = BeautifulSoup(r.text, "html.parser")
         for sc in soup.find_all("script", type="application/ld+json"):
             raw = sc.string or ""
