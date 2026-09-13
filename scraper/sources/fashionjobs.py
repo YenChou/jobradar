@@ -27,7 +27,7 @@ import time
 
 import requests
 
-from scraper.net import session
+from scraper.net import Budget, session
 from bs4 import BeautifulSoup
 
 log = logging.getLogger("chasse.fashionjobs")
@@ -38,8 +38,8 @@ PAGES = 3  # 站上沒有排序參數，只能靠翻頁擴大涵蓋範圍
 JOB_LINK = re.compile(r"/emploi/[^\"'#?]+,(\d+)\.html")
 DETAIL_LIMIT = 150      # 排過優先序才花名額，實際用量遠低於此；上限只是防爆
 TIME_BUDGET_S = 900     # 這個來源總共最多花 15 分鐘（列表＋詳情），超過就收工
-LIST_TIMEOUT = 20
-DETAIL_TIMEOUT = 15     # 詳情頁不值得為單頁卡住 30 秒
+LIST_TIMEOUT = (10, 20)
+DETAIL_TIMEOUT = (10, 15)   # 詳情頁不值得為單頁卡住 30 秒
 HEADERS = {"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 
 # 這個站是時尚產業職缺板，用少量泛搜尋詞就能涵蓋五類
@@ -62,11 +62,13 @@ def fetch(known_urls: set[str] | None = None, detail_priority=None) -> list[dict
     ctx = _Ctx(known_urls, detail_priority)
 
     for term in SEARCH_TERMS:
+        if ctx.blocked:
+            break
         if ctx.expired():
             log.warning("Fashion Jobs 時間預算用完，%r 之後的搜尋詞跳過", term)
             break
         for page in range(1, PAGES + 1):
-            if ctx.expired() or not _page(term, page, ctx):
+            if ctx.blocked or ctx.expired() or not _page(term, page, ctx):
                 break
 
     _spend_details(ctx)
@@ -78,6 +80,8 @@ def fetch(known_urls: set[str] | None = None, detail_priority=None) -> list[dict
 
 def _spend_details(ctx: "_Ctx") -> None:
     """列表全部收完後，依優先序把詳情頁名額花掉。"""
+    if ctx.blocked:
+        return
     pending = sorted(ctx.pending, key=lambda t: t[0])
     for i, (_prio, job) in enumerate(pending):
         if ctx.budget <= 0 or ctx.expired():
@@ -101,10 +105,14 @@ class _Ctx:
         self.budget = DETAIL_LIMIT
         self.skipped = 0
         self.unfetched = 0
-        self.deadline = time.monotonic() + TIME_BUDGET_S
+        self.blocked = False
+        # 注意 self.budget 是「詳情頁名額計數」，時間預算是另一回事。
+        # 用 net.Budget：只在請求前比對截止時間的話，超出量等於一次請求的
+        # 長度，而重試讓那個長度變成近百秒。Budget 會預留這個邊際。
+        self.clock = Budget(TIME_BUDGET_S)
 
     def expired(self) -> bool:
-        return time.monotonic() >= self.deadline
+        return self.clock.expired()
 
 
 def _page(term: str, page: int, ctx: "_Ctx") -> bool:
@@ -112,6 +120,12 @@ def _page(term: str, page: int, ctx: "_Ctx") -> bool:
     try:
         r = HTTP.get(SEARCH_URL, params={"keyword": term, "page": page},
                      headers=HEADERS, timeout=LIST_TIMEOUT)
+        # 403 代表站方擋了我們（整站都擋，連首頁也是）。繼續打剩下的搜尋詞
+        # 只會讓情況更糟，直接整組收工。
+        if r.status_code == 403:
+            ctx.blocked = True
+            log.warning("Fashion Jobs 回 403（被站方擋下），整組跳過")
+            return False
         r.raise_for_status()
     except Exception as e:
         log.warning("Fashion Jobs 列表 %r p%d 失敗: %s", term, page, e)

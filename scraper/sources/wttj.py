@@ -16,7 +16,7 @@ import time
 
 import requests
 
-from scraper.net import session
+from scraper.net import TIMEOUT, Budget, session
 
 from scraper.util import to_date_str
 
@@ -27,6 +27,7 @@ ALGOLIA_APP = "CSEKHVMS53"
 ALGOLIA_KEY = "4bd8f6215d0cc52b26430765769e65a0"  # 公開搜尋金鑰（網站前端使用的同一組）
 ENDPOINT = f"https://{ALGOLIA_APP.lower()}-dsn.algolia.net/1/indexes/*/queries"
 INDEX = "wk_cms_jobs_production"
+TIME_BUDGET_S = 600   # 11 詞 × 6 頁；站方掛掉時光靠重試會拖到近兩小時
 
 HEADERS = {
     "x-algolia-application-id": ALGOLIA_APP,
@@ -40,8 +41,14 @@ HEADERS = {
 
 def fetch(search_terms: list[str], pages_per_term: int = 6, hits_per_page: int = 50) -> list[dict]:
     jobs: list[dict] = []
+    budget = Budget(TIME_BUDGET_S)
     for term in search_terms:
+        if budget.expired():
+            log.warning("WTTJ 時間預算用完，%r 之後的搜尋詞跳過", term)
+            break
         for page in range(pages_per_term):
+            if budget.expired():
+                break
             hits = _query(term, page, hits_per_page)
             if hits is None:
                 break  # 這個詞失敗，換下一個
@@ -63,7 +70,7 @@ def _query(term: str, page: int, hits_per_page: int) -> list[dict] | None:
     )
     payload = {"requests": [{"indexName": INDEX, "params": params}]}
     try:
-        r = HTTP.post(ENDPOINT, data=json.dumps(payload), headers=HEADERS, timeout=30)
+        r = HTTP.post(ENDPOINT, data=json.dumps(payload), headers=HEADERS, timeout=TIMEOUT)
         r.raise_for_status()
         return r.json()["results"][0].get("hits", [])
     except Exception as e:

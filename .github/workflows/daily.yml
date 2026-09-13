@@ -22,7 +22,10 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 45   # 來源變多、每詞抓 100 筆之後，30 分鐘會卡在邊緣
+    # 正常約 10 分鐘。各來源都有時間預算（合計最壞 55 分），這裡留到 75 分是
+    # 為了確保「即使每個來源都跑到預算上限」也不會在 commit 步驟前被砍掉——
+    # 被砍掉的話，所有來源的結果會一起丟失。
+    timeout-minutes: 75
     steps:
       - name: Gate — 只在對應當季時區的那兩條 cron 上執行
         id: gate

@@ -19,7 +19,7 @@ import time
 
 import requests
 
-from scraper.net import session
+from scraper.net import TIMEOUT, Budget, session
 from bs4 import BeautifulSoup
 
 log = logging.getLogger("chasse.isarta")
@@ -27,6 +27,7 @@ HTTP = session()
 
 LIST_URL = "https://isarta.fr/cgi-bin/emplois/jobs"
 CATEGORIES = ["marketing", "marketing-numerique-communication", "web-numerique", "teletravail"]
+TIME_BUDGET_S = 300
 JOB_LINK = re.compile(r"\?job=(\d+)")
 HEADERS = {"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 DATE_PAT = re.compile(r"Publi[ée]e?\s*:?\s*(\d{2})/(\d{2})/(\d{4})")
@@ -37,7 +38,11 @@ def fetch(known_urls: set[str] | None = None) -> list[dict]:
     # known_urls 目前用不到（不抓詳情頁），保留參數讓 main.py 的註冊方式一致
     jobs: list[dict] = []
     seen: set[str] = set()
+    budget = Budget(TIME_BUDGET_S)
     for cat in CATEGORIES:
+        if budget.expired():
+            log.warning("Isarta 時間預算用完，cat=%s 之後跳過", cat)
+            break
         _category(cat, jobs, seen)
     log.info("Isarta 合計 → %d 筆", len(jobs))
     return jobs
@@ -45,7 +50,7 @@ def fetch(known_urls: set[str] | None = None) -> list[dict]:
 
 def _category(cat: str, jobs: list[dict], seen: set[str]) -> None:
     try:
-        r = HTTP.get(LIST_URL, params={"cat": cat}, headers=HEADERS, timeout=30)
+        r = HTTP.get(LIST_URL, params={"cat": cat}, headers=HEADERS, timeout=TIMEOUT)
         r.raise_for_status()
     except Exception as e:
         log.warning("Isarta 列表 cat=%s 失敗: %s", cat, e)

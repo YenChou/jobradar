@@ -8,10 +8,11 @@ from __future__ import annotations
 import logging
 import time
 
-from scraper.net import retry_call
+from scraper.net import Budget, retry_call
 from scraper.util import to_date_str
 
 log = logging.getLogger("chasse.indeed")
+TIME_BUDGET_S = 600
 
 
 def fetch(search_terms: list[str], hours_old: int = 72, results_per_term: int = 50) -> list[dict]:
@@ -22,7 +23,11 @@ def fetch(search_terms: list[str], hours_old: int = 72, results_per_term: int = 
         return []
 
     jobs: list[dict] = []
+    budget = Budget(TIME_BUDGET_S)
     for term in search_terms:
+        if budget.expired():
+            log.warning("Indeed 時間預算用完，%r 之後的搜尋詞跳過", term)
+            break
         # JobSpy 內部自己發請求，用不到 net.session 那層重試，所以包在外面。
         try:
             df = retry_call(
