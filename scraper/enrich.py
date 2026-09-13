@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import re
 
-from scraper.util import job_id, norm, norm_title_for_dedupe
+from scraper.util import clean_str, job_id, norm, norm_title_for_dedupe, to_date_str
 
 FLAG_PAT = re.compile(r"[\U0001F1E6-\U0001F1FF]{2}")  # 國旗 emoji
 FR_FLAG = "\U0001F1EB\U0001F1F7"  # 🇫🇷
@@ -28,7 +28,7 @@ def classify(job: dict, cfg: dict) -> dict | None:
     loc_n = norm(job.get("location"))
 
     # 1) 硬性排除：Stage/Alternance 與針對其他國家市場的職缺
-    if excluded_title(job.get("title") or "", cfg):
+    if excluded_title(clean_str(job.get("title")), cfg):
         return None
 
     # 2) 分類：職稱優先，職稱沒中用描述前段補判
@@ -63,12 +63,12 @@ def classify(job: dict, cfg: dict) -> dict | None:
         score -= 8
 
     # 5) 合約：來源欄位優先，否則從文字判斷
-    contract = _detect_contract(job.get("contract"), text_n)
+    contract = _detect_contract(clean_str(job.get("contract")), text_n)
     if contract:
         score += 4
 
     # 6) 工作型態：來源欄位優先，否則從文字判斷；預設 onsite
-    work_mode = job.get("work_mode") or _detect_work_mode(text_n) or "onsite"
+    work_mode = clean_str(job.get("work_mode")) or _detect_work_mode(text_n) or "onsite"
 
     # 7) 地區加權
     city, region = _detect_region(loc_n, cfg)
@@ -79,15 +79,15 @@ def classify(job: dict, cfg: dict) -> dict | None:
     elif region == "other":
         score += cfg.get("other_city_boost", 2)
 
-    desc = (job.get("description") or "").strip()
+    desc = clean_str(job.get("description"))
     # 公司名缺失時用 URL 當識別，避免不同公司同職稱被誤併
-    company_key = (job.get("company") or "").strip() or job.get("url", "")
+    company_key = clean_str(job.get("company")) or clean_str(job.get("url"))
     return {
         "id": job_id(company_key, job.get("title", "")),
         "_dedupe_key": company_key,
-        "title": (job.get("title") or "").strip(),
-        "company": (job.get("company") or "").strip(),
-        "location": (job.get("location") or "").strip(),
+        "title": clean_str(job.get("title")),
+        "company": clean_str(job.get("company")),
+        "location": clean_str(job.get("location")),
         "city": city,
         "region": region,  # west / paris / other / unknown
         "work_mode": work_mode,  # remote / hybrid / onsite
@@ -96,16 +96,19 @@ def classify(job: dict, cfg: dict) -> dict | None:
         "skills": sorted(set(skills_hit)),
         "bonus_tags": bonus_tags,
         "score": score,
-        "date_posted": job.get("date_posted"),
-        "salary": job.get("salary"),
+        "date_posted": to_date_str(job.get("date_posted")),
+        "salary": clean_str(job.get("salary")) or None,
         "description_snippet": re.sub(r"\s+", " ", desc)[:400],
-        "sources": [{"name": job["source"], "url": job.get("url", "")}],
+        # url 也要過 clean_str：裸 NaN 會讓 json.dumps 寫出非法 JSON，
+        # 前端 JSON.parse 失敗後整個網站空白。
+        "sources": [{"name": clean_str(job["source"]), "url": clean_str(job.get("url"))}],
     }
 
 
 def excluded_title(title: str, cfg: dict) -> bool:
     """職稱層級的硬性排除。也用在 main.py 清洗歷史資料，
     所以規則更新後，既有的 jobs.json 也會在下一次執行時被重新過濾。"""
+    title = clean_str(title)   # 來源可能給 NaN／None，下面有直接對字串做的比對
     title_n = norm(title)
 
     # Stage / Alternance
@@ -131,7 +134,9 @@ def excluded_title(title: str, cfg: dict) -> bool:
     return False
 
 
-def _detect_contract(raw, text_n: str) -> str | None:
+def _detect_contract(raw: str, text_n: str) -> str | None:
+    """raw 必須是已經過 clean_str 的字串——pandas 的 pd.NA 連 `if raw:` 都會
+    拋 TypeError（boolean value of NA is ambiguous）。"""
     if raw:
         r = norm(raw)
         if "cdi" in r or "full" in r or "permanent" in r:

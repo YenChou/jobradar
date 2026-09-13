@@ -176,6 +176,10 @@ def main() -> int:
             },
             ensure_ascii=False,
             indent=1,
+            # 標準 JSON 沒有 NaN／Infinity。Python 預設會寫出裸 NaN，前端的
+            # JSON.parse 直接失敗、整個網站空白——與其悄悄寫出壞檔案，不如
+            # 讓這次執行失敗、網站留著昨天的資料。
+            allow_nan=False,
         ),
         encoding="utf-8",
     )
