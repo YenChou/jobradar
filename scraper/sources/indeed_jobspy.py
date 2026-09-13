@@ -8,7 +8,7 @@ from __future__ import annotations
 import logging
 import time
 
-from scraper.util import to_date_str
+from scraper.util import clean_str, is_missing, to_date_str
 
 log = logging.getLogger("chasse.indeed")
 
@@ -39,14 +39,14 @@ def fetch(search_terms: list[str], hours_old: int = 72, results_per_term: int = 
         for _, row in df.iterrows():
             jobs.append(
                 {
-                    "title": row.get("title") or "",
-                    "company": row.get("company") or "",
-                    "location": row.get("location") or "",
-                    "description": row.get("description") or "",
-                    "url": row.get("job_url") or "",
+                    "title": clean_str(row.get("title")),
+                    "company": clean_str(row.get("company")),
+                    "location": clean_str(row.get("location")),
+                    "description": clean_str(row.get("description")),
+                    "url": clean_str(row.get("job_url")),
                     "source": "Indeed",
                     "date_posted": to_date_str(row.get("date_posted")),
-                    "contract": row.get("job_type") or None,
+                    "contract": clean_str(row.get("job_type")) or None,
                     "work_mode": "remote" if row.get("is_remote") is True else None,
                     "salary": _salary(row),
                 }
@@ -58,9 +58,13 @@ def fetch(search_terms: list[str], hours_old: int = 72, results_per_term: int = 
 
 def _salary(row) -> str | None:
     lo, hi = row.get("min_amount"), row.get("max_amount")
-    if lo and hi:
-        try:
-            return f"{int(lo):,}–{int(hi):,} {row.get('currency') or 'EUR'}/{row.get('interval') or 'an'}"
-        except (TypeError, ValueError):
-            return None
-    return None
+    if is_missing(lo) or is_missing(hi) or not lo or not hi:
+        return None
+    # currency/interval 也可能是 NaN——truthy，所以 `or "EUR"` 擋不住，
+    # 使用者會看到「40,000–50,000 nan/an」。
+    currency = clean_str(row.get("currency")) or "EUR"
+    interval = clean_str(row.get("interval")) or "an"
+    try:
+        return f"{int(lo):,}–{int(hi):,} {currency}/{interval}"
+    except (TypeError, ValueError):
+        return None
