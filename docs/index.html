@@ -132,6 +132,33 @@
     background:var(--accent); color:var(--accent-ink); font-weight:700; font-size:13.5px;
     padding:7px 16px; border-radius:8px; font-family:inherit;
   }
+  .tabs { display:flex; gap:6px; margin:0 0 14px; border-bottom:1px solid var(--line); }
+  .tabs button {
+    all:unset; cursor:pointer; font-family:inherit; font-size:14px; font-weight:700;
+    padding:8px 14px; border-radius:8px 8px 0 0; color:var(--muted);
+    border:1px solid transparent; border-bottom:none; margin-bottom:-1px;
+  }
+  .tabs button[aria-selected="true"] {
+    color:var(--accent); background:var(--surface);
+    border-color:var(--line); border-bottom:1px solid var(--surface);
+  }
+  .tabs button:focus-visible { outline:2px solid var(--accent); outline-offset:-2px; }
+  .tabs .n { font-family:"JetBrains Mono",monospace; font-size:12px; font-weight:400; opacity:.75; }
+
+  .card .arch {
+    all:unset; cursor:pointer; font-family:inherit; font-size:12px; color:var(--muted);
+    border:1px solid var(--line); border-radius:6px; padding:2px 9px;
+  }
+  .card .arch.on { background:var(--accent-soft); border-color:var(--accent); color:var(--accent); font-weight:700; }
+  .card .arch:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+  .b.gone { background:var(--bad-bg); color:var(--bad); }
+  .b.why  { background:var(--surface-2); color:var(--muted); }
+  .archbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin:4px 0 12px; font-size:13px; color:var(--muted); }
+  .archbar button {
+    all:unset; cursor:pointer; font-family:inherit; font-size:13px; color:var(--ink);
+    border:1px solid var(--line); border-radius:8px; padding:5px 12px; background:var(--surface);
+  }
+  .archbar button:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
   footer.pagefoot { margin-top:36px; font-size:12px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
   @media (max-width:640px){ .row .lbl{min-width:100%;} .addform{grid-template-columns:1fr;} }
   @media (prefers-reduced-motion: reduce){ *{transition:none!important;} }
@@ -145,6 +172,12 @@
   </header>
   <div class="stats" id="stats"></div>
 
+  <nav class="tabs" id="tabs" role="tablist">
+    <button id="tab-jobs" role="tab" aria-selected="true">職缺</button>
+    <button id="tab-archive" role="tab" aria-selected="false">封存 <span class="n" id="arch-n"></span></button>
+  </nav>
+
+  <div id="view-jobs">
   <div class="controls">
     <div class="row">
       <span class="lbl">時間</span>
@@ -211,6 +244,19 @@
       <button id="add-btn">加入清單</button>
     </div>
   </details>
+  </div><!-- /view-jobs -->
+
+  <section id="view-archive" hidden>
+    <div class="archbar">
+      <input type="search" id="aq" placeholder="搜尋封存的職缺⋯" aria-label="搜尋封存">
+      <span id="arch-count"></span>
+      <button id="arch-export">匯出備份</button>
+      <button id="arch-import-btn">匯入備份</button>
+      <input type="file" id="arch-import" accept="application/json" hidden>
+    </div>
+    <div class="cards" id="arch-cards"></div>
+    <p class="empty" id="arch-empty" hidden>還沒有封存任何職缺 — 在職缺卡片上按「封存」就會收進這裡。</p>
+  </section>
 
   <footer class="pagefoot">
     只索引摘要與原站連結，完整職缺請點回原站。投遞狀態與手動加入的職缺存在這台瀏覽器（localStorage）。
@@ -233,10 +279,13 @@ const MODES = { remote:"Remote", hybrid:"Hybride", onsite:"Présentiel" };
 // ---- localStorage（包 try/catch：私密視窗等情境會擋）----
 const store = {
   get(k, fb){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch(e){ return fb; } },
-  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch(e){ return false; } },
 };
 let statuses = store.get("jr_status", {});      // {jobId: "applied"|"interview"|"skipped"}
 let manual  = store.get("jr_manual", []);       // 手動加入的職缺
+// 封存：{jobId: {job:<封存當下的整筆快照>, at:"YYYY-MM-DD", why:"manual"|"applied"|"interview"}}
+// 存整筆而不是只存 id——職缺 30 天後會從 jobs.json 消失，光有 id 就撈不回內容了。
+let archive = store.get("jr_archive", {});
 
 // ---- 狀態 ----
 const state = { view:"7d", q:"", cat:new Set(), region:new Set(), mode:new Set(), contract:new Set(), source:new Set(), status:new Set(), tag:new Set(),
@@ -315,6 +364,17 @@ function init(){
     render();
   });
   document.getElementById("add-btn").addEventListener("click", addManual);
+
+  document.getElementById("tab-jobs").addEventListener("click", () => setTab("jobs"));
+  document.getElementById("tab-archive").addEventListener("click", () => setTab("archive"));
+  document.getElementById("aq").addEventListener("input", renderArchive);
+  document.getElementById("arch-export").addEventListener("click", archiveExport);
+  document.getElementById("arch-import-btn").addEventListener("click", () => document.getElementById("arch-import").click());
+  document.getElementById("arch-import").addEventListener("change", e => {
+    if (e.target.files[0]) archiveImport(e.target.files[0]);
+    e.target.value = "";   // 同一個檔案再選一次也要能觸發
+  });
+  document.getElementById("arch-n").textContent = archiveCount() ? "(" + archiveCount() + ")" : "";
 
   render();
 }
@@ -398,6 +458,7 @@ function render(){
   for (const j of pageJobs) wrap.appendChild(card(j, today));
 
   renderPager(totalPages);
+  document.getElementById("arch-n").textContent = archiveCount() ? "(" + archiveCount() + ")" : "";
 }
 
 function renderPager(totalPages){
@@ -467,8 +528,18 @@ function card(j, today){
       (j.salary ? "<span>" + esc(j.salary) + "</span>" : "") +
       '<span class="date"' + (j.date_assumed ? ' title="來源沒有提供公告日，這裡以首次抓到的日期代替"' : "") + ">" +
         (j.date_assumed ? "約 " : "") + esc(j.date_posted || j.first_seen || "") + "</span>" +
+      '<button class="arch" type="button"></button>' +
       '<span class="track" role="group" aria-label="投遞狀態"></span>' +
     "</div>";
+
+  const ab = el.querySelector(".arch");
+  const inArch = !!archive[j.id];
+  ab.textContent = inArch ? "已封存" : "封存";
+  if (inArch) ab.classList.add("on");
+  ab.addEventListener("click", () => {
+    if (archive[j.id]) archiveRemove(j.id); else archiveAdd(j, "manual");
+    render();
+  });
 
   const track = el.querySelector(".track");
   for (const [k, label] of [["applied","已投遞"],["interview","面試中"],["skipped","略過"]]) {
@@ -476,13 +547,117 @@ function card(j, today){
     b.textContent = label;
     if (stt === k) b.className = "on";
     b.addEventListener("click", () => {
-      if (statuses[j.id] === k) delete statuses[j.id]; else statuses[j.id] = k;
+      if (statuses[j.id] === k) {
+        delete statuses[j.id];
+      } else {
+        statuses[j.id] = k;
+        // 投遞過或面試中的職缺自動封存：這些最需要在 30 天下架後還查得到。
+        // 之後取消狀態不會自動移除封存——那要使用者自己決定。
+        if (k === "applied" || k === "interview") archiveAdd(j, k);
+      }
       store.set("jr_status", statuses);
       render();
     });
     track.appendChild(b);
   }
   return el;
+}
+
+// ---- 封存 ----
+const WHY = { manual: "手動封存", applied: "已投遞", interview: "面試中" };
+
+function archiveAdd(j, why){
+  if (archive[j.id] && why !== "manual") return;   // 已封存就不覆寫既有理由
+  archive[j.id] = { job: j, at: dateStr(new Date()), why };
+  if (!store.set("jr_archive", archive)) {
+    delete archive[j.id];
+    alert("瀏覽器儲存空間不足，無法再封存。請先匯出備份再移除一些封存。");
+    return false;
+  }
+  return true;
+}
+
+function archiveRemove(id){
+  delete archive[id];
+  store.set("jr_archive", archive);
+}
+
+function archiveCount(){ return Object.keys(archive).length; }
+
+function setTab(name){
+  const jobs = name === "jobs";
+  document.getElementById("view-jobs").hidden = !jobs;
+  document.getElementById("view-archive").hidden = jobs;
+  document.getElementById("tab-jobs").setAttribute("aria-selected", jobs ? "true" : "false");
+  document.getElementById("tab-archive").setAttribute("aria-selected", jobs ? "false" : "true");
+  if (!jobs) renderArchive();
+}
+
+function renderArchive(){
+  document.getElementById("arch-n").textContent = archiveCount() ? "(" + archiveCount() + ")" : "";
+  const q = (document.getElementById("aq").value || "").trim().toLowerCase();
+  // 還在 jobs.json 裡的視為仍上架；其餘標成已下架
+  const live = new Set((DATA.jobs || []).map(j => j.id));
+  const rows = Object.entries(archive)
+    .map(([id, a]) => ({ id, ...a }))
+    .filter(a => !q || (a.job.title + " " + a.job.company + " " + (a.job.city || a.job.location || "")).toLowerCase().includes(q))
+    .sort((a, b) => (b.at || "").localeCompare(a.at || ""));
+
+  document.getElementById("arch-count").textContent =
+    archiveCount() === 0 ? "" : "共 " + archiveCount() + " 筆" + (q ? "，符合 " + rows.length + " 筆" : "");
+  document.getElementById("arch-empty").hidden = archiveCount() !== 0;
+
+  const wrap = document.getElementById("arch-cards");
+  wrap.innerHTML = "";
+  for (const a of rows) wrap.appendChild(archiveCard(a, live.has(a.id)));
+}
+
+function archiveCard(a, isLive){
+  const el = card(a.job, "");            // 沿用職缺卡片，保持一致
+  const badges = el.querySelector(".badges");
+  const extra = [];
+  if (!isLive) extra.push('<span class="b gone">已下架</span>');
+  extra.push('<span class="b why">' + (WHY[a.why] || a.why) + " · " + esc(a.at) + "</span>");
+  badges.insertAdjacentHTML("afterbegin", extra.join(""));
+
+  const btn = el.querySelector(".arch");
+  btn.textContent = "移除封存";
+  btn.className = "arch";
+  btn.onclick = () => { archiveRemove(a.id); renderArchive(); };
+  return el;
+}
+
+function archiveExport(){
+  const blob = new Blob([JSON.stringify({ exported_at: new Date().toISOString(), archive }, null, 1)],
+                        { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "jo-chasse-archive-" + dateStr(new Date()) + ".json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function archiveImport(file){
+  const r = new FileReader();
+  r.onload = () => {
+    try {
+      const d = JSON.parse(r.result);
+      const incoming = d.archive || d;               // 容許直接吃裸的 archive 物件
+      if (!incoming || typeof incoming !== "object") throw new Error("格式不對");
+      let added = 0;
+      for (const [id, a] of Object.entries(incoming)) {
+        if (!a || !a.job || !a.job.id) continue;     // 跳過壞掉的項目而不是整份拒絕
+        if (!archive[id]) added++;
+        archive[id] = a;                             // 合併，不覆蓋整份
+      }
+      store.set("jr_archive", archive);
+      renderArchive();
+      alert("匯入完成：新增 " + added + " 筆，目前共 " + archiveCount() + " 筆。");
+    } catch (e) {
+      alert("匯入失敗：檔案格式不正確。");
+    }
+  };
+  r.readAsText(file);
 }
 
 function addManual(){
