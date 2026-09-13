@@ -63,12 +63,12 @@ def classify(job: dict, cfg: dict) -> dict | None:
         score -= 8
 
     # 5) 合約：來源欄位優先，否則從文字判斷
-    contract = _detect_contract(job.get("contract"), text_n)
+    contract = _detect_contract(clean_str(job.get("contract")), text_n)
     if contract:
         score += 4
 
     # 6) 工作型態：來源欄位優先，否則從文字判斷；預設 onsite
-    work_mode = job.get("work_mode") or _detect_work_mode(text_n) or "onsite"
+    work_mode = clean_str(job.get("work_mode")) or _detect_work_mode(text_n) or "onsite"
 
     # 7) 地區加權
     city, region = _detect_region(loc_n, cfg)
@@ -97,9 +97,11 @@ def classify(job: dict, cfg: dict) -> dict | None:
         "bonus_tags": bonus_tags,
         "score": score,
         "date_posted": to_date_str(job.get("date_posted")),
-        "salary": job.get("salary"),
+        "salary": clean_str(job.get("salary")) or None,
         "description_snippet": re.sub(r"\s+", " ", desc)[:400],
-        "sources": [{"name": job["source"], "url": job.get("url", "")}],
+        # url 也要過 clean_str：裸 NaN 會讓 json.dumps 寫出非法 JSON，
+        # 前端 JSON.parse 失敗後整個網站空白。
+        "sources": [{"name": clean_str(job["source"]), "url": clean_str(job.get("url"))}],
     }
 
 
@@ -132,7 +134,9 @@ def excluded_title(title: str, cfg: dict) -> bool:
     return False
 
 
-def _detect_contract(raw, text_n: str) -> str | None:
+def _detect_contract(raw: str, text_n: str) -> str | None:
+    """raw 必須是已經過 clean_str 的字串——pandas 的 pd.NA 連 `if raw:` 都會
+    拋 TypeError（boolean value of NA is ambiguous）。"""
     if raw:
         r = norm(raw)
         if "cdi" in r or "full" in r or "permanent" in r:

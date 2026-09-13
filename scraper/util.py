@@ -8,19 +8,40 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 
+# pandas 缺值 str() 之後的樣子。用大小寫敏感比對，免得誤殺 "Nan"（法文人名）
+# 這種正當值。
+_NA_REPRS = frozenset({"nan", "NaT", "<NA>", "None"})
+
+
+def is_missing(value) -> bool:
+    """這個值是不是「缺值」——涵蓋 None、float NaN、pd.NaT、pd.NA。
+
+    不直接 import pandas：scraper 只有 JobSpy 那條路徑會碰到 pandas 型別，
+    其他來源是純 requests。用行為判斷而不是型別判斷。
+    """
+    if value is None:
+        return True
+    try:
+        if value != value:      # NaN 與 NaT 都不等於自己
+            return True
+    except TypeError:
+        return True             # pd.NA 的比較結果無法轉 bool → 視為缺值
+    return False
+
+
 def clean_str(value) -> str:
     """把來源給的值轉成乾淨字串。
 
-    JobSpy 回的是 pandas DataFrame，缺值是 float('nan')——而 NaN 是 truthy，
-    所以 `row.get("x") or ""` 這個慣用寫法完全擋不住它：NaN 會一路傳到
-    .strip() 炸掉（實際發生過，排程連兩天失敗），或被 str() 變成 "nan"
-    混進關鍵字比對。所有來源的文字欄位都該過這個函式。
+    JobSpy 回的是 pandas DataFrame，缺值是 float('nan')／pd.NaT／pd.NA——
+    而這些都是 truthy，所以 `row.get("x") or ""` 這個慣用寫法完全擋不住
+    它們：NaN 會一路傳到 .strip() 炸掉（實際發生過，排程連兩天失敗），
+    或被 str() 變成 "nan"／"NaT"／"<NA>" 混進關鍵字比對與 dedupe key。
+    所有來源的文字欄位都該過這個函式。
     """
-    if value is None:
+    if is_missing(value):
         return ""
-    if isinstance(value, float) and value != value:  # NaN 不等於自己
-        return ""
-    return str(value).strip()
+    s = str(value).strip()
+    return "" if s in _NA_REPRS else s
 
 
 def strip_accents(text: str) -> str:
@@ -67,7 +88,10 @@ def paris_today() -> str:
 
 def to_date_str(value) -> str | None:
     """把各來源的日期格式統一成 YYYY-MM-DD。接受 date/datetime/timestamp/字串。"""
-    if value is None:
+    # 缺值要先擋：pd.NaT 本身就是 datetime 的實例，會走進下面的分支，
+    # 而 NaTType.strftime() 直接拋 ValueError。classify() 會呼叫這個函式，
+    # 所以每個來源都碰得到。
+    if is_missing(value):
         return None
     if isinstance(value, datetime):
         return value.strftime("%Y-%m-%d")
