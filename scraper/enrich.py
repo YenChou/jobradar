@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import re
 
-from scraper.util import job_id, norm, norm_title_for_dedupe
+from scraper.util import clean_str, job_id, norm, norm_title_for_dedupe, to_date_str
 
 FLAG_PAT = re.compile(r"[\U0001F1E6-\U0001F1FF]{2}")  # 國旗 emoji
 FR_FLAG = "\U0001F1EB\U0001F1F7"  # 🇫🇷
@@ -28,7 +28,7 @@ def classify(job: dict, cfg: dict) -> dict | None:
     loc_n = norm(job.get("location"))
 
     # 1) 硬性排除：Stage/Alternance 與針對其他國家市場的職缺
-    if excluded_title(job.get("title") or "", cfg):
+    if excluded_title(clean_str(job.get("title")), cfg):
         return None
 
     # 2) 分類：職稱優先，職稱沒中用描述前段補判
@@ -79,15 +79,15 @@ def classify(job: dict, cfg: dict) -> dict | None:
     elif region == "other":
         score += cfg.get("other_city_boost", 2)
 
-    desc = (job.get("description") or "").strip()
+    desc = clean_str(job.get("description"))
     # 公司名缺失時用 URL 當識別，避免不同公司同職稱被誤併
-    company_key = (job.get("company") or "").strip() or job.get("url", "")
+    company_key = clean_str(job.get("company")) or clean_str(job.get("url"))
     return {
         "id": job_id(company_key, job.get("title", "")),
         "_dedupe_key": company_key,
-        "title": (job.get("title") or "").strip(),
-        "company": (job.get("company") or "").strip(),
-        "location": (job.get("location") or "").strip(),
+        "title": clean_str(job.get("title")),
+        "company": clean_str(job.get("company")),
+        "location": clean_str(job.get("location")),
         "city": city,
         "region": region,  # west / paris / other / unknown
         "work_mode": work_mode,  # remote / hybrid / onsite
@@ -96,7 +96,7 @@ def classify(job: dict, cfg: dict) -> dict | None:
         "skills": sorted(set(skills_hit)),
         "bonus_tags": bonus_tags,
         "score": score,
-        "date_posted": job.get("date_posted"),
+        "date_posted": to_date_str(job.get("date_posted")),
         "salary": job.get("salary"),
         "description_snippet": re.sub(r"\s+", " ", desc)[:400],
         "sources": [{"name": job["source"], "url": job.get("url", "")}],
@@ -106,6 +106,7 @@ def classify(job: dict, cfg: dict) -> dict | None:
 def excluded_title(title: str, cfg: dict) -> bool:
     """職稱層級的硬性排除。也用在 main.py 清洗歷史資料，
     所以規則更新後，既有的 jobs.json 也會在下一次執行時被重新過濾。"""
+    title = clean_str(title)   # 來源可能給 NaN／None，下面有直接對字串做的比對
     title_n = norm(title)
 
     # Stage / Alternance

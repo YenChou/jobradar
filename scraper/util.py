@@ -8,6 +8,21 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 
+def clean_str(value) -> str:
+    """把來源給的值轉成乾淨字串。
+
+    JobSpy 回的是 pandas DataFrame，缺值是 float('nan')——而 NaN 是 truthy，
+    所以 `row.get("x") or ""` 這個慣用寫法完全擋不住它：NaN 會一路傳到
+    .strip() 炸掉（實際發生過，排程連兩天失敗），或被 str() 變成 "nan"
+    混進關鍵字比對。所有來源的文字欄位都該過這個函式。
+    """
+    if value is None:
+        return ""
+    if isinstance(value, float) and value != value:  # NaN 不等於自己
+        return ""
+    return str(value).strip()
+
+
 def strip_accents(text: str) -> str:
     return "".join(
         c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn"
@@ -16,9 +31,10 @@ def strip_accents(text: str) -> str:
 
 def norm(text: str | None) -> str:
     """小寫、去重音、壓空白 — 所有關鍵字比對前都先過這個。"""
+    text = clean_str(text)
     if not text:
         return ""
-    text = strip_accents(str(text)).lower()
+    text = strip_accents(text).lower()
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 

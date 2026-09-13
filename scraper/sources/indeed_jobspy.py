@@ -8,7 +8,7 @@ from __future__ import annotations
 import logging
 import time
 
-from scraper.util import to_date_str
+from scraper.util import clean_str, to_date_str
 
 log = logging.getLogger("chasse.indeed")
 
@@ -39,14 +39,14 @@ def fetch(search_terms: list[str], hours_old: int = 72, results_per_term: int = 
         for _, row in df.iterrows():
             jobs.append(
                 {
-                    "title": row.get("title") or "",
-                    "company": row.get("company") or "",
-                    "location": row.get("location") or "",
-                    "description": row.get("description") or "",
+                    "title": clean_str(row.get("title")),
+                    "company": clean_str(row.get("company")),
+                    "location": clean_str(row.get("location")),
+                    "description": clean_str(row.get("description")),
                     "url": row.get("job_url") or "",
                     "source": "Indeed",
                     "date_posted": to_date_str(row.get("date_posted")),
-                    "contract": row.get("job_type") or None,
+                    "contract": clean_str(row.get("job_type")) or None,
                     "work_mode": "remote" if row.get("is_remote") is True else None,
                     "salary": _salary(row),
                 }
