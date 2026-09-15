@@ -48,20 +48,10 @@ def load_cfg() -> dict:
 
 
 def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
-    from scraper.sources import apec, fashionjobs, france_travail, indeed_jobspy, isarta, wttj
+    from scraper.sources import apec, france_travail, indeed_jobspy, isarta, wttj
 
     hours_old = int(os.environ.get("HOURS_OLD", "72"))
     per_term = int(os.environ.get("RESULTS_PER_TERM", "50"))
-
-    # 列表型來源用來排詳情頁名額的順序。判斷只能看卡片摘要，而卡片摘要是截斷的，
-    # 所以「五類都沒中」不能當成判死——classify() 本來就有靠完整描述補救的路徑，
-    # 詳情頁不抓就永遠救不回來。只有標題層級的硬性排除（Stage／Alternance 等）
-    # 是拿到全文也不會翻盤的，那種才真的不值得花名額。
-    #   None = 不值得花　0 = 優先（卡片就看得出是目標職缺）　1 = 次要（名額有剩再補）
-    def detail_priority(job: dict) -> int | None:
-        if enrich.excluded_title(job.get("title") or "", cfg):
-            return None
-        return 0 if enrich.classify(job, cfg) else 1
 
     terms = cfg["search_terms"]
 
@@ -72,7 +62,9 @@ def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
         ("Welcome to the Jungle", lambda: wttj.fetch(terms)),
         ("France Travail", lambda: france_travail.fetch(terms, max_days_old=max(1, hours_old // 24))),
         ("APEC", lambda: apec.fetch(terms, results_per_term=per_term)),
-        ("Fashion Jobs", lambda: fashionjobs.fetch(known_urls, detail_priority)),
+        # Fashion Jobs 已移除，詳見 README「注意」與模組 docstring。
+        # 要重新啟用的話，除了這行註冊，還要把 detail_priority()（排詳情頁名額
+        # 順序用）加回來——git log 找 remove-fashionjobs 那個 commit。
         ("Isarta", lambda: isarta.fetch(known_urls)),
     ]:
         try:

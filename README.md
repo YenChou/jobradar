@@ -19,7 +19,6 @@ GitHub Actions（每天巴黎 12:00 與 19:00 兩輪）
        ├─ sources/wttj.py              Welcome to the Jungle（Algolia API）
        ├─ sources/france_travail.py    France Travail 官方 API（需金鑰，無則跳過）
        ├─ sources/apec.py              APEC（站內搜尋 webservice）
-       ├─ sources/fashionjobs.py       Fashion Jobs（列表頁＋詳情頁 JSON-LD，見「注意」）
        ├─ sources/isarta.py            Isarta（行銷／傳播職缺板列表頁）
        ├─ enrich.py                    分類、過濾、加權、去重
        └─ docs/data/jobs.json          （30 天滾動資料）
@@ -79,18 +78,20 @@ uv pip install --python .venv/bin/python -r requirements.txt
 - 只抓公開頁面、只存摘要＋原站連結，個人使用。抓取節奏刻意放慢（站與站之間、
   每個請求之間都有間隔），對來源網站友善也降低被封風險。
 
-- **Fashion Jobs 是一個已知的例外，使用前請知悉**：
+- **Fashion Jobs 已於 2026-09-14 移除**（模組檔與測試保留，未註冊使用）：
 
   - 該站的 `robots.txt` 對 `User-agent: *` 明確 `Disallow: /s/?keyword=*` 與
     `/s/?page=*`，而那是這個來源唯一可用的入口（robots.txt 公告的 sitemap
     子項是空的，無法用來發現職缺）。
-  - 該站在 Cloudflare 後面，會依 TLS 指紋擋掉 requests／urllib3——連 robots.txt
-    允許的路徑也一併擋。所以這個來源改用 `tls_client` 模擬瀏覽器指紋。
-  - 也就是說，**這個來源同時違反該站的 robots.txt 並繞過其機器人防護**，與上面
-    「對來源網站友善」的原則相牴觸，是專案擁有者在知情下做的取捨。請求足跡已
-    刻意壓低（每個搜尋詞 2 頁、詳情頁上限 60 筆、重試次數比其他來源低），
-    一旦偵測到站方在推回來就整組收工——包含 403／429／503，以及 Cloudflare
-    那種「HTTP 200 但內容是 JS 挑戰頁」的情況（不偵測的話整個來源會靜靜回
-    0 筆，log 看起來像今天剛好沒職缺）。
-  - 不想維持這個例外的話，把 `main.py` 的 `scrape_all()` 裡 Fashion Jobs 那一行
-    註冊拿掉即可，其他來源不受影響。
+  - 該站在 Cloudflare 後面。曾嘗試改用 `tls_client` 模擬瀏覽器 TLS 指紋，
+    本機（住宅 IP）可行，但 **GitHub Actions 的機房 IP 仍被擋**——與指紋無關，
+    是 IP 層級的封鎖。每天真正在跑的是 Actions，所以正式環境永遠抓不到。
+  - 留著只剩成本：每次執行仍會送一個請求到對方明確不希望被存取的路徑，
+    換回 0 筆資料。因此從 `main.py` 的 `scrape_all()` 移除註冊。
+  - 唯一能讓它在雲端運作的方法是住宅 proxy（約 $5–10/月），但那是花錢繞過
+    對方明確表達的拒絕，除非其 robots.txt 先改變，否則不建議。
+
+- 其餘五個來源的 `robots.txt` 都查過：Indeed、Welcome to the Jungle、APEC、
+  Isarta 均允許我們使用的路徑。France Travail 的 API 主機雖有 `Disallow: /`，
+  但那是擋爬蟲用的；我們走的是註冊過、帶 `client_id`／`client_secret` 的官方
+  認證端點，規範我們的是 API 使用條款而非 robots.txt。
