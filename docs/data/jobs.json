@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-16T14:37:35Z",
+ "generated_at": "2026-09-16T19:53:17Z",
  "source_stats": {
-  "Indeed": 640,
-  "Welcome to the Jungle": 1763,
-  "France Travail": 27,
-  "APEC": 1706,
-  "Isarta": 121
+  "Indeed": 680,
+  "Welcome to the Jungle": 1758,
+  "France Travail": 29,
+  "APEC": 1704,
+  "Isarta": 123
  },
- "count": 819,
- "new_today": 21,
+ "count": 830,
+ "new_today": 32,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -1284,6 +1284,36 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=f206f9ab5db62bce"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
+   "id": "6a4e4964cf3d8a07",
+   "title": "[CDI] Market Strategy & Value Manager (H/F)",
+   "company": "Bio-logic USA, LLC",
+   "location": "Seyssinet-Pariset, ARA, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "lancement de produit",
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-09-08",
+   "salary": null,
+   "description_snippet": "Comme son nom ne l'indique pas (), BioLogic conçoit, fabrique et commercialise auprès des laboratoires de recherche et des industriels des **instruments de mesure** dans le domaine de **l’électrochimie fondamentale** et du **stockage d’énergie**. Forte de **150 collaborateurs et collaboratrices** à Seyssinet\\-Pariset et Seyssins (dans l'**agglomération grenobloise**), elle est présente à l’interna",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4c9aa12eade4edeb"
     }
    ],
    "first_seen": "2026-09-16"
@@ -4035,6 +4065,92 @@
    "first_seen": "2026-09-16"
   },
   {
+   "id": "feb547bdfc9448ec",
+   "title": "Customer Operations Manager - Junior - Paris",
+   "company": "Shine",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "hubspot",
+    "salesforce",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "**Shine is the financial copilot for entrepreneurs and small business owners.** Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy of running a business, by ending wasted time on financial admin. Shine offers a connected solution for invoicing, accounting, payroll, business accounts, payments, and financing",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e39e61d8199a1c42"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
+   "id": "045c181c2a82bc9a",
+   "title": "COORDINATEUR MARKETING & COMMUNICATION",
+   "company": "AGENCE NETTER",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "gestion de projet"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "**À propos du poste** Nous recherchons un(e) Coordinateur(trice) Marketing \\& Communication dynamique et passionné(e) pour rejoindre notre équipe. Dans ce rôle essentiel, vous serez rattaché hiérarchiquement à la Directrice Marketing \\& Communication, et contribuerez à la mise en œuvre des actions marketing et de communication du Groupe. Vous accompagnerez le développement des marques et renforcer",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=10609b9774920470"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
+   "id": "78b95466807f64ee",
+   "title": "[CDI] Chef de produit Logiciels (H/F)",
+   "company": "Bio-logic USA, LLC",
+   "location": "Seyssinet-Pariset, ARA, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-07",
+   "salary": null,
+   "description_snippet": "Comme son nom ne l'indique pas (), BioLogic conçoit, fabrique et commercialise auprès des laboratoires de recherche et des industriels des **instruments de mesure** dans le domaine de **l’électrochimie fondamentale** et du **stockage d’énergie**. Forte de **150 collaborateurs et collaboratrices** à Seyssinet\\-Pariset et Seyssins (dans l'**agglomération grenobloise**), elle est présente à l’interna",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4c13b49cd81689da"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
    "id": "47eacd5d4cd9bc64",
    "title": "Assistante/Assistant Chef de produit - Gin & Vodka",
    "company": "LA MARTINIQUAISE",
@@ -5680,6 +5796,32 @@
    "first_seen": "2026-09-16"
   },
   {
+   "id": "b439449779dcecbe",
+   "title": "Chef de produit division Installateurs - H/F",
+   "company": "Würth Group",
+   "location": "Erstein, GE, FR",
+   "city": "Erstein",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-07-20",
+   "salary": null,
+   "description_snippet": "**Würth France, une aventure humaine** -------------------------------------- **Groupe familial de dimension mondiale**, Würth est présent dans plus de 80 pays avec plus de 400 sociétés. Il emploie plus de 88 000 collaborateurs, dont plus de 44 000 en relation directe avec nos clients via nos différents canaux de vente. Multi\\-spécialiste de services et de produits de fixation, outillage et consom",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=aacf9ea8351b528e"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
    "id": "f3452f426a6131d9",
    "title": "Data Analyst Marketing & E-commerce (H/F)",
    "company": "",
@@ -5760,40 +5902,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=c290fb5c13ef3b3e"
-    }
-   ],
-   "first_seen": "2026-09-15"
-  },
-  {
-   "id": "9512ebb8391a261d",
-   "title": "Responsable Marketing H/F",
-   "company": "Crédit Agricole",
-   "location": "Guyancourt, A8, FR",
-   "city": "Guyancourt",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement",
-    "roadmap",
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-15",
-   "salary": null,
-   "description_snippet": "**Description du poste** ------------------------ Au sein de la Direction Marketing, Digital et Data de CAPS, vous pilotez les équipes marketing en charge du développement des offres de Paiement pour le Crédit Agricole. Véritable chef d’orchestre, vous faites le lien entre les besoins des clients, les ambitions business et les différentes entités du Groupe impliquées dans la construction et la mis",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=15833a7727a957a4"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/groupe-credit-agricole/jobs/responsable-marketing-h-f_guyancourt"
     }
    ],
    "first_seen": "2026-09-15"
@@ -7895,6 +8003,90 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/6927341"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
+   "id": "bcfc4da44ea932cc",
+   "title": "Chef de Produits & Approvisionnement — Univers Vin (H/F)",
+   "company": "LGI Wines",
+   "location": "Carcassonne, O, FR",
+   "city": "Carcassonne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "CDI Carcassonne (11\\) Postulez à cette offre Vous devez être connecté pour postuler. Merci de patienter, votre candidature est en cours de traitement Description du poste Approvisionnement / Achats Production / Embouteillage Marketing / Communication Créé il y a plus de vingt ans, LGI Wines est un négociant en vins avec un positionnement atypique dans le secteur, partant des besoins des clients po",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8c8f334cd2f3214e"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
+   "id": "d2b17411fe896927",
+   "title": "Chef de produits Epargne Salariale et Retraite Collective F/H",
+   "company": "UFF",
+   "location": "Bois-Colombes, A8, FR",
+   "city": "Bois-Colombes",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "**Description de l'entreprise** A l’origine du métier de conseiller en gestion de patrimoine en France, l’UFF est leader sur son marché depuis plus de 50 ans. Détenue à 75% par Aviva Vie, elle est cotée depuis 1987 à la Bourse de Paris. Forte de 1400 collaborateurs(trices), dont plus de 1\\.000 dédiés(es) au conseil et présents(es) partout en France, elle commercialise l'ensemble des solutions patr",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d8e68e9a6e122dc3"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
+   "id": "419c2db7d22ea682",
+   "title": "Responsable Produits - Solution Fiscale Grands Comptes - F/H/NB",
+   "company": "CEGID",
+   "location": "Boulogne-Billancourt, A8, FR",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "Let's Shape the future together! **À propos de nous** -------------------- Chez Cegid, nous sommes **un leader européen des solutions IA de gestion cloud** pour les professionnels des métiers de la finance (trésorerie, fiscalité, ERP), des ressources humaines (paie, gestion des talents) et du Retail. Dans un monde en constante évolution, nos **collaborateurs** accompagnent nos **clients** à réalis",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4b5fac91b42a4d9d"
     }
    ],
    "first_seen": "2026-09-16"
@@ -10100,6 +10292,35 @@
    "first_seen": "2026-09-16"
   },
   {
+   "id": "617fe9ab5515b9e3",
+   "title": "Senior Sales / Business Developer SaaS B2B - France",
+   "company": "Probance",
+   "location": "Télétravail, FR",
+   "city": "Teletravail",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "Probance est un éditeur SaaS spécialisé depuis plus de 20 ans dans le **Marketing Automation, la personnalisation et l’Intelligence Artificielle**. Nous développons aujourd’hui de nouvelles solutions IA destinées à améliorer la performance marketing des entreprises et souhaitons accélérer notre développement commercial en France. Nous recherchons un(e) **Senior Sales / Business Developer B2B**, ca",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fd9c52318f45afaf"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
    "id": "5be48b18c955714a",
    "title": "Responsable Digital Analytics (F/H)",
    "company": "AXA / France",
@@ -10150,6 +10371,58 @@
     }
    ],
    "first_seen": "2026-09-16"
+  },
+  {
+   "id": "c6d801a93bd2a54f",
+   "title": "Chef de marché - Installateurs - H/F",
+   "company": "Würth Group",
+   "location": "Erstein, GE, FR",
+   "city": "Erstein",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-27",
+   "salary": null,
+   "description_snippet": "**Würth France, une aventure humaine** -------------------------------------- **Groupe familial de dimension mondiale**, Würth est présent dans plus de 80 pays avec plus de 400 sociétés. Il emploie plus de 88 000 collaborateurs, dont plus de 44 000 en relation directe avec nos clients via nos différents canaux de vente. Multi\\-spécialiste de services et de produits de fixation, outillage et consom",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a72f1947e7b9b272"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
+   "id": "9512ebb8391a261d",
+   "title": "Responsable Marketing H/F",
+   "company": "Crédit Agricole",
+   "location": "Guyancourt",
+   "city": "Guyancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "Responsable Marketing H/F <p>Ecole de Commerce ou université avec une spécialisation marketing</p><br/><ul><li style=\"text-align: justify\">Connaissance du Groupe Crédit Agricole</li></ul><ul style=\"text-align: justify\"><li>Connaissance des moyens de paiement</li></ul><ul style=\"text-align: justify\"><li>Connaissance des approches « Marketing produit » (étude client, analyse marché, expression de be",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/groupe-credit-agricole/jobs/responsable-marketing-h-f_guyancourt"
+    }
+   ],
+   "first_seen": "2026-09-15"
   },
   {
    "id": "01c6d2c841e333b1",
@@ -15653,6 +15926,32 @@
    "first_seen": "2026-09-16"
   },
   {
+   "id": "1530675090b29ec8",
+   "title": "CHEF DE PRODUIT ACCESSOIRES TECH F/H",
+   "company": "T'NB",
+   "location": "Salon-de-Provence - 13",
+   "city": "Salon-De-Provence - 13",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-16",
+   "salary": "30 - 48 k€ brut annuel",
+   "description_snippet": "CHEF DE PRODUIT ACCESSOIRES TECH (F/H) VOS MISSIONS : DONNER DU PEPS, DE LA COHÉRENCE ET DE LA VALEUR À NOS GAMMES ! Au cœur de la Direction Marketing & Produit, vous prenez la responsabilité à 360° de vos familles de produits (charge, protection, connectique, audio & accessoi...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179431869W"
+    }
+   ],
+   "first_seen": "2026-09-16"
+  },
+  {
    "id": "aca1c171ef75ea13",
    "title": "Chef de Projet Produits Techniques F/H",
    "company": "DELTA PLUS GROUP",
@@ -21140,7 +21439,7 @@
    "score": -2,
    "date_posted": "2026-09-02",
    "salary": null,
-   "description_snippet": "Head of Product Marketing & Growth **The profile we are looking for** **Required** * **Cybersecurity experience.** You have done product marketing inside a security vendor or platform. You understand what a detection product actually sells, why false positives are a commercial problem as much as a technical one, and how a security buyer builds a decision. This is not a domain we will teach you. * ",
+   "description_snippet": "Head of Product Marketing & Growth **The profile we are looking for** **Required** * **You have contributed to a move into mid-market or SMB.** Concretely: you worked at a company that sold enterprise and opened a volume segment, and you can tell us what worked, what failed and why. PLG is one way of doing this; channel, assisted self-serve, inside sales and cycle automation are others. We are int",
    "sources": [
     {
      "name": "Welcome to the Jungle",
