@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-17T14:43:08Z",
+ "generated_at": "2026-09-17T20:01:32Z",
  "source_stats": {
-  "Indeed": 681,
-  "Welcome to the Jungle": 1761,
+  "Indeed": 683,
+  "Welcome to the Jungle": 1767,
   "France Travail": 30,
-  "APEC": 1669,
-  "Isarta": 130
+  "APEC": 1666,
+  "Isarta": 129
  },
- "count": 843,
- "new_today": 13,
+ "count": 859,
+ "new_today": 29,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -119,6 +119,40 @@
     }
    ],
    "first_seen": "2026-09-08"
+  },
+  {
+   "id": "f557a3bffaff9bac",
+   "title": "Chargé(e) Communication digitale 360° (F/H)",
+   "company": "Temana",
+   "location": "Colomiers, O, FR",
+   "city": "Colomiers",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roi",
+    "sea",
+    "seo",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 22,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Acteur de référence et leader en France dans la formation aux métiers du bien\\-être et de l’esthétique depuis plus de 15 ans, notre groupe accompagne chaque année plusieurs milliers d’apprenants dans leur parcours de formation et de reconversion professionnelle. Présents sur 10 sites en France, nous poursuivons une stratégie de développement soutenue et recrutons un(e) chargé(e) Marketing Digital ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e8557fdca5ac3e92"
+    }
+   ],
+   "first_seen": "2026-09-17"
   },
   {
    "id": "ba5dda345310483f",
@@ -2641,6 +2675,35 @@
    "first_seen": "2026-09-17"
   },
   {
+   "id": "15e8781a110ce8c6",
+   "title": "Brand Manager Sport & Fracture Management (H/F)",
+   "company": "Essity",
+   "location": "Saint-Ouen, A8, FR",
+   "city": "Saint-Ouen",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "**Brand Manager Sport \\& Fracture Management (H/F)** ==================================================== Domaine de l'orthopédie, du fracture management, de la physiothérapie Localisation : Saint\\-Ouen Essity est un leader mondial dans le domaine de l’hygiène et de la santé, engagé à améliorer le bien\\-être et à construire un avenir plus sain pour tous. Avec 36 000 collaborateurs et une présence ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=16a6cfc393da0efc"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
    "id": "1149849188e26a9f",
    "title": "AP26 - BAC+4/5 - DATA ANALYST CRM & BUSINESS INTELLIGENCE (H/F)",
    "company": "Renault Group",
@@ -2763,78 +2826,6 @@
     }
    ],
    "first_seen": "2026-09-15"
-  },
-  {
-   "id": "8b588cd71055debd",
-   "title": "Global Traffic Manager (F/H)",
-   "company": "Younited",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "google ads",
-    "sea"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-09-14",
-   "salary": null,
-   "description_snippet": "At Younited, we believe money allows people to purchase goods \\& services and realize their dreams, but today’s banking products are opaque \\& overly complex. Here, we leverage innovation \\& cutting\\-edge technology to redefine lending and payment practices, to provide exceptional user experience More than a million customers already had access to our instant, simple \\& transparent credit, and we ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=c0c05a9d47952925"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/younited-credit/jobs/global-traffic-manager-f-h_paris"
-    }
-   ],
-   "first_seen": "2026-09-14"
-  },
-  {
-   "id": "7dce3dc9c071f97f",
-   "title": "Chef de Projet CRM Lifecycle H/F",
-   "company": "NEXTON",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "crm"
-   ],
-   "skills": [
-    "marketing automation",
-    "parcours client",
-    "segmentation"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-09-14",
-   "salary": "A négocier",
-   "description_snippet": "**Description de l'entreprise** **Qui sommes\\-nous ?** Rejoindre NEXTON, c'est intégrer une entreprise où convergent l'esprit d'un cabinet de conseil, la créativité d'une Factory et la dynamique d'une ESN ! Grâce à notre expertise, nous accompagnons des clients grands comptes et des pure players tels que SNCF, Orange, et BNP Paribas dans leurs stratégies d'évolution et d'innovation digitale. Fondé",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=675582b6e92df3a6"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/chef-de-projet-crm-lifecycle-h-f_paris"
-    },
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179417149W"
-    }
-   ],
-   "first_seen": "2026-09-14"
   },
   {
    "id": "a9d70ada96b34b05",
@@ -4163,6 +4154,34 @@
    "first_seen": "2026-09-17"
   },
   {
+   "id": "5bcd8462cc5da629",
+   "title": "Content & Product Marketing Specialist h/f",
+   "company": "DNP PHOTO IMAGING EUROPE",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "CDI \\- Plein temps Localisation : Paris, France #### **Objectif du poste** Sous la supervision du Directeur Marketing et Communication, le ou la titulaire du poste est en charge de la mise en œuvre du plan marketing et de l'ensemble des supports nécessaires au lancement et à la promotion des produits et services pour la ligne Service Business. Il/elle met en œuvre la stratégie définie par la Direc",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=31259e3ee65f8573"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
    "id": "4f600be7d773626b",
    "title": "Customer Operations Manager - Junior - Paris",
    "company": "Shine Germany",
@@ -4487,6 +4506,40 @@
     }
    ],
    "first_seen": "2026-09-15"
+  },
+  {
+   "id": "7dce3dc9c071f97f",
+   "title": "Chef de Projet CRM Lifecycle H/F",
+   "company": "NEXTON",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "marketing automation",
+    "parcours client",
+    "segmentation"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-15",
+   "salary": "A négocier",
+   "description_snippet": "Chef de Projet CRM Lifecycle H/F <p>De formation supérieure, tu disposes d’au moins 3 ans d’expérience confirmée en CRM Lifecycle ou Marketing Automation.</p><ul><li><p>Tu as une expérience significative dans un environnement média, OTT, streaming ou lié au secteur de l'abonnement.</p></li><li><p>Tu maîtrises une plateforme CRM / Marketing Automation (Imagino, Batch, Braze, Salesforce Marketing Cl",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/chef-de-projet-crm-lifecycle-h-f_paris"
+    },
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179417149W"
+    }
+   ],
+   "first_seen": "2026-09-14"
   },
   {
    "id": "19482697a7e5981f",
@@ -5945,6 +5998,32 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=97493ac5de64c578"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
+   "id": "73d39c681e7850b8",
+   "title": "Brand Manager incontinence TENA (H/F)",
+   "company": "Essity",
+   "location": "Saint-Ouen, A8, FR",
+   "city": "Saint-Ouen",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "**Brand Manager incontinence TENA (H/F)** ========================================= Essity est née de la contraction de deux mots : Essential et Necessity. C'est la raison pour laquelle le bien\\-être est au cœur de nos préoccupations. Vous avez envie de rejoindre une entreprise engagée et d’améliorer le bien\\-être grâce à des produits essentiels de la vie quotidienne ? Notre mission : développer, ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=369aca016837aba5"
     }
    ],
    "first_seen": "2026-09-17"
@@ -8166,6 +8245,90 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "98be0ed1a5166907",
+   "title": "Chef de Produits – Logiciels (H/F) - CDI",
+   "company": "Rexel",
+   "location": "Saint-Étienne, ARA, FR",
+   "city": "Saint-Etienne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "**Description de l'entreprise** **ESABORA :** Filiale du groupe Rexel, ESABORA accompagne ses clients dans la conception, le déploiement et l’évolution de solutions et services innovants pour répondre aux enjeux de la transformation digitale et énergétique. **REXEL :** Expert de la distribution multicanale dédiée au monde de l’énergie, Rexel accompagne ses clients professionnels dans la mise en œu",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=2bbf80e441df91ae"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
+   "id": "64bebfc1a3db299f",
+   "title": "Product Marketing Manager W/M/NB",
+   "company": "Million Victories",
+   "location": "Lyon, ARA, FR",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Lyon, Auvergne\\-Rhône\\-Alpes, France Permanent contract 45ke to 55ke € per year **Job description** ------------------- **Your mission** You’ll play a key role in driving Million Lords’ growth and visibility. You’ll identify and develop new opportunities, lead strategic marketing initiatives, and build key partnerships to expand the game’s reach and deliver tangible business impact. As a Product M",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=526e3cec888cb7e4"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
+   "id": "bc82f3b96b02e99a",
+   "title": "Product Marketing Manager (H/F)",
+   "company": "Chargemap",
+   "location": "Strasbourg, GE, FR",
+   "city": "Strasbourg",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "**À propos** ------------ Chargemap est engagée depuis plus de dix ans dans la simplification de la recharge des véhicules électriques. Reconnue comme une référence en France et leader européen sur son marché, nous accompagnons des millions de conducteurs et de nombreuses entreprises grâce à des solutions fiables, accessibles et pensées pour répondre à la réalité du terrain. Nos produits couvrent ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=798c22b68d9758df"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
    "id": "7d5e9a5b2ebf2e6f",
    "title": "Chef(fe) de Marché — Segment IDEL (F/H)",
    "company": "Cba Informatique",
@@ -9557,36 +9720,6 @@
    "first_seen": "2026-08-27"
   },
   {
-   "id": "0d70518447921e5d",
-   "title": "Responsable de partenariat Mobilité (F/H)",
-   "company": "Macif",
-   "location": "Issy-les-Moulineaux, A8, FR",
-   "city": "Issy-Les-Moulineaux",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-16",
-   "salary": null,
-   "description_snippet": "**Description de l'entreprise :** Entreprise de l'Économie Sociale, la Macif n'appartient ni à des actionnaires, ni à l'État, mais à ses sociétaires. Chaque jour, près de 10 000 salariés se mobilisent pour apporter la meilleure qualité de service à nos 5,6 millions de sociétaires et adhérents en assurances dommages, santé\\-prévoyance et finance\\-épargne. Rejoindre la Macif, c'est s'engager dans un",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d976bbe36c147a95"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/macif/jobs/responsable-de-partenariat-mobilite-f-h_issy-les-moulineaux_MACIF_1dWWWpM"
-    }
-   ],
-   "first_seen": "2026-08-26"
-  },
-  {
    "id": "f8be801d571c9617",
    "title": "GTM lead",
    "company": "Ecair",
@@ -10481,6 +10614,117 @@
    "first_seen": "2026-09-17"
   },
   {
+   "id": "ebaa384902e65898",
+   "title": "Specialiste en gestion de projet senior specialist - Siège Social CMA CGM",
+   "company": "CMA CGM",
+   "location": "Marseille, B8, FR",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "gestion de projet",
+    "salesforce"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Identifiant: 591011 Lieu: Marseille, FR **Specialiste en gestion de projet senior specialist \\- Siège Social CMA CGM** ============================================================================== Dirigé par Rodolphe Saadé, le Groupe CMA CGM, un leader mondial du transport maritime et de la logistique, dessert plus de 420 ports dans le monde sur 5 continents. Avec sa filiale CEVA Logistics, et sa",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f613153174133c35"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
+   "id": "ed97209aec71b7b4",
+   "title": "Sales & Marketing Operations Manager - France",
+   "company": "Lucid Motors",
+   "location": "Saint-Ouen-l'Aumône, A8, FR",
+   "city": "Saint-Ouen-L'Aumone",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "salesforce",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "About Lucid At Lucid, we are creating exceptional mobility experiences through innovation to drive the world forward. Built on Lucid's proprietary technology and software\\-defined vehicle architecture, our award\\-winning vehicles bring our \"Compromise Nothing™\" approach to the global automotive market. That means refusing to choose between performance and sustainability, design and engineering, am",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8cd258446d2fdb24"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
+   "id": "8251b3a2db1bf515",
+   "title": "Chef de Produit H/F",
+   "company": "Monin Gourmet Flavorings",
+   "location": "Bourges, CVL, FR",
+   "city": "Bourges",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "### **Rejoignez MONIN en tant que Chef de Produit H/F !** #### **À propos de MONIN :** MONIN est un leader mondial reconnu pour la création d’expériences boissons uniques. Entreprise familiale française fondée il y a plus d’un siècle par Georges Monin, la marque est aujourd’hui une référence internationale dans l’univers des sirops et concentrés premium pour boissons. Animée par un esprit d’innova",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f905e72629222d83"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
+   "id": "89d3df427ee494bf",
+   "title": "Chef de Projet Marketing F/H",
+   "company": "Walter Learning",
+   "location": "Marseille",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Chef de Projet Marketing F/H <h5 dir=\"ltr\">Profil recherch&eacute; :&nbsp;</h5> <p dir=\"ltr\"><strong>Comp&eacute;tences organisationnelles</strong></p> <ul> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Faire preuve d&rsquo;autonomie.&nbsp;</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Avoir une certaine rigueur d'ex&eacute;cution et un sens du process :",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/chef-de-projet-marketing-f-h_marseille"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
    "id": "0abee60800bf6ac5",
    "title": "CRM Engagement Intern",
    "company": "Back Market",
@@ -10849,6 +11093,34 @@
     }
    ],
    "first_seen": "2026-09-15"
+  },
+  {
+   "id": "8b588cd71055debd",
+   "title": "Global Traffic Manager (F/H)",
+   "company": "Younited",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-14",
+   "salary": null,
+   "description_snippet": "Global Traffic Manager (F/H) * You have a **Master’s degree** from a business school or an equivalent university program * You have at least **three years of experience** in traffic management, either in-house or at a consultancy, ideally in an international environment * You are an expert in advertising platforms, and search marketing holds no secrets for you * Excel and Power BI are your best al",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/younited-credit/jobs/global-traffic-manager-f-h_paris"
+    }
+   ],
+   "first_seen": "2026-09-14"
   },
   {
    "id": "ed6f8a6765a6e8f2",
@@ -12681,6 +12953,32 @@
    "first_seen": "2026-08-26"
   },
   {
+   "id": "0d70518447921e5d",
+   "title": "Responsable de partenariat Mobilité (F/H)",
+   "company": "MACIF",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "Responsable de partenariat Mobilité (F/H) De formation supérieure ou égale au niveau Bac + 5, vous bénéficiez d'une expérience d'au moins 4 ans en marketing produit. Vous pouvez justifier : <br /><br />- D'une connaissance des produits et marchés assurantiels IARD, une spécialisation sur l'assurance auto serait idéale<br />- De capacités de gestion et coordination en transverse des projets dans le",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/macif/jobs/responsable-de-partenariat-mobilite-f-h_issy-les-moulineaux_MACIF_1dWWWpM"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
    "id": "0f046ba4d72298b8",
    "title": "Lead Product Marketing Manager - 100% remote F/H",
    "company": "PMEJOB",
@@ -13951,6 +14249,35 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179437159W"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
+   "id": "b5ba5bdcbfd4fe8e",
+   "title": "Global Project Management Senior Specialist",
+   "company": "CMA CGM",
+   "location": "Marseille, B8, FR",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "salesforce"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "ID: 591011 Location: Marseille, FR **Global Project Management Senior Specialist** =============================================== Led by Rodolphe Saadé, the CMA CGM Group, a global leader in shipping and logistics, serves more than 420 ports around the world on five continents. With its subsidiary CEVA Logistics, a world leader in logistics, and its air freight division CMA CGM AIR CARGO, the CMA",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=434a90a329d3f31b"
     }
    ],
    "first_seen": "2026-09-17"
@@ -16250,6 +16577,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "fef597649412391b",
+   "title": "Manager – Chef de produits variateurs de fréquence et PLC H/F",
+   "company": "ABB",
+   "location": "Beynost, ARA, FR",
+   "city": "Beynost",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "At **ABB**, we help industries run leaner and cleaner—and every person here makes that happen. You’ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. **This position reports to:** Responsable de division locale – Motion Drives Products France \\_\\_ *Développez votre carrière avec ABB et contribuez à façonner un avenir pl",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9fd94bd02b277782"
+    }
+   ],
+   "first_seen": "2026-09-17"
   },
   {
    "id": "58d86117bc00c62d",
@@ -19844,6 +20197,84 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "8ccf8b861dac4b17",
+   "title": "Strategy Revenue Analyst",
+   "company": "PayPlug",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "**Description** --------------- Payplug est la **solution de paiement française** pensée pour les commerçants, e\\-commerçants de toutes tailles et fintechs. Avec notre plateforme technologique de pointe, nos outils dédiés à la conversion et notre maîtrise unique de la chaîne de paiement, nous vous invitons à viser le meilleur, et plus encore. Payplug, c’est une équipe de 300 passionnés dédiés à la",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d0ba88e59fc1d2ef"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
+   "id": "0fc82d1346fe8982",
+   "title": "Content Strategist, EMEA",
+   "company": "",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Aircall is a unicorn, AI\\-powered customer communications platform used by 22,000\\+ companies worldwide to drive revenue, resolve issues faster, and scale customer\\-facing teams. We're redefining customer communications by bringing voice, SMS, WhatsApp, and AI together into one seamless workspace. Our momentum comes from a simple idea: help teams work smarter, not harder. Aircall's AI Voice Agent ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=082c2198ea5608c3"
+    }
+   ],
+   "first_seen": "2026-09-17"
+  },
+  {
+   "id": "f69d1ed946482032",
+   "title": "Content Strategist, EMEA",
+   "company": "Aircall",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Aircall is a unicorn, AI\\-powered customer communications platform used by 22,000\\+ companies worldwide to drive revenue, resolve issues faster, and scale customer\\-facing teams. We’re redefining customer communications by bringing voice, SMS, WhatsApp, and AI together into one seamless workspace. Our momentum comes from a simple idea: help teams work smarter, not harder. Aircall’s AI Voice Agent ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=02fc2c5e9ddcb476"
+    }
+   ],
+   "first_seen": "2026-09-17"
   },
   {
    "id": "0ffef6276c0a13af",
