@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-17T20:01:32Z",
+ "generated_at": "2026-09-18T14:08:18Z",
  "source_stats": {
-  "Indeed": 683,
-  "Welcome to the Jungle": 1767,
-  "France Travail": 30,
-  "APEC": 1666,
-  "Isarta": 129
+  "Indeed": 632,
+  "Welcome to the Jungle": 1762,
+  "France Travail": 28,
+  "APEC": 1686,
+  "Isarta": 125
  },
- "count": 859,
- "new_today": 29,
+ "count": 868,
+ "new_today": 9,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -546,6 +546,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "8f2509dc8efcbdb7",
+   "title": "Chargé, Chargée de marketing (F/H)",
+   "company": "ESSCA",
+   "location": "Angers, B5, FR",
+   "city": "Angers",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "A la recherche d'un nouveau challenge ? Rejoignez l'ESSCA ! Une Grande École de management qui place l'humain au cœur de son projet depuis 1909\\. Avec 6 campus en France et 4 à l'international, l'ESSCA forme des managers et entrepreneurs responsables dans un environnement éthique et solidaire. Découvrez une institution innovante, reconnue sur le plan mondial, qui allie des valeurs fortes et un eng",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9cd031938152e810"
+    }
+   ],
+   "first_seen": "2026-09-18"
   },
   {
    "id": "3effa0e9aa2eca9c",
@@ -1232,6 +1258,39 @@
     }
    ],
    "first_seen": "2026-08-25"
+  },
+  {
+   "id": "45ca179ca611be20",
+   "title": "Responsable Marketing Acquisition & Performance (H/F)",
+   "company": "LHH RECRUITMENT SOLUTIONS",
+   "location": "92 - Levallois-Perret",
+   "city": "92 - Levallois-Perret",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "a/b testing",
+    "acquisition",
+    "conversion",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Description du poste : LHH Recruitment Solutions , cabinet de conseil en recrutement, management de transition et évaluation de cadres et dirigeants, accompagne l'un de ses clients dans la recherche de son futur Head of Growth Acquisition BtoC (H/F Notre client est un acteur de référence dans les services destinés aux particuliers. Évoluant dans un environnement concurrentiel et fortement orienté ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6947467"
+    }
+   ],
+   "first_seen": "2026-09-18"
   },
   {
    "id": "406c367e25c85490",
@@ -2573,7 +2632,7 @@
    "score": 16,
    "date_posted": "2026-09-09",
    "salary": null,
-   "description_snippet": "Product Marketing Lead, Manager (PMM) - Full Remote ### **✨ Ce sera un match parfait si tu as…** * Tu as une vraie **mécanique go-to-market** : tu penses pénétration de marché, adoption, P&L, et tu sais switcher entre \"chercher du revenu sur l'existant\" et \"ouvrir de nouveaux marchés\". Tu peux me raconter un cas où ton boulot a bougé l'aiguille sur le revenu ou la pénétration * Tu as déjà owné des",
+   "description_snippet": "Product Marketing Lead, Manager (PMM) - Full Remote ### **✨ Ce sera un match parfait si tu as…** * Tu as une vraie **mécanique go-to-market** : tu penses pénétration de marché, adoption, P&L, et tu sais switcher entre \"chercher du revenu sur l'existant\" et \"ouvrir de nouveaux marchés\". * Tu as déjà owné des sujets de **pricing & packaging** * Tu as un **anglais opérationnel solide** : tu sais décl",
    "sources": [
     {
      "name": "Welcome to the Jungle",
@@ -2643,6 +2702,61 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "dd5c1423a4308c04",
+   "title": "Chef de produits cadeaux (H/F)",
+   "company": "LABORATOIRES DE BIOLOGIE VEGETALE YVES R",
+   "location": "35 - Rennes",
+   "city": "Rennes",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-18",
+   "salary": null,
+   "description_snippet": "CDD 6 MOIS à pourvoir dès décembre 2026 VOS MISSIONS Vous appliquez la stratégie et pilotez le plan cadeaux du CRM VAD Monde Yves Rocher Faites des piges concurrentielles et veilles sociétales Recherchez de nouvelles idées en cohérence avec la stratégie Proposez des objets pour renouveler le plan cadeaux des campagnes VAD et également de 2 campagnes RETAIL Proposez des produits dans le respect des",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214BZJQ"
+    }
+   ],
+   "first_seen": "2026-09-18"
+  },
+  {
+   "id": "af76ff9ab7e15bfa",
+   "title": "Staff Backend Engineer, Integrations",
+   "company": "VIBE",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Streaming TV is no longer just a brand awareness channel. It’s becoming a core part of the performance marketing mix, alongside search and social. Vibe.co is building the platform that makes TV work like the rest of the acquisition stack: targeted, measurable, and optimized for results. Vibe.co is an **Audience First Streaming TV Advertising platform** that gives marketers the tools to reach the r",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=85b1d066f4e78f32"
+    }
+   ],
+   "first_seen": "2026-09-18"
   },
   {
    "id": "8e97bf7859f05f2b",
@@ -3491,13 +3605,13 @@
    "skills": [],
    "bonus_tags": [],
    "score": 14,
-   "date_posted": "2026-09-17",
+   "date_posted": "2026-09-18",
    "salary": null,
    "description_snippet": "Chef de produit (H/F) <h2>Le profil que nous recherchons ?</h2><h3>Un(e) expert(e) Flooring avant tout.</h3><p>Issu(e) d’une formation supérieure en marketing, commerce, ingénierie ou domaine technique, vous justifiez d’une <b>expérience significative dans l’univers du Flooring et des solutions de sols</b>.</p><p>Vous connaissez les enjeux techniques, les applications et les acteurs de ce marché. ",
    "sources": [
     {
      "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/mapei/jobs/chef-de-produit-h-f_toulouse_MF_Lx4m3Ky"
+     "url": "https://www.welcometothejungle.com/fr/companies/mapei/jobs/chef-de-produit-h-f_toulouse_MF_3WZV1ob"
     }
    ],
    "first_seen": "2026-08-26"
@@ -3829,40 +3943,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=6eca225eb4ee2f05"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "0d456c7a2a5a4692",
-   "title": "Web Analyst H/F",
-   "company": "NEXTON",
-   "location": "Montpellier",
-   "city": "Montpellier",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_analytics"
-   ],
-   "skills": [
-    "google analytics",
-    "sql",
-    "tableau"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-08-19",
-   "salary": "A négocier",
-   "description_snippet": "Web Analyst H/F <p>De formation supérieure (BAC+3/5) en informatique, statistiques, marketing digital ou équivalent, tu possèdes une expérience significative en web analyse et en gestion de tag management systems.</p><p>Tes qualités et compétences techniques sont les suivantes :</p><ul><li><p>Maîtrise approfondie des solutions de Tag Management, avec une expertise forte sur Tag Commander,</p></li>",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/web-analyst-h-f_montpellier"
-    },
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179278069W"
     }
    ],
    "first_seen": "2026-08-23"
@@ -5807,6 +5887,36 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "0d456c7a2a5a4692",
+   "title": "Web Analyst H/F",
+   "company": "NEXTON",
+   "location": "Montpellier",
+   "city": "Montpellier",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [
+    "google analytics",
+    "sql",
+    "tableau"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-08-19",
+   "salary": null,
+   "description_snippet": "Web Analyst H/F <p>De formation supérieure (BAC+3/5) en informatique, statistiques, marketing digital ou équivalent, tu possèdes une expérience significative en web analyse et en gestion de tag management systems.</p><p>Tes qualités et compétences techniques sont les suivantes :</p><ul><li><p>Maîtrise approfondie des solutions de Tag Management, avec une expertise forte sur Tag Commander,</p></li>",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/web-analyst-h-f_montpellier"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "10688ada68c085e1",
    "title": "Chargé.e de Service Client et omnicanalité CDI - H/F",
    "company": "SMCP",
@@ -5975,6 +6085,58 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "6bf7af9c62e96c49",
+   "title": "IMA PROTECT - Chef de produit F/H",
+   "company": "IMA PROTECT",
+   "location": "Nantes - 44",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-18",
+   "salary": "A partir de 35 k€ brut annuel",
+   "description_snippet": "Vous aimez détecter les tendances de marché, transformer des idées en solutions concrètes et piloter leur lancement jusqu'à leur succès commercial ? Alors rejoignez IMA Protect en tant que Chef(fe) de Produit (F/H) Au quotidien, vous êtes un acteur clé à la croisée : - du market...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179429859W"
+    }
+   ],
+   "first_seen": "2026-09-18"
+  },
+  {
+   "id": "bda783318a3e6b0d",
+   "title": "Responsable SBU ITS (intelligent traffic systems) H/F",
+   "company": "L'industrie recrute",
+   "location": "Pins-Justaret, O, FR",
+   "city": "Pins-Justaret",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Rejoignez STERELA Depuis plus de 45 ans, STERELA conçoit, développe et déploie des solutions technologiques innovantes au service de la sécurité routière, de la mobilité et de la gestion des infrastructures. Acteur reconnu sur ses marchés, STERELA contribue activement aux nouvelles mobilités, dont le développement des mobilités douces et accompagne ses clients en France et à l’international grâce ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4e14a98363c7776a"
+    }
+   ],
+   "first_seen": "2026-09-18"
   },
   {
    "id": "7bf00d66c23f4313",
@@ -8243,6 +8405,35 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "003d2004c72728d1",
+   "title": "Principal Security Engineer",
+   "company": "VIBE",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Streaming TV is no longer just a brand awareness channel. It’s becoming a core part of the performance marketing mix, alongside search and social. Vibe.co is building the platform that makes TV work like the rest of the acquisition stack: targeted, measurable, and optimized for results. Vibe.co is an **Audience First Streaming TV Advertising platform** that gives marketers the tools to reach the r",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=51a676f97ed7afed"
+    }
+   ],
+   "first_seen": "2026-09-18"
   },
   {
    "id": "98be0ed1a5166907",
@@ -10586,6 +10777,32 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "da1c6e836d701b07",
+   "title": "Chef de Produit Véhicules Utilitaires H/F | Rejoignez une grande marque automobile",
+   "company": "MSX International",
+   "location": "Nanterre",
+   "city": "Nanterre",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-18",
+   "salary": null,
+   "description_snippet": "Chef de Produit Véhicules Utilitaires H/F | Rejoignez une grande marque automobile <ul><li><p>Le profil que nous recherchons</p><p>🎯 Bac +5 avec spécialisation Marketing Produit</p><p>🎯 Expérience confirmée comme Chef de Produit dans l&#39;industrie automobile (hors stage et alternance)</p><p>🎯 Bonne maîtrise de l&#39;anglais professionnel</p><p>🎯 Curiosité marché, esprit analytique et capacité à ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/msx-international/jobs/chef-de-produit-vehicules-utilitaires-h-f_nanterre_MI_YLg4YJe"
+    }
+   ],
+   "first_seen": "2026-09-18"
   },
   {
    "id": "ab0feb2b5e959862",
@@ -14200,6 +14417,34 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "633854885b5ae6a0",
+   "title": "Traffic manager-community manager F/H",
+   "company": "ZZ_Confidentiel",
+   "location": "Loire-Atlantique - 44",
+   "city": "Loire-Atlantique - 44",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-18",
+   "salary": "30 - 32 k€ brut annuel",
+   "description_snippet": "✅Un poste clé dans notre stratégie digitale: mise en avant des produits, de notre expertise et de notre image de marque ✅ Une forte dimension opérationnelle dans un environnement BtoB ✅M ots clés : réseaux sociaux, création de contenu et performance web En tant que Traffic man...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179383719W"
+    }
+   ],
+   "first_seen": "2026-09-18"
+  },
+  {
    "id": "4c200236230f544b",
    "title": "Product Migration & Project Manager H/F",
    "company": "NEXTON",
@@ -16711,6 +16956,32 @@
    "first_seen": "2026-09-15"
   },
   {
+   "id": "3696e98ec30c9efd",
+   "title": "Chef de Produits F/H",
+   "company": "Hellowork",
+   "location": "Pacé - 35",
+   "city": "Pace - 35",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-18",
+   "salary": "38 - 48 k€ brut annuel",
+   "description_snippet": "Vous rejoignez notre équipe produit pour y apporter la vision marché. Vous travaillez en complémentarité avec un Chef de Produit orienté technique. Votre mission : gérer et développer la performance de vos gammes, grâce a votre écoute active du marché et votre présence ponctuel...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179413179W"
+    }
+   ],
+   "first_seen": "2026-09-14"
+  },
+  {
    "id": "187234b96a9cfe98",
    "title": "Expert en dev web Java / Angular20 + Quarkus (IT) / Freelance",
    "company": "",
@@ -16758,32 +17029,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179412344W"
-    }
-   ],
-   "first_seen": "2026-09-14"
-  },
-  {
-   "id": "3696e98ec30c9efd",
-   "title": "Chef de Produits F/H",
-   "company": "Hellowork",
-   "location": "Pacé - 35",
-   "city": "Pace - 35",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-14",
-   "salary": "38 - 48 k€ brut annuel",
-   "description_snippet": "Vous rejoignez notre équipe produit pour y apporter la vision marché. Vous travaillez en complémentarité avec un Chef de Produit orienté technique. Votre mission : gérer et développer la performance de vos gammes, grâce a votre écoute active du marché et votre présence ponctuel...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179413179W"
     }
    ],
    "first_seen": "2026-09-14"
@@ -19681,7 +19926,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 2,
-   "date_posted": "2026-09-17",
+   "date_posted": "2026-09-18",
    "salary": "50 - 70 k€ brut annuel",
    "description_snippet": "Notre client est un acteur majeur de l’enseignement supérieur, en forte dynamique de développement et de transformation, notamment sur ses enjeux de recrutement et de visibilité. Dans ce contexte, l’établissement crée le poste de Responsable performance Marketing & Digital afi...",
    "sources": [
@@ -21017,7 +21262,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 0,
-   "date_posted": "2026-09-17",
+   "date_posted": "2026-09-18",
    "salary": "A partir de 45 k€ brut annuel",
    "description_snippet": "Notre entreprise évolue dans un secteur à forte composante digitale et accompagne le développement de plusieurs marques et offres à destination d'un marché en pleine transformation. Présente à l'international, elle s'appuie sur des solutions technologiques propriétaires, une cult...",
    "sources": [
@@ -21043,7 +21288,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 0,
-   "date_posted": "2026-09-17",
+   "date_posted": "2026-09-18",
    "salary": "A partir de 45 k€ brut annuel",
    "description_snippet": "Notre client est un acteur majeur dans la distribution de produits industriels basé à Paris. Au sein d'une société familiale en pleine croissance et intégré dans une équipe marketing à taille humaine, le Chef de Marché a pour responsabilité la rentabilité d'une gamme de produits ...",
    "sources": [
