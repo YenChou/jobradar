@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-18T19:28:03Z",
+ "generated_at": "2026-09-19T13:43:56Z",
  "source_stats": {
-  "Indeed": 584,
-  "Welcome to the Jungle": 1764,
-  "France Travail": 32,
-  "APEC": 1683,
-  "Isarta": 125
+  "Indeed": 522,
+  "Welcome to the Jungle": 1771,
+  "France Travail": 27,
+  "APEC": 1679,
+  "Isarta": 119
  },
- "count": 874,
- "new_today": 15,
+ "count": 875,
+ "new_today": 1,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -3857,6 +3857,32 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "24d99bd2903d0308",
+   "title": "Chef de Produits Marketing H/F",
+   "company": "Crédit Mutuel Arkéa",
+   "location": "Brest",
+   "city": "Brest",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-19",
+   "salary": null,
+   "description_snippet": "Chef de Produits Marketing H/F",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/credit-mutuel-arkea/jobs/chef-de-produits-ingenierie-produits-et-etudes-h-f_brest"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "c2d7f2a1f73a44c5",
    "title": "Traffic Manager (SMA/SEA) - CDI - Paris",
    "company": "datashake",
@@ -4180,32 +4206,6 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "24d99bd2903d0308",
-   "title": "Chef de Produits Marketing H/F",
-   "company": "Crédit Mutuel Arkéa",
-   "location": "Brest",
-   "city": "Brest",
-   "region": "west",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-07-19",
-   "salary": null,
-   "description_snippet": "Chef de Produits Marketing H/F",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/credit-mutuel-arkea/jobs/chef-de-produits-ingenierie-produits-et-etudes-h-f_brest"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
    "id": "7e0c8bfd95da5f54",
    "title": "Responsable CRM et Rétention",
    "company": "Nutripure",
@@ -4230,6 +4230,39 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "a8d3cfb535536175",
+   "title": "Traffic Manager - 5J sem - Lille - Freelance (H/F)",
+   "company": "Collective.work",
+   "location": "59 - Lille",
+   "city": "59 - Lille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "kpi",
+    "meta ads",
+    "roi",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-19",
+   "salary": null,
+   "description_snippet": "Taux journalier (TJM): 400 À PROPOS DE L'ENTREPRISE Un grand acteur du retail poursuit le développement de sa stratégie digitale et renforce ses équipes avec un Traffic Manager Acquisition Digitale pour du management de transition. Au sein des équipes digitales, vous intervenez sur des enjeux d'acquisition, de recrutement client et de performance business, dans un environnement omnicanal et multi-",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7030362"
+    }
+   ],
+   "first_seen": "2026-09-19"
   },
   {
    "id": "0def737c24d0ebeb",
@@ -15367,6 +15400,32 @@
    "first_seen": "2026-09-05"
   },
   {
+   "id": "0313b1a6483277d3",
+   "title": "Founding Product Marketing Manager",
+   "company": "Vocca",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-19",
+   "salary": null,
+   "description_snippet": "Founding Product Marketing Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/vocca/jobs/founding-marketing-manager_paris"
+    }
+   ],
+   "first_seen": "2026-09-04"
+  },
+  {
    "id": "acfca734fcc7cc56",
    "title": "CDD - Chef de produits Santé familiale (H/F)",
    "company": "Laboratoires Majorelle",
@@ -15388,32 +15447,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=cc5f8ff8901c50c9"
-    }
-   ],
-   "first_seen": "2026-09-04"
-  },
-  {
-   "id": "0313b1a6483277d3",
-   "title": "Founding Product Marketing Manager",
-   "company": "Vocca",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "Founding Product Marketing Manager",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/vocca/jobs/founding-marketing-manager_paris"
     }
    ],
    "first_seen": "2026-09-04"
@@ -16371,6 +16404,34 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "e03b0b6e5bb2e9e6",
+   "title": "Product Marketing Manager F/H",
+   "company": "BRAIN POWER",
+   "location": "Clichy - 92",
+   "city": "Clichy - 92",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-19",
+   "salary": "70 - 91 k€ brut annuel",
+   "description_snippet": "**AVANTAGES DU POSTE ** - Projets à forte valeur ajoutée dans un environnement cybersécurité innovant - Position stratégique avec un impact direct sur le positionnement marché des solutions - Collaboration étroite avec des équipes internationales (produit, marketing, ventes) ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179448128W"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "a651d7b21f12f8ae",
    "title": "E-commerce & CRM Manager",
    "company": "Wopilo",
@@ -16499,34 +16560,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/epsor/jobs/product-marketing-manager-b2b-f-h_paris_EPSOR_Dxm347X"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "e03b0b6e5bb2e9e6",
-   "title": "Product Marketing Manager F/H",
-   "company": "BRAIN POWER",
-   "location": "Clichy - 92",
-   "city": "Clichy - 92",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-08-28",
-   "salary": "70 - 91 k€ brut annuel",
-   "description_snippet": "**AVANTAGES DU POSTE ** - Projets à forte valeur ajoutée dans un environnement cybersécurité innovant - Position stratégique avec un impact direct sur le positionnement marché des solutions - Collaboration étroite avec des équipes internationales (produit, marketing, ventes) ...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179324390W"
     }
    ],
    "first_seen": "2026-08-23"
@@ -22808,6 +22841,32 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "6571bf7e3eeab11c",
+   "title": "Directeur Marketing Opérationnel / Growth Marketing B2B H/F",
+   "company": "EPSA Dev",
+   "location": "Lyon",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-09-19",
+   "salary": null,
+   "description_snippet": "Directeur Marketing Opérationnel / Growth Marketing B2B H/F <p>Profil recherché :</p><ul><li>10+ ans d’expérience en marketing opérationnel / growth marketing B2B</li><li>Forte expertise lead generation, data marketing et outils MarTech</li><li>Culture business, data-driven et orientée performance</li><li>Maitrise de Salesforce et/ou Microsoft Dynamics</li><li>Maitrise de l’anglais souhaité</li></",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/epsa-france/jobs/directeur-marketing-operationnel-growth-marketing-b2b-h-f_lyon"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "8e12209786f52e17",
    "title": "Chef de projet CRM - Sénior F/H",
    "company": "Abeille Assurances (Aéma Groupe)",
@@ -23019,32 +23078,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/thales/jobs/product-marketing-director-f-h_rungis"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "6571bf7e3eeab11c",
-   "title": "Directeur Marketing Opérationnel / Growth Marketing B2B H/F",
-   "company": "EPSA Dev",
-   "location": "Lyon",
-   "city": "Lyon",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -2,
-   "date_posted": "2026-07-21",
-   "salary": null,
-   "description_snippet": "Directeur Marketing Opérationnel / Growth Marketing B2B H/F <p>Profil recherché :</p><ul><li>10+ ans d’expérience en marketing opérationnel / growth marketing B2B</li><li>Forte expertise lead generation, data marketing et outils MarTech</li><li>Culture business, data-driven et orientée performance</li><li>Maitrise de Salesforce et/ou Microsoft Dynamics</li><li>Maitrise de l’anglais souhaité</li></",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/epsa-france/jobs/directeur-marketing-operationnel-growth-marketing-b2b-h-f_lyon"
     }
    ],
    "first_seen": "2026-08-23"
