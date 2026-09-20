@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-19T19:11:11Z",
+ "generated_at": "2026-09-20T13:58:57Z",
  "source_stats": {
-  "Indeed": 464,
-  "Welcome to the Jungle": 1771,
-  "France Travail": 27,
-  "APEC": 1678,
-  "Isarta": 119
+  "Indeed": 296,
+  "Welcome to the Jungle": 1768,
+  "France Travail": 19,
+  "APEC": 1684,
+  "Isarta": 114
  },
  "count": 875,
- "new_today": 1,
+ "new_today": 0,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -4293,40 +4293,6 @@
    "first_seen": "2026-09-18"
   },
   {
-   "id": "afb65c11aa65b868",
-   "title": "Product Marketing Manager H/F",
-   "company": "Septeo",
-   "location": "Montpellier, O, FR",
-   "city": "Montpellier",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement",
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "**Description de l'entreprise** **Septeo** est un **acteur de référence du software en Europe, présent à l’international** et reconnu parmi le **top 5 des éditeurs de logiciels sectoriels en France**. En forte croissance et en transformation permanente, le groupe s’impose comme un acteur clé de l’édition logicielle grâce à la force de son collectif : des équipes déterminées, audacieuses et engagée",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=1e5e044dfbdd4abd"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/septeo/jobs/product-marketing-manager-h-f_montpellier"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
    "id": "6dbefb90ee190190",
    "title": "Chef de Projet Marketing Produits",
    "company": "HEOMI",
@@ -6258,6 +6224,35 @@
     }
    ],
    "first_seen": "2026-09-18"
+  },
+  {
+   "id": "afb65c11aa65b868",
+   "title": "Product Marketing Manager H/F",
+   "company": "Septeo",
+   "location": "Montpellier",
+   "city": "Montpellier",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager H/F <p><strong><u>Le profil que nous recherchons:&#xa0;</u></strong></p><ul><li><strong>Expérience en Product Marketing SaaS (4 à 7 ans)</strong>&#xa0;-&#xa0;dans des environnements logiciel B2B complexes</li><li>Expérience acquise dans un <strong>univers réglementé</strong>&#xa0;(édition logicielle, assurance, finance, immobilier, santé, secteur juridique, etc.).</li><li",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/septeo/jobs/product-marketing-manager-h-f_montpellier"
+    }
+   ],
+   "first_seen": "2026-09-17"
   },
   {
    "id": "7bf00d66c23f4313",
@@ -22076,6 +22071,34 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "fb944a994e82b6f9",
+   "title": "Senior Field Marketing & Strategy Manager, EMEA (All Genders)",
+   "company": "Dailymotion",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-20",
+   "salary": null,
+   "description_snippet": "Senior Field Marketing & Strategy Manager, EMEA (All Genders) <ul><li>5+ years of experience in field marketing, B2B marketing, product marketing, or go-to-market strategy within media, adtech, SaaS, or digital advertising.</li><li>Experience partnering closely with Sales on commercial growth initiatives.</li><li>Strong understanding of go-to-market strategy, commercialization, and sales enablemen",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/dailymotion/jobs/senior-field-marketing-strategy-manager-emea-all-genders_issy-les-moulineaux"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "221b1bbd4bd104b0",
    "title": "Growth Marketing Manager F/H",
    "company": "BLUETHINK",
@@ -22477,34 +22500,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/jus-mundi/jobs/senior-product-marketing-manager_paris_JM_VYk9zGQ"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "fb944a994e82b6f9",
-   "title": "Senior Field Marketing & Strategy Manager, EMEA (All Genders)",
-   "company": "Dailymotion",
-   "location": "Issy-Les-Moulineaux",
-   "city": "Issy-Les-Moulineaux",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market"
-   ],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-07-22",
-   "salary": null,
-   "description_snippet": "Senior Field Marketing & Strategy Manager, EMEA (All Genders) <ul><li>5+ years of experience in field marketing, B2B marketing, product marketing, or go-to-market strategy within media, adtech, SaaS, or digital advertising.</li><li>Experience partnering closely with Sales on commercial growth initiatives.</li><li>Strong understanding of go-to-market strategy, commercialization, and sales enablemen",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/dailymotion/jobs/senior-field-marketing-strategy-manager-emea-all-genders_issy-les-moulineaux"
     }
    ],
    "first_seen": "2026-08-23"
