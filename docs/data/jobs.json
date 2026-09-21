@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-20T19:17:28Z",
+ "generated_at": "2026-09-21T16:14:10Z",
  "source_stats": {
-  "Indeed": 122,
-  "Welcome to the Jungle": 1768,
-  "France Travail": 20,
-  "APEC": 1685,
-  "Isarta": 114
+  "Indeed": 308,
+  "Welcome to the Jungle": 1771,
+  "France Travail": 23,
+  "APEC": 1672,
+  "Isarta": 111
  },
- "count": 875,
- "new_today": 0,
+ "count": 890,
+ "new_today": 15,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -119,6 +119,34 @@
     }
    ],
    "first_seen": "2026-09-08"
+  },
+  {
+   "id": "73a9e7802eb321f0",
+   "title": "Chef de produit & chargé de back-office Océan Indien, Caraïbes et Polynésie française - F/H",
+   "company": "AMPLITUDES",
+   "location": "Toulouse, O, FR",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 22,
+   "date_posted": "2026-09-18",
+   "salary": null,
+   "description_snippet": "**Chez Amplitudes, nous ne vendons pas des voyages. Nous les fabriquons.** Maison pionnière du voyage sur mesure depuis 1991, Amplitudes conçoit des expériences uniques avec un niveau d’exigence élevé et constant. Chaque projet est pensé comme une pièce d’exception : précis, cohérent et parfaitement exécuté. Dans un contexte de développement fort, nous recherchons un(e) Chef de produit \\& chargé(e",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=000b0c24ad7def46"
+    }
+   ],
+   "first_seen": "2026-09-21"
   },
   {
    "id": "f557a3bffaff9bac",
@@ -2738,6 +2766,37 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "2390ae235dbc1f36",
+   "title": "Web Analyst E-commerce Tracking (h/f) (H/F)",
+   "company": "LHH RECRUITMENT SOLUTIONS",
+   "location": "95 - Gonesse",
+   "city": "95 - Gonesse",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "Intérim",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [
+    "analyse de donnees",
+    "dashboard",
+    "ga4",
+    "reporting"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-21",
+   "salary": "Annuel de 45000.0 Euros à 48000.0 Euros",
+   "description_snippet": "LHH Recruitment Solutions, cabinet de conseil en recrutement, intérim spécialisé, management de transition, et évaluation recherche pour son client un Web analyst e-commerce H/F basé à Gonesse (95) pour un poste en intérim. Vos missions sont les suivantes : Tracking et qualité de la donnée - Mettre en place, maintenir et optimiser la collecte des données (trafic, conversion, chiffre d'affaires, pa",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214DKCG"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
    "id": "dd5c1423a4308c04",
    "title": "Chef de produits cadeaux (H/F)",
    "company": "LABORATOIRES DE BIOLOGIE VEGETALE YVES R",
@@ -3857,6 +3916,38 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "c2d7f2a1f73a44c5",
+   "title": "Traffic Manager (SMA/SEA) - CDI - Paris",
+   "company": "datashake",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "meta ads",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "Traffic Manager (SMA/SEA) - CDI - Paris ### Expérience * Tu prépares Bac +4/5 avec spécialisation dans le marketing digital * Tu as un profil hybride commercial/consultant passionné par le digital ### Tu es la personne qu'il nous faut si : * Tu maîtrises les leviers d'acquisition payante (au moins Google Ads ou Meta Ads - certifications appréciées), à défaut tu es très motivé(e) pour apprendre * T",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/datashake/jobs/traffic-manager-sma-sea-cdi-paris_paris"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "e03b0b6e5bb2e9e6",
    "title": "Product Marketing Manager (H/F)",
    "company": "BRAIN POWER",
@@ -3910,38 +4001,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/credit-mutuel-arkea/jobs/chef-de-produits-ingenierie-produits-et-etudes-h-f_brest"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "c2d7f2a1f73a44c5",
-   "title": "Traffic Manager (SMA/SEA) - CDI - Paris",
-   "company": "datashake",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "google ads",
-    "meta ads",
-    "sea"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-09-16",
-   "salary": null,
-   "description_snippet": "Traffic Manager (SMA/SEA) - CDI - Paris ### Expérience * Tu prépares Bac +4/5 avec spécialisation dans le marketing digital * Tu as un profil hybride commercial/consultant passionné par le digital ### Tu es la personne qu'il nous faut si : * Tu maîtrises les leviers d'acquisition payante (au moins Google Ads ou Meta Ads - certifications appréciées), à défaut tu es très motivé(e) pour apprendre * T",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/datashake/jobs/traffic-manager-sma-sea-cdi-paris_paris"
     }
    ],
    "first_seen": "2026-08-23"
@@ -4262,6 +4321,36 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "6dc04d33a6b537ac",
+   "title": "Chef de Produit Marketing International IVD - Chimie Clinique (H/F)",
+   "company": "HORIBA ABX SAS",
+   "location": "34 - MONTPELLIER",
+   "city": "34 - Montpellier",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "roadmap",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-21",
+   "salary": "Annuel de 50000.0 Euros à 70000.0 Euros",
+   "description_snippet": "HORIBA ABX SAS est une filiale du Groupe japonais HORIBA. Rayonnant dans plus de 110 pays sur les 5 continents, notre siège social se situe à Montpellier. Notre Société propose une gamme étendue et complète de solutions d'hématologie, d'hémostase et de chimie clinique comprenant des analyseurs, des réactifs et des consommables pour le domaine du Diagnostic In Vitro (DIV). Notre organisation compre",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214DQDX"
+    }
+   ],
+   "first_seen": "2026-09-21"
   },
   {
    "id": "a8d3cfb535536175",
@@ -4604,40 +4693,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=4223cdc2f102eebb"
-    }
-   ],
-   "first_seen": "2026-09-15"
-  },
-  {
-   "id": "de43883cf709b97c",
-   "title": "Product Marketing Manager F/H",
-   "company": "Exaion",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement",
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-09-15",
-   "salary": "60 - 70 k€ brut annuel",
-   "description_snippet": "Product Marketing Manager F/H <p><b><strong>Les indispensables :</strong></b></p><ul><li><span>Bac +5 en ingénierie informatique ou équivalent académique/technologique reconnu.</span></li><li><span>Minimum 5 ans d’expérience dans un environnement technologique complexe.</span></li><li><span>Anglais courant</span></li></ul><p><b><strong>Compétences clés :</strong></b></p><p><span>Expertise Techniqu",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/exaion/jobs/product-marketing-manager-f-h_paris_EXAIO_KxrXmjR"
-    },
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179422607W"
     }
    ],
    "first_seen": "2026-09-15"
@@ -5943,41 +5998,6 @@
    "first_seen": "2026-08-23"
   },
   {
-   "id": "897dfb3a929c4dac",
-   "title": "Chef de projet CRM H/F",
-   "company": "NEXTON",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "crm",
-    "marketing_produit"
-   ],
-   "skills": [
-    "marketing automation",
-    "parcours client",
-    "segmentation"
-   ],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-08-22",
-   "salary": "A négocier",
-   "description_snippet": "Chef de projet CRM H/F <p>Tu justifies d’une expérience significative en <strong>gestion de projet CRM, Campaign Management ou Marketing Automation</strong>, idéalement dans un environnement international.</p><p>Tu as déjà travaillé sur des dispositifs CRM complexes impliquant plusieurs marchés, équipes ou parties prenantes.</p><p><strong>Maîtrise technique</strong></p><ul><li>Tu maîtrises <strong",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/chef-de-projet-crm-h-f_paris_NEXTO_P0LeDl7"
-    },
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179292584W"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
    "id": "cca4083f57e13988",
    "title": "Chef.fe de pôle branding 360 (H/F)",
    "company": "VENTE UNIQUE",
@@ -6206,6 +6226,63 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "4e2a8568f7127cc4",
+   "title": "Head of Acquisition (H/X/F)",
+   "company": "Campus Coach",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roi",
+    "seo",
+    "tracking"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "Head of Acquisition (H/X/F) **Les indispensables** * **Expérience :** ~5 ans minimum en acquisition/growth marketing, obligatoirement dans un environnement **App Mobile B2C avec modèle d'abonnement**. * **Maîtrise MMP & Attribution :** Expertise opérationnelle sur un MMP (AppsFlyer, Adjust, Branch) et sur les enjeux de tracking actuels (iOS privacy, SKAN, réconciliation multi-touch). * **Culture F",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/campus-coach/jobs/head-of-growth-h-x-f_paris"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
+   "id": "9baecc61e848de10",
+   "title": "CDD Chef de Produits H/F",
+   "company": "Groupama",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-18",
+   "salary": null,
+   "description_snippet": "**Description du poste** ------------------------ ### **Intitulé du poste** CDD Chef de Produits H/F### **Description de la mission** Au sein de la Direction du Marketing, vous rejoindrez l’équipe Marketing Produits, composée de 10 personnes dynamiques et passionnées. Cette équipe est au cœur de l'innovation et du développement des produits, avec pour mission de concevoir l’offre de produits, réal",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8469b600247b29bd"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
    "id": "6bf7af9c62e96c49",
    "title": "IMA PROTECT - Chef de produit F/H",
    "company": "IMA PROTECT",
@@ -6423,6 +6500,36 @@
     }
    ],
    "first_seen": "2026-09-16"
+  },
+  {
+   "id": "de43883cf709b97c",
+   "title": "Product Marketing Manager F/H",
+   "company": "Exaion",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-15",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager F/H <p><b><strong>Les indispensables :</strong></b></p><ul><li><span>Bac +5 en ingénierie informatique ou équivalent académique/technologique reconnu.</span></li><li><span>Minimum 5 ans d’expérience dans un environnement technologique complexe.</span></li><li><span>Anglais courant</span></li></ul><p><b><strong>Compétences clés :</strong></b></p><p><span>Expertise Techniqu",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/exaion/jobs/product-marketing-manager-f-h_paris_EXAIO_KxrXmjR"
+    }
+   ],
+   "first_seen": "2026-09-15"
   },
   {
    "id": "f3452f426a6131d9",
@@ -6906,6 +7013,32 @@
    "first_seen": "2026-09-08"
   },
   {
+   "id": "d155f974b56049c9",
+   "title": "CRM Manager",
+   "company": "Inqom",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "CRM Manager Tu aimes autant la rigueur que les outils. Tu apprécies les environnements où les process évoluent vite mais où la qualité d'exécution reste une priorité. Tu pourrais être la bonne personne si : * tu disposes d'une solide expérience d'administration HubSpot (Sales Hub, Marketing Hub et Service Hub) ; * tu as déjà travaillé dans une équipe RevOps, Sales Operations ou en cabinet de conse",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/fred-de-la-compta/jobs/crm-manager_paris"
+    }
+   ],
+   "first_seen": "2026-09-07"
+  },
+  {
    "id": "afa2923b2b9e0c6e",
    "title": "DEVELOPPEUR PRODUITS (H/F)/CDI",
    "company": "atlasformen",
@@ -6927,32 +7060,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=a811167b39600277"
-    }
-   ],
-   "first_seen": "2026-09-07"
-  },
-  {
-   "id": "d155f974b56049c9",
-   "title": "CRM Manager",
-   "company": "Inqom",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "crm"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-07",
-   "salary": null,
-   "description_snippet": "CRM Manager Tu aimes autant la rigueur que les outils. Tu apprécies les environnements où les process évoluent vite mais où la qualité d'exécution reste une priorité. Tu pourrais être la bonne personne si : * tu disposes d'une solide expérience d'administration HubSpot (Sales Hub, Marketing Hub et Service Hub) ; * tu as déjà travaillé dans une équipe RevOps, Sales Operations ou en cabinet de conse",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/fred-de-la-compta/jobs/crm-manager_paris"
     }
    ],
    "first_seen": "2026-09-07"
@@ -8129,6 +8236,37 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "897dfb3a929c4dac",
+   "title": "Chef de projet CRM H/F",
+   "company": "NEXTON",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "crm",
+    "marketing_produit"
+   ],
+   "skills": [
+    "marketing automation",
+    "parcours client",
+    "segmentation"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-08-22",
+   "salary": null,
+   "description_snippet": "Chef de projet CRM H/F <p>Tu justifies d’une expérience significative en <strong>gestion de projet CRM, Campaign Management ou Marketing Automation</strong>, idéalement dans un environnement international.</p><p>Tu as déjà travaillé sur des dispositifs CRM complexes impliquant plusieurs marchés, équipes ou parties prenantes.</p><p><strong>Maîtrise technique</strong></p><ul><li>Tu maîtrises <strong",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/chef-de-projet-crm-h-f_paris_NEXTO_P0LeDl7"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "6334bc6fa10973d6",
    "title": "Growth Marketing Specialist - BU Energy Management and Transversal (m/f/d)",
    "company": "Hager",
@@ -8553,6 +8691,147 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "b19ce11f6b0f3a5b",
+   "title": "CDD - Chef de Produit Merchandising Accessoires",
+   "company": "Richemont",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-18",
+   "salary": null,
+   "description_snippet": "Richemont, one of the world leaders in the luxury sector, has various Houses specializing in jewelry, watches and high\\-end accessories. Each Maison proudly embodies a tradition of style, quality and craftsmanship and Richemont strives to preserve the heritage and identity specific to each of them. At the same time, we are committed to innovating and designing new products in line with the values ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=140af232819e8012"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
+   "id": "cad469b8d75f04be",
+   "title": "LCL & CRM Business Development Manager France",
+   "company": "MAERSK",
+   "location": "Le Havre, N, FR",
+   "city": "Le Havre",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-18",
+   "salary": null,
+   "description_snippet": "Maersk is seeking an **Area** **LCL, FCL \\& CRM** **Business Development Manager** to strengthen the product and commercial performance of our LCL, FCL and CRM (Insurance) product portfolio across South West Europe. You will build and enhance product awareness, and support sales teams while building a strong business pipeline, to drive growth and customer success. Position is available at any of t",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=aed7b7e37ed38baa"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
+   "id": "535d620812c775e9",
+   "title": "Chef de produit Imagerie (H/F)",
+   "company": "SCIL ANIMAL CARE",
+   "location": "Altorf, GE, FR",
+   "city": "Altorf",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-18",
+   "salary": null,
+   "description_snippet": "**About Mars Petcare** At Mars Petcare we have one purpose: A BETTER WORLD FOR PETS™. Through comprehensive veterinary care, nutrition, breakthrough programmes in diagnostics, wearable health monitoring, DNA testing and pet welfare we help pets in more than 130 countries. For decades we’ve supported research into the incredible science of human animal interaction at the Waltham Petcare Science Ins",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b63c6b693bd4d77a"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
+   "id": "d08aabf02fc158c7",
+   "title": "Chef.fe de Produit Perfusion / Monitoring (F/H) - DM (H/F)",
+   "company": "Pôle emploi",
+   "location": "Sèvres, A8, FR",
+   "city": "Sevres",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-11",
+   "salary": null,
+   "description_snippet": "* Notre Market Unit recherche un.e : CHEF DE PRODUIT INS \\- Dispositifs Médicaux (F/H) Perfusion / Monitoring CDI \\- Basé à Sèvres (92\\) Sous la responsabilité du Marketing Manager Medical Devices, vous avez la responsabilité des gammes de perfusion Agilia Connect et de monitorage de l'anesthésie Conox. Les missions qui vous attendent : Formation, support aux forces de ventes et expertise produit ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=dc69fc12724c89d6"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
+   "id": "23781dbfbe289507",
+   "title": "Chef de produit marketing (H/F)",
+   "company": "Pôle emploi",
+   "location": "Saint-Bauld, CVL, FR",
+   "city": "Saint-Bauld",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-10",
+   "salary": null,
+   "description_snippet": "* Au sein de notre pôle Marketing, vous prenez en charge plusieurs familles de produits dont vous assurez le développement, la performance et le suivi tout au long de leur cycle de vie. Véritable pilote de vos gammes, vous travaillez en étroite collaboration avec les différents services de l'entreprise : Commerce, ADV, Qualité, Approvisionnement et PAO/Design. Votre objectif : développer des gamme",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=193891e7306c60be"
+    }
+   ],
+   "first_seen": "2026-09-21"
   },
   {
    "id": "003d2004c72728d1",
@@ -9932,7 +10211,7 @@
    ],
    "bonus_tags": [],
    "score": 8,
-   "date_posted": "2026-09-07",
+   "date_posted": "2026-09-21",
    "salary": null,
    "description_snippet": "Growth & CRM Manager B2B * 5 à 8 ans en RevOps, growth ops, marketing ops ou CRM, dont une expérience où vous avez construit, et pas seulement utilisé, un CRM et un modèle d'attribution * Vous avez déjà assaini des données sales, en obtenant l'adhésion des commerciaux * Vous maîtrisez HubSpot en profondeur (propriétés, workflows, objets personnalisés, API), GA4 et la capacité d'automatiser sans at",
    "sources": [
@@ -10205,6 +10484,64 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "a195607a65f71fd6",
+   "title": "Growth & Acquisition Manager",
+   "company": "Rise Up",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "Growth & Acquisition Manager <ul><li><p><span>4 à 6 ans d’expérience en acquisition, demand generation, growth marketing ou marketing, impérativement en B2B SaaS.</span></p></li><li><p><span>Maîtrise d'un ou plusieurs outils de génération de leads (Cargo, Lemlist, Clay, Apollo, ZoomInfo, Cognism etc.)</span></p></li><li><p><span>Excellente maîtrise de HubSpot (CRM, workflows, reporting, automatisa",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/rise-up/jobs/growth-acquisition-manager_paris"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "529322158787af5b",
+   "title": "Traffic Manager International - SPANISH SPEAKER (H/F)",
+   "company": "Vente-unique.com",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "Traffic Manager International - SPANISH SPEAKER (H/F) Profil recherché : De niveau Bac +5, tu es diplômé.e d’une Grande école de commerce ou équivalent, après des classes préparatoires et tu disposes d’une expérience en acquisition de trafic 💻 Nous avons besoin de quelqu’un qui matche avec nos valeurs : esprit d’équipe, convivialité, performances et satisfaction client ! On attend de toi également",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/vente-unique/jobs/traffic-manager-international-spanish-speaker-h-f_paris_VENTE_P4MVXox"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "eb64514a2c833e42",
    "title": "Strategic Marketing & Partnerships Manager",
    "company": "_rzilient",
@@ -10229,35 +10566,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/rzilient/jobs/strategic-marketing-partnerships-manager_paris"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "a195607a65f71fd6",
-   "title": "Growth & Acquisition Manager",
-   "company": "Rise Up",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "google ads"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-11",
-   "salary": null,
-   "description_snippet": "Growth & Acquisition Manager <ul><li><p><span>4 à 6 ans d’expérience en acquisition, demand generation, growth marketing ou marketing, impérativement en B2B SaaS.</span></p></li><li><p><span>Maîtrise d'un ou plusieurs outils de génération de leads (Cargo, Lemlist, Clay, Apollo, ZoomInfo, Cognism etc.)</span></p></li><li><p><span>Excellente maîtrise de HubSpot (CRM, workflows, reporting, automatisa",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/rise-up/jobs/growth-acquisition-manager_paris"
     }
    ],
    "first_seen": "2026-08-23"
@@ -10345,35 +10653,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/vente-unique/jobs/traffic-manager-international-english-speaker-h-f_paris_VENTE_xxJOWXg"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "529322158787af5b",
-   "title": "Traffic Manager International - SPANISH SPEAKER (H/F)",
-   "company": "Vente-unique.com",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "trafic"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-08",
-   "salary": null,
-   "description_snippet": "Traffic Manager International - SPANISH SPEAKER (H/F) Profil recherché : De niveau Bac +5, tu es diplômé.e d’une Grande école de commerce ou équivalent, après des classes préparatoires et tu disposes d’une expérience en acquisition de trafic 💻 Nous avons besoin de quelqu’un qui matche avec nos valeurs : esprit d’équipe, convivialité, performances et satisfaction client ! On attend de toi également",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/vente-unique/jobs/traffic-manager-international-spanish-speaker-h-f_paris_VENTE_xy53qAp"
     }
    ],
    "first_seen": "2026-08-23"
@@ -10927,6 +11206,60 @@
    "first_seen": "2026-08-23"
   },
   {
+   "id": "b6c377254550f44e",
+   "title": "Chef de produit marketing digital (H/F)",
+   "company": "PRECIPHAR",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-21",
+   "salary": "Annuel de 40000.0 Euros",
+   "description_snippet": "Preciphar, société prestataire de services pour les industries de santé, recrute pour le compte de l'un de ses clients - un acteur international des technologies de santé dans le domaine du diabète, qui développe des solutions innovantes transformant le quotidien des patients. Dans le cadre du développement de son activité en France, nous recherchons un chef de produit marketing digital pour pilot",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214DVGB"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
+   "id": "5cfa2b9c210bd0dc",
+   "title": "Assistant Relation clients et Marketing Produits H/F",
+   "company": "ACTUA EPINAL",
+   "location": "88 - Bruyères",
+   "city": "88 - Bruyeres",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-21",
+   "salary": "Annuel de 25000.0 Euros à 30000.0 Euros - .",
+   "description_snippet": "Votre équipe Actua Epinal vous propose une offre d'emploi. Nous recrutons pour l'un de nos clients, Un Assistant Service Clients & Marketing Produits H/F Sous la responsabilité du Responsable Service Relation Clients, vous travaillerez en étroite collaboration avec les commerciaux, le service production, logistique, achats et design, vous aurez pour mission principale d'assurer la cohérence des in",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7058872"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
    "id": "da1c6e836d701b07",
    "title": "Chef de Produit Véhicules Utilitaires H/F | Rejoignez une grande marque automobile",
    "company": "MSX International",
@@ -10977,6 +11310,32 @@
     }
    ],
    "first_seen": "2026-09-18"
+  },
+  {
+   "id": "89d3df427ee494bf",
+   "title": "Chef de Projet Marketing F/H",
+   "company": "Walter Learning",
+   "location": "Marseille",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "Chef de Projet Marketing F/H <h5 dir=\"ltr\">Profil recherch&eacute; :&nbsp;</h5> <p dir=\"ltr\"><strong>Comp&eacute;tences organisationnelles</strong></p> <ul> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Faire preuve d&rsquo;autonomie.&nbsp;</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Avoir une certaine rigueur d'ex&eacute;cution et un sens du process :",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/chef-de-projet-marketing-f-h_marseille"
+    }
+   ],
+   "first_seen": "2026-09-17"
   },
   {
    "id": "ab0feb2b5e959862",
@@ -11085,32 +11444,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=f905e72629222d83"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "89d3df427ee494bf",
-   "title": "Chef de Projet Marketing F/H",
-   "company": "Walter Learning",
-   "location": "Marseille",
-   "city": "Marseille",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "Chef de Projet Marketing F/H <h5 dir=\"ltr\">Profil recherch&eacute; :&nbsp;</h5> <p dir=\"ltr\"><strong>Comp&eacute;tences organisationnelles</strong></p> <ul> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Faire preuve d&rsquo;autonomie.&nbsp;</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Avoir une certaine rigueur d'ex&eacute;cution et un sens du process :",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/chef-de-projet-marketing-f-h_marseille"
     }
    ],
    "first_seen": "2026-09-17"
@@ -11502,7 +11835,7 @@
    ],
    "bonus_tags": [],
    "score": 6,
-   "date_posted": "2026-09-14",
+   "date_posted": "2026-09-21",
    "salary": null,
    "description_snippet": "Global Traffic Manager (F/H) * You have a **Master’s degree** from a business school or an equivalent university program * You have at least **three years of experience** in traffic management, either in-house or at a consultancy, ideally in an international environment * You are an expert in advertising platforms, and search marketing holds no secrets for you * Excel and Power BI are your best al",
    "sources": [
@@ -13671,6 +14004,63 @@
    "first_seen": "2026-08-25"
   },
   {
+   "id": "207cfe0c8647c137",
+   "title": "CDI - Product Marketing Manager - Activation & Adoption - (H/F/N) Edtech à impact",
+   "company": "My Job Glasses",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit",
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "CDI - Product Marketing Manager - Activation & Adoption - (H/F/N) Edtech à impact Tu aimes comprendre les comportements utilisateurs, concevoir des expériences engageantes et transformer les données en actions concrètes. Tu es aussi à l'aise dans la réflexion stratégique que dans l'exécution opérationnelle. ### Ce qui te permettra de réussir * Tu disposes de 4 à 7 ans d'expérience minimum en Produ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/my-job-glasses/jobs/cdi-product-marketing-manager-activation-et-adoption-edtech-a-impact_paris_MJG_9oPjOr2"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
+   "id": "e2fa25d9311b2aa2",
+   "title": "Product Marketing Manager (H/F)",
+   "company": "Loyoly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager (H/F) * 3/5 ans d'expérience en Product Marketing en environnement **B2B SaaS** * Une expérience en **martech est un grand plus**, en **e-commerce un très grand plus** * **Français ET anglais courants / natifs, obligatoire** : on parle aux deux marchés au quotidien et une partie du business est à l'international * Capable de switcher entre le stratégique (positionnement, ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/loyoly/jobs/product-marketing-manager-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "389ee7c294f84311",
    "title": "Chef de Projet CRM H/F",
    "company": "McDonald's France",
@@ -13692,35 +14082,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/mcdonald-s-france/jobs/chef-de-projet-crm-h-f_guyancourt"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "207cfe0c8647c137",
-   "title": "CDI - Product Marketing Manager - Activation & Adoption - (H/F/N) Edtech à impact",
-   "company": "My Job Glasses",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit",
-    "performance_marketing"
-   ],
-   "skills": [
-    "roi"
-   ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-14",
-   "salary": null,
-   "description_snippet": "CDI - Product Marketing Manager - Activation & Adoption - (H/F/N) Edtech à impact Tu aimes comprendre les comportements utilisateurs, concevoir des expériences engageantes et transformer les données en actions concrètes. Tu es aussi à l'aise dans la réflexion stratégique que dans l'exécution opérationnelle. ### Ce qui te permettra de réussir * Tu disposes de 4 à 7 ans d'expérience minimum en Produ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/my-job-glasses/jobs/cdi-product-marketing-manager-activation-et-adoption-edtech-a-impact_paris_MJG_9oPjOr2"
     }
    ],
    "first_seen": "2026-08-23"
@@ -14269,34 +14630,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/pixpay-1/jobs/growth-marketing-manager_paris_PIXPA_oL9ZyAL"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "e2fa25d9311b2aa2",
-   "title": "Product Marketing Manager (H/F)",
-   "company": "Loyoly",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-07-27",
-   "salary": null,
-   "description_snippet": "Product Marketing Manager (H/F) * 3/5 ans d'expérience en Product Marketing en environnement **B2B SaaS** * Une expérience en **martech est un grand plus**, en **e-commerce un très grand plus** * **Français ET anglais courants / natifs, obligatoire** : on parle aux deux marchés au quotidien et une partie du business est à l'international * Capable de switcher entre le stratégique (positionnement, ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/loyoly/jobs/product-marketing-manager-h-f_paris"
     }
    ],
    "first_seen": "2026-08-23"
@@ -16007,7 +16340,7 @@
    ],
    "bonus_tags": [],
    "score": 4,
-   "date_posted": "2026-09-16",
+   "date_posted": "2026-09-21",
    "salary": "55 - 70 k€ brut annuel",
    "description_snippet": "Rejoignez KERSHIP , spécialiste de la construction de navires de défense, en tant que Chef de produit F/H. Sous la responsabilité du Directeur des Offres et Marketing de KERSHIP, vous participez au développement de notre stratégie marketing et de notre positionnement sur notre...",
    "sources": [
@@ -20110,6 +20443,36 @@
    "first_seen": "2026-08-24"
   },
   {
+   "id": "73dd5900ac28706c",
+   "title": "Traffic Manager Senior - CDI - Paris",
+   "company": "datashake",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "Traffic Manager Senior - CDI - Paris ### Expérience * Tu as une expérience en agence de 2 à 5 ans * Tu as déjà mis en place une stratégie d'acquisition de A à Z * Tu es à l'aise dans la relation avec les annonceurs * Tu as un profil de consultant passionné par le digital * Tu as déjà géré des comptes en autonomie sur les différentes plateformes publicitaires ### Tu es la personne qu'il nous faut s",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/datashake/jobs/traffic-manager-senior-cdi-paris_paris_DATAS_AMGqW4b"
+    }
+   ],
+   "first_seen": "2026-08-23"
+  },
+  {
    "id": "f0828d5f94d64107",
    "title": "Responsable performance marketing et digital F/H",
    "company": "CALEX RH",
@@ -20131,36 +20494,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179437179W"
-    }
-   ],
-   "first_seen": "2026-08-23"
-  },
-  {
-   "id": "73dd5900ac28706c",
-   "title": "Traffic Manager Senior - CDI - Paris",
-   "company": "datashake",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "google ads",
-    "sea"
-   ],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-16",
-   "salary": null,
-   "description_snippet": "Traffic Manager Senior - CDI - Paris ### Expérience * Tu as une expérience en agence de 2 à 5 ans * Tu as déjà mis en place une stratégie d'acquisition de A à Z * Tu es à l'aise dans la relation avec les annonceurs * Tu as un profil de consultant passionné par le digital * Tu as déjà géré des comptes en autonomie sur les différentes plateformes publicitaires ### Tu es la personne qu'il nous faut s",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/datashake/jobs/traffic-manager-senior-cdi-paris_paris_DATAS_AMGqW4b"
     }
    ],
    "first_seen": "2026-08-23"
@@ -20640,6 +20973,84 @@
     }
    ],
    "first_seen": "2026-08-23"
+  },
+  {
+   "id": "d561807c5e3c0093",
+   "title": "assistant·e chef de projet crm f/h",
+   "company": "ba&sh",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "assistant·e chef de projet crm f/h **Vous vous reconnaissez dans ce parcours :** * Formation supérieure Bac +4/+5 en Ecole de commerce ou Digital * Intérêt prononcé pour le secteur de la mode et avez une appétence pour le marketing digital. * Première expérience sur un poste similaire * **Disponibilité dès janvier 2027 pour un stage conventionné de 6 mois** **Vous vous démarquez pour votre :** * C",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/ba-sh-1/jobs/assistant-e-chef-de-projet-crm-f-h_paris_BASH_NpqoJ3l"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
+   "id": "1db5e5a59363e319",
+   "title": "Chef de produit F/H",
+   "company": "GIEN FRANCE",
+   "location": "Paris 02 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-21",
+   "salary": "45 - 50 k€ brut annuel",
+   "description_snippet": "Votre métier : En tant que Chef de Produit, vous gérerez une ou plusieurs familles de produits de manière autonome, couvrant tous les aspects : connaissance du marché, conception créative, lancement, promotion auprès des réseaux de vente, stratégie de commercialisation, suivi et...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179456993W"
+    }
+   ],
+   "first_seen": "2026-09-21"
+  },
+  {
+   "id": "bc2f21a4cc673ab0",
+   "title": "Ingénieur Marketing Technique F/H",
+   "company": "Exaion",
+   "location": "Paris 04 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-21",
+   "salary": "60 - 70 k€ brut annuel",
+   "description_snippet": "Votre rôle au sein d'Exaion : Rattaché(e) à l'équipe Products & Solutions, vous intervenez en appui stratégique sur les aspects techniques du marketing produit et assurez la validation technique des arguments commerciaux. Vos missions principales sont : Représentation Externe...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179455488W"
+    }
+   ],
+   "first_seen": "2026-09-21"
   },
   {
    "id": "8ccf8b861dac4b17",
@@ -21460,13 +21871,39 @@
    "skills": [],
    "bonus_tags": [],
    "score": 0,
-   "date_posted": "2026-09-18",
+   "date_posted": "2026-09-21",
    "salary": "A partir de 45 k€ brut annuel",
    "description_snippet": "Notre entreprise évolue dans un secteur à forte composante digitale et accompagne le développement de plusieurs marques et offres à destination d'un marché en pleine transformation. Présente à l'international, elle s'appuie sur des solutions technologiques propriétaires, une cult...",
    "sources": [
     {
      "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179412192W"
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179451063W"
+    }
+   ],
+   "first_seen": "2026-08-26"
+  },
+  {
+   "id": "01940f093fa4ce3d",
+   "title": "Growth Marketing Manager 360° F/H",
+   "company": "Meteojob",
+   "location": "Paris 09 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-21",
+   "salary": "A négocier",
+   "description_snippet": "En postulant à cette offre, vous aurez l'opportunité de rejoindre une jeune pousse innovante (SaaS B2B) qui révolutionne le secteur de la transition énergétique. Sa solution logicielle permet d'accélérer et de simplifier le déploiement de projets photovoltaïques en Europe. ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179372932W"
     }
    ],
    "first_seen": "2026-08-26"
@@ -21493,32 +21930,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179412097W"
-    }
-   ],
-   "first_seen": "2026-08-26"
-  },
-  {
-   "id": "01940f093fa4ce3d",
-   "title": "Growth Marketing Manager 360° F/H",
-   "company": "Meteojob",
-   "location": "Paris 09 - 75",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-09-07",
-   "salary": "A négocier",
-   "description_snippet": "En postulant à cette offre, vous aurez l'opportunité de rejoindre une jeune pousse innovante (SaaS B2B) qui révolutionne le secteur de la transition énergétique. Sa solution logicielle permet d'accélérer et de simplifier le déploiement de projets photovoltaïques en Europe. ...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179372932W"
     }
    ],
    "first_seen": "2026-08-26"
