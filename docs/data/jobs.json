@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-25T15:02:11Z",
+ "generated_at": "2026-09-25T20:16:26Z",
  "source_stats": {
-  "Indeed": 633,
-  "Welcome to the Jungle": 1730,
-  "France Travail": 35,
-  "APEC": 1704,
-  "Isarta": 132
+  "Indeed": 658,
+  "Welcome to the Jungle": 1752,
+  "France Travail": 36,
+  "APEC": 1699,
+  "Isarta": 134
  },
- "count": 888,
- "new_today": 21,
+ "count": 899,
+ "new_today": 32,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -221,6 +221,39 @@
     }
    ],
    "first_seen": "2026-09-21"
+  },
+  {
+   "id": "de0f4e46d7d1e6cc",
+   "title": "Chargé de marketing digital H/F – CDD",
+   "company": "RCA",
+   "location": "Saint-Herblain, B5, FR",
+   "city": "Saint-Herblain",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit",
+    "performance_marketing"
+   ],
+   "skills": [
+    "ab testing",
+    "conversion",
+    "sea",
+    "seo",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 22,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "**Description de l'entreprise** Editeur de logiciels 100% autonome, basé en périphérie de Nantes, RCA développe deux gammes de logiciels : Une gamme de 12 modules à destination des cabinets d’expertise comptable et une plateforme digitale collaborative en mode SaaS destinée aux experts\\-comptables ainsi qu’à leurs clients (TPE). Depuis 15 ans, la société n’a cessé d’évoluer. Avec 3 personnes en 20",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=2542f0e9ace3ee9b"
+    }
+   ],
+   "first_seen": "2026-09-25"
   },
   {
    "id": "bae71532e150f532",
@@ -754,6 +787,41 @@
    "first_seen": "2026-08-26"
   },
   {
+   "id": "85899f01907718ad",
+   "title": "Performance Marketing Manager F/H",
+   "company": "ICN Business School",
+   "location": "La Défense, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "kpi",
+    "meta ads",
+    "roas",
+    "roi",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "Localisation:Paris \\- La Défense Contrat:CDI Chez ICN Business School, nous cultivons l'unique. Classée parmi le top 1 % des écoles de management dans le monde grâce à sa triple accréditation AACSB, EQUIS et AMBA, ICN Business School a fait de l'audace et de la créativité sa signature : bienvenue dans l'esprit **\\#ATM****x****,** là où les données, les compétences et les disciplines se croisent po",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9da1e9d9931c9f06"
+    }
+   ],
+   "first_seen": "2026-09-25"
+  },
+  {
    "id": "98fdfcde155cdc24",
    "title": "Marketing Data Analyst",
    "company": "MEDvidi Health",
@@ -1205,6 +1273,35 @@
    "first_seen": "2026-09-25"
   },
   {
+   "id": "1ff66413972a29f9",
+   "title": "PRODUCT MARKETING MANAGER",
+   "company": "opisto",
+   "location": "Toulouse, O, FR",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "**NOTRE RAISON D'ETRE :** Créée en 2010 et basé à Toulouse, Opisto est le spécialiste de la pièce auto d’occasion. Nous avons une double mission : accompagner la filière de la destruction automobile dans ses enjeux de digitalisation tout en facilitant l’accès pour tous à des pièces auto d’occasion. Aujourd’hui plus de **700** Centres VHU Agrées utilisent quotidiennement notre logiciel Opisto et di",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7d4e8c37d151220c"
+    }
+   ],
+   "first_seen": "2026-09-25"
+  },
+  {
    "id": "5b08acb766120d31",
    "title": "Chef de produit marketing (H/F)",
    "company": "",
@@ -1630,6 +1727,39 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=3732d1f47bc0094a"
+    }
+   ],
+   "first_seen": "2026-09-25"
+  },
+  {
+   "id": "e1884cbd615f6e52",
+   "title": "Growth Marketing Manager (CRO & Lifecycle) (f/m/x) - 100% Remote",
+   "company": "Tomorrows Education GmbH",
+   "location": "FR",
+   "city": "Fr",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_operations",
+    "performance_marketing"
+   ],
+   "skills": [
+    "conversion",
+    "hubspot",
+    "salesforce",
+    "tracking",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "**About the company**### **Tomorrow University: A Next\\-Generation University for Impactful Careers** Education is the most powerful lever for driving the transition to a sustainable society. That’s why we’ve built a university dedicated to educating and empowering the change\\-makers of tomorrow. We offer accredited degree programs designed to equip learners with 21st\\-century competencies while p",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=768e18757f85f144"
     }
    ],
    "first_seen": "2026-09-25"
@@ -3214,6 +3344,37 @@
     }
    ],
    "first_seen": "2026-08-26"
+  },
+  {
+   "id": "93213c39890c5038",
+   "title": "Content & Growth Marketing | Marque E-commerce",
+   "company": "Reformed",
+   "location": "Télétravail, FR",
+   "city": "Teletravail",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "meta ads",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "**À propos de reformed** reformed est une nouvelle marque e\\-commerce d’accessoires de fitness et de Pilates, pensée autour d’une vision simple : proposer des équipements aussi beaux que fonctionnels, avec une identité forte, premium et contemporaine. La marque est actuellement en pleine phase de lancement : les premiers produits arrivent et tout reste à construire — contenus, réseaux sociaux, cam",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8bf215efdc95f21d"
+    }
+   ],
+   "first_seen": "2026-09-25"
   },
   {
    "id": "ad0f78305a29728c",
@@ -6658,6 +6819,32 @@
    "first_seen": "2026-09-25"
   },
   {
+   "id": "983b3ea8688d8c82",
+   "title": "CRM Campaign Manager (freelance) H/F",
+   "company": "Libon",
+   "location": "Bordeaux, NA, FR",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-24",
+   "salary": null,
+   "description_snippet": "***A PROPOS*** Libon, créée en 2018 et membre de la Frenchtech 120 est une Scale\\-up combinant l’innovation Telecom et Fintech, capable de fédérer des centaines de milliers d’utilisateurs dans le monde grâce à des services essentiels. Au fil des années, nous sommes devenu une super\\-app premium qui permet d’accéder à une multitude de services pour garder le lien et subvenir aux besoins de leur fam",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9367d653d7439758"
+    }
+   ],
+   "first_seen": "2026-09-25"
+  },
+  {
    "id": "ce751440923c05ef",
    "title": "Chef de marché marketing (H/F)",
    "company": "LEADSEN RH",
@@ -9129,6 +9316,34 @@
    "first_seen": "2026-09-25"
   },
   {
+   "id": "4eec705370bb24c3",
+   "title": "Chef de produit WERO consommateurs H/F",
+   "company": "Credit Mutuel Arkea",
+   "location": "Le Relecq-Kerhuon, A2, FR",
+   "city": "Le Relecq-Kerhuon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "**Description du poste** ------------------------ ### **Métier** METIERS \\- Projets / Études / MOA/ Chef de produit ### **Intitulé du poste** Chef de produit WERO consommateurs H/F ### **Contrat** CDI ### **Votre mission** **Poste basé à Brest \\- Bretagne.** Dans le cadre du fort développement commercial d’EPI/WERO, nous sommes à la recherche de notre futur(e) Chef de produit Wero Consommateurs ! ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=64dffc656a6fabf9"
+    }
+   ],
+   "first_seen": "2026-09-25"
+  },
+  {
    "id": "a0faf777aa5e1fd3",
    "title": "Chef de produit H/F",
    "company": "",
@@ -11502,6 +11717,60 @@
    "first_seen": "2026-09-25"
   },
   {
+   "id": "5ce1a43bebf2fd3b",
+   "title": "Partner Account Manager - Microsoft Advertising",
+   "company": "Microsoft",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [
+    "reporting"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-14",
+   "salary": null,
+   "description_snippet": "**Overview** Microsoft is looking for an individual to help launch and shape the Microsoft Advertising EMEA Channel Partner Sales team. Do you have experience building high\\-performing business partnerships while driving material value to partners and customers? Do you want be part of the fastest growing advertising revenue stream for Microsoft? Do you want to drive business strategy while gaining",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f5ffe2294262ecd0"
+    }
+   ],
+   "first_seen": "2026-09-25"
+  },
+  {
+   "id": "35ba13c655d46781",
+   "title": "Chef de Groupe Marketing Produits Frais H/F",
+   "company": "Galec - Mouvement E.Leclerc",
+   "location": "Ivry-Sur-Seine",
+   "city": "Ivry-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-08-24",
+   "salary": null,
+   "description_snippet": "Chef de Groupe Marketing Produits Frais H/F * **Formation & Expérience :** Issu(e) d'une formation supérieure en Commerce/Marketing (Bac+5), vous justifiez d'une première expérience réussie en tant que **Chef de groupe marketing** ou équivalent, dans l'univers du Retail ou des PGC (Produits de Grande Consommation). * **Compétences techniques :** Maîtrise experte des outils panels (Nielsen, Kantar,",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/galec-mouvement-e-leclerc/jobs/chef-de-groupe-marketing-produits-frais-h-f_ivry-sur-seine"
+    }
+   ],
+   "first_seen": "2026-09-25"
+  },
+  {
    "id": "686d60e318d77487",
    "title": "CRM Lead - Leisure & Loyalty Activation",
    "company": "Eurostar International",
@@ -12409,7 +12678,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 6,
-   "date_posted": "2026-09-21",
+   "date_posted": "2026-09-25",
    "salary": null,
    "description_snippet": "Chef de Projet Marketing F/H <h5 dir=\"ltr\">Profil recherch&eacute; :&nbsp;</h5> <p dir=\"ltr\"><strong>Comp&eacute;tences organisationnelles</strong></p> <ul> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Faire preuve d&rsquo;autonomie.&nbsp;</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Avoir une certaine rigueur d'ex&eacute;cution et un sens du process :",
    "sources": [
@@ -15065,6 +15334,32 @@
    "first_seen": "2026-09-25"
   },
   {
+   "id": "6f0fd85999d94df8",
+   "title": "CDI - Lead Traffic Manager (H/F)",
+   "company": "Hermès",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-24",
+   "salary": null,
+   "description_snippet": "CDI - Lead Traffic Manager (H/F)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hermes/jobs/cdi-lead-traffic-manager-h-f_paris_HERMS_8bYX7Kx"
+    }
+   ],
+   "first_seen": "2026-09-25"
+  },
+  {
    "id": "4ae36436363a36e8",
    "title": "Mission Freelance – Product Owner CRM (Braze)",
    "company": "IDEMYS",
@@ -16294,6 +16589,32 @@
    "first_seen": "2026-09-10"
   },
   {
+   "id": "3419b0389de02d76",
+   "title": "Chef de Projet CRM (H/F)",
+   "company": "E-KENT",
+   "location": "75 - Paris 1er Arrondissement",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-25",
+   "salary": "Annuel de 50000.0 Euros à 55000.0 Euros",
+   "description_snippet": "Rôles & Missions Dans le cadre du renforcement de son système d'information, notre client recherche un Chef de Projet IT pour intervenir en tant que référent sur le pilotage de plusieurs outils métiers, dans un contexte de gestion de la formation et de l'alternance. Vous jouerez un rôle central dans le pilotage des projets IT, la fiabilisation des outils du quotidien et l'accompagnement des utilis",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214LHQW"
+    }
+   ],
+   "first_seen": "2026-09-08"
+  },
+  {
    "id": "d8685945507eeee2",
    "title": "Product Marketing Manager",
    "company": "Graneet",
@@ -16369,32 +16690,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=318738e40d48cc0d"
-    }
-   ],
-   "first_seen": "2026-09-08"
-  },
-  {
-   "id": "3419b0389de02d76",
-   "title": "Chef de Projet CRM (H/F)",
-   "company": "E-KENT",
-   "location": "75 - Paris 1er Arrondissement",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "crm"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-07",
-   "salary": "Annuel de 50000.0 Euros à 55000.0 Euros",
-   "description_snippet": "Rôles & Missions Dans le cadre du renforcement de son système d'information, notre client recherche un Chef de Projet IT pour intervenir en tant que référent sur le pilotage de plusieurs outils métiers, dans un contexte de gestion de la formation et de l'alternance. Vous jouerez un rôle central dans le pilotage des projets IT, la fiabilisation des outils du quotidien et l'accompagnement des utilis",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/213NCGR"
     }
    ],
    "first_seen": "2026-09-08"
@@ -24387,6 +24682,32 @@
     }
    ],
    "first_seen": "2026-08-26"
+  },
+  {
+   "id": "b87f8a17a8871d12",
+   "title": "Senior Brand Manager Jack Daniel's Maternity Cover",
+   "company": "Brown-Forman",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -8,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "* ### **Nothing Better in the Market** We believe great people build great brands. And we know there is Nothing Better in the Market than a career at Brown\\-Forman. Being a part of Brown\\-Forman means you will grow both personally and professionally. You will have the opportunity to solve problems, seize opportunities, and generate bold ideas. You will belong to a place where teamwork matters and ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e77d23f3fbfd524d"
+    }
+   ],
+   "first_seen": "2026-09-25"
   },
   {
    "id": "fbd28516f58c5a0c",
