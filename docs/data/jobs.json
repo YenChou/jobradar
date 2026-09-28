@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-28T18:00:12Z",
+ "generated_at": "2026-09-28T22:26:23Z",
  "source_stats": {
-  "Indeed": 442,
+  "Indeed": 480,
   "Welcome to the Jungle": 1727,
-  "France Travail": 25,
-  "APEC": 1694,
+  "France Travail": 13,
+  "APEC": 1691,
   "Isarta": 123
  },
- "count": 760,
- "new_today": 28,
+ "count": 768,
+ "new_today": 15,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -3020,36 +3020,6 @@
     }
    ],
    "first_seen": "2026-08-31"
-  },
-  {
-   "id": "a8ef33294e29fc47",
-   "title": "Creative Strategist, Mobile",
-   "company": "Elevenlabs",
-   "location": "FR",
-   "city": "Fr",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "a/b testing",
-    "acquisition",
-    "sea"
-   ],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-08-28",
-   "salary": null,
-   "description_snippet": "**About ElevenLabs** -------------------- ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human\\-like AI voice model. Today, we serve millions of users and thousands of businesses \\- from fast\\-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most pro",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=acc0a08a0c1cc3f2"
-    }
-   ],
-   "first_seen": "2026-08-29"
   },
   {
    "id": "1fadc20091dec826",
@@ -6224,35 +6194,88 @@
    "first_seen": "2026-08-30"
   },
   {
-   "id": "449671454ce864dc",
-   "title": "Traffic Manager Paid Social (H/F)",
-   "company": "",
-   "location": "Île-de-France",
-   "city": "Paris",
-   "region": "paris",
+   "id": "82d68e1a92392b66",
+   "title": "Responsable Marketing et Communication H/F",
+   "company": "PSG",
+   "location": "Auxerre, BFC, FR",
+   "city": "Auxerre",
+   "region": "other",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "performance_marketing"
+    "marketing_produit"
    ],
    "skills": [
-    "acquisition",
-    "conversion",
-    "kpi",
-    "roi"
+    "positionnement",
+    "veille concurrentielle"
    ],
    "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-08-29",
+   "score": 10,
+   "date_posted": "2026-09-28",
    "salary": null,
-   "description_snippet": "Votre rôle au quotidienAu sein de l'équipe Acquisition rattachée au pôle Abonnements numériques, vous êtes le/la référent(e) Paid Social pour le développement des abonnements au Figaro. Votre mission : transformer les audiences social media en abonnés, en pilotant des campagnes performantes et innovantes.Vos principales responsabilités :-- Concevoir, piloter et optimiser les campagnes Paid Social ",
+   "description_snippet": "PSG® is the global pump, metering and dispensing\\-solution expert, enabling the safe and efficient transfer of critical and valuable fluids that require optimal performance and reliability in applications where it matters most. Additionally, PSG is a leading provider of flow meters designed to reduce waste and downtime while accurately measuring, monitoring and controlling the distribution of flui",
    "sources": [
     {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6417396"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d8b8f52019d5458c"
     }
    ],
-   "first_seen": "2026-08-29"
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "6237b32aa29f379b",
+   "title": "RESPONSABLE DE L'OFFRE - H/F",
+   "company": "PHErecrute",
+   "location": "Gennevilliers, A8, FR",
+   "city": "Gennevilliers",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "etude de marche",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Gennevilliers CDI ACR Group 45–55 k € brut/an ### **Les missions du poste** Le/La Responsable de l’Offre pilote la stratégie et le développement opérationnel de ses gammes de produits, de leur référencement à leur fin de vie commerciale. Il/Elle contribue directement au développement des ventes et à l’optimisation de la rotation des stocks sur les 8 plateformes logistiques du groupe. Vous avez pou",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=efc9ebf6c27d4307"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "363bb4b34b379dde",
+   "title": "Game Lead - Blitz",
+   "company": "Voodoo",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "**About Voodoo** ================ Voodoo is a consumer tech company founded in Paris in 2013, with one mission: entertain the world. Today we are 1,000 people, generating $1b\\+ in annual revenue, profitably. Our games and apps have passed 7 billion downloads and reach 200 million\\+ active users every month, making Voodoo the \\#3 mobile publisher worldwide in downloads, after Google and Meta. We we",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5079011b05a40002"
+    }
+   ],
+   "first_seen": "2026-09-29"
   },
   {
    "id": "06f072936a536281",
@@ -8587,6 +8610,92 @@
    "first_seen": "2026-08-31"
   },
   {
+   "id": "4b366c90c64ca2da",
+   "title": "CATEGORY MANAGER OUTILLAGE - H/F",
+   "company": "PHErecrute",
+   "location": "Arcueil, A8, FR",
+   "city": "Arcueil",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Arcueil CDI AUTODISTRIBUTION ### **Les missions du poste** La Centrale d’Achats du Groupe PHE représente environ 2,0Mds€ de CA Achats, avec plus de 250 fournisseurs centralisés et 1 million de références. Dans le cadre du développement du Groupe, nous recherchons un Category Manager. Rattaché au Pôle Equipement, Outillage et Consommables, vous prenez en charge **l’offre Outillage Premium.** **Vos ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1115002e0a40f21c"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "4185edb9956b811b",
+   "title": "Channel Marketing Manager",
+   "company": "HarfangLab",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "### ***Who we are?*** **HarfangLab is the European leader in Workspace Detection and Response.**As security teams juggle fragmented tools that compound coverage gaps across AI agents, identities, cloud environments, exposed assets, and endpoints, HarfangLab delivers a unified platform powered by a single lightweight agent and AI built for cyber. Certified by ANSSI (France’s national cybersecurity ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1854f25470aed295"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "b8eaa73593c9d3a9",
+   "title": "Revenue Sales Assistant",
+   "company": "Acolad",
+   "location": "Boulogne-Billancourt, A8, FR",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "hubspot",
+    "salesforce",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-19",
+   "salary": null,
+   "description_snippet": "Job Description Revenue Sales Assistant Job Location: Boulogne, FRA, 92100 Contract type: Permanent Acolad is the global leader in content and language solutions. Its mission is to support companies in every industry to scale across markets and enable growth through cutting\\-edge technology and localization expertise. Established in 1995, the group is present in 22 countries across Europe, North A",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5610ba034f74f288"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
    "id": "2cb4b96737f41640",
    "title": "Chef de produit H/F",
    "company": "",
@@ -10649,9 +10758,35 @@
    "first_seen": "2026-08-31"
   },
   {
-   "id": "f350034649c0f6c6",
-   "title": "Product Manager - Noa F/H",
-   "company": "PADOA",
+   "id": "9a29620f84ea8505",
+   "title": "Chef de produit Terminaux, Mise en marché et Projets F/H",
+   "company": "Bouygues Telecom",
+   "location": "Meudon, A8, FR",
+   "city": "Meudon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Publié le 28/09/2026 MARKETING CDI 35K€\\-45K€ Île\\-de\\-France **La description du poste** --------------------------- Au sein de la Direction Marketing du Réseau Clubs Bouygues Telecom, filiale de distribution de Bouygues Telecom , le/la Chef de produit aura pour missions : **GAMME MOBILE** * Assurer les lancements produits * S’assurer de la fiabilité des prix * Challenger le Central sur les diffé",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=890072e7f4fd9293"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "01285d7e49fc1352",
+   "title": "SEO & Generative Engine Optimization Manager",
+   "company": "Shine Germany",
    "location": "Paris, A8, FR",
    "city": "Paris",
    "region": "paris",
@@ -10660,21 +10795,71 @@
    "categories": [
     "marketing_produit"
    ],
-   "skills": [
-    "positionnement"
-   ],
+   "skills": [],
    "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-08-28",
+   "score": 6,
+   "date_posted": "2026-09-28",
    "salary": null,
-   "description_snippet": "Padoa est une scale\\-up française qui vise à révolutionner le secteur de la médecine du travail et de la prévention grâce à l'usage de technologies innovantes, du design et de l'humain. Padoa a depuis 2016 construit un produit permettant de transformer les services de médecine du travail en leur fournissant une plateforme technologique complète (prise de RDV, gestion des dossiers médicaux, factura",
+   "description_snippet": "**Shine is the financial copilot for entrepreneurs and small business owners.** Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy of running a business, by ending wasted time on financial admin. Shine offers a connected solution for invoicing, accounting, payroll, business accounts, payments, and financing",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=c7aad1348b255f98"
+     "url": "https://fr.indeed.com/viewjob?jk=b98344e4b50bb58c"
     }
    ],
-   "first_seen": "2026-08-29"
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "058395b5de574fde",
+   "title": "SEO & Generative Engine Optimization Manager",
+   "company": "Shine",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "**Shine is the financial copilot for entrepreneurs and small business owners.** Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy of running a business, by ending wasted time on financial admin. Shine offers a connected solution for invoicing, accounting, payroll, business accounts, payments, and financing",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=53b560f3731df874"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "f639220519939e64",
+   "title": "CDI - Responsable Cockpit Achats / Marge (F/H/X)",
+   "company": "Sephora",
+   "location": "Neuilly-sur-Seine, A8, FR",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-27",
+   "salary": null,
+   "description_snippet": "**PERMANENT CONTRACT \\- Finance Cockpit Manager – Margin Management** (M/F/X) At Sephora, beauty is about feeling seen, valued, and empowered, individually and collectively. It is connecting deeply with others, celebrating diversity and inclusivity, unlocking your potential and making a difference every day. Together, we belong to something beautiful. Since its inception in 1969 in Limoges, France",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=cbece18b1ca53ae1"
+    }
+   ],
+   "first_seen": "2026-09-29"
   },
   {
    "id": "d63a65c3c505b0f6",
@@ -10969,6 +11154,32 @@
    "first_seen": "2026-09-25"
   },
   {
+   "id": "d5f4e8e0731a8e0b",
+   "title": "CATEGORY MANAGER H/F",
+   "company": "PHErecrute",
+   "location": "Arcueil, A8, FR",
+   "city": "Arcueil",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Arcueil CDI Autodistribution ### **Les missions du poste** Rattaché(e) au responsable achat MDD, au sein de la centrale d’achat et plus particulièrement du pôle dédié aux marques de distribution, vous prenez en charge les doubles fonctions liées aux achats des produits pièces détachées automobiles et de chef de produit. Cette double mission permettra au candidat d’avoir une vision globale à 360° a",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=40effba24ec26caf"
+    }
+   ],
+   "first_seen": "2026-09-24"
+  },
+  {
    "id": "686d60e318d77487",
    "title": "CRM Lead - Leisure & Loyalty Activation",
    "company": "Eurostar International",
@@ -11048,32 +11259,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=e7f293f2b495b394"
-    }
-   ],
-   "first_seen": "2026-09-24"
-  },
-  {
-   "id": "d5f4e8e0731a8e0b",
-   "title": "CATEGORY MANAGER H/F",
-   "company": "PHErecrute",
-   "location": "Arcueil, A8, FR",
-   "city": "Arcueil",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-24",
-   "salary": null,
-   "description_snippet": "Arcueil CDI Autodistribution ### **Les missions du poste** Rattaché(e) au responsable achat MDD, au sein de la centrale d’achat et plus particulièrement du pôle dédié aux marques de distribution, vous prenez en charge les doubles fonctions liées aux achats des produits pièces détachées automobiles et de chef de produit. Cette double mission permettra au candidat d’avoir une vision globale à 360° a",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=fe9a3bc29ed4cd60"
     }
    ],
    "first_seen": "2026-09-24"
@@ -13833,56 +14018,30 @@
    "first_seen": "2026-08-30"
   },
   {
-   "id": "0b3033ef121e2dab",
-   "title": "CHEF DE PROJET DÉVELOPPEMENT & AMÉLIORATION PRODUITS H/F",
-   "company": "Elis",
-   "location": "Puteaux, A8, FR",
-   "city": "Puteaux",
-   "region": "other",
+   "id": "755ef6ca68f74758",
+   "title": "Product Marketing Manager - H/F",
+   "company": "Groupe VYV",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
-   "contract": "CDI",
+   "contract": "CDD",
    "categories": [
     "marketing_produit"
    ],
    "skills": [],
    "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-08-28",
+   "score": 4,
+   "date_posted": "2026-09-22",
    "salary": null,
-   "description_snippet": "**Description du poste** ------------------------ ### **Métier** Marketing \\- Marketing Produit ### **Intitulé du poste** CHEF DE PROJET DÉVELOPPEMENT \\& AMÉLIORATION PRODUITS H/F ### **Contrat** CDD ### **Statut** Cadre ### **Description de la mission** **Envie d'un poste où vous pilotez des projets de A à Z, travaillez avec des équipes internationales et contribuez concrètement à l'amélioration ",
+   "description_snippet": "Product Marketing Manager - H/F",
    "sources": [
     {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e11ca712807e1f17"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/groupe-vyv-1/jobs/charge-de-missions-marketing-h-f_paris"
     }
    ],
-   "first_seen": "2026-08-29"
-  },
-  {
-   "id": "78756480fb0205de",
-   "title": "Chef de Produits F/H",
-   "company": "Groupe Hachette Livre",
-   "location": "Vanves - 92",
-   "city": "Vanves - 92",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-08-27",
-   "salary": "30 - 35 k€ brut annuel",
-   "description_snippet": "Nous recherchons actuellement un(e) : CHEF DE PRODUITS H/F CDI Rattaché(e) au Directeur Marketing du département Secondaire de la Branche, vous intervenez sur la mise en œuvre du plan promotionnel en lien avec les services transverses, les éditeurs et les prestataires, dans le ...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179287661W"
-    }
-   ],
-   "first_seen": "2026-08-29"
+   "first_seen": "2026-09-29"
   },
   {
    "id": "42f9403eadd7fe80",
@@ -15981,30 +16140,56 @@
    "first_seen": "2026-08-31"
   },
   {
-   "id": "13d2e3e07bbacb7c",
-   "title": "Chefs de Produit Onco H/F",
-   "company": "MSD",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
+   "id": "20cc2785efe47501",
+   "title": "Formateur Produit & Adoption (Saas)",
+   "company": "Imagino",
+   "location": "Cachan, A8, FR",
+   "city": "Cachan",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": null,
    "categories": [
     "marketing_produit"
    ],
    "skills": [],
    "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-08-28",
+   "score": 2,
+   "date_posted": "2026-09-28",
    "salary": null,
-   "description_snippet": "Job Description **Description générale – Fonctions et responsabilités :** Le Chef de produit est responsable du plan marketing de ses indications (produit/gamme de produits) ; de l’exécution de la stratégie identifiée par client pour atteindre les objectifs fixés ; du développement de la communication ; et de la mise en place d’opérations innovantes et différenciantes. Il/elle assure la cohérence ",
+   "description_snippet": "#### **À propos d'imagino** Créée en 2017, imagino est une scale up qui développe et commercialise une Customer Experience Platform (CXP) à destination des directions Data, Marketing et Digitale des entreprises. La solution répond aux besoins croissants autour de la donnée client : accès et enrichissement, connaissance client et segmentation, activation et personnalisation, etc. imagino a été créé",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=6869c7f2918f9bbd"
+     "url": "https://fr.indeed.com/viewjob?jk=7afe5efb0fd3d012"
     }
    ],
-   "first_seen": "2026-08-29"
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "69cd4c6211cab0dc",
+   "title": "Chef de Produit Marketing - F/H",
+   "company": "Groupe Altitude",
+   "location": "Courbevoie (92)",
+   "city": "Courbevoie",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-08-28",
+   "salary": null,
+   "description_snippet": "",
+   "sources": [
+    {
+     "name": "Isarta",
+     "url": "https://isarta.fr/?job=76129"
+    }
+   ],
+   "first_seen": "2026-09-29"
   },
   {
    "id": "ad70e373bb9b8055",
@@ -18628,33 +18813,58 @@
    "first_seen": "2026-08-30"
   },
   {
-   "id": "5aeee090d58c342b",
-   "title": "Product marketing director f/h",
-   "company": "",
-   "location": "94 - Rungis",
-   "city": "94 - Rungis",
-   "region": "other",
+   "id": "f08a39da3c10b0c5",
+   "title": "Marketing Operations Lead - ECLIPSIUM H/F/X",
+   "company": "tissium",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
-   "contract": "CDI",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Tissium is a mission\\-driven medical device company founded in 2013, headquartered in Paris, with a production facility in Roncq (near Lille) and an office in Boston. We are dedicated to creating a new era of body repair by leveraging our biopolymer platform to develop innovative solutions in surgery for a positive impact on patients' lives. Tissium's technology is based on research and intellectu",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=dffe7def1cb3ba84"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "05a05a666470e2ee",
+   "title": "Senior Product Marketing Manager",
+   "company": "Swan",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
    "categories": [
     "marketing_produit"
    ],
    "skills": [
-    "positionnement",
-    "veille concurrentielle"
+    "gtm"
    ],
    "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-08-29",
+   "score": 0,
+   "date_posted": "2026-09-28",
    "salary": null,
-   "description_snippet": "Lieu : Rungis, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d",
+   "description_snippet": "### **About** Swan is Europe’s embedded banking specialist. We empower software companies to embed banking features like accounts, cards, and payments directly into their products, under their own brand.Swan processes over €2\\.5 billion in monthly transactions for more than 150 companies \\- like Pennylane, Indy, Agicap, Libeo, and Lucca. Founded in 2019, the company has received growth capital fro",
    "sources": [
     {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6414996"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a238377e23e9aaaa"
     }
    ],
-   "first_seen": "2026-08-29"
+   "first_seen": "2026-09-29"
   },
   {
    "id": "79203d73fe94ecc4",
