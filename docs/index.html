@@ -159,6 +159,16 @@
     border:1px solid var(--line); border-radius:8px; padding:5px 12px; background:var(--surface);
   }
   .archbar button:focus-visible { outline:2px solid var(--accent); outline-offset:1px; }
+  .archbar button[aria-pressed="true"] { background:var(--accent-soft); border-color:var(--accent); color:var(--accent); font-weight:700; }
+
+  /* 投遞後的聯絡追蹤：投了就要聯絡 HR 或該 team 的人 */
+  .card .contact {
+    display:inline-flex; align-items:center; gap:5px; cursor:pointer;
+    font-size:12px; color:var(--muted); user-select:none;
+  }
+  .card .contact input { accent-color:var(--accent); width:13px; height:13px; margin:0; cursor:pointer; }
+  .card .contact.done { color:var(--good); }
+  .b.todo { background:var(--warn-bg); color:var(--warn); }
   footer.pagefoot { margin-top:36px; font-size:12px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
   @media (max-width:640px){ .row .lbl{min-width:100%;} .addform{grid-template-columns:1fr;} }
   @media (prefers-reduced-motion: reduce){ *{transition:none!important;} }
@@ -250,6 +260,7 @@
     <div class="archbar">
       <input type="search" id="aq" placeholder="搜尋封存的職缺⋯" aria-label="搜尋封存">
       <span id="arch-count"></span>
+      <button id="arch-todo" aria-pressed="false">只看待聯絡</button>
       <button id="arch-export">匯出備份</button>
       <button id="arch-import-btn">匯入備份</button>
       <input type="file" id="arch-import" accept="application/json" hidden>
@@ -286,6 +297,7 @@ let manual  = store.get("jr_manual", []);       // 手動加入的職缺
 // 封存：{jobId: {job:<封存當下的整筆快照>, at:"YYYY-MM-DD", why:"manual"|"applied"|"interview"}}
 // 存整筆而不是只存 id——職缺 30 天後會從 jobs.json 消失，光有 id 就撈不回內容了。
 let archive = store.get("jr_archive", {});
+let archTodoOnly = false;   // 封存頁：只看還沒聯絡的
 
 // ---- 狀態 ----
 const state = { view:"7d", q:"", cat:new Set(), region:new Set(), mode:new Set(), contract:new Set(), source:new Set(), status:new Set(), tag:new Set(),
@@ -368,6 +380,10 @@ function init(){
   document.getElementById("tab-jobs").addEventListener("click", () => setTab("jobs"));
   document.getElementById("tab-archive").addEventListener("click", () => setTab("archive"));
   document.getElementById("aq").addEventListener("input", renderArchive);
+  document.getElementById("arch-todo").addEventListener("click", () => {
+    archTodoOnly = !archTodoOnly;
+    renderArchive();
+  });
   document.getElementById("arch-export").addEventListener("click", archiveExport);
   document.getElementById("arch-import-btn").addEventListener("click", () => document.getElementById("arch-import").click());
   document.getElementById("arch-import").addEventListener("change", e => {
@@ -577,6 +593,16 @@ function archiveAdd(j, why){
   return true;
 }
 
+function isContacted(a){ return !!(a && a.contacted); }
+
+function setContacted(id, on){
+  const a = archive[id];
+  if (!a) return;
+  a.contacted = on;
+  if (on) a.contacted_at = dateStr(new Date()); else delete a.contacted_at;
+  store.set("jr_archive", archive);
+}
+
 function archiveRemove(id){
   delete archive[id];
   store.set("jr_archive", archive);
@@ -598,13 +624,26 @@ function renderArchive(){
   const q = (document.getElementById("aq").value || "").trim().toLowerCase();
   // 還在 jobs.json 裡的視為仍上架；其餘標成已下架
   const live = new Set((DATA.jobs || []).map(j => j.id));
-  const rows = Object.entries(archive)
-    .map(([id, a]) => ({ id, ...a }))
+  const all = Object.entries(archive).map(([id, a]) => ({ id, ...a }));
+  const todo = all.filter(a => !isContacted(a)).length;
+  const rows = all
     .filter(a => !q || (a.job.title + " " + a.job.company + " " + (a.job.city || a.job.location || "")).toLowerCase().includes(q))
-    .sort((a, b) => (b.at || "").localeCompare(a.at || ""));
+    .filter(a => !archTodoOnly || !isContacted(a))
+    // 待聯絡的排前面——這個分頁的用途就是看還有哪些沒做
+    .sort((a, b) => (isContacted(a) - isContacted(b)) || (b.at || "").localeCompare(a.at || ""));
 
-  document.getElementById("arch-count").textContent =
-    archiveCount() === 0 ? "" : "共 " + archiveCount() + " 筆" + (q ? "，符合 " + rows.length + " 筆" : "");
+  const btn = document.getElementById("arch-todo");
+  btn.textContent = "只看待聯絡" + (todo ? "（" + todo + "）" : "");
+  btn.setAttribute("aria-pressed", archTodoOnly ? "true" : "false");
+  btn.hidden = archiveCount() === 0;
+
+  const parts = [];
+  if (archiveCount()) {
+    parts.push("共 " + archiveCount() + " 筆");
+    parts.push(todo ? todo + " 筆待聯絡" : "全部已聯絡 ✓");
+    if (q || archTodoOnly) parts.push("顯示 " + rows.length + " 筆");
+  }
+  document.getElementById("arch-count").textContent = parts.join("　·　");
   document.getElementById("arch-empty").hidden = archiveCount() !== 0;
 
   const wrap = document.getElementById("arch-cards");
@@ -615,8 +654,10 @@ function renderArchive(){
 function archiveCard(a, isLive){
   const el = card(a.job, "");            // 沿用職缺卡片，保持一致
   const badges = el.querySelector(".badges");
+  const done = isContacted(a);
   const extra = [];
   if (!isLive) extra.push('<span class="b gone">已下架</span>');
+  if (!done) extra.push('<span class="b todo">待聯絡</span>');
   extra.push('<span class="b why">' + (WHY[a.why] || a.why) + " · " + esc(a.at) + "</span>");
   badges.insertAdjacentHTML("afterbegin", extra.join(""));
 
@@ -624,6 +665,19 @@ function archiveCard(a, isLive){
   btn.textContent = "移除封存";
   btn.className = "arch";
   btn.onclick = () => { archiveRemove(a.id); renderArchive(); };
+
+  // 投遞之後要聯絡 HR 或該 team 的人；勾起來就知道哪些還沒做
+  const lab = document.createElement("label");
+  lab.className = "contact" + (done ? " done" : "");
+  lab.title = done && a.contacted_at ? "已於 " + a.contacted_at + " 聯絡" : "投遞後聯絡 HR 或該 team 的人";
+  const cb = document.createElement("input");
+  cb.type = "checkbox";
+  cb.checked = done;
+  cb.addEventListener("change", () => { setContacted(a.id, cb.checked); renderArchive(); });
+  lab.appendChild(cb);
+  lab.appendChild(document.createTextNode(
+    done && a.contacted_at ? "已聯絡 " + a.contacted_at : "LinkedIn 聯絡"));
+  btn.parentNode.insertBefore(lab, btn);
   return el;
 }
 
