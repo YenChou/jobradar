@@ -3,7 +3,7 @@
 //
 // 執行：cd tests && npm i jsdom && node test_archive_contact.js
 const fs = require("fs"), path = require("path");
-const { JSDOM } = require("/private/tmp/node_modules/jsdom");
+const { JSDOM } = require("jsdom");
 const ROOT = path.join(__dirname, "..", "docs");
 const html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
 const data = JSON.parse(fs.readFileSync(path.join(ROOT, "data/jobs.json"), "utf8"));
@@ -85,6 +85,25 @@ setTimeout(() => {
   w.localStorage.setItem("jr_archive", JSON.stringify(a));
   w.eval("archive = store.get('jr_archive', {}); renderArchive();");
   ok(cards().some(c => c.querySelector(".b.todo")), "舊封存資料（無 contacted 欄位）視為待聯絡，不會炸");
+
+  // localStorage 寫入失敗時要還原，否則畫面說「已聯絡」但重載後消失
+  console.log();
+  w.eval("archive = store.get('jr_archive', {}); archTodoOnly = false; renderArchive();");
+  const target = cards()[0];
+  const before = JSON.parse(w.localStorage.getItem("jr_archive"));
+  const beforeCount = $("#arch-count").textContent;
+  // 覆寫實例屬性對 jsdom 的 Storage 無效，要改原型
+  const realSet = w.Storage.prototype.setItem;
+  w.Storage.prototype.setItem = () => { throw new Error("QuotaExceededError"); };
+  lastAlert = null;
+  target.querySelector(".contact input").click();
+  w.Storage.prototype.setItem = realSet;
+  ok(JSON.stringify(JSON.parse(w.localStorage.getItem("jr_archive"))) === JSON.stringify(before),
+     "寫入失敗時 localStorage 未被改動");
+  w.eval("renderArchive();");
+  ok($("#arch-count").textContent === beforeCount,
+     "寫入失敗時畫面還原，不會顯示成已聯絡：" + $("#arch-count").textContent);
+  ok(/沒有存起來/.test(lastAlert || ""), "有提示使用者：" + lastAlert);
 
   console.log("\n失敗: " + fail);
   process.exit(fail ? 1 : 0);

@@ -597,10 +597,19 @@ function isContacted(a){ return !!(a && a.contacted); }
 
 function setContacted(id, on){
   const a = archive[id];
-  if (!a) return;
+  if (!a) return false;
+  const prev = { contacted: a.contacted, contacted_at: a.contacted_at };
   a.contacted = on;
   if (on) a.contacted_at = dateStr(new Date()); else delete a.contacted_at;
-  store.set("jr_archive", archive);
+  if (!store.set("jr_archive", archive)) {
+    // 還原成寫入前的樣子。不還原的話畫面會顯示「已聯絡」、待聯絡數也減了，
+    // 但重載後標記消失——比直接失敗更糟。
+    if (prev.contacted === undefined) delete a.contacted; else a.contacted = prev.contacted;
+    if (prev.contacted_at === undefined) delete a.contacted_at; else a.contacted_at = prev.contacted_at;
+    alert("瀏覽器儲存空間不足，聯絡狀態沒有存起來。請先匯出備份再移除一些封存。");
+    return false;
+  }
+  return true;
 }
 
 function archiveRemove(id){
