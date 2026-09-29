@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-28T22:26:23Z",
+ "generated_at": "2026-09-29T16:22:27Z",
  "source_stats": {
-  "Indeed": 480,
-  "Welcome to the Jungle": 1727,
-  "France Travail": 13,
-  "APEC": 1691,
-  "Isarta": 123
+  "Indeed": 535,
+  "Welcome to the Jungle": 1723,
+  "France Travail": 18,
+  "APEC": 1707,
+  "Isarta": 124
  },
- "count": 768,
- "new_today": 15,
+ "count": 785,
+ "new_today": 32,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -245,13 +245,13 @@
    ],
    "bonus_tags": [],
    "score": 22,
-   "date_posted": "2026-09-28",
+   "date_posted": "2026-09-29",
    "salary": null,
-   "description_snippet": "We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our",
+   "description_snippet": "**Required skills** * Corporate Functions We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global sc",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d07cc23b70040121"
+     "url": "https://fr.indeed.com/viewjob?jk=231ecc238b0c4157"
     }
    ],
    "first_seen": "2026-09-28"
@@ -1658,6 +1658,35 @@
    "first_seen": "2026-09-25"
   },
   {
+   "id": "be5f5fde611d9eb3",
+   "title": "Digital Marketing Specialist (F/H)",
+   "company": "freelance.com",
+   "location": "Puteaux",
+   "city": "Puteaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "hubspot"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Digital Marketing Specialist (F/H) <p><strong>Profil de poste</strong></p><p>&#x1f449; Tu es diplômé(e) d’une formation Bac&#43;5 en marketing, communication, digital, école de commerce ou université.</p><p>&#x1f449; Tu justifies de 3 à 7 ans d’expérience en marketing digital, acquisition, growth ou marketing operations, idéalement dans un environnement BtoB, groupe ou multi-marque.</p><p>&#x1f449",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/freelance-com/jobs/digital-marketing-specialist-f-h_puteaux"
+    }
+   ],
+   "first_seen": "2026-09-23"
+  },
+  {
    "id": "6378a08989488290",
    "title": "International Growth",
    "company": "Pictarine",
@@ -1716,35 +1745,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/boondmanager/jobs/product-marketing-lead-manager-pmm-full-remote_BOOND_zqoMXJ3"
-    }
-   ],
-   "first_seen": "2026-09-23"
-  },
-  {
-   "id": "be5f5fde611d9eb3",
-   "title": "Digital Marketing Specialist (F/H)",
-   "company": "freelance.com",
-   "location": "Puteaux",
-   "city": "Puteaux",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [
-    "automation",
-    "hubspot"
-   ],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-08-05",
-   "salary": null,
-   "description_snippet": "Digital Marketing Specialist (F/H) <p><strong>Profil de poste</strong></p><p>&#x1f449; Tu es diplômé(e) d’une formation Bac&#43;5 en marketing, communication, digital, école de commerce ou université.</p><p>&#x1f449; Tu justifies de 3 à 7 ans d’expérience en marketing digital, acquisition, growth ou marketing operations, idéalement dans un environnement BtoB, groupe ou multi-marque.</p><p>&#x1f449",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/freelance-com/jobs/digital-marketing-specialist-f-h_puteaux"
     }
    ],
    "first_seen": "2026-09-23"
@@ -3020,6 +3020,116 @@
     }
    ],
    "first_seen": "2026-08-31"
+  },
+  {
+   "id": "5ec44c70e9a7da96",
+   "title": "Creative Producer",
+   "company": "TripleTen",
+   "location": "GE, FR",
+   "city": "Ge",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roas"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "TripleTen is an EdTech company that designs and runs tech career learning programs for the US and Latin American markets. We've been doing it for over five years, teaching complete beginners — people with no prior tech background — through cohort\\-based programs built on our own platform and curriculum, developed in partnership with Nebius AI. Our team is fully remote and globally distributed, and",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=6d2ee0d962c8ca19"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "9721f227b63a2ac1",
+   "title": "Affiliation Marketing Intern (German & English required)",
+   "company": "Back Market",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "**Location** ------------ Paris **Employment Type** ------------------- Intern **Location Type** ----------------- On\\-site **Department** -------------- INTERNSHIPS **Compensation** ---------------- * €1\\.2K – €1\\.4K per month Actual compensation packages are based on a wide array of factors unique to each candidate, including but not limited to demonstrated skill set, years and depth of relevant",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=91e3aeb37b4d0eb0"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "dd03867181e96052",
+   "title": "Product Marketing Manager, solutions clients",
+   "company": "Inqom",
+   "location": "Tours",
+   "city": "Tours",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager, solutions clients * Minimum 7 ans d’expérience en Product Marketing * Expérience des cibles TPE-PME et idéalement de modèles distribués via des partenaires ou revendeurs * Capacité à s’approprier rapidement des sujets complexes, réglementaires ou financiers * Expérience solide en Sales Enablement * Excellentes qualités rédactionnelles et de synthèse * Capacité à travaill",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/fred-de-la-compta/jobs/product-marketing-manager-solutions-clients"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "1db08be05e2f2bb1",
+   "title": "Product Marketing Manager : outils du cabinet",
+   "company": "Inqom",
+   "location": "Tours",
+   "city": "Tours",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager : outils du cabinet * Minimum 7 ans d’expérience en Product Marketing * Expérience en SaaS B2B ou sur des logiciels métier * Expérience du lancement d’une nouvelle offre ou d’une nouvelle catégorie * Expérience solide en Sales Enablement * Bonne compréhension des sujets IA, data ou automatisation * Expérience démontrable des outils IA ou agentiques * Excellentes qualités ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/fred-de-la-compta/jobs/product-marketing-manager-outils-du-cabinet"
+    }
+   ],
+   "first_seen": "2026-09-29"
   },
   {
    "id": "1fadc20091dec826",
@@ -4374,6 +4484,73 @@
    "first_seen": "2026-08-31"
   },
   {
+   "id": "86b30430b7c86022",
+   "title": "Assistant(e) Traffic Manager - (H/F)",
+   "company": "SMCP",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "Intérim",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "sea",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Intégré(e) à l'équipe Digital & Expérience Client et sous la responsabilité du Traffic Manager, tu contribueras activement à renforcer la visibilité digitale de la marque et à générer du trafic qualifié via différents leviers payants : SEA, Social Ads, Display, Affiliation...A ce titre tes tâches seront les suivantes : Analyse & VeilleSuivre et optimiser les campagnes d'acquisition sur les platefo",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7478486"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "97b59f69c5abf804",
+   "title": "Directeur.rice Acquisition & CRM (H/F)",
+   "company": "VENTE UNIQUE",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "a/b testing",
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roas",
+    "roi",
+    "sea",
+    "seo",
+    "tracking"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "**Qui sommes\\-nous ?** Pionnier du e\\-commerce mobilier et décoration depuis 2006, Vente\\-unique.com s’est imposé comme une référence dans 16 pays grâce à son esprit visionnaire et son exigence de performance. Année après année, nous élargissons notre univers pour devenir un groupe en expansion continue dans l’équipement de la maison : * Avec la reprise de la marque Habitat en 2024, icône du desig",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=209a35c2a8821e3a"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
    "id": "6fa77aecb05b8a0f",
    "title": "Distribution Marketplace Program Specialist",
    "company": "AvePoint",
@@ -4433,7 +4610,7 @@
    "city": "77 - Bussy-Saint-Georges",
    "region": "other",
    "work_mode": "onsite",
-   "contract": "CDI",
+   "contract": "CDD",
    "categories": [
     "marketing_operations"
    ],
@@ -6194,6 +6371,35 @@
    "first_seen": "2026-08-30"
   },
   {
+   "id": "5bf2c961e20c97e6",
+   "title": "Product Marketing Manager – Cybersécurité (H/F)",
+   "company": "Gatewatcher",
+   "location": "Puteaux",
+   "city": "Puteaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager – Cybersécurité (H/F) **👤 Profil recherché** Nous recherchons une personne capable de **comprendre rapidement des sujets technologiques complexes et de les transformer en messages simples, différenciants et impactants.** Vous êtes notamment : 1. Curieux(se) et passionné(e) par la technologie et la cybersécurité. 2. Excellent(e) communicant(e), à l’écrit comme à l’oral. 3.",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/gatewatcher/jobs/product-marketing-manager-cybersecurite-h-f_puteaux"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
    "id": "82d68e1a92392b66",
    "title": "Responsable Marketing et Communication H/F",
    "company": "PSG",
@@ -6276,6 +6482,61 @@
     }
    ],
    "first_seen": "2026-09-29"
+  },
+  {
+   "id": "0f8f701c0df93a10",
+   "title": "Responsable CRM Vib's (H/F)",
+   "company": "Vib's",
+   "location": "Saint-Malo, A2, FR",
+   "city": "Saint-Malo",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "fidelisation",
+    "newsletter"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Fondé en 1981, le Groupe Beaumanoir est un acteur majeur et incontournable du prêt\\-à\\-porter en France. Avec plus de 15 000 collaborateurs, 2700 points de vente dans le monde et 10 sites logistiques en France (C\\-LOG), le Groupe Beaumanoir opère aujourd'hui plus de 20 marques emblématiques (Cache Cache, Bréal, Bonobo, Jennyfer, Vib's, La Halle, Naf Naf, Morgan, Caroll, Sarenza.com, Quiksilver, Ro",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e2c5123cf6a39456"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "ac21c9f1fa750069",
+   "title": "Crm manager / expert hubspot F/H",
+   "company": "Direct Emploi",
+   "location": "Rennes - 35",
+   "city": "Rennes",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-29",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "Vous aurez pour objectif de faire évoluer l'écosystème HubSpot, aussi bien sur ses aspects fonctionnels que sur la qualité et l'exploitation des données.À ce titre, vous serez notamment amené(e) à :Structurer et fiabiliser la donnée- Faire évoluer l'architecture et le modèle de d...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179490337W"
+    }
+   ],
+   "first_seen": "2026-09-28"
   },
   {
    "id": "06f072936a536281",
@@ -6363,32 +6624,6 @@
    "first_seen": "2026-09-28"
   },
   {
-   "id": "ac21c9f1fa750069",
-   "title": "Crm manager / expert hubspot F/H",
-   "company": "Direct Emploi",
-   "location": "Rennes - 35",
-   "city": "Rennes",
-   "region": "west",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "crm"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-28",
-   "salary": "A partir de 45 k€ brut annuel",
-   "description_snippet": "Vous aurez pour objectif de faire évoluer l'écosystème HubSpot, aussi bien sur ses aspects fonctionnels que sur la qualité et l'exploitation des données.À ce titre, vous serez notamment amené(e) à :Structurer et fiabiliser la donnée- Faire évoluer l'architecture et le modèle de d...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179490337W"
-    }
-   ],
-   "first_seen": "2026-09-28"
-  },
-  {
    "id": "2f098969a8d1c338",
    "title": "Product Marketing Specialist M/F",
    "company": "EDHEC Business School",
@@ -6439,38 +6674,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=9d440f7cfd9aaf53"
-    }
-   ],
-   "first_seen": "2026-09-26"
-  },
-  {
-   "id": "179f740919dda62a",
-   "title": "Responsable Acquisition Digitale & Growth Marketing International H/F",
-   "company": "Crédit Agricole",
-   "location": "Massy",
-   "city": "Massy",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-08-27",
-   "salary": null,
-   "description_snippet": "Responsable Acquisition Digitale & Growth Marketing International H/F <p>Formation supérieure Bac +4/5 en marketing digital ou équivalent.</p><br/><p>• Maîtrise des plateformes publicitaires et des outils analytics.<br>• Forte culture data et pilotage de la performance.<br>• Capacité à évoluer dans un environnement international.<br>• Esprit analytique, pragmatique et orienté résultats.<br>• Réact",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/groupe-credit-agricole/jobs/responsable-acquisition-digitale-growth-marketing-international-h-f_massy"
-    },
-    {
-     "name": "Isarta",
-     "url": "https://isarta.fr/?job=76138"
     }
    ],
    "first_seen": "2026-09-26"
@@ -8808,6 +9011,34 @@
    "first_seen": "2026-09-26"
   },
   {
+   "id": "179f740919dda62a",
+   "title": "Responsable Acquisition Digitale & Growth Marketing International H/F",
+   "company": "Crédit Agricole",
+   "location": "Massy",
+   "city": "Massy",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-08-27",
+   "salary": null,
+   "description_snippet": "Responsable Acquisition Digitale & Growth Marketing International H/F <p>Formation supérieure Bac +4/5 en marketing digital ou équivalent.</p><br/><p>• Maîtrise des plateformes publicitaires et des outils analytics.<br>• Forte culture data et pilotage de la performance.<br>• Capacité à évoluer dans un environnement international.<br>• Esprit analytique, pragmatique et orienté résultats.<br>• Réact",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/groupe-credit-agricole/jobs/responsable-acquisition-digitale-growth-marketing-international-h-f_massy"
+    }
+   ],
+   "first_seen": "2026-09-26"
+  },
+  {
    "id": "9bb317cb769a9116",
    "title": "Chef de produit marketing (H/F)",
    "company": "",
@@ -10756,6 +10987,60 @@
     }
    ],
    "first_seen": "2026-08-31"
+  },
+  {
+   "id": "5c7433e2a11e80fa",
+   "title": "Product Marketing Manager",
+   "company": "Swan",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager * You have at least **4 years of experience in Product Marketing** on **complex tech products** * You excel at Product Positioning, with a proven ability to **turn complex tech capabilities** (APIs, financial tools) **into clear benefits** for both business and technical buyers. * You have a **strong track record in GTM Execution**, leading cross-functional product launch",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/product-marketing-manager_paris_SWAN_R2Xyg8o"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "d7fa0323d3890930",
+   "title": "CHEF DE PRODUIT AUTOMOBILE - F/H",
+   "company": "lindustrie-recrute.fr",
+   "location": "Saint-Étienne - 42",
+   "city": "Saint-Etienne - 42",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-29",
+   "salary": "A négocier",
+   "description_snippet": "Dans le cadre de son développement, le Groupe SAM OUTILLAGE propose un poste de Chef Produit Automobile, en CDI au sein de notre Direction Opérationnelle. Rattaché(e) au Directeur de l’Offre Client, vous contribuez activement à la définition et au déploiement de la stratégie prod...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179498344W"
+    }
+   ],
+   "first_seen": "2026-09-29"
   },
   {
    "id": "9a29620f84ea8505",
@@ -14018,6 +14303,61 @@
    "first_seen": "2026-08-30"
   },
   {
+   "id": "6792cfae06252dac",
+   "title": "Brand Partnerships Manager - Global Business Solutions - Paris",
+   "company": "TikTok",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Sales Brand Partnerships Manager \\- Global Business Solutions \\- Paris **Location :** Paris **Employment Type :** Regular **Job Code :** A20611 Responsibilities At TikTok, our Partnership Managers play a key role in shaping long\\-term collaborations with leading fashion brands across Europe. They act as trusted advisors, helping clients unlock the full potential of discovery commerce on our platfo",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5744c4528b752743"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "587f822da5795101",
+   "title": "Chef de projet Programme de Fidélité (H/F) - CDD 12 mois",
+   "company": "Histoire d'Or",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-27",
+   "salary": null,
+   "description_snippet": "Rattaché au Responsable CRM \\& Data Analyse, le Chef de projet Programme de Fidélité (H/F) participera à la définition de la proposition de valeur du programme de fidélité et en pilotera l’activation, la stratégie de contenu ainsi que le suivi de performance. Il/elle aura les missions suivantes : **1/Contribuer à la proposition de valeur du programme de fidélité :** * Participer à l’évolution du m",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=dbf4063802c53b82"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
    "id": "755ef6ca68f74758",
    "title": "Product Marketing Manager - H/F",
    "company": "Groupe VYV",
@@ -14072,6 +14412,34 @@
    "first_seen": "2026-09-28"
   },
   {
+   "id": "7957f95014d0f2c8",
+   "title": "Chef de produit #FEB2026 F/H",
+   "company": "KERSHIP",
+   "location": "Concarneau - 29",
+   "city": "Concarneau - 29",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-29",
+   "salary": "55 - 70 k€ brut annuel",
+   "description_snippet": "Rejoignez KERSHIP , spécialiste de la construction de navires de défense, en tant que Chef de produit F/H. Sous la responsabilité du Directeur des Offres et Marketing de KERSHIP, vous participez au développement de notre stratégie marketing et de notre positionnement sur notre...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179223962W"
+    }
+   ],
+   "first_seen": "2026-09-26"
+  },
+  {
    "id": "b2d4192a86baa78b",
    "title": "RESPONSABLE CRM F/H",
    "company": "Sapiance RH",
@@ -14124,34 +14492,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=2f6695a28884678c"
-    }
-   ],
-   "first_seen": "2026-09-26"
-  },
-  {
-   "id": "7957f95014d0f2c8",
-   "title": "Chef de produit #FEB2026 F/H",
-   "company": "KERSHIP",
-   "location": "Concarneau - 29",
-   "city": "Concarneau - 29",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-21",
-   "salary": "55 - 70 k€ brut annuel",
-   "description_snippet": "Rejoignez KERSHIP , spécialiste de la construction de navires de défense, en tant que Chef de produit F/H. Sous la responsabilité du Directeur des Offres et Marketing de KERSHIP, vous participez au développement de notre stratégie marketing et de notre positionnement sur notre...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179223962W"
     }
    ],
    "first_seen": "2026-09-26"
@@ -16140,6 +16480,86 @@
    "first_seen": "2026-08-31"
   },
   {
+   "id": "23bc91b5a0a45ddf",
+   "title": "Data Analyst Marketing Digital - Freelance (H/F)",
+   "company": "Collective.work",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [
+    "sql"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "CONTEXTE Au sein d'une grande entreprise, vous apporterez votre contribution sur le marketing digital B2C, avec un programme de fidélité structurant. Équipe pluridisciplinaire incluant Product Managers, Business Managers, Data Engineers et Data Managers. MISSIONS * Définir, suivre et optimiser les indicateurs clés de succès (KPIs) du programme de fidélité (taux de pénétration, taux d'activation, r",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7489621"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "1ef5d9f7f71765a8",
+   "title": "Consultant(e) - Chef de projet CRM F/H",
+   "company": "Square Management",
+   "location": "Neuilly-sur-Seine - 92",
+   "city": "Neuilly-Sur-Seine - 92",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-29",
+   "salary": "A négocier",
+   "description_snippet": "En tant que Consultant(e) ou Consultant(e) Senior au sein du Domaine d’Excellence Digital & Marketing (ou Organisation & Efficiency ) de Square Management, vous intégrez les équipes d'un acteur majeur de l'univers du Luxe . Au cœur des enjeux de personnalisation et de relation c...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179503823W"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "1151894a6b47a7ff",
+   "title": "Assistant Chef de Produit - F/H",
+   "company": "Ceebly",
+   "location": "Saint-Cyr-sous-Dourdan - 91",
+   "city": "Saint-Cyr-Sous-Dourdan - 91",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-29",
+   "salary": "35 - 40 k€ brut annuel",
+   "description_snippet": "Présentation de l'entreprise Notre client, une entreprise spécialisée dans la création d'objets de décoration et d'accessoires design, pratiques et pleins d'humour, nous confie le recrutement de son futur Assistant Chef de Produit. Spécialisée dans la conception de produits uniqu...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179502464W"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
    "id": "20cc2785efe47501",
    "title": "Formateur Produit & Adoption (Saas)",
    "company": "Imagino",
@@ -16268,6 +16688,32 @@
     }
    ],
    "first_seen": "2026-09-28"
+  },
+  {
+   "id": "ba92a5d914ee3352",
+   "title": "Chef de Produit Phytothérapie F/H",
+   "company": "Hellowork",
+   "location": "Carros - 06",
+   "city": "Carros - 06",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-29",
+   "salary": "45 - 50 k€ brut annuel",
+   "description_snippet": "Au sein de la direction marketing internationale, le/la Chef(fe) de Produit Phytothérapie participe à la définition et à la mise en oeuvre de la stratégie de son portefeuille. sur des projets à dimension internationale.Vos missions seront de: * Contribuer à la définition de l...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179500925W"
+    }
+   ],
+   "first_seen": "2026-09-26"
   },
   {
    "id": "c2bf38b16d9fba31",
@@ -16477,32 +16923,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179387546W"
-    }
-   ],
-   "first_seen": "2026-09-26"
-  },
-  {
-   "id": "ba92a5d914ee3352",
-   "title": "Chef de Produit Phytothérapie F/H",
-   "company": "Hellowork",
-   "location": "Carros - 06",
-   "city": "Carros - 06",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-04",
-   "salary": "45 - 50 k€ brut annuel",
-   "description_snippet": "Au sein de la direction marketing internationale, le/la Chef(fe) de Produit Phytothérapie participe à la définition et à la mise en oeuvre de la stratégie de son portefeuille. sur des projets à dimension internationale.Vos missions seront de: * Contribuer à la définition de l...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179342228W"
     }
    ],
    "first_seen": "2026-09-26"
@@ -18813,6 +19233,32 @@
    "first_seen": "2026-08-30"
   },
   {
+   "id": "590ad76242f1a78a",
+   "title": "Chef de Produit Services & Expérience Voyageur F/H",
+   "company": "TRENITALIA FRANCE",
+   "location": "Paris 12 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-29",
+   "salary": "A négocier",
+   "description_snippet": "Sous la supervision du Responsable Marketing, vous participez à la réflexion et à la définition de la stratégie marketing de Trenitalia en France et veillez à sa cohérence, à sa mise en œuvre ainsi qu’à l’atteinte des objectifs fixés. Vous êtes garant.e de l’expérience client à b...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179486918W"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
    "id": "f08a39da3c10b0c5",
    "title": "Marketing Operations Lead - ECLIPSIUM H/F/X",
    "company": "tissium",
@@ -18945,6 +19391,32 @@
    "first_seen": "2026-09-27"
   },
   {
+   "id": "026deedfe99f2f40",
+   "title": "Growth Marketing Manager F/H",
+   "company": "Direct Emploi",
+   "location": "Paris 01 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-29",
+   "salary": "A partir de 45 k€ brut annuel",
+   "description_snippet": "Notre entreprise évolue dans un secteur à forte composante digitale et accompagne le développement de plusieurs marques et offres à destination d'un marché en pleine transformation. Présente à l'international, elle s'appuie sur des solutions technologiques propriétaires, une cult...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179490470W"
+    }
+   ],
+   "first_seen": "2026-09-26"
+  },
+  {
    "id": "cc195efaf129b735",
    "title": "Chef de Produit/Marché EPI F/H",
    "company": "Direct Emploi",
@@ -18966,32 +19438,6 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179459573W"
-    }
-   ],
-   "first_seen": "2026-09-26"
-  },
-  {
-   "id": "026deedfe99f2f40",
-   "title": "Growth Marketing Manager F/H",
-   "company": "Direct Emploi",
-   "location": "Paris 01 - 75",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-09-28",
-   "salary": "A partir de 45 k€ brut annuel",
-   "description_snippet": "Notre entreprise évolue dans un secteur à forte composante digitale et accompagne le développement de plusieurs marques et offres à destination d'un marché en pleine transformation. Présente à l'international, elle s'appuie sur des solutions technologiques propriétaires, une cult...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179490470W"
     }
    ],
    "first_seen": "2026-09-26"
@@ -19265,6 +19711,32 @@
    "first_seen": "2026-09-24"
   },
   {
+   "id": "978b4df8838fa127",
+   "title": "Chef de Produit - Marché Epi F/H",
+   "company": "Hellowork",
+   "location": "Paris 01 - 75",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-29",
+   "salary": "43 - 50 k€ brut annuel",
+   "description_snippet": "Au sein d'une société familiale en pleine croissance et intégré dans une équipe marketing à taille humaine, le Chef de Marché a pour responsabilité la rentabilité d'une gamme de produits complexe via l'optimisation des actions commerciales, marketing et de communication. A ce ...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179501644W"
+    }
+   ],
+   "first_seen": "2026-09-23"
+  },
+  {
    "id": "221b1bbd4bd104b0",
    "title": "Growth Marketing Manager F/H",
    "company": "BLUETHINK",
@@ -19368,32 +19840,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/dailymotion/jobs/senior-field-marketing-strategy-manager-emea-all-genders_issy-les-moulineaux"
-    }
-   ],
-   "first_seen": "2026-09-23"
-  },
-  {
-   "id": "978b4df8838fa127",
-   "title": "Chef de Produit - Marché Epi F/H",
-   "company": "Hellowork",
-   "location": "Paris 01 - 75",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-09-04",
-   "salary": "43 - 50 k€ brut annuel",
-   "description_snippet": "Au sein d'une société familiale en pleine croissance et intégré dans une équipe marketing à taille humaine, le Chef de Marché a pour responsabilité la rentabilité d'une gamme de produits complexe via l'optimisation des actions commerciales, marketing et de communication. A ce ...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179341854W"
     }
    ],
    "first_seen": "2026-09-23"
@@ -20312,6 +20758,32 @@
     }
    ],
    "first_seen": "2026-08-31"
+  },
+  {
+   "id": "a5692235fb6409f7",
+   "title": "Senior Playable Ads Programmer",
+   "company": "Naphora Games Group",
+   "location": "Télétravail, FR",
+   "city": "Teletravail",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "At **Naphora Games Group**, we're building more than games, we're building a global team of ambitious, driven people who are hungry to learn, experiment, and raise the bar for the next generation of games. We collaborate openly, move fast, and challenge ourselves every day to build better, smarter, and faster. Our goal is to create world\\-class games that players around the globe love and remember",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b8e921ca605c2af1"
+    }
+   ],
+   "first_seen": "2026-09-29"
   },
   {
    "id": "fd28605ff0775e6c",
@@ -21393,13 +21865,13 @@
    "skills": [],
    "bonus_tags": [],
    "score": -8,
-   "date_posted": "2026-09-09",
+   "date_posted": "2026-09-29",
    "salary": "50 - 55 k€ brut annuel",
    "description_snippet": "Rattaché(e) à la Direction Marketing, vous êtes responsable de la stratégie et du développement de la catégorie de produits qui vous est confiée. À ce titre, vos principales responsabilités sont les suivantes : Réaliser les benchmarks et analyses concurrentielles et développer u...",
    "sources": [
     {
      "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179391654W"
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179502050W"
     }
    ],
    "first_seen": "2026-09-10"
