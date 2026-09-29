@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-29T16:22:27Z",
+ "generated_at": "2026-09-29T21:17:07Z",
  "source_stats": {
-  "Indeed": 535,
-  "Welcome to the Jungle": 1723,
+  "Indeed": 563,
+  "Welcome to the Jungle": 1725,
   "France Travail": 18,
-  "APEC": 1707,
+  "APEC": 1708,
   "Isarta": 124
  },
- "count": 785,
- "new_today": 32,
+ "count": 788,
+ "new_today": 35,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -6513,6 +6513,38 @@
    "first_seen": "2026-09-29"
   },
   {
+   "id": "5c7433e2a11e80fa",
+   "title": "Product Marketing Manager",
+   "company": "Swan",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "### **About** Swan is Europe’s embedded banking specialist. We empower software companies to embed banking features like accounts, cards, and payments directly into their products, under their own brand.Swan processes over €2\\.5 billion in monthly transactions for more than 150 companies \\- like Pennylane, Indy, Agicap, Libeo, and Lucca. Founded in 2019, the company has received growth capital fro",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a238377e23e9aaaa"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/product-marketing-manager_paris_SWAN_R2Xyg8o"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
    "id": "ac21c9f1fa750069",
    "title": "Crm manager / expert hubspot F/H",
    "company": "Direct Emploi",
@@ -10989,34 +11021,6 @@
    "first_seen": "2026-08-31"
   },
   {
-   "id": "5c7433e2a11e80fa",
-   "title": "Product Marketing Manager",
-   "company": "Swan",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "gtm"
-   ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-29",
-   "salary": null,
-   "description_snippet": "Product Marketing Manager * You have at least **4 years of experience in Product Marketing** on **complex tech products** * You excel at Product Positioning, with a proven ability to **turn complex tech capabilities** (APIs, financial tools) **into clear benefits** for both business and technical buyers. * You have a **strong track record in GTM Execution**, leading cross-functional product launch",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/product-marketing-manager_paris_SWAN_R2Xyg8o"
-    }
-   ],
-   "first_seen": "2026-09-29"
-  },
-  {
    "id": "d7fa0323d3890930",
    "title": "CHEF DE PRODUIT AUTOMOBILE - F/H",
    "company": "lindustrie-recrute.fr",
@@ -14332,6 +14336,60 @@
    "first_seen": "2026-09-29"
   },
   {
+   "id": "6a7557800951fa23",
+   "title": "CATEGORY MANAGER CABLE ET CHEMINEMENT H/F - BOULOGNE-BILLANCOURT (92)",
+   "company": "Sonepar",
+   "location": "Boulogne-Billancourt, A8, FR",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Sonepar est un groupe familial indépendant, leader mondial de la distribution aux professionnels de matériels électriques, solutions et services associés. Grâce à la densité de son réseau d'enseignes de distribution opérant dans 40 pays, le Groupe conduit une ambitieuse transformation pour devenir le premier distributeur de matériel électrique au monde à proposer à tous ses clients une expérience ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7bb4a151c580a031"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "23cbca555d06bd70",
+   "title": "Growth Marketing Manager F/M | Maritime SaaS",
+   "company": "Spinergie",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Growth Marketing Manager F/M | Maritime SaaS * 3–6 years in B2B marketing, commercial operations, or a hybrid of both; SaaS preferred * Strong practical design ability, builds polished PowerPoint decks and campaign assets independently, with a good eye for layout, hierarchy, and brand consistency * HubSpot power user, Marketing and CRM hubs * Writes well enough to draft customer-facing copy withou",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/spinergie/jobs/growth-marketing-manager-f-m-maritime-saas_paris"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
    "id": "587f822da5795101",
    "title": "Chef de projet Programme de Fidélité (H/F) - CDD 12 mois",
    "company": "Histoire d'Or",
@@ -16555,6 +16613,32 @@
     {
      "name": "APEC",
      "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179502464W"
+    }
+   ],
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "c22361fd8766b24b",
+   "title": "Consultant Salesforce - Chef de Projet CRM F/H",
+   "company": "SPIKEELABS",
+   "location": "Nice - 06",
+   "city": "Nice - 06",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-29",
+   "salary": "60 - 75 k€ brut annuel",
+   "description_snippet": "Pour un grand compte de la Côte d'Azur, vous prenez en charge l'évolution d'une plateforme Salesforce structurante, utilisée par des équipes commerciales et service client sur plusieurs entités. Vous êtes le point de passage entre les métiers, la DSI et les intégrateurs partenair...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179504613W"
     }
    ],
    "first_seen": "2026-09-29"
