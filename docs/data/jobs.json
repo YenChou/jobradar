@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-09-30T16:17:43Z",
+ "generated_at": "2026-09-30T21:14:25Z",
  "source_stats": {
-  "Indeed": 607,
-  "Welcome to the Jungle": 1714,
-  "France Travail": 23,
-  "APEC": 1722,
+  "Indeed": 625,
+  "Welcome to the Jungle": 1702,
+  "France Travail": 26,
+  "APEC": 1716,
   "Isarta": 134
  },
- "count": 801,
- "new_today": 19,
+ "count": 812,
+ "new_today": 30,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -221,6 +221,69 @@
     }
    ],
    "first_seen": "2026-09-21"
+  },
+  {
+   "id": "0e7f32cf182fbb15",
+   "title": "Growth Operations & Automation Specialist",
+   "company": "Pennylane SAS",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations",
+    "marketing_produit"
+   ],
+   "skills": [
+    "automation",
+    "salesforce",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 22,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "**Why this role exists** ------------------------ At Pennylane, Growth Operations is crucial in transforming prospect data and marketing processes into an automated, reliable, and scalable growth engine. We are hiring a **Growth Operations \\& Automation Specialist** to join our Growth team and work at the intersection of business, data, automation, and AI. Your mission: enhance how we identify, en",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=2d2e04fb86bc560a"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "e8bd887be1e0acbe",
+   "title": "Chargé Marketing H/F",
+   "company": "Chazal",
+   "location": "Dole, BFC, FR",
+   "city": "Dole",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 22,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "**L'Élégance du Goût depuis 1976** Fondée en 1976 au cœur du Jura (à Dole), la **Maison Chazal** est une entreprise familiale devenue aujourd'hui un acteur incontournable de la fabrication et de la distribution de produits frais et ultra\\-frais (charcuterie, traiteur, viandes, volailles) En fêtant fièrement nos 50 ans d'existence, nous combinons l'agilité d'une ETI à taille humaine et la force d'u",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=27b3b8839037252c"
+    }
+   ],
+   "first_seen": "2026-09-30"
   },
   {
    "id": "5f291c6516cf72ac",
@@ -1129,6 +1192,43 @@
    "first_seen": "2026-09-04"
   },
   {
+   "id": "eaed874a1979447a",
+   "title": "Traffic Manager SEA/SMA/Affiliation - H/F - Levallois-Perret",
+   "company": "SKILL AND YOU",
+   "location": "Levallois-Perret, A8, FR",
+   "city": "Levallois-Perret",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "kpi",
+    "roi",
+    "sea",
+    "tracking"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "**Description** Skill \\& You est un acteur majeur de la formation à distance, facilitant l’accès à l’apprentissage et à la réussite professionnelle. Chaque année, nous accompagnons plus de 45 000 apprenants dans plus de 200 formations, conçues par des experts métiers et adaptées au rythme de chacun. Avec près de 700 collaborateurs engagés, notre mission est de rendre la formation accessible à tous",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=10ced06d11a6efb5"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/skill-you/jobs/trafic-manager-sea-sma-affiliation-h-f-levallois-perret_levallois-perret"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
    "id": "c941d40132d7d9c7",
    "title": "Assistant(e) Traffic Manager / Acquisition Digitale (H/F)",
    "company": "THE BRIDGE ECOLE ENTREPRISES",
@@ -1528,39 +1628,6 @@
     }
    ],
    "first_seen": "2026-08-31"
-  },
-  {
-   "id": "eaed874a1979447a",
-   "title": "Traffic Manager SEA/SMA/Affiliation - H/F - Levallois-Perret",
-   "company": "SKILL AND YOU",
-   "location": "Levallois-Perret, A8, FR",
-   "city": "Levallois-Perret",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": null,
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "google ads",
-    "kpi",
-    "roi",
-    "sea",
-    "tracking"
-   ],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-09-29",
-   "salary": null,
-   "description_snippet": "**Description** Skill \\& You est un acteur majeur de la formation à distance, facilitant l’accès à l’apprentissage et à la réussite professionnelle. Chaque année, nous accompagnons plus de 45 000 apprenants dans plus de 200 formations, conçues par des experts métiers et adaptées au rythme de chacun. Avec près de 700 collaborateurs engagés, notre mission est de rendre la formation accessible à tous",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=10ced06d11a6efb5"
-    }
-   ],
-   "first_seen": "2026-09-30"
   },
   {
    "id": "51b358c53334364a",
@@ -3084,6 +3151,61 @@
    "first_seen": "2026-08-31"
   },
   {
+   "id": "1fa7e00b5aa576fd",
+   "title": "Chef de projet MOA - Marchés Financiers H/F",
+   "company": "Credit Mutuel Arkea",
+   "location": "Brest, A2, FR",
+   "city": "Brest",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "**Description du poste** ------------------------ ### **Métier** METIERS \\- Projets / Études / MOA/ Chef de produit ### **Intitulé du poste** Chef de projet MOA \\- Marchés Financiers H/F ### **Contrat** CDI ### **Rémunération (brut/an en €) (hors package social)** 35000\\-40000 ### **Votre mission** CDI à pourvoir dès que possible sur Brest. **Le Chef de projet MOA aura pour mission principale de :",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=375fcbfdf05f9d81"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "111459b78a10b0ac",
+   "title": "Responsable offre international et diversification (H/F)- cdd",
+   "company": "Picard",
+   "location": "Issy-les-Moulineaux, A8, FR",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "**Entreprise** ============== **Notre état d'esprit, chez Picard, se résume en trois mots : simplicité, collectif et audace.** Enseigne préférée des Français en 2026, nous réunissons près de 5 000 collaborateurs autour d’une conviction simple et forte : se réinventer chaque jour sans jamais faire de compromis sur le service et la qualité. Avec plus de 1 200 magasins en France et de nouvelles ouver",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d1f70c13e22512ea"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
    "id": "5ec44c70e9a7da96",
    "title": "Creative Producer",
    "company": "TripleTen",
@@ -4604,6 +4726,34 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=cce89ab62971fab8"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "de14db38a261d885",
+   "title": "Creative Producer (Performance Marketing)",
+   "company": "Social Discovery Group",
+   "location": "GE, FR",
+   "city": "Ge",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roas"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "Social Discovery Group (https://socialdiscoverygroup.com/) (SDG) is a group of social discovery companies. SDG solves the problems of loneliness, isolation, and disconnection \\- transforming virtual intimacy into the new normal. SDG's products redefine the way people interact and connect with one another. Our portfolio includes social entertainment platforms designed to connect people online acros",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d36ceca09e550c60"
     }
    ],
    "first_seen": "2026-09-30"
@@ -6489,6 +6639,61 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=e481f2dea8389855"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "5e99cab8dcd9abb7",
+   "title": "Chef de projet CRM (F/H) h/f",
+   "company": "",
+   "location": "44 - Vertou",
+   "city": "44 - Vertou",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "marketing automation",
+    "newsletter"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Chez Maisons du Monde, nous donnons vie aux inspirations ! Engagés pour un commerce plus responsable, nous intégrons la RSE au cœur de notre activité et de nos créations, avec des initiatives pour la protection de l'environnement et le soutien aux communautés locales. Nous sommes également engagés pour nos Collaboratrices durant leur parcours de vie : parentalité, santé, équilibre vie pro/perso, é",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7534555"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "f6ac2b64760b0a89",
+   "title": "Product Marketing Manager GEO / IA générative) F/H",
+   "company": "Traaker",
+   "location": "Toulouse - 31",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-30",
+   "salary": "38 - 47 k€ brut annuel",
+   "description_snippet": "Votre rôle Vous êtes au croisement du Produit, des Sales, du Customer Success et des utilisateurs. Vous êtes rattaché(e) au fondateur. Votre mission : comprendre comment chaque segment utilise Traaker, des agences SEO et marketing aux grands comptes, et quels use cases lui a...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179511328W"
     }
    ],
    "first_seen": "2026-09-30"
@@ -9022,6 +9227,34 @@
    "first_seen": "2026-09-30"
   },
   {
+   "id": "ba03f9a102aa6a97",
+   "title": "Responsable Marketing Communication F/H",
+   "company": "Thales",
+   "location": "Vélizy-Villacoublay, A8, FR",
+   "city": "Velizy-Villacoublay",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Lieu : Vélizy\\-Villacoublay, France**Construisons ensemble un avenir de confiance** ------------------------------------------------ Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d’activité : Défense \\& Sécurité, Aéronautique \\& Spatial, et Cyber \\& Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’envir",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a5cdcaed9d27c758"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
    "id": "8ae5337a783594dd",
    "title": "CHEF DE MARCHE JUNIOR H/F",
    "company": "Jungheinrich",
@@ -11297,6 +11530,32 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7514944"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "87436160c19db552",
+   "title": "E-COMMERCE-MARKETING -VENTE H/F",
+   "company": "WAXX",
+   "location": "Cassis, B8, FR",
+   "city": "Cassis",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "La société NEOSOLUTIONS possède plusieurs marques dans le domaine du prêt à porter, du sportwear et de l'outdoor. Dans le cadre de notre développement, nous recherchons un chef de produit / e\\-commerce – marketing – vente pour renforcer l'équipe. Rattaché à la direction marketing\\-achat, vous avez en charge l’accélération de la croissance digitale via l’ensemble des leviers e\\-commerce ( en matièr",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ca78c3f07701e9eb"
     }
    ],
    "first_seen": "2026-09-30"
@@ -19734,6 +19993,34 @@
    "first_seen": "2026-09-30"
   },
   {
+   "id": "6f4cc12c903e0389",
+   "title": "Chef de Produit Marketing Marque Sénior(H/F) Ville (N°dpt)",
+   "company": "Lactalis",
+   "location": "Laval, B5, FR",
+   "city": "Laval",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Référence : 57192 Le Groupe Lactalis, n°1 mondial des produits laitiers, a forgé sa singularité à travers une histoire familiale unique, aujourd’hui partagée par 85 000 collaborateurs à travers le monde. Rejoignez des équipes passionnées par leur métier, reconnues pour leurs expertises, et qui chaque jour, par leur engagement, font grandir avec audace et pragmatisme des marques connues et reconnue",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=eba61aaf5488ba53"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
    "id": "53258118e267fa9b",
    "title": "Head of Ecosystem Sales - Central & South Europe (m/f/d)",
    "company": "Infor",
@@ -21931,6 +22218,32 @@
     }
    ],
    "first_seen": "2026-09-02"
+  },
+  {
+   "id": "50d5a6048b472224",
+   "title": "Chef de Produit Marketing Marque Sénior Ville (N°dpt) F/H",
+   "company": "LACTALIS GESTION PLANIFICATION ORGANISATION",
+   "location": "Laval - 53",
+   "city": "Laval - 53",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -6,
+   "date_posted": "2026-09-30",
+   "salary": "A négocier",
+   "description_snippet": "Votre futur poste Faire grandir une marque iconique est un équilibre passionnant : capitaliser sur ce qui fait sa force tout en inventant la suite de son histoire. Des millions de Français connaissent La Laitière, leader du marché ultra frais. Notre enjeu n'est pas d'être connue...",
+   "sources": [
+    {
+     "name": "APEC",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179511300W"
+    }
+   ],
+   "first_seen": "2026-09-30"
   },
   {
    "id": "a7b47b8d6c28a073",
