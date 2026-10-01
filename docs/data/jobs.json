@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-10-01T16:56:38Z",
+ "generated_at": "2026-10-01T21:37:26Z",
  "source_stats": {
-  "Indeed": 1468,
+  "Indeed": 1447,
   "Welcome to the Jungle": 3617,
-  "France Travail": 123,
+  "France Travail": 132,
   "APEC": 0,
   "Isarta": 141
  },
- "count": 964,
- "new_today": 188,
+ "count": 982,
+ "new_today": 206,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -1129,6 +1129,43 @@
    "first_seen": "2026-09-15"
   },
   {
+   "id": "c83307aa26c8da1d",
+   "title": "Traffic manager (H/F)",
+   "company": "macompta.fr",
+   "location": "Lagord, NA, FR",
+   "city": "Lagord",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "meta ads",
+    "roas",
+    "roi",
+    "sea",
+    "seo",
+    "tracking",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "**Votre rôle :** En tant que **Traffic Manager**, rattaché·e à la Responsable Marketing, vous pilotez nos campagnes d’acquisition payante (SEA, SMA, partenariats d’affiliation) et contribuez à l’optimisation des parcours de conversion. Vous travaillez en étroite collaboration avec les équipes commerciales et techniques, avec une large autonomie d’exécution et l’ambition de renforcer notre performa",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c77b09bb137ed0b7"
+    }
+   ],
+   "first_seen": "2026-09-14"
+  },
+  {
    "id": "ae3888820c112369",
    "title": "Growth Marketing Manager (H/F)",
    "company": "UPTOO",
@@ -1259,6 +1296,67 @@
     }
    ],
    "first_seen": "2026-09-04"
+  },
+  {
+   "id": "bd83d5354e701784",
+   "title": "Business Systems Analyst",
+   "company": "ASHBY",
+   "location": "Eu, N, FR",
+   "city": "Eu",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "hubspot",
+    "salesforce",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "**The Role** ------------ Ashby's GTM engine runs on a set of interconnected systems. Keeping them accurate, efficient, and trusted is the foundation everything else is built on. As our GTM Systems Analyst, you'll own the daily maintenance and configuration of technical layer that powers our Go\\-to\\-Market organization: the CRM configurations, integration architecture, and data quality practices t",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3980bf79748c5e99"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "4ad401b9e0f8e9d1",
+   "title": "Coordinateur Marketing EMEA - Anglais/Allemand - H/F",
+   "company": "",
+   "location": "78 - Yvelines",
+   "city": "78 - Yvelines",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "processus"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 18,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "Chez SOLMAX, nous nous engageons à créer un monde plus durable grâce à des solutions géosynthétiques innovantes. Notre futur site de production des Mureaux joue un rôle unique au sein de l'organisation EMEA en tant que seul site de fabrication produisant des géosynthétiques tissés. Ces produits contribuent à des projets de génie civil et d'infrastructure, à la protection de l'environnement et à de",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7566023"
+    }
+   ],
+   "first_seen": "2026-10-01"
   },
   {
    "id": "eaed874a1979447a",
@@ -1565,6 +1663,34 @@
     }
    ],
    "first_seen": "2026-09-08"
+  },
+  {
+   "id": "1cd45637939031d8",
+   "title": "Partner Marketing Specialist",
+   "company": "Pennylane SAS",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 16,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "Vous cherchez un environnement professionnel stimulant basé sur l'autonomie et la confiance? Pennylane vous offre l'opportunité de grandir au sein d'une entreprise en pleine croissance. Ici, votre expertise contribuera directement à aider les entrepreneurs à reprendre le contrôle de leurs finances. Découvrez un lieu où vos compétences seront valorisées et où vous pourrez façonner l'avenir de la ge",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5333c782758234e2"
+    }
+   ],
+   "first_seen": "2026-10-01"
   },
   {
    "id": "4baa2e5ea10184b0",
@@ -2374,40 +2500,6 @@
     }
    ],
    "first_seen": "2026-09-15"
-  },
-  {
-   "id": "c83307aa26c8da1d",
-   "title": "Traffic Manager (H/F)",
-   "company": "Macompta.fr",
-   "location": "Lagord",
-   "city": "Lagord",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "google ads",
-    "meta ads",
-    "roi",
-    "seo",
-    "tracking"
-   ],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-09-14",
-   "salary": null,
-   "description_snippet": "Traffic Manager (H/F) * **3 à 5 ans d'expérience en acquisition digitale** (agence ou annonceur), avec une bonne compréhension des logiques d'acquisition et de conversion idéalement en environnement SaaS * Expertise confirmée de **Google Ads**, indispensable pour ce poste * Bonne connaissance du **marketing d'affiliation** (identification, négociation et suivi de partenariats) * La connaissance de",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/macompta-fr/jobs/traffic-manager-h-f_lagord"
-    }
-   ],
-   "first_seen": "2026-09-14"
   },
   {
    "id": "b54bb8f97e971fb1",
@@ -4820,6 +4912,68 @@
    "first_seen": "2026-09-01"
   },
   {
+   "id": "2b5df0c5906187ec",
+   "title": "Responsable de programmes solutions Broadband H/F",
+   "company": "SAGEMCOM",
+   "location": "Les Bruyères, N, FR",
+   "city": "Les Bruyeres",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "**Informations générales** -------------------------- ### **Service de rattachement** Partout dans le monde, grâce aux solutions innovantes conçues et fabriquées par ses équipes, Sagemcom permet au plus grand nombre d'accéder au haut débit Internet, aux divertissements, et à une énergie maîtrisée. Entreprise à mission depuis 2022, Sagemcom est leader technologique dans le monde des télécoms et de ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=622f16af8dbf76f2"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "764800d345199377",
+   "title": "Traffic Manager Marketplace (H/F)",
+   "company": "",
+   "location": "59 - Nieppe",
+   "city": "59 - Nieppe",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "Traffic Manager Marketplace F/H La société VANDERSCHOOTEN, c'est l'histoire d'un savoir-faire textile français qui traverse les générations et continue de se réinventer. Depuis plus de 80 ans, nous créons, fabriquons et distribuons un linge de maison qui allie exigence, esthétique et responsabilité, à travers 3 marques iconiques : - Alexandre Turpault, la référence du raffinement à la française ; ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7566343"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "895c1019807ee1da",
    "title": "Chef.fe de produit Habitat - CDD (H/F)",
    "company": "VENTE UNIQUE",
@@ -7119,6 +7273,94 @@
    "first_seen": "2026-10-01"
   },
   {
+   "id": "c67b27cea8c7f660",
+   "title": "Senior Marketing analyst",
+   "company": "Social Discovery Group",
+   "location": "GE, FR",
+   "city": "Ge",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "a/b testing",
+    "conversion",
+    "roas",
+    "roi"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "Social Discovery Group (https://socialdiscoverygroup.com/) (SDG) is a group of social discovery companies. SDG solves the problems of loneliness, isolation, and disconnection \\- transforming virtual intimacy into the new normal. SDG's products redefine the way people interact and connect with one another. Our portfolio includes social entertainment platforms designed to connect people online acros",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=50db5859074a9302"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "43323f3d7a2ff5ff",
+   "title": "Customer Success Manager H/F",
+   "company": "",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "À propos de Yokitup Conçu pour les enseignes multisites, fast foods, dark kitchens, laboratoires, hôtels ; Yokitup est le co-pilote de croissance de centaines de restaurateurs. Notre solution permet à nos clients de piloter précisément leurs stocks, optimiser la chaîne opérationnelle de leurs établissements et l'analyse de leur rentabilité. Comment ? Grâce à nos 5 modules opérationnels : approvisi",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7566590"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "dc0ee978638d82a3",
+   "title": "Chef de Produit - Chinois courant H/F",
+   "company": "",
+   "location": "13 - Aix-en-Provence",
+   "city": "13 - Aix-En-Provence",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "Un de nos clients, spécialisé dans le marketing opérationnel et les objets promotionnels, recrute un Chef de produits H/F pour renforcer son équipe. Votre mission sera d'assurer le sourcing et les achats auprès de fournisseurs asiatiques, de coordonner la fabrication et le suivi de production, d'accompagner les commerciaux dans la construction des offres et d'assurer le suivi des projets jusqu'à l",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7566419"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "f88929f230a187f7",
    "title": "Customer Success manager (h/f)",
    "company": "Ingram Micro",
@@ -7843,40 +8085,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=e2c5123cf6a39456"
-    }
-   ],
-   "first_seen": "2026-09-29"
-  },
-  {
-   "id": "5c7433e2a11e80fa",
-   "title": "Product Marketing Manager",
-   "company": "Swan",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "gtm"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-09-28",
-   "salary": null,
-   "description_snippet": "### **About** Swan is Europe’s embedded banking specialist. We empower software companies to embed banking features like accounts, cards, and payments directly into their products, under their own brand.Swan processes over €2\\.5 billion in monthly transactions for more than 150 companies \\- like Pennylane, Indy, Agicap, Libeo, and Lucca. Founded in 2019, the company has received growth capital fro",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=a238377e23e9aaaa"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/product-marketing-manager_paris_SWAN_R2Xyg8o"
     }
    ],
    "first_seen": "2026-09-29"
@@ -10211,6 +10419,64 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7539717"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "b4c5cc0cc87f85c3",
+   "title": "Solutions Architect - NVIDIA AI Cloud Partners",
+   "company": "NVIDIA",
+   "location": "Courbevoie, A8, FR",
+   "city": "Courbevoie",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward\\-thinking and hardworking people in the world working for us. If you're creative, hard\\-working, and self\\-motivated, we want to hear from you! We are looking for a Network Solutions Architect to join the NVIDIA team focused on supporting NVIDIA AI Cloud Partners as they build",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0a6692fac3f5da78"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "31adb54a491cea4e",
+   "title": "Chef de produit H/F",
+   "company": "",
+   "location": "13 - Fuveau",
+   "city": "13 - Fuveau",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "LYNX RH recrute pour l'un de ses clients un Chef de Produit H/F spécialisé dans le domaine des dispositifs médicaux. Une expérience dans ce secteur ainsi qu'un anglais professionnel sont indispensables ! Des déplacements réguliers sur toute la France sont à prévoir. Vos missionsDéfinir et piloter la stratégie de développement de la gamme de produits.Élaborer et mettre en œuvre les plans d'actions ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7565238"
     }
    ],
    "first_seen": "2026-10-01"
@@ -12759,6 +13025,62 @@
    "date_assumed": true
   },
   {
+   "id": "d7a5c9537a90c13d",
+   "title": "Digital product manager h/f",
+   "company": "UGC",
+   "location": "Neuilly-sur-Seine, A8, FR",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "### **À propos de nous** UGC est un acteur majeur du cinéma en Europe francophone avec 48 cinémas et 510 salles en France, dont UGC Ciné Cité Les Halles à Paris, le cinéma le plus fréquenté au monde. En Belgique, UGC compte 7 cinémas et 74 salles. Le réseau s’est récemment agrandi avec 6 nouveaux cinémas ouverts en 2021 et 2022, ainsi que l’UGC Majestic Meaux en 2024\\. UGC se distingue également d",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f82b81aaa51a4251"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "1d7b652a8fb5d511",
+   "title": "Chef de Produit Electricité (F/H)",
+   "company": "Alliance Marine Group",
+   "location": "La Garde, B8, FR",
+   "city": "La Garde",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "**Rejoignez un acteur majeur de l'équipement nautique** VDM REYA, filiale du Groupe Alliance Marine, recrute un(e) Chef(fe) de Produit Électricité afin de piloter le développement de notre Business Unit Électricité, dédiée aux équipements électriques et électroniques destinés aux bateaux de plaisance et de grande plaisance. En intégrant notre équipe Marketing \\& Achats, vous participerez activemen",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=08628d339462cae7"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "227000b6b7b98d4a",
    "title": "Customer Success Manager",
    "company": "EasyVista",
@@ -12869,6 +13191,36 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7521721"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "dd008c085d186f8f",
+   "title": "CDD - Chef de produit Haute Joaillerie",
+   "company": "Chaumet",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "### **Position** *Située au cœur de la Place Vendôme, la Maison Chaumet est un acteur majeur dans le secteur du luxe et incarne l'excellence joaillière parisienne depuis sa création en 1780\\. Grâce à ses savoir\\-faire d’exception transmis d’une génération à l’autre, l’histoire de Chaumet se confond avec l’Histoire de* *France* *.* La Maison Chaumet recherche un(e) **Chef de produit Haute Joailleri",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=2102b69e45178ca2"
     }
    ],
    "first_seen": "2026-10-01"
@@ -13775,6 +14127,36 @@
     }
    ],
    "first_seen": "2026-09-30"
+  },
+  {
+   "id": "5c7433e2a11e80fa",
+   "title": "Product Marketing Manager",
+   "company": "Swan",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager * You have at least **4 years of experience in Product Marketing** on **complex tech products** * You excel at Product Positioning, with a proven ability to **turn complex tech capabilities** (APIs, financial tools) **into clear benefits** for both business and technical buyers. * You have a **strong track record in GTM Execution**, leading cross-functional product launch",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/product-marketing-manager_paris_SWAN_R2Xyg8o"
+    }
+   ],
+   "first_seen": "2026-09-29"
   },
   {
    "id": "d7fa0323d3890930",
@@ -16852,6 +17234,32 @@
    "first_seen": "2026-10-01"
   },
   {
+   "id": "6b2b4805ad14a5fc",
+   "title": "Approvisionneur - H/F (CDI) Paris",
+   "company": "WeFix",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "**WeFix By Fnac Darty** est une entreprise spécialisée dans la vente de téléphones reconditionnées ainsi que la réparation de tous types de téléphones, tablettes et ordinateurs mais également la vente de services. Nous comptons plus de 100 points de ventes implantés partout sur le territoire Français. Notre objectif : **Accompagner les clients pour prolonger la durée de vie des smartphones et tabl",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=20dab2c509e39bf6"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "3aead37001ecf676",
    "title": "Guest Relation Manager",
    "company": "Sofitel",
@@ -17225,6 +17633,33 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7494222"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "8c1ca5a10b49e092",
+   "title": "Conseiller.ère de vente (m/f/d*) - Tommy Hilfiger - Paris Capucines - CDD 35h",
+   "company": "CALVIN KLEIN",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Location: Paris, France Category: Retail Management Job ID: R62255 widget: Full time Brand: Tommy Hilfiger Retail **Prenez part à une histoire emblématique.** TOMMY HILFIGER est le lieu où créativité, ambition et style moderne se rencontrent pour façonner l'avenir. Apportez vos idées, osez voir grand et rejoignez une marque internationale portée par l'énergie et l'innovation. Si vous souhaitez fai",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f6bac642dac8ea45"
     }
    ],
    "first_seen": "2026-10-01"
@@ -20806,6 +21241,38 @@
    "first_seen": "2026-10-01"
   },
   {
+   "id": "3311beee833bcda3",
+   "title": "Senior Marketing Data Analyst",
+   "company": "Qonto",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [
+    "dashboard",
+    "sql",
+    "tableau"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "**Required skills** * Data Analysis **Our mission and customers:** We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be ***rated 4\\.8 on Trustpilot******,***based on 55,000\\+ reviews. ***Our culture***puts customer satisfaction at the core of what we do, as proven by our Net Promo",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=df243bb956a19c7d"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "73b1c71a3e9adcc5",
    "title": "Head of Marketing",
    "company": "Swan",
@@ -23631,6 +24098,34 @@
    "first_seen": "2026-10-01"
   },
   {
+   "id": "503871938380b814",
+   "title": "Head of Product Marketing",
+   "company": "Indy",
+   "location": "Lyon, ARA, FR",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "**À propos** ------------ #### **L'application tout\\-en\\-un dédiée aux indépendants.** Être indépendant, c’est avoir plusieurs métiers : son activité, son administratif, ses finances… Sauf qu’ils ont rarement des notions de comptabilité ! Pourtant, en France, il est obligatoire pour tous les indépendants, quelle que soit leur forme juridique, de tenir leur comptabilité et de déclarer leurs revenus",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=bec3f09172bd21d3"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "0b2841386aefeab5",
    "title": "Collaborateur comptabe - pole international - paris8 - (H/F)",
    "company": "ENDRIX",
@@ -25384,6 +25879,34 @@
     }
    ],
    "first_seen": "2026-09-01"
+  },
+  {
+   "id": "abf7eddf6dd94c5f",
+   "title": "Head of Marketing Client Success F/H",
+   "company": "JCDecaux",
+   "location": "Neuilly-sur-Seine, A8, FR",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "Bienvenue chez JCDecaux ! Chez JCDecaux, nous façonnons l'avenir de la communication extérieure. Nous nous engageons à être le média responsable et durable qui sert la communauté, tant en ville que dans les lieux de transport et de commerce. Notre histoire commence en 1964 avec la création d’un nouveau modèle économique : proposer des produits et des services utiles et durables (Abribus, Mobilier ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c41b1fcfc4c5df04"
+    }
+   ],
+   "first_seen": "2026-10-01"
   },
   {
    "id": "b03bde8387cd742d",
