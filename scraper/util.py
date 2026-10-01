@@ -50,12 +50,17 @@ def strip_accents(text: str) -> str:
     )
 
 
+# 彎引號、modifier apostrophe 一律轉成直引號：法文職缺常寫 « centre d’appels »，
+# keywords.yml 裡寫的卻是 "centre d'appels"，不統一就永遠對不到。
+_QUOTES = str.maketrans({"\u2019": "'", "\u2018": "'", "\u02bc": "'"})
+
+
 def norm(text: str | None) -> str:
-    """小寫、去重音、壓空白 — 所有關鍵字比對前都先過這個。"""
+    """小寫、去重音、統一引號、壓空白 — 所有關鍵字比對前都先過這個。"""
     text = clean_str(text)
     if not text:
         return ""
-    text = strip_accents(text).lower()
+    text = strip_accents(text).lower().translate(_QUOTES)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 

@@ -74,6 +74,7 @@ for title, desc, why in [
     ("Assistant (H/F)", "- Chinois courant", "- Chinois courant（前面有空白的 - 是列點）"),
     ("Assistant (H/F)", "Vous parlez couramment chinois.", "parlez couramment chinois"),
     ("Assistant (H/F)", "Vous êtes à l'aise en chinois.", "à l'aise en chinois"),
+    ("Assistant (H/F)", "Vous êtes à l’aise en chinois.", "à l’aise en chinois（彎引號）"),
     ("Assistant (H/F)", "Profil : chinois indispensable.", "子句開頭的 chinois indispensable"),
     ("Assistant (H/F)", "Chinois lu, écrit, parlé.", "Chinois lu, écrit, parlé"),
     ("Assistant (H/F)", "Le chinois est un atout.", "le chinois est un atout（冠詞＋語言名詞）"),
@@ -165,7 +166,8 @@ for title in ["Customer Marketing Specialist", "Customer Success Manager (H/F)",
               "Customer Lifecycle Manager", "Responsable Engagement Client Omnicanal"]:
     c = cats(title)
     ok(c is not None and "customer" in c, f"{title} → {c}")
-for title in ["Customer Service Representative", "Conseiller relation client (H/F)",
+for title in ["Customer Experience - centre d’appels", "Customer Experience - centre d'appels",
+              "Customer Service Representative", "Conseiller relation client (H/F)",
               "Conseiller Expérience Client (H/F)", "Customer Experience Agent",
               "Téléconseiller Customer Success (H/F)"]:
     ok(cats(title) is None, f"客服職缺不收：{title}")
@@ -175,6 +177,14 @@ ok(c is not None and "customer" not in c and "marketing_produit" in c,
 r = run("Customer Success Manager", "Réduire le churn, suivre le NPS.")
 ok({"churn", "nps"} <= set(r["skills"]), f"Customer 的技能關鍵字加分：{r['skills']}")
 ok(cfg["categories"]["customer"]["label"] == "Customer", "職類名稱是 Customer")
+
+# ── 彎引號 ’ 與直引號 ' 要一樣 ──
+print()
+print("── 彎引號與直引號視為相同 ──")
+from scraper.util import norm
+ok(norm("Centre d’appels") == norm("centre d'appels") == "centre d'appels", "norm 把 ’ 統一成 '")
+c = cats("Chargée d’acquisition (H/F)")
+ok(c is not None and "performance_marketing" in c, f"Chargée d’acquisition（彎引號）→ {c}")
 
 # ── 設定檔裡寫大寫、重音也要對得到 ──
 print()
