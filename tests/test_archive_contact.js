@@ -1,31 +1,51 @@
-// 封存頁的「LinkedIn 聯絡」追蹤：投遞後要聯絡 HR 或該 team 的人，
-// 勾起來就知道哪些還沒做。
+// 封存頁：「LinkedIn 聯絡」追蹤（投遞後要聯絡 HR 或該 team 的人，勾起來就知道
+// 哪些還沒做）、依職缺公告日期排序、封存資料的清理與匯入。
 //
 // 執行：cd tests && npm i jsdom && node test_archive_contact.js
+//
+// 全部用自己造的資料，不讀每天會變的 docs/data/jobs.json：資料停更或換了內容，
+// 測試也不會突然變紅。
 const fs = require("fs"), path = require("path");
-const { JSDOM } = require("jsdom");
-const ROOT = path.join(__dirname, "..", "docs");
-const html = fs.readFileSync(path.join(ROOT, "index.html"), "utf8");
-const data = JSON.parse(fs.readFileSync(path.join(ROOT, "data/jobs.json"), "utf8"));
+const { JSDOM, VirtualConsole } = require("jsdom");
+const html = fs.readFileSync(path.join(__dirname, "..", "docs", "index.html"), "utf8");
+
+// 跟頁面一樣用巴黎當地日期，才會落在預設的「最近 7 天」裡
+const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Paris", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+const mkJob = (id, posted, extra) => ({
+  id, title: "T" + id, company: "C" + id, location: "Paris", city: "Paris", region: "paris",
+  work_mode: null, contract: "CDI", categories: ["crm"], skills: [], bonus_tags: [], score: 10,
+  date_posted: posted, first_seen: posted, salary: null, description_snippet: "",
+  sources: [{ name: "S", url: "https://example.org/" + id }], ...extra });
+const data = { generated_at: new Date().toISOString(), count: 3, new_today: 3, source_stats: { S: 3 },
+               jobs: [mkJob("j1", today), mkJob("j2", today), mkJob("j3", today)] };
 
 let lastAlert = null;
-const dom = new JSDOM(html, {
-  runScripts: "dangerously", url: "https://example.org/",
-  beforeParse(w){
-    w.fetch = () => Promise.resolve({ ok:true, json: () => Promise.resolve(data) });
-    w.alert = m => { lastAlert = m; };
-  },
-});
-const w = dom.window;
+// 開一個新頁面；seed 是開頁前就在 localStorage 裡的東西。回傳頁面與頁面腳本拋出的錯誤
+function boot(seed, url){
+  const errors = [];
+  const vc = new VirtualConsole();
+  vc.on("jsdomError", e => errors.push(e));
+  const dom = new JSDOM(html, {
+    runScripts: "dangerously", url: url || "https://example.org/", virtualConsole: vc,
+    beforeParse(w){
+      for (const [k, v] of Object.entries(seed || {})) w.localStorage.setItem(k, JSON.stringify(v));
+      w.fetch = () => Promise.resolve({ ok:true, json: () => Promise.resolve(JSON.parse(JSON.stringify(data))) });
+      w.alert = m => { lastAlert = m; };
+    },
+  });
+  return new Promise(r => setTimeout(() => r({ w: dom.window, errors }), 300));
+}
 
-// 測試本身拋錯（例如資料不如預期）時要明確失敗，不能連摘要都沒印
+// 測試本身拋錯時要明確失敗，不能連摘要都沒印
 process.on("unhandledRejection", e => { console.log("❌ 測試拋錯：" + (e && e.stack || e)); process.exit(1); });
 
-setTimeout(async () => {
+(async () => {
+  const { w, errors: pageErrors } = await boot();
   const d = w.document, $ = s => d.querySelector(s), $$ = s => [...d.querySelectorAll(s)];
   let fail = 0;
   const ok = (c, m) => { console.log((c?"✅":"❌")+" "+m); if(!c) fail++; };
   const arch = () => JSON.parse(w.localStorage.getItem("jr_archive") || "{}");
+  ok($("#cards").children.length === 3, "主列表載入自造資料：" + $("#cards").children.length + " 筆");
 
   // 你的流程：投遞 → 自動封存
   const c0 = $("#cards").children[0], c1 = $("#cards").children[1];
@@ -87,12 +107,12 @@ setTimeout(async () => {
   const a = arch(); const k = Object.keys(a)[0];
   delete a[k].contacted; delete a[k].contacted_at;
   w.localStorage.setItem("jr_archive", JSON.stringify(a));
-  w.eval("archive = store.get('jr_archive', {}); renderArchive();");
+  w.eval("archive = cleanArchive(store.get('jr_archive', {})); renderArchive();");
   ok(cards().some(c => c.querySelector(".b.todo")), "舊封存資料（無 contacted 欄位）視為待聯絡，不會炸");
 
   // localStorage 寫入失敗時要還原，否則畫面說「已聯絡」但重載後消失
   console.log();
-  w.eval("archive = store.get('jr_archive', {}); archTodoOnly = false; renderArchive();");
+  w.eval("archive = cleanArchive(store.get('jr_archive', {})); archTodoOnly = false; renderArchive();");
   const target = cards()[0];
   const before = JSON.parse(w.localStorage.getItem("jr_archive"));
   const beforeCount = $("#arch-count").textContent;
@@ -109,21 +129,18 @@ setTimeout(async () => {
      "寫入失敗時畫面還原，不會顯示成已聯絡：" + $("#arch-count").textContent);
   ok(/沒有存起來/.test(lastAlert || ""), "有提示使用者：" + lastAlert);
 
-  // ---- 排序與日期 ----
-  // 這段全部用自己造的資料，不讀每天會變的 jobs.json：哪天資料換了也不會突然變紅。
+  // ---- 排序：待聯絡優先，組內依公告日期新到舊（推定日期一起排），同日看封存日 ----
   console.log();
   const titles = () => cards().map(c => c.querySelector(".title").textContent.trim());
   const cardOf = t => cards().find(c => c.querySelector(".title").textContent.trim() === t);
-  const mkJob = (id, posted, extra) => ({
-    id, title: "T" + id, company: "C", location: "", city: "", region: "other",
-    categories: [], bonus_tags: [], sources: [{ name: "S", url: "https://example.org/" + id }],
-    date_posted: posted, first_seen: posted, ...extra });
+  const dateOf = t => cardOf(t).querySelector(".date").textContent;
   const fake = (id, posted, at, extra) => ({ job: mkJob(id, posted, extra), at, why: "manual" });
+  // 模擬「重新載入頁面」：從 localStorage 讀封存（會清理）、換上架資料、跑載入時的同步
   const loadArch = (obj, liveJobs) => {
     w.localStorage.setItem("jr_archive", JSON.stringify(obj));
     w.__live = liveJobs || [];
     $("#aq").value = "";
-    w.eval("archive = store.get('jr_archive', {}); archTodoOnly = false;" +
+    w.eval("archive = cleanArchive(store.get('jr_archive', {})); archTodoOnly = false;" +
            "DATA = { ...DATA, jobs: window.__live }; syncLive(); renderArchive();");
   };
 
@@ -132,40 +149,51 @@ setTimeout(async () => {
     x2: fake("x2", "2026-09-20", "2026-09-02"),
     x3: fake("x3", "2026-09-10", "2026-09-15"),
     x4: { ...fake("x4", "2026-09-25", "2026-09-26"), contacted: true, contacted_at: "2026-09-27" },
-    // 與 x3 同一天公告：封存日較新的排前面
-    x6: fake("x6", "2026-09-10", "2026-09-20"),
-    // 推定日期（已下架、沒機會補真日期）：一定偏新，排在真日期之後
-    x8: fake("x8", "2026-09-29", "2026-09-29", { date_assumed: true }),
-    // 舊資料沒有 date_posted、只有 first_seen：也是推定值
-    x5: fake("x5", null, "2026-09-01", { first_seen: "2026-09-12" }),
-    // 匯入的備份被手改：數字、其他日期格式都當成沒有日期，排最後、不顯示
+    x6: fake("x6", "2026-09-10", "2026-09-20"),                          // 與 x3 同日：封存日較新的在前
+    x8: fake("x8", "2026-09-29", "2026-09-29", { date_assumed: true }),  // 推定日期：照日期一起排
+    x5: fake("x5", null, "2026-09-01", { first_seen: "2026-09-12" }),    // 只有 first_seen：也是推定
+    // 不合理的日期一律忽略，沒有日期的排最後（彼此再看封存日）
     x7: fake("x7", 20260920, "2026-09-03", { first_seen: 20260920 }),
     x9: fake("x9", "9/25/2026", "2026-09-04", { first_seen: "9/25/2026" }),
+    x10: fake("x10", "2026-13-45", "2026-09-05", { first_seen: "2026-02-30" }),
+    x11: fake("x11", "9999-01-01", "2026-09-06", { first_seen: "9999-01-01" }),
   });
-  ok(JSON.stringify(titles()) === JSON.stringify(["Tx2", "Tx6", "Tx3", "Tx1", "Tx8", "Tx5", "Tx9", "Tx7", "Tx4"]),
-     "待聯絡優先；組內真日期新到舊、同日看封存日；推定日期其次；無效日期最後：" + titles().join(","));
-  ok(cardOf("Tx8").querySelector(".date").textContent === "約 2026-09-29", "推定日期標「約」");
-  ok(cardOf("Tx5").querySelector(".date").textContent === "約 2026-09-12", "只有 first_seen 也標「約」");
-  ok(cardOf("Tx2").querySelector(".date").textContent === "2026-09-20", "真日期不標「約」");
-  for (const t of ["Tx7", "Tx9"])
-    ok(cardOf(t).querySelector(".date").textContent === "", t + " 的無效日期不顯示：「" + cardOf(t).querySelector(".date").textContent + "」");
+  ok(JSON.stringify(titles()) === JSON.stringify(
+       ["Tx8", "Tx2", "Tx5", "Tx6", "Tx3", "Tx1", "Tx11", "Tx10", "Tx9", "Tx7", "Tx4"]),
+     "排序：" + titles().join(","));
+  ok(dateOf("Tx8") === "約 2026-09-29", "推定日期標「約」");
+  ok(dateOf("Tx5") === "約 2026-09-12", "只有 first_seen 也標「約」");
+  ok(dateOf("Tx2") === "2026-09-20", "真日期不標「約」");
+  for (const t of ["Tx7", "Tx9", "Tx10", "Tx11"])
+    ok(dateOf(t) === "", t + " 的不合理日期不顯示：「" + dateOf(t) + "」");
 
-  // 職缺還在架上：用 jobs.json 的真日期取代快照裡推定的或過時的日期，並寫回封存
+  // ---- 載入時把架上的真日期接回封存 ----
+  console.log();
   loadArch({
+    // 推定 9/30、架上真日期 9/04（不晚於推定）→ 接上
+    L1: fake("L1", "2026-09-30", "2026-09-30", { date_assumed: true }),
+    // 已經是真日期：一律不動。同公司同職稱重新刊登會拿到同一個 ID，不能蓋掉你投遞那筆的日期
+    L2: { ...fake("L2", "2026-08-01", "2026-08-02"), why: "applied" },
+    // 推定 8/01、架上真日期 9/20 晚於推定 → 那是重新刊登的另一筆，不接
+    L3: fake("L3", "2026-08-01", "2026-08-01", { date_assumed: true }),
+    // 已經是真日期，架上的日期就算更早也不動
+    L5: fake("L5", "2026-09-10", "2026-09-11"),
+    // 架上也只是推定值 → 不接
+    L4: fake("L4", "2026-09-05", "2026-09-05", { date_assumed: true }),
     x1: fake("x1", "2026-09-10", "2026-09-30"),
-    L1: fake("L1", "2026-09-30", "2026-09-30", { date_assumed: true }),   // 推定 → 真日期
-    L2: fake("L2", "2026-09-12", "2026-09-12"),                          // 真日期被 scraper 修正
-    L3: fake("L3", "2026-09-05", "2026-09-05"),                          // 架上仍是推定：不動
-  }, [mkJob("L1", "2026-09-04"), mkJob("L2", "2026-09-08"), mkJob("L3", "2026-09-28", { date_assumed: true })]);
+  }, [mkJob("L1", "2026-09-04"), mkJob("L2", "2026-09-20"), mkJob("L3", "2026-09-20"),
+      mkJob("L4", "2026-09-01", { date_assumed: true }), mkJob("L5", "2026-09-05"),
+      mkJob("x1", "2026-09-10")]);
   const saved = arch();
-  ok(saved.L1.job.date_posted === "2026-09-04" && !saved.L1.job.date_assumed, "推定日期換成真日期並寫回：" + saved.L1.job.date_posted);
-  ok(saved.L2.job.date_posted === "2026-09-08", "被修正的真日期也跟著更新：" + saved.L2.job.date_posted);
-  ok(saved.L3.job.date_posted === "2026-09-05", "架上只有推定日期時不覆寫：" + saved.L3.job.date_posted);
-  ok(JSON.stringify(titles()) === JSON.stringify(["Tx1", "TL2", "TL3", "TL1"]),
-     "補完日期後排到正確位置：" + titles().join(","));
-  ok(cardOf("TL1").querySelector(".date").textContent === "2026-09-04", "卡片顯示真日期、不再標「約」");
+  ok(saved.L1.job.date_posted === "2026-09-04" && !saved.L1.job.date_assumed, "推定日期換成架上的真日期並存起來：" + saved.L1.job.date_posted);
+  ok(saved.L2.job.date_posted === "2026-08-01", "已記下的真日期不被重新刊登蓋掉：" + saved.L2.job.date_posted);
+  ok(saved.L3.job.date_posted === "2026-08-01" && saved.L3.job.date_assumed, "架上日期晚於推定值（重新刊登）不接：" + saved.L3.job.date_posted);
+  ok(saved.L5.job.date_posted === "2026-09-10", "已記下的真日期即使架上較早也不改：" + saved.L5.job.date_posted);
+  ok(saved.L4.job.date_posted === "2026-09-05" && saved.L4.job.date_assumed, "架上也是推定值時不接");
+  ok(JSON.stringify(titles()) === JSON.stringify(["Tx1", "TL5", "TL4", "TL1", "TL2", "TL3"]), "接上後的排序：" + titles().join(","));
+  ok(dateOf("TL1") === "2026-09-04", "卡片顯示接上的真日期、不再標「約」");
 
-  // 補日期只在載入資料時做，搜尋框打字重繪不會寫 localStorage
+  // 補日期只在載入時做：搜尋框打字重繪不寫 localStorage、不重建上架索引
   const realSet2 = w.Storage.prototype.setItem;
   let writes = 0;
   w.Storage.prototype.setItem = function(){ writes++; return realSet2.apply(this, arguments); };
@@ -176,18 +204,62 @@ setTimeout(async () => {
   ok(w.eval("liveById") === idxBefore, "搜尋重繪不重建上架索引");
   $("#aq").value = "";
 
-  // 匯入：日期格式不對要提示，不能靜靜排錯；還在架上的一樣補真日期
-  lastAlert = null;
-  w.archiveImport(new w.File([JSON.stringify({ archive: {
-    m1: fake("m1", "25/09/2026", "2026-09-25"),
-    m2: fake("m2", "2026-09-26", "2026-09-26", { date_assumed: true }),
-  } })], "backup.json", { type: "application/json" }));
-  await new Promise(r => setTimeout(r, 100));
-  ok(/新增 2 筆/.test(lastAlert || "") && /1 筆的日期不是 YYYY-MM-DD/.test(lastAlert || ""),
-     "匯入時提示日期格式不對：" + (lastAlert || "").replace(/\n/g, " / "));
-  w.eval("DATA = { ...DATA, jobs: window.__live.concat([" + JSON.stringify(mkJob("m2", "2026-09-02")) + "]) }; syncLive();");
-  ok(arch().m2.job.date_posted === "2026-09-02", "匯入的職缺若還在架上會補真日期");
+  // ---- 手動加入的職缺不會被標成已下架 ----
+  console.log();
+  loadArch({}, data.jobs);
+  $("#tab-jobs").click();
+  $("#add-title").value = "Manual role"; $("#add-company").value = "M Co"; $("#add-url").value = "https://example.org/m";
+  $("#add-btn").click();
+  const mCard = [...$("#cards").children].find(c => c.querySelector(".title").textContent.trim() === "Manual role");
+  [...mCard.querySelectorAll(".track button")].find(b => b.textContent === "已投遞").click();
+  $("#tab-archive").click();
+  ok(cardOf("Manual role") && !cardOf("Manual role").querySelector(".b.gone"), "手動加入後投遞：封存頁不標「已下架」");
+
+  // ---- 匯入 ----
+  console.log();
+  const importFile = async obj => {
+    lastAlert = null;
+    w.archiveImport(new w.File([JSON.stringify({ archive: obj })], "backup.json", { type: "application/json" }));
+    await new Promise(r => setTimeout(r, 100));
+  };
+  loadArch({ x1: fake("x1", "2026-09-10", "2026-09-30") }, [mkJob("m2", "2026-09-02")]);
+  await importFile({
+    m1: fake("m1", "25/09/2026", "2026-09-25", { first_seen: "2026-09-24" }),  // date_posted 壞了，first_seen 還能用
+    m2: fake("m2", "2026-13-01", "2026-09-26", { first_seen: "2026-09-30" }),  // 壞了，但架上有真日期接得上
+    m3: { job: null, at: "2026-09-26" },                                        // 結構壞掉：略過
+  });
+  ok(/新增 2 筆，目前共 3 筆/.test(lastAlert || ""), "匯入計數：" + (lastAlert || "").split("\n")[0]);
+  ok(/略過 1 筆/.test(lastAlert || ""), "提示略過的壞項目");
+  ok(/其中 1 筆有日期不是合理的 YYYY-MM-DD，那些日期欄位已忽略/.test(lastAlert || ""),
+     "日期警告只算真的還有問題的那筆，用語不說成「沒有日期」：" + (lastAlert || "").replace(/\n/g, " / "));
+  ok(arch().m2.job.date_posted === "2026-09-02", "匯入的職缺若還在架上會接上真日期");
+  ok(dateOf("Tm1") === "約 2026-09-24", "壞掉的 date_posted 忽略後退回 first_seen（標「約」）：" + dateOf("Tm1"));
+
+  // 儲存空間滿：整批不匯入，也不能說「匯入完成」
+  const before2 = w.localStorage.getItem("jr_archive");
+  const realSet3 = w.Storage.prototype.setItem;
+  w.Storage.prototype.setItem = () => { throw new Error("QuotaExceededError"); };
+  await importFile({ n1: fake("n1", "2026-09-01", "2026-09-01") });
+  w.Storage.prototype.setItem = realSet3;
+  ok(/匯入失敗/.test(lastAlert || "") && !/匯入完成/.test(lastAlert || ""), "存不進去時提示匯入失敗：" + lastAlert);
+  ok(w.localStorage.getItem("jr_archive") === before2 && !w.eval("archive.n1") && !cardOf("Tn1"),
+     "存不進去時記憶體、畫面、localStorage 都沒有半套資料");
+
+  ok(pageErrors.length === 0, "頁面腳本沒有拋錯" + (pageErrors.length ? "：" + pageErrors[0].message : ""));
+
+  // ---- 壞掉的封存資料不能讓頁面空白 ----
+  console.log();
+  const broken = await boot({ jr_archive: {
+    b1: null, b2: { job: null }, b3: { job: { title: "no id" } }, b4: "garbage",
+    ok1: { job: { id: "ok1", title: "Tok1", company: "C" }, at: "2026-09-01", why: "manual" },  // 舊格式：沒有 sources/categories
+  } }, "https://broken.example/");
+  const bd = broken.w.document;
+  ok(bd.querySelector("#cards").children.length === 3, "主列表照常顯示：" + bd.querySelector("#cards").children.length + " 筆");
+  bd.querySelector("#tab-archive").click();
+  const bcards = [...bd.querySelector("#arch-cards").children];
+  ok(bcards.length === 1 && bcards[0].querySelector(".title").textContent.trim() === "Tok1", "壞掉的項目被丟掉，正常的照常顯示");
+  ok(broken.errors.length === 0, "頁面腳本沒有拋錯" + (broken.errors.length ? "：" + broken.errors[0].message : ""));
 
   console.log("\n失敗: " + fail);
   process.exit(fail ? 1 : 0);
-}, 300);
+})();
