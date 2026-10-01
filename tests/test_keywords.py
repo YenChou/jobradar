@@ -1,4 +1,4 @@
-"""keywords.yml 的分類規則：搜尋詞、中文/國際標籤、Customer 職類。
+"""keywords.yml 的分類規則：搜尋詞、需中文／國際標籤、Customer 職類。
 
 直接讀真正的 keywords.yml，所以改設定檔時跑一次，就知道有沒有把規則改壞。
 
@@ -33,15 +33,19 @@ def cats(title, desc=""):
     r = run(title, desc)
     return None if r is None else r["categories"]
 
-def tagged(title, desc=""):
+def tagged(title, desc="", tag="international"):
     r = run(title, desc)
-    return r is not None and "chinese" in r["bonus_tags"]
+    return r is not None and tag in r["bonus_tags"]
 
 # ── 需求 1：搜尋詞 ──
 print("── 搜尋詞（英法兩種講法）──")
 terms = [t.lower() for t in cfg["search_terms"]]
-for t in ["crm", "chinese", "chinois", "mandarin", "international", "anglais", "english"]:
+for t in ["crm", "chinese", "chinois", "mandarin",
+          "marketing international", "international marketing", "marketing anglais", "english marketing",
+          "customer marketing", "customer success", "marketing clientèle"]:
     ok(t in terms, f"搜尋詞有 {t!r}")
+for t in ["international", "anglais", "english"]:
+    ok(t not in terms, f"不單獨搜 {t!r}（只會掛標籤，單獨搜等於撈回所有職缺再丟掉）")
 ok(terms.index("marketing automation") < terms.index("crm"),
    "核心行銷詞排在新的寬詞前面（時間預算不夠時先跳過的是寬詞）")
 
@@ -50,7 +54,7 @@ print()
 print("── 明確要求中文的職缺：不屬於任何職類也收 ──")
 r = run("Conseiller de vente (H/F)", "Maison de luxe, avenue Montaigne. Mandarin courant exigé.")
 ok(r is not None and r["categories"] == [] and "chinese" in r["bonus_tags"],
-   "非行銷職缺＋mandarin → 收進來、沒有職類、掛中文/國際")
+   "非行銷職缺＋mandarin → 收進來、沒有職類、掛需中文")
 for title, desc, why in [
     ("Assistant commercial (H/F)", "Vous parlez le chinois couramment.", "parlez le chinois"),
     ("Customer Service Representative", "Fluent Chinese and English required.", "fluent chinese（客服本來不收）"),
@@ -59,6 +63,11 @@ for title, desc, why in [
     ("Sales Advisor", "Cantonese is a plus.", "cantonese（英文講法）"),
     ("Réceptionniste (H/F)", "Mandarin Oriental, Paris recherche un réceptionniste parlant mandarin.",
      "飯店名刪掉後仍有 parlant mandarin"),
+    ("Assistant (H/F)", "Langues : français, anglais, chinois.", "Langues : …, chinois（列舉語言）"),
+    ("Assistant (H/F)", "Langues parlées : français, chinois.", "Langues parlées : …"),
+    ("Assistant (H/F)", "Languages: English, Chinese.", "Languages: …, Chinese"),
+    ("Assistant (H/F)", "Maîtrise de l'anglais et du chinois.", "maîtrise de l'anglais et du chinois"),
+    ("Vendeur (H/F)", "HSK5 requis.", "HSK 後面接數字"),
 ]:
     ok(run(title, desc) is not None, f"收：{why}")
 
@@ -69,20 +78,33 @@ for title, desc, why in [
     ("Responsable logistique", "Développement sur le marché chinois.", "marché chinois"),
     ("Réceptionniste (H/F)", "Mandarin Oriental, Paris recrute un réceptionniste.", "Mandarin Oriental 是飯店"),
     ("Gestionnaire de portefeuille", "Mandarine Gestion recrute.", "Mandarine Gestion 是公司名"),
+    # 以下是 PR #10 review 抓到的：講中國客戶／市場的句子，不是要求中文
+    ("Vendeur (H/F)", "Nos clients chinois souhaitent un accueil premium.", "clients chinois souhaitent"),
+    ("Vendeur (H/F)", "Les touristes chinois apprécient nos produits.", "touristes chinois apprécient"),
+    ("Vendeur (H/F)", "Notre client chinois souhaite ouvrir une boutique.", "client chinois souhaite（單數動詞）"),
+    ("Vendeur (H/F)", "Le tourisme chinois apprécie Paris.", "tourisme chinois apprécie（單數動詞）"),
+    ("Responsable logistique", "Le marché chinois exige une grande réactivité.", "marché chinois exige"),
+    ("Comptable", "Nos partenaires français et chinois.", "partenaires français et chinois"),
+    ("Responsable logistique", "Le marché chinois lui-même.", "chinois lui（整字比對，不中 chinois lu）"),
+    ("Assistant (H/F)", "Langues : français, anglais. Connaissance du marché chinois.",
+     "列舉語言的句子已結束，後面的 marché chinois 不算"),
 ]:
     ok(run(title, desc) is None, f"不收：{why}")
 ok(run("Stage - Assistant marketing", "Mandarin courant.") is None, "實習照樣硬性排除，要求中文也一樣")
 
 print()
-print("── 職稱裡的中文地區國旗不算「海外市場」──")
-ok(not enrich.excluded_title("Sales Associate 🇨🇳", cfg), "🇨🇳 放行")
-ok(not enrich.excluded_title("Account Manager 🇹🇼", cfg), "🇹🇼 放行")
-ok(enrich.excluded_title("Account Manager 🇩🇪", cfg), "🇩🇪 照樣排除")
+print("── 職稱裡的中文地區國旗：只有要求中文時才不算「海外市場」──")
+ok(not enrich.excluded_title("Sales Associate 🇨🇳", cfg, requires_chinese=True), "要求中文：🇨🇳 放行")
+ok(not enrich.excluded_title("Account Manager 🇹🇼", cfg, requires_chinese=True), "要求中文：🇹🇼 放行")
+ok(enrich.excluded_title("Product Marketing Manager 🇨🇳", cfg), "沒要求中文：🇨🇳 照樣排除")
+ok(enrich.excluded_title("Account Manager 🇩🇪", cfg, requires_chinese=True), "🇩🇪 一律排除")
 ok(run("Sales Associate 🇨🇳", "Native Chinese speaker.") is not None, "🇨🇳 職缺＋要求中文 → 收")
+ok(run("Product Marketing Manager 🇨🇳", "Launch in Shanghai, product marketing.") is None,
+   "🇨🇳 行銷職缺、只是派駐中國 → 排除")
 
 # ── 需求 2：international／anglais 等只掛標籤 ──
 print()
-print("── 國際／英文／中國市場：行銷職缺掛標籤，但不會因此入庫 ──")
+print("── 國際（英文／國際環境／中國市場）：行銷職缺掛標籤，但不會因此入庫 ──")
 for desc, why in [
     ("Anglais courant exigé.", "anglais"),
     ("Maîtrise de la langue anglaise.", "anglaise"),
@@ -96,10 +118,15 @@ for desc, why in [
 ok(not tagged("Chargé de CRM (H/F)", "Fidélisation, emailing, newsletter."), "什麼都沒提 → 不掛")
 ok(not tagged("Chargé de CRM (H/F)", "Temps forts : Noël, Saint-Valentin, Nouvel An chinois."),
    "Nouvel An chinois 只是檔期 → 不掛")
-ok(not tagged("Chef de produit (H/F)", "Mandarin Oriental, Paris."), "Mandarin Oriental 的行銷職缺 → 不掛")
+ok(not tagged("Chef de produit (H/F)", "Mandarin Oriental, Paris.", tag="chinese"),
+   "Mandarin Oriental 的行銷職缺 → 不掛需中文")
 ok(run("Comptable (H/F)", "Anglais courant, environnement international.") is None,
    "非行銷職缺只提到英文／國際 → 不收")
-ok(cfg["bonus_tags"]["chinese"]["label"] == "中文/國際", "標籤名稱是「中文/國際」")
+r = run("Chargé de CRM (H/F)", "Anglais courant.")
+ok("international" in r["bonus_tags"] and "chinese" not in r["bonus_tags"],
+   f"只提到英文 → 國際，不是需中文：{r['bonus_tags']}（需中文的篩選才能只篩出要中文的）")
+ok(cfg["bonus_tags"]["chinese"]["label"] == "需中文" and cfg["bonus_tags"]["international"]["label"] == "國際",
+   "標籤名稱是「需中文」「國際」")
 ok(tagged("Chargé de CRM (H/F)", "Création vidéo.") is False and
    "video_content" in run("Chargé de CRM (H/F)", "Création vidéo.")["bonus_tags"],
    "影音內容標籤照舊")
@@ -112,7 +139,9 @@ for title in ["Customer Marketing Specialist", "Customer Success Manager (H/F)",
               "Customer Lifecycle Manager", "Responsable Engagement Client Omnicanal"]:
     c = cats(title)
     ok(c is not None and "customer" in c, f"{title} → {c}")
-for title in ["Customer Service Representative", "Conseiller relation client (H/F)"]:
+for title in ["Customer Service Representative", "Conseiller relation client (H/F)",
+              "Conseiller Expérience Client (H/F)", "Customer Experience Agent",
+              "Téléconseiller Customer Success (H/F)"]:
     ok(cats(title) is None, f"客服職缺不收：{title}")
 c = cats("Chargé de marketing produit", "Améliorer l'expérience client et la customer experience.")
 ok(c is not None and "customer" not in c and "marketing_produit" in c,
@@ -143,7 +172,7 @@ ok(tags["video_content"]["ignore_phrases"] == [], "清單全被註解掉（YAML 
 print()
 print("── 去重時標籤取聯集 ──")
 a = enrich.classify(job("Chargé de CRM (H/F)", "", source="Isarta"), cfg)  # Isarta 沒有描述
-b = enrich.classify(job("Chargé de CRM (H/F)", "Anglais courant."), cfg)
+b = enrich.classify(job("Chargé de CRM (H/F)", "Mandarin courant."), cfg)
 merged = enrich.dedupe([a, b])
 ok(len(merged) == 1 and merged[0]["bonus_tags"] == ["chinese"],
    f"沒描述的那筆排前面，合併後仍保有標籤 → {merged[0]['bonus_tags']}")

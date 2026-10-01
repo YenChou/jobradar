@@ -38,10 +38,14 @@ def load_cfg() -> dict:
     for cat in cfg["categories"].values():
         cat["title_keywords"] = [norm(k) for k in cat["title_keywords"]]
         cat["skill_keywords"] = [norm(k) for k in cat["skill_keywords"]]
+        cat["exclude_title"] = [norm(k) for k in cat.get("exclude_title") or []]
     for tag in cfg.get("bonus_tags", {}).values():
         # `or []`：清單項目全被註解掉時 YAML 給的是 None，不擋的話整輪抓取會直接崩潰
         for key in ("skill_keywords", "keep_keywords", "ignore_phrases"):
             tag[key] = [norm(k) for k in tag.get(key) or []]
+        # keep_patterns 是正規表示式，不能過 norm（會壓掉空白等）；本來就該寫成小寫、無重音
+        tag["keep_patterns"] = tag.get("keep_patterns") or []
+        tag["_keep_rx"] = enrich.keep_regexes(tag)
     for key in ("exclude_title", "exclude_title_foreign", "exclude_title_abbrev",
                 "seniority_boost_title",
                 "seniority_penalty_title", "contract_boost", "west_cities"):
@@ -144,7 +148,8 @@ def main() -> int:
     jobs = [
         j for j in history.values()
         if (j.get("first_seen") or today) >= cutoff
-        and not enrich.excluded_title(j.get("title", ""), cfg)
+        and not enrich.excluded_title(j.get("title", ""), cfg,
+                                      requires_chinese="chinese" in (j.get("bonus_tags") or []))
     ]
 
     # 來源沒給公告日：假設「首次抓到的那天」就是公告日，並標記成推定值，

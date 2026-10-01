@@ -31,10 +31,11 @@ keywords.yml                           所有分類與排序規則（改這裡�
 
 ## 網站功能
 
-- **篩選**：時間、職類、地區、工作型態、合約、標籤（中文/國際／影音內容）、來源、投遞狀態。
-- **中文/國際**：要求中文的職缺（mandarin、chinois courant、中文⋯）不論職類都收；
-  提到國際環境、英文、中國市場（international、anglais、english、chinois⋯）的行銷職缺
-  也掛這個標籤，但不會只因為這樣就被收進來——anglais 幾乎每個職缺都會提。
+- **篩選**：時間、職類、地區、工作型態、合約、標籤（需中文／國際／影音內容）、來源、投遞狀態。
+- **需中文**：明確要求中文的職缺（mandarin、chinois courant、Langues : …chinois⋯）
+  不論職類都收，非行銷職缺也會出現。
+- **國際**：提到國際環境、英文、中國市場（international、anglais、english、chinois⋯）
+  的職缺掛這個標籤，但不會只因為這樣就被收進來——anglais 幾乎每個職缺都會提。
 - **投遞追蹤**：每筆可標記「已投遞／面試中／略過」，存在瀏覽器 localStorage，不用帳號。
 - **封存分頁**：按卡片右下角的「封存」把職缺留下來；標記「已投遞」「面試中」會自動封存。
   職缺超過 30 天會從 `jobs.json` 下架，但**封存的職缺會保留**——封存當下就把整筆
@@ -65,8 +66,9 @@ uv pip install --python .venv/bin/python -r requirements.txt
 
 - **漏抓／誤抓**：改 `keywords.yml`（關鍵字、排除詞、城市加權），commit 即生效。
   排除規則會**回溯套用**——既有的 `jobs.json` 下次執行時會用新規則重新過濾。
-- **中文/國際 誤判**：`bonus_tags.chinese` 分兩組——`keep_keywords`（要求中文，
-  不論職類都收）與 `skill_keywords`（只掛標籤）。含關鍵字卻無關的片語（例如飯店
+- **需中文 誤判**：`bonus_tags.chinese` 的 `keep_keywords`（整字比對）與
+  `keep_patterns`（正規表示式）命中就收，不論職類，所以寧缺勿濫——不要加
+  「chinois + 動詞」這種也能指中國客戶、市場的片語。含關鍵字卻無關的片語（例如飯店
   Mandarin Oriental）加進 `ignore_phrases`，比對前會先刪掉。
 - **加來源**：在 `scraper/sources/` 加一個模組，回傳同樣欄位的 dict list，
   在 `main.py` 的 `scrape_all()` 註冊一行。**先看對方的 `robots.txt`。**
