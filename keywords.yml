@@ -166,11 +166,13 @@ bonus_tags:
   # 這組會影響「收不收」：命中就收，即使不屬於任何職類——中文是 Yen 最大的優勢，
   # 非行銷職缺也值得看。所以誤判的代價是把無關職缺放上網站，規則要嚴：
   # - keep_keywords 整字比對（前後不能接字母），"chinois lu" 不會中 "chinois lui"。
-  # - 不收單獨的 chinois／chinese，也不收「chinois + 動詞／形容詞」的片語
-  #   （chinois souhaite、chinois exige…）：法文的「中國的」與「中文」同字，
-  #   "nos clients chinois souhaitent"、"le marché chinois exige" 講的是中國客戶、市場。
-  #   "français et chinois" 同理（"partenaires français et chinois"）。
-  # - keep_patterns 處理列舉語言的寫法（正規表示式，對象是去重音、轉小寫後的文字）。
+  # - 不收單獨的 chinois／chinese，也不收「chinois + 動詞」的片語（chinois souhaite、
+  #   chinois exige…）：法文的「中國的」與「中文」同字，"nos clients chinois souhaitent"、
+  #   "le marché chinois exige" 講的是中國客戶、市場。"français et chinois" 同理。
+  # - 但「Chinois obligatoire」「Le chinois est un atout」「Anglais et chinois courants」是
+  #   明確的語言要求，不能一起丟掉：交給 keep_patterns，只在能確定 chinois 是語言名詞時才收
+  #   （前面直接接冠詞、在列點／子句開頭、或兩種語言並列且後面接 courant 之類的詞）。
+  # - keep_patterns 是正規表示式，對象是去重音、轉小寫後的文字。
   chinese:
     label: "需中文"
     keep_keywords:
@@ -236,6 +238,22 @@ bonus_tags:
       - '\blang(ue|uage)s?( [a-z]+)? ?:[^.\n]{0,60}\b(chinois|chinese)\b'
       # 「Maîtrise de l'anglais et du chinois」「bonne connaissance de l'anglais et du chinois」
       - '\b(maitrise|maitrisez|connaissance|niveau|pratique)\b[^.\n]{0,40}\bdu chinois\b'
+      # 以下都要能確定 chinois 指的是語言，才接「obligatoire、atout」這類詞。
+      # 刻意不收「chinois + 動詞」（"clients chinois souhaitent"、"le marché chinois exige"）。
+      # 冠詞直接接 chinois＝語言名詞：「Le chinois est un atout」「La maîtrise du chinois est requise」
+      # （"le marché chinois exige" 中間隔著 marché，不會中）
+      - '\b(le|du|en) chinois\b[^.\n]{0,30}\b(obligatoire|requise?|indispensable|exigee?|atout|plus|apprecie|souhaite|courant)\b'
+      # 列點或子句開頭：「Chinois obligatoire」「* Chinois : courant」「Profil : chinois indispensable」
+      # （"le visa chinois est obligatoire" 不在開頭，不會中）
+      - '(^|[\n.:;,*(/-])\s*chinois( \([a-z ]+\))? ?:? ?(obligatoire|requis|indispensable|exige|souhaite|apprecie|courant|natif|lu|ecrit|parle|un plus|un atout|serait un plus|est un plus|est un atout)\b'
+      # 兩種語言並列，後面要接「courant、obligatoire」這類詞才算：「Anglais et chinois courants」
+      # （"partenaires français et chinois" 沒有後綴，不會中）
+      - '\b(anglais|francais) et (du |le )?chinois (courants?|couramment|obligatoires?|requis|requise|indispensables?|exiges?|exigee|natifs?|parles?|ecrits?)\b'
+      - '\bchinois et (l.)?(anglais|francais) (courants?|couramment|obligatoires?|requis|requise|indispensables?|exiges?|exigee|natifs?|parles?|ecrits?)\b'
+      - '\bbilingues? ((anglais|francais) et chinois|chinois et (anglais|francais))\b'
+      # 英文同理：「Fluent in English and Chinese」「Chinese and English required」
+      - '\b(fluent|fluency|proficient|proficiency|native|bilingual)( in)? (english|french),? (and|&) chinese\b'
+      - '\b((english|french) (and|&) chinese|chinese (and|&) (english|french)) (required|mandatory|fluent|speakers?|speaking|is required|is a must|is a plus)\b'
     ignore_phrases:
       - "mandarin oriental"   # 巴黎的飯店集團，旗下職缺描述幾乎都會寫到
 

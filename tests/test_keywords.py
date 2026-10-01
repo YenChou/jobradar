@@ -68,6 +68,20 @@ for title, desc, why in [
     ("Assistant (H/F)", "Languages: English, Chinese.", "Languages: …, Chinese"),
     ("Assistant (H/F)", "Maîtrise de l'anglais et du chinois.", "maîtrise de l'anglais et du chinois"),
     ("Vendeur (H/F)", "HSK5 requis.", "HSK 後面接數字"),
+    # 第二輪 review：修誤判時刪過頭，這些明確的語言要求一度變成不收
+    ("Assistant (H/F)", "Chinois obligatoire.", "Chinois obligatoire（列點開頭）"),
+    ("Assistant (H/F)", "* Chinois : courant", "* Chinois : courant"),
+    ("Assistant (H/F)", "Profil : chinois indispensable.", "子句開頭的 chinois indispensable"),
+    ("Assistant (H/F)", "Chinois lu, écrit, parlé.", "Chinois lu, écrit, parlé"),
+    ("Assistant (H/F)", "Le chinois est un atout.", "le chinois est un atout（冠詞＋語言名詞）"),
+    ("Assistant (H/F)", "Le chinois serait un plus.", "le chinois serait un plus"),
+    ("Assistant (H/F)", "La maîtrise du chinois est requise.", "du chinois est requise"),
+    ("Assistant (H/F)", "Anglais et chinois courants.", "anglais et chinois courants"),
+    ("Assistant (H/F)", "Vous parlez anglais et chinois couramment.", "anglais et chinois couramment"),
+    ("Assistant (H/F)", "Chinois et anglais courants exigés.", "chinois et anglais courants（中文排前面）"),
+    ("Assistant (H/F)", "Bilingue français et chinois.", "bilingue français et chinois"),
+    ("Assistant (H/F)", "Fluent in English and Chinese.", "fluent in English and Chinese"),
+    ("Assistant (H/F)", "Chinese and English required.", "Chinese and English required"),
 ]:
     ok(run(title, desc) is not None, f"收：{why}")
 
@@ -88,6 +102,12 @@ for title, desc, why in [
     ("Responsable logistique", "Le marché chinois lui-même.", "chinois lui（整字比對，不中 chinois lu）"),
     ("Assistant (H/F)", "Langues : français, anglais. Connaissance du marché chinois.",
      "列舉語言的句子已結束，後面的 marché chinois 不算"),
+    # 把語言要求加回來後，這些仍然不能中
+    ("Comptable", "Nos clients français et chinois exigeants.", "français et chinois 後面不是語言程度"),
+    ("Responsable logistique", "Le visa chinois est obligatoire pour ce déplacement.",
+     "visa chinois … obligatoire（chinois 不在開頭、前面不是冠詞）"),
+    ("Responsable logistique", "Développement du marché chinois indispensable.", "du marché chinois ≠ du chinois"),
+    ("Développeur mobile", "Native app for the Chinese market.", "native app … Chinese market"),
 ]:
     ok(run(title, desc) is None, f"不收：{why}")
 ok(run("Stage - Assistant marketing", "Mandarin courant.") is None, "實習照樣硬性排除，要求中文也一樣")
