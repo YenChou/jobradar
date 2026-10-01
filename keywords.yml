@@ -298,6 +298,11 @@ exclude_title_abbrev:
   - "alt"
   - "stag"
   - "appr"   # 不要用 "app"：會誤殺 App Marketing Manager 這類正當職缺
+  # 英文的實習：exclude_title 已有 internship，但 "Marketing Intern"、"Intern, Consultant…"
+  # 漏網。一定要整字比對——子字串會誤殺 international，也會誤殺法文的 interne
+  # （"Chargé de communication interne" 是正當職缺）。
+  - "intern"
+  - "interns"
 
 # 硬性排除：職稱明顯針對其他國家市場（法國公司常替海外市場開缺、掛在巴黎辦公室下，
 # 會騙過來源端的國家過濾；職稱含非法國國旗 emoji 也會被程式自動排除）

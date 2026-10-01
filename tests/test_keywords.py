@@ -178,6 +178,19 @@ r = run("Customer Success Manager", "Réduire le churn, suivre le NPS.")
 ok({"churn", "nps"} <= set(r["skills"]), f"Customer 的技能關鍵字加分：{r['skills']}")
 ok(cfg["categories"]["customer"]["label"] == "Customer", "職類名稱是 Customer")
 
+# ── 英文實習（intern）要排除，但 international、interne 不能被誤殺 ──
+print()
+print("── intern 整字排除 ──")
+for t in ["Marketing Specialist Intern", "Intern, Consultant Cyber Threat Intelligence",
+          "Business Development Intern (Mandarin Speaker)", "Marketing Manager - Intern",
+          "Product Marketing Interns 2027"]:
+    ok(enrich.excluded_title(t, cfg), f"排除：{t}")
+ok(run("Business Development Intern (Mandarin Speaker)", "Mandarin native.") is None,
+   "要求中文的實習也排除（實習一律不收）")
+for t in ["International Marketing Manager", "Chef de produit international junior",
+          "Chargé de communication interne (H/F)", "Internal Communications Specialist"]:
+    ok(not enrich.excluded_title(t, cfg), f"不誤殺：{t}")
+
 # ── 彎引號 ’ 與直引號 ' 要一樣 ──
 print()
 print("── 彎引號與直引號視為相同 ──")
