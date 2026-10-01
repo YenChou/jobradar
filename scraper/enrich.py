@@ -1,7 +1,8 @@
 """過濾、分類、加權、去重 — pipeline 的核心邏輯。
 
 規則全部來自 keywords.yml（見規劃書第 3 節）：
-- 職稱關鍵字 → 分類（一個職缺可屬多類；職稱沒中再用描述補判）
+- 職稱關鍵字 → 分類（一個職缺可屬多類；職稱沒中再用描述補判，title_only 的類別除外）
+- 職類全沒中 → 不收；例外是明確要求中文的職缺（bonus_tags 的 keep_keywords）
 - 技能關鍵字 → 描述加分
 - Stage/Alternance → 硬性排除
 - 職級/合約 → 加分排序（非硬過濾）；Senior/Director → 降權
@@ -15,6 +16,9 @@ from scraper.util import clean_str, job_id, norm, norm_title_for_dedupe, to_date
 
 FLAG_PAT = re.compile(r"[\U0001F1E6-\U0001F1FF]{2}")  # 國旗 emoji
 FR_FLAG = "\U0001F1EB\U0001F1F7"  # 🇫🇷
+# 中文地區的國旗：職缺明確要求中文時，職稱標 🇨🇳 是「要會中文」的意思，不算「針對海外市場」。
+# 沒要求中文的（例如 "Product Marketing Manager 🇨🇳" 派駐上海）照樣排除。
+ZH_FLAGS = frozenset({"\U0001F1E8\U0001F1F3", "\U0001F1F9\U0001F1FC", "\U0001F1ED\U0001F1F0"})  # 🇨🇳 🇹🇼 🇭🇰
 REMOTE_PAT = re.compile(r"\b(remote|teletravail|full remote|100% remote)\b")
 HYBRID_PAT = re.compile(r"\b(hybride|hybrid|teletravail partiel)\b")
 CONTRACT_PAT = re.compile(r"\b(cdi|cdd|interim)\b")
@@ -27,17 +31,24 @@ def classify(job: dict, cfg: dict) -> dict | None:
     text_n = f"{title_n} \n {desc_n}"
     loc_n = norm(job.get("location"))
 
+    # 附加標籤（影音內容、需中文、國際）先算：「是否明確要求中文」會影響下面兩步
+    # ——中文地區國旗放不放行，以及職類全沒中時收不收。比對職稱＋描述，語言要求
+    # 常寫在職稱裡（例如 "Marketing Strategy Manager - Mandarin speaker"）。
+    bonus_tags, keep = _bonus_tags(text_n, cfg)
+
     # 1) 硬性排除：Stage/Alternance 與針對其他國家市場的職缺
-    if excluded_title(clean_str(job.get("title")), cfg):
+    if excluded_title(clean_str(job.get("title")), cfg, requires_chinese=keep):
         return None
 
-    # 2) 分類：職稱優先，職稱沒中用描述前段補判
+    # 2) 分類：職稱優先，職稱沒中用描述補判
     categories: list[str] = []
     skills_hit: list[str] = []
     score = 0
     for key, cat in cfg["categories"].items():
+        if any(re.search(rf"\b{re.escape(kw)}\b", title_n) for kw in cat.get("exclude_title") or []):
+            continue  # 這一類的排除詞（例如 Customer 不收客服中心的 conseiller／agent）
         matched = any(kw in title_n for kw in cat["title_keywords"])
-        if not matched:
+        if not matched and not cat.get("title_only"):
             # 描述補判：標題泛稱（如 "Marketing Specialist"）但描述明確時仍可歸類
             matched = sum(1 for kw in cat["title_keywords"] if kw in desc_n) >= 1 and "marketing" in text_n
         if matched:
@@ -45,16 +56,10 @@ def classify(job: dict, cfg: dict) -> dict | None:
             hits = [kw for kw in cat["skill_keywords"] if kw in desc_n]
             skills_hit += hits
             score += min(len(hits) * 2, 10)
-    if not categories:
-        return None  # 五類都沒中 → 不收
 
-    # 3) 附加標籤（影音內容、需中文）。比對職稱＋描述——語言要求常寫在職稱裡
-    #    （例如 "Marketing Strategy Manager - Mandarin speaker"）。
-    bonus_tags = [
-        key
-        for key, tag in cfg.get("bonus_tags", {}).items()
-        if any(kw in text_n for kw in tag["skill_keywords"])
-    ]
+    # 3) 職類全沒中就不收，除非明確要求中文
+    if not categories and not keep:
+        return None  # 職類全沒中，也沒有明確要求中文 → 不收
 
     # 4) 職級加分／降權
     if any(kw in title_n for kw in cfg["seniority_boost_title"]):
@@ -105,9 +110,46 @@ def classify(job: dict, cfg: dict) -> dict | None:
     }
 
 
-def excluded_title(title: str, cfg: dict) -> bool:
+def _bonus_tags(text_n: str, cfg: dict) -> tuple[list[str], bool]:
+    """回傳 (命中的標籤 key, 是否不論職類都要收)。
+
+    標籤只負責標示，不影響收不收——唯一的例外是 keep_keywords／keep_patterns：
+    明確要求中文的職缺即使職類全沒中也收（中文是 Yen 最大的優勢，非行銷職缺也值得看）。
+    這組誤判的代價是把無關職缺放上網站，所以整字比對；skill_keywords 只掛標籤，
+    維持子字串比對（anglais 也要對到 anglaise）。
+    """
+    tags: list[str] = []
+    keep = False
+    for key, tag in cfg.get("bonus_tags", {}).items():
+        # 先刪掉含關鍵字卻無關的片語（"mandarin oriental" 是飯店，不是語言）
+        text = text_n
+        for phrase in tag.get("ignore_phrases", []):
+            text = text.replace(phrase, " ")
+        if any(rx.search(text) for rx in tag.get("_keep_rx", [])):
+            tags.append(key)
+            keep = True
+        elif any(kw in text for kw in tag.get("skill_keywords", [])):
+            tags.append(key)
+    return tags, keep
+
+
+def keep_regexes(tag: dict) -> list[re.Pattern]:
+    """把 keep_keywords 編成整字比對、keep_patterns 原樣編譯（load_cfg 呼叫）。
+
+    整字的「字」只看拉丁字母：前後接字母就不算（"chinois lui" 不中 "chinois lu"、
+    "souhaitent" 不中 "souhaite"），接數字可以（HSK5）。中文字前後沒有空白，
+    所以中文關鍵字不受影響。
+    """
+    rx = [re.compile(rf"(?<![a-z]){re.escape(kw)}(?![a-z])") for kw in tag.get("keep_keywords", [])]
+    rx += [re.compile(p) for p in tag.get("keep_patterns", [])]
+    return rx
+
+
+def excluded_title(title: str, cfg: dict, requires_chinese: bool = False) -> bool:
     """職稱層級的硬性排除。也用在 main.py 清洗歷史資料，
-    所以規則更新後，既有的 jobs.json 也會在下一次執行時被重新過濾。"""
+    所以規則更新後，既有的 jobs.json 也會在下一次執行時被重新過濾。
+
+    requires_chinese：職缺明確要求中文時，職稱裡的中文地區國旗不算「海外市場」。"""
     title = clean_str(title)   # 來源可能給 NaN／None，下面有直接對字串做的比對
     title_n = norm(title)
 
@@ -123,10 +165,11 @@ def excluded_title(title: str, cfg: dict) -> bool:
 
     # 針對其他國家市場的職缺（法國公司替海外市場開缺會掛在巴黎辦公室下，
     # 騙過來源端的國家過濾）。職稱同時提到 France 就不套用（如 "France & BENELUX"）。
+    # 明確要求中文的職缺不論職類都要收，不能因為職稱標了 🇨🇳 就先在這裡被擋掉。
     mentions_fr = FR_FLAG in title or re.search(r"\bfrance\b|\bfrancais|\bfr\b", title_n)
     if not mentions_fr:
         for fl in FLAG_PAT.findall(title):
-            if fl != FR_FLAG:
+            if fl != FR_FLAG and not (requires_chinese and fl in ZH_FLAGS):
                 return True
         for kw in cfg.get("exclude_title_foreign", []):
             if re.search(rf"\b{re.escape(kw)}\b", title_n):
@@ -192,6 +235,9 @@ def dedupe(jobs: list[dict]) -> list[dict]:
                 m["description_snippet"] = j["description_snippet"]
             m["categories"] = sorted(set(m["categories"]) | set(j["categories"]))
             m["skills"] = sorted(set(m["skills"]) | set(j["skills"]))
+            # 標籤也要取聯集：各來源的描述長短不一（Isarta 根本沒有描述），只留第一筆
+            # 的話，因「明確要求中文」入庫的職缺可能被合併成一筆沒有標籤、也沒有職類的卡片
+            m["bonus_tags"] += [t for t in j["bonus_tags"] if t not in m["bonus_tags"]]
             m["score"] = max(m["score"], j["score"])
         else:
             merged[key] = j
