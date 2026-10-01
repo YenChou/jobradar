@@ -298,6 +298,7 @@ let manual  = store.get("jr_manual", []);       // 手動加入的職缺
 // 存整筆而不是只存 id——職缺 30 天後會從 jobs.json 消失，光有 id 就撈不回內容了。
 let archive = store.get("jr_archive", {});
 let archTodoOnly = false;   // 封存頁：只看還沒聯絡的
+let liveById = new Map();   // jobs.json 裡目前上架的職缺；載入資料後建一次
 
 // ---- 狀態 ----
 const state = { view:"7d", q:"", cat:new Set(), region:new Set(), mode:new Set(), contract:new Set(), source:new Set(), status:new Set(), tag:new Set(),
@@ -392,6 +393,7 @@ function init(){
   });
   document.getElementById("arch-n").textContent = archiveCount() ? "(" + archiveCount() + ")" : "";
 
+  syncLive();
   render();
 }
 
@@ -532,6 +534,7 @@ function card(j, today){
   if (j.contract) badges.push('<span class="b contract">' + esc(j.contract) + "</span>");
   for (const t of (j.bonus_tags || [])) if (BONUS[t]) badges.push('<span class="b bonus">' + BONUS[t] + "</span>");
 
+  const estDate = !!postedOf(j) && postedIsEstimate(j);   // 推定的公告日標「約」
   const srcLinks = j.sources.map(s => '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a>").join(" · ");
 
   el.innerHTML =
@@ -542,8 +545,8 @@ function card(j, today){
     '<div class="foot">' +
       '<span class="src">' + srcLinks + "</span>" +
       (j.salary ? "<span>" + esc(j.salary) + "</span>" : "") +
-      '<span class="date"' + (j.date_assumed ? ' title="來源沒有提供公告日，這裡以首次抓到的日期代替"' : "") + ">" +
-        (j.date_assumed ? "約 " : "") + esc(postedOf(j)) + "</span>" +
+      '<span class="date"' + (estDate ? ' title="來源沒有提供公告日，這裡以首次抓到的日期代替"' : "") + ">" +
+        (estDate ? "約 " : "") + esc(postedOf(j)) + "</span>" +
       '<button class="arch" type="button"></button>' +
       '<span class="track" role="group" aria-label="投遞狀態"></span>' +
     "</div>";
@@ -617,28 +620,41 @@ function archiveRemove(id){
   store.set("jr_archive", archive);
 }
 
-// 公告日期：卡片顯示、時間篩選、封存排序共用同一個來源。
-// 只收字串——匯入的備份可能被手改過，數字或物件會讓排序錯亂、卡片顯示怪值。
-function postedOf(j){
-  const s = v => typeof v === "string" ? v : "";
-  return j ? (s(j.date_posted) || s(j.first_seen)) : "";
-}
+// 只認 YYYY-MM-DD 字串。匯入的備份可能被手改過（數字、物件、9/25/2026⋯），
+// 那種值拿去比字串會靜靜排錯，所以一律當成「沒有日期」。
+function isoDate(v){ return typeof v === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v) ? v : ""; }
 
-// 封存的是當下的快照。列表型來源還沒抓詳情頁時，公告日是推定值（= 首次抓到日，
-// 一定偏新）；之後 scraper 補到真日期只會寫進 jobs.json。職缺還在架上時把真日期
-// 接回快照並存起來，下架後也留得住。
-function refreshArchiveDates(liveById){
+// 公告日期：卡片顯示、時間篩選、封存排序共用同一個來源。
+function postedOf(j){ return j ? (isoDate(j.date_posted) || isoDate(j.first_seen)) : ""; }
+
+// 公告日是不是推定的：scraper 標了 date_assumed，或根本沒有 date_posted 而退回
+// first_seen。推定值 = 首次抓到日，一定不早於實際公告日。
+function postedIsEstimate(j){ return !!j.date_assumed || !isoDate(j.date_posted); }
+
+// 封存的是當下的快照，之後 scraper 補到或修正的公告日只會寫進 jobs.json。
+// 職缺還在架上、而且有真日期時，把它接回快照，下架後也留得住。
+// 回傳有沒有改動；由呼叫端決定要不要寫回 localStorage。
+function refreshArchiveDates(){
   let changed = false;
   for (const [id, a] of Object.entries(archive)) {
     const lj = liveById.get(id);
-    if (!lj || lj.date_assumed || typeof lj.date_posted !== "string" || !lj.date_posted) continue;
-    if (a.job.date_assumed || typeof a.job.date_posted !== "string" || !a.job.date_posted) {
-      a.job.date_posted = lj.date_posted;
+    const real = lj && !lj.date_assumed ? isoDate(lj.date_posted) : "";
+    if (!real) continue;
+    if (a.job.date_assumed || a.job.date_posted !== real) {
+      a.job.date_posted = real;
       delete a.job.date_assumed;
       changed = true;
     }
   }
-  if (changed) store.set("jr_archive", archive);   // 寫入失敗也不要緊：這次畫面仍用新日期，下次載入再補
+  return changed;
+}
+
+// 載入 jobs.json 後跑一次：建上架索引、補封存日期。不放在 renderArchive 裡，
+// 免得搜尋框每打一個字就重建索引、還順手寫 localStorage。
+// 寫入失敗（空間滿）時這次畫面仍用新日期，下次載入職缺還在架上就會再補一次。
+function syncLive(){
+  liveById = new Map((DATA.jobs || []).map(j => [j.id, j]));
+  if (refreshArchiveDates()) store.set("jr_archive", archive);
 }
 
 function desc(x, y){ return x < y ? 1 : x > y ? -1 : 0; }
@@ -657,20 +673,20 @@ function setTab(name){
 function renderArchive(){
   document.getElementById("arch-n").textContent = archiveCount() ? "(" + archiveCount() + ")" : "";
   const q = (document.getElementById("aq").value || "").trim().toLowerCase();
-  // 還在 jobs.json 裡的視為仍上架；其餘標成已下架
-  const liveById = new Map((DATA.jobs || []).map(j => [j.id, j]));
-  refreshArchiveDates(liveById);
-  const all = Object.entries(archive).map(([id, a]) => ({ id, ...a, posted: postedOf(a.job) }));
+  const all = Object.entries(archive).map(([id, a]) =>
+    ({ id, ...a, posted: postedOf(a.job), est: postedIsEstimate(a.job), atDay: isoDate(a.at) }));
   const todo = all.filter(a => !isContacted(a)).length;
   const rows = all
     .filter(a => !q || (a.job.title + " " + a.job.company + " " + (a.job.city || a.job.location || "")).toLowerCase().includes(q))
     .filter(a => !archTodoOnly || !isContacted(a))
     // 待聯絡的排前面——這個分頁的用途就是看還有哪些沒做；
-    // 同組內依職缺公告日期新到舊（與卡片上顯示的日期一致），同一天再看封存日。
-    // 日期都是 YYYY-MM-DD，直接比字串即可
+    // 同組內：有真實公告日的在前、推定日期（卡片標「約」）的在後——推定值一定偏新，
+    // 跟真日期混排會被排得太前面。各自依公告日期新到舊，同一天再看封存日。
+    // 日期都驗過是 YYYY-MM-DD，直接比字串即可；沒有日期的排最後
     .sort((a, b) => (isContacted(a) - isContacted(b))
+      || (a.est - b.est)
       || desc(a.posted, b.posted)
-      || desc(a.at || "", b.at || ""));
+      || desc(a.atDay, b.atDay));
 
   const btn = document.getElementById("arch-todo");
   btn.textContent = "只看待聯絡" + (todo ? "（" + todo + "）" : "");
@@ -688,6 +704,7 @@ function renderArchive(){
 
   const wrap = document.getElementById("arch-cards");
   wrap.innerHTML = "";
+  // 還在 jobs.json 裡的視為仍上架；其餘標成已下架
   for (const a of rows) wrap.appendChild(archiveCard(a, liveById.has(a.id)));
 }
 
@@ -738,15 +755,19 @@ function archiveImport(file){
       const d = JSON.parse(r.result);
       const incoming = d.archive || d;               // 容許直接吃裸的 archive 物件
       if (!incoming || typeof incoming !== "object") throw new Error("格式不對");
-      let added = 0;
+      let added = 0, badDate = 0;
+      const bad = v => v != null && v !== "" && !isoDate(v);
       for (const [id, a] of Object.entries(incoming)) {
         if (!a || !a.job || !a.job.id) continue;     // 跳過壞掉的項目而不是整份拒絕
         if (!archive[id]) added++;
+        if (bad(a.job.date_posted) || bad(a.job.first_seen) || bad(a.at)) badDate++;
         archive[id] = a;                             // 合併，不覆蓋整份
       }
+      refreshArchiveDates();                         // 匯入的職缺若還在架上，一樣接上真日期
       store.set("jr_archive", archive);
       renderArchive();
-      alert("匯入完成：新增 " + added + " 筆，目前共 " + archiveCount() + " 筆。");
+      alert("匯入完成：新增 " + added + " 筆，目前共 " + archiveCount() + " 筆。" +
+        (badDate ? "\n其中 " + badDate + " 筆的日期不是 YYYY-MM-DD 格式，已當成沒有日期處理（沒有公告日的會排在最後）。" : ""));
     } catch (e) {
       alert("匯入失敗：檔案格式不正確。");
     }
