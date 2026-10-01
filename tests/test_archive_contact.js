@@ -86,6 +86,19 @@ setTimeout(() => {
   w.eval("archive = store.get('jr_archive', {}); renderArchive();");
   ok(cards().some(c => c.querySelector(".b.todo")), "舊封存資料（無 contacted 欄位）視為待聯絡，不會炸");
 
+  // 同組內依職缺公告日期（新到舊）排序，不是依封存日
+  const fake = (id, posted, at) => ({ job: { ...data.jobs[0], id, title: "T" + id, date_posted: posted, first_seen: posted }, at, why: "manual" });
+  w.localStorage.setItem("jr_archive", JSON.stringify({
+    x1: fake("x1", "2026-09-01", "2026-09-30"),
+    x2: fake("x2", "2026-09-20", "2026-09-02"),
+    x3: fake("x3", "2026-09-10", "2026-09-15"),
+    x4: { ...fake("x4", "2026-09-25", "2026-09-26"), contacted: true, contacted_at: "2026-09-27" },
+  }));
+  w.eval("archive = store.get('jr_archive', {}); archTodoOnly = false; renderArchive();");
+  const order = cards().map(c => c.querySelector(".title").textContent.trim());
+  ok(JSON.stringify(order) === JSON.stringify(["Tx2", "Tx3", "Tx1", "Tx4"]),
+     "待聯絡優先，組內依公告日期新到舊：" + order.join(","));
+
   // localStorage 寫入失敗時要還原，否則畫面說「已聯絡」但重載後消失
   console.log();
   w.eval("archive = store.get('jr_archive', {}); archTodoOnly = false; renderArchive();");

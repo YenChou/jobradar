@@ -617,6 +617,8 @@ function archiveRemove(id){
   store.set("jr_archive", archive);
 }
 
+function postedOf(j){ return (j && (j.date_posted || j.first_seen)) || ""; }
+
 function archiveCount(){ return Object.keys(archive).length; }
 
 function setTab(name){
@@ -638,8 +640,11 @@ function renderArchive(){
   const rows = all
     .filter(a => !q || (a.job.title + " " + a.job.company + " " + (a.job.city || a.job.location || "")).toLowerCase().includes(q))
     .filter(a => !archTodoOnly || !isContacted(a))
-    // 待聯絡的排前面——這個分頁的用途就是看還有哪些沒做
-    .sort((a, b) => (isContacted(a) - isContacted(b)) || (b.at || "").localeCompare(a.at || ""));
+    // 待聯絡的排前面——這個分頁的用途就是看還有哪些沒做；
+    // 同組內依職缺公告日期新到舊（與卡片上顯示的日期一致），同一天再看封存日
+    .sort((a, b) => (isContacted(a) - isContacted(b))
+      || postedOf(b.job).localeCompare(postedOf(a.job))
+      || (b.at || "").localeCompare(a.at || ""));
 
   const btn = document.getElementById("arch-todo");
   btn.textContent = "只看待聯絡" + (todo ? "（" + todo + "）" : "");
