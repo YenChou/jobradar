@@ -86,19 +86,6 @@ setTimeout(() => {
   w.eval("archive = store.get('jr_archive', {}); renderArchive();");
   ok(cards().some(c => c.querySelector(".b.todo")), "舊封存資料（無 contacted 欄位）視為待聯絡，不會炸");
 
-  // 同組內依職缺公告日期（新到舊）排序，不是依封存日
-  const fake = (id, posted, at) => ({ job: { ...data.jobs[0], id, title: "T" + id, date_posted: posted, first_seen: posted }, at, why: "manual" });
-  w.localStorage.setItem("jr_archive", JSON.stringify({
-    x1: fake("x1", "2026-09-01", "2026-09-30"),
-    x2: fake("x2", "2026-09-20", "2026-09-02"),
-    x3: fake("x3", "2026-09-10", "2026-09-15"),
-    x4: { ...fake("x4", "2026-09-25", "2026-09-26"), contacted: true, contacted_at: "2026-09-27" },
-  }));
-  w.eval("archive = store.get('jr_archive', {}); archTodoOnly = false; renderArchive();");
-  const order = cards().map(c => c.querySelector(".title").textContent.trim());
-  ok(JSON.stringify(order) === JSON.stringify(["Tx2", "Tx3", "Tx1", "Tx4"]),
-     "待聯絡優先，組內依公告日期新到舊：" + order.join(","));
-
   // localStorage 寫入失敗時要還原，否則畫面說「已聯絡」但重載後消失
   console.log();
   w.eval("archive = store.get('jr_archive', {}); archTodoOnly = false; renderArchive();");
@@ -117,6 +104,47 @@ setTimeout(() => {
   ok($("#arch-count").textContent === beforeCount,
      "寫入失敗時畫面還原，不會顯示成已聯絡：" + $("#arch-count").textContent);
   ok(/沒有存起來/.test(lastAlert || ""), "有提示使用者：" + lastAlert);
+
+  // ---- 排序：待聯絡優先，同組內依公告日期新到舊，同一天再依封存日 ----
+  console.log();
+  const titles = () => cards().map(c => c.querySelector(".title").textContent.trim());
+  const fake = (id, posted, at, extra) => ({
+    job: { ...data.jobs[0], id, title: "T" + id, date_posted: posted, first_seen: posted, ...extra }, at, why: "manual" });
+  const real = data.jobs.find(j => j.date_posted && j.date_posted < "2026-09-05" && !j.date_assumed);
+  const loadArch = obj => {
+    w.localStorage.setItem("jr_archive", JSON.stringify(obj));
+    $("#aq").value = "";
+    w.eval("archive = store.get('jr_archive', {}); archTodoOnly = false; renderArchive();");
+  };
+  loadArch({
+    x1: fake("x1", "2026-09-01", "2026-09-30"),
+    x2: fake("x2", "2026-09-20", "2026-09-02"),
+    x3: fake("x3", "2026-09-10", "2026-09-15"),
+    x4: { ...fake("x4", "2026-09-25", "2026-09-26"), contacted: true, contacted_at: "2026-09-27" },
+    // 舊資料沒有 date_posted，要退回 first_seen
+    x5: fake("x5", null, "2026-09-01", { first_seen: "2026-09-12" }),
+    // 與 x3 同一天公告：封存日較新的排前面
+    x6: fake("x6", "2026-09-10", "2026-09-20"),
+    // 匯入的備份被手改成數字日期：不能讓整個分頁炸掉，當成沒有日期排最後
+    x7: fake("x7", 20260920, "2026-09-03", { first_seen: 20260920 }),
+  });
+  ok(JSON.stringify(titles()) === JSON.stringify(["Tx2", "Tx5", "Tx6", "Tx3", "Tx1", "Tx7", "Tx4"]),
+     "待聯絡優先、組內依公告日期新到舊、first_seen 後備、同日看封存日、非字串日期不炸：" + titles().join(","));
+  const x7 = cards().find(c => c.querySelector(".title").textContent.trim() === "Tx7");
+  ok(x7.querySelector(".date").textContent === "", "非字串日期不當成日期顯示：「" + x7.querySelector(".date").textContent + "」");
+
+  // 快照裡的推定日期（偏新）：職缺還在架上時改用 jobs.json 的真日期，並寫回封存
+  ok(!!real, "測試資料裡有一筆真實公告日早於 9/5 的職缺");
+  loadArch({
+    x1: fake("x1", "2026-09-10", "2026-09-30"),
+    [real.id]: { job: { ...real, date_posted: "2026-09-30", date_assumed: true }, at: "2026-09-30", why: "applied" },
+  });
+  ok(JSON.stringify(titles()) === JSON.stringify(["Tx1", real.title.trim()]),
+     "推定日期被架上的真日期取代後排到正確位置：" + titles().join(" | "));
+  const saved = arch()[real.id].job;
+  ok(saved.date_posted === real.date_posted && !saved.date_assumed, "真日期寫回封存快照 " + saved.date_posted);
+  const realCard = cards().find(c => c.querySelector(".title").textContent.trim() === real.title.trim());
+  ok(realCard.querySelector(".date").textContent === real.date_posted, "卡片顯示真日期、不再標「約」：" + realCard.querySelector(".date").textContent);
 
   console.log("\n失敗: " + fail);
   process.exit(fail ? 1 : 0);

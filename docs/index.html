@@ -440,7 +440,7 @@ function render(){
   const jobs = allJobs().filter(j => {
     // 時間篩選以「公告日期」為準。來源沒給公告日的，scraper 會用首次抓到的日期
     // 代替並標上 date_assumed（畫面顯示「約」）；這裡的 fallback 只為相容舊資料。
-    const posted = j.date_posted || j.first_seen || today;
+    const posted = postedOf(j) || today;
     if (state.view === "24h" && posted < cut24) return false;
     if (state.view === "7d"  && posted < cut7)  return false;
     if (state.cat.size && !j.categories.some(c => state.cat.has(c)) && !j._manual) return false;
@@ -543,7 +543,7 @@ function card(j, today){
       '<span class="src">' + srcLinks + "</span>" +
       (j.salary ? "<span>" + esc(j.salary) + "</span>" : "") +
       '<span class="date"' + (j.date_assumed ? ' title="來源沒有提供公告日，這裡以首次抓到的日期代替"' : "") + ">" +
-        (j.date_assumed ? "約 " : "") + esc(j.date_posted || j.first_seen || "") + "</span>" +
+        (j.date_assumed ? "約 " : "") + esc(postedOf(j)) + "</span>" +
       '<button class="arch" type="button"></button>' +
       '<span class="track" role="group" aria-label="投遞狀態"></span>' +
     "</div>";
@@ -617,7 +617,31 @@ function archiveRemove(id){
   store.set("jr_archive", archive);
 }
 
-function postedOf(j){ return (j && (j.date_posted || j.first_seen)) || ""; }
+// 公告日期：卡片顯示、時間篩選、封存排序共用同一個來源。
+// 只收字串——匯入的備份可能被手改過，數字或物件會讓排序錯亂、卡片顯示怪值。
+function postedOf(j){
+  const s = v => typeof v === "string" ? v : "";
+  return j ? (s(j.date_posted) || s(j.first_seen)) : "";
+}
+
+// 封存的是當下的快照。列表型來源還沒抓詳情頁時，公告日是推定值（= 首次抓到日，
+// 一定偏新）；之後 scraper 補到真日期只會寫進 jobs.json。職缺還在架上時把真日期
+// 接回快照並存起來，下架後也留得住。
+function refreshArchiveDates(liveById){
+  let changed = false;
+  for (const [id, a] of Object.entries(archive)) {
+    const lj = liveById.get(id);
+    if (!lj || lj.date_assumed || typeof lj.date_posted !== "string" || !lj.date_posted) continue;
+    if (a.job.date_assumed || typeof a.job.date_posted !== "string" || !a.job.date_posted) {
+      a.job.date_posted = lj.date_posted;
+      delete a.job.date_assumed;
+      changed = true;
+    }
+  }
+  if (changed) store.set("jr_archive", archive);   // 寫入失敗也不要緊：這次畫面仍用新日期，下次載入再補
+}
+
+function desc(x, y){ return x < y ? 1 : x > y ? -1 : 0; }
 
 function archiveCount(){ return Object.keys(archive).length; }
 
@@ -634,17 +658,19 @@ function renderArchive(){
   document.getElementById("arch-n").textContent = archiveCount() ? "(" + archiveCount() + ")" : "";
   const q = (document.getElementById("aq").value || "").trim().toLowerCase();
   // 還在 jobs.json 裡的視為仍上架；其餘標成已下架
-  const live = new Set((DATA.jobs || []).map(j => j.id));
-  const all = Object.entries(archive).map(([id, a]) => ({ id, ...a }));
+  const liveById = new Map((DATA.jobs || []).map(j => [j.id, j]));
+  refreshArchiveDates(liveById);
+  const all = Object.entries(archive).map(([id, a]) => ({ id, ...a, posted: postedOf(a.job) }));
   const todo = all.filter(a => !isContacted(a)).length;
   const rows = all
     .filter(a => !q || (a.job.title + " " + a.job.company + " " + (a.job.city || a.job.location || "")).toLowerCase().includes(q))
     .filter(a => !archTodoOnly || !isContacted(a))
     // 待聯絡的排前面——這個分頁的用途就是看還有哪些沒做；
-    // 同組內依職缺公告日期新到舊（與卡片上顯示的日期一致），同一天再看封存日
+    // 同組內依職缺公告日期新到舊（與卡片上顯示的日期一致），同一天再看封存日。
+    // 日期都是 YYYY-MM-DD，直接比字串即可
     .sort((a, b) => (isContacted(a) - isContacted(b))
-      || postedOf(b.job).localeCompare(postedOf(a.job))
-      || (b.at || "").localeCompare(a.at || ""));
+      || desc(a.posted, b.posted)
+      || desc(a.at || "", b.at || ""));
 
   const btn = document.getElementById("arch-todo");
   btn.textContent = "只看待聯絡" + (todo ? "（" + todo + "）" : "");
@@ -662,7 +688,7 @@ function renderArchive(){
 
   const wrap = document.getElementById("arch-cards");
   wrap.innerHTML = "";
-  for (const a of rows) wrap.appendChild(archiveCard(a, live.has(a.id)));
+  for (const a of rows) wrap.appendChild(archiveCard(a, liveById.has(a.id)));
 }
 
 function archiveCard(a, isLive){
