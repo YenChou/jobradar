@@ -219,6 +219,9 @@ bonus_tags:
       - "parlant chinois"
       - "parler chinois"
       - "parlez le chinois"
+      - "parlez couramment chinois"
+      - "parlez couramment le chinois"
+      - "a l'aise en chinois"   # à l'aise en chinois
       - "parler le chinois"
       - "maitrise du chinois"
       - "maitrisez le chinois"
@@ -245,7 +248,8 @@ bonus_tags:
       - '\b(le|du|en) chinois\b[^.\n]{0,30}\b(obligatoire|requise?|indispensable|exigee?|atout|plus|apprecie|souhaite|courant)\b'
       # 列點或子句開頭：「Chinois obligatoire」「* Chinois : courant」「Profil : chinois indispensable」
       # （"le visa chinois est obligatoire" 不在開頭，不會中）
-      - '(^|[\n.:;,*(/-])\s*chinois( \([a-z ]+\))? ?:? ?(obligatoire|requis|indispensable|exige|souhaite|apprecie|courant|natif|lu|ecrit|parle|un plus|un atout|serait un plus|est un plus|est un atout)\b'
+      # 「-」前面要是空白才算列點：「groupe franco-chinois souhaite」的 - 是複合字的一部分
+      - '(^|[\n.:;,*(/]|\s-)\s*chinois( \([a-z ]+\))? ?:? ?(obligatoire|requis|indispensable|exige|souhaite|apprecie|courant|natif|lu|ecrit|parle|un plus|un atout|serait un plus|est un plus|est un atout)\b'
       # 兩種語言並列，後面要接「courant、obligatoire」這類詞才算：「Anglais et chinois courants」
       # （"partenaires français et chinois" 沒有後綴，不會中）
       - '\b(anglais|francais) et (du |le )?chinois (courants?|couramment|obligatoires?|requis|requise|indispensables?|exiges?|exigee|natifs?|parles?|ecrits?)\b'

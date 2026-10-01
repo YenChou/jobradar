@@ -71,6 +71,9 @@ for title, desc, why in [
     # 第二輪 review：修誤判時刪過頭，這些明確的語言要求一度變成不收
     ("Assistant (H/F)", "Chinois obligatoire.", "Chinois obligatoire（列點開頭）"),
     ("Assistant (H/F)", "* Chinois : courant", "* Chinois : courant"),
+    ("Assistant (H/F)", "- Chinois courant", "- Chinois courant（前面有空白的 - 是列點）"),
+    ("Assistant (H/F)", "Vous parlez couramment chinois.", "parlez couramment chinois"),
+    ("Assistant (H/F)", "Vous êtes à l'aise en chinois.", "à l'aise en chinois"),
     ("Assistant (H/F)", "Profil : chinois indispensable.", "子句開頭的 chinois indispensable"),
     ("Assistant (H/F)", "Chinois lu, écrit, parlé.", "Chinois lu, écrit, parlé"),
     ("Assistant (H/F)", "Le chinois est un atout.", "le chinois est un atout（冠詞＋語言名詞）"),
@@ -108,6 +111,9 @@ for title, desc, why in [
      "visa chinois … obligatoire（chinois 不在開頭、前面不是冠詞）"),
     ("Responsable logistique", "Développement du marché chinois indispensable.", "du marché chinois ≠ du chinois"),
     ("Développeur mobile", "Native app for the Chinese market.", "native app … Chinese market"),
+    # 第三輪 review：複合字裡的 - 不是列點
+    ("Comptable", "Notre groupe franco-chinois souhaite renforcer son équipe.", "groupe franco-chinois souhaite"),
+    ("Comptable", "Partenariat franco-chinois apprécié.", "franco-chinois apprécié"),
 ]:
     ok(run(title, desc) is None, f"不收：{why}")
 ok(run("Stage - Assistant marketing", "Mandarin courant.") is None, "實習照樣硬性排除，要求中文也一樣")
