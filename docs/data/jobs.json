@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-10-01T15:59:29Z",
+ "generated_at": "2026-10-01T16:56:38Z",
  "source_stats": {
-  "Indeed": 1470,
+  "Indeed": 1468,
   "Welcome to the Jungle": 3617,
   "France Travail": 123,
   "APEC": 0,
-  "Isarta": 140
+  "Isarta": 141
  },
- "count": 963,
- "new_today": 187,
+ "count": 964,
+ "new_today": 188,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -10244,37 +10244,6 @@
    "first_seen": "2026-10-01"
   },
   {
-   "id": "dc3ff6c4616a6452",
-   "title": "AGENT D’ESCALE (H/F)",
-   "company": "Air China Limited",
-   "location": "Aéroport Paris-Roissy-Charles-de-Gaulle, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international"
-   ],
-   "score": 8,
-   "date_posted": "2026-09-29",
-   "salary": "Mensuel de 2100.0 Euros à 2400.0 Euros - 13ème mois à partir 1 an ancienneté, prime ancienneté.",
-   "description_snippet": "**OFFRE D’EMPLOI** **AIR CHINA LIMITED** **Intitulé du poste** **AGENT D’ESCALE (H/F)** **Profil recherché** * Formation Bac\\+3 / Licence professionnelle * Une première expérience dans le domaine aéroportuaire ou dans la relation client est souhaitée * Excellente maîtrise du français * La maîtrise de l’anglais ou du chinois est indispensable **Missions principales** * Assurer les différentes opéra",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=79486db9f814748b"
-    },
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214NVST"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
    "id": "2677b0399b93112b",
    "title": "Customer Success Manager",
    "company": "Semji",
@@ -12900,6 +12869,33 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/7521721"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "dc3ff6c4616a6452",
+   "title": "AGENT D'ESCALE (H/F)",
+   "company": "AIR CHINA LIMITED",
+   "location": "77 - Mauregard",
+   "city": "77 - Mauregard",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-09-29",
+   "salary": "Mensuel de 2100.0 Euros à 2400.0 Euros - 13ème mois à partir 1 an ancienneté, prime ancienneté.",
+   "description_snippet": "Profil recherché - Formation Bac+3 / Licence professionnelle - Une première expérience dans le domaine aéroportuaire ou dans la relation client est souhaitée - Excellente maîtrise du français - La maîtrise de l'anglais ou du chinois est indispensable Missions principales - Assurer les différentes opérations liées aux services d'escale - Accueillir, informer et assister les passagers - Participer a",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214NVST"
     }
    ],
    "first_seen": "2026-10-01"
@@ -18421,6 +18417,32 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/empowill/jobs/customer-success-manager-paris-f-h-x-cdi_paris_EMPOW_8JJXXpK"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "1d130b2a146a2308",
+   "title": "Customer Success Manager - Large Accounts (H/F)",
+   "company": "Wakeo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-25",
+   "salary": null,
+   "description_snippet": "Customer Success Manager - Large Accounts (H/F)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/wakeo/jobs/customer-success-manager-large-accounts_paris"
     }
    ],
    "first_seen": "2026-10-01"
