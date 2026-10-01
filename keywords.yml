@@ -69,6 +69,41 @@ categories:
       - "newsletter"
       - "marketing automation"
 
+  # 以客戶為中心的職缺：Customer Marketing / Success / Experience…
+  # 刻意不收 customer service / support / care 與 relation client、service client——
+  # 那多半是客服中心的缺，而 anglais、english 這類搜尋詞正好會撈到一大堆。
+  customer:
+    label: "Customer"
+    # 只看職稱、不用描述補判：customer experience、expérience client 這類詞在一般
+    # 行銷職缺的描述裡太常見，補判會讓大半職缺都掛上 Customer，篩選就沒意義了。
+    title_only: true
+    title_keywords:
+      - "customer marketing"
+      - "customer success"
+      - "customer experience"
+      - "customer engagement"
+      - "customer lifecycle"
+      - "customer retention"
+      - "customer insight"
+      - "customer journey"
+      - "marketing client"     # 也涵蓋 marketing clientèle
+      - "experience client"
+      - "engagement client"
+      - "parcours client"
+      - "connaissance client"
+    skill_keywords:
+      - "nps"
+      - "csat"
+      - "churn"
+      - "retention"
+      - "satisfaction client"
+      - "customer satisfaction"
+      - "voix du client"
+      - "voice of the customer"
+      - "upsell"
+      - "cross-sell"
+      - "zendesk"
+
   marketing_analytics:
     label: "Marketing Analytics"
     title_keywords:
@@ -106,6 +141,7 @@ categories:
       - "positionnement"
 
 # 跨類技能標籤：不成類，但命中會在職缺上顯示標籤（Yen 的加分技能）
+# 比對範圍是職稱＋描述。標籤只負責標示，唯一的例外是 keep_keywords（見中文/國際）。
 bonus_tags:
   video_content:
     label: "影音內容"
@@ -114,45 +150,110 @@ bonus_tags:
       - "montage video"
       - "contenu digital"
 
-  # 要求中文能力的職缺。
-  # 刻意不收單獨的 "chinois"——法文的「中國的」與「中文」同字，"marché chinois"
-  # （中國市場）不代表要會中文。所以模糊的那個字一律搭語言講法才算，
-  # 明確只指語言的字（mandarin、中文、HSK…）才單獨成立。
+  # 中文／國際：Yen 的語言與國際背景是優勢的職缺。
+  # key 維持 "chinese"（舊名「需中文」）：既有的 jobs.json 與瀏覽器裡的封存快照都用這個 key。
+  #
+  # 兩組關鍵字，效果不同：
+  # - keep_keywords：明確要求中文。命中就收，即使六類都沒中——中文是最大的優勢，
+  #   非行銷職缺也值得看。
+  # - skill_keywords：國際環境、英文、中國市場。只掛標籤，職缺本身仍須屬於六類之一；
+  #   anglais 幾乎每個職缺都會提，這組若也能讓職缺入庫，整個網站會被灌爆。
+  #
+  # keep_keywords 刻意不收單獨的 "chinois"／"chinese"：法文的「中國的」與「中文」同字，
+  # "marché chinois"（中國市場）、"restaurant chinois" 都不代表要會中文。模糊的字一律
+  # 搭語言講法才算；mandarin、中文、HSK 這些只可能指語言的字才單獨成立。
+  # 單獨的 chinois／chinese 放在 skill_keywords：中國市場本來就算「國際」。
   chinese:
-    label: "需中文"
-    skill_keywords:
-      # 明確指語言
+    label: "中文/國際"
+    keep_keywords:
+      # 只可能指語言的字
       - "mandarin"
       - "cantonais"
-      - "chinese speaker"
-      - "chinese speaking"
-      - "chinese-speaking"
-      - "fluent in chinese"
-      - "native chinese"
-      - "chinese fluent"
+      - "cantonese"
+      - "sinophone"
       - "hsk"
       - "中文"
+      - "華語"
+      - "华语"
       - "普通話"
       - "普通话"
       - "國語"
-      # "chinois" 搭語言講法
+      - "国语"
+      # 英文："chinese" 搭語言講法
+      - "chinese speaker"     # 也涵蓋 chinese speakers
+      - "chinese speaking"
+      - "chinese-speaking"
+      - "speak chinese"
+      - "speaks chinese"
+      - "fluent in chinese"
+      - "fluent chinese"
+      - "chinese fluent"
+      - "native chinese"
+      - "chinese native"
+      - "proficient in chinese"
+      - "proficiency in chinese"
+      - "chinese language"
+      - "spoken chinese"
+      - "written chinese"
+      - "business chinese"
+      - "bilingual chinese"
+      - "english and chinese"
+      - "chinese and english"
+      - "english/chinese"
+      - "chinese/english"
+      # 法文："chinois" 搭語言講法
       - "chinois courant"
       - "courant en chinois"
       - "bilingue chinois"
       - "parle chinois"
       - "parlez chinois"
       - "parlant chinois"
+      - "parler chinois"
+      - "parlez le chinois"
+      - "parler le chinois"
       - "maitrise du chinois"
+      - "maitrisez le chinois"
+      - "niveau de chinois"
+      - "connaissance du chinois"
       - "langue chinoise"
       - "chinois natif"
       - "chinois obligatoire"
       - "chinois exige"
+      - "chinois requis"
+      - "chinois indispensable"
       - "chinois souhaite"
+      - "chinois apprecie"
+      - "chinois ecrit"
+      - "chinois lu"
+      - "chinois serait un plus"
+      - "chinois est un plus"
+      - "chinois est un atout"
       - "anglais/chinois"
       - "anglais / chinois"
       - "anglais et chinois"
+      - "anglais-chinois"
+      - "chinois/anglais"
+      - "chinois et anglais"
       - "francais/chinois"
-      - "chinois lu"
+      - "francais-chinois"
+      - "francais et chinois"
+      - "chinois/francais"
+      - "chinois et francais"
+    skill_keywords:
+      - "international"       # 也涵蓋 internationale(s)
+      - "internationaux"
+      - "anglais"             # 也涵蓋 anglaise(s)
+      - "anglophone"
+      - "english"
+      - "chinese"
+      - "chinois"             # 也涵蓋 chinoise(s)
+    # 比對前先從文字裡刪掉的片語：含有上面的字，但跟中文／國際無關
+    ignore_phrases:
+      - "mandarin oriental"   # 巴黎的飯店集團，旗下職缺描述幾乎都會寫到
+      - "mandarine"           # 橘子；也是公司名（Mandarine Gestion…）
+      - "nouvel an chinois"   # 零售行銷的檔期，不是國際業務
+      - "chinese new year"
+      - "cle anglaise"        # clé anglaise＝扳手
 
 exclude_title:
   - "stage"
@@ -279,3 +380,13 @@ search_terms:
   - "marketing produit"
   - "product marketing"
   - "marketing automation"
+  # 以下是較寬的詞，刻意放最後：各來源有時間預算，萬一不夠用，被跳過的會是這些，
+  # 上面核心的行銷詞照常跑完。英法兩種講法都列（CRM、mandarin、international 兩語同字）。
+  # 搜到的職缺照樣要過分類：只有明確要求中文的才能不屬於六類也收（見 bonus_tags.chinese）。
+  - "CRM"
+  - "mandarin"
+  - "chinese"
+  - "chinois"
+  - "international"
+  - "anglais"
+  - "english"

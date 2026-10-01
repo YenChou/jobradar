@@ -39,7 +39,9 @@ def load_cfg() -> dict:
         cat["title_keywords"] = [norm(k) for k in cat["title_keywords"]]
         cat["skill_keywords"] = [norm(k) for k in cat["skill_keywords"]]
     for tag in cfg.get("bonus_tags", {}).values():
-        tag["skill_keywords"] = [norm(k) for k in tag["skill_keywords"]]
+        # `or []`：清單項目全被註解掉時 YAML 給的是 None，不擋的話整輪抓取會直接崩潰
+        for key in ("skill_keywords", "keep_keywords", "ignore_phrases"):
+            tag[key] = [norm(k) for k in tag.get(key) or []]
     for key in ("exclude_title", "exclude_title_foreign", "exclude_title_abbrev",
                 "seniority_boost_title",
                 "seniority_penalty_title", "contract_boost", "west_cities"):
@@ -112,7 +114,7 @@ def main() -> int:
 
     # 分類 + 過濾
     kept = [j for j in (enrich.classify(r, cfg) for r in raw) if j]
-    log.info("過濾後 %d 筆（排除 Stage/Alternance 與五類皆未命中者）", len(kept))
+    log.info("過濾後 %d 筆（排除 Stage/Alternance，以及職類全沒中又沒明確要求中文者）", len(kept))
 
     # 本次去重
     kept = enrich.dedupe(kept)

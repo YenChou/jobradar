@@ -215,7 +215,7 @@
       <button class="chipbtn" data-g="contract" data-k="Intérim" aria-pressed="false">Intérim</button>
     </div>
     <div class="row" id="row-tag"><span class="lbl">標籤</span>
-      <button class="chipbtn" data-g="tag" data-k="chinese" aria-pressed="false">需中文</button>
+      <button class="chipbtn" data-g="tag" data-k="chinese" aria-pressed="false" title="要求中文的職缺（不限職類），以及提到國際環境、英文、中國市場的職缺">中文/國際</button>
       <button class="chipbtn" data-g="tag" data-k="video_content" aria-pressed="false">影音內容</button>
     </div>
     <div class="row" id="row-source"><span class="lbl">來源</span></div>
@@ -281,10 +281,11 @@ const CATS = {
   marketing_operations: "Marketing Ops",
   performance_marketing: "Performance",
   crm: "CRM",
+  customer: "Customer",
   marketing_analytics: "Analytics",
   marketing_produit: "Produit",
 };
-const BONUS = { video_content: "影音內容", chinese: "需中文" };
+const BONUS = { video_content: "影音內容", chinese: "中文/國際" };
 const MODES = { remote:"Remote", hybrid:"Hybride", onsite:"Présentiel" };
 
 // ---- localStorage（包 try/catch：私密視窗等情境會擋）----
