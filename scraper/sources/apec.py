@@ -45,17 +45,28 @@ PAGES = 3
 TIME_BUDGET_S = 600   # 11 詞 × 3 頁；DataDome 擋人時不該把時間全耗在重試
 
 
+class _Blocked(Exception):
+    """站方擋人（403／405，多半是 DataDome）。擋的是 IP，換搜尋詞也一樣會被擋。"""
+
+
 def fetch(search_terms: list[str], results_per_term: int = 100) -> list[dict]:
     jobs: list[dict] = []
     seen: set[str] = set()
     budget = Budget(TIME_BUDGET_S)
-    for term in search_terms:
+    for i, term in enumerate(search_terms):
         if budget.expired():
             log.warning("APEC 時間預算用完，%r 之後的搜尋詞跳過", term)
             break
-        for page in range(PAGES):
-            if budget.expired() or not _page(term, page, jobs, seen, results_per_term):
-                break
+        try:
+            for page in range(PAGES):
+                if budget.expired() or not _page(term, page, jobs, seen, results_per_term):
+                    break
+        except _Blocked as e:
+            # 以前這裡只結束「這個詞」，接著每個詞都再被擋一次——一輪 22 個請求
+            # 全打在已經明確拒絕我們的站上。被擋就整組收工。
+            log.warning("APEC 回 %s（很可能是 DataDome 反爬），整組跳過：剩下 %d 個搜尋詞不送",
+                        e, len(search_terms) - i - 1)
+            break
     return jobs
 
 
@@ -73,10 +84,11 @@ def _page(term: str, page: int, jobs: list[dict], seen: set[str], results_per_te
     try:
         r = HTTP.post(SEARCH_URL, data=json.dumps(payload), headers=HEADERS, timeout=TIMEOUT)
         if r.status_code in (403, 405):
-            log.warning("APEC 回 %s（很可能是 DataDome 反爬），整組跳過", r.status_code)
-            return False
+            raise _Blocked(r.status_code)
         r.raise_for_status()
         data = r.json()
+    except _Blocked:
+        raise
     except Exception as e:
         log.warning("APEC 搜尋 %r p%d 失敗: %s", term, page, e)
         return False
