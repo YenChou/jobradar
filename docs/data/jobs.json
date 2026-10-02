@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-10-02T16:09:17Z",
+ "generated_at": "2026-10-02T21:12:44Z",
  "source_stats": {
-  "Indeed": 1517,
-  "Welcome to the Jungle": 3617,
-  "France Travail": 137,
+  "Indeed": 1531,
+  "Welcome to the Jungle": 3613,
+  "France Travail": 140,
   "APEC": 0,
   "Isarta": 141
  },
- "count": 979,
- "new_today": 33,
+ "count": 987,
+ "new_today": 41,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -181,6 +181,38 @@
     }
    ],
    "first_seen": "2026-09-21"
+  },
+  {
+   "id": "963a286fc1ddb8cb",
+   "title": "Chargé(e) Marketing Digital & Growth",
+   "company": "France Machine",
+   "location": "Chalon-sur-Saône, BFC, FR",
+   "city": "Chalon-Sur-Saone",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "hubspot",
+    "processus",
+    "workflow",
+    "zapier"
+   ],
+   "bonus_tags": [],
+   "score": 22,
+   "date_posted": "2026-10-02",
+   "salary": "28,000–32,000 EUR/yearly",
+   "description_snippet": "France Mini Pelle est une PME spécialisée dans la vente de machines de travaux d'envergure nationale, basée à Chalon-sur-Saône. Nous adressons une clientèle de particuliers et de professionnels (artisans du BTP, agriculteurs, petites entreprises) avec une méthode de vente en rupture avec les pratiques du secteur : nous appliquons les méthodes de marketing et de vente des produits digitaux à la ven",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1717f4f671826543"
+    }
+   ],
+   "first_seen": "2026-10-02"
   },
   {
    "id": "efe592d082780ac4",
@@ -739,6 +771,36 @@
    "first_seen": "2026-09-04"
   },
   {
+   "id": "80e8ec52feab7f3f",
+   "title": "Chef de projets Fidélisation & Data F/H",
+   "company": "AVANCI",
+   "location": "Tours, CVL, FR",
+   "city": "Tours",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "fidelisation",
+    "marketing automation",
+    "parcours client"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-10-02",
+   "salary": null,
+   "description_snippet": "**À propos** ------------ Chez Avanci, **agence conseil en Data-client , Marketing et CRM**, nous sommes spécialisés en **data et IA** . Nous aidons nos clients à structurer et activer leurs données. **Notre force ?** La richesse de nos expertises : Data intelligence, Data activation, Data Management, Content Factory et enrichissement de données grâce à Profilia, notre plateforme webservice de mis",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b51c57ded2bbfc39"
+    }
+   ],
+   "first_seen": "2026-10-02"
+  },
+  {
    "id": "7afcc7e9b9010675",
    "title": "Lead Product Specialist - Customer Success Enablement",
    "company": "Lucca",
@@ -1281,43 +1343,6 @@
    "first_seen": "2026-10-01"
   },
   {
-   "id": "eaed874a1979447a",
-   "title": "Traffic Manager SEA/SMA/Affiliation - H/F - Levallois-Perret",
-   "company": "SKILL AND YOU",
-   "location": "Levallois-Perret, A8, FR",
-   "city": "Levallois-Perret",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "google ads",
-    "kpi",
-    "roi",
-    "sea",
-    "tracking"
-   ],
-   "bonus_tags": [],
-   "score": 18,
-   "date_posted": "2026-09-29",
-   "salary": null,
-   "description_snippet": "**Description** Skill & You est un acteur majeur de la formation à distance, facilitant l’accès à l’apprentissage et à la réussite professionnelle. Chaque année, nous accompagnons plus de 45 000 apprenants dans plus de 200 formations, conçues par des experts métiers et adaptées au rythme de chacun. Avec près de 700 collaborateurs engagés, notre mission est de rendre la formation accessible à tous ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=10ced06d11a6efb5"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/skill-you/jobs/trafic-manager-sea-sma-affiliation-h-f-levallois-perret_levallois-perret"
-    }
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
    "id": "1ff66413972a29f9",
    "title": "PRODUCT MARKETING MANAGER",
    "company": "opisto",
@@ -1585,36 +1610,6 @@
     }
    ],
    "first_seen": "2026-09-08"
-  },
-  {
-   "id": "80e8ec52feab7f3f",
-   "title": "Chef de projets Fidélisation & Data F/H",
-   "company": "AVANCI",
-   "location": "Cesson-Sévigné, A2, FR",
-   "city": "Cesson-Sevigne",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "crm"
-   ],
-   "skills": [
-    "fidelisation",
-    "marketing automation",
-    "parcours client"
-   ],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-10-02",
-   "salary": null,
-   "description_snippet": "**À propos** ------------ Chez Avanci, **agence conseil en Data-client , Marketing et CRM**, nous sommes spécialisés en **data et IA** . Nous aidons nos clients à structurer et activer leurs données. **Notre force ?** La richesse de nos expertises : Data intelligence, Data activation, Data Management, Content Factory et enrichissement de données grâce à Profilia, notre plateforme webservice de mis",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=5620752c1d7d7620"
-    }
-   ],
-   "first_seen": "2026-10-02"
   },
   {
    "id": "33956cc3e304e785",
@@ -3161,6 +3156,63 @@
     }
    ],
    "first_seen": "2026-09-02"
+  },
+  {
+   "id": "663ed03538ba1814",
+   "title": "Chef de produit - Widex H/F",
+   "company": "WSA",
+   "location": "Saint-Ouen, A8, FR",
+   "city": "Saint-Ouen",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "Acteur majeur de l’audiologie, WSAudiology rassemble des marques reconnues telles que Widex, Signia et Rexton, ainsi que des technologies et solutions innovantes qui transforment l’expérience des professionnels de l’audition et des patients. En France, nos équipes contribuent chaque jour au développement de nos marques, de nos produits et de nos services, en collaboration étroite avec nos équipes ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a0790790f5ed8c94"
+    }
+   ],
+   "first_seen": "2026-10-02"
+  },
+  {
+   "id": "48ac4e6dbc9c17d6",
+   "title": "Product Marketing Manager (PMM) H/F",
+   "company": "RCA",
+   "location": "Nantes",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager (PMM) H/F <p><strong>Ton profil</strong></p><ul><li>Entre 2 à 4 ans d’expérience dans une fonction similaire</li><li>1ere expérience chez un éditeur de logiciel, idéalement en SaaS ou dans une entreprise technologique.</li></ul> <h2>Informations supplémentaires</h2> <p>Poste en&#xa0;<strong>CDI</strong>, à pourvoir sur<strong> Saint-Herblain.</strong> Rémunération proposé",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/rca/jobs/product-marketing-manager-pmm-h-f_nantes"
+    }
+   ],
+   "first_seen": "2026-10-02"
   },
   {
    "id": "f4abf52807d7cbb5",
@@ -4858,6 +4910,64 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=32bc274b851ce293"
+    }
+   ],
+   "first_seen": "2026-10-02"
+  },
+  {
+   "id": "4bcc07088c443a8f",
+   "title": "Chargé(e) de Communication",
+   "company": "SBM( Société des Bains de Mer) Monaco",
+   "location": "Monaco, B8, FR",
+   "city": "Monaco",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-02",
+   "salary": null,
+   "description_snippet": "La Direction Marketing valorise les marques, les offres et les expériences du Resort. Elle accompagne le développement et le rayonnement des activités du Groupe en concevant et en déployant des actions marketing adaptées à ses enjeux. Rejoindre cette direction, c'est contribuer à l'attractivité du Groupe dans un environnement créatif, analytique et en constante évolution. Rattaché(e) au Responsabl",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=23499862d44848a2"
+    }
+   ],
+   "first_seen": "2026-10-02"
+  },
+  {
+   "id": "c91dd1247001c0c7",
+   "title": "Customer Success Manager SAP S/4HANA (H/F)",
+   "company": "skaelia",
+   "location": "92 - Puteaux",
+   "city": "92 - Puteaux",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-02",
+   "salary": "Annuel de 60000.0 Euros à 100000.0 Euros",
+   "description_snippet": "DESCRIPTION Notre client est une ESN internationale présente dans plus de 40 pays, reconnue pour son agilité et son expertise dans les solutions ERP ainsi que dans les développements digitaux sur mesure. Le groupe continue de se développer en France et renforce aujourd'hui ses équipes à Paris. Dans le cadre de la structuration de sa stratégie orientée valeur et satisfaction client, nous recherchon",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7600975"
     }
    ],
    "first_seen": "2026-10-02"
@@ -10217,7 +10327,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=58504be518ef75d6"
+     "url": "https://fr.indeed.com/viewjob?jk=5ba7cce1e2fbc034"
     }
    ],
    "first_seen": "2026-10-02"
@@ -10848,6 +10958,34 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=a5cdcaed9d27c758"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
+   "id": "eaed874a1979447a",
+   "title": "Traffic Manager SEA/SMA/Affiliation - H/F - Levallois-Perret",
+   "company": "Skill and You",
+   "location": "Levallois-Perret",
+   "city": "Levallois-Perret",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Traffic Manager SEA/SMA/Affiliation - H/F - Levallois-Perret",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/skill-you/jobs/trafic-manager-sea-sma-affiliation-h-f-levallois-perret_levallois-perret"
     }
    ],
    "first_seen": "2026-09-30"
@@ -17395,6 +17533,59 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "26242688899941c7",
+   "title": "Sales Associate",
+   "company": "Jimmy Choo",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-02",
+   "salary": "24,000–32,000 EUR/yearly",
+   "description_snippet": "Company Profile: Jimmy Choo encompasses a complete luxury accessories brand. Women’s shoes remain the core of the product offer, alongside handbags, small leather goods, scarves, sunglasses, eyewear, belts, fragrance and men’s shoes. CEO Pierre Denis and Creative Director Sandra Choi together share a vision to create one of the world’s most treasured luxury brands. Jimmy Choo has a global store ne",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d016102ea12e4da3"
+    }
+   ],
+   "first_seen": "2026-10-02"
+  },
+  {
+   "id": "36f4e21884185fc9",
+   "title": "Product Marketing Manager",
+   "company": "Greenly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-08-29",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/greenly/jobs/senior-product-marketing-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-02"
+  },
+  {
    "id": "b6852cb04e1badc7",
    "title": "Customer Success Manager H/F",
    "company": "TWC - Rosk x Brigad",
@@ -21348,6 +21539,40 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "654780c6c171dddd",
+   "title": "Customer Success manager Senior H/F",
+   "company": "Elis",
+   "location": "Puteaux, A8, FR",
+   "city": "Puteaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-02",
+   "salary": null,
+   "description_snippet": "**Description du poste** ------------------------ ### **Métier** Marketing - Innovation ### **Intitulé du poste** Customer Success manager Senior H/F ### **Contrat** CDI ### **Statut** Cadre ### **Description de la mission** Ne venez pas chez Elis si vous pensez que le succès d'une plateforme digitale s'arrête à son lancement. Chez Elis, nous sommes convaincus que la valeur d'un produit se mesure ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e160ece1183c5229"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/elis-france/jobs/customer-success-manager-senior-h-f_puteaux"
+    }
+   ],
+   "first_seen": "2026-10-02"
+  },
+  {
    "id": "c331affbc629fb51",
    "title": "Perfumery School Trainee - China",
    "company": "Givaudan",
@@ -24045,36 +24270,6 @@
    "first_seen": "2026-09-02"
   },
   {
-   "id": "654780c6c171dddd",
-   "title": "Customer Success manager Senior H/F",
-   "company": "Elis",
-   "location": "Puteaux",
-   "city": "Puteaux",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "satisfaction client"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 0,
-   "date_posted": "2026-10-02",
-   "salary": null,
-   "description_snippet": "Customer Success manager Senior H/F Profil recherché :<br />Au-delà de votre parcours, c'est votre capacité à influencer, convaincre et embarquer qui fera la différence.<br />Orienté(e) résultats et satisfaction client, vous aimez analyser les usages, piloter la performance par les données et transformer des besoins métiers en actions concrètes. Vous évoluez avec aisance dans des organisations mat",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/elis-france/jobs/customer-success-manager-senior-h-f_puteaux"
-    }
-   ],
-   "first_seen": "2026-10-02"
-  },
-  {
    "id": "3d62d62171ec429c",
    "title": "Communications Manager - B2B (Contractor)",
    "company": "",
@@ -24098,6 +24293,32 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=5b3e30cf7f3b5d96"
+    }
+   ],
+   "first_seen": "2026-10-02"
+  },
+  {
+   "id": "580cebeacdf98da9",
+   "title": "Chef de projet CRM & Data (H/F)",
+   "company": "Comet Meetings",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "Chef de projet CRM & Data (H/F) Vous avez un envie d’acquérir un super bagage à la croisée des Revenue Ops et du Marketing Digital ? Ce stage est fait pour vous ! Vous êtes la personne qu’il nous faut si : 🎓 Vous êtes en dernière année d'école de commerce, d'ingénieur ou en formation universitaire équivalente, avec une spécialisation en marketing ou data. 🖥️ Vous avez une très bonne maîtrise d’Exc",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/comet-meetings/jobs/chef-de-projet-crm-data-en-stage_paris"
     }
    ],
    "first_seen": "2026-10-02"
