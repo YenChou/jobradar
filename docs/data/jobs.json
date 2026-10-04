@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-04T07:17:11Z",
+ "generated_at": "2026-10-04T15:11:54Z",
  "source_stats": {
-  "Indeed": 1448,
-  "Welcome to the Jungle": 3612,
+  "Indeed": 1316,
+  "Welcome to the Jungle": 3613,
   "France Travail": 88,
   "APEC": 0,
   "Isarta": 130
@@ -10,8 +10,8 @@
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
- "count": 981,
- "new_today": 1,
+ "count": 984,
+ "new_today": 4,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -12963,6 +12963,60 @@
    "first_seen": "2026-09-04"
   },
   {
+   "id": "5e9cfe0b10428992",
+   "title": "Responsable QHSE & RD Agroalimentaire Experimenté",
+   "company": "Euraise et Frères",
+   "location": "Stains, A8, FR",
+   "city": "Stains",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-04",
+   "salary": null,
+   "description_snippet": "Rattaché(e) au directeur de sites, le Responsable QHSE & Formulation garantit la sécurité alimentaire et la qualité des produits et assure le pilotage de la politique QHSE. Il sera le garant de la qualité, de l’hygiène, de la sécurité et de l’hygiène des installations de l’usine (intérieures et extérieures), et sera également l’interlocuteur principal de la DDPP. **Ses principales missions seront ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=2260153d574c40c0"
+    }
+   ],
+   "first_seen": "2026-10-04"
+  },
+  {
+   "id": "4a86f4c0c84febb7",
+   "title": "Technicien électromécanicien",
+   "company": "Euraise et Frères",
+   "location": "Stains, A8, FR",
+   "city": "Stains",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-04",
+   "salary": null,
+   "description_snippet": "**À propos du poste** Nous recherchons un(e) <PERSON> dynamique et passionné(e) pour rejoindre notre équipe en tant que Technicien électromécanicien dans l'industrie agroalimentaire . Dans ce rôle essentiel, vous serez responsable de la gestion, de la réparation et de l’entretien des équipements industriels afin d’assurer une production fluide et efficace. Vous participerez activement à la résolut",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a787350dcae3db9f"
+    }
+   ],
+   "first_seen": "2026-10-04"
+  },
+  {
    "id": "0fdcdfb433ca1323",
    "title": "Sushiman / woman H/F",
    "company": "YU BAN",
@@ -17507,6 +17561,32 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "c63218ad361627f2",
+   "title": "CSM FR & Spain (Customer Success Manager)",
+   "company": "Loyoly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-04",
+   "salary": null,
+   "description_snippet": "CSM FR & Spain (Customer Success Manager) * Tu as un très bon niveau de français et d'espagnol à l’oral et à l’écrit * Tu as une première expérience en Customer Success/Sales * Tu as un esprit entrepreneurial et tu aimes les défis * Tu es autonome, fiable, et tu n’hésites pas à communiquer sur les difficultés rencontrées * Tu as une fibre commerciale : vous savez identifier les besoins et proposer",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/loyoly/jobs/csm-junior-fr-spain-customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "b6852cb04e1badc7",
    "title": "Customer Success Manager H/F",
    "company": "TWC - Rosk x Brigad",
@@ -17662,32 +17742,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/ramify/jobs/customer-success-manager_paris"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
-   "id": "c63218ad361627f2",
-   "title": "CSM FR & Spain (Customer Success Manager)",
-   "company": "Loyoly",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-30",
-   "salary": null,
-   "description_snippet": "CSM FR & Spain (Customer Success Manager) * Tu as un très bon niveau de français et d'espagnol à l’oral et à l’écrit * Tu as une première expérience en Customer Success/Sales * Tu as un esprit entrepreneurial et tu aimes les défis * Tu es autonome, fiable, et tu n’hésites pas à communiquer sur les difficultés rencontrées * Tu as une fibre commerciale : vous savez identifier les besoins et proposer",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/loyoly/jobs/csm-junior-fr-spain-customer-success-manager_paris"
     }
    ],
    "first_seen": "2026-10-01"
@@ -21375,6 +21429,32 @@
     }
    ],
    "first_seen": "2026-09-04"
+  },
+  {
+   "id": "55689187bfc4249d",
+   "title": "Head of CRM & Customer Engagement H/F",
+   "company": "",
+   "location": "92 - Boulogne-Billancourt",
+   "city": "92 - Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-10-04",
+   "salary": null,
+   "description_snippet": "Notre client est un acteur reconnu de son secteur, engagé dans une transformation ambitieuse de sa stratégie de relation client. Afin de reprendre la maîtrise de sa donnée, de ses outils et de ses activations marketing, il recherche un/e Head of CRM & Customer Engagement. Avec une volonté forte de construire une organisation CRM plus intégrée, agile et performante, capable de soutenir les enjeux d",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7656020"
+    }
+   ],
+   "first_seen": "2026-10-04"
   },
   {
    "id": "cc6bc625c243c84d",
