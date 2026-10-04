@@ -1,14 +1,17 @@
 {
- "generated_at": "2026-10-03T19:44:25Z",
+ "generated_at": "2026-10-04T07:17:11Z",
  "source_stats": {
-  "Indeed": 1466,
-  "Welcome to the Jungle": 3617,
-  "France Travail": 129,
+  "Indeed": 1448,
+  "Welcome to the Jungle": 3612,
+  "France Travail": 88,
   "APEC": 0,
-  "Isarta": 135
+  "Isarta": 130
  },
- "count": 980,
- "new_today": 12,
+ "blocked_sources": {
+  "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
+ },
+ "count": 981,
+ "new_today": 1,
  "jobs": [
   {
    "id": "9beff6543b7b3015",
@@ -12958,6 +12961,33 @@
     }
    ],
    "first_seen": "2026-09-04"
+  },
+  {
+   "id": "0fdcdfb433ca1323",
+   "title": "Sushiman / woman H/F",
+   "company": "YU BAN",
+   "location": "Créteil, A8, FR",
+   "city": "Creteil",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-03",
+   "salary": null,
+   "description_snippet": "**À propos du poste** Nous recherchons un ou une SUSHI MAN (WOMAN) passionné(e) par la gastronomie japonaise. En tant que professionnel(le) de la restauration, vous serez responsable de la préparation, de la cuisson et de la présentation des plats japonais, tout en assurant le respect des normes d'hygiène et de sécurité alimentaire. Vous intégrerez une équipe dynamique dans un environnement conviv",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8c285763dbc686b9"
+    }
+   ],
+   "first_seen": "2026-10-04"
   },
   {
    "id": "243f7061bc9dfa93",
