@@ -13,7 +13,7 @@ import time
 
 import requests
 
-from scraper.net import TIMEOUT, Budget, session
+from scraper.net import TIMEOUT, Budget, blocked_reason, report_blocked, session
 
 from scraper.util import to_date_str
 
@@ -45,17 +45,27 @@ PAGES = 3
 TIME_BUDGET_S = 600   # 11 詞 × 3 頁；DataDome 擋人時不該把時間全耗在重試
 
 
+class _Blocked(Exception):
+    """站方在擋我們（見 net.blocked_reason）。擋的是 IP，換搜尋詞也一樣會被擋。"""
+
+
 def fetch(search_terms: list[str], results_per_term: int = 100) -> list[dict]:
     jobs: list[dict] = []
     seen: set[str] = set()
     budget = Budget(TIME_BUDGET_S)
-    for term in search_terms:
+    for i, term in enumerate(search_terms):
         if budget.expired():
             log.warning("APEC 時間預算用完，%r 之後的搜尋詞跳過", term)
             break
-        for page in range(PAGES):
-            if budget.expired() or not _page(term, page, jobs, seen, results_per_term):
-                break
+        try:
+            for page in range(PAGES):
+                if budget.expired() or not _page(term, page, jobs, seen, results_per_term):
+                    break
+        except _Blocked as e:
+            # 以前這裡只結束「這個詞」，接著每個詞都再被擋一次——一輪 22 個請求
+            # 全打在已經明確拒絕我們的站上。被擋就整組收工，並回報讓網站標出來。
+            report_blocked("APEC", f"{e}；整組跳過，剩下 {len(search_terms) - i - 1} 個搜尋詞不送")
+            break
     return jobs
 
 
@@ -72,12 +82,25 @@ def _page(term: str, page: int, jobs: list[dict], seen: set[str], results_per_te
     }
     try:
         r = HTTP.post(SEARCH_URL, data=json.dumps(payload), headers=HEADERS, timeout=TIMEOUT)
-        if r.status_code in (403, 405):
-            log.warning("APEC 回 %s（很可能是 DataDome 反爬），整組跳過", r.status_code)
-            return False
+    except Exception as e:   # 連線失敗：只影響這個詞（net.session 已經重試過）
+        log.warning("APEC 搜尋 %r p%d 失敗: %s", term, page, e)
+        return False
+
+    # 被擋（403／405／429／503、挑戰頁）→ 整組收工。429／503 在 net.session 那層
+    # 已經重試過，走到這裡代表站方堅持在擋，不該再換下一個詞重來。
+    reason = blocked_reason(r)
+    if reason:
+        raise _Blocked(reason)
+    try:
         r.raise_for_status()
         data = r.json()
-    except Exception as e:
+    except ValueError:
+        # 這是 JSON API；回 HTML 幾乎一定是沒認出來的挑戰頁，當成被擋
+        if (getattr(r, "text", "") or "").lstrip().startswith("<"):
+            raise _Blocked(f"HTTP {r.status_code}，回了 HTML 頁面而不是 JSON（多半是挑戰頁）")
+        log.warning("APEC 搜尋 %r p%d 回應不是 JSON", term, page)
+        return False
+    except Exception as e:   # 500 這類一般錯誤：只跳過這個詞
         log.warning("APEC 搜尋 %r p%d 失敗: %s", term, page, e)
         return False
 

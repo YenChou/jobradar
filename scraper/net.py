@@ -13,6 +13,7 @@ Fashion Jobs、Isarta、APEC 三個來源同時掛零。
 from __future__ import annotations
 
 import logging
+import re
 import time
 
 import requests
@@ -118,3 +119,71 @@ class Budget:
 
     def remaining(self) -> float:
         return max(0.0, self.deadline - time.monotonic())
+
+
+# ── 站方擋人的判斷（各來源共用）────────────────────────────
+# 以前 apec.py 只認 403／405、fashionjobs.py 認 403／429／503，兩邊不一致：APEC
+# 回 429 限流時每個詞都會重試，22 個詞最多 66 個請求。統一放這裡。
+
+# 被擋的狀態碼。Cloudflare／DataDome 限流、挑戰常用 429 和 503，不是只有 403。
+BLOCKED_STATUS = (403, 405, 429, 503)
+# 挑戰頁可能回 200，body 卻不是內容。沒有這組偵測的話整個來源會靜靜回 0 筆，
+# log 看起來像「今天就是沒職缺」。誤判的代價是「整組收工」，所以分兩類：
+#   專屬字串不可能出現在正常頁面，全頁比對安全；
+#   "just a moment" 這種通用英文正常內文也可能出現，只在 <title> 裡比對。
+CHALLENGE_MARKERS = {
+    "cf-browser-verification": "Cloudflare",
+    "challenge-platform": "Cloudflare",
+    "_cf_chl": "Cloudflare",
+    "enable javascript and cookies to continue": "Cloudflare",
+    "captcha-delivery.com": "DataDome",
+}
+CHALLENGE_TITLES = ("just a moment", "attention required")
+_TITLE_PAT = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
+
+
+def _vendor(r) -> str | None:
+    """從 header 與 body 認出是誰在擋：DataDome、Cloudflare，或認不出（None）。"""
+    headers = {str(k).lower(): str(v) for k, v in (getattr(r, "headers", None) or {}).items()}
+    if any(k.startswith("x-datadome") or k.startswith("x-dd-b") for k in headers):
+        return "DataDome"
+    head = (getattr(r, "text", "") or "")[:4000].lower()
+    for marker, vendor in CHALLENGE_MARKERS.items():
+        if marker in head:
+            return vendor
+    if "cf-ray" in headers or headers.get("server", "").lower() == "cloudflare":
+        return "Cloudflare"
+    return None
+
+
+def blocked_reason(r) -> str | None:
+    """這個回應是不是「站方在擋我們」？是的話回傳原因，否則 None。
+
+    r 只需要有 status_code、text（headers 可有可無），requests 與 tls_client 的
+    回應都適用。
+    """
+    vendor = _vendor(r)
+    if r.status_code in BLOCKED_STATUS:
+        return f"HTTP {r.status_code}" + (f"（{vendor}）" if vendor else "")
+    if r.status_code == 200:
+        head = (getattr(r, "text", "") or "")[:4000].lower()
+        if any(marker in head for marker in CHALLENGE_MARKERS):
+            return f"{vendor} 挑戰頁"
+        m = _TITLE_PAT.search(head)
+        title = m.group(1).strip() if m else ""
+        for marker in CHALLENGE_TITLES:
+            if marker in title:
+                return f"{vendor or 'Cloudflare'} 挑戰頁（title: {title[:40]}）"
+    return None
+
+
+# 這一輪被擋的來源 → 原因。main.py 寫進 jobs.json 的 blocked_sources，網站會標出來；
+# 只看筆數的話，「被擋」和「今天剛好 0 筆」長得一模一樣，連續被擋好幾天也沒人發現。
+BLOCKED: dict[str, str] = {}
+
+
+def report_blocked(source: str, reason: str) -> None:
+    BLOCKED[source] = reason
+    log.error("%s 被站方擋下：%s", source, reason)
+    # GitHub Actions 的 annotation：會出現在執行結果頁最上面，不用翻 log
+    print(f"::warning title={source} 被擋::{reason}", flush=True)

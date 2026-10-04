@@ -20,7 +20,7 @@ from pathlib import Path
 
 import yaml
 
-from scraper import enrich
+from scraper import enrich, net
 from scraper.util import PARIS, norm, paris_today, utcnow_iso
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -60,6 +60,7 @@ def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
     per_term = int(os.environ.get("RESULTS_PER_TERM", "50"))
 
     terms = cfg["search_terms"]
+    net.BLOCKED.clear()   # 各來源被擋時會用 net.report_blocked 登記；main() 寫進 jobs.json
 
     raw: list[dict] = []
     stats: dict[str, int] = {}
@@ -115,6 +116,9 @@ def main() -> int:
 
     raw, stats = demo_jobs() if demo else scrape_all(cfg, known_urls)
     log.info("原始抓到 %d 筆：%s", len(raw), stats)
+    blocked = {} if demo else dict(net.BLOCKED)
+    if blocked:
+        log.warning("被站方擋下的來源：%s", blocked)
 
     # 分類 + 過濾
     kept = [j for j in (enrich.classify(r, cfg) for r in raw) if j]
@@ -169,6 +173,8 @@ def main() -> int:
             {
                 "generated_at": utcnow_iso(),
                 "source_stats": stats,
+                # 被擋的來源 → 原因。網站據此標「被擋」，免得和「今天剛好 0 筆」混在一起
+                "blocked_sources": blocked,
                 "count": len(jobs),
                 "new_today": sum(1 for j in jobs if j.get("first_seen") == today),
                 "jobs": jobs,

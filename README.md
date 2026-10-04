@@ -55,6 +55,8 @@ uv venv --python 3.12 .venv
 uv pip install --python .venv/bin/python -r requirements.txt
 
 .venv/bin/python tests/test_keywords.py          # 改過 keywords.yml 就跑一次，確認分類規則沒壞
+.venv/bin/python tests/test_apec_blocking.py     # 站方擋人時的處理（也可以用 pytest tests/ 跑）
+.venv/bin/python tests/test_fashionjobs_blocking.py
 .venv/bin/python -m scraper.main --demo          # 不上網，用示範資料跑完整 pipeline
 .venv/bin/python -m scraper.main                 # 真實抓取（HOURS_OLD=168 可回抓一週）
 .venv/bin/python -m http.server -d docs 8000     # 開 http://localhost:8000 看網站
@@ -83,6 +85,9 @@ uv pip install --python .venv/bin/python -r requirements.txt
 - **排程延遲**：GitHub 的排程可能延遲 10–30 分鐘，屬正常現象。
 - **時間預算**：每個來源都有上限（合計最壞 55 分鐘），`timeout-minutes: 75`。
   正常約 10 分鐘；會用到預算代表某個站在異常拖慢。
+- **來源被擋**：403／405／429／503 或挑戰頁（Cloudflare、DataDome）算「被擋」，
+  該來源整組收工（判斷在 `net.blocked_reason`）。網站統計列會把它標成黃色的「被擋」，
+  滑鼠移上去看原因；Actions 執行結果頁最上面也會有警告。
 - **重試**：連線失敗（含 DNS）與 429/5xx 會自動重試 2 次。注意每次重試都會
   重新吃掉完整 timeout，不只是退避秒數——單一請求最壞約 93 秒。
 
