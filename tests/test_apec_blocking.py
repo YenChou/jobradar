@@ -21,8 +21,9 @@ def ok(c, m):
     if not c: fail += 1
 
 class Resp:
-    def __init__(self, status, data=None):
+    def __init__(self, status, data=None, headers=None, text=""):
         self.status_code, self._data = status, data or {}
+        self.headers, self.text = headers or {}, text
     def json(self): return self._data
     def raise_for_status(self):
         if self.status_code >= 400: raise RuntimeError(f"HTTP {self.status_code}")
@@ -59,6 +60,14 @@ apec.HTTP = FakeHTTP([500, 200])
 jobs = apec.fetch(TERMS)
 ok(apec.HTTP.calls == len(TERMS), f"500 只影響第一個詞，22 個詞都有送，實際 {apec.HTTP.calls}")
 ok(len(jobs) == len(TERMS) - 1, f"其餘 21 個詞的職缺都在，實際 {len(jobs)}")
+
+print()
+print("── log 要寫出是不是 DataDome ──")
+ok("確認是 DataDome" in apec._block_signature(Resp(403, headers={"X-DataDome": "protected"})), "x-datadome header → DataDome")
+ok("確認是 DataDome" in apec._block_signature(Resp(403, text="<script src='https://geo.captcha-delivery.com/x'>")),
+   "captcha-delivery.com 頁面 → DataDome")
+sig = apec._block_signature(Resp(403, headers={"Server": "nginx"}, text="Forbidden"))
+ok("不像 DataDome" in sig and "nginx" in sig, f"其他來源的 403 → {sig}")
 
 print()
 print(f"失敗: {fail}")

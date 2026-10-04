@@ -49,6 +49,16 @@ class _Blocked(Exception):
     """站方擋人（403／405，多半是 DataDome）。擋的是 IP，換搜尋詞也一樣會被擋。"""
 
 
+def _block_signature(r) -> str:
+    """被擋時判斷是誰擋的，寫進 log——不然「很可能是 DataDome」永遠只是猜測。"""
+    headers = {k.lower(): v for k, v in (getattr(r, "headers", None) or {}).items()}
+    body = (getattr(r, "text", "") or "")[:2000].lower()
+    if any(k.startswith("x-datadome") or k.startswith("x-dd-") for k in headers) or "captcha-delivery.com" in body:
+        return "，確認是 DataDome"
+    server = headers.get("server", "?")
+    return f"，不像 DataDome（server={server}）"
+
+
 def fetch(search_terms: list[str], results_per_term: int = 100) -> list[dict]:
     jobs: list[dict] = []
     seen: set[str] = set()
@@ -64,7 +74,7 @@ def fetch(search_terms: list[str], results_per_term: int = 100) -> list[dict]:
         except _Blocked as e:
             # 以前這裡只結束「這個詞」，接著每個詞都再被擋一次——一輪 22 個請求
             # 全打在已經明確拒絕我們的站上。被擋就整組收工。
-            log.warning("APEC 回 %s（很可能是 DataDome 反爬），整組跳過：剩下 %d 個搜尋詞不送",
+            log.warning("APEC 回 %s，整組跳過：剩下 %d 個搜尋詞不送",
                         e, len(search_terms) - i - 1)
             break
     return jobs
@@ -84,7 +94,7 @@ def _page(term: str, page: int, jobs: list[dict], seen: set[str], results_per_te
     try:
         r = HTTP.post(SEARCH_URL, data=json.dumps(payload), headers=HEADERS, timeout=TIMEOUT)
         if r.status_code in (403, 405):
-            raise _Blocked(r.status_code)
+            raise _Blocked(f"{r.status_code}{_block_signature(r)}")
         r.raise_for_status()
         data = r.json()
     except _Blocked:
