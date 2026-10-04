@@ -28,7 +28,7 @@ import time
 from bs4 import BeautifulSoup
 from tls_client import Session
 
-from scraper.net import Budget, retry_call
+from scraper.net import Budget, blocked_reason, retry_call
 
 log = logging.getLogger("chasse.fashionjobs")
 
@@ -49,21 +49,7 @@ HEADERS = {
     "accept-language": "fr-FR,fr;q=0.9",
 }
 
-# 被擋的狀態碼。Cloudflare 限流／挑戰常用 429 和 503，不是只有 403。
-BLOCKED_STATUS = (403, 429, 503)
-# Cloudflare 的 JS 挑戰頁回的是 200，body 卻不是職缺列表。沒有這組偵測的話
-# 整個來源會靜靜回 0 筆，log 看起來像「今天就是沒職缺」。
-# 分兩類是因為誤判的代價是「整組收工，而且偽裝成今天剛好沒職缺」：
-#   CF 專屬字串不可能出現在正常頁面，全頁比對安全；
-#   "just a moment" 這種通用英文正常內文也可能出現，只在 <title> 裡比對。
-CHALLENGE_CF = (
-    "cf-browser-verification",
-    "challenge-platform",
-    "_cf_chl",
-    "enable javascript and cookies to continue",
-)
-CHALLENGE_TITLES = ("just a moment", "attention required")
-TITLE_PAT = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
+# 被擋的判斷（狀態碼、Cloudflare／DataDome 挑戰頁）與 apec.py 共用，見 net.blocked_reason。
 
 
 class _Blocked(Exception):
@@ -106,23 +92,6 @@ def _get(url: str, params: dict | None = None, timeout: int = LIST_TIMEOUT):
         what=f"Fashion Jobs {url}",
         retries=RETRIES,
     )
-
-
-def blocked_reason(r) -> str | None:
-    """這個回應是不是「站方在擋我們」？是的話回傳原因，否則 None。"""
-    if r.status_code in BLOCKED_STATUS:
-        return f"HTTP {r.status_code}"
-    if r.status_code == 200:
-        head = (r.text or "")[:4000].lower()
-        for marker in CHALLENGE_CF:
-            if marker in head:
-                return f"Cloudflare 挑戰頁（{marker}）"
-        m = TITLE_PAT.search(head)
-        title = m.group(1).strip() if m else ""
-        for marker in CHALLENGE_TITLES:
-            if marker in title:
-                return f"Cloudflare 挑戰頁（title: {title[:40]}）"
-    return None
 
 
 # 這個站是時尚產業職缺板，用少量泛搜尋詞就能涵蓋五類

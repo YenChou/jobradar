@@ -49,6 +49,8 @@
   }
   .stat b { color:var(--ink); font-variant-numeric:tabular-nums; }
   .stat.new b { color:var(--good); }
+  .stat.warn { border-color:var(--warn); background:var(--warn-bg); color:var(--warn); cursor:help; }
+  .stat.warn b { color:var(--warn); }
 
   .controls { display:flex; flex-direction:column; gap:10px; margin-bottom:18px; }
   .row { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
@@ -329,7 +331,13 @@ function init(){
   st.innerHTML = "";
   addStat(st, "職缺總數", DATA.count ?? DATA.jobs.length, false);
   addStat(st, "今日新增", DATA.new_today ?? 0, true);
-  for (const [name, n] of Object.entries(DATA.source_stats || {})) addStat(st, name, n, false);
+  // 被擋的來源要標出來：只顯示筆數的話，「被擋」和「今天剛好 0 筆」看起來一樣
+  const blocked = DATA.blocked_sources || {};
+  for (const [name, n] of Object.entries(DATA.source_stats || {})) {
+    if (blocked[name]) addStat(st, name, n ? n + "・被擋" : "被擋", false, "warn",
+      "這一輪被站方擋下：" + blocked[name] + "\n網站上這個來源的舊職缺會保留 30 天，但抓不到新的。");
+    else addStat(st, name, n, false);
+  }
 
   // 職類 chips
   const rowCat = document.getElementById("row-cat");
@@ -397,10 +405,11 @@ function init(){
   render();
 }
 
-function addStat(el, label, n, isNew){
+function addStat(el, label, n, isNew, cls, title){
   const d = document.createElement("span");
-  d.className = "stat" + (isNew ? " new" : "");
-  d.innerHTML = label + " <b>" + n + "</b>";
+  d.className = "stat" + (isNew ? " new" : "") + (cls ? " " + cls : "");
+  d.innerHTML = esc(label) + " <b>" + esc(n) + "</b>";
+  if (title) d.title = title;
   el.appendChild(d);
 }
 
