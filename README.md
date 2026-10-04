@@ -55,7 +55,8 @@ uv venv --python 3.12 .venv
 uv pip install --python .venv/bin/python -r requirements.txt
 
 .venv/bin/python tests/test_keywords.py          # 改過 keywords.yml 就跑一次，確認分類規則沒壞
-.venv/bin/python -m pytest tests/                # 站方擋人時的處理（全部測試的跑法見 .github/workflows/tests.yml）
+.venv/bin/python tests/test_apec_blocking.py     # 站方擋人時的處理（也可以用 pytest tests/ 跑）
+.venv/bin/python tests/test_fashionjobs_blocking.py
 .venv/bin/python -m scraper.main --demo          # 不上網，用示範資料跑完整 pipeline
 .venv/bin/python -m scraper.main                 # 真實抓取（HOURS_OLD=168 可回抓一週）
 .venv/bin/python -m http.server -d docs 8000     # 開 http://localhost:8000 看網站
