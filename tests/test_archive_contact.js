@@ -170,6 +170,38 @@ process.on("unhandledRejection", e => { console.log("❌ 測試拋錯：" + (e &
   ok(/新增 1 筆，目前共 2 筆/.test(lastAlert || ""), "匯入計數、略過壞項目：" + lastAlert);
   ok(JSON.stringify(titles()) === JSON.stringify(["Tm1", "Tx1"]), "匯入後依公告日期排序：" + titles().join(","));
 
+  // 匯入舊備份：本機已有的保留本機版本（已聯絡、封存日、原因都不被蓋掉），並告知
+  loadArch({ k1: { ...fake("k1", "2026-09-10", "2026-09-12"), why: "applied", contacted: true, contacted_at: "2026-09-13" } });
+  await importFile({
+    k1: { ...fake("k1", "2026-09-10", "2026-09-01"), why: "manual", contacted: false },
+    n2: { job: { title: "Tn2", company: "C", date_posted: "2026-09-11" }, at: "2026-09-11", why: "manual" },  // 沒有 job.id
+  });
+  const k1 = arch().k1;
+  ok(k1.contacted === true && k1.contacted_at === "2026-09-13" && k1.at === "2026-09-12" && k1.why === "applied",
+     "本機已有的那筆保留本機版本");
+  ok(/新增 1 筆，目前共 2 筆/.test(lastAlert || "") && /另有 1 筆本機已經有了，保留本機版本/.test(lastAlert || ""),
+     "提示有幾筆保留本機版本：" + (lastAlert || "").replace(/\n/g, " / "));
+  ok(!!cardOf("Tn2"), "沒有 job.id 的項目也匯入（匯出再匯入不會少）");
+
+  // key 叫 __proto__ 的項目要跳過，不能改到封存物件的原型
+  lastAlert = null;
+  w.archiveImport(new w.File(['{"archive":{"__proto__":{"job":{"id":"j3"},"j3":{"job":{"id":"j3"}}}}}'], "b.json"));
+  await new Promise(r => setTimeout(r, 100));
+  ok(w.eval("Object.getPrototypeOf(archive) === Object.prototype && !archive.j3"), "__proto__ 被跳過，原型沒被改");
+  ok(/新增 0 筆/.test(lastAlert || ""), "__proto__ 不算新增：" + lastAlert);
+
+  // 備份被手改成 key 和 job.id 不一致：卡片按鈕一律以 key 操作，不會存出重複的一筆
+  loadArch({ kk: { ...fake("kk", "2026-09-10", "2026-09-10"), job: mkJob("other", "2026-09-10", { title: "Tkk" }) } });
+  [...cardOf("Tkk").querySelectorAll(".track button")].find(b => b.textContent === "已投遞").click();
+  ok(JSON.stringify(Object.keys(arch())) === JSON.stringify(["kk"]), "封存頁按「已投遞」不多存一筆：" + Object.keys(arch()));
+  $("#tab-archive").click();
+  cardOf("Tkk").querySelector(".arch").click();
+  ok(Object.keys(arch()).length === 0 && cards().length === 0, "「移除封存」真的移除，不會在另一個 key 下又存一份：" + Object.keys(arch()));
+
+  // 沒有 first_seen 的封存不顯示 NEW
+  loadArch({ nf: { job: { id: "nf", title: "Tnf", company: "C" }, at: "2026-09-01", why: "manual" } });
+  ok(!cardOf("Tnf").querySelector(".b.new"), "沒有 first_seen 不標 NEW");
+
   // 匯入別人的備份：內容不能在頁面上執行
   w.__xss = 0;
   await importFile({
@@ -185,6 +217,22 @@ process.on("unhandledRejection", e => { console.log("❌ 測試拋錯：" + (e &
   ok(e1 && !e1.querySelector("img") && !e1.querySelector("b"), "封存原因、職稱、來源名稱都被跳脫，沒有變成 HTML");
   ok(e1 && [...e1.querySelectorAll("a")].every(a => !/^javascript:/i.test(a.getAttribute("href"))), "javascript: 連結被換掉");
   ok(w.__xss === 0, "沒有執行任何匯入的程式碼");
+
+  // 網址：沒寫協定的補 https://，危險協定擋掉
+  const su = u => w.eval("safeUrl(" + JSON.stringify(u) + ")");
+  ok(su("www.linkedin.com/jobs/view/123") === "https://www.linkedin.com/jobs/view/123", "沒寫協定補上 https://");
+  ok(su("//example.org/x") === "https://example.org/x", "// 開頭補上 https:");
+  ok(su(" https://example.org/a ") === "https://example.org/a" && su("HTTP://example.org") === "HTTP://example.org", "http(s) 原樣保留");
+  ok(["javascript:alert(1)", "java\tscript:alert(1)", " JavaScript:alert(1)", "data:text/html,x", "vbscript:x"].every(u => su(u) === "#"),
+     "javascript:、data: 等危險協定擋掉（含夾控制字元的寫法）");
+  ok(su("") === "#" && su(null) === "#", "空的網址不給連結");
+  $("#tab-jobs").click();
+  $("#add-title").value = "Manual role"; $("#add-company").value = "M Co"; $("#add-url").value = "www.linkedin.com/jobs/view/123";
+  $("#add-btn").click();
+  const mCard = [...$("#cards").children].find(c => c.querySelector(".title").textContent.trim() === "Manual role");
+  ok(mCard.querySelector(".title a").getAttribute("href") === "https://www.linkedin.com/jobs/view/123",
+     "手動加入沒寫 https:// 的網址仍可點：" + mCard.querySelector(".title a").getAttribute("href"));
+  $("#tab-archive").click();
 
   // 儲存空間滿：整批不匯入，也不能說「匯入完成」
   const before2 = w.localStorage.getItem("jr_archive");
