@@ -1,54 +1,18 @@
 {
- "generated_at": "2026-10-05T19:06:47Z",
+ "generated_at": "2026-10-05T23:07:14Z",
  "source_stats": {
-  "Indeed": 1045,
-  "Welcome to the Jungle": 3609,
-  "France Travail": 73,
+  "Indeed": 1108,
+  "Welcome to the Jungle": 3612,
+  "France Travail": 49,
   "APEC": 0,
   "Isarta": 136
  },
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
- "count": 971,
- "new_today": 35,
+ "count": 965,
+ "new_today": 11,
  "jobs": [
-  {
-   "id": "9beff6543b7b3015",
-   "title": "Chargé de crm et marketing (H/F)",
-   "company": "université paris saclay",
-   "location": "Orsay, A8, FR",
-   "city": "Orsay",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDD",
-   "categories": [
-    "crm",
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "emailing",
-    "kpi",
-    "marketing automation",
-    "roi",
-    "segmentation",
-    "trafic"
-   ],
-   "bonus_tags": [],
-   "score": 32,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "Entreprise Née de la volonté conjuguée d’universités, de grandes écoles et d’organismes de recherche, l’Université Paris\\-Saclay compte parmi les grandes universités européennes et mondiales, couvrant les secteurs des Sciences et Ingénierie, des Sciences de la Vie et Santé, et des Sciences Humaines et Sociales. Sa politique scientifique associe étroitement recherche et innovation, et s’exprime à l",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=6c56d38be30e28bf"
-    }
-   ],
-   "first_seen": "2026-09-05"
-  },
   {
    "id": "8493e2490bce6995",
    "title": "GROWTH MARKETER / CHARGÉ DE STRATÉGIE DIGITALE",
@@ -1529,6 +1493,40 @@
    "first_seen": "2026-09-08"
   },
   {
+   "id": "f0f5e168dae7eaac",
+   "title": "Growth marketing",
+   "company": "Webyn",
+   "location": "Levallois-Perret, A8, FR",
+   "city": "Levallois-Perret",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roi",
+    "seo"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 16,
+   "date_posted": "2026-10-05",
+   "salary": "60,000–80,000 EUR/yearly",
+   "description_snippet": "Description : **Votre mission** Vous serez en charge de participer à la croissance de Webyn en : * Définissant et exécutant la stratégie marketing avec les cofondateurs * Construisant une marque forte et visible sur nos segments prioritaires * Déployant un moteur d’acquisition scalable et mesurable * Instaurant une culture data-driven et test & learn **Missions principales** **Stratégie & Pilotage",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=526e27133112fb5f"
+    }
+   ],
+   "first_seen": "2026-10-06"
+  },
+  {
    "id": "e0f7a6ed391a5258",
    "title": "Chargé de Marketing H/F",
    "company": "SAGES Informatique",
@@ -2968,6 +2966,32 @@
     }
    ],
    "first_seen": "2026-09-08"
+  },
+  {
+   "id": "d4510a00ac17f04f",
+   "title": "Marketing Operations - Turf F/H",
+   "company": "Betclic Group",
+   "location": "Bordeaux",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-03",
+   "salary": null,
+   "description_snippet": "Marketing Operations - Turf F/H",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/betclic/jobs/marketing-operations-turf-f-h_bordeaux"
+    }
+   ],
+   "first_seen": "2026-10-06"
   },
   {
    "id": "6c7eebaf66af6192",
@@ -4615,37 +4639,6 @@
     }
    ],
    "first_seen": "2026-09-06"
-  },
-  {
-   "id": "d65c0fd2e4effb51",
-   "title": "Traffic manager (H/F)",
-   "company": "THELEM ASSURANCES",
-   "location": "45 - Chécy",
-   "city": "45 - Checy",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "roi",
-    "sea",
-    "seo"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-09-09",
-   "salary": "Annuel de 50000.0 Euros à 60000.0 Euros - De 50000 à 60000 € (Euros) par an",
-   "description_snippet": "Description du poste : Nous recherchons un(e) Traffic manager senior en CDI pour rejoindre Thélem assurances basé à Chécy (proche Orléans). Au sein du département Marketing Client et Communication, vous jouez un rôle clé dans le pilotage et l'optimisation des leviers digitaux. Intervenant dans un environnement fortement transverse, vous contribuez activement à la performance digitale, à la générat",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6740601"
-    }
-   ],
-   "first_seen": "2026-09-05"
   },
   {
    "id": "7f912ae4aecb8dde",
@@ -6879,60 +6872,6 @@
     }
    ],
    "first_seen": "2026-09-07"
-  },
-  {
-   "id": "439d18346745b919",
-   "title": "Chef de Produit Junior (H/F/X)",
-   "company": "Orliman",
-   "location": "La Mézière, A2, FR",
-   "city": "La Meziere",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "**Qui sommes\\-nous ?** Un sportif qui se fait une entorse ? Une femme enceinte qui a mal au dos ? Un salarié qui a une tendinite au poignet ? ORLIMAN propose des solutions orthopédiques adaptées à chaque articulation du corps, pour différents types de patients. Présents en pharmacie, nous sommes **le n°3 sur le marché français de l'orthopédie et de la podologie**, avec 130 salariés et un chiffre d",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=843dd094a4e550cc"
-    }
-   ],
-   "first_seen": "2026-09-05"
-  },
-  {
-   "id": "cf8dd9ae6383367c",
-   "title": "H/F Sales & CRM Specialist – Maison de Luxe - CDI",
-   "company": "DEPECH'MODE",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "crm"
-   ],
-   "skills": [
-    "fidelisation"
-   ],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "Au sein d’une boutique d’une Maison de Luxe, le/la Sales & Customer Development Specialist joue un rôle clé dans le développement de l’activité commerciale et de la relation client.Au-delà de l’accueil et du conseil en boutique, vous êtes chargé(e) de développer activement la clientèle, d’identifier de nouvelles opportunités commerciales et de mettre en place des initiatives permettant d’accroître",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/depech-mode/H-f-sales-crm-specialist-maison-de-luxe-cdi,12052515.html"
-    }
-   ],
-   "first_seen": "2026-09-05"
   },
   {
    "id": "b10bc7640d112336",
@@ -9963,30 +9902,35 @@
    "first_seen": "2026-09-06"
   },
   {
-   "id": "08128b0ad8eef904",
-   "title": "Chef de Produit Digitaux - F/H - CDD",
-   "company": "FDJ UNITED",
-   "location": "Boulogne-Billancourt, A8, FR",
-   "city": "Boulogne-Billancourt",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDD",
+   "id": "60e6f3ce1f6f5142",
+   "title": "CDI - Acquisition Manager",
+   "company": "MANUCURIST",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
    "categories": [
-    "marketing_produit"
+    "performance_marketing"
    ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-04",
+   "skills": [
+    "acquisition",
+    "kpi"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-09-03",
    "salary": null,
-   "description_snippet": "**Votre mission** ----------------- ***At FDJ UNITED, we don't just follow the game, we reinvent it.*** *FDJ UNITED is one of Europe’s leading betting and gaming operators, with a vast portfolio of iconic brands and a reputation for technological excellence. With more than 5,000 employees and a presence in around fifteen regulated markets, the Group offers a diversified, responsible range of games",
+   "description_snippet": "CDI - Acquisition Manager * Vous êtes issu(e) d’une formation Bac+ 4/5 en marketing digital, acquisition ou data * Vous disposez d’une première expérience solide en en acquisition / growth marketing, dans une agence ou une DTC / e-commerce. * Vous avez une bonne connaissance des plateformes publicitaires (opérationnelle et data) * Maîtrise des KPIs d’acquisition * À l’aise avec les outils d’analys",
    "sources": [
     {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=02f6904828a55f6d"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/manucurist/jobs/cdi-acquisition-manager-junior_paris"
     }
    ],
-   "first_seen": "2026-09-05"
+   "first_seen": "2026-10-06"
   },
   {
    "id": "e98f9188b68f4727",
@@ -12671,89 +12615,58 @@
    "first_seen": "2026-09-07"
   },
   {
-   "id": "0386e695783402e6",
-   "title": "Responsable Marketing - CDI",
-   "company": "Simundia",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
+   "id": "a1fb52788a9a58bc",
+   "title": "Customer Success Management",
+   "company": "TDI",
+   "location": "Bron",
+   "city": "Bron",
+   "region": "other",
+   "work_mode": "hybrid",
    "contract": "CDI",
    "categories": [
-    "marketing_produit"
+    "customer"
    ],
-   "skills": [
-    "etude de marche",
-    "positionnement"
-   ],
+   "skills": [],
    "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-04",
+   "score": 6,
+   "date_posted": "2026-10-06",
    "salary": null,
-   "description_snippet": "### **À propos** Simundia, c’est une équipe de plus de 40 talents, ultra motivés et engagés autour d’une mission qui nous fait vibrer : permettre à chacun de transformer ses aspirations en actions ! Notre solution ? Le coaching situationnel, une expérience de coaching digital à la fois flexible, concret et efficace. Comment ça marche ? C’est simple : 3h de coaching pour développer ses soft\\-skills",
+   "description_snippet": "Customer Success Management",
    "sources": [
     {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=5b1dd16654cbc3f5"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/tdi/jobs/customer-success-management_bron"
     }
    ],
-   "first_seen": "2026-09-05"
+   "first_seen": "2026-10-06"
   },
   {
-   "id": "6d6b21c9768d8917",
-   "title": "Chef Produits",
-   "company": "FOCAL JMLAB",
-   "location": "La Talaudière, ARA, FR",
-   "city": "La Talaudiere",
+   "id": "99d6b6203aea2bde",
+   "title": "Chef de produits - industrie F/H/X",
+   "company": "Socomec",
+   "location": "Benfeld",
+   "city": "Benfeld",
    "region": "other",
-   "work_mode": "onsite",
+   "work_mode": "hybrid",
    "contract": "CDI",
    "categories": [
     "marketing_produit"
    ],
-   "skills": [
-    "positionnement"
+   "skills": [],
+   "bonus_tags": [
+    "international"
    ],
-   "bonus_tags": [],
-   "score": 8,
+   "score": 6,
    "date_posted": "2026-09-04",
    "salary": null,
-   "description_snippet": "**Rejoignez l’excellence acoustique française** ----------------------------------------------- Au sein du Groupe Vervent Audio, nos 2 marques emblématiques, **Focal** et **Naim** se positionnent comme leader mondial dans le domaine du son grâce à des innovations constantes. Depuis 1979, Focal fabrique des équipements acoustiques haut de gamme de référence sur des marchés aussi diversifiés que les",
+   "description_snippet": "Chef de produits - industrie F/H/X <p><strong>Qualifications</strong></p> <ul> <li>Diplôme niveau Bac+5 en marketing, data, informatique, ingénierie ou domaine connexe.</li> <li>Expérience de 7 ans minimum en tant que chef de produits, idéalement dans la conception et le déploiement d'offres de services liées à des systèmes techniques en environnement BtoB.</li> <li>Appétence forte pour l'intellig",
    "sources": [
     {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=0c617fb3d8a406e2"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/socomec-1/jobs/chef-de-produits-industrie-f-h-x_benfeld"
     }
    ],
-   "first_seen": "2026-09-05"
-  },
-  {
-   "id": "0aadc30b0501ecf6",
-   "title": "Chef de produit H/F",
-   "company": "",
-   "location": "13 - Fuveau",
-   "city": "13 - Fuveau",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "LYNX RH recrute pour l'un de ses clients un Chef de Produit H/F spécialisé dans le domaine des dispositifs médicaux. Une expérience dans ce secteur ainsi qu'un anglais professionnel sont indispensables ! Des déplacements réguliers sur toute la France sont à prévoir. Pour rappel, Lynx RH intervient dans le recrutement en CDI, CDD et intérim, de profils Bac+2 à Bac +5 spécialisés en : - Fonctions Su",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6636511"
-    }
-   ],
-   "first_seen": "2026-09-05"
+   "first_seen": "2026-10-06"
   },
   {
    "id": "25f2b4efd0b58c8a",
@@ -17270,86 +17183,154 @@
    "first_seen": "2026-09-06"
   },
   {
-   "id": "27b61d4262ab5400",
-   "title": "Marketing Operations Specialist",
-   "company": "Yara",
+   "id": "3e256b29fbff31df",
+   "title": "Product Marketing Manager",
+   "company": "Gladia",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/gladia/jobs/product-marketing-manager_paris_GLADI_12oyD1O"
+    }
+   ],
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "54e6bd906b3a21e3",
+   "title": "Product Marketing Manager",
+   "company": "Europcar Mobility Group",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "**Job Description** ------------------- **Reporting to Group Head of Marketing inside Strategy area** **MAIN OBJECTIVES:** * Responsible for the Go to market, Product management, Marketing actions, Business Analysis and Market insights of the products and initiatives in charge. * Responsible for the PNL until MAVC of the products and projects * Ensure an excellent Customer Journey and participate ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4a1103e516dea40b"
+    }
+   ],
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "72feaad85b6d9933",
+   "title": "Senior Solution Engineer",
+   "company": "Snowflake",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit",
+    "performance_marketing"
+   ],
+   "skills": [
+    "go-to-market",
+    "roi",
+    "sea",
+    "tracking"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individua",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ca43578006780fee"
+    }
+   ],
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "0be275da59e65ef9",
+   "title": "Digital Customer Success",
+   "company": "Aircall",
    "location": "Paris, A8, FR",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
    "contract": null,
    "categories": [
-    "marketing_operations"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "We at Yara are part of a global network, collaborating to profitably and responsibly solve some of the world's key challenges \\- resource scarcity, food insecurity and environmental change. **About the Unit** ------------------ As a dynamic **Marketing Operations** **Specialist**, you will contribute to the execution of marketing operations and administrative coordination, with a strong focus on s",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=83191514e56ae40c"
-    }
-   ],
-   "first_seen": "2026-09-05"
-  },
-  {
-   "id": "55098f4f4ab8137c",
-   "title": "Field Event Marketing - France",
-   "company": "Algomarketing",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
+    "customer"
    ],
    "skills": [
-    "sea"
+    "churn",
+    "upsell"
    ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-04",
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-05",
    "salary": null,
-   "description_snippet": "### **Description** **B2B SaaS / AI \\| Talent Pool** **Location:** Paris, France **Working model:** Hybrid, with regional travel **Contract:** Typically 6–12 months via Algomarketing, with potential for extension Algomarketing is preparing for upcoming Regional Field Marketing Manager opportunities with a fast\\-growing global AI company, and we are starting to build a talent pool of strong field m",
+   "description_snippet": "Aircall is a unicorn, AI-powered customer communications platform used by 22,000+ companies worldwide to drive revenue, resolve issues faster, and scale customer-facing teams. We’re redefining customer communications by bringing voice, SMS, WhatsApp, and AI together into one seamless workspace. Our momentum comes from a simple idea: help teams work smarter, not harder. Aircall’s AI Voice Agent aut",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=88565b525ac82642"
+     "url": "https://fr.indeed.com/viewjob?jk=5d9c35b0b46d8591"
     }
    ],
-   "first_seen": "2026-09-05"
+   "first_seen": "2026-10-06"
   },
   {
-   "id": "a46fa7b7e6e01dd4",
-   "title": "Responsable CRM Salesforce et Interactions Omnicanales H/F/X",
-   "company": "Garance Mutuelle",
+   "id": "9850737c142d2343",
+   "title": "Digital Customer Success",
+   "company": "",
    "location": "Paris, A8, FR",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
-   "contract": "CDI",
+   "contract": null,
    "categories": [
-    "crm"
+    "customer"
    ],
    "skills": [
-    "parcours client"
+    "churn",
+    "upsell"
    ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-04",
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-05",
    "salary": null,
-   "description_snippet": "**Garance est un groupe mutualiste qui facilite l’accès et la compréhension de l’épargne pour ses adhérents. Depuis près de 40 ans, Garance innove sans cesse en accompagnant ses 247 148 épargnants vers leur indépendance ; avec pour but d’accorder leurs économies avec leurs projets ou leurs objectifs.** **Ce qui nous différencie, c’est notre mission : donner du sens à l’épargne en la rendant access",
+   "description_snippet": "Aircall is a unicorn, AI-powered customer communications platform used by 22,000+ companies worldwide to drive revenue, resolve issues faster, and scale customer-facing teams. We're redefining customer communications by bringing voice, SMS, WhatsApp, and AI together into one seamless workspace. Our momentum comes from a simple idea: help teams work smarter, not harder. Aircall's AI Voice Agent aut",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=03e189724050f05b"
+     "url": "https://fr.indeed.com/viewjob?jk=7d18e636d7aa87f7"
     }
    ],
-   "first_seen": "2026-09-05"
+   "first_seen": "2026-10-06"
   },
   {
    "id": "0ad059f48da7d1a8",
@@ -21199,113 +21180,6 @@
    "first_seen": "2026-09-07"
   },
   {
-   "id": "b6107a3dda1abf27",
-   "title": "Product Marketing Manager",
-   "company": "Ornikar",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-05",
-   "salary": null,
-   "description_snippet": "Product Marketing Manager",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/ornikar/jobs/product-marketing-manager_paris_ORNIK_NApD3Y7"
-    }
-   ],
-   "first_seen": "2026-09-05"
-  },
-  {
-   "id": "2cde46d689947bc3",
-   "title": "CDI- TISSOT-RESPONSABLE MARKETING ET COMMUNICATION FRANCE H/F",
-   "company": "Swatch Group",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_operations",
-    "performance_marketing"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "**Description du poste** ------------------------ Rattaché(e) au Brand Manager, le/la Responsable Marketing \\& Communication est garant(e) de la stratégie marketing et communication de la marque TISSOT sur le marché français. Il/elle assure le développement de la visibilité, de la notoriété et de la désirabilité de la marque au travers d'activations médias, événementielles, digitales et trade mark",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=3835b380ca7ce761"
-    }
-   ],
-   "first_seen": "2026-09-05"
-  },
-  {
-   "id": "8a41df2fe2db0467",
-   "title": "CDD - Merchandiser International Horlogerie",
-   "company": "Cartier",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "The story of Cartier is founded on audacity and passion. For more than 170 years we have embraced a bold, pioneering spirit that continues to inspire our teams across all Métiers from our boutiques to our workshops and corporate offices. Our 9000\\+ colleagues of 105 nationalities are united by a shared independent spirit and commitment to excellence, striving to continuously enrich our Maison’s he",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=62e83a1079e425bd"
-    }
-   ],
-   "first_seen": "2026-09-05"
-  },
-  {
-   "id": "aa5cfa4083169334",
-   "title": "Assistant(e) Chef de produit Perfusion & Générique",
-   "company": "Fresenius Kabi",
-   "location": "Sèvres, A8, FR",
-   "city": "Sevres",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "**Assistant(e) Chef de produit Perfusion \\& Générique** **FRESENIUS KABI : qui sommes\\-nous ?** Notre vocation est de mettre les médicaments et technologies au service des professionnels de la santé, afin qu’ils puissent accompagner les patients, tant à l’hôpital qu’à leur domicile, et répondre aux défis auxquels ils sont confrontés, dans les situations aigües ou chroniques. Nous nous consacrons à",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=1760f25ff6bf34c6"
-    }
-   ],
-   "first_seen": "2026-09-05"
-  },
-  {
    "id": "c0a27ec63213e194",
    "title": "CHEF DE PRODUIT PARKING F/H",
    "company": "VINCI",
@@ -23899,34 +23773,6 @@
    "first_seen": "2026-09-07"
   },
   {
-   "id": "2a254b9507444573",
-   "title": "Operational Marketing Product Assistant",
-   "company": "SHISEIDO",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-05",
-   "salary": null,
-   "description_snippet": "Stage - Assistant(e) Chef de Produit Marketing Opérationnel - NARS H/F Stage de 6 mois - Janvier 2027 In every moment, in every life Beauty Fondé en 1872 au Japon, Shiseido est l'un des leaders mondiaux de la beauté, porté par des marques emblématiques dans les univers du soin, du parfum et du maquillage. Présent dans plus de 120 pays, le Groupe rassemble près de 32 000 collaborateurs autour de sa",
-   "sources": [
-    {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/shiseido/Operational-marketing-product-assistant,12052995.html"
-    }
-   ],
-   "first_seen": "2026-09-05"
-  },
-  {
    "id": "3f78f89258bcd6b3",
    "title": "Senior Demande Generation Manager",
    "company": "Scality",
@@ -25721,6 +25567,34 @@
    "first_seen": "2026-09-06"
   },
   {
+   "id": "9c28cbbbd06ce082",
+   "title": "Head of Product Marketing & Growth",
+   "company": "CybelAngel",
+   "location": "Clichy",
+   "city": "Clichy",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "Head of Product Marketing & Growth **The profile we are looking for** **Required** * **You have contributed to a move into mid-market or SMB.** Concretely: you worked at a company that sold enterprise and opened a volume segment, and you can tell us what worked, what failed and why. PLG is one way of doing this; channel, assisted self-serve, inside sales and cycle automation are others. We are int",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/cybelangel/jobs/head-of-product-marketing-growth_clichy"
+    }
+   ],
+   "first_seen": "2026-10-06"
+  },
+  {
    "id": "ba87664a3e16409e",
    "title": "Customer Success manager Senior H/F",
    "company": "",
@@ -26280,34 +26154,6 @@
     }
    ],
    "first_seen": "2026-09-13"
-  },
-  {
-   "id": "ed039314017913e2",
-   "title": "Head of Marketing & Communications",
-   "company": "FTI Consulting, Inc.",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [
-    "salesforce"
-   ],
-   "bonus_tags": [],
-   "score": -2,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "**Qui sommes\\-nous ?** FTI Consulting est le premier cabinet d’expertise mondial pour les organisations confrontées à des crises et des transformations. Nous travaillons avec de nombreuses entreprises internationales de premier plan, des cabinets d’avocats, des banques et des sociétés de capital\\-investissement, qui nous confient leurs enjeux les plus importants. Qu'il s'agisse de résoudre des lit",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=7233cc36e19f9b39"
-    }
-   ],
-   "first_seen": "2026-09-05"
   },
   {
    "id": "3eec2ad98dfa5665",
