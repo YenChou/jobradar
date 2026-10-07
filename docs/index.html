@@ -337,7 +337,8 @@ function init(){
   const blocked = DATA.blocked_sources || {};
   for (const [name, n] of Object.entries(DATA.source_stats || {})) {
     if (blocked[name]) addStat(st, name, n ? n + "・被擋" : "被擋", false, "warn",
-      "這一輪被站方擋下：" + blocked[name] + "\n網站上這個來源的舊職缺會保留 30 天，但抓不到新的。");
+      "這一輪直接抓取被站方擋下：" + blocked[name] +
+      "\n經其他管道進來的職缺（例如 France Travail 轉來的合作職缺）照常顯示；舊職缺保留 30 天。");
     else addStat(st, name, n, false);
   }
 
