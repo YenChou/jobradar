@@ -10,6 +10,7 @@
 """
 from __future__ import annotations
 
+import collections
 import logging
 import os
 import time
@@ -26,6 +27,13 @@ HTTP = session()
 PAGE_SIZE = 150  # API 單次上限
 PAGES = 2
 TIME_BUDGET_S = 300
+
+# origineOffre：1＝France Travail 自己收的職缺，2＝合作職缺網站轉來的（API 文件：
+# 「collectées par France Travail ou reçues des partenaires」）。APEC 自 2026-10-01 起
+# 擋掉 GitHub Actions 的機房 IP（DataDome），它的職缺若經合作管道進到 France Travail，
+# 透過這個有金鑰、有授權的官方 API 就拿得到——這不是繞過封鎖，是走對方同意的管道。
+# 預設查詢是否已含合作職缺沒有文件可查，所以兩種各查一次，用 id 去重。
+ORIGINS = (None, "2")
 
 TOKEN_URL = "https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=%2Fpartenaire"
 SEARCH_URL = "https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search"
@@ -44,25 +52,32 @@ def fetch(search_terms: list[str], max_days_old: int = 7) -> list[dict]:
 
     jobs: list[dict] = []
     seen_ids: set[str] = set()
+    origins: collections.Counter = collections.Counter()   # 職缺實際來自哪裡，寫進 log
     budget = Budget(TIME_BUDGET_S)
     for term in search_terms:
-        if budget.expired():
-            log.warning("France Travail 時間預算用完，%r 之後的搜尋詞跳過", term)
-            break
-        for page in range(PAGES):
+        for origine in ORIGINS:
             if budget.expired():
+                log.warning("France Travail 時間預算用完，%r 之後的搜尋詞跳過", term)
                 break
-            offers = _search(token, term, max_days_old, page)
-            for o in offers:
-                oid = o.get("id")
-                if oid in seen_ids:
-                    continue
-                seen_ids.add(oid)
-                jobs.append(_to_job(o))
-            log.info("France Travail %r p%d → %d 筆", term, page, len(offers))
-            time.sleep(1)
-            if len(offers) < PAGE_SIZE:
-                break  # 不足一頁代表沒有下一頁
+            label = "合作職缺" if origine == "2" else "全部"
+            for page in range(PAGES):
+                if budget.expired():
+                    break
+                offers = _search(token, term, max_days_old, page, origine)
+                for o in offers:
+                    oid = o.get("id")
+                    if oid in seen_ids:
+                        continue
+                    seen_ids.add(oid)
+                    job = _to_job(o)
+                    origins[_origin_label(o)] += 1
+                    jobs.append(job)
+                log.info("France Travail %r（%s）p%d → %d 筆", term, label, page, len(offers))
+                time.sleep(1)
+                if len(offers) < PAGE_SIZE:
+                    break  # 不足一頁代表沒有下一頁
+    # 這行回答「APEC 的職缺有沒有經 France Travail 進來」
+    log.info("France Travail 職缺來源分布：%s", dict(origins.most_common()))
     return jobs
 
 
@@ -85,7 +100,8 @@ def _get_token(client_id: str, client_secret: str) -> str | None:
         return None
 
 
-def _search(token: str, term: str, max_days_old: int, page: int = 0) -> list[dict]:
+def _search(token: str, term: str, max_days_old: int, page: int = 0,
+            origine: str | None = None) -> list[dict]:
     lo = page * PAGE_SIZE
     params = {
         "motsCles": term,
@@ -93,6 +109,8 @@ def _search(token: str, term: str, max_days_old: int, page: int = 0) -> list[dic
         "sort": "0",  # 0=關聯度遞減（1=日期、2=距離）。新鮮度已由 publieeDepuis 把關
         "range": f"{lo}-{lo + PAGE_SIZE - 1}",
     }
+    if origine:
+        params["origineOffre"] = origine
     try:
         r = HTTP.get(
             SEARCH_URL,
@@ -111,19 +129,42 @@ def _search(token: str, term: str, max_days_old: int, page: int = 0) -> list[dic
         return []
 
 
+def _partner(o: dict) -> dict | None:
+    """合作職缺的來源網站（{"nom": "APEC", "url": ...}）；France Travail 自己的職缺回 None。"""
+    origine = o.get("origineOffre") or {}
+    partners = [p for p in (origine.get("partenaires") or []) if isinstance(p, dict)]
+    if str(origine.get("origine")) != "2" and not partners:
+        return None
+    return partners[0] if partners else {}
+
+
+def _origin_label(o: dict) -> str:
+    p = _partner(o)
+    if p is None:
+        return "France Travail"
+    return f"合作夥伴 {p.get('nom') or '（未具名）'}"
+
+
 def _to_job(o: dict) -> dict:
     lieu = o.get("lieuTravail") or {}
     contrat = o.get("typeContrat") or None  # CDI / CDD / MIS(intérim)…
     if contrat == "MIS":
         contrat = "Intérim"
+    partner = _partner(o)
+    origine = o.get("origineOffre") or {}
+    # 合作職缺連到原站（例如 apec.fr 的那則職缺），France Travail 自己的連到它的職缺頁
+    url = ((partner or {}).get("url") or origine.get("urlOrigine")
+           or f"https://candidat.francetravail.fr/offres/recherche/detail/{o.get('id')}")
+    # APEC 的職缺標成 APEC：網站的 APEC 篩選與統計照舊適用，使用者不必知道它是繞
+    # France Travail 進來的。其他合作網站維持 France Travail，免得來源 chip 一直變多。
+    source = "APEC" if partner and "apec" in (partner.get("nom") or "").lower() else "France Travail"
     return {
         "title": o.get("intitule") or "",
         "company": (o.get("entreprise") or {}).get("nom") or "",
         "location": lieu.get("libelle") or "France",
         "description": o.get("description") or "",
-        "url": (o.get("origineOffre") or {}).get("urlOrigine")
-        or f"https://candidat.francetravail.fr/offres/recherche/detail/{o.get('id')}",
-        "source": "France Travail",
+        "url": url,
+        "source": source,
         "date_posted": to_date_str(o.get("dateCreation")),
         "contract": contrat,
         "work_mode": None,  # 由 pipeline 從描述判斷 télétravail 字樣
