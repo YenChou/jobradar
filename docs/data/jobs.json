@@ -1,17 +1,18 @@
 {
- "generated_at": "2026-10-07T14:20:36Z",
+ "generated_at": "2026-10-07T17:18:10Z",
  "source_stats": {
-  "Indeed": 1441,
-  "Welcome to the Jungle": 3603,
-  "France Travail": 93,
+  "Indeed": 1450,
+  "Welcome to the Jungle": 3614,
+  "France Travail": 95,
   "APEC": 0,
   "Isarta": 141
  },
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
- "count": 1062,
- "new_today": 43,
+ "local_sources": {},
+ "count": 1067,
+ "new_today": 48,
  "jobs": [
   {
    "id": "61712b666548d592",
@@ -11229,6 +11230,36 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "2069461ff178fa30",
+   "title": "Chef de produits électronique H/F",
+   "company": "Dexxon Groupe",
+   "location": "Gennevilliers, A8, FR",
+   "city": "Gennevilliers",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-07",
+   "salary": "40,000–45,000 EUR/yearly",
+   "description_snippet": "**Contexte du poste** Au sein du département marketing, vous pilotez le cycle de vie de nos gammes de produits d'électronique grand public et de stockage de données (clés USB, cartes mémoire, SSD portables, cadres photo numériques, etc.). Vous intervenez sur l'ensemble de notre portefeuille : notre marque propre EMTEC, notre licence internationale Kodak, nos développements en private label (MDD) p",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3640ccb7b41cc1b7"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "6f3800770ea7ad6d",
    "title": "Chef de Produit PAC Air/Air VRF H/F",
    "company": "Groupe Atlantic",
@@ -11257,38 +11288,6 @@
     }
    ],
    "first_seen": "2026-10-07"
-  },
-  {
-   "id": "fc89a6db00816dd3",
-   "title": "Customer Success Manager - EMEA & US",
-   "company": "Poppulo",
-   "location": "Lyon, ARA, FR",
-   "city": "Lyon",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "churn",
-    "cross-sell",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 8,
-   "date_posted": "2026-10-07",
-   "salary": null,
-   "description_snippet": "**Want to help shape what comes next at a successful, fast-growing software company?** **Company Overview** At Poppulo, we help the world's leading organizations reach every employee, wherever they work. For a large, distributed workforce, that's harder than it sounds. Today's workforce is spread across offices, factories, retail stores, hospitals and other frontline locations. No single communica",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=c2b08797f76ed7dc"
-    }
-   ],
-   "first_seen": "2026-10-06"
   },
   {
    "id": "5240dc7e123aba15",
@@ -14468,6 +14467,66 @@
     }
    ],
    "first_seen": "2026-10-07"
+  },
+  {
+   "id": "74036791440e2ebe",
+   "title": "Copilot Go-To-Market Manager",
+   "company": "Microsoft",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-22",
+   "salary": "69,000–119,200 EUR/yearly",
+   "description_snippet": "**Overview** The Sales Enablement & Operations (SE&O) team helps translate Microsoft’s commercial strategy into effective execution across our markets. Working across regions, areas and subsidiaries, the team connects strategy, insights and execution to help accelerate business growth and customer impact. Microsoft 365 Copilot continues to see strong momentum across EMEA, with organisations across",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c2f6247c14cf108c"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "fc89a6db00816dd3",
+   "title": "Customer Success Manager - EMEA & US",
+   "company": "Poppulo",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "cross-sell",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "**Want to help shape what comes next at a successful, fast-growing software company?** **Company Overview** At Poppulo, we help the world's leading organizations reach every employee, wherever they work. For a large, distributed workforce, that's harder than it sounds. Today's workforce is spread across offices, factories, retail stores, hospitals and other frontline locations. No single communica",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8e087d688c96d15b"
+    }
+   ],
+   "first_seen": "2026-10-06"
   },
   {
    "id": "a1fb52788a9a58bc",
@@ -19286,7 +19345,7 @@
    "score": 4,
    "date_posted": "2026-10-07",
    "salary": "Mensuel de 2801.0 Euros - 13ème mois",
-   "description_snippet": "MAXMARA recrute un/e Manager de la relation clientèle asiatique pour sa boutique parisienne : Description du poste Ambassadeur(ice) de la marque, vous serez en charge de développer un relationnel chaleureux, professionnel et en ligne avec les valeurs et codes de l'entreprise auprès de la clientèle asiatique et internationale. Vous serez en lien direct avec la Directrice de la Boutique et son équip",
+   "description_snippet": "MAX MARA SAINT HONORE recrute un/e Manager de la relation clientèle asiatique pour sa boutique parisienne : Description du poste Ambassadeur(ice) de la marque, vous serez en charge de développer un relationnel chaleureux, professionnel et en ligne avec les valeurs et codes de l'entreprise auprès de la clientèle asiatique et internationale. Vous serez en lien direct avec la Directrice de la Boutiqu",
    "sources": [
     {
      "name": "France Travail",
@@ -19321,6 +19380,34 @@
    ],
    "first_seen": "2026-10-07",
    "date_assumed": true
+  },
+  {
+   "id": "95aa57c2ac7c6e7e",
+   "title": "Brand lead",
+   "company": "H COMPANY",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "**About H:** H exists to push the boundaries of superintelligence with agentic AI. By automating complex, multi-step tasks typically performed by humans, AI agents will help unlock full human potential. **The Role** ------------ Today, H is known for its story: its founders, its funding rounds, its press. We want it to be known for its value. Your mission is to make H one of the top 3 brands that ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5c795cdc98fab92b"
+    }
+   ],
+   "first_seen": "2026-10-07"
   },
   {
    "id": "3e256b29fbff31df",
@@ -23721,6 +23808,34 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "c3e8b4829bdbd0d5",
+   "title": "Chef de Produit",
+   "company": "Busch Vacuum Solutions",
+   "location": "Annecy, ARA, FR",
+   "city": "Annecy",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Date: 7 oct. 2026 Lieu: Annecy, 74 - Haute-Savoie, FR, 74009 Catégorie: De la recherche spatiale à la fabrication de puces microélectroniques, nos solutions de vide et de détection de fuite propulsent l’innovation au cœur des industries et de votre quotidien. Filiale du Groupe Busch, Pfeiffer Vacuum+Fab Solutions développe des technologies de pointe pour l’industrie des semi-conducteurs, la scienc",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a1a84c8206a3f39f"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "e9d62fc26bc0b516",
    "title": "Head of CRM & Customer Engagement H/F",
    "company": "",
@@ -23768,7 +23883,7 @@
    "score": 2,
    "date_posted": "2026-08-11",
    "salary": null,
-   "description_snippet": "* CDI * Temps plein * Au moins 5 ans d'expérience * Niveau d'études : pas de préférence * Directeur.rice marketing Publiée le 11/08/2026 **Mission** ----------- **Mission** Vous pilotez l'activation marketing à 360°, de la création du storytelling à son exécution sur nos canaux de vente directe (DTC) et notre réseau physique, tout en animant une communauté d'utilisateurs exigeants. **1. Marketing ",
+   "description_snippet": "* CDI * Temps plein * Au moins 5 ans d'expérience * Niveau d'études : pas de préférence * Directeur.rice marketing Publiée le 07/10/2026 **Mission** ----------- **Mission** Vous pilotez l'activation marketing à 360°, de la création du storytelling à son exécution sur nos canaux de vente directe (DTC) et notre réseau physique, tout en animant une communauté d'utilisateurs exigeants. **1. Marketing ",
    "sources": [
     {
      "name": "Indeed",
@@ -26505,6 +26620,36 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=5c839f01d9140393"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "a1288463accf30a4",
+   "title": "Senior Manager, Global Digital Marketing (m/w/d)",
+   "company": "Lonza",
+   "location": "Colmar, GE, FR",
+   "city": "Colmar",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 0,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Location: Colmar **What you will get** * An agile career and a dynamic work culture * An inclusive and ethical workplace * Compensation programs that recognize high performance * In addition to a competitive salary, you can expect numerous lifestyle, family, and leisure benefits. Our Capsules & Health Ingredients business unit is the trusted partner and market leader in innovative capsules, dosage",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5a74a83a397097f2"
     }
    ],
    "first_seen": "2026-10-07"
