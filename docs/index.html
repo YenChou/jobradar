@@ -335,8 +335,12 @@ function init(){
   addStat(st, "今日新增", DATA.new_today ?? 0, true);
   // 被擋的來源要標出來：只顯示筆數的話，「被擋」和「今天剛好 0 筆」看起來一樣
   const blocked = DATA.blocked_sources || {};
+  const local = DATA.local_sources || {};
   for (const [name, n] of Object.entries(DATA.source_stats || {})) {
-    if (blocked[name]) addStat(st, name, n ? n + "・被擋" : "被擋", false, "warn",
+    // 雲端被擋、但這一輪有併進本機抓的資料：算正常，只標「本機」
+    if (local[name]) addStat(st, name, n + "（本機）", false, "", "雲端被擋，改由本機抓取：" +
+      clockIn(new Date(local[name].generated_at), VIEWER_TZ) + "，" + local[name].count + " 筆");
+    else if (blocked[name]) addStat(st, name, n ? n + "・被擋" : "被擋", false, "warn",
       "這一輪直接抓取被站方擋下：" + blocked[name] +
       "\n經其他管道進來的職缺（例如 France Travail 轉來的合作職缺）照常顯示；舊職缺保留 30 天。");
     else addStat(st, name, n, false);

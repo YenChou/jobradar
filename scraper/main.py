@@ -25,6 +25,11 @@ from scraper.util import PARIS, norm, paris_today, utcnow_iso
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "data" / "jobs.json"
+# 本機抓的 APEC（scraper/local_apec.py）。雲端被 APEC 擋下，改在使用者電腦上抓再推上來。
+LOCAL_APEC = ROOT / "docs" / "data" / "apec.json"
+LOCAL_MAX_AGE_H = 48   # 超過就不併：電腦好幾天沒開時，別把舊結果當成這一輪抓到的
+# 這一輪併進來的本機資料 → {"generated_at", "count"}；main() 寫進 jobs.json 的 local_sources
+LOCAL_SOURCES: dict[str, dict] = {}
 RETENTION_DAYS = 30
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -81,7 +86,32 @@ def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
             batch = []
         stats[name] = len(batch)
         raw += batch
+
+    LOCAL_SOURCES.clear()
+    local = local_apec()
+    if local:
+        raw += local["jobs"]
+        stats["APEC"] = stats.get("APEC", 0) + len(local["jobs"])
+        LOCAL_SOURCES["APEC"] = {"generated_at": local["generated_at"], "count": len(local["jobs"])}
     return raw, stats
+
+
+def local_apec() -> dict | None:
+    """讀本機推上來的 APEC 結果；沒有、讀不了或太舊就回 None。"""
+    try:
+        d = json.loads(LOCAL_APEC.read_text(encoding="utf-8"))
+        generated = datetime.strptime(d["generated_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+    except FileNotFoundError:
+        return None
+    except (OSError, ValueError, KeyError, TypeError) as e:
+        log.warning("本機 APEC 資料讀不了，略過：%s", e)
+        return None
+    age_h = (datetime.now(timezone.utc) - generated).total_seconds() / 3600
+    if age_h > LOCAL_MAX_AGE_H:
+        log.warning("本機 APEC 資料是 %.0f 小時前的（上限 %d），略過——本機排程可能沒在跑", age_h, LOCAL_MAX_AGE_H)
+        return None
+    log.info("併入本機 APEC 資料：%d 筆（%s）", len(d.get("jobs", [])), d["generated_at"])
+    return {"generated_at": d["generated_at"], "jobs": d.get("jobs", [])}
 
 
 def demo_jobs() -> tuple[list[dict], dict]:
@@ -175,6 +205,8 @@ def main() -> int:
                 "source_stats": stats,
                 # 被擋的來源 → 原因。網站據此標「被擋」，免得和「今天剛好 0 筆」混在一起
                 "blocked_sources": blocked,
+                # 改在本機抓、這一輪併進來的來源（APEC），網站據此顯示「本機」而不是「被擋」
+                "local_sources": {} if demo else dict(LOCAL_SOURCES),
                 "count": len(jobs),
                 "new_today": sum(1 for j in jobs if j.get("first_seen") == today),
                 "jobs": jobs,
