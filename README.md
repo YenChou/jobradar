@@ -77,6 +77,35 @@ uv pip install --python .venv/bin/python -r requirements.txt
 - **LinkedIn**（Phase 3）：JobSpy 已支援，把 `site_name` 加上 `"linkedin"`；
   穩定抓取需要 residential proxy（約 $5–10/月），設定 `proxies=[...]`。
 
+## APEC 本機抓取
+
+APEC 自 2026-10-01 起用 DataDome 擋掉 GitHub Actions 的機房 IP（雲端每輪只送 1 個請求、
+網站統計列標「被擋」）。改在自己的電腦上抓：家裡的網路是一般使用者的 IP，每天一次的
+少量查詢可以正常抓。結果存成 `docs/data/apec.json` 推上 GitHub，雲端下一輪把它併進網站
+（48 小時內的才算數，網站統計列會顯示「APEC N（本機）」）。
+
+**一次性設定**（Mac／Windows／Linux 都一樣，指令在 repo 根目錄執行）：
+
+```bash
+git clone https://github.com/YenChou/jobradar.git && cd jobradar   # 已經有就 git pull
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python -r requirements.txt       # Windows：.venv\Scripts\python
+
+.venv/bin/python -m scraper.local_apec run --no-push   # 先試抓一次（不推送），看會不會被擋
+.venv/bin/python -m scraper.local_apec run             # 確認能推上 GitHub（第一次可能要登入）
+.venv/bin/python -m scraper.local_apec install         # 每天 11:00 自動執行；--time 08:30 可改時間
+```
+
+**看結果**：`.venv/bin/python -m scraper.local_apec ui` 會開本地介面（只有這台電腦連得到），
+列出每次執行的結果（成功／被擋／失敗、抓到幾筆、有沒有推上去），以及最近一次會上網站的
+職缺，也可以按「立即執行」。執行紀錄只存在本機的 `local/`，不進 git。
+
+- 排程：Mac 用 launchd（睡眠時錯過的那次醒來會補跑）、Windows 用工作排程器、Linux 用 cron。
+  取消：`python -m scraper.local_apec uninstall`。
+- 只在 `main` 分支上推送；家裡也被擋時不會覆寫上一次的結果，介面上會標「被擋」。
+- 預設 11:00 是為了趕上雲端巴黎時間 12:00 那一輪；電腦沒開的那天就沒有 APEC 新職缺，
+  其他來源不受影響。
+
 ## 維運
 
 - **France Travail 金鑰**：到 https://francetravail.io 註冊 → 建 application →

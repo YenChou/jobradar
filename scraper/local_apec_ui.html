@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APEC 本機抓取</title>
+<style>
+  :root {
+    --bg:#F7F6F2; --surface:#FFFFFF; --surface-2:#EFEDE6; --ink:#20242B; --muted:#616875;
+    --line:#DCD9CF; --accent:#1D5DBF; --accent-ink:#FFFFFF; --accent-soft:#E4EDFB;
+    --good:#1F7A4D; --good-bg:#E2F1E8; --warn:#9A6410; --warn-bg:#F6ECD8; --bad:#A33A3A; --bad-bg:#F7E3E3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#14171D; --surface:#1C2027; --surface-2:#232833; --ink:#E7E9ED; --muted:#9AA2AF;
+      --line:#333945; --accent:#7FA8EF; --accent-ink:#10141B; --accent-soft:#24314A;
+      --good:#6FC79A; --good-bg:#1D3229; --warn:#DCAE5E; --warn-bg:#38301C; --bad:#E48A8A; --bad-bg:#3A2224;
+    }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.6 "Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif; }
+  .wrap { max-width:1000px; margin:0 auto; padding:24px 16px 60px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  h2 { font-size:16px; margin:28px 0 10px; }
+  .sub { color:var(--muted); font-size:13px; margin:0 0 16px; }
+  .bar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+  .stat { background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:6px 12px; font-size:13px; color:var(--muted); }
+  .stat b { color:var(--ink); }
+  button { font:inherit; font-size:14px; font-weight:700; cursor:pointer; border:0; border-radius:8px; padding:8px 16px;
+           background:var(--accent); color:var(--accent-ink); margin-left:auto; }
+  button:disabled { opacity:.55; cursor:default; }
+  button:focus-visible, input:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .table { overflow-x:auto; border:1px solid var(--line); border-radius:10px; background:var(--surface); }
+  table { border-collapse:collapse; width:100%; font-size:13.5px; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; font-size:12.5px; white-space:nowrap; }
+  tr:last-child td { border-bottom:0; }
+  td.num { text-align:right; font-variant-numeric:tabular-nums; }
+  td.msg { color:var(--muted); font-size:12.5px; min-width:220px; }
+  .b { display:inline-block; font-size:12px; font-weight:700; padding:2px 8px; border-radius:99px; white-space:nowrap; }
+  .b.ok { background:var(--good-bg); color:var(--good); }
+  .b.warn { background:var(--warn-bg); color:var(--warn); }
+  .b.bad { background:var(--bad-bg); color:var(--bad); }
+  .b.cat { background:var(--accent-soft); color:var(--accent); margin-right:4px; }
+  .jobs a { color:var(--ink); font-weight:600; text-decoration:none; }
+  .jobs a:hover { color:var(--accent); text-decoration:underline; }
+  input[type=search] { font:inherit; font-size:14px; color:var(--ink); background:var(--surface); border:1px solid var(--line);
+                       border-radius:8px; padding:6px 10px; min-width:220px; }
+  .empty { color:var(--muted); padding:20px; text-align:center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>APEC 本機抓取</h1>
+  <p class="sub">雲端被 APEC 擋下，所以在這台電腦上抓。結果會推上 GitHub，雲端下一輪抓取時併進網站。</p>
+
+  <div class="bar">
+    <span class="stat">排程 <b id="schedule">—</b></span>
+    <span class="stat">已推送的資料 <b id="file">—</b></span>
+    <button id="run" type="button">立即執行</button>
+  </div>
+
+  <h2>執行紀錄</h2>
+  <div class="table">
+    <table>
+      <thead><tr><th>時間</th><th>結果</th><th>抓到</th><th>會上網站</th><th>推送</th><th>耗時</th><th>說明</th></tr></thead>
+      <tbody id="runs"></tbody>
+    </table>
+  </div>
+
+  <h2>最近一次會上網站的職缺 <span class="sub" id="latest-n"></span></h2>
+  <div class="bar" style="margin-bottom:10px"><input type="search" id="q" placeholder="搜尋職稱、公司、城市⋯" aria-label="搜尋職缺"></div>
+  <div class="table jobs">
+    <table>
+      <thead><tr><th>職稱</th><th>公司</th><th>城市</th><th>職類</th><th>分數</th></tr></thead>
+      <tbody id="jobs"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+"use strict";
+const CATS = { marketing_operations:"Marketing Ops", performance_marketing:"Performance", crm:"CRM",
+               customer:"Customer", marketing_analytics:"Analytics", marketing_produit:"Produit" };
+const STATUS = { "成功":"ok", "部分被擋":"warn", "沒有結果":"warn", "被擋":"bad", "失敗":"bad" };
+let state = null, timer = null;
+
+function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function when(iso){ return iso ? new Date(iso).toLocaleString("zh-TW", { hour12:false }) : "—"; }
+
+function render(){
+  document.getElementById("schedule").textContent = state.schedule;
+  document.getElementById("file").textContent = state.file.generated_at
+    ? state.file.count + " 筆・" + when(state.file.generated_at) : "還沒有";
+  const btn = document.getElementById("run");
+  btn.disabled = state.running;
+  btn.textContent = state.running ? "執行中⋯（約 1–2 分鐘）" : "立即執行";
+
+  document.getElementById("runs").innerHTML = state.runs.length ? state.runs.map(r =>
+    "<tr><td>" + esc(when(r.started_at)) + "</td>" +
+    '<td><span class="b ' + (STATUS[r.status] || "bad") + '">' + esc(r.status) + "</span></td>" +
+    '<td class="num">' + esc(r.fetched) + '</td><td class="num">' + esc(r.kept) + "</td>" +
+    "<td>" + (r.pushed ? "✓" : "—") + '</td><td class="num">' + esc(r.duration_s) + " 秒</td>" +
+    '<td class="msg">' + esc(r.message) + "</td></tr>").join("")
+    : '<tr><td colspan="7" class="empty">還沒有執行紀錄 — 按「立即執行」試一次</td></tr>';
+
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const jobs = (state.latest.jobs || []).filter(j => !q ||
+    [j.title, j.company, j.city, j.location].join(" ").toLowerCase().includes(q));
+  document.getElementById("latest-n").textContent = state.latest.started_at
+    ? "（" + when(state.latest.started_at) + "，" + (state.latest.jobs || []).length + " 筆）" : "";
+  document.getElementById("jobs").innerHTML = jobs.length ? jobs.map(j =>
+    '<tr><td><a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + "</a></td>" +
+    "<td>" + esc(j.company) + "</td><td>" + esc(j.city || j.location) + "</td>" +
+    "<td>" + (j.categories || []).map(c => '<span class="b cat">' + esc(CATS[c] || c) + "</span>").join("") + "</td>" +
+    '<td class="num">' + esc(j.score) + "</td></tr>").join("")
+    : '<tr><td colspan="5" class="empty">' + (q ? "沒有符合的職缺" : "還沒有資料") + "</td></tr>";
+}
+
+async function refresh(){
+  try {
+    state = await (await fetch("/api/state", { cache:"no-store" })).json();
+    render();
+  } catch (e) { /* 介面伺服器關掉時，維持上次的畫面 */ }
+  clearTimeout(timer);
+  timer = setTimeout(refresh, state && state.running ? 3000 : 30000);   // 執行中時密集更新
+}
+
+document.getElementById("run").addEventListener("click", async () => {
+  await fetch("/api/run", { method:"POST" });
+  refresh();
+});
+document.getElementById("q").addEventListener("input", () => state && render());
+refresh();
+</script>
+</body>
+</html>
