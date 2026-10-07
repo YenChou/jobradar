@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-07T17:18:10Z",
+ "generated_at": "2026-10-07T21:49:49Z",
  "source_stats": {
-  "Indeed": 1450,
+  "Indeed": 1531,
   "Welcome to the Jungle": 3614,
-  "France Travail": 95,
+  "France Travail": 105,
   "APEC": 0,
   "Isarta": 141
  },
@@ -11,8 +11,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1067,
- "new_today": 48,
+ "count": 1094,
+ "new_today": 75,
  "jobs": [
   {
    "id": "61712b666548d592",
@@ -116,6 +116,37 @@
     }
    ],
    "first_seen": "2026-09-08"
+  },
+  {
+   "id": "85a4307e138cb571",
+   "title": "Chargé Acquisition & Marketing Digital (H/F)",
+   "company": "A5SYS",
+   "location": "Nantes, B5, FR",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 28,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Tu aimes les environnements où les journées ne se ressemblent pas ? Passer d’un projet à l’autre, contribuer à la croissance de plusieurs marques et voir concrètement l’impact de vos actions vous motive ? Rejoins un groupe d’une centaine de collaborateurs et participe au développement de plusieurs entreprises aux activités complémentaires, dans un environnement dynamique, stimulant et tourné vers ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=42d3c07944a8d934"
+    }
+   ],
+   "first_seen": "2026-10-07"
   },
   {
    "id": "8d48b65ae36c921b",
@@ -1961,6 +1992,38 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "48053d519822d408",
+   "title": "Customer Success Manager F/H - eKonsilio",
+   "company": "eKonsilio",
+   "location": "72 - Mans",
+   "city": "72 - Mans",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "cross-sell",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 16,
+   "date_posted": "2026-10-07",
+   "salary": "Annuel de 28000.0 Euros à 30000.0 Euros",
+   "description_snippet": "Chez eKonsilio, le Customer Success Manager suit le client du premier jour jusqu'à la fidélisation : il lance les projets rapidement, s'assure de leur réussite et fait grandir les comptes dans la durée. Rattaché au pôle commercial, vous travaillez en lien direct avec les business developers, l'équipe technique, la production, le produit et la comptabilité. Vos missions : - Onboarding : prendre le ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://careers.werecruit.io/fr/ekonsilio/offres/customer-success-manager-1a55fc?utm_source=francetravail&utm_medium=job-board"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "37454574bd2c2e0c",
    "title": "Chef de produits prévoyance et épargne F/H",
    "company": "Mutualia Grand Ouest",
@@ -2161,43 +2224,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/digitaleo-2/jobs/customer-success-cs-ops-f-h_rennes"
-    }
-   ],
-   "first_seen": "2026-10-05"
-  },
-  {
-   "id": "d009a62698495b3f",
-   "title": "Customer Success Manager SMB - France",
-   "company": "Ab Tasty",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "churn",
-    "customer satisfaction",
-    "retention",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 16,
-   "date_posted": "2026-10-05",
-   "salary": null,
-   "description_snippet": "### **WHO WE ARE** Ready to shape the future of digital optimization as part of a global leader in agentic experience optimization? Wingify is an Agentic Experience Optimization Platform that brings experimentation, personalization, behavioral insights, commerce optimization, feature management, and customer engagement together on a shared data foundation. Wingz, our intelligence engine, connects ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e65a5bd640a146ed"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/ab-tasty/jobs/customer-success-manager-smb-france_paris"
     }
    ],
    "first_seen": "2026-10-05"
@@ -3674,6 +3700,36 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/214XQJB"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "2936dc2c1000bca5",
+   "title": "Chargé de Marketing Digital CRM & Marketing Automation 26-27 H/F",
+   "company": "Hellowork",
+   "location": "Levallois-Perret, A8, FR",
+   "city": "Levallois-Perret",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Description Forvis Mazars est un groupe international d'audit, de fiscalité et de conseil. Avec + de 40 000 collaborateurs présents dans une centaine de pays, nous faisons partie du Top 10 des cabinets mondiaux. Nous faisons des métiers sérieux... sans se prendre au sérieux. Faire partie de nos équipes, c'est avant tout assumer sa singularité et oser partager ses idées, dans une ambiance de travai",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a1c00e46f73cc356"
     }
    ],
    "first_seen": "2026-10-07"
@@ -5470,6 +5526,257 @@
     {
      "name": "France Travail",
      "url": "https://www.directemploi.com/candidatOffre/56605221?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "28727c9964eb5fc4",
+   "title": "Chef de projet CRM junior (H/F)",
+   "company": "Klint Consulting",
+   "location": "Levallois-Perret, A8, FR",
+   "city": "Levallois-Perret",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "**À propos** ------------ Klint est un cabinet de conseil & de services et intégrateur spécialisé dans la Relation Client et la Data depuis 25 ans, reconnu pour son expertise en CRM, Digital Marketing et Data. Chez Klint, nous sommes convaincus que l’IA combinée à la maitrise des solutions technologiques et de la data sont des leviers majeurs pour transformer vos opérations et enrichir l‘expérienc",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=153867f3e3a4524d"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "76c2995044dbd570",
+   "title": "Coordinateur marketing et ventes F/H",
+   "company": "KNDS",
+   "location": "Versailles, A8, FR",
+   "city": "Versailles",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "**Description du poste** ------------------------ ### **Intitulé du poste** Coordinateur marketing et ventes F/H ### **Description de la mission** Travailler avec l'équipe commerciale et soutenir les efforts de prise de commande sur l'ensemble de la plaque Allemagne. Le but est de collaborer avec les différents départements Financiers, Juridiques et Programme des 3 entités munitionnaires en France",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=53e773f1c6427644"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "dc666b0d60a3b6d5",
+   "title": "Responsable Marketing et Digital Marché Agricole H/F",
+   "company": "Hellowork",
+   "location": "Tillé, HDF, FR",
+   "city": "Tille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roi",
+    "sea"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Description Le Groupe ISAGRI (3300 collaborateurs, 365 M€ de Chiffres d'Affaires, 12 filiales à l'international) est le 1er éditeur européen de logiciels pour le monde agricole et comptable et l'acteur majeur de l'information agricole (Groupe France Agricole, Terre-net Média). Classée depuis 10 ans au Palmarès Great Place to Work®, ISAGRI fait partie des meilleures entreprises en France où il fait",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9e9b8743851f095e"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "8c4b2498438416cb",
+   "title": "Responsable Marketing & Communication Loisirs & Divertissement H/F",
+   "company": "Hellowork",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-06",
+   "salary": "80,000–90,000 EUR/yearly",
+   "description_snippet": "Description Notre entreprise évolue dans le secteur du loisir et du divertissement. Basée à Paris, elle poursuit son développement à forte notoriété en France et à l'international. Poste Rattaché(e) au Directeur Marketing et Communication Groupe, ses principales responsabilités sont : * Élaborer et mettre en oeuvre la stratégie marketing et communication. * Définir les plans d'actions destinés aux",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=bb55d17d5bc20f92"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "14e166ad84b2b894",
+   "title": "Responsable Communication & Acquisition - Traffic Manager H/F",
+   "company": "Hellowork",
+   "location": "Schiltigheim, GE, FR",
+   "city": "Schiltigheim",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "kpi",
+    "meta ads",
+    "roi",
+    "sea",
+    "trafic"
+   ],
+   "bonus_tags": [
+    "video_content"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Description Looking, accompagne les professionnels dans le développement de leur visibilité et de leur activité en proposant des formations qualifiantes pour développer leurs compétences. Poste Nous recherchons un(e) Responsable Communication & Acquisition / Traffic Manager pour piloter la stratégie de communication et d'acquisition de plusieurs marques à forte croissance : * Trouver Mon Architect",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f7c5a3bab4283a2c"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "b545b507b4b904d2",
+   "title": "Chef.Fe de Projet E-Marketing International - German Speaker H/F",
+   "company": "Hellowork",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Description Qui sommes-nous ? Pionnier du e-commerce mobilier et décoration depuis 2006, Vente-unique.com s'est imposé comme une référence dans 16 pays grâce à son esprit visionnaire et son exigence de performance. Année après année, nous élargissons notre univers pour devenir un groupe en expansion continue dans l'équipement de la maison : * avec la reprise de la marque Habitat en 2024, icône du ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a2071f0dacdd5686"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "b208755f127d0824",
+   "title": "Chef de Projets Fidélisation & Data H/F",
+   "company": "Hellowork",
+   "location": "Cesson-Sévigné, A2, FR",
+   "city": "Cesson-Sevigne",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "fidelisation",
+    "marketing automation",
+    "parcours client"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Description Chez Avanci, agence conseil en Data-client , Marketing et CRM, nous sommes spécialisés en data et IA . Nous aidons nos clients à structurer et activer leurs données. Notre force ? La richesse de nos expertises : Data intelligence, Data activation, Data Management, Content Factory et enrichissement de données grâce à Profilia, notre plateforme webservice de mise à disposition de contact",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0244cb904066a796"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "5bf61a6aebd6a4ed",
+   "title": "Customer Success Manager - F/H",
+   "company": "Brands to Medias",
+   "location": "Clichy, A8, FR",
+   "city": "Clichy",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "retention",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2025-08-01",
+   "salary": null,
+   "description_snippet": "Chez Brands to Medias, on a réinventé la publicité sur les réseaux sociaux grâce à un levier d'acquisition inédit : le **Social Publishing**. **Concrètement ?** On permet aux annonceurs de diffuser leurs publicités sur les pages réseaux sociaux de +350 grandes marques médias partenaires : Marie Claire, Cosmopolitan, TF1 Info, Aufeminin et bien d'autres. Plutôt que de communiquer en leu",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b045efe5897899c8"
     }
    ],
    "first_seen": "2026-10-07"
@@ -7915,6 +8222,37 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "2b41966020e3f514",
+   "title": "Responsable Marketing Solutions Infrastructures Réseaux et IT Sécurisées H /F H/F",
+   "company": "FAYAT",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Mission Rattaché(e) à la Direction Marketing, vous êtes responsable du développement et de la croissance de votre portefeuille de solutions Infrastructures Réseaux et IT Sécurisées. Véritable expert(e) marché, vous analysez les tendances, identifiez les opportunités de développement et définissez le positionnement des offres afin d'accompagner leur commercialisation et leur adoption auprès de nos ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=98e96e5966132811"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "81114c1bbb76b2e1",
    "title": "Data Analyst Marketing & E-commerce (H/F)",
    "company": "",
@@ -7940,6 +8278,78 @@
     {
      "name": "France Travail",
      "url": "https://www.meteojob.com/jobs/57268617?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "737d74883664edc5",
+   "title": "First Marketing Manager 360° H/F",
+   "company": "Hellowork",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "kpi",
+    "meta ads",
+    "roi",
+    "sea",
+    "seo",
+    "trafic"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Description Depuis 2021, Team.is accompagne les startups, scale-ups et entreprises innovantes, industries de pointe et entreprises de services dans leurs recrutements les plus stratégiques, en France comme à l'international. AI, GenAI, DeepTech, Tech, Gaming, Industrie ou fonctions Business critiques : nous identifions et attirons les talents capables d'accélérer la croissance, l'innovation et l'e",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c6844b51cbcd54ad"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "2fc39d6ed8580e62",
+   "title": "Responsable Growth Marketing H/F",
+   "company": "Hellowork",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roi",
+    "seo"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Description NRJ Group, riche de ses 1400 collaborateurs, figure parmi les principaux groupes de médias privés français exerçant les métiers d'éditeur, de producteur, de diffuseur tout en assurant la commercialisation de ses propres espaces média avec un chiffre d'affaires de 321 millions d'euros. Un acteur incontournable dans l'univers des médias Avec nos radios NRJ, CHÉRIE FM, NOSTALGIE et RIRE &",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9dca6a01cd469cd5"
     }
    ],
    "first_seen": "2026-10-07"
@@ -14413,6 +14823,87 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "9762abf7cc4cba39",
+   "title": "Staff Field Marketing Engineer (m/f/d)",
+   "company": "Emerson",
+   "location": "Colombes, A8, FR",
+   "city": "Colombes",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "If you are a Field Marketing professional looking for an opportunity to grow your career, join the Emerson Test & Measurement division as a Staff Field Marketing Engineer based in Colombes, France, driving impactful marketing activities that grow awareness, demand, and pipeline in EMEA. This role blends technical expertise with marketing execution, ensuring programs resonate with engineering audie",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0c5274b5871246f6"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "257b9b0b6708017e",
+   "title": "CHEF DE PRODUITS H/F",
+   "company": "UGAP",
+   "location": "Champs-sur-Marne, A8, FR",
+   "city": "Champs-Sur-Marne",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "### **Contrat** Contrat à durée déterminée ### **Fourchette de salaire annuelle** 32100/45000 ### **Activités** Rejoignez-nous ! Nous recherchons pour la direction santé, un chef de produits F/H en CDD remplacement salarié absent. Ce poste est basé à Champs sur Marne (77) à proximité du RER A (station Noisy Champs). La direction santé s’appuie sur des équipes à taille humaine (environ 35 collabora",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0798814ceeb3cfd4"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "154cfd44c0087cee",
+   "title": "Ref L VCU   INGENIEUR AUTOMOBILE VCU (H/F)",
+   "company": "CIMEM",
+   "location": "78 - Guyancourt",
+   "city": "78 - Guyancourt",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-07",
+   "salary": "Annuel de 65000.0 Euros à 85000.0 Euros",
+   "description_snippet": "Ref L VCU INGENIEUR AUTOMOBILE VCU Groupe Equipementier International appartenant aux majors mondiaux de la conception et de la fabrication de fils, câbles et systèmes de câblage (70 000p). Présents dans plus de 33 pays, ses produits sont destinés aux industries de transport, de la communication, de la santé, des biens d'équipements industriels ou des ménages. Sa filiale française spécialisée dans",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214YDYW"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "594d593d6efd5e8b",
    "title": "Customer Success Manager",
    "company": "TDI",
@@ -14464,6 +14955,43 @@
     {
      "name": "France Travail",
      "url": "https://www.directemploi.com/candidatOffre/56606595?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "8deb729e25b5b646",
+   "title": "Head Of Growth & Digital Marketing - CDI H/F",
+   "company": "Hellowork",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "kpi",
+    "roi",
+    "sea",
+    "seo",
+    "tracking"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Description Fondée en 2016 par Frank Zorn et Benjamin Teboul et adossée à Newmark Group, Deskeo a perfectionné l'art de concevoir et de construire des lieux de vie qui vous ressemblent. Avec un parc immobilier de près de 100 000m2 à Paris, Ile-de-France et Lyon, chaque espace rime avec ergonomie, services, design et qualité des matériaux, le tout dans une démarche durable et moderne. Plus de 230 e",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=617cca0c4e7fa617"
     }
    ],
    "first_seen": "2026-10-07"
@@ -19410,6 +19938,153 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "bb9862076285ca0e",
+   "title": "Marketing Operations & Transformation Manager H/F",
+   "company": "Hellowork",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "gestion de projet",
+    "processus"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Description MATCHMAKER est un cabinet de recrutement qui veut donner du sens à son métier par un accompagnement personnalisé de ses candidats. Nous travaillons sur tous secteurs d'activité sur l'ensemble du territoire national. Avec des valeurs fortes, nous nous présentons comme votre partenaire dédié et mettons notre expertise à votre disposition pour vous aider à trouver une nouvelle opportunité",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8502c517bc8f41b7"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "f7b09d0086e5d2ec",
+   "title": "Assistant Marketing Produit H/F",
+   "company": "Hellowork",
+   "location": "Monaco, B8, FR",
+   "city": "Monaco",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Description Harry Hope, cabinet de recrutement accompagne candidats et entreprises dans leurs recherches des meilleures opportunités en France et à l'international. Afin de mieux répondre à vos enjeux, tous nos consultants sont spécialisés par secteur d'activité et zone géographique. Nous accompagnons une entreprise à taille humaine évoluant dans un environnement international, qui conçoit et comm",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7d678d4dc2c1baa6"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "d84c419d9b4ac3cb",
+   "title": "Assistant Chef de Produits - les Recettes de mon Moulin H/F",
+   "company": "Hellowork",
+   "location": "Ivry-sur-Seine, A8, FR",
+   "city": "Ivry-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Description VIVESCIA est un Groupe coopératif agricole et agroalimentaire de dimension internationale avec 3,8 milliards d'euros de chiffre d'affaires (au 30 juin 2025) et 4 000 collaborateurs (au 31 janvier 2026), répartis sur 14 pays. Spécialisé dans la culture et la valorisation des céréales et des ingrédients, VIVESCIA appartient à 9 000 agriculteurs-entrepreneurs du Nord-Est de la France. VIV",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=383dcea73b047339"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "9c3dc3bedef6bebe",
+   "title": "Customer Success Manager H/F",
+   "company": "",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Pour un acteur européen majeur qui conçoit au quotidien des solutions digitales pour améliorer l'expérience client des marques, nous recherchons pour accompagner sa belle croissance, un CUSTOMER SUCCESS MANAGER (F/H). Rattaché au Head of Customer Success, vous pilotez les clients confiés sur les solutions de marketing digital en termes d'onboarding, de suivi opérationnel, de conseil en stratégie, ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://app.labourseauxtalents.fr:443/candidats/candidature/62ae845e-893e-48d0-9e2a-20cdca425364?source=indeed&from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "d56677ed96eadc24",
+   "title": "Brand Manager Senior H/F",
+   "company": "Hellowork",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Description Qui sommes-nous ? Pionnier du e-commerce mobilier et décoration depuis 2006, Vente-unique.com s'est imposé comme une référence dans 16 pays grâce à son esprit visionnaire et son exigence de performance. Année après année, nous élargissons notre univers pour devenir un groupe en expansion continue dans l''équipement de la maison : * Avec la reprise de la marque Habitat en 2024, icône du",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=61b78081e493dbb4"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "3e256b29fbff31df",
    "title": "Product Marketing Manager",
    "company": "Gladia",
@@ -19871,6 +20546,32 @@
     }
    ],
    "first_seen": "2026-10-06"
+  },
+  {
+   "id": "d009a62698495b3f",
+   "title": "Customer Success Manager SMB - France",
+   "company": "AB Tasty",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "Customer Success Manager SMB - France",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/ab-tasty/jobs/customer-success-manager-smb-france_paris"
+    }
+   ],
+   "first_seen": "2026-10-05"
   },
   {
    "id": "0ad059f48da7d1a8",
@@ -22071,6 +22772,34 @@
    "first_seen": "2026-09-28"
   },
   {
+   "id": "b014b5b3e94c6a03",
+   "title": "Chef de Produit H/F",
+   "company": "Hellowork",
+   "location": "Raillencourt-Sainte-Olle, HDF, FR",
+   "city": "Raillencourt-Sainte-Olle",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Description Notre client est une entreprise dynamique spécialisée dans le secteur du retail, comptant entre 51 et 200 collaborateurs. Elle se distingue par son approche personnalisée et son engagement à répondre aux besoins spécifiques de ses clients, tout en s'adaptant aux exigences du marché. Grâce à son expertise, elle offre des services variés qui permettent de trouver les meilleurs talents po",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=26474e74785ca553"
+    }
+   ],
+   "first_seen": "2026-09-26"
+  },
+  {
    "id": "7957f95014d0f2c8",
    "title": "Chef de produit #FEB2026 F/H",
    "company": "KERSHIP",
@@ -23836,6 +24565,92 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "26416f200e53c727",
+   "title": "Product Marketing Manager H/F",
+   "company": "Hellowork",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Description Youzer est une plateforme SaaS innovante spécialisée dans la gestion automatisée des identités numériques et des accès utilisateurs. Notre solution permet aux entreprises de gérer efficacement les comptes et droits d'accès de leurs collaborateurs sur l'ensemble de leur parc applicatif : création automatique des comptes, gestion des arrivées et départs, sécurité des accès... le tout dep",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=392be0ec84f9fd35"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "cc2c18990772d93a",
+   "title": "Mid-Market Customer Success Manager",
+   "company": "Global-e",
+   "location": "Paris, A8, FR",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "cross-sell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Global-e (Nasdaq: GLBE) is the world’s leading platform to enable and accelerate global, direct-to-consumer cross-border e-commerce growth. The chosen partner of hundreds of retailers and brands across North America, Europe, the Middle East and Asia, Global-e makes selling internationally as simple as selling domestically. With Global-e, retailers and brands can increase international traffic conv",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=446faca451ba4a59"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "b5eaa555b1ae857d",
+   "title": "Responsable Marketing International - Fmcg H/F",
+   "company": "Hellowork",
+   "location": "Boulogne-Billancourt, A8, FR",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "Description Acteur majeur du secteur agro-alimentaire, notre client conçoit et distribue une large gamme de produits de grande consommation. D'envergure internationale, la société s'appuie sur des savoir-faire solides, une forte culture de l'innovation et une orientation vers la satisfaction des consommateur·trice·s. L'organisation valorise la collaboration, la responsabilité et l'engagement de se",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=775e9d22fc58d768"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "e9d62fc26bc0b516",
    "title": "Head of CRM & Customer Engagement H/F",
    "company": "",
@@ -24545,32 +25360,6 @@
     }
    ],
    "first_seen": "2026-09-28"
-  },
-  {
-   "id": "b014b5b3e94c6a03",
-   "title": "Chef de Produit F/H",
-   "company": "Hellowork",
-   "location": "Bourges - 18",
-   "city": "Bourges - 18",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-30",
-   "salary": "40 - 42 k€ brut annuel",
-   "description_snippet": "Le Chef de Produit aura pour objectif de piloter un portefeuille de produits, de soutenir l'innovation et d'accompagner le développement des offres sur ses marchés B2B cibles. À ce titre, les principales responsabilités du Chef de Produit seront les suivantes : * Gestion du p...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179508205W"
-    }
-   ],
-   "first_seen": "2026-09-26"
   },
   {
    "id": "ba92a5d914ee3352",
@@ -28539,6 +29328,34 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=7afc8ede587b8252"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "86b1db1d967c786b",
+   "title": "Head Of CRM & Customer Engagement H/F",
+   "company": "Hellowork",
+   "location": "Boulogne-Billancourt, A8, FR",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "Description Notre client est un acteur reconnu de son secteur, engagé dans une transformation ambitieuse de sa stratégie de relation client. Afin de reprendre la maîtrise de sa donnée, de ses outils et de ses activations marketing, il recherche un/e Head of CRM & Customer Engagement. Avec une volonté forte de construire une organisation CRM plus intégrée, agile et performante, capable de soutenir ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=6cc2fc5a47be5762"
     }
    ],
    "first_seen": "2026-10-07"
