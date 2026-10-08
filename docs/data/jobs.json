@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-10-07T21:49:49Z",
+ "generated_at": "2026-10-08T17:15:43Z",
  "source_stats": {
-  "Indeed": 1531,
-  "Welcome to the Jungle": 3614,
-  "France Travail": 105,
+  "Indeed": 1256,
+  "Welcome to the Jungle": 3593,
+  "France Travail": 129,
   "APEC": 0,
-  "Isarta": 141
+  "Isarta": 145
  },
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1094,
- "new_today": 75,
+ "count": 1110,
+ "new_today": 36,
  "jobs": [
   {
    "id": "61712b666548d592",
    "title": "Chargé·e de marketing digital 360 en CDD 10 mois à Bordeaux centre",
    "company": "Digital Passengers",
-   "location": "Bordeaux, NA, FR",
+   "location": "Bordeaux, NA, France",
    "city": "Bordeaux",
    "region": "west",
-   "work_mode": "remote",
+   "work_mode": "hybrid",
    "contract": "CDI",
    "categories": [
     "performance_marketing"
@@ -121,7 +121,7 @@
    "id": "85a4307e138cb571",
    "title": "Chargé Acquisition & Marketing Digital (H/F)",
    "company": "A5SYS",
-   "location": "Nantes, B5, FR",
+   "location": "Nantes, B5, France",
    "city": "Nantes",
    "region": "west",
    "work_mode": "remote",
@@ -147,48 +147,6 @@
     }
    ],
    "first_seen": "2026-10-07"
-  },
-  {
-   "id": "8d48b65ae36c921b",
-   "title": "Chargé de Marketing Digital H/F",
-   "company": "Yuri & Neil",
-   "location": "Sens, BFC, FR",
-   "city": "Sens",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "google ads",
-    "kpi",
-    "roi",
-    "sea",
-    "seo",
-    "tracking",
-    "trafic"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 28,
-   "date_posted": "2026-10-05",
-   "salary": "43–50 EUR/yearly",
-   "description_snippet": "**Description de l’offre d’emploi** ----------------------------------- **Yuri & Neil Recrutement** te propose de rejoindre l’un de ses clients, une PME industrielle française à taille humaine d’environ 20 personnes, experte dans la conception d’équipements techniques de haute précision. Dans le cadre de cette mission de recrutement, Yuri & Neil intervient en tant qu’intermédiaire entre toi et l’e",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=6348dc064a58c733"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/yuri-neil/jobs/charge-de-marketing-digital-h-f_sens"
-    }
-   ],
-   "first_seen": "2026-10-05"
   },
   {
    "id": "b05f8f6e88fcd9cb",
@@ -294,10 +252,42 @@
    "first_seen": "2026-09-21"
   },
   {
+   "id": "8352820940aff83e",
+   "title": "Chargé(e) d'acquisition (F/H)",
+   "company": "WiiSmile",
+   "location": "Montmélian, ARA, France",
+   "city": "Montmelian",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 22,
+   "date_posted": "2026-10-08",
+   "salary": "36,000–37,000 EUR/yearly",
+   "description_snippet": "À propos de l'offre Chargé(e) d'acquisition BtoB – Marketing digital (H/F) Rejoignez WiiSmile et contribuez à améliorer le quotidien des TPE et PME grâce à des solutions innovantes et sur mesure ! À propos de WiiSmile Chez WiiSmile, nous croyons en l'équilibre entre performance et bien-être au travail. Nous accompagnons les dirigeants de TPE et PME en leur proposant des solutions clé en main pour ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5a28a1f238157288"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
    "id": "b1df8625fe7b7bc1",
    "title": "Chargé(e) d'acquisition Paid Media (H/F)",
    "company": "PRIVATE SPORT SHOP",
-   "location": "Vendargues, O, FR",
+   "location": "Vendargues, O, France",
    "city": "Vendargues",
    "region": "other",
    "work_mode": "onsite",
@@ -317,7 +307,7 @@
     "international"
    ],
    "score": 22,
-   "date_posted": "2026-10-06",
+   "date_posted": "2026-10-07",
    "salary": null,
    "description_snippet": "Situé à Vendargues, tout près de Montpellier, **PRIVATE SPORT SHOP**, est le leader européen de la vente privée dédiée au sport. Fondé en 2011, nous sommes aujourd'hui fiers de nos 14 000 000 de membres et de nos 165 salariés. Chez Private Sport Shop, on est comme vous, des passionnés de sport, des fondus, des fadas, des tarés, appelez ça comme vous voulez. Notre passion, on l’enrichit chaque jour",
    "sources": [
@@ -332,7 +322,7 @@
    "id": "e77a4598d4ef9bd5",
    "title": "Responsable marketing et digital marché agricole H/F",
    "company": "ISAGRI",
-   "location": "Beauvais, HDF, FR",
+   "location": "Beauvais, HDF, France",
    "city": "Beauvais",
    "region": "other",
    "work_mode": "remote",
@@ -365,6 +355,40 @@
     }
    ],
    "first_seen": "2026-10-06"
+  },
+  {
+   "id": "8d48b65ae36c921b",
+   "title": "Chargé de Marketing Digital (H/F)",
+   "company": "YURI & NEIL",
+   "location": "Sens",
+   "city": "Sens",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "sea",
+    "seo",
+    "tracking"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 22,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Chargé de Marketing Digital (H/F) <p><br></p><p class=''><strong><u>Ton profil :</u></strong></p><p class=''><br></p><p class=''>Nous recherchons avant tout un profil <strong>très opérationnel, orienté acquisition, performance et génération de leads</strong>, capable de prendre en main les différents leviers du marketing digital.</p><p class=''><br></p><p class=''>Tu disposes idéalement de :</p><u",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/yuri-neil/jobs/charge-de-marketing-digital-h-f_sens"
+    }
+   ],
+   "first_seen": "2026-10-05"
   },
   {
    "id": "963a286fc1ddb8cb",
@@ -893,7 +917,7 @@
    "id": "04b0d136fe28b2dd",
    "title": "Customer Success Manager F/H",
    "company": "eKonsilio",
-   "location": "Le Mans, B5, FR",
+   "location": "Le Mans, B5, France",
    "city": "Le Mans",
    "region": "west",
    "work_mode": "remote",
@@ -925,8 +949,8 @@
    "id": "9e4310b86992bcf2",
    "title": "Lead Data Analyst",
    "company": "Ruby Labs",
-   "location": "GE, FR",
-   "city": "Ge",
+   "location": "Eu, N, France",
+   "city": "Eu",
    "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
@@ -950,7 +974,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=47ab3fe17eeea6e8"
+     "url": "https://fr.indeed.com/viewjob?jk=05935849a6dcf211"
     }
    ],
    "first_seen": "2026-10-06"
@@ -959,7 +983,7 @@
    "id": "c56192bd222e720f",
    "title": "Social Media Content Manager",
    "company": "TripleTen",
-   "location": "GE, FR",
+   "location": "GE, France",
    "city": "Ge",
    "region": "other",
    "work_mode": "remote",
@@ -1410,12 +1434,12 @@
    "first_seen": "2026-09-14"
   },
   {
-   "id": "ae3888820c112369",
-   "title": "Growth Marketing Manager (H/F)",
-   "company": "UPTOO",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
+   "id": "476f9d82a87292c2",
+   "title": "Lead Creative Producer",
+   "company": "Ruby Labs",
+   "location": "Eu, N, France",
+   "city": "Eu",
+   "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
    "categories": [
@@ -1423,31 +1447,28 @@
    ],
    "skills": [
     "acquisition",
-    "conversion",
-    "google ads",
     "kpi",
     "roi",
-    "sea",
-    "seo"
+    "sea"
    ],
    "bonus_tags": [],
-   "score": 20,
-   "date_posted": "2026-09-07",
+   "score": 18,
+   "date_posted": "2026-10-08",
    "salary": null,
-   "description_snippet": "Effet waouh: Management de proximité, Locaux en plein centre ville, Process et organisation **Êtes\\-vous prêt pour un nouveau défi ?** Rejoins l’agence spécialiste de la Vente en France et donne un tournant à ta carrière. Avec plus de 150 collaborateurs, 5 bureaux et une place de n°1 au classement Great Place To Work France 2023, nous accompagnons chaque jour les dirigeants de PME et d’ETI à accél",
+   "description_snippet": "**About us** ============ Ruby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we're always looking for passionate individuals to join us. Learn more about our story at: https://rubylab",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=0f2b51aa30960786"
+     "url": "https://fr.indeed.com/viewjob?jk=f2e67dc2657a2a22"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
    "id": "6108e29519137adf",
    "title": "Chargé Marketing Digital H/F",
    "company": "BIO-UV",
-   "location": "Lunel, O, FR",
+   "location": "Lunel, O, France",
    "city": "Lunel",
    "region": "other",
    "work_mode": "onsite",
@@ -1514,7 +1535,7 @@
    "id": "dd31d1fc7b974ce7",
    "title": "Chargé de Marketing Digital CRM & Marketing Automation 26-27 H/F",
    "company": "Forvis Mazars",
-   "location": "Levallois-Perret, A8, FR",
+   "location": "Levallois-Perret, A8, France",
    "city": "Levallois-Perret",
    "region": "other",
    "work_mode": "remote",
@@ -1530,7 +1551,7 @@
    ],
    "score": 18,
    "date_posted": "2026-10-06",
-   "salary": null,
+   "salary": "43,000–43,000 EUR/yearly",
    "description_snippet": "**Description de l'entreprise** *Forvis Mazars est un groupe international d'audit, de fiscalité et de conseil. Avec + de 40 000 collaborateurs présents dans une centaine de pays, nous faisons partie du Top 10 des cabinets mondiaux.* *Nous faisons des métiers sérieux... sans se prendre au sérieux. Faire partie de nos équipes, c'est avant tout assumer sa singularité et oser partager ses idées, dans",
    "sources": [
     {
@@ -1901,10 +1922,75 @@
    "first_seen": "2026-09-08"
   },
   {
+   "id": "8f2c5afe51231f10",
+   "title": "COORDINATEUR MARKETING FRANCE (H/F) - BILINGUE FR/ANG",
+   "company": "TZMO France",
+   "location": "Maromme, N, France",
+   "city": "Maromme",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations",
+    "marketing_produit"
+   ],
+   "skills": [
+    "gestion de projet",
+    "processus"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 16,
+   "date_posted": "2026-10-08",
+   "salary": "42,000–45,000 EUR/yearly",
+   "description_snippet": "INNOVATION. RESPONSABILITÉ. EXPÉRIENCE. Le groupe TZMO est un fabricant et fournisseur européen de produits médicaux, de soins et d'hygiène innovants destinés au marché mondial. Grâce à notre longue expérience et aux technologies de pointe, nous proposons depuis 75 ans à nos clients des produits de la plus haute qualité, sécurité et fiabilité. Filiale du groupe TZMO, TZMO France SASU est un fourni",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4d1760ceb282b8a4"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "b82da64ecd4fd155",
+   "title": "Technical Customer Success Manager – Solutions Data & SaaS (H/F)",
+   "company": "IDAIA",
+   "location": "Bruges, NA, France",
+   "city": "Bruges",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "cross-sell",
+    "retention",
+    "satisfaction client",
+    "upsell",
+    "voix du client"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "**À PROPOS D’IDAIA** Entreprise technologique spécialisée dans la data depuis plus de 30 ans, IDAIA accompagne les entreprises françaises dans leurs enjeux réglementaires, marketing, commerciaux et de cyber-identity. De la gouvernance à la valorisation de la donnée, nous proposons des solutions sur mesure et des plateformes SaaS innovantes pour rendre nos clients autonomes et performants. Basés à ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=8707d94b03f9253b"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
    "id": "b1775e9ee32b1214",
    "title": "Chief Marketing Officer (CMO)",
    "company": "EasySoftGroup",
-   "location": "Eu, N, FR",
+   "location": "Eu, N, France",
    "city": "Eu",
    "region": "other",
    "work_mode": "remote",
@@ -1937,7 +2023,7 @@
    "id": "be14deb6743b63e8",
    "title": "Account Manager, Customer Success",
    "company": "PENCIL",
-   "location": "Eu, N, FR",
+   "location": "Eu, N, France",
    "city": "Eu",
    "region": "other",
    "work_mode": "remote",
@@ -2055,7 +2141,7 @@
    "id": "b8b3ea21596d0a27",
    "title": "Junior Product Manager Europe",
    "company": "Medline Industries",
-   "location": "Châteaubriant, B5, FR",
+   "location": "Châteaubriant, B5, France",
    "city": "Chateaubriant",
    "region": "other",
    "work_mode": "remote",
@@ -3590,6 +3676,155 @@
    "first_seen": "2026-09-08"
   },
   {
+   "id": "a3ab74627820fef8",
+   "title": "Coordinateur/Coordinatrice Marketing",
+   "company": "McArthurGlen UK Ltd",
+   "location": "Roubaix, HDF, France",
+   "city": "Roubaix",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "processus"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-08",
+   "salary": "30,000–35,000 EUR/yearly",
+   "description_snippet": "**Description de l'entreprise** Le groupe McArthurGlen, leader européen dans la propriété, le développement et la gestion de centres outlet, a été fondé en 1993 et gère aujourd’hui plus de 20 centres dans 8 pays! **Description du poste** **Rejoignez l'aventure McArthurGlen Roubaix !** Envie de rejoindre l'un des leaders européens du shopping outlet et de participer au développement de la destinati",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7ee38ed8a0b7822d"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "8f811aee80cf500f",
+   "title": "Growth Marketing - B2B SaaS",
+   "company": "Wink",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "kpi",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "Description : Contexte Rattaché à l’équipe Growth Marketing et en lien étroit avec les équipes Sales, Product, Support Client et Data, tu contribues à construire et déployer une stratégie marketing efficace, génératrice de visibilité, d’opportunités business et de valeur pour nos prospects et clients. Ce poste est fait pour toi si tu aimes piloter des dispositifs marketing orientés performance, av",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a19fbb48c9abb5a3"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "033485346dc70e9b",
+   "title": "Chargé(e) de Programmes Marketing pour l'Industrie Sciences de la vie & santé (F/H)",
+   "company": "Dassault Systèmes",
+   "location": "Vélizy-Villacoublay, A8, France",
+   "city": "Velizy-Villacoublay",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "En tant que **Chargé(e) de Programmes Marketing** au sein d’une équipe dynamique et multiculturelle, vous contribuerez à renforcer la position de l’entreprise en tant que leader technologique, en alignant les priorités marketing sur les besoins des industries cibles et de leurs clients. Votre rôle sera clé pour : * Lancer une campagne marketing dédiée à la plateforme End-to-End Enterprise pour les",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=af3e1d4860fd80da"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "d0be82644623a1a4",
+   "title": "Assistant Administration des Ventes Comptant bilingue Chinois (H/F)",
+   "company": "Hong Hao Baifenbai",
+   "location": "Toulouse, O, France",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-08",
+   "salary": "1,900–1,900 EUR/monthly",
+   "description_snippet": "Description : **BAIFENBAI** est un grossiste alimentaire spécialisé dans la distribution de produits asiatiques, en forte croissance, basé à Toulouse. Nous approvisionnons restaurants et épiceries partout en France depuis notre entrepôt. **Vos missions** Au sein du service commercial, vous assurez la gestion des ventes comptant auprès des clients qui se déplacent directement à l'entrepôt : * Accue",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=95790adab75c0f9b"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "1123b81633ce7985",
+   "title": "Customer Success Manager en opérations aériennes (F/H)",
+   "company": "OpenAirlines",
+   "location": "Toulouse",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "Customer Success Manager en opérations aériennes (F/H) Votre capacité à comprendre et à parler le langage technique des pilotes et à traduire ces connaissances en solutions pratiques sera cruciale pour assurer le succès et la satisfaction des clients. Vous serez le lien vital entre nos solutions technologiques innovantes et les besoins spécifiques de l'industrie aéronautique, en tant qu'ambassadeu",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/openairlines/jobs/customer-success-manager-en-operations-aeriennes-f-h_toulouse_OPENA_jlpw4gr"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
    "id": "87885f3747fb8958",
    "title": "Chargé de Marketing Digital CRM & Marketing Automation 26-27 H/F",
    "company": "",
@@ -3708,7 +3943,7 @@
    "id": "2936dc2c1000bca5",
    "title": "Chargé de Marketing Digital CRM & Marketing Automation 26-27 H/F",
    "company": "Hellowork",
-   "location": "Levallois-Perret, A8, FR",
+   "location": "Levallois-Perret, A8, France",
    "city": "Levallois-Perret",
    "region": "other",
    "work_mode": "remote",
@@ -3738,7 +3973,7 @@
    "id": "9c64d24325030cf4",
    "title": "Digital Officer (F/H)",
    "company": "Paris Society",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -5414,41 +5649,40 @@
    "first_seen": "2026-09-08"
   },
   {
-   "id": "7423990289c9cc13",
-   "title": "Traffic Manager (H/F)",
-   "company": "Efrei",
-   "location": "Villejuif",
-   "city": "Villejuif",
-   "region": "other",
+   "id": "87116ac4d90a0aa6",
+   "title": "COORDINATEUR MARKETING H/F - CDI - SWATCH - PARIS - (75)",
+   "company": "Swatch Group",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "performance_marketing"
+    "marketing_operations"
    ],
    "skills": [
-    "acquisition",
-    "conversion",
-    "sea",
-    "tracking"
+    "gestion de projet"
    ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-09-07",
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-08",
    "salary": null,
-   "description_snippet": "Traffic Manager (H/F) <p>Diplômé(e) d’une formation supérieure en marketing digital (Bac&#43;5), vous justifiez d’une expérience de 3 ans en acquisition digitale, idéalement acquise dans un environnement dynamique et orienté performance.</p><p>Vous avez déjà piloté des campagnes d’acquisition multi-leviers (SEA, Social Ads...) et évolué sur des marchés internationaux, vous permettant de comprendre",
+   "description_snippet": "**Description du poste** ------------------------ Poste à pourvoir : Rejoignez l'équipe Marketing Swatch ! Nous recherchons un(e) Coordinateur(trice) Marketing, prêt(e) à incarner l’esprit Swatch au quotidien et à insuffler cette énergie à l’ensemble de l’équipe. Vous assurez la mise en oeuvre opérationnelle de la stratégie Swatch au sein de la filiale. Vous coordonnez les actions locales (retail,",
    "sources": [
     {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/efrei/jobs/traffic-manager-h-f_villejuif"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d38f0c81d9dd238e"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
    "id": "aa53bb7527187fb5",
    "title": "Chargé en Marketing Digital et en Communication CDI 2050€",
    "company": "SUSHI CLUB AVIGNON",
-   "location": "Noisy-le-Grand, A8, FR",
+   "location": "Noisy-le-Grand, A8, France",
    "city": "Noisy-Le-Grand",
    "region": "other",
    "work_mode": "onsite",
@@ -5534,7 +5768,7 @@
    "id": "28727c9964eb5fc4",
    "title": "Chef de projet CRM junior (H/F)",
    "company": "Klint Consulting",
-   "location": "Levallois-Perret, A8, FR",
+   "location": "Levallois-Perret, A8, France",
    "city": "Levallois-Perret",
    "region": "other",
    "work_mode": "hybrid",
@@ -5562,7 +5796,7 @@
    "id": "76c2995044dbd570",
    "title": "Coordinateur marketing et ventes F/H",
    "company": "KNDS",
-   "location": "Versailles, A8, FR",
+   "location": "Versailles, A8, France",
    "city": "Versailles",
    "region": "other",
    "work_mode": "onsite",
@@ -5590,7 +5824,7 @@
    "id": "dc666b0d60a3b6d5",
    "title": "Responsable Marketing et Digital Marché Agricole H/F",
    "company": "Hellowork",
-   "location": "Tillé, HDF, FR",
+   "location": "Tillé, HDF, France",
    "city": "Tille",
    "region": "other",
    "work_mode": "onsite",
@@ -5621,10 +5855,42 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "5bf61a6aebd6a4ed",
+   "title": "Customer Success Manager - F/H",
+   "company": "Brands to Medias",
+   "location": "Clichy, A8, France",
+   "city": "Clichy",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "retention",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Chez Brands to Medias, on a réinventé la publicité sur les réseaux sociaux grâce à un levier d'acquisition inédit : le **Social Publishing**. **Concrètement ?** On permet aux annonceurs de diffuser leurs publicités sur les pages réseaux sociaux de +350 grandes marques médias partenaires : Marie Claire, Cosmopolitan, TF1 Info, Aufeminin et bien d'autres. Plutôt que de communiquer en leu",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b045efe5897899c8"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "8c4b2498438416cb",
    "title": "Responsable Marketing & Communication Loisirs & Divertissement H/F",
    "company": "Hellowork",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -5750,42 +6016,10 @@
    "first_seen": "2026-10-07"
   },
   {
-   "id": "5bf61a6aebd6a4ed",
-   "title": "Customer Success Manager - F/H",
-   "company": "Brands to Medias",
-   "location": "Clichy, A8, FR",
-   "city": "Clichy",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "churn",
-    "retention",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 12,
-   "date_posted": "2025-08-01",
-   "salary": null,
-   "description_snippet": "Chez Brands to Medias, on a réinventé la publicité sur les réseaux sociaux grâce à un levier d'acquisition inédit : le **Social Publishing**. **Concrètement ?** On permet aux annonceurs de diffuser leurs publicités sur les pages réseaux sociaux de +350 grandes marques médias partenaires : Marie Claire, Cosmopolitan, TF1 Info, Aufeminin et bien d'autres. Plutôt que de communiquer en leu",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=b045efe5897899c8"
-    }
-   ],
-   "first_seen": "2026-10-07"
-  },
-  {
    "id": "725f56cfac2a97df",
    "title": "Responsable Parcours Client & Croissance Digitale",
    "company": "DMVP Formation",
-   "location": "Angers, B5, FR",
+   "location": "Angers, B5, France",
    "city": "Angers",
    "region": "west",
    "work_mode": "remote",
@@ -5813,7 +6047,7 @@
    "id": "d5231afbb4c1acb7",
    "title": "Product Owner (H/F) - CDI",
    "company": "La Voix Groupe",
-   "location": "Lille, HDF, FR",
+   "location": "Lille, HDF, France",
    "city": "Lille",
    "region": "other",
    "work_mode": "remote",
@@ -5933,7 +6167,7 @@
    "id": "7bc41ce5cee98d29",
    "title": "Lead CRO & Web Analyst",
    "company": "Licorne Society",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -5949,8 +6183,8 @@
    ],
    "bonus_tags": [],
    "score": 12,
-   "date_posted": "2026-10-05",
-   "salary": null,
+   "date_posted": "2026-10-06",
+   "salary": "70,000–70,000 EUR/yearly",
    "description_snippet": "**Lead CRO & Web Analyst - CDI** ***Descriptif du poste*** Une scale-up dans la Fintech recherche son/sa futur·e Lead CRO & Web Analyst pour rejoindre leur équipe Growth et prendre la main sur leur site et sur tout ce qui s'y convertit. Sous la responsabilité directe de leur Head of Growth, et en collaboration étroite avec leur spécialiste de l'acquisition, leur développeur front, et leur UX desig",
    "sources": [
     {
@@ -8160,34 +8394,123 @@
    "first_seen": "2026-09-08"
   },
   {
-   "id": "17faf9c8156b40bb",
-   "title": "Spécialiste Applications H/F",
-   "company": "Iconeus",
-   "location": "Paris 14e, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
+   "id": "e801dfff3b2252d3",
+   "title": "Video Editor & Motion Designer (all genders)",
+   "company": "JustPlay",
+   "location": "Eu, N, France",
+   "city": "Eu",
+   "region": "other",
+   "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "marketing_produit"
+    "performance_marketing"
    ],
    "skills": [
-    "veille concurrentielle"
+    "acquisition",
+    "sea"
    ],
    "bonus_tags": [
-    "chinese"
+    "international"
    ],
-   "score": 12,
-   "date_posted": "2026-09-07",
+   "score": 10,
+   "date_posted": "2026-10-08",
    "salary": null,
-   "description_snippet": "**Présentation** ICONEUS est une entreprise DeepTech/MedTech qui développe des systèmes d'imagerie ultrasonore de nouvelle génération permettant de révéler l'activité neurofonctionnelle et microvasculaire avec une résolution sans précédent. Initialement axée sur les applications précliniques, l'entreprise se développe sur les marchés cliniques et progresse vers la certification de dispositifs prêt",
+   "description_snippet": "JustPlay is looking for a creative and performance-driven Video Editor & Motion Designer to join our growing Creative team. In this role, you’ll create engaging, high-performing video content for mobile-first audiences and help shape creatives that drive measurable results across our marketing channels. You’ll combine video editing, motion design, and generative AI to bring creative concepts to li",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=ac24adfb1299c647"
+     "url": "https://fr.indeed.com/viewjob?jk=e1f03982cfef21d3"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "13dedb5f8e59af50",
+   "title": "Customer Success Manager (CSM) H/F",
+   "company": "WEBMECANIK",
+   "location": "Argonay, ARA, France",
+   "city": "Argonay",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "retention",
+    "voix du client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-08",
+   "salary": "35,000–35,000 EUR/yearly",
+   "description_snippet": "**A PROPOS DE WEBMECANIK** Chez Webmecanik, nous concevons des logiciels de CRM et de Marketing Automation 100% français pensés pour accompagner les équipes commerciales et marketing dans leur croissance. Dans le Grand Annecy, notre objectif est de permettre à chaque entreprise de bénéficier d'outils puissants, accessibles et performants pour construire des relations clients solides. + de 4000 uti",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=97a4433a42cd8a16"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "3f0430c6d8f3b290",
+   "title": "Customer Success Lead - CDI",
+   "company": "Solteo",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "retention",
+    "upsell"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "**Qui sommes-nous ?** ===================== **Notre mission** ----------------- **Avec Solteo, nous voulons donner toutes ses chances à l'électrification des bâtiments en soutenant ceux qui sont en première ligne : les entreprises d’installation.** Produire son électricité en solaire, se chauffer avec une pompe à chaleur, recharger son véhicule, stocker : **l'électrification des bâtiments est le p",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0af08b5833bcc5e8"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "82ec14bd3fe0e502",
+   "title": "Responsable Marketing Junior (H/F)",
+   "company": "",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-07",
+   "salary": "Mensuel de 3200.0 Euros à 3600.0 Euros",
+   "description_snippet": "À propos de nous : Jackson And Frank est un cabinet de conseil international. Avec plus de 17 filiales en Europe et en Asie et un réseau couvrant 160 pays, nous accompagnons la croissance des scale-ups et groupes multinationaux à l'échelle mondiale. Pour renforcer notre pôle stratégique, nous recrutons un(e) Responsable Marketing Junior (H/F). Vos missions : Sous l'autorité hiérarchique directe de",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214XJWY"
+    }
+   ],
+   "first_seen": "2026-10-08"
   },
   {
    "id": "01c79d5a6c12ff57",
@@ -8225,7 +8548,7 @@
    "id": "2b41966020e3f514",
    "title": "Responsable Marketing Solutions Infrastructures Réseaux et IT Sécurisées H /F H/F",
    "company": "FAYAT",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "remote",
@@ -8248,6 +8571,40 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=98e96e5966132811"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "8e93520ed39d409f",
+   "title": "MEA Bakery Solutions Portfolio & Commercialization Executive",
+   "company": "Lesaffre",
+   "location": "Marcq-en-Barœul, HDF, France",
+   "city": "Marcq-En-Barœul",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "**Company Description** As a **global key player in yeasts and fermentation**, Lesaffre designs, manufactures and markets innovative solutions for Baking, Food taste & pleasure, Health care and Biotechnology. Family group born in northern France in 1853, now a multi-national and a multicultural company, Lesaffre is committed to working with confidence to **better nourish and protect the planet**. ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=85616a4d609d90e1"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lesaffre/jobs/mea-bakery-solutions-portfolio-commercialization-executive_marcq-en-baroeul"
     }
    ],
    "first_seen": "2026-10-07"
@@ -8355,37 +8712,10 @@
    "first_seen": "2026-10-07"
   },
   {
-   "id": "7cb13d4fee977ffe",
-   "title": "VRP MULTICARTES – VINS & SPIRITUEUX – BUSINESS DEVELOPER B2B H/F",
-   "company": "PZ WINE",
-   "location": "Noisy-le-Grand, A8, FR",
-   "city": "Noisy-Le-Grand",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-06",
-   "salary": "2,000–4,000 EUR/monthly",
-   "description_snippet": "VRP MULTICARTES – VINS & SPIRITUEUX – BUSINESS DEVELOPER B2B H/F **France & Europe** À propos de PZ WINE PZ WINE est une société spécialisée dans la distribution de vins et spiritueux auprès des professionnels. Basée à Noisy-le-Grand (93), nous proposons une gamme diversifiée de vins français, vins chinois, spiritueux et baijiu à destination des restaurants, hôtels, bars, cavistes, distributeurs e",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=52ee10930d53aa95"
-    }
-   ],
-   "first_seen": "2026-10-06"
-  },
-  {
    "id": "e030ba893d19dc7a",
    "title": "Ingénieur Méthodes Industrialisation - Robotique (H/F)",
    "company": "Stäubli",
-   "location": "Faverges-Seythenex, ARA, FR",
+   "location": "Faverges-Seythenex, ARA, France",
    "city": "Faverges-Seythenex",
    "region": "other",
    "work_mode": "remote",
@@ -8412,7 +8742,7 @@
    "id": "97fb171ec7545b2c",
    "title": "Marketing Manager B2B",
    "company": "Licorne Society",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "remote",
@@ -8425,7 +8755,7 @@
     "international"
    ],
    "score": 10,
-   "date_posted": "2026-10-05",
+   "date_posted": "2026-10-06",
    "salary": null,
    "description_snippet": "**Marketing Manager B2B - Scale-up HRTech Innovante (Coaching & IA)** **Localisation** : Paris (Quartier Sentier / Réaumur) **Rémunération** : Jusqu'à 60/70 k€ + BSPCE (Equity) **Télétravail** : 1 jour / semaine **Type de contrat** : CDI **L'Entreprise** : Qui sont-ils ? Notre client est une scale-up B2B autofinancée et très ambitieuse, qui transforme la manière dont les entreprises développent le",
    "sources": [
@@ -8440,7 +8770,7 @@
    "id": "3bc2eee74b612eb5",
    "title": "Ingénieur Avant-Vente France F/H",
    "company": "CIRIL GROUP",
-   "location": "Villeurbanne, ARA, FR",
+   "location": "Villeurbanne, ARA, France",
    "city": "Villeurbanne",
    "region": "other",
    "work_mode": "remote",
@@ -8453,7 +8783,7 @@
     "international"
    ],
    "score": 10,
-   "date_posted": "2026-10-05",
+   "date_posted": "2026-10-06",
    "salary": null,
    "description_snippet": "Ciril GROUP est un éditeur de logiciels et Hébergeur Cloud français reconnu pour ses solutions innovantes destinées aux acteurs publics et privés en France et en Europe. Rejoignez une entreprise à taille humaine, engagée en RSE, avec une diversité de postes et une ambiance conviviale au quotidien ! Notre gamme d’outils cartographiques s’articule autour de GEO, une plateforme SIG et géo décisionnel",
    "sources": [
@@ -11352,149 +11682,68 @@
    "first_seen": "2026-09-08"
   },
   {
-   "id": "d155f974b56049c9",
-   "title": "CRM Manager",
-   "company": "Inqom",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
+   "id": "55599f685fcaf5d3",
+   "title": "Data Analyste Marketing H/F",
+   "company": "Apprentis d'Auteuil",
+   "location": "Clichy, A8, France",
+   "city": "Clichy",
+   "region": "other",
+   "work_mode": "hybrid",
    "contract": "CDI",
    "categories": [
-    "crm"
+    "marketing_analytics"
    ],
-   "skills": [],
+   "skills": [
+    "sql"
+   ],
    "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-21",
+   "score": 8,
+   "date_posted": "2026-10-08",
    "salary": null,
-   "description_snippet": "CRM Manager Tu aimes autant la rigueur que les outils. Tu apprécies les environnements où les process évoluent vite mais où la qualité d'exécution reste une priorité. Tu pourrais être la bonne personne si : * tu disposes d'une solide expérience d'administration HubSpot (Sales Hub, Marketing Hub et Service Hub) ; * tu as déjà travaillé dans une équipe RevOps, Sales Operations ou en cabinet de conse",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/fred-de-la-compta/jobs/crm-manager_paris"
-    }
-   ],
-   "first_seen": "2026-09-07"
-  },
-  {
-   "id": "afa2923b2b9e0c6e",
-   "title": "DEVELOPPEUR PRODUITS (H/F)/CDI",
-   "company": "atlasformen",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-07",
-   "salary": null,
-   "description_snippet": "**DEVELOPPEUR PRODUITS (H/F)/CDI** REMUNERATION \\+ TICKETS RESTAURANT \\+ REMBOURSEMENT 50% DU TITRE DE TRANSPORT Début du contrat : ASAP \\- Localisation : Paris 9ème **Atlas For Men** est une marque de vêtements et accessoires Outdoor. La marque commercialise ses produits dans ses catalogues et sur ses sites marchands à l’échelle internationale. Nous proposons aux amoureux de la nature, des vêteme",
+   "description_snippet": "**Data Analyste Marketing H/F** Pour notre site de **REGION SIEGE**, nous recherchons un **Data Analyste Marketing H/F** en **CDI**. Vous voulez rejoindre une organisation à **fort impact social** pour donner plus de **sens à votre travail** ? *Alors il y a de grandes chances que vous ayez envie de lire la suite…* **Ce que nous vous proposons** Au sein de la Direction Marketing & Études, rattaché(",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=a811167b39600277"
+     "url": "https://fr.indeed.com/viewjob?jk=df14d81090f50f49"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
-   "id": "e3ce4e0decc2ada7",
-   "title": "TRAFFIC MANAGER (H/F)",
-   "company": "HYPERION",
-   "location": "92 - Neuilly-sur-Seine",
-   "city": "92 - Neuilly-Sur-Seine",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "conversion",
-    "seo"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-07",
-   "salary": "Mensuel de 2200.0 Euros",
-   "description_snippet": "Créer et optimiser du contenu produit o Création et mise à jour de fiches produits Amazon o Rédaction des contenus (titres, bullet points, descriptions) o Création de contenu A+ (visuels + storytelling) o Gestion des variations produits (formats, tailles, saveurs.) o Création et optimisation des Brand Stores - Optimiser le référencement SEO/GEO des produits o Optimisation des pages produits (SEO +",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/213MVKM"
-    }
-   ],
-   "first_seen": "2026-09-07"
-  },
-  {
-   "id": "7210dc8c696abb47",
-   "title": "Product Marketing Specialist F/H",
-   "company": "PASSERELLES HR",
-   "location": "Colmar - 68",
-   "city": "Colmar - 68",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-07",
-   "salary": "A partir de 60 k€ brut annuel",
-   "description_snippet": "Vos principales missions Vous adoptez une approche centrée client en partant des besoins et problématiques du marché pour définir le positionnement du produit. Vous pilotez le lancement opérationnel des nouveaux produits et l’évolution des gammes existantes. Vous analysez le...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179329082W"
-    }
-   ],
-   "first_seen": "2026-09-07"
-  },
-  {
-   "id": "8e93520ed39d409f",
-   "title": "MEA Bakery Solutions Portfolio & Commercialization Executive",
-   "company": "Lesaffre",
-   "location": "Marcq-en-Barœul, HDF, FR",
-   "city": "Marcq-En-Barœul",
+   "id": "ac90e6573cbc1d05",
+   "title": "Principal Global Product Manager Wiring Devices Europe",
+   "company": "Schneider Electric",
+   "location": "Grenoble, ARA, France",
+   "city": "Grenoble",
    "region": "other",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "marketing_operations"
+    "marketing_produit"
    ],
    "skills": [
-    "automation"
+    "roadmap"
    ],
    "bonus_tags": [
     "international"
    ],
    "score": 8,
-   "date_posted": "2026-10-07",
+   "date_posted": "2026-10-08",
    "salary": null,
-   "description_snippet": "**Company Description** As a **global key player in yeasts and fermentation**, Lesaffre designs, manufactures and markets innovative solutions for Baking, Food taste & pleasure, Health care and Biotechnology. Family group born in northern France in 1853, now a multi-national and a multicultural company, Lesaffre is committed to working with confidence to **better nourish and protect the planet**. ",
+   "description_snippet": "Job Description: **About the role :** As a Principal Global Product Manager for Wiring Devices, you will lead the development and growth of Schneider Electric's portfolio across the Nordic markets. Working at the intersection of marketing, innovation, and business strategy, you will be responsible for identifying growth opportunities, shaping product roadmaps, and delivering customer-centric value",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=85616a4d609d90e1"
+     "url": "https://fr.indeed.com/viewjob?jk=15ef0ed50d12196f"
     }
    ],
-   "first_seen": "2026-10-07"
+   "first_seen": "2026-10-08"
   },
   {
    "id": "9748ea816f4a5981",
    "title": "CUSTOMER SUCCESS MANGER / RESPONSABLE RELATION CLIENTS",
    "company": "GL EVENTS",
-   "location": "Lyon 2e, ARA, FR",
+   "location": "Lyon 2e, ARA, France",
    "city": "Lyon 2E",
    "region": "other",
    "work_mode": "onsite",
@@ -11524,7 +11773,7 @@
    "id": "fe9f5108b48288a8",
    "title": "Data Analyst / Web Analyst – Power BI (IT) / Freelance",
    "company": "Octopus Group",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -11555,7 +11804,7 @@
    "id": "a6ae223f80ea909a",
    "title": "Chef de Produit Dommage - F/H",
    "company": "Swiss Life Group",
-   "location": "Roubaix, HDF, FR",
+   "location": "Roubaix, HDF, France",
    "city": "Roubaix",
    "region": "other",
    "work_mode": "onsite",
@@ -11643,7 +11892,7 @@
    "id": "2069461ff178fa30",
    "title": "Chef de produits électronique H/F",
    "company": "Dexxon Groupe",
-   "location": "Gennevilliers, A8, FR",
+   "location": "Gennevilliers, A8, France",
    "city": "Gennevilliers",
    "region": "other",
    "work_mode": "onsite",
@@ -11673,7 +11922,7 @@
    "id": "6f3800770ea7ad6d",
    "title": "Chef de Produit PAC Air/Air VRF H/F",
    "company": "Groupe Atlantic",
-   "location": "Lyon, ARA, FR",
+   "location": "Lyon, ARA, France",
    "city": "Lyon",
    "region": "other",
    "work_mode": "remote",
@@ -11703,7 +11952,7 @@
    "id": "5240dc7e123aba15",
    "title": "Regional Sales Manager (H/F)",
    "company": "Thales",
-   "location": "Meudon, A8, FR",
+   "location": "Meudon, A8, France",
    "city": "Meudon",
    "region": "other",
    "work_mode": "onsite",
@@ -11733,7 +11982,7 @@
    "id": "dac8e572fbe20f96",
    "title": "Senior Manager CRM & Customer Engagement H/F - CDI",
    "company": "Rexel",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "remote",
@@ -11858,7 +12107,7 @@
    "id": "a4e02ceb80773e01",
    "title": "Customer Success Manager",
    "company": "CHAPSVISION",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "remote",
@@ -11871,7 +12120,7 @@
     "international"
    ],
    "score": 8,
-   "date_posted": "2026-10-01",
+   "date_posted": "2026-10-06",
    "salary": null,
    "description_snippet": "##### **À propos de ChapsVision** En quelques années, ChapsVision s’est imposé comme un acteur européen de référence du Big Data et de l’Intelligence Artificielle. Notre ambition : permettre aux entreprises et aux organisations publiques d’exploiter leurs données de manière souveraine, sécurisée et intelligente. Depuis 2019 : * +380 M€ levés auprès de Bpifrance * 29+ acquisitions * ~1 200 collabor",
    "sources": [
@@ -14576,64 +14825,204 @@
    "first_seen": "2026-09-08"
   },
   {
-   "id": "309375a746c50d4e",
-   "title": "Responsable de gamme (H/F)",
-   "company": "Saint-Gobain",
-   "location": "Courbevoie, A8, FR",
-   "city": "Courbevoie",
+   "id": "f5f0b4b48e470351",
+   "title": "JOB SAISONIER OCT NOV DEC : Standardiste Parlant Chinois/Mandarin",
+   "company": "Les Frères Gourmands",
+   "location": "Bobigny, A8, France",
+   "city": "Bobigny",
    "region": "other",
-   "work_mode": "remote",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-08",
+   "salary": "1,801–1,802 EUR/monthly",
+   "description_snippet": "* STANDARDISTE TÉLÉPHONIQUE EN **FRANCAIS ET CHINOIS (Mandarin)** - Prise de commande - Tâches administratives **- Saisie sur ordinateur** - Expérience en tant que serveur apprécié **Attention : Chinois (Mandarin exigé)** Horaires : Lundi au Vendredi 35h **Salaire : SMIC** Type d'emploi : JOB SAISONNIER Octobre Novembre et Décembre Type d'emploi : Temps plein, Stage, CDD Rémunération : 1 801,00€ à",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=83e72cd42a539e12"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "b0cda877eb80de2c",
+   "title": "Comptable H/F en langue Mandarin",
+   "company": "GOAL",
+   "location": "Ivry-sur-Seine, A8, France",
+   "city": "Ivry-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "**À propos du poste** Nous recherchons un Comptable H/F en langue Mandarin passionné(e) et dynamique pour rejoindre notre équipe financière. Dans ce rôle essentiel, vous serez responsable de la gestion précise et rigoureuse des opérations comptables, en assurant la conformité avec les normes locales et internationales. Vous participerez activement à l’analyse financière, à la préparation des états",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a25aec3f4735bbd1"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "5e619f9c7657fcab",
+   "title": "Sous Chef",
+   "company": "Marriott International",
+   "location": "Bora-Bora, DTM, France",
+   "city": "Bora-Bora",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "**Additional Information** **Job Number**26130761 **Job Category**Food and Beverage & Culinary **Location**Motu Ome'e BP 506, Bora Bora 98730, French Polynesia **Schedule**Full Time **Located Remotely?**N **Position Type** Management **職位概述** 負責廚房日常運作的總體成功。透過親自執行任務展示烹飪技能，同時領導員工並管理所有與餐飲相關的職能。努力持續提高客人和員工的滿意度，同時維持經營預算。監督所有廚房區域，以確保提供始終如一的優質產品。負責指導和培養員工，包括直屬下屬。必須確保滿足衛生和食品標準。 **求職者個人資料** **教育和經驗要求** * 高",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5fca62c1a3515dab"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "e6d55a535f7168de",
+   "title": "International Customer Success Manager - CDI (F/M/X)",
+   "company": "Fairly Made",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "International Customer Success Manager - CDI (F/M/X) **Must-have** * Experience (2 years) in Customer Success, Account Management, or client support in a B2B SaaS environment * You're comfortable with data: reading a usage dashboard, interpreting a churn signal, and turning it into a concrete action * You're rigorous and autonomous: you prioritize, keep your commitments over time, and act ahead of",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/fairly-made/jobs/customer-success-manager-f-m-x_paris"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "69585e452124d90b",
+   "title": "Professeur de chinois mandarin, ORLEANS (H/F)",
+   "company": "ACADOMIA",
+   "location": "45 - Orléans",
+   "city": "45 - Orleans",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-08",
+   "salary": "Horaire de 16.0 Euros à 25.0 Euros",
+   "description_snippet": "Vous vous sentez prêt.e par votre attitude dynamique et vos compétences pédagogiques à accompagner des élèves de primaire et / ou collège et / ou lycée, et / ou supérieur, en CHINOIS MANDARIN, à ORLEANS (45). Vous pouvez offrir des disponibilités en soirées, en journée le mercredi et/ou les week-ends, je vous invite à déposer votre candidature sur notre site www.acadomia.fr en mentionnant la référ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214YNZF"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "5468cac75f02a89e",
+   "title": "Chef de Marque Automobile - Brand Manager H/F",
+   "company": "Hellowork",
+   "location": "Vaucresson, A8, France",
+   "city": "Vaucresson",
+   "region": "other",
+   "work_mode": "onsite",
    "contract": null,
    "categories": [
     "marketing_produit"
    ],
    "skills": [
-    "positionnement"
+    "positionnement",
+    "veille concurrentielle"
    ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-07",
-   "salary": null,
-   "description_snippet": "**Pourquoi a\\-t\\-on besoin de vous ?** **Rejoindre nos équipes, c’est prendre part à imaGInons, un projet d’entreprise vivant où chacun contribue, collabore et innove pour construire ensemble la préférence de nos clients.** **Rejoignez les leaders de l'isolation et du confort intérieur** **Saint\\-Gobain Isover**, leader et expert de l’isolation, et **Placo®**, référence du confort intérieur en Fra",
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-06",
+   "salary": "65,000–70,000 EUR/yearly",
+   "description_snippet": "Description Notre client est un constructeur automobile qui recherche un(e) Chef(fe) de Marque / Brand Manager H/F en charge du pilotage du produit, du pricing et de la performance commerciale et financière des gammes qui lui sont confiées. Poste Rattaché(e) au Directeur Marketing, vous êtes responsable du pilotage de la performance commerciale et de la rentabilité des gammes qui vous sont confiée",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=6c118cc544c80910"
+     "url": "https://fr.indeed.com/viewjob?jk=eaf39f19c2b19f13"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
-   "id": "caaab15c1d31598b",
-   "title": "Chargé de CRM et marketing F/H",
-   "company": "EMPLOI PUBLIC",
-   "location": "Évry-Courcouronnes   - 91",
-   "city": "Evry-Courcouronnes - 91",
+   "id": "727731b305131082",
+   "title": "Customer Success - Niveau 2",
+   "company": "LegalPlace",
+   "location": "Montpellier",
+   "city": "Montpellier",
    "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
+   "work_mode": "hybrid",
+   "contract": "CDI",
    "categories": [
-    "crm"
+    "customer"
    ],
    "skills": [],
    "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-07",
-   "salary": "A négocier",
-   "description_snippet": "Environnement et contexte de travail : L'Université Paris-Saclay développe depuis longtemps une politique de formation professionnelle continue et apprentissage. Vecteur important de l'intégration professionnelle, du développement des compétences et de la sécurisation des parcou...",
+   "score": 6,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "Customer Success - Niveau 2",
    "sources": [
     {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179371475W"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/legalplace/jobs/customer-success_montpellier_LEGAL_dMmO2O7"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
    "id": "d151c2ce964b0a05",
    "title": "CHEF DE PRODUITS H/F",
    "company": "MONTS & TERROIRS",
-   "location": "Poligny, BFC, FR",
+   "location": "Poligny, BFC, France",
    "city": "Poligny",
    "region": "other",
    "work_mode": "onsite",
@@ -14659,7 +15048,7 @@
    "id": "763092788d9fdc06",
    "title": "Data Analyst – Business Intelligence & Expérience Client (H/F)",
    "company": "RATP Dev",
-   "location": "Toulon, B8, FR",
+   "location": "Toulon, B8, France",
    "city": "Toulon",
    "region": "other",
    "work_mode": "onsite",
@@ -14672,11 +15061,11 @@
    "score": 6,
    "date_posted": "2026-10-07",
    "salary": "2,800–2,950 EUR/monthly",
-   "description_snippet": "* CDI * Temps plein * Entre 2800€ et 2950€ brut/mois * 13ème mois, primes diverses * Au moins 5 ans d'expérience * Master, Bac+5 * Analyste Data Votre avenir, notre destination **Mission** ----------- RATP Dev est une filiale du groupe RATP, leader des réseaux de rail urbain à grande capacité et 3ème opérateur mondial de transports publics. Nos 25 000 collaborateurs conçoivent, exploitent, maintie",
+   "description_snippet": "RATP Dev est une filiale du groupe RATP, leader des réseaux de rail urbain à grande capacité et 3ème opérateur mondial de transports publics. Nos 25 000 collaborateurs conçoivent, exploitent, maintiennent et modernisent des réseaux de transport urbains et interurbains. Nous servons plus de 100 villes dans 16 pays, et leur apportons des solutions sur mesure, adaptées à leurs enjeux environnementaux",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=402f22d8966c1e17"
+     "url": "https://fr.indeed.com/viewjob?jk=8ee87be0366b7099"
     }
    ],
    "first_seen": "2026-10-07"
@@ -14685,7 +15074,7 @@
    "id": "d81674742e2d4ede",
    "title": "Web Analyst H/F – Lille",
    "company": "Smile",
-   "location": "Lille, HDF, FR",
+   "location": "Lille, HDF, France",
    "city": "Lille",
    "region": "other",
    "work_mode": "onsite",
@@ -14702,7 +15091,7 @@
    ],
    "score": 6,
    "date_posted": "2026-10-07",
-   "salary": null,
+   "salary": "3,000–3,000 EUR/monthly",
    "description_snippet": "Traduire un besoin métier en une solution qui tient la route : **c’est le cœur de votre métier**, c’est aussi le nôtre. Chez Smile, le Business Analyst n’est pas un simple rédacteur de specs, **c’est le garant de la solution**, de la première réunion de cadrage jusqu’à sa mise en service. 1 500 experts à travers l’Europe, et des projets numériques ouverts, performants et durables dans tous les sec",
    "sources": [
     {
@@ -14716,7 +15105,7 @@
    "id": "30864b3aa0e5133c",
    "title": "Assistant produits Home Déco F/H",
    "company": "Auchan",
-   "location": "Villeneuve-d'Ascq, HDF, FR",
+   "location": "Villeneuve-d'Ascq, HDF, France",
    "city": "Villeneuve-D'Ascq",
    "region": "other",
    "work_mode": "onsite",
@@ -14730,7 +15119,7 @@
    ],
    "score": 6,
    "date_posted": "2026-10-07",
-   "salary": null,
+   "salary": "24,423–24,423 EUR/yearly",
    "description_snippet": "**✨Nous sommes…** **Auchan Retail France, une entreprise de distribution de plus de 50 000 collaborateurs au service de millions de clients chaque année.** Ce que nous voulons, c’est aider nos clients à bien manger et vivre mieux, tout en préservant la planète. Que l’on soit en entrepôt, en magasin ou sur des fonctions support, notre point commun à tous, c’est de faire en sorte que nos clients aie",
    "sources": [
     {
@@ -14826,7 +15215,7 @@
    "id": "9762abf7cc4cba39",
    "title": "Staff Field Marketing Engineer (m/f/d)",
    "company": "Emerson",
-   "location": "Colombes, A8, FR",
+   "location": "Colombes, A8, France",
    "city": "Colombes",
    "region": "other",
    "work_mode": "onsite",
@@ -14899,6 +15288,34 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/214YDYW"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
+   "id": "74036791440e2ebe",
+   "title": "Copilot Go-To-Market Manager",
+   "company": "Microsoft",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-07",
+   "salary": "69,000–119,200 EUR/yearly",
+   "description_snippet": "**Overview** The Sales Enablement & Operations (SE&O) team helps translate Microsoft’s commercial strategy into effective execution across our markets. Working across regions, areas and subsidiaries, the team connects strategy, insights and execution to help accelerate business growth and customer impact. Microsoft 365 Copilot continues to see strong momentum across EMEA, with organisations across",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c2f6247c14cf108c"
     }
    ],
    "first_seen": "2026-10-07"
@@ -14997,38 +15414,37 @@
    "first_seen": "2026-10-07"
   },
   {
-   "id": "74036791440e2ebe",
-   "title": "Copilot Go-To-Market Manager",
-   "company": "Microsoft",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
+   "id": "7cb13d4fee977ffe",
+   "title": "VRP MULTICARTES – VINS & SPIRITUEUX – BUSINESS DEVELOPER B2B H/F",
+   "company": "PZ WINE",
+   "location": "Noisy-le-Grand, A8, France",
+   "city": "Noisy-Le-Grand",
+   "region": "other",
    "work_mode": "onsite",
    "contract": "CDI",
-   "categories": [
-    "marketing_produit"
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
    ],
-   "skills": [
-    "go-to-market"
-   ],
-   "bonus_tags": [],
    "score": 6,
-   "date_posted": "2026-09-22",
-   "salary": "69,000–119,200 EUR/yearly",
-   "description_snippet": "**Overview** The Sales Enablement & Operations (SE&O) team helps translate Microsoft’s commercial strategy into effective execution across our markets. Working across regions, areas and subsidiaries, the team connects strategy, insights and execution to help accelerate business growth and customer impact. Microsoft 365 Copilot continues to see strong momentum across EMEA, with organisations across",
+   "date_posted": "2026-10-06",
+   "salary": "2,000–4,000 EUR/monthly",
+   "description_snippet": "VRP MULTICARTES – VINS & SPIRITUEUX – BUSINESS DEVELOPER B2B H/F **France & Europe** À propos de PZ WINE PZ WINE est une société spécialisée dans la distribution de vins et spiritueux auprès des professionnels. Basée à Noisy-le-Grand (93), nous proposons une gamme diversifiée de vins français, vins chinois, spiritueux et baijiu à destination des restaurants, hôtels, bars, cavistes, distributeurs e",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=c2f6247c14cf108c"
+     "url": "https://fr.indeed.com/viewjob?jk=52ee10930d53aa95"
     }
    ],
-   "first_seen": "2026-10-07"
+   "first_seen": "2026-10-06"
   },
   {
    "id": "fc89a6db00816dd3",
    "title": "Customer Success Manager - EMEA & US",
    "company": "Poppulo",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -15086,7 +15502,7 @@
    "id": "e5f6cea06f9ee6dc",
    "title": "Chef de Produit Développement International H/F",
    "company": "SA LES TROIS CHENES",
-   "location": "Villechenève, ARA, FR",
+   "location": "Villechenève, ARA, France",
    "city": "Villecheneve",
    "region": "other",
    "work_mode": "onsite",
@@ -15114,7 +15530,7 @@
    "id": "a5ae4ca821321d4a",
    "title": "Chef de produits marketing export H/F",
    "company": "SA LES TROIS CHENES",
-   "location": "Villechenève, ARA, FR",
+   "location": "Villechenève, ARA, France",
    "city": "Villecheneve",
    "region": "other",
    "work_mode": "onsite",
@@ -15142,7 +15558,7 @@
    "id": "be3c9d57a84da40e",
    "title": "Developmental Psychology (PhD)",
    "company": "Sellryt Ebusiness",
-   "location": "Télétravail, FR",
+   "location": "Télétravail, France",
    "city": "Teletravail",
    "region": "other",
    "work_mode": "remote",
@@ -15252,7 +15668,7 @@
    "id": "6197ac0a53261bf5",
    "title": "GTM Strategy Manager Planning (f/h/n)",
    "company": "Hublo",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "hybrid",
@@ -15282,7 +15698,7 @@
    "id": "5a80767ca0c7ea7b",
    "title": "Senior Product Marketing Manager , Lending Product Line",
    "company": "Shine",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "remote",
@@ -15527,36 +15943,6 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/214TSVY"
-    }
-   ],
-   "first_seen": "2026-10-05"
-  },
-  {
-   "id": "685cca8da4902c74",
-   "title": "Customer Success Manager - Hublo Planning (f/h/n)",
-   "company": "Hublo",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-10-02",
-   "salary": "55,000–60,000 EUR/yearly",
-   "description_snippet": "Chez Hublo, nous sommes convaincus que les outils digitaux (et l’accompagnement humain) peuvent contribuer à transformer et améliorer le système de santé. **Notre vision est de permettre aux établissements de santé de devenir des lieux épanouissants et de libérer du temps aux soignants afin qu’ils puissent se recentrer sur leur mission première : soigner.** Pour y parvenir, nous mettons toute notr",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d0495e13709ca041"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/medgo/jobs/customer-success-manager-hublo-planning-f-h-n_paris"
     }
    ],
    "first_seen": "2026-10-05"
@@ -19721,39 +20107,121 @@
    "first_seen": "2026-09-08"
   },
   {
-   "id": "4e9557b64e7baab2",
-   "title": "Chef de produit et de projets Offres Collectives F/H",
-   "company": "ENTORIA",
-   "location": "Levallois-Perret, A8, FR",
-   "city": "Levallois-Perret",
-   "region": "other",
+   "id": "b6629330f579dcce",
+   "title": "Hôtes et hôtesses d'accueil vip - secteur luxe (H/F)",
+   "company": "CITY ONE",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
+   "categories": [],
    "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-07",
-   "salary": null,
-   "description_snippet": "**ENTORIA, UN ACTEUR DE RÉFÉRENCE** ----------------------------------- Courtier grossiste depuis 2001, nous travaillons exclusivement en BtoB aux côtés d’un réseau de près de **9 000 courtiers partenaires** à travers toute la France, nous positionnant à la **2****e** **place du marché français**. Nous avons fait le choix d’être focalisés sur un nombre restreint de marchés sur lesquels nous avons ",
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-08",
+   "salary": "1,672–1,672 EUR/monthly",
+   "description_snippet": "**Entreprise** ============== Fondé en 1991 par Sophie Pécriaux, City One est aujourd’hui un groupe indépendant et un acteur incontournable des métiers de l’accueil. **Poste** ========= City One recrute des hôtes et hôtesses d’accueil en CDI pour incarner l’excellence de l’accueil au sein d’une maison de luxe d’exception. **Vos missions principales :** * Accueil dynamique et accompagnement des cli",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d26486337c6a4894"
+     "url": "https://fr.indeed.com/viewjob?jk=15ab58046212d0e4"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
-   "id": "af379f4c4ac28366",
-   "title": "CDI - CHEF DE PRODUIT MARKETING ABONNES - PARC SANS ENGAGEMENT",
-   "company": "CANAL+ Group",
-   "location": "Issy-Les-Moulineaux",
-   "city": "Issy-Les-Moulineaux",
-   "region": "other",
+   "id": "d239277a416b5519",
+   "title": "Regional Data Center Program Expert",
+   "company": "Acute Talent",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "DESCRIPTION We are looking for an experienced Regional Data Center Program Expert to lead infrastructure operations, colocation management, vendor governance, and critical infrastructure programs across multiple facilities and geographies. This is a senior management position for a technically strong professional with extensive experience in data center infrastructure, critical facilities, colocat",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=6dc10f7cb591c3b6"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "af59c9002ee7f690",
+   "title": "Caissier polyvalent H/F",
+   "company": "Koozo Mart",
+   "location": "Paris 3e, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-08",
+   "salary": "1,867–2,133 EUR/monthly",
+   "description_snippet": "À propos du poste KOOZO MART, chaîne de supermarchés de produits alimentaires asiatiques en région parisienne, recrute 2 employé·e·s polyvalent·e·s de magasin (H/F) en CDI. À lire attentivement : notre fonctionnement diffère de celui d'un supermarché traditionnel. L'ensemble du travail s'appuie sur des terminaux portables et un système numérique interne — encaissement, réception des marchandises, ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1b2e3b28bcedd0a3"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "60bf71cc90943f2e",
+   "title": "Commercial(e) SaaS (CDI) H/F 销售 法语母语",
+   "company": "Rubytech",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "**RUBY TECH (fondée en 2019)** Société spécialisée en développement, maintenance et services informatiques **Nos produits :** * Systèmes de caisse (logiciels & matériel) * Solutions de prise de commande sur tablette * Logiciels de caisse et de gestion des commandes * Commande en ligne (site web) et commande via QR code * Bornes de commande en libre-service * Robots de nettoyage et robots de servic",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=bcc65efd42b84fc3"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "b12ae3a588ca9285",
+   "title": "Marketing & Communication Manager - Renewable Energies SaaS",
+   "company": "SkyVisor",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
    "contract": "CDI",
    "categories": [
     "marketing_produit"
@@ -19762,72 +20230,75 @@
    "bonus_tags": [
     "international"
    ],
-   "score": 6,
-   "date_posted": "2026-09-07",
+   "score": 4,
+   "date_posted": "2026-10-08",
    "salary": null,
-   "description_snippet": "CDI - CHEF DE PRODUIT MARKETING ABONNES - PARC SANS ENGAGEMENT <span>Description du profil :<br><br></span><p>🏆 <strong>Et si on parlait de vous ?</strong></p><p><strong>Vous êtes diplômé(e) d’une grande école de commerce ou équivalent (Bac+5)</strong>, avec une spécialisation en communication, marketing ou stratégie, et justifiez de <strong>3 à 5 ans d’expérience</strong> dans le marketing ou le ",
+   "description_snippet": "Marketing & Communication Manager - Renewable Energies SaaS * Based in Paris, France * Bachelor’s degree in communication / marketing / media * 3+ years of experience in B2B marketing/communications, ideally in Technology, SaaS, Industrial, or Energy, bonus for product marketing experience * Fluent in English (C1/C2) with excellent writing skills, bonus for French, Spanish and German skills * Expe",
    "sources": [
     {
      "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/canal-group/jobs/cdi-chef-de-produit-marketing-abonnes-parc-sans-engagement_issy-les-moulineaux"
+     "url": "https://www.welcometothejungle.com/fr/companies/skyvisor/jobs/marketing-communication-manager-renewable-energies-saas_paris"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
-   "id": "e1ed4d2aca7a3e82",
-   "title": "Responsable Stratégie & Exécution du Point de Vente, CDD, H/F",
-   "company": "PepsiCo France",
-   "location": "Colombes",
-   "city": "Colombes",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDD",
-   "categories": [
-    "marketing_produit"
-   ],
+   "id": "ac04e7b27a44f71b",
+   "title": "Manager de la relation clientèle asiatique (H/F)",
+   "company": "MAX MARA S.A.S.",
+   "location": "75 - PARIS",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
    "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-07",
-   "salary": null,
-   "description_snippet": "Responsable Stratégie & Exécution du Point de Vente, CDD, H/F <p><strong>Vos atouts pour être notre futur talent :</strong></p> <ul> <li>Minimum 8 à 10 ans d'expérience en FMCG, idéalement en vente, catman, Shopper-Trade Marketing ou brand marketing.</li> <li>Minimum 5-6 ans au sein des départements vente et marketing :</li> <li>En marketing - brand marketing (équivalent Chef de Produit confirmé)<",
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-07",
+   "salary": "Mensuel de 2801.0 Euros",
+   "description_snippet": "MAXMARA recrute un/e Manager de la relation clientèle asiatique pour sa boutique parisienne : Description du poste Ambassadeur(ice) de la marque, vous serez en charge de développer un relationnel chaleureux, professionnel et en ligne avec les valeurs et codes de l'entreprise auprès de la clientèle asiatique et internationale. Vous serez en lien direct avec la Directrice de la Boutique et son équip",
    "sources": [
     {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/pepsico/jobs/responsable-strategie-execution-du-point-de-vente-cdd-h-f_colombes"
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214XXXP"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
-   "id": "318eed634e5721a5",
-   "title": "Traffic Manager F/H",
-   "company": "Efrei Paris",
-   "location": "Villejuif - 94",
-   "city": "Villejuif - 94",
-   "region": "other",
+   "id": "f5b1f8d4ac6306d8",
+   "title": "Digital Customer Success",
+   "company": "Aircall.io, Inc.",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": null,
    "categories": [
-    "performance_marketing"
+    "customer"
    ],
    "skills": [
-    "acquisition",
-    "roi"
+    "churn",
+    "upsell"
    ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-07",
-   "salary": "36 - 38 k€ brut annuel",
-   "description_snippet": "Rattaché(e) à l'équipe Marketing Digital, vous jouerez un rôle clé dans le développement de notre stratégie d'acquisition digitale. De la mise en oeuvre des campagnes à l'analyse des performances, vous contribuerez activement à l'atteinte de nos objectifs de croissance, en identi...",
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Aircall is a unicorn, AI-powered customer communications platform used by 22,000+ companies worldwide to drive revenue, resolve issues faster, and scale customer-facing teams. We're redefining customer communications by bringing voice, SMS, WhatsApp, and AI together into one seamless workspace. Our momentum comes from a simple idea: help teams work smarter, not harder. Aircall's AI Voice Agent aut",
    "sources": [
     {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179378056W"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7d18e636d7aa87f7"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
    "id": "9cc4f987e6b40615",
@@ -19913,7 +20384,7 @@
    "id": "95aa57c2ac7c6e7e",
    "title": "Brand lead",
    "company": "H COMPANY",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "hybrid",
@@ -19941,7 +20412,7 @@
    "id": "bb9862076285ca0e",
    "title": "Marketing Operations & Transformation Manager H/F",
    "company": "Hellowork",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -19972,7 +20443,7 @@
    "id": "f7b09d0086e5d2ec",
    "title": "Assistant Marketing Produit H/F",
    "company": "Hellowork",
-   "location": "Monaco, B8, FR",
+   "location": "Monaco, B8, France",
    "city": "Monaco",
    "region": "other",
    "work_mode": "onsite",
@@ -20055,6 +20526,41 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "698d182a841bec36",
+   "title": "Directeur / Directrice Marketing Global Solognac (F/H/D) — Cestas",
+   "company": "Decathlon",
+   "location": "Cestas, NA, France",
+   "city": "Cestas",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "* CDI * Temps plein * Au moins 5 ans d'expérience * Niveau d'études : pas de préférence * Directeur.rice marketing Publiée le 07/10/2026 **Mission** ----------- **Mission** Vous pilotez l'activation marketing à 360°, de la création du storytelling à son exécution sur nos canaux de vente directe (DTC) et notre réseau physique, tout en animant une communauté d'utilisateurs exigeants. **1. Marketing ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=afc7bdd2b4aa0dff"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/decathlon/jobs/directeur-directrice-marketing-global-solognac-f-h-d-cestas_cestas"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "d56677ed96eadc24",
    "title": "Brand Manager Senior H/F",
    "company": "Hellowork",
@@ -20114,7 +20620,7 @@
    "id": "0beac2fdef1f6eda",
    "title": "Risk Officer",
    "company": "CCB",
-   "location": "Paris 8e, A8, FR",
+   "location": "Paris 8e, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -20197,7 +20703,7 @@
    "id": "44ea1d7199d90c40",
    "title": "Senior Product Marketing Manager , Lending Product Line",
    "company": "Shine Germany",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "remote",
@@ -20229,7 +20735,7 @@
    "id": "71a11276f276f424",
    "title": "Conseiller / Conseillère de vente – Robes de mariée haut de gamme",
    "company": "La Mariee Parisienne",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -20253,10 +20759,74 @@
    "first_seen": "2026-10-06"
   },
   {
+   "id": "ee5de17329ff3004",
+   "title": "Senior Customer Operations Manager",
+   "company": "Shine Germany",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "workflow",
+    "zapier"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "**Shine is the financial copilot for entrepreneurs and small business owners.** Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy of running a business, by ending wasted time on financial admin. Shine offers a connected solution for invoicing, accounting, payroll, business accounts, payments, and financing",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d14f3e3bc54f6bbe"
+    }
+   ],
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "f2b1a670f53457cd",
+   "title": "Senior Customer Operations Manager",
+   "company": "Shine",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "workflow",
+    "zapier"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "**Shine is the financial copilot for entrepreneurs and small business owners.** Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy of running a business, by ending wasted time on financial admin. Shine offers a connected solution for invoicing, accounting, payroll, business accounts, payments, and financing",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ef540c97d9979389"
+    }
+   ],
+   "first_seen": "2026-10-06"
+  },
+  {
    "id": "54e6bd906b3a21e3",
    "title": "Product Marketing Manager",
    "company": "Europcar Mobility Group",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -20284,7 +20854,7 @@
    "id": "72feaad85b6d9933",
    "title": "Senior Solution Engineer",
    "company": "Snowflake",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -20318,7 +20888,7 @@
    "id": "0be275da59e65ef9",
    "title": "Digital Customer Success",
    "company": "Aircall",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -20484,70 +21054,6 @@
    "first_seen": "2026-10-06"
   },
   {
-   "id": "ee5de17329ff3004",
-   "title": "Senior Customer Operations Manager",
-   "company": "Shine Germany",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": null,
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [
-    "automation",
-    "workflow",
-    "zapier"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-04-22",
-   "salary": null,
-   "description_snippet": "**Shine is the financial copilot for entrepreneurs and small business owners.** Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy of running a business, by ending wasted time on financial admin. Shine offers a connected solution for invoicing, accounting, payroll, business accounts, payments, and financing",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d14f3e3bc54f6bbe"
-    }
-   ],
-   "first_seen": "2026-10-06"
-  },
-  {
-   "id": "f2b1a670f53457cd",
-   "title": "Senior Customer Operations Manager",
-   "company": "Shine",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": null,
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [
-    "automation",
-    "workflow",
-    "zapier"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-04-22",
-   "salary": null,
-   "description_snippet": "**Shine is the financial copilot for entrepreneurs and small business owners.** Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy of running a business, by ending wasted time on financial admin. Shine offers a connected solution for invoicing, accounting, payroll, business accounts, payments, and financing",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=ef540c97d9979389"
-    }
-   ],
-   "first_seen": "2026-10-06"
-  },
-  {
    "id": "d009a62698495b3f",
    "title": "Customer Success Manager SMB - France",
    "company": "AB Tasty",
@@ -20569,6 +21075,32 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/ab-tasty/jobs/customer-success-manager-smb-france_paris"
+    }
+   ],
+   "first_seen": "2026-10-05"
+  },
+  {
+   "id": "685cca8da4902c74",
+   "title": "Customer Success Manager - Hublo Planning (f/h/n)",
+   "company": "Hublo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Customer Success Manager - Hublo Planning (f/h/n)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/medgo/jobs/customer-success-manager-hublo-planning-f-h-n_paris"
     }
    ],
    "first_seen": "2026-10-05"
@@ -20778,7 +21310,7 @@
     "international"
    ],
    "score": 4,
-   "date_posted": "2026-10-07",
+   "date_posted": "2026-10-08",
    "salary": null,
    "description_snippet": "Customer Success Manager H/F * **2 à 4 ans d'expérience** minimum en **opérations**, **talent operations** ou **user facing**, idéalement en **start-up ou scale-up**. * Une première expérience en **gestion de projet** : savoir structurer un sujet, embarquer plusieurs équipes et tenir un planning. * Grande **adaptabilité** : à l'aise pour jongler entre run opérationnel, build et scalabilité. * Bon ",
    "sources": [
@@ -20804,7 +21336,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 4,
-   "date_posted": "2026-10-07",
+   "date_posted": "2026-10-08",
    "salary": null,
    "description_snippet": "Customer Success Manager (H/F)",
    "sources": [
@@ -23996,7 +24528,7 @@
    "id": "cd7ed470c2987971",
    "title": "CDD chef de produit Santé Familiale",
    "company": "Laboratoires Majorelle",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -24422,39 +24954,91 @@
    "first_seen": "2026-09-08"
   },
   {
-   "id": "339112b545a34fd1",
-   "title": "Chef de Produit/ Brand Manager – Vêtement de Travail",
-   "company": "SOLO INVEST",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
+   "id": "674d52e00ed06ccc",
+   "title": "Responsable CRM et Data Clients F/H",
+   "company": "Restalliance",
+   "location": "Lyon, ARA, France",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "**Vos missions** Dans le cadre du développement de notre stratégie client et de la digitalisation de nos outils commerciaux et marketing, nous recherchons un(e) Responsable CRM & Data Clients. Véritable chef d'orchestre de la connaissance client, vous pilotez les outils de gestion de la relation client et de valorisation des données afin de soutenir la performance commerciale, centraliser les remo",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=be2366b04b6ac4ff"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "94003086339485f2",
+   "title": "Assistant Marketing produit & évènementiel H/F",
+   "company": "Innov8 Group",
+   "location": "Courbevoie",
+   "city": "Courbevoie",
+   "region": "other",
    "work_mode": "onsite",
    "contract": null,
    "categories": [
     "marketing_produit"
    ],
-   "skills": [
-    "go-to-market",
-    "positionnement"
+   "skills": [],
+   "bonus_tags": [
+    "international"
    ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-07",
+   "score": 2,
+   "date_posted": "2026-10-08",
    "salary": null,
-   "description_snippet": "En qualité de Band Manager, vous développez et pilotez la gamme Workwear, son positionnement et sa performance, depuis l’analyse des besoins marché jusqu’au lancement et à l’animation commerciale des produits.1. Product Management – Gestion et développement de la gammeDéfinir et piloter la stratégie de gamme Workwear en cohérence avec la stratégie globale de l’entreprise.Analyser les marchés, tend",
+   "description_snippet": "Assistant Marketing produit & évènementiel H/F Vous êtes actuellement étudiant(e) en école de commerce, marketing, communication ou formation spécialisée, et recherchez un stage de 6 mois. Vous êtes particulièrement intéressé(e) par les environnements marketing, commerce et distribution et souhaitez découvrir les différentes étapes de mise en avant d’une offre, de son développement jusqu’à son act",
    "sources": [
     {
-     "name": "Fashion Jobs",
-     "url": "https://fr.fashionjobs.com/emploi/solo-invest/Chef-de-produit-brand-manager-vetement-de-travail,12058557.html"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/innov8-group/jobs/assistant-marketing-produit-evenementiel-h-f_courbevoie"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "8327c553430e60cb",
+   "title": "VRP Multicartes - Vins & Spiritueux (H/F)",
+   "company": "PZ WINE",
+   "location": "93 - NOISY LE GRAND",
+   "city": "93 - Noisy Le Grand",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "À propos de PZ WINE PZ WINE est une société spécialisée dans la distribution de vins et spiritueux auprès des professionnels. Basée à Noisy-le-Grand (93), nous proposons une gamme diversifiée de vins français, vins chinois, spiritueux et baijiu à destination des restaurants, hôtels, bars, cavistes, distributeurs et autres professionnels du secteur. Notre portefeuille associe vins français et référ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/214YDPJ"
+    }
+   ],
+   "first_seen": "2026-10-08"
   },
   {
    "id": "b490af9f5e178901",
    "title": "Chef de Produit",
    "company": "Pfeiffer Vacuum",
-   "location": "Annecy, ARA, FR",
+   "location": "Annecy, ARA, France",
    "city": "Annecy",
    "region": "other",
    "work_mode": "onsite",
@@ -24540,7 +25124,7 @@
    "id": "c3e8b4829bdbd0d5",
    "title": "Chef de Produit",
    "company": "Busch Vacuum Solutions",
-   "location": "Annecy, ARA, FR",
+   "location": "Annecy, ARA, France",
    "city": "Annecy",
    "region": "other",
    "work_mode": "onsite",
@@ -24568,7 +25152,7 @@
    "id": "26416f200e53c727",
    "title": "Product Marketing Manager H/F",
    "company": "Hellowork",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -24596,7 +25180,7 @@
    "id": "cc2c18990772d93a",
    "title": "Mid-Market Customer Success Manager",
    "company": "Global-e",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "hybrid",
@@ -24626,7 +25210,7 @@
    "id": "b5eaa555b1ae857d",
    "title": "Responsable Marketing International - Fmcg H/F",
    "company": "Hellowork",
-   "location": "Boulogne-Billancourt, A8, FR",
+   "location": "Boulogne-Billancourt, A8, France",
    "city": "Boulogne-Billancourt",
    "region": "other",
    "work_mode": "hybrid",
@@ -24677,41 +25261,10 @@
    "first_seen": "2026-10-07"
   },
   {
-   "id": "698d182a841bec36",
-   "title": "Directeur / Directrice Marketing Global Solognac (F/H/D) — Cestas",
-   "company": "Decathlon",
-   "location": "Cestas, NA, FR",
-   "city": "Cestas",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 2,
-   "date_posted": "2026-08-11",
-   "salary": null,
-   "description_snippet": "* CDI * Temps plein * Au moins 5 ans d'expérience * Niveau d'études : pas de préférence * Directeur.rice marketing Publiée le 07/10/2026 **Mission** ----------- **Mission** Vous pilotez l'activation marketing à 360°, de la création du storytelling à son exécution sur nos canaux de vente directe (DTC) et notre réseau physique, tout en animant une communauté d'utilisateurs exigeants. **1. Marketing ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=afc7bdd2b4aa0dff"
-    }
-   ],
-   "first_seen": "2026-10-07"
-  },
-  {
    "id": "29dae50bdfd1fa62",
    "title": "Chef de Produit Nina Ricci - F/H/X",
    "company": "Puig",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -24741,7 +25294,7 @@
    "id": "e096c8c8d7d887ce",
    "title": "418 - Product Owner Senior — Data & Marketing Client (IT) / Freelance",
    "company": "Nicholson SAS",
-   "location": "Nantes, B5, FR",
+   "location": "Nantes, B5, France",
    "city": "Nantes",
    "region": "west",
    "work_mode": "hybrid",
@@ -24753,7 +25306,7 @@
    "bonus_tags": [],
    "score": 2,
    "date_posted": "2026-10-06",
-   "salary": null,
+   "salary": "450–450 EUR/daily",
    "description_snippet": "**Informations clésLocalisation :** Nantes **Modalités de travail :** Hybride (3 jours sur site / 2 jours en télétravail) **Prix d'achat max (TJM) :** 450 ? **Date de démarrage :** ASAP **Durée de la mission :** Jusqu'au 31/12/2026 (renouvelable) Contexte de la missionInscrite dans un projet majeur de transformation du SI Marketing à l'échelle d'un grand groupe bancaire, la squad a pour objectif d",
    "sources": [
     {
@@ -24767,7 +25320,7 @@
    "id": "711514fa1350ec5b",
    "title": "Senior Research Associate - Epidemiology",
    "company": "Thermo Fisher Scientific",
-   "location": "Télétravail, FR",
+   "location": "Télétravail, France",
    "city": "Teletravail",
    "region": "other",
    "work_mode": "remote",
@@ -24779,7 +25332,7 @@
     "international"
    ],
    "score": 2,
-   "date_posted": "2026-10-05",
+   "date_posted": "2026-10-06",
    "salary": null,
    "description_snippet": "**Work Schedule** Standard (Mon-Fri) **Environmental Conditions** Office **Job Description** Thermo Fisher Scientific Inc. is a premier company that is dedicated to enabling our customers to make the world healthier, cleaner, and safer. We are a team of 100,000+ colleagues who share a common set of values - Integrity, Intensity, Innovation, and Involvement. Together, we work to accelerate research",
    "sources": [
@@ -24794,7 +25347,7 @@
    "id": "c0a27ec63213e194",
    "title": "CHEF DE PRODUIT PARKING F/H",
    "company": "VINCI",
-   "location": "Lyon, ARA, FR",
+   "location": "Lyon, ARA, France",
    "city": "Lyon",
    "region": "other",
    "work_mode": "onsite",
@@ -27308,88 +27861,64 @@
    "first_seen": "2026-09-08"
   },
   {
-   "id": "816719c6458f996c",
-   "title": "Chef de produit marketing Senior H/F",
-   "company": "Groupe AVEM",
-   "location": "69 - Lyon 7e Arrondissement",
-   "city": "69 - Lyon 7E Arrondissement",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
+   "id": "b59915198d5121f1",
+   "title": "B2B Brand Manager",
+   "company": "Treatwell",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
    "categories": [
     "marketing_produit"
    ],
    "skills": [],
    "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-07",
-   "salary": "Annuel de 45000.0 Euros à 50000.0 Euros - TICKET RESTAURANT  14 JRTT",
-   "description_snippet": "Pour faire quoi... Rattaché(e) à Julien - Responsable Marketing, vous rejoignez une équipe de 4 Chefs de produits. Vous intervenez en tant que Chef de produit principalement sur le périmètre Univers des commerçants. En tant que Chef de Produit, vous êtes en charge de l'animation d'une gamme de services destinés à nos banques partenaires. Dans ce cadre, vos missions sont de : - Assurer le développe",
+   "score": 0,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "At Treatwell, we believe self-care should be effortless. We’re on a mission to make booking beauty and wellness treatments as easy as ordering your morning flat white. But our marketplace only works because of the brilliant professionals behind it. From independent hairdressers and beauty therapists to growing salon groups, we help more than 95,000 partners run their businesses, reach new clients ",
    "sources": [
     {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6694795"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a1402c8f6c8e3ec2"
     }
    ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
-   "id": "e3627e6b3e0f3cec",
-   "title": "Chef de Projet CRM & Marketing Automation F/H",
-   "company": "TIME RECRUTEMENT",
-   "location": "Chambéry - 73",
-   "city": "Chambery - 73",
-   "region": "other",
+   "id": "e8588bcc02ca0909",
+   "title": "Chef de projet CRM (IT) / Freelance",
+   "company": "Cherry Pick",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": null,
    "categories": [
     "crm"
    ],
    "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-07",
-   "salary": "A négocier",
-   "description_snippet": "Votre mission : Faire vivre et performer notre CRM au quotidien, tout en contribuant à sa transformation. À votre arrivée, vous prendrez en main un dispositif CRM déjà bien installé, avec une vraie dimension opérationnelle. Votre rôle sera également de le faire évoluer : développ...",
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 0,
+   "date_posted": "2026-10-08",
+   "salary": "650–700 EUR/daily",
+   "description_snippet": "Le besoin ContexteLa fonction Business Development remplace son CRM actuel (Inova, fin de vie). L'outil suit le portefeuille d'opportunités M&A et de partenariats (croissance externe). **Objectif du client :** 6 à 8 deals par an (acquisitions de sociétés ou partenariats avec des laboratoires détenant des actifs, de l'early development à la commercialisation). Le CRM centralise la donnée pour les d",
    "sources": [
     {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179377127W"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=439ee30b1029bff8"
     }
    ],
-   "first_seen": "2026-09-07"
-  },
-  {
-   "id": "68e439db4cefa66e",
-   "title": "ASSISTANT CHEF DE PRODUIT F/H",
-   "company": "Texdecor Group",
-   "location": "Willems - 59",
-   "city": "Willems - 59",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-07",
-   "salary": "25 - 26 k€ brut annuel",
-   "description_snippet": "Bienvenue chez Casamance Group by Texdecor Group ! Pour savoir qui nous recherchons, il faut d'abord savoir ce qui nous anime. Notre mission : « Embellir nos vies et celles de nos clients » grâce à notre expertise dans l'édition et la distribution de tissus, papiers peints,...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179378534W"
-    }
-   ],
-   "first_seen": "2026-09-07"
+   "first_seen": "2026-10-08"
   },
   {
    "id": "1e2a0388e66f6d02",
    "title": "B2C Marketing Project manager - (M/W/X)",
    "company": "Veepee",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -27417,7 +27946,7 @@
    "id": "a1288463accf30a4",
    "title": "Senior Manager, Global Digital Marketing (m/w/d)",
    "company": "Lonza",
-   "location": "Colmar, GE, FR",
+   "location": "Colmar, GE, France",
    "city": "Colmar",
    "region": "other",
    "work_mode": "hybrid",
@@ -27432,7 +27961,7 @@
     "international"
    ],
    "score": 0,
-   "date_posted": "2026-09-30",
+   "date_posted": "2026-10-07",
    "salary": null,
    "description_snippet": "Location: Colmar **What you will get** * An agile career and a dynamic work culture * An inclusive and ethical workplace * Compensation programs that recognize high performance * In addition to a competitive salary, you can expect numerous lifestyle, family, and leisure benefits. Our Capsules & Health Ingredients business unit is the trusted partner and market leader in innovative capsules, dosage",
    "sources": [
@@ -27447,7 +27976,7 @@
    "id": "41253e5ad44547e9",
    "title": "Senior Business Data Analyst",
    "company": "Ingenio, LLC",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -27816,6 +28345,32 @@
    "first_seen": "2026-10-01"
   },
   {
+   "id": "9ce285c5b97d46c0",
+   "title": "Product Owner Data Marketing, Data Products  - Freelance (H/F)",
+   "company": "Collective.work",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "A PARIS / HYBRIDE / PRÉSENCE : 2 JOURS / SEMAINE SUR SITE Contexte de la mission Le client s'appuie sur une plateforme data qui met à disposition de ses équipes métiers des données, des indicateurs et des capacités d'activation. Une équipe dédiée au Marketing et aux Activités Digitales porte ce périmètre. Ce périmètre est stratégique et en forte évolution. Les initiatives en cours visent à mieux c",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://api-v2-multidiff.xtramile.io/collect/3106c38a9c7e7a7049f4c2511920687b"
+    }
+   ],
+   "first_seen": "2026-09-30"
+  },
+  {
    "id": "c8776901a1d16114",
    "title": "Assistant(e) Chef de Produit Marketing TV & Digital",
    "company": "France Télévisions Publicité",
@@ -27837,32 +28392,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/francetvpub/jobs/assistant-chef-de-produit-marketing-tv-digital_paris_FTP_x991KXA"
-    }
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
-   "id": "9ce285c5b97d46c0",
-   "title": "Product Owner Data Marketing, Data Products  - Freelance (H/F)",
-   "company": "Collective.work",
-   "location": "75 - Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": null,
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-09-30",
-   "salary": null,
-   "description_snippet": "A PARIS / HYBRIDE / PRÉSENCE : 2 JOURS / SEMAINE SUR SITE Contexte de la mission Le client s'appuie sur une plateforme data qui met à disposition de ses équipes métiers des données, des indicateurs et des capacités d'activation. Une équipe dédiée au Marketing et aux Activités Digitales porte ce périmètre. Ce périmètre est stratégique et en forte évolution. Les initiatives en cours visent à mieux c",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7514188"
     }
    ],
    "first_seen": "2026-09-30"
@@ -29249,36 +29778,10 @@
    "first_seen": "2026-09-08"
   },
   {
-   "id": "057f9877433b0a89",
-   "title": "Consultant.e Marketing Produit & Data F/H",
-   "company": "ZZ_Confidentiel",
-   "location": "Paris - 75",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-09-07",
-   "salary": "36 - 40 k€ brut annuel",
-   "description_snippet": "Nous lançons un club destiné aux acteurs des industries culturelles et créatives (entrepreneurs, artistes, salariés du secteur). Sa promesse : des rencontres qui comptent et des projets qui avancent. Programmation de masterclasses, workshops, séminaires. Communauté ciblée et qual...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179369138W"
-    }
-   ],
-   "first_seen": "2026-09-07"
-  },
-  {
    "id": "11aa422a605d999b",
    "title": "Senior Growth Analyst - Temporary contract",
    "company": "TheFork",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -29310,7 +29813,7 @@
    "id": "0e7aab04d988b2c1",
    "title": "Lead Salesforce / Chef de Projet CRM Senior confirmé H/F",
    "company": "Groupe intuis",
-   "location": "Suresnes, A8, FR",
+   "location": "Suresnes, A8, France",
    "city": "Suresnes",
    "region": "other",
    "work_mode": "onsite",
@@ -29364,7 +29867,7 @@
    "id": "6721fa8d8bee1aad",
    "title": "Senior Customer Success Manager – Usage & Adoption",
    "company": "Lifen",
-   "location": "Paris, A8, FR",
+   "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
@@ -29974,6 +30477,35 @@
    "first_seen": "2026-09-13"
   },
   {
+   "id": "e7ae2952db8b7354",
+   "title": "Web analyst / Data analyst confirmé  - Freelance (H/F)",
+   "company": "Collective.work",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [
+    "dashboard",
+    "sql"
+   ],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "Le contexte Nous recherchons pour un acteur majeur des médias en France un-e Data Analyst confirmé-e qui rejoindra sa Direction Data. Vous accompagnerez les équipes produit et éditoriales de l'offre jeunesse (sites et applications) dans l'analyse de la performance des contenus. Vous les aiderez aussi à mettre la donnée au cœur de leurs décisions. Vos missions * Concevoir de bout en bout de nouveau",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://api-v2-multidiff.xtramile.io/collect/fa59cc4da09c3e7ac81e9ef3176463d1"
+    }
+   ],
+   "first_seen": "2026-10-08"
+  },
+  {
    "id": "3eec2ad98dfa5665",
    "title": "Head of Strategic & Offer Marketing",
    "company": "Evaneos",
@@ -30028,33 +30560,6 @@
    "first_seen": "2026-10-02"
   },
   {
-   "id": "73b1c71a3e9adcc5",
-   "title": "Head of Marketing",
-   "company": "Swan",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit",
-    "performance_marketing"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -4,
-   "date_posted": "2026-10-07",
-   "salary": null,
-   "description_snippet": "Head of Marketing **✨ You’re a great match if:** * You have 8+ years of experience in a marketing function including 2 years in payments * Already led a team (managed 4+ people), and are comfortable with people from different cultures and locations * Broad marketing experience including growth marketing, brand, content, events, product marketing * You are structured and execution-oriented, turning",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/head-of-marketing_paris"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
    "id": "5e2d16ccc7d1d76f",
    "title": "Senior Strategic Customer Success Manager F/H/X",
    "company": "Whoz",
@@ -30071,7 +30576,7 @@
     "international"
    ],
    "score": -4,
-   "date_posted": "2026-10-07",
+   "date_posted": "2026-10-08",
    "salary": null,
    "description_snippet": "Senior Strategic Customer Success Manager F/H/X **Profil** **Expérience :** Vous disposez d’au moins 5 ans d’expérience en Customer Success, Account Management dans un environnement SaaS B2B, avec une expérience confirmée sur des comptes complexes ou stratégiques. **Culture de la Data** : Vous êtes à l’aise avec l’analyse de données et savez transformer des KPIs d’usage en recommandations orientée",
    "sources": [
@@ -30099,13 +30604,40 @@
     "international"
    ],
    "score": -4,
-   "date_posted": "2026-10-01",
+   "date_posted": "2026-10-08",
    "salary": null,
-   "description_snippet": "Senior Customer Success Manager * 4+ years in B2B SaaS or consulting: you've configured, integrated and taken projects live yourself. You’re not afraid of complexity and can get your hands dirty if needed. It means understanding what deployment team does, what integrations and API are for example. * Experience in customer facing : you know the difference between behaving in front of a customer and",
+   "description_snippet": "Senior Customer Success Manager * 4+ years in B2B SaaS or consulting: you've configured, integrated and taken projects live yourself. You’re not afraid of complexity and can get your hands dirty if needed. It means understanding what deployment team does, what integrations and API are for example. * Experience in a plant (operations, CI, quality, HR/training, Supply). You understand manufacturing ",
    "sources": [
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/mercateam/jobs/senior-customer-success-manager_paris_MERCA_k7Ap8w"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "73b1c71a3e9adcc5",
+   "title": "Head of Marketing",
+   "company": "Swan",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit",
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Head of Marketing **✨ You’re a great match if:** * You have 8+ years of experience in a marketing function including 2 years in payments * Already led a team (managed 4+ people), and are comfortable with people from different cultures and locations * Broad marketing experience including growth marketing, brand, content, events, product marketing * You are structured and execution-oriented, turning",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/head-of-marketing_paris"
     }
    ],
    "first_seen": "2026-10-01"
@@ -30825,58 +31357,6 @@
     }
    ],
    "first_seen": "2026-09-08"
-  },
-  {
-   "id": "6781ab0cd6efd245",
-   "title": "Head of Product Management & Marketing F/H",
-   "company": "SAFRAN AEROSYSTEMS",
-   "location": "Plaisir - 78",
-   "city": "Plaisir - 78",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -6,
-   "date_posted": "2026-09-07",
-   "salary": "A négocier",
-   "description_snippet": "En tant que Responsable Marketing Aftermarket, vous aurez la mission de piloter, développer et optimiser une équipe composée de 6 personnes réparties en trois binômes (Chef de Produit + Analyste Marché). Votre rôle sera centré sur le développement par l'équipe d'outils marketing...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179377654W"
-    }
-   ],
-   "first_seen": "2026-09-07"
-  },
-  {
-   "id": "2cbcc006ef60011e",
-   "title": "Chef de produit marketing Senior F/H",
-   "company": "AVEM HOLDING",
-   "location": "Lyon 07 - 69",
-   "city": "Lyon 07 - 69",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -6,
-   "date_posted": "2026-09-07",
-   "salary": "45 - 50 k€ brut annuel",
-   "description_snippet": "Pour faire quoi.. Rattaché(e) à Julien - Responsable Marketing, vous rejoignez une équipe de 4 Chefs de produits. Vous intervenez en tant que Chef de produit principalement sur le périmètre Univers des commerçants. En tant que Chef de Produit, vous êtes en charge de l'animati...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179375028W"
-    }
-   ],
-   "first_seen": "2026-09-07"
   },
   {
    "id": "877b675b814e0e18",
