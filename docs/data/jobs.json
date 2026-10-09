@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-09T16:52:56Z",
+ "generated_at": "2026-10-09T21:31:07Z",
  "source_stats": {
-  "Indeed": 1210,
+  "Indeed": 1217,
   "Welcome to the Jungle": 3575,
-  "France Travail": 141,
+  "France Travail": 144,
   "APEC": 0,
   "Isarta": 148
  },
@@ -11,8 +11,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1116,
- "new_today": 34,
+ "count": 1129,
+ "new_today": 47,
  "jobs": [
   {
    "id": "61712b666548d592",
@@ -889,6 +889,38 @@
    "first_seen": "2026-09-10"
   },
   {
+   "id": "46a522ed16eaad4b",
+   "title": "Mobile User Acquisition Manager",
+   "company": "medialicious",
+   "location": "GE, France",
+   "city": "Ge",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roas",
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "**About Medialicious** ---------------------- At Medialicious, we're a global growth marketing partner powering the expansion of fast-growing social gaming brands. Headquartered in Gibraltar, our mission is simple: to be the industry leader through deep domain expertise, constant innovation, and strategic scale. **The Role** ------------ We are looking for a **Mobile User Acquisition Manager** to ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=20d24fecf44c9388"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
    "id": "fbff65f8745c7eac",
    "title": "CHARGE(E) de MARKETING OPERATIONNEL & COMMUNICATION WISAMO (F/H)",
    "company": "Michelin",
@@ -1443,8 +1475,8 @@
    "id": "476f9d82a87292c2",
    "title": "Lead Creative Producer",
    "company": "Ruby Labs",
-   "location": "Eu, N, France",
-   "city": "Eu",
+   "location": "GE, France",
+   "city": "Ge",
    "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
@@ -1465,7 +1497,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=f2e67dc2657a2a22"
+     "url": "https://fr.indeed.com/viewjob?jk=75b9d5f9761c291a"
     }
    ],
    "first_seen": "2026-10-08"
@@ -3576,6 +3608,40 @@
    "first_seen": "2026-10-09"
   },
   {
+   "id": "89f85fb278e010ad",
+   "title": "Chef de projets CRM - International (F/H)",
+   "company": "",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "base de donnees",
+    "fidelisation",
+    "marketing automation",
+    "parcours client",
+    "segmentation"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "Votre mission Au sein de la Direction Marketing Groupe, rattaché à la Responsable CRM et Fidélisation, vous êtes responsable du déploiement et du suivi des projets CRM pour nos 5 pays corporate. Au sein de l'équipe CRM, vous travaillez au quotidien avec un Campaign Manager junior. Vous collaborez étroitement avec les équipes Marketing des différents pays, les équipes Digital et IT ainsi qu'avec no",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/chef-de-projets-crm-international-fh-978ec4a506b7275b?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
    "id": "a3ab74627820fef8",
    "title": "Coordinateur/Coordinatrice Marketing",
    "company": "McArthurGlen UK Ltd",
@@ -5544,6 +5610,66 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=aad327975726e8a9"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
+   "id": "046a18a43c0295b7",
+   "title": "Customer Success Manager",
+   "company": "monday.com",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "customer satisfaction",
+    "retention",
+    "voice of the customer"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "monday.com is the AI work platform powering the most ambitious teams. 250,000+ customers across departments use us to bring people, workflows, and AI agents together on one flexible platform where AI doesn't just assist, it executes. We move fast, build things that matter, and foster an ownership-driven culture where you're empowered to shape how organizations work and outpace their competition. *",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e5678e6caf0775c5"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
+   "id": "cb17fd42cf34ca95",
+   "title": "Global Business Process Excellence Specialist",
+   "company": "CEVA Logistics",
+   "location": "Marseille, B8, France",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "Req ID: 586161 Posting Start Date: 22/07/2026 Global Business Process Excellence Specialist **Req ID:** 586161 **Posting Start Date:** 22/07/2026 Marseille, FRA, Shanghai, CHN CEVALogistics Finished Vehicle Logistics Full Time CEVA Logistics provides global supply chain solutions to connect people, products and providers around the world. Present in more than 170 countries, with over 110,000 emplo",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=75187f1702397edb"
     }
    ],
    "first_seen": "2026-10-09"
@@ -11765,6 +11891,67 @@
    "first_seen": "2026-10-09"
   },
   {
+   "id": "0eac773dae6774b5",
+   "title": "Engagement Manager SMB",
+   "company": "Legora",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "**About Us** ------------ Legora is redefining how legal work gets done. Not built for lawyers, built with them. We work alongside the world’s best legal teams, who expect excellence, precision, and speed, and we hold ourselves to the same bar. Our AI-native workspace lets legal professionals move faster, think more clearly, and operate with sharper precision. By analysing thousands of documents i",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4fba3e967fe76886"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
+   "id": "d970148c8b4f6fcf",
+   "title": "Chargé Marketing Automatisation & Demand Generation (F/H/X)",
+   "company": "Planisware",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "Planisware est un leader dans le domaine des plateformes SaaS (Software-as-a-Service) B2B (business-to-business) basées sur l'IA pour le secteur en forte croissance de la Project Economy (« l’Economie de Projet ») La mission de Planisware est de fournir des solutions pour aider les organisations à transformer la façon dont elles conçoivent, planifient et délivrent leurs projets, portefeuilles de p",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3d12a5aaa36186d1"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
    "id": "c8bb8344df89b344",
    "title": "Responsable Marketing & Communication Groupe (H/F)",
    "company": "AMD GROUPE",
@@ -12272,38 +12459,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=6da2a2ab6def0bc7"
-    }
-   ],
-   "first_seen": "2026-10-06"
-  },
-  {
-   "id": "a4e02ceb80773e01",
-   "title": "Customer Success Manager",
-   "company": "CHAPSVISION",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 8,
-   "date_posted": "2026-10-06",
-   "salary": null,
-   "description_snippet": "##### **À propos de ChapsVision** En quelques années, ChapsVision s’est imposé comme un acteur européen de référence du Big Data et de l’Intelligence Artificielle. Notre ambition : permettre aux entreprises et aux organisations publiques d’exploiter leurs données de manière souveraine, sécurisée et intelligente. Depuis 2019 : * +380 M€ levés auprès de Bpifrance * 29+ acquisitions * ~1 200 collabor",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=967c484e4b1b1635"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/chapsvision/jobs/customer-success-manager_paris"
     }
    ],
    "first_seen": "2026-10-06"
@@ -15048,6 +15203,86 @@
    "date_assumed": true
   },
   {
+   "id": "ff2d0479de905995",
+   "title": "Product Owner Comptes à Vue et Epargne H/F",
+   "company": "Credit Mutuel Arkea",
+   "location": "Le Relecq-Kerhuon, A2, France",
+   "city": "Le Relecq-Kerhuon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-09",
+   "salary": "39,000–44,000 EUR/yearly",
+   "description_snippet": "**Description du poste** ------------------------ ### **Métier** METIERS - Projets / Études / MOA/ Chef de produit ### **Intitulé du poste** Product Owner Comptes à Vue et Epargne H/F ### **Contrat** CDI ### **Rémunération (brut/an en €) (hors package social)** 39000-44000 ### **Votre mission** **Nous recrutons deux Product Owners :** * 1 PO - Squad Opération et Soldes * 1 PO - Squad Orchestration",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=25abc42a8a04a146"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
+   "id": "8ba0470bea56e0b2",
+   "title": "CDI 38H - Responsable de Point de Vente - Lille F/H",
+   "company": "The Kooples",
+   "location": "Lille, HDF, France",
+   "city": "Lille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "Sous la direction du Manager Réseau, vous participez à la réalisation des objectifs commerciaux du point de Vente. Véritable ambassadeur/rice de The Kooples, vos missions principales seront les suivantes : **1. Faire vivre à nos clients l’expérience unique The Kooples :** * Accueillir et accompagner le client tout au long de son parcours shopping en assurant un service personnalisé ; * Conseiller ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3cbcc1b9a2907aef"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
+   "id": "506094ad9207a986",
+   "title": "APPROVISIONNEUR(SE) (H/F)",
+   "company": "Biofarma group",
+   "location": "Montaigu, B5, France",
+   "city": "Montaigu",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Biofarma Group est le premier acteur mondial sur le marché du développement, de la production et du conditionnement tiers de compléments alimentaires, de dispositifs médicaux, de médicaments à base de probiotiques et de cosmétiques. Biofarma France est spécialisée dans la fabrication et le conditionnement de compléments alimentaires sous forme sèche pour le compte de tiers. Dans le cadre du dévelo",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1ff745b3de2c8824"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
    "id": "f5f0b4b48e470351",
    "title": "JOB SAISONIER OCT NOV DEC : Standardiste Parlant Chinois/Mandarin",
    "company": "Les Frères Gourmands",
@@ -15994,42 +16229,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=42fde8e7ee1ed68a"
-    }
-   ],
-   "first_seen": "2026-10-06"
-  },
-  {
-   "id": "5a80767ca0c7ea7b",
-   "title": "Senior Product Marketing Manager , Lending Product Line",
-   "company": "Shine",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "gtm",
-    "roadmap"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-06",
-   "salary": null,
-   "description_snippet": "**Shine is the financial copilot for entrepreneurs and small business owners.** Founded by serial entrepreneurs Rico Andersen and Martin Hegelund, Shine is a leading European fintech unicorn on a mission to restore the joy of running a business, by ending wasted time on financial admin. Shine offers a connected solution for invoicing, accounting, payroll, business accounts, payments, and financing",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=3e1fff5058a8515f"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/shine/jobs/senior-product-marketing-manager-lending-product-line_paris"
     }
    ],
    "first_seen": "2026-10-06"
@@ -20535,6 +20734,32 @@
    "first_seen": "2026-10-09"
   },
   {
+   "id": "d8685945507eeee2",
+   "title": "Product Marketing Manager",
+   "company": "Graneet",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-08",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/graneet/jobs/product-marketing-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
    "id": "b6629330f579dcce",
    "title": "Hôtes et hôtesses d'accueil vip - secteur luxe (H/F)",
    "company": "CITY ONE",
@@ -21047,6 +21272,32 @@
     }
    ],
    "first_seen": "2026-10-07"
+  },
+  {
+   "id": "a4e02ceb80773e01",
+   "title": "Customer Success Manager",
+   "company": "ChapsVision",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Customer Success Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/chapsvision/jobs/customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-06"
   },
   {
    "id": "3e256b29fbff31df",
@@ -25306,6 +25557,33 @@
    "first_seen": "2026-09-10"
   },
   {
+   "id": "a7758dcf84e98787",
+   "title": "PSYCHOLOGUE CLINICIEN SINOPHONE ET FRANCOPHONE H/F",
+   "company": "GROUPE SOS",
+   "location": "La Seyne-sur-Mer, B8, France",
+   "city": "La Seyne-Sur-Mer",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "**Développement du programme Fei Yen – ARCAT** ARCAT, association engagée dans la lutte contre les exclusions et les inégalités de santé, recherche un·e psychologue sinophone et francophone pour participer au développement de son programme Fei Yen, dédié aux personnes sinophones vivant en Île-de-France et rencontrant des difficultés d’accès à l’information et aux dispositifs de santé, notamment du",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=cd74e2220f065799"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
    "id": "f8798adadf5711f1",
    "title": "CHEF DE PRODUIT PATES H/F",
    "company": "GROUPE PANZANI",
@@ -25327,6 +25605,63 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=ce589bc0c9d1f067"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
+   "id": "2a2e323067f88e74",
+   "title": "Assistant Produits Home Déco H/F",
+   "company": "Hellowork",
+   "location": "Villeneuve-d'Ascq, HDF, France",
+   "city": "Villeneuve-D'Ascq",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "Description Nous sommes... Auchan Retail Direction Produit Worldwide basé à Villeneuve d'Ascq. Ce que nous voulons, c'est aider nos clients à bien manger et vivre mieux, tout en préservant la planète. Nous travaillons chaque jour au développement de produits marques propres à destination de nos 9 pays. Ces équipes d'experts construisent des gammes, les imaginent, les dessinent, les créent, les ach",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=05fbd73481d55621"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
+   "id": "bc3113a45be9f91a",
+   "title": "Head of Marketing & Communication",
+   "company": "Reemo",
+   "location": "Vincennes",
+   "city": "Vincennes",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-08",
+   "salary": null,
+   "description_snippet": "Head of Marketing & Communication ### **Votre profil** * **Obsédé(e) par le Revenue :** Vous parlez couramment la langue des commerciaux (Pipeline, Win rate, Churn, ARR). Vous savez que le meilleur contenu est celui qui signe des contrats. * **Pragmatique et Analytique :** Vous pilotez par la donnée et vous n'avez pas peur d'abandonner une initiative si les KPIs financiers ne suivent pas. * **Copy",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/reemo/jobs/head-of-marketing-communication_vincennes"
     }
    ],
    "first_seen": "2026-10-09"
@@ -30700,6 +31035,32 @@
     }
    ],
    "first_seen": "2026-10-08"
+  },
+  {
+   "id": "5a80767ca0c7ea7b",
+   "title": "Senior Product Marketing Manager , Lending Product Line",
+   "company": "Shine",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-10-07",
+   "salary": null,
+   "description_snippet": "Senior Product Marketing Manager , Lending Product Line",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/shine/jobs/senior-product-marketing-manager-lending-product-line_paris"
+    }
+   ],
+   "first_seen": "2026-10-06"
   },
   {
    "id": "3eec2ad98dfa5665",
