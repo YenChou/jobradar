@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-09T21:31:07Z",
+ "generated_at": "2026-10-10T15:45:36Z",
  "source_stats": {
-  "Indeed": 1217,
-  "Welcome to the Jungle": 3575,
-  "France Travail": 144,
+  "Indeed": 1109,
+  "Welcome to the Jungle": 3589,
+  "France Travail": 122,
   "APEC": 0,
-  "Isarta": 148
+  "Isarta": 140
  },
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1129,
- "new_today": 47,
+ "count": 1138,
+ "new_today": 9,
  "jobs": [
   {
    "id": "61712b666548d592",
@@ -1472,6 +1472,35 @@
    "first_seen": "2026-09-14"
   },
   {
+   "id": "ea7b5f046cd95d3a",
+   "title": "Product Marketing Manager - Go-to-Market / Positionnement & Pricing - Freelance (H/F)",
+   "company": "Collective.work",
+   "location": "44 - Nantes",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "Taux journalier (TJM): Budget : 400 € / jour selon profil et séniorité Product Marketing Manager - Go-to-Market / Positionnement & Pricing Informations pratiques : Département : Nantes (44) Démarrage : 19/10/2026 Durée : 12 mois, reconductible Contrat : CDI ou freelance Budget : 400 € / jour selon profil et séniorité Télétravail : onboarding 100 % sur site, puis 2 jours/semaine de télétravail Séni",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://api-v2-multidiff.xtramile.io/collect/60035e97392affc2c13daaddb6a0f441"
+    }
+   ],
+   "first_seen": "2026-10-10"
+  },
+  {
    "id": "476f9d82a87292c2",
    "title": "Lead Creative Producer",
    "company": "Ruby Labs",
@@ -1896,6 +1925,73 @@
     }
    ],
    "first_seen": "2026-09-10"
+  },
+  {
+   "id": "b09dc465ad05588a",
+   "title": "Traffic Manager (H/F)",
+   "company": "PERISCOPE",
+   "location": "63 - Cournon-d'Auvergne",
+   "city": "63 - Cournon-D'Auvergne",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "trafic"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 16,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "NOTRE AGENCE Periscope est une agence conseil en communication et marketing digital depuis 1999. Agence digitale responsable indépendante, nous concevons des stratégies et des dispositifs au service de la performance & des marques. Data, Tech et créativité sont au ♥ de notre ADN. Basée à Paris & au cœur des volcans d'Auvergne proche de Clermont-Ferrand, Periscope est composée de 50 sous-mariniers ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://join.com/companies/periscope/16806015-traffic-manager-h-f?pid=d0c6f59b69df21dc4528"
+    }
+   ],
+   "first_seen": "2026-10-10"
+  },
+  {
+   "id": "f027f2c5989b718e",
+   "title": "Customer Success Manager _ HR TECH",
+   "company": "Flatchr",
+   "location": "Boulogne-Billancourt, A8, France",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "cross-sell",
+    "retention",
+    "upsell"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-10-10",
+   "salary": "40,000–50,000 EUR/yearly",
+   "description_snippet": "**À propos de Flatchr** ----------------------- Flatchr est un éditeur SaaS français qui construit un logiciel de recrutement (ATS) permettant aux entreprises de recruter **mieux, plus vite et avec une meilleure expérience** pour tous : recruteurs, managers et candidats. Aujourd’hui, des centaines d’entreprises, de la PME au grand groupe, utilisent Flatchr au quotidien. Avec plus de **5M€ d’ARR**,",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1ac174ac1d3547fa"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/flatchr/jobs/customer-success-manager-_-hr-tech_boulogne-billancourt"
+    }
+   ],
+   "first_seen": "2026-10-09"
   },
   {
    "id": "b3b7e70f1183283c",
@@ -2380,6 +2476,32 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "af226d900808b04d",
+   "title": "Customer Success Specialist H/F",
+   "company": "Dougs",
+   "location": "Bron",
+   "city": "Bron",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "Customer Success Specialist H/F",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/dougs/jobs/customer-success-specialist-h-f_bron_DOUGS_39aROy7"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "1cd45637939031d8",
    "title": "Partner Marketing Specialist",
    "company": "Pennylane SAS",
@@ -2430,32 +2552,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=b9d424b51641cab3"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
-   "id": "af226d900808b04d",
-   "title": "Customer Success Specialist H/F",
-   "company": "Dougs",
-   "location": "Bron",
-   "city": "Bron",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-09-26",
-   "salary": null,
-   "description_snippet": "Customer Success Specialist H/F",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/dougs/jobs/customer-success-specialist-h-f_bron_DOUGS_aqzaqyD"
     }
    ],
    "first_seen": "2026-10-01"
@@ -3580,6 +3676,37 @@
     }
    ],
    "first_seen": "2026-09-10"
+  },
+  {
+   "id": "eb5f6e12a24ac029",
+   "title": "Product Marketing Manager Freelance H/F - Freelance",
+   "company": "Collective.work",
+   "location": "44 - Nantes",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "Dans un contexte fintech dynamique, vous occupez un poste clé à l'interface entre Produit, Marketing et équipes commerciales. Vous contribuez à la structuration et au positionnement d'offres innovantes, tout en maximisant leur adoption sur le marché. Missions principales : * Contribuer au packaging des offres et définir la stratégie tarifaire avec la Finance * Identifier les leviers d'amélioration",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://api-v2-multidiff.xtramile.io/collect/73d550971d64b4c91082972f7c1d1835"
+    }
+   ],
+   "first_seen": "2026-10-10"
   },
   {
    "id": "8350c4328d1954f3",
@@ -5552,6 +5679,32 @@
     }
    ],
    "first_seen": "2026-09-10"
+  },
+  {
+   "id": "a4bfd082cdf5c311",
+   "title": "Coordinateur Marketing Digital (H/F)",
+   "company": "",
+   "location": "59 - Lille",
+   "city": "59 - Lille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "Description du poste : Année 1 : Comprendre le marché et cadrer le besoin***Analyser les besoins clients et utilisateurs (entretiens, parties prenantes), puis rédiger un cahier des charges et des spécifications intégrant accessibilité et RSE***Mener la veille concurrentielle (Google Trends) et analyser les tendances de consommation et les comportements utilisateurs pour repérer les opportunités de",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.meteojob.com/jobs/57390183?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-10-10"
   },
   {
    "id": "c0da8234b4655b68",
@@ -8725,40 +8878,6 @@
    "first_seen": "2026-10-07"
   },
   {
-   "id": "8e93520ed39d409f",
-   "title": "MEA Bakery Solutions Portfolio & Commercialization Executive",
-   "company": "Lesaffre",
-   "location": "Marcq-en-Barœul, HDF, France",
-   "city": "Marcq-En-Barœul",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [
-    "automation"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-07",
-   "salary": null,
-   "description_snippet": "**Company Description** As a **global key player in yeasts and fermentation**, Lesaffre designs, manufactures and markets innovative solutions for Baking, Food taste & pleasure, Health care and Biotechnology. Family group born in northern France in 1853, now a multi-national and a multicultural company, Lesaffre is committed to working with confidence to **better nourish and protect the planet**. ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=85616a4d609d90e1"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/lesaffre/jobs/mea-bakery-solutions-portfolio-commercialization-executive_marcq-en-baroeul"
-    }
-   ],
-   "first_seen": "2026-10-07"
-  },
-  {
    "id": "81114c1bbb76b2e1",
    "title": "Data Analyst Marketing & E-commerce (H/F)",
    "company": "",
@@ -11717,6 +11836,37 @@
    "first_seen": "2026-09-13"
   },
   {
+   "id": "f9cafcc32c1157c6",
+   "title": "Category Manager Marketing Produit (H/F)",
+   "company": "KARCHER",
+   "location": "94 - Bonneuil-sur-Marne",
+   "city": "94 - Bonneuil-Sur-Marne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-10",
+   "salary": "Annuel de 45000.0 Euros à 50000.0 Euros",
+   "description_snippet": "Description du poste : Votre Rôle : This is how you WOW Garantir la performance de sa catégorie en définissant la stratégie assurant à mettre en place et en pilotant son déploiement Évaluer régulièrement les performances des catégories en suivant l'évolution des parts de marché et du sell-in, contrôler les prévisions de vente et proposer les actions correctives nécessaires Assurer la réalisation d",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.meteojob.com/jobs/57386851?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-09-10"
+  },
+  {
    "id": "0dda875e140a3a7c",
    "title": "Growth Marketing Manager",
    "company": "deuxiemeavis.fr",
@@ -11742,35 +11892,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/deuxieme-avis/jobs/growth-marketing-manager_paris_DEUXI_r8Dp7J5"
-    }
-   ],
-   "first_seen": "2026-09-10"
-  },
-  {
-   "id": "f9cafcc32c1157c6",
-   "title": "Category Manager Marketing Produit (H/F)",
-   "company": "KARCHER",
-   "location": "94 - Bonneuil-sur-Marne",
-   "city": "94 - Bonneuil-Sur-Marne",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement",
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-10",
-   "salary": "Annuel de 45000.0 Euros à 50000.0 Euros",
-   "description_snippet": "Description du poste : Votre Rôle : This is how you WOW Garantir la performance de sa catégorie en définissant la stratégie assurant à mettre en place et en pilotant son déploiement Évaluer régulièrement les performances des catégories en suivant l'évolution des parts de marché et du sell-in, contrôler les prévisions de vente et proposer les actions correctives nécessaires Assurer la réalisation d",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6779291"
     }
    ],
    "first_seen": "2026-09-10"
@@ -11947,6 +12068,40 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=3d12a5aaa36186d1"
+    }
+   ],
+   "first_seen": "2026-10-09"
+  },
+  {
+   "id": "ede08a9ea62f618d",
+   "title": "Customer Success Manager",
+   "company": "Sahar",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "voix du client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-09",
+   "salary": "45,000–55,000 EUR/yearly",
+   "description_snippet": "**Description du poste** ======================== En tant que Customer Success Manager, vous assurez l'accompagnement de nos clients dès la phase d’avant-vente puis d’onboarding. Point de contact privilégié, vous êtes garant.e du succès de la relation client et d'une expérience utilisateur optimale, tout particulièrement dans les premiers étapes du parcours client quand il s’agit encore de démontr",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7bf8fe07709cc972"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sahar/jobs/customer-success-manager_paris"
     }
    ],
    "first_seen": "2026-10-09"
@@ -15097,6 +15252,64 @@
    "first_seen": "2026-09-10"
   },
   {
+   "id": "74e729c96706d429",
+   "title": "Chef de Produit Epargne – Produits Structurés H/F",
+   "company": "Crédit Agricole",
+   "location": "Villejuif",
+   "city": "Villejuif",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "Chef de Produit Epargne – Produits Structurés H/F <p>Diplômé(e) d’une école de commerce, d’ingénieurs ou d’un cursus universitaire</p><br/><p style=\"text-align: justify\"><strong>Vos atouts pour nous rejoindre :</strong></p><p style=\"text-align: justify\">Vous avez une appétence pour le marketing et passionné(e) par les enjeux du monde bancaire et financier.</p><p style=\"text-align: justify\">Proacti",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/groupe-credit-agricole/jobs/chef-de-produit-epargne-produits-structures-h-f_villejuif"
+    }
+   ],
+   "first_seen": "2026-10-10"
+  },
+  {
+   "id": "9b7766ec78bc9f9a",
+   "title": "Account Executive – New Business France",
+   "company": "Dolead",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "roi"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "At **Dolead**, we align marketing, sales, and data to turn media investment into real pipeline. In short: we launch paid campaigns faster, integrate data with confidence, and deliver **sales-ready leads at a fixed cost**. We already support **200+ clients across 15 countries** with a team of **70+ experts from 13 nationalities**, split between our offices in Paris, Boston and Madrid... and we keep",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c427bb2598bd6fe6"
+    }
+   ],
+   "first_seen": "2026-10-10"
+  },
+  {
    "id": "62a63e3c75d842cb",
    "title": "Customer Success Manager dans le Fitness",
    "company": "CORSICA FITNESS BASTIA",
@@ -15145,32 +15358,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=c71945fcbeb87d11"
-    }
-   ],
-   "first_seen": "2026-10-09"
-  },
-  {
-   "id": "f027f2c5989b718e",
-   "title": "Customer Success Manager _ HR TECH",
-   "company": "Flatchr",
-   "location": "Boulogne-Billancourt",
-   "city": "Boulogne-Billancourt",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-10-09",
-   "salary": null,
-   "description_snippet": "Customer Success Manager _ HR TECH 🧠 LE PROFIL QU’ON RECHERCHE Nous recherchons avant tout une personne curieuse, structurée, proactive et orientée client et résultats. Tu as idéalement : * Une première expérience en Customer Success ou en gestion de clients dans un environnement SaaS B2B * Une bonne compréhension des enjeux de fidélisation et de développement d’un portefeuille clients * De l’aisa",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/flatchr/jobs/customer-success-manager-_-hr-tech_boulogne-billancourt"
     }
    ],
    "first_seen": "2026-10-09"
@@ -15556,6 +15743,34 @@
     }
    ],
    "first_seen": "2026-10-08"
+  },
+  {
+   "id": "8e93520ed39d409f",
+   "title": "MEA Bakery Solutions Portfolio & Commercialization Executive",
+   "company": "Lesaffre",
+   "location": "Marcq-En-Barœul",
+   "city": "Marcq-En-Barœul",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "MEA Bakery Solutions Portfolio & Commercialization Executive <p>You have <strong>5+ years of experience in portofolio management</strong>, <strong>project execution</strong> or <strong>commercialization</strong>. Experiences in <strong>FMCG</strong>, <strong>CPG</strong> or <strong>bakery industry</strong> and knowlegde of <strong>bakery ingredients</strong>, <strong>yeast </strong>and<strong> bak",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lesaffre/jobs/mea-bakery-solutions-portfolio-commercialization-executive_marcq-en-baroeul"
+    }
+   ],
+   "first_seen": "2026-10-07"
   },
   {
    "id": "d151c2ce964b0a05",
@@ -20506,6 +20721,62 @@
    "first_seen": "2026-09-10"
   },
   {
+   "id": "7d56577e0854267c",
+   "title": "Customer Success Manager - Madrid/Barcelone",
+   "company": "MYTRAFFIC",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "Customer Success Manager - Madrid/Barcelone",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/mytraffic/jobs/customer-success-manager-madrid-barcelone_paris"
+    }
+   ],
+   "first_seen": "2026-10-10"
+  },
+  {
+   "id": "67f9954ba3c50710",
+   "title": "Product Owner Expert – Supply Chain (logistique amont / fournisseurs) (IT) / Freelance",
+   "company": "KOLABS Group",
+   "location": "Lille, HDF, France",
+   "city": "Lille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "Au sein d'un groupe international leader de la distribution spécialisée dans l'amélioration de l'habitat (15 pays), vous rejoignez l'entité digitale qui construit les produits Supply Chain du groupe. Vous prenez la responsabilité d'un produit dédié à la logistique amont et à la relation fournisseurs. **Vos missions :** Construire et animer la roadmap produit, en lien avec les métiers Supply Chain ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e521be10a0243bac"
+    }
+   ],
+   "first_seen": "2026-10-10"
+  },
+  {
    "id": "8bb043c72fb44693",
    "title": "Trainee Innovation Marketing",
    "company": "Filorga",
@@ -20589,32 +20860,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=4906a7f5511cfee1"
-    }
-   ],
-   "first_seen": "2026-10-09"
-  },
-  {
-   "id": "ede08a9ea62f618d",
-   "title": "Customer Success Manager",
-   "company": "SAHAR",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-09",
-   "salary": null,
-   "description_snippet": "Customer Success Manager",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/sahar/jobs/customer-success-manager_paris"
     }
    ],
    "first_seen": "2026-10-09"
@@ -21204,41 +21449,6 @@
     {
      "name": "France Travail",
      "url": "https://app.labourseauxtalents.fr:443/candidats/candidature/62ae845e-893e-48d0-9e2a-20cdca425364?source=indeed&from=poleemploi"
-    }
-   ],
-   "first_seen": "2026-10-07"
-  },
-  {
-   "id": "698d182a841bec36",
-   "title": "Directeur / Directrice Marketing Global Solognac (F/H/D) — Cestas",
-   "company": "Decathlon",
-   "location": "Cestas, NA, France",
-   "city": "Cestas",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-07",
-   "salary": null,
-   "description_snippet": "* CDI * Temps plein * Au moins 5 ans d'expérience * Niveau d'études : pas de préférence * Directeur.rice marketing Publiée le 07/10/2026 **Mission** ----------- **Mission** Vous pilotez l'activation marketing à 360°, de la création du storytelling à son exécution sur nos canaux de vente directe (DTC) et notre réseau physique, tout en animant une communauté d'utilisateurs exigeants. **1. Marketing ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=afc7bdd2b4aa0dff"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/decathlon/jobs/directeur-directrice-marketing-global-solognac-f-h-d-cestas_cestas"
     }
    ],
    "first_seen": "2026-10-07"
@@ -22003,6 +22213,32 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "349bbd5ab94ce4b9",
+   "title": "Customer Success Manager Mid Market",
+   "company": "Modjo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "Customer Success Manager Mid Market",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/customer-success-manager-mid-market_paris_MODJO_MDY59GW"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "b6852cb04e1badc7",
    "title": "Customer Success Manager H/F",
    "company": "TWC - Rosk x Brigad",
@@ -22641,32 +22877,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/trustpair/jobs/customer-success-manager-france-m-f-mx_paris_TRUST_Gw7gKGA"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
-   "id": "349bbd5ab94ce4b9",
-   "title": "Customer Success Manager Mid Market",
-   "company": "Modjo",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-26",
-   "salary": null,
-   "description_snippet": "Customer Success Manager Mid Market",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/customer-success-manager-mid-market_paris_MODJO_R10mdDd"
     }
    ],
    "first_seen": "2026-10-01"
@@ -25555,6 +25765,32 @@
     }
    ],
    "first_seen": "2026-09-10"
+  },
+  {
+   "id": "2a2f122ab63633b0",
+   "title": "Director, Customer Success - EMEA South",
+   "company": "Workday",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-10-09",
+   "salary": "120,500–180,700 EUR/yearly",
+   "description_snippet": "**Your work days are brighter here.** We’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we buil",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d33397f00a55f569"
+    }
+   ],
+   "first_seen": "2026-10-10"
   },
   {
    "id": "a7758dcf84e98787",
@@ -30283,6 +30519,34 @@
    "first_seen": "2026-10-08"
   },
   {
+   "id": "698d182a841bec36",
+   "title": "Directeur / Directrice Marketing Global Solognac (F/H/D) — Cestas",
+   "company": "Decathlon",
+   "location": "Cestas",
+   "city": "Cestas",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "Directeur / Directrice Marketing Global Solognac (F/H/D) — Cestas <p><b>Profil recherché</b></p> <ul><li><p><b>Parcours :</b> Expérience confirmée en marketing (Product Marketing, Brand Management, Digital Marketing), idéalement acquise dans l'industrie outdoor technique, la montagne, la chasse ou la pêche.</p></li><li><p><b>Expertise Contenu :</b> Capacité éprouvée à piloter des productions de co",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/decathlon/jobs/directeur-directrice-marketing-global-solognac-f-h-d-cestas_cestas"
+    }
+   ],
+   "first_seen": "2026-10-07"
+  },
+  {
    "id": "11aa422a605d999b",
    "title": "Senior Growth Analyst - Temporary contract",
    "company": "TheFork",
@@ -31117,6 +31381,32 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "e0b9ded6f350923c",
+   "title": "Senior Customer Success Manager - Mid Market",
+   "company": "Modjo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "Senior Customer Success Manager - Mid Market",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/senior-customer-success-manager-mid-market_paris_MODJO_yY0bV1b"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "5e2d16ccc7d1d76f",
    "title": "Senior Strategic Customer Success Manager F/H/X",
    "company": "Whoz",
@@ -31195,32 +31485,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/head-of-marketing_paris"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
-   "id": "e0b9ded6f350923c",
-   "title": "Senior Customer Success Manager - Mid Market",
-   "company": "Modjo",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -4,
-   "date_posted": "2026-09-26",
-   "salary": null,
-   "description_snippet": "Senior Customer Success Manager - Mid Market",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/senior-customer-success-manager-mid-market_paris_MODJO_q96LZKq"
     }
    ],
    "first_seen": "2026-10-01"
