@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-10T15:45:36Z",
+ "generated_at": "2026-10-10T20:31:45Z",
  "source_stats": {
-  "Indeed": 1109,
+  "Indeed": 1073,
   "Welcome to the Jungle": 3589,
-  "France Travail": 122,
+  "France Travail": 123,
   "APEC": 0,
   "Isarta": 140
  },
@@ -11,8 +11,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1138,
- "new_today": 9,
+ "count": 1141,
+ "new_today": 12,
  "jobs": [
   {
    "id": "61712b666548d592",
@@ -5702,6 +5702,36 @@
     {
      "name": "France Travail",
      "url": "https://www.meteojob.com/jobs/57390183?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-10-10"
+  },
+  {
+   "id": "d1dd3fbda644bc36",
+   "title": "Chef de projet Marketing et CRM H/F",
+   "company": "CNP ASSURANCES",
+   "location": "Issy-les-Moulineaux, A8, France",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "conversion",
+    "kpi",
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-10-10",
+   "salary": null,
+   "description_snippet": "Au sein de CNP Assurances IARD, filiale du Groupe CNP Assurances, contribuez au développement du périmètre Assurances de Biens et de Personnes à travers la distribution des produit et d'offres adaptés et innovants répondant aux attentes de nos clients particuliers et professionnels. En nous rejoignant, vous faites le choix d’intégrer une entreprise engagée dans le développement de ses collaborateu",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=636fd7f8478c6192"
     }
    ],
    "first_seen": "2026-10-10"
@@ -15273,6 +15303,61 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/groupe-credit-agricole/jobs/chef-de-produit-epargne-produits-structures-h-f_villejuif"
+    }
+   ],
+   "first_seen": "2026-10-10"
+  },
+  {
+   "id": "a263750cb36c217c",
+   "title": "Responsable Offre, Grands Comptes & Partenariats Stratégiques - (H/F)",
+   "company": "IGESA",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-10",
+   "salary": "43,400–43,400 EUR/yearly",
+   "description_snippet": "Depuis 1966, IGESA, établissement public industriel et commercial placé sous la tutelle du ministère des Armées, accompagne les personnels civils et militaires ainsi que leurs familles. Nous sommes 1 600 collaborateurs, en métropole et en outre-mer. Nos activités couvrent la petite enfance, les vacances et les loisirs, l'action sociale, le soutien aux familles, les actions de cohésion et les maiso",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=06782a0fa76a48c1"
+    }
+   ],
+   "first_seen": "2026-10-10"
+  },
+  {
+   "id": "3eae66675b31e6e3",
+   "title": "Serveur (H/F)",
+   "company": "Huntun et Mian",
+   "location": "Strasbourg, GE, France",
+   "city": "Strasbourg",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-10",
+   "salary": "2,200–2,700 EUR/monthly",
+   "description_snippet": "Huntun&Mian Restaurant gastronomique chinois, premium handmade, 100% fait maison avec des recettes traditionnelles chinoises, oubliées, issues de notre gastronomie nationale, élaborées et préparées par notre Chef Zhang Yong, ancien responsable du banquet national et présidentiel de Chine. Légumes frais provenant d’un maraîcher de la région qui cultive notamment et en exclusivité par notre collabor",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=413d0d67c3fde23a"
     }
    ],
    "first_seen": "2026-10-10"
