@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-11T16:12:40Z",
+ "generated_at": "2026-10-11T20:49:34Z",
  "source_stats": {
-  "Indeed": 922,
+  "Indeed": 870,
   "Welcome to the Jungle": 3577,
-  "France Travail": 86,
+  "France Travail": 87,
   "APEC": 0,
   "Isarta": 131
  },
@@ -11,8 +11,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1100,
- "new_today": 6,
+ "count": 1105,
+ "new_today": 11,
  "jobs": [
   {
    "id": "61712b666548d592",
@@ -3572,40 +3572,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/openairlines/jobs/customer-success-manager-en-operations-aeriennes-f-h_toulouse_OPENA_jlpw4gr"
-    }
-   ],
-   "first_seen": "2026-10-08"
-  },
-  {
-   "id": "bd798f4a508378fb",
-   "title": "Digital Customer Success Manager - German/English",
-   "company": "Brevo",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "retention"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 14,
-   "date_posted": "2026-10-08",
-   "salary": null,
-   "description_snippet": "At Brevo, we’re not just building a CRM. With our technology, **we’re helping millions of organizations build lasting relationships with their customers.** From emails and SMS to WhatsApp, Chat, and Marketing Automation, **our tools are intuitive, powerful, and built to scale with every ambition.** We give businesses a clear view of the customer journey, so they can focus on what matters: connecti",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=228c53eafb73084a"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/sendinblue/jobs/digital-customer-success-manager-german-english_paris"
     }
    ],
    "first_seen": "2026-10-08"
@@ -8184,6 +8150,37 @@
    "first_seen": "2026-10-11"
   },
   {
+   "id": "f9cafcc32c1157c6",
+   "title": "Category Manager Marketing Produit (H/F)",
+   "company": "KARCHER",
+   "location": "94 - Bonneuil-sur-Marne",
+   "city": "94 - Bonneuil-Sur-Marne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-10",
+   "salary": "Annuel de 45000.0 Euros à 50000.0 Euros",
+   "description_snippet": "Description du poste : Votre Rôle : This is how you WOW Garantir la performance de sa catégorie en définissant la stratégie assurant à mettre en place et en pilotant son déploiement Évaluer régulièrement les performances des catégories en suivant l'évolution des parts de marché et du sell-in, contrôler les prévisions de vente et proposer les actions correctives nécessaires Assurer la réalisation d",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.meteojob.com/jobs/57386851?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-10-11"
+  },
+  {
    "id": "212f46e0e74d390a",
    "title": "Expert fonctionnel Finances Publiques F/H",
    "company": "CIRIL GROUP",
@@ -11532,6 +11529,69 @@
    "first_seen": "2026-10-11"
   },
   {
+   "id": "d814ef37ed37653f",
+   "title": "Chef de Produit marketing H/F (H/F)",
+   "company": "RESEAU TALENTS",
+   "location": "14 - Vire Normandie",
+   "city": "14 - Vire Normandie",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-11",
+   "salary": "Annuel de 35000.0 Euros à 45000.0 Euros",
+   "description_snippet": "Notre client est une maison française reconnue dans l'univers des arts de la table. Elle conçoit, développe et fabrique des produits haut de gamme destinés aux professionnels de l'hôtellerie-restauration, aux établissements de prestige et à une clientèle internationale. Son développement repose sur un savoir-faire industriel reconnu, des équipes expérimentées et une forte culture du produit. Dans ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/215BSZP"
+    }
+   ],
+   "first_seen": "2026-10-11"
+  },
+  {
+   "id": "bcc34087e3be623b",
+   "title": "Freelance Engagement Ops (H/F)",
+   "company": "Vroomly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "hubspot",
+    "workflow",
+    "zapier"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-09-10",
+   "salary": null,
+   "description_snippet": "Freelance Engagement Ops (H/F) * Tu disposes de **5 à 10 ans d’expérience en Ops,** Sales Ops, RevOps, Marketing Ops ou Business Ops. * Tu as déjà administré et fait évoluer un CRM complexe, idéalement HubSpot. * Tu maîtrises les sujets liés aux workflows, automatisations, qualité de données et optimisation de process. * Tu comprends les enjeux Sales et Marketing et sais faire le lien entre les be",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/vroomly/jobs/freelance-engagement-ops-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-10-11"
+  },
+  {
    "id": "4b48578532ef0146",
    "title": "Sales Enablement Manager",
    "company": "Platform.sh",
@@ -11826,36 +11886,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=15ef0ed50d12196f"
-    }
-   ],
-   "first_seen": "2026-10-08"
-  },
-  {
-   "id": "a9f7228a953efa6b",
-   "title": "Chef de produit F/H",
-   "company": "Bouygues Telecom",
-   "location": "Clichy, A8, France",
-   "city": "Clichy",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-10-08",
-   "salary": "40,000–50,000 EUR/yearly",
-   "description_snippet": "Publié le 28/09/2026 MARKETING CDD 40K€-50K€ Île-de-France **La description du poste** --------------------------- * **Contrat** : CDD de 6 mois prolongeable * **Date de prise de poste** : selon vos disponibilités Ce qui vous plaît dans votre métier, c'est construire une offre de bout en bout, de sa conception jusqu'au Go To Market ? Vous aimez animer des comités et des ateliers avec plusieurs int",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d060ea08e6ed58ef"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/bouygues-telecom/jobs/chef-de-produit-f-h_clichy_BT_GPwDjwp"
     }
    ],
    "first_seen": "2026-10-08"
@@ -14769,6 +14799,34 @@
    "first_seen": "2026-09-13"
   },
   {
+   "id": "661cb67678a4d550",
+   "title": "Chef de produit Marketing développement cosmétiques - H/F",
+   "company": "FRANCELAB",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Chef de produit Marketing développement cosmétiques - H/F **Votre profil :** * Issu(e) d’une formation supérieure Bac+5 (École de commerce, formation d’ingénieur complétée par un Mastère Marketing ou équivalent), vous êtes passionné(e) par l’univers de la beauté et fortement sensibilisé(e) aux tendances marché, consommateurs et innovations. * Vous justifiez d’une expérience confirmée de 3 à 4 ans ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/france-lab/jobs/chef-de-produit-marketing-developpement-cosmetiques-h-f_issy-les-moulineaux"
+    }
+   ],
+   "first_seen": "2026-10-11"
+  },
+  {
    "id": "74e729c96706d429",
    "title": "Chef de Produit Epargne – Produits Structurés H/F",
    "company": "Crédit Agricole",
@@ -15040,6 +15098,32 @@
     }
    ],
    "first_seen": "2026-10-09"
+  },
+  {
+   "id": "a9f7228a953efa6b",
+   "title": "Chef de produit F/H",
+   "company": "Bouygues Telecom",
+   "location": "Clichy",
+   "city": "Clichy",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "Chef de produit F/H <span>Description du profil :<br><br></span><p> </p><p><strong>À propos de vous :</strong></p><ul> <li>Vous êtes diplômé d'une formation supérieure en marketing, avec une première expérience professionnelle réussie (alternance acceptée si elle a été menée sur un périmètre technique ou télécoms avec une vraie charge et de la visibilité).</li> <li>Vous avez déjà eu à construire u",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/bouygues-telecom/jobs/chef-de-produit-f-h_clichy_BT_GPwDjwp"
+    }
+   ],
+   "first_seen": "2026-10-08"
   },
   {
    "id": "f5f0b4b48e470351",
@@ -20133,6 +20217,34 @@
    "first_seen": "2026-09-13"
   },
   {
+   "id": "ceda28ed3325ed63",
+   "title": "Acquisition Manager (GEO-SEO-SEA)",
+   "company": "Huwise",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-09-08",
+   "salary": null,
+   "description_snippet": "Acquisition Manager (GEO-SEO-SEA) * Tu justifies d'au moins 3 ans d'expérience en acquisition digitale, avec une expérience démontrée chez un éditeur de logiciels (SaaS B2B de préférence). Cette expérience éditeur est importante : elle signifie que tu connais les cycles de vente longs, la notion de MQL/SQL, le travail rapproché avec les équipes Produit et Sales, et les codes du marketing B2B tech.",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/opendatasoft/jobs/acquisition-manager-geo-seo-sea_paris"
+    }
+   ],
+   "first_seen": "2026-10-11"
+  },
+  {
    "id": "7d56577e0854267c",
    "title": "Customer Success Manager - Madrid/Barcelone",
    "company": "MYTRAFFIC",
@@ -20415,6 +20527,34 @@
     }
    ],
    "first_seen": "2026-10-09"
+  },
+  {
+   "id": "bd798f4a508378fb",
+   "title": "Digital Customer Success Manager - German/English",
+   "company": "Brevo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "Digital Customer Success Manager - German/English",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sendinblue/jobs/digital-customer-success-manager-german-english_paris"
+    }
+   ],
+   "first_seen": "2026-10-08"
   },
   {
    "id": "b6629330f579dcce",
