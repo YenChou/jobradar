@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-12T19:41:04Z",
+ "generated_at": "2026-10-12T23:30:42Z",
  "source_stats": {
-  "Indeed": 808,
-  "Welcome to the Jungle": 3576,
-  "France Travail": 75,
+  "Indeed": 812,
+  "Welcome to the Jungle": 3574,
+  "France Travail": 38,
   "APEC": 0,
   "Isarta": 132
  },
@@ -11,8 +11,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1135,
- "new_today": 30,
+ "count": 1144,
+ "new_today": 9,
  "jobs": [
   {
    "id": "61712b666548d592",
@@ -84,6 +84,51 @@
    "first_seen": "2026-09-22"
   },
   {
+   "id": "77db7c0d00d2b290",
+   "title": "Measurement and Data Marketing Manager - All genders",
+   "company": "Decathlon",
+   "location": "Villeneuve-d'Ascq, HDF, France",
+   "city": "Villeneuve-D'Ascq",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics",
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "analyse de donnees",
+    "dashboard",
+    "data visualization",
+    "kpi",
+    "reporting",
+    "roi",
+    "sea",
+    "sql",
+    "tableau",
+    "tracking"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 28,
+   "date_posted": "2026-10-12",
+   "salary": null,
+   "description_snippet": "* CDI * Temps partiel * Au moins 5 ans d'expérience * Master, Bac+5 * Media & Growth Marketing Manager Publiée le 02/10/2026 **Mission** ----------- **Company**: Decathlon **Department**: Global Marketing Team As the **Measurement and Data Marketing Manager** within Decathlon’s Global Marketing Team, you are the chief architect and global guardian of Decathlon’s Unified Marketing Measurement Frame",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c4661110a3cd1069"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/decathlon/jobs/measurement-and-data-marketing-manager-all-genders_villeneuve-d-ascq"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
    "id": "85a4307e138cb571",
    "title": "Chargé Acquisition & Marketing Digital (H/F)",
    "company": "A5SYS",
@@ -113,6 +158,41 @@
     }
    ],
    "first_seen": "2026-10-07"
+  },
+  {
+   "id": "4814a85c7aea46e0",
+   "title": "Growth Marketing Specialist (F/H/X)",
+   "company": "iAdvize",
+   "location": "Nantes, B5, France",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "a/b testing",
+    "acquisition",
+    "conversion",
+    "kpi",
+    "meta ads",
+    "roi"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 26,
+   "date_posted": "2026-10-12",
+   "salary": null,
+   "description_snippet": "**Descriptif du poste** ----------------------- **2 à 5 ans d'expérience** en **Growth Marketing / Paid Acquisition**, idéalement en **B2B / SaaS.** De **35k à 40k€** brut par an (selon expérience). **Nantes** (Gare Sud). Prise de poste **dès que possible.** Télétravail **2 j/semaine.** iAdvize is an international company : you must have a **professional level of English** for this position (>B2).",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=05e3443d307b61d5"
+    }
+   ],
+   "first_seen": "2026-10-13"
   },
   {
    "id": "b05f8f6e88fcd9cb",
@@ -863,6 +943,44 @@
    "first_seen": "2026-09-13"
   },
   {
+   "id": "7a194d214c505723",
+   "title": "Responsable expérience client",
+   "company": "Prévoir",
+   "location": "Paris 9e, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer",
+    "performance_marketing"
+   ],
+   "skills": [
+    "nps",
+    "retention",
+    "roi",
+    "satisfaction client",
+    "sea",
+    "voix du client"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-10-12",
+   "salary": null,
+   "description_snippet": "**Contexte du recrutement et définition de poste** -------------------------------------------------- **PRÉVOIR RECRUTE UN RESPONSABLE EXPERIENCE CLIENT H/F À PARIS** REJOIGNEZ UNE ENTREPRISE FAMILIALE ET À TAILLE HUMAINE Créée en 1910, PRÉVOIR est **une entreprise d’assurance de personnes**. Indépendante, française, familiale et à taille humaine elle a pour préoccupation que chacun puisse protége",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=13e9a1db4c9c01ea"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/prevoir/jobs/responsable-experience-client_paris"
+    }
+   ],
+   "first_seen": "2026-10-12"
+  },
+  {
    "id": "46a522ed16eaad4b",
    "title": "Mobile User Acquisition Manager",
    "company": "medialicious",
@@ -1444,40 +1562,6 @@
     }
    ],
    "first_seen": "2026-09-14"
-  },
-  {
-   "id": "7a194d214c505723",
-   "title": "Responsable expérience client",
-   "company": "Prévoir",
-   "location": "Paris 9e, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": null,
-   "categories": [
-    "customer",
-    "performance_marketing"
-   ],
-   "skills": [
-    "nps",
-    "retention",
-    "roi",
-    "satisfaction client",
-    "sea",
-    "voix du client"
-   ],
-   "bonus_tags": [],
-   "score": 18,
-   "date_posted": "2026-10-12",
-   "salary": null,
-   "description_snippet": "**Contexte du recrutement et définition de poste** -------------------------------------------------- **PRÉVOIR RECRUTE UN RESPONSABLE EXPERIENCE CLIENT H/F À PARIS** REJOIGNEZ UNE ENTREPRISE FAMILIALE ET À TAILLE HUMAINE Créée en 1910, PRÉVOIR est **une entreprise d’assurance de personnes**. Indépendante, française, familiale et à taille humaine elle a pour préoccupation que chacun puisse protége",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=13e9a1db4c9c01ea"
-    }
-   ],
-   "first_seen": "2026-10-12"
   },
   {
    "id": "ea7b5f046cd95d3a",
@@ -11752,6 +11836,121 @@
    "first_seen": "2026-09-13"
   },
   {
+   "id": "e05a1c231c976239",
+   "title": "Coach Expérience Client (H/F)",
+   "company": "Arcos dorados (McDonald’s Antilles) MQ",
+   "location": "Martinique, DTM, France",
+   "city": "Martinique",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-10-12",
+   "salary": "13–13 EUR/hourly",
+   "description_snippet": "**McDonald's recrute un(e) Coach Expérience Client !** Vous avez le sens du service, aimez accompagner les équipes et souhaitez faire de chaque visite client une expérience réussie ? Ce poste est fait pour vous ! Chez McDonald's, l'expérience client est au cœur de nos priorités. Nous recherchons un(e) Coach Expérience Client capable de fédérer, former et accompagner nos équipes pour offrir un accu",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=afa1648380a74162"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
+   "id": "33ebafaaab96af68",
+   "title": "Chef de produits (F/H)",
+   "company": "Even",
+   "location": "Saint-Géréon, B5, France",
+   "city": "Saint-Gereon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-12",
+   "salary": null,
+   "description_snippet": "* CDI * Temps plein * Au moins 2 ans d'expérience * BUT, Licence, Bac+3 * Chef de produit Tous engagés, tous passionnés ! Publiée le 12/10/2026 **Mission** ----------- Intégrer Laïta c’est faire le choix de rejoindre une communauté de plus de 3 000 femmes et hommes sincèrement engagés dans leurs missions et qui partagent au quotidien des valeurs de simplicité relationnelle et d’exigence profession",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=547c262b1c44570c"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
+   "id": "b2fa14d7abe14c5e",
+   "title": "Chef de produits junior H/F",
+   "company": "L'industrie recrute",
+   "location": "Vendargues, O, France",
+   "city": "Vendargues",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-12",
+   "salary": null,
+   "description_snippet": "Novastruct France conçoit et distribue des solutions architecturales en aluminium alliant performance, design et durabilité : façades, fenêtres, baies coulissantes, portes, garde-corps… Entreprise à taille humaine, Novastruct s’appuie sur les compétences et les engagements individuels pour bâtir une dynamique collective solide, fondée sur la confiance, la coopération et la volonté de réussir ensem",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=de2218fea3339d8f"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
+   "id": "b95257fda5b01331",
+   "title": "Solutions Engineer - French Speaker",
+   "company": "synthesia",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm",
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-10-12",
+   "salary": null,
+   "description_snippet": "Synthesia is the world’s leading AI video platform for business, used by over 90% of the Fortune 100. Founded in 2017, the company is headquartered in London, with offices and teams across Europe and the US. As AI continues to shape the way we live and work, Synthesia develops products to enhance visual communication and enterprise skill development, helping people work better and stay at the cent",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=85acfc2e10e650b7"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
    "id": "63c6e49c4ff3945c",
    "title": "Senior Expert Acquisition / Marketing B2C",
    "company": "Gojob",
@@ -11863,11 +12062,11 @@
    "score": 8,
    "date_posted": "2026-10-12",
    "salary": null,
-   "description_snippet": "**Date de publication :** Oct 12, 2026, 3:12PM En qualité de Chef de projets Marketing Produits & Services, au sein de la Direction Marketing, Stratégie et Commerciale, vous contribuez au développement de nouvelles plateformes de services digitaux et de gaming. Vous pilotez la mise en œuvre et le lancement des projets, de leur cadrage jusqu’à leur déploiement. Vous coordonnez et animez les équipes",
+   "description_snippet": "Associated with 2 categories Associated with 2 categories See allSee all **Chef de projet Marketing Produits & Services** ------------------------------------------------ Associated with 2 categories Marketing Innovation, Research & Development ZAC de Moudong Sud, Rue Claude Emmanuel Blandin, 97122 BAIE-MAHAULT, GUADELOUPE Location: BAIE-MAHAULT,FRANCE 2026-54977 Fixed-term Full-time Orange SA **P",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=a80ef7bc727cd1e8"
+     "url": "https://fr.indeed.com/viewjob?jk=40e454a3daf85673"
     }
    ],
    "first_seen": "2026-10-12"
@@ -12138,40 +12337,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=3d12a5aaa36186d1"
-    }
-   ],
-   "first_seen": "2026-10-09"
-  },
-  {
-   "id": "ede08a9ea62f618d",
-   "title": "Customer Success Manager",
-   "company": "Sahar",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "voix du client"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 8,
-   "date_posted": "2026-10-09",
-   "salary": "45,000–55,000 EUR/yearly",
-   "description_snippet": "**Description du poste** ======================== En tant que Customer Success Manager, vous assurez l'accompagnement de nos clients dès la phase d’avant-vente puis d’onboarding. Point de contact privilégié, vous êtes garant.e du succès de la relation client et d'une expérience utilisateur optimale, tout particulièrement dans les premiers étapes du parcours client quand il s’agit encore de démontr",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=7bf8fe07709cc972"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/sahar/jobs/customer-success-manager_paris"
     }
    ],
    "first_seen": "2026-10-09"
@@ -15201,6 +15366,69 @@
     }
    ],
    "first_seen": "2026-09-13"
+  },
+  {
+   "id": "abf89ff684922bed",
+   "title": "Senior Consumer, Market Insights & Business Analyst - M/F/X",
+   "company": "Accor Tech & Digital",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [
+    "data visualization",
+    "google analytics",
+    "reporting",
+    "tableau"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-13",
+   "salary": null,
+   "description_snippet": "Senior Consumer, Market Insights & Business Analyst - M/F/X <p><strong><em><u>And you</u>?</em></strong>&#xa0;&#xa0;</p><ul><li><strong>Education: </strong>Degree in Marketing, Business Administration, Economics, Statistics, or a related quantitative field. Master's degree (e.g., MBA, MSc in Marketing Analytics) is a significant plus.<br> &#xa0;</li><li><strong>Experience:</strong><ul><li>8+ years",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/accor-tech/jobs/senior-consumer-market-insights-business-analyst-m-f-x_issy-les-moulineaux"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
+   "id": "31ac324d5a59a2ce",
+   "title": "Chef de secteur évolutif Versailles H/F",
+   "company": "Colgate-Palmolive",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-12",
+   "salary": "34,750–34,750 EUR/yearly",
+   "description_snippet": "No Relocation Assistance Offered Job Number #176663 - Colombes, Top-of-Seine, France **Who We Are** Colgate-Palmolive Company is a global consumer products company operating in over 200 countries specialising in Oral Care, Personal Care, Home Care, Skin Care, and Pet Nutrition. Our products are trusted in more households than any other brand in the world, making us a household name! Join Colgate-P",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4105b04741bd139b"
+    }
+   ],
+   "first_seen": "2026-10-13"
   },
   {
    "id": "745665425d6d94eb",
@@ -20844,6 +21072,38 @@
    "first_seen": "2026-09-13"
   },
   {
+   "id": "6808ef17490a4407",
+   "title": "Senior Manager Études consommateurs, analyses de marché et business - F/H/X",
+   "company": "Accor Tech & Digital",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics"
+   ],
+   "skills": [
+    "analyse de donnees",
+    "google analytics",
+    "tableau"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-13",
+   "salary": null,
+   "description_snippet": "Senior Manager Études consommateurs, analyses de marché et business - F/H/X <p><strong>Et vous ?</strong></p><p><strong>Formation :</strong> diplôme en marketing, gestion, économie, statistiques ou dans un domaine quantitatif connexe. Un diplôme de niveau master (par exemple MBA ou MSc en marketing analytics) constitue un atout important.</p><p><strong>Expérience :</strong></p><ul><li>Au moins 8 a",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/accor-tech/jobs/senior-manager-etudes-consommateurs-analyses-de-marche-et-business-f-h-x_issy-les-moulineaux"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
    "id": "1186b2b4bf9f48a2",
    "title": "VIE - Etats-Unis - Technical Product Marketing - F/H",
    "company": "STMicroelectronics",
@@ -21038,6 +21298,32 @@
     }
    ],
    "first_seen": "2026-10-10"
+  },
+  {
+   "id": "ede08a9ea62f618d",
+   "title": "Customer Success Manager",
+   "company": "SAHAR",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "Customer Success Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sahar/jobs/customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-09"
   },
   {
    "id": "8bb043c72fb44693",
