@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-13T17:25:35Z",
+ "generated_at": "2026-10-13T21:47:15Z",
  "source_stats": {
-  "Indeed": 1017,
+  "Indeed": 1056,
   "Welcome to the Jungle": 3573,
   "France Travail": 65,
   "APEC": 0,
@@ -11,8 +11,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1174,
- "new_today": 39,
+ "count": 1179,
+ "new_today": 44,
  "jobs": [
   {
    "id": "61712b666548d592",
@@ -190,45 +190,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=05e3443d307b61d5"
-    }
-   ],
-   "first_seen": "2026-10-13"
-  },
-  {
-   "id": "eaa1921ff1daf49a",
-   "title": "Customer Success Manager / Spécialiste d’application",
-   "company": "Lumeen",
-   "location": "Lyon, ARA, France",
-   "city": "Lyon",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "retention",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 24,
-   "date_posted": "2026-10-13",
-   "salary": "36,000–44,000 EUR/yearly",
-   "description_snippet": "**À propos** ------------ * **Notre ambition : devenir leader européen des nouvelles thérapies immersives et contribuer au bien-être de millions de personnes.** Fondée en 2019 par deux frères désireux d’offrir des moments d’évasion à leur grand-mère en EHPAD, Lumeen est un dispositif médical innovant qui permet aux équipes soignantes d’utiliser des casques de réalité virtuelle pour offrir à leurs ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e37f86720bd0ddeb"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/lumeen-1/jobs/customer-success-manager-specialiste-d-application_lyon"
-    },
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/215DYBZ"
     }
    ],
    "first_seen": "2026-10-13"
@@ -982,6 +943,45 @@
    "first_seen": "2026-09-13"
   },
   {
+   "id": "eaa1921ff1daf49a",
+   "title": "Customer Success Manager / Spécialiste d’application",
+   "company": "Lumeen",
+   "location": "Lyon, ARA, France",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "retention",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 20,
+   "date_posted": "2026-10-13",
+   "salary": "36,000–44,000 EUR/yearly",
+   "description_snippet": "**À propos** ------------ * **Notre ambition : devenir leader européen des nouvelles thérapies immersives et contribuer au bien-être de millions de personnes.** Fondée en 2019 par deux frères désireux d’offrir des moments d’évasion à leur grand-mère en EHPAD, Lumeen est un dispositif médical innovant qui permet aux équipes soignantes d’utiliser des casques de réalité virtuelle pour offrir à leurs ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e37f86720bd0ddeb"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lumeen-1/jobs/customer-success-manager-specialiste-d-application_lyon"
+    },
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/215DYBZ"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
    "id": "7a194d214c505723",
    "title": "Responsable expérience client",
    "company": "Prévoir",
@@ -1601,6 +1601,38 @@
     }
    ],
    "first_seen": "2026-09-14"
+  },
+  {
+   "id": "2f14964cc1a8a7a8",
+   "title": "Fixed-term contract (6 months) - Product Marketing Manager Casino F/M",
+   "company": "Betclic Group",
+   "location": "Bordeaux, NA, France",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations",
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 18,
+   "date_posted": "2026-10-13",
+   "salary": null,
+   "description_snippet": "**WE ARE BETCLIC** Betclic, European leader in sports betting, is much more than just an online gaming site! Also offering Poker, Horse Racing, and Casino games across various countries and continents, it is an inspiring and forward-thinking company: every day brings new challenges in a modern and dynamic environment. As an influential player in the tech industry, with strong and sustained growth ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5682f4364dcbd4eb"
+    }
+   ],
+   "first_seen": "2026-10-13"
   },
   {
    "id": "ea7b5f046cd95d3a",
@@ -5736,6 +5768,34 @@
    "first_seen": "2026-10-13"
   },
   {
+   "id": "b24b80fda8072e99",
+   "title": "CHARGE DE MARKETING CLIENT SOLUTIONS H/F",
+   "company": "M6",
+   "location": "Neuilly-sur-Seine, A8, France",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-13",
+   "salary": null,
+   "description_snippet": "**Informations générales** -------------------------- ### **Entité de rattachement** M6 Unlimited est la régie publicitaire du Groupe M6, 1er groupe plurimédia de France. Avec nos 13 chaînes TV – dont M6, la chaîne préférée des Français, mais aussi W9, Gulli et 6ter – notre plateforme M6+, et nos 3 radios dont RTL, 1ère radio privée, ainsi que RTL2 et Fun Radio, nous connectons chaque mois 94 % de",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1e2bfb1232ce6dd8"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
    "id": "0cd16b737d7dc001",
    "title": "Operations Management Specialist",
    "company": "SANY Heavy Machinery France",
@@ -8750,6 +8810,63 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=d61d6d7cd724a7b6"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
+   "id": "59c892e34ca14d52",
+   "title": "Ingénieur Salesforce Marketing Cloud (IT) / Freelance",
+   "company": "lehibou",
+   "location": "Lyon, ARA, France",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "marketing automation",
+    "segmentation"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-10-13",
+   "salary": "550–550 EUR/daily",
+   "description_snippet": "Notre client dans le secteur Assurance recherche un/une Ingénieur Salesforce Marketing Cloud H/F **Description de la mission :** Contexte Nous recherchons un(e) Marketing Automation Engineer pour construire, structurer et fiabiliser le socle technique de notre plateforme Salesforce Marketing Cloud. Ce rôle est le garant de la data et de l'architecture technique de Marketing Cloud : il conditionne ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d16fa94bd834906b"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
+   "id": "b09f563480ffbbe1",
+   "title": "Assistant Chef de Produit - Focus voix du client H/F",
+   "company": "Center Parcs Europe",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-13",
+   "salary": null,
+   "description_snippet": "**Rejoignez l’aventure Center Parcs** Vous souhaitez développer vos compétences en marketing produit et analyse de la voix du client au sein d’un groupe touristique européen ? Au sein de l’équipe Product Intelligence, vous accompagnez le Chef de Produit dans l’analyse des performances, la compréhension des attentes clients et le développement de nouvelles offres et services. **Votre impact au quot",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=431339f21c79a356"
     }
    ],
    "first_seen": "2026-10-13"
@@ -13784,6 +13901,37 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "07364b8436c281ad",
+   "title": "Customer Success - Key Account Manager – Rétention & Expansion · EdTech SaaS",
+   "company": "Alumnforce - Alumni Success Platform",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "retention",
+    "satisfaction client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-13",
+   "salary": null,
+   "description_snippet": "Customer Success - Key Account Manager – Rétention & Expansion · EdTech SaaS **Savoir faire** * Expérience de 3 ans ou plus (Stages, alternances inclus) dans la relation client BtoB d'une solution SaaS (Logiciel) - **Obligatoire** * Connaissances des techniques commerciales et du développement de la satisfaction client (Full cycle) * Anglais professionnel lu, parlé, écrit obligatoire * Réelle aisa",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/alumnforce/jobs/lead-customer-success-manager"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "c142f9241cd5c45e",
    "title": "SEO Manager - CDI - Paris",
    "company": "Orus",
@@ -13810,37 +13958,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/orus/jobs/growth-acquisition-manager-cdi-paris_paris_ORUS_z3e31W8"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
-   "id": "07364b8436c281ad",
-   "title": "Customer Success - Key Account Manager – Rétention & Expansion · EdTech SaaS",
-   "company": "Alumnforce - Alumni Success Platform",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "retention",
-    "satisfaction client"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 8,
-   "date_posted": "2026-10-05",
-   "salary": null,
-   "description_snippet": "Customer Success - Key Account Manager – Rétention & Expansion · EdTech SaaS **Savoir faire** * Expérience de 3 ans ou plus (Stages, alternances inclus) dans la relation client BtoB d'une solution SaaS (Logiciel) - **Obligatoire** * Connaissances des techniques commerciales et du développement de la satisfaction client (Full cycle) * Anglais professionnel lu, parlé, écrit obligatoire * Réelle aisa",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/alumnforce/jobs/lead-customer-success-manager"
     }
    ],
    "first_seen": "2026-10-01"
@@ -15956,11 +16073,11 @@
    "score": 6,
    "date_posted": "2026-10-13",
    "salary": null,
-   "description_snippet": "JOB\\_DESCRIPTION.SHARE.HTML CAROUSEL\\_PARAGRAPH JOB\\_DESCRIPTION.SHARE.HTML * LONGPONT SUR ORGE, France * Marketing / Communication * CDI * Temps plein * Oui **Description du poste** ------------------------ A propos de nous **Chez Brico Dépôt, vous avez le permis de construire !** L’expérience Brico Dépôt, c’est la possibilité de s’épanouir dans des missions variées, d’évoluer dans son parcours p",
+   "description_snippet": "A propos de nous: **Chez Brico Dépôt, vous avez le permis de construire !** L’expérience Brico Dépôt, c’est la possibilité de s’épanouir dans des missions variées, d’évoluer dans son parcours professionnel, de travailler dans une ambiance conviviale tout en s’engageant pour les autres et la planète ! Rejoignez une aventure collective partagée par 9 000 collègues partout en France. Missions: **Une ",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=1b5333ddb10a93cb"
+     "url": "https://fr.indeed.com/viewjob?jk=a866be36f89d9ec7"
     }
    ],
    "first_seen": "2026-10-13"
@@ -21939,6 +22056,33 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/libheros/jobs/customer-success_paris"
+    }
+   ],
+   "first_seen": "2026-10-13"
+  },
+  {
+   "id": "b6252a1c1aa4559e",
+   "title": "Assistant(e)/secrétaire juridique",
+   "company": "Lacamp Avocat",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-13",
+   "salary": "29,000–33,000 EUR/yearly",
+   "description_snippet": "LACAMP AVOCAT est un cabinet d’avocat à taille humaine spécialisé en contentieux des affaires. Il intervient notamment dans des dossiers à dimension internationale, avec un fort axe France / Chine, pour le compte de nombreuses sociétés chinoises et françaises. Nous recherchons un(e) assistant(e) / secrétaire juridique afin d’accompagner le développement de notre activité. Le cabinet est actuelleme",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=193db6f607ab0909"
     }
    ],
    "first_seen": "2026-10-13"
