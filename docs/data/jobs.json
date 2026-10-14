@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-14T14:57:06Z",
+ "generated_at": "2026-10-14T20:28:55Z",
  "source_stats": {
-  "Indeed": 1148,
-  "Welcome to the Jungle": 3554,
-  "France Travail": 78,
+  "Indeed": 1192,
+  "Welcome to the Jungle": 3551,
+  "France Travail": 90,
   "APEC": 0,
-  "Isarta": 140
+  "Isarta": 141
  },
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1143,
- "new_today": 16,
+ "count": 1158,
+ "new_today": 31,
  "jobs": [
   {
    "id": "61712b666548d592",
@@ -3607,7 +3607,7 @@
   },
   {
    "id": "78130a5a56d91e6a",
-   "title": "CHEF DE PRODUIT - PAP Féminin- H / F",
+   "title": "Chef de Produit - PAP Féminin- H / F",
    "company": "Maison Stella & Suzie",
    "location": "Toulouse, O, France",
    "city": "Toulouse",
@@ -5577,6 +5577,98 @@
    "first_seen": "2026-10-14"
   },
   {
+   "id": "2af6ac0fc8f9ae3e",
+   "title": "Regional Marketing Manager France and Canada CDD 12 mois (d/f/m)",
+   "company": "Leica Biosystems",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "**Bring more to life.** Are you ready to accelerate your potential and make a real difference within life sciences, diagnostics and biotechnology? At Leica Biosystems, one of Danaher’s 15+ operating companies, our work saves lives—and we’re all united by a shared commitment to innovate for tangible impact. You’ll thrive in a culture of belonging where you and your unique viewpoint matter. And by h",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=848ae98e29859e16"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "b0af23cad4f6a1a0",
+   "title": "Product Marketing manager Digital ID F/H",
+   "company": "Thales",
+   "location": "Meudon, A8, France",
+   "city": "Meudon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement",
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Lieu : Meudon, France **Construisons ensemble un avenir de confiance** ------------------------------------------------ Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d’activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=18c9bd23160b2c22"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "0531387023070ebf",
+   "title": "Customer Experience Manager",
+   "company": "Nutanix",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "customer satisfaction"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "**Hungry, Humble, Honest, with Heart.** **The Opportunity** Are you an experienced customer-facing professional with a strong technical background and a passion for building relationships with mid-senior level stakeholders? If so, you would thrive in our newly established Customer Experience organization, where you can play a pivotal role in driving customer success, working alongside a collaborat",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d9d52a237d8f6f24"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
    "id": "edf390554a2493ec",
    "title": "Growth Manager Inbound",
    "company": "Riot Security",
@@ -6820,6 +6912,32 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "c4a600c8989f0faa",
+   "title": "customer success specialist F/H",
+   "company": "Walter Learning",
+   "location": "Marseille",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "customer success specialist F/H <p>Vous avez :</p> <ul type=\"disc\"> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">un go&ucirc;t pour la vente, la relation client et les objectifs commerciaux</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">une tr&egrave;s bonne capacit&eacute; d&rsquo;&eacute;coute active et de compr&eacute;hension des besoins</p> </li> <li",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/customer-success-specialist-f-h_marseille_WL_3z6zZ42"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "cbc47eadcb2051ce",
    "title": "Customer Success Manager",
    "company": "Mayday",
@@ -6848,32 +6966,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/mayday/jobs/customer-success-manager-smb_paris"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
-   "id": "c4a600c8989f0faa",
-   "title": "customer success specialist F/H",
-   "company": "Walter Learning",
-   "location": "Marseille",
-   "city": "Marseille",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-10-12",
-   "salary": null,
-   "description_snippet": "customer success specialist F/H <p>Vous avez :</p> <ul type=\"disc\"> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">un go&ucirc;t pour la vente, la relation client et les objectifs commerciaux</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">une tr&egrave;s bonne capacit&eacute; d&rsquo;&eacute;coute active et de compr&eacute;hension des besoins</p> </li> <li",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/customer-success-specialist-f-h_marseille_WL_3z6zZ42"
     }
    ],
    "first_seen": "2026-10-01"
@@ -8531,6 +8623,94 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=d28b8184ee6f32d1"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "9ddc8d525507f2e3",
+   "title": "Key Account Manager / Customer Success Manager (Sud-Est) - Responsable Grands Comptes",
+   "company": "Tilak Healthcare",
+   "location": "Marseille",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Key Account Manager / Customer Success Manager (Sud-Est) - Responsable Grands Comptes * 3 ans d’expérience professionnelle sur un poste similaire * Une forte motivation pour nous accompagner dans le développement de la médecine digitale * Un esprit curieux et de très bonnes capacités de communication * La capacité d’adapter votre discours en fonction de votre interlocuteur et de rendre simple les ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/tilak-healthcare/jobs/key-account-manager-centre-est-responsable-grands-comptes_paris_TH_wg3dxmo"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "dff41c251cdfb838",
+   "title": "Chef de projet CRM (F/H) h/f",
+   "company": "",
+   "location": "44 - Vertou",
+   "city": "44 - Vertou",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "marketing automation",
+    "newsletter"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Chez Maisons du Monde, nous donnons vie aux inspirations ! Engagés pour un commerce plus responsable, nous intégrons la RSE au cœur de notre activité et de nos créations, avec des initiatives pour la protection de l'environnement et le soutien aux communautés locales. Nous sommes également engagés pour nos Collaboratrices durant leur parcours de vie : parentalité, santé, équilibre vie pro/perso, é",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "http://www.missionhandicap.com/emploi/R18996_1791914186#utm_source=PoleEmploi"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "dfb39abb690444fb",
+   "title": "Chef de projet CRM (F/H) h/f",
+   "company": "",
+   "location": "44 - Vertou",
+   "city": "44 - Vertou",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "marketing automation",
+    "newsletter"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Chez Maisons du Monde, nous donnons vie aux inspirations ! Engagés pour un commerce plus responsable, nous intégrons la RSE au cœur de notre activité et de nos créations, avec des initiatives pour la protection de l'environnement et le soutien aux communautés locales. Nous sommes également engagés pour nos Collaboratrices durant leur parcours de vie : parentalité, santé, équilibre vie pro/perso, é",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "http://www.missionhandicap.com/emploi/R18996_1791913970#utm_source=PoleEmploi"
     }
    ],
    "first_seen": "2026-10-14"
@@ -11897,6 +12077,65 @@
    "first_seen": "2026-09-14"
   },
   {
+   "id": "52cc1d7fe46527d0",
+   "title": "Sales & Marketing Ops - @Ensol",
+   "company": "Breega",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation",
+    "hubspot",
+    "processus",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "**L’ambition d’Ensol : devenir le leader de l'électrification résidentielle et construire la plus grande** **centrale électrique virtuelle de France.** Chez Ensol, notre ambition est de devenir le leader de l'électrification résidentielle et de construire la plus grande centrale électrique virtuelle de France. Nous accélérons la transition énergétique en rendant accessibles aux particuliers les pa",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ac197bfd435f5142"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "e542ba4d1a10999d",
+   "title": "Customer Success Manager H/F - Montpellier",
+   "company": "",
+   "location": "34 - Montpellier",
+   "city": "34 - Montpellier",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Vos missions : Accompagner les nouveaux clients dans l'onboarding et la configuration des outils comptables. Former les utilisateurs (clients et collaborateurs internes) aux solutions digitales (comptabilité, facturation, pilotage). Suivre l'adoption et l'usage des plateformes, analyser les retours clients et proposer des améliorations. Identifier les besoins complémentaires (intégrations, automat",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/56302463?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
    "id": "b1adfa74dcd82052",
    "title": "Chef de produit H/F (périmètre E-commerce)",
    "company": "Home Heritage",
@@ -12209,7 +12448,7 @@
    "score": 8,
    "date_posted": "2026-10-12",
    "salary": "45,000–50,000 EUR/yearly",
-   "description_snippet": "**Date de publication :** Oct 12, 2026, 10:18AM Quelles sont les activités du poste ? * Analyse et identification : réaliser et conduire des analyses quantitatives et qualitatives pour repérer les points de friction dans les parcours digitaux, puis transformer ces insights en pistes d’optimisation (quick wins, tests A/B, personnalisations) * Méthodologie et processus : définir et mettre en œuvre u",
+   "description_snippet": "**Date de publication :** Oct 12, 2026, 10:18AM **Durée du contrat :** Quelles sont les activités du poste ? * Analyse et identification : réaliser et conduire des analyses quantitatives et qualitatives pour repérer les points de friction dans les parcours digitaux, puis transformer ces insights en pistes d’optimisation (quick wins, tests A/B, personnalisations) * Méthodologie et processus : défin",
    "sources": [
     {
      "name": "Indeed",
@@ -15545,6 +15784,89 @@
    "first_seen": "2026-10-14"
   },
   {
+   "id": "f6bf802838c72f22",
+   "title": "Opérateur logistiques - Bilingue Chinois H/F",
+   "company": "Gofo France",
+   "location": "Marly-la-Ville, A8, France",
+   "city": "Marly-La-Ville",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "* **Les missions du poste** Ce poste est principalement chargé de la coordination des opérations logistiques sur le site de sortie de stock et de la gestion de la production, afin de garantir que les marchandises, les véhicules et les ressources de livraison puissent être sortis de stock et expédiés sans heurts conformément au plan. Les principales responsabilités sont les suivantes : · Assurer le",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0d31669c016bd694"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "5ba4085407a8a613",
+   "title": "Chef de projet CRM (F/H)",
+   "company": "",
+   "location": "69 - Lyon",
+   "city": "69 - Lyon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Notre client est une entreprise de dimension internationale évoluant dans un environnement technique réglementé. Elle intervient dans la conception, la production et la distribution de solutions spécialisées destinées à une clientèle professionnelle. Son organisation s'appuie sur des équipes pluridisciplinaires et des processus structurés, avec des enjeux importants en matière de qualité, de confo",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/56693472?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "3c429dcba6353db9",
+   "title": "Customer Success Manager (H/F)",
+   "company": "FIVES INTRALOGISTICS",
+   "location": "38 - Chasse-sur-Rhône",
+   "city": "38 - Chasse-Sur-Rhone",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-14",
+   "salary": "Mensuel de 40000.0 Euros",
+   "description_snippet": "Fives Intralogistics SAS recherche activement un Customer Service Manager F/H pour venir renforcer ses équipes à Chasse sur rhône, en CDI. Chez Fives, nous sommes toutes et tous portés par une vocation commune, celle de faire aimer l'industrie ! Ensemble, nous œuvrons au quotidien pour faire de l'industrie une réponse aux grands défis de notre temps : technologiques, environnementaux, sociétaux, é",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://candidat.francetravail.fr/offres/recherche/detail/215GFJM"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
    "id": "abf89ff684922bed",
    "title": "Senior Consumer, Market Insights & Business Analyst - M/F/X",
    "company": "Accor Tech & Digital",
@@ -15590,7 +15912,9 @@
     "marketing_produit"
    ],
    "skills": [],
-   "bonus_tags": [],
+   "bonus_tags": [
+    "international"
+   ],
    "score": 6,
    "date_posted": "2026-10-13",
    "salary": null,
@@ -19792,6 +20116,36 @@
    "first_seen": "2026-09-24"
   },
   {
+   "id": "73a4b68e33dd1e9d",
+   "title": "Product Marketing Lead - H/F",
+   "company": "WALLIX",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Product Marketing Lead - H/F <p><strong>Expérience et compétences</strong></p><ul><li><strong>8 ans ou plus d’expérience en Product Marketing</strong>, idéalement dans les secteurs du logiciel B2B, de la cybersécurité, de l’IAM, du PAM ou de l’IT d’entreprise.</li><li>Expérience avérée dans le management ou le mentoring de professionnels du Product Marketing.</li><li>Leadership fort et inspirant :",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/wallix/jobs/product-marketing-lead-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-09-23"
+  },
+  {
    "id": "207cfe0c8647c137",
    "title": "CDI - Product Marketing Manager - Activation & Adoption - (H/F/N) Edtech à impact",
    "company": "My Job Glasses",
@@ -20175,36 +20529,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/avril-fr/jobs/chef-cheffe-de-produit-vivien-paille-retail_valenciennes"
-    }
-   ],
-   "first_seen": "2026-09-23"
-  },
-  {
-   "id": "73a4b68e33dd1e9d",
-   "title": "Product Marketing Lead - H/F",
-   "company": "WALLIX",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 6,
-   "date_posted": "2026-08-11",
-   "salary": null,
-   "description_snippet": "Product Marketing Lead - H/F <p><strong>Expérience et compétences</strong></p><ul><li><strong>8 ans ou plus d’expérience en Product Marketing</strong>, idéalement dans les secteurs du logiciel B2B, de la cybersécurité, de l’IAM, du PAM ou de l’IT d’entreprise.</li><li>Expérience avérée dans le management ou le mentoring de professionnels du Product Marketing.</li><li>Leadership fort et inspirant :",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/wallix/jobs/product-marketing-lead-h-f_paris"
     }
    ],
    "first_seen": "2026-09-23"
@@ -21283,6 +21607,33 @@
     }
    ],
    "first_seen": "2026-10-14"
+  },
+  {
+   "id": "5cba21b06fd35408",
+   "title": "Growth Marketing Corporate - France",
+   "company": "Doctrine",
+   "location": "Paris (75)",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "",
+   "sources": [
+    {
+     "name": "Isarta",
+     "url": "https://isarta.fr/?job=76537"
+    }
+   ],
+   "first_seen": "2026-10-14",
+   "date_assumed": true
   },
   {
    "id": "2163fe0974eff803",
@@ -26428,6 +26779,60 @@
    "first_seen": "2026-09-14"
   },
   {
+   "id": "eba69e37dad90976",
+   "title": "Ambassadeur expert soins de la peau - h/f",
+   "company": "Globe Travel Retail",
+   "location": "Tremblay-en-France, A8, France",
+   "city": "Tremblay-En-France",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-14",
+   "salary": "12–14 EUR/hourly",
+   "description_snippet": "**Description entreprise :** ============================ **GLOBE TRAVEL RETAIL**, filiale de **GLOBE GROUPE**, accompagne les marques internationales dans le développement de leurs ventes et l’activation des voyageurs au sein des aéroports et zones Duty Free à travers toute l’Europe. Dans l’univers exigeant du Travel Retail, **GLOBE TRAVEL RETAIL** combine forces de vente, activations de marque e",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e5c7ff8098d1f05f"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "7412892738c41e20",
+   "title": "Pilote de Flux Logistiques – Constructeurs Automobiles Chinois H/F",
+   "company": "Groupe CAT",
+   "location": "Gonfreville-l'Orcher, N, France",
+   "city": "Gonfreville-L'Orcher",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-14",
+   "salary": "40,000–45,000 EUR/yearly",
+   "description_snippet": "**DONNEZ UN NOUVEL ELAN A VOTRE CARRIERE !** Chez nous, chaque talent compte. Rejoindre nos équipes, c’est intégrer un environnement dynamique, innovant et en pleine évolution, où chacun a l’opportunité de grandir, de s’exprimer et de faire la différence. Que vous soyez débutant(e) ou expérimenté(e), nous vous proposons un environnement collaboratif, des missions variées et de réelles perspectives",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5d11847235f5c773"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
    "id": "958b3f6281f6d4d7",
    "title": "Chef de Produit Pates H/F",
    "company": "Hellowork",
@@ -30783,6 +31188,36 @@
     }
    ],
    "first_seen": "2026-09-14"
+  },
+  {
+   "id": "701f0309f6360389",
+   "title": "Head of Product Data",
+   "company": "Scaleway",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "**OUR STORY:** Join Scaleway and shape the sovereign cloud of tomorrow ! Since 1999, we have been designing secure, sustainable infrastructures aimed at supporting the most ambitious companies. Historically known for our dedicated servers (Dedibox), we made a strategic shift to cloud computing in 2015. Staying true to our principles of simplicity, flexibility, and technical excellence, we have bec",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=70f260ba23df6584"
+    }
+   ],
+   "first_seen": "2026-10-14"
   },
   {
    "id": "6bcc924f9226fc78",
