@@ -1,8 +1,13 @@
 # Jo's Chasse 📡
 
 每天自動抓取法國求職平台，篩出六類行銷職缺（Marketing Operations、Performance
-Marketing、CRM、Customer、Marketing Analytics、Marketing Produit），再加上明確要求
-中文的職缺（不限職類），發布成可篩選的靜態網站。
+Marketing、CRM、Customer、Marketing Analytics、Marketing Produit）與六類業務／客戶職缺
+（Account Management、Sales Ops、BizDev APAC、International Project、Community、
+Taiwan / APAC），再加上明確要求中文的職缺（不限職類），發布成可篩選的靜態網站。
+
+業務類的職稱在法國很多，所以 BizDev APAC、International Project、Community 要帶
+亞洲／國際脈絡才收（例如 Account Executive - APAC、International Project Coordinator、
+描述要求多語的 Community Manager），規則見 `keywords.yml` 的 `require_title`／`require_text`。
 
 網站：https://yenchou.github.io/jobradar/
 

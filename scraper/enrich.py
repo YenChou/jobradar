@@ -1,7 +1,8 @@
 """過濾、分類、加權、去重 — pipeline 的核心邏輯。
 
 規則全部來自 keywords.yml（見規劃書第 3 節）：
-- 職稱關鍵字 → 分類（一個職缺可屬多類；職稱沒中再用描述補判，title_only 的類別除外）
+- 職稱關鍵字 → 分類（一個職缺可屬多類；職稱沒中再用描述補判，title_only 的類別除外；
+  有 require_title／require_text 的類別還要帶亞洲／國際脈絡）
 - 職類全沒中 → 不收；例外是明確要求中文的職缺（bonus_tags 的 keep_keywords）
 - 技能關鍵字 → 描述加分
 - Stage/Alternance → 硬性排除
@@ -47,7 +48,12 @@ def classify(job: dict, cfg: dict) -> dict | None:
     for key, cat in cfg["categories"].items():
         if any(re.search(rf"\b{re.escape(kw)}\b", title_n) for kw in cat.get("exclude_title") or []):
             continue  # 這一類的排除詞（例如 Customer 不收客服中心的 conseiller／agent）
-        matched = any(kw in title_n for kw in cat["title_keywords"])
+        matched = any(_hit(kw, title_n, cat.get("whole_word")) for kw in cat["title_keywords"])
+        if matched and (cat.get("require_title") or cat.get("require_text")):
+            # 寬泛的職稱（Business Developer、Chef de projet）要帶亞洲／國際脈絡才算：
+            # require_title 只看職稱，require_text 看職稱＋描述，都是整字比對，命中一個就行
+            matched = (any(_hit(kw, title_n, True) for kw in cat.get("require_title", []))
+                       or any(_hit(kw, text_n, True) for kw in cat.get("require_text", [])))
         if not matched and not cat.get("title_only"):
             # 描述補判：標題泛稱（如 "Marketing Specialist"）但描述明確時仍可歸類
             matched = sum(1 for kw in cat["title_keywords"] if kw in desc_n) >= 1 and "marketing" in text_n
@@ -108,6 +114,13 @@ def classify(job: dict, cfg: dict) -> dict | None:
         # 前端 JSON.parse 失敗後整個網站空白。
         "sources": [{"name": clean_str(job["source"]), "url": clean_str(job.get("url"))}],
     }
+
+
+def _hit(kw: str, text: str, whole_word: bool | None) -> bool:
+    """whole_word：前後不能接字母或數字（"chine" 不中 "machine"、"bdr" 不中別的字）。"""
+    if whole_word:
+        return re.search(rf"(?<![a-z0-9]){re.escape(kw)}(?![a-z0-9])", text) is not None
+    return kw in text
 
 
 def _bonus_tags(text_n: str, cfg: dict) -> tuple[list[str], bool]:

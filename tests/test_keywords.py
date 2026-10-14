@@ -178,6 +178,50 @@ r = run("Customer Success Manager", "Réduire le churn, suivre le NPS.")
 ok({"churn", "nps"} <= set(r["skills"]), f"Customer 的技能關鍵字加分：{r['skills']}")
 ok(cfg["categories"]["customer"]["label"] == "Customer", "職類名稱是 Customer")
 
+# ── 業務／客戶職類（Account Management、Sales Ops、BizDev APAC…）──
+print()
+print("── 業務／客戶職類 ──")
+terms_raw = cfg["search_terms"]
+for t in ["Account Manager mandarin", "Customer Success Chinese", "APAC sales", "Sales Operations",
+          "Taiwan", "Client Development", "Key Account trilingue", "International Business Developer"]:
+    ok(t in terms_raw, f"搜尋詞有 {t!r}")
+for title, desc, want in [
+    ("Account Manager (H/F)", "", "account_management"),
+    ("Junior Account Manager", "", "account_management"),
+    ("Key Account Manager trilingue", "", "account_management"),
+    ("Client Relations Manager - Mandarin speaking", "", "account_management"),
+    ("Responsable grands comptes", "", "account_management"),
+    ("Client Development Manager", "", "account_management"),
+    ("Sales Operations Specialist", "", "sales_operations"),
+    ("Revenue Operations Analyst", "", "sales_operations"),
+    ("Account Executive - APAC", "", "business_development"),
+    ("Account Executive", "You will cover Greater China clients.", "business_development"),
+    ("Business Development Representative (BDR) - APAC", "", "business_development"),
+    ("International Business Developer", "", "business_development"),
+    ("Partnership Manager - Asia", "", "business_development"),
+    ("Responsable export", "", "business_development"),
+    ("International Project Coordinator", "", "international_project"),
+    ("Chef de projet international (H/F)", "", "international_project"),
+    ("Community Manager", "Profil multilingue (français, anglais, mandarin).", "community"),
+    ("Office Manager Taiwan", "", "taiwan_apac"),
+    ("Marketing Coordinator APAC", "", "taiwan_apac"),
+    ("Supply Chain Analyst Asie-Pacifique", "", "taiwan_apac"),
+]:
+    c = cats(title, desc)
+    ok(c is not None and want in c, f"{title} → {c}")
+for title, desc, why in [
+    ("Business Developer (H/F)", "Groupe international, prospection en France.",
+     "Business Developer 沒有亞洲脈絡（描述的 international 不算）"),
+    ("Account Executive", "Clients PME en Île-de-France.", "Account Executive 沒有亞洲脈絡"),
+    ("Chef de projet IT (H/F)", "Projet avec nos équipes en Chine.", "chef de projet 要職稱帶國際"),
+    ("Community Manager (H/F)", "Anglais courant.", "一般 community manager"),
+    ("Technicien de maintenance machine", "", "machine 不是 chine（整字比對）"),
+    ("Conseiller Account Manager (H/F)", "", "客服中心的 conseiller"),
+]:
+    ok(cats(title, desc) is None, f"不收：{why}")
+c = cats("Chargé de marketing produit", "En lien avec les account managers et sales operations.")
+ok(c == ["marketing_produit"], f"新職類只看職稱：描述提到 account managers 不會掛上 → {c}")
+
 # ── 英文實習（intern）要排除，但 international、interne 不能被誤殺 ──
 print()
 print("── intern 整字排除 ──")

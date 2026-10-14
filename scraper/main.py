@@ -44,6 +44,8 @@ def load_cfg() -> dict:
         cat["title_keywords"] = [norm(k) for k in cat["title_keywords"]]
         cat["skill_keywords"] = [norm(k) for k in cat["skill_keywords"]]
         cat["exclude_title"] = [norm(k) for k in cat.get("exclude_title") or []]
+        for key in ("require_title", "require_text"):
+            cat[key] = [norm(k) for k in cat.get(key) or []]
     for tag in cfg.get("bonus_tags", {}).values():
         # `or []`：清單項目全被註解掉時 YAML 給的是 None，不擋的話整輪抓取會直接崩潰
         for key in ("skill_keywords", "keep_keywords", "ignore_phrases"):
