@@ -430,7 +430,7 @@ function allJobs(){
   const manualJobs = manual.map(m => ({
     id: m.id, title: m.title, company: m.company, location: m.location || "",
     city: m.location || "", region: "unknown", work_mode: null, contract: null,
-    categories: [], skills: [], bonus_tags: [], score: 999,  // 手動加入的排最前面
+    categories: [], skills: [], bonus_tags: [], score: 999,  // 同一天的職缺裡，手動加入的排最前面
     date_posted: m.added, first_seen: m.added, salary: null,
     description_snippet: m.note || "", sources: [{ name: "手動加入", url: m.url }],
     _manual: true,
@@ -481,6 +481,8 @@ function render(){
     }
     return true;
   });
+  // 依公告日期排，新的在前；同一天的再依分數（手動加入的分數最高，排在同一天的最前面）
+  jobs.sort((a, b) => postedOf(b).localeCompare(postedOf(a)) || (b.score || 0) - (a.score || 0));
 
   // 分頁
   const totalPages = Math.max(1, Math.ceil(jobs.length / state.perPage));

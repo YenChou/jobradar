@@ -196,7 +196,7 @@ def main() -> int:
             j["date_posted"] = j.get("first_seen") or today
             j["date_assumed"] = True
 
-    # 排序：分數高在前，同分者新的在前
+    # 排序：分數高在前，同分者新的在前（網站畫面另外依公告日期重排，見 docs/index.html 的 render）
     jobs.sort(key=lambda j: (-j["score"], _desc(j.get("first_seen")), _desc(j.get("date_posted"))))
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
