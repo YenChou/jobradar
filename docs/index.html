@@ -261,7 +261,7 @@
 
   <section id="view-archive" hidden>
     <div class="archbar">
-      <input type="search" id="aq" placeholder="搜尋封存的職缺⋯" aria-label="搜尋封存">
+      <input type="search" id="aq" placeholder="搜尋職稱、公司、城市⋯" aria-label="搜尋封存">
       <span id="arch-count"></span>
       <button id="arch-todo" aria-pressed="false">只看待聯絡</button>
       <button id="arch-export">匯出備份</button>
@@ -387,7 +387,7 @@ function init(){
   }));
   let t;
   document.getElementById("q").addEventListener("input", e => {
-    clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); state.page = 1; render(); }, 150);
+    clearTimeout(t); t = setTimeout(() => { state.q = e.target.value; state.page = 1; render(); }, 150);
   });
   const pp = document.getElementById("perpage");
   pp.value = String(state.perPage);
@@ -475,10 +475,7 @@ function render(){
     if (state.tag.size && ![...state.tag].every(t => (j.bonus_tags || []).includes(t))) return false;
     const stt = statuses[j.id] || "none";
     if (state.status.size && !state.status.has(stt)) return false;
-    if (state.q) {
-      const hay = (j.title + " " + j.company + " " + j.location + " " + j.description_snippet).toLowerCase();
-      if (!hay.includes(state.q)) return false;
-    }
+    if (!matchQuery(state.q, [j.title, j.company, j.location, j.description_snippet])) return false;
     return true;
   });
   // 依公告日期排，新的在前；同一天的再依分數（手動加入的分數最高，排在同一天的最前面）
@@ -645,6 +642,20 @@ function archiveRemove(id){
 
 // 卡片上顯示的公告日期（沒有就用首次抓到日）。時間篩選、卡片、封存排序共用。
 // 只收字串：匯入的備份可能被手改過，數字或物件拿去比較會排錯。
+// 搜尋：不分大小寫、重音、引號與標點，空白隔開的每個字都要出現（順序不拘）——
+// 「societe generale」找得到 Société Générale、「l'oreal」找得到 L’Oréal、「yuri neil」找得到 YURI & NEIL
+function searchNorm(s){
+  return String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, " ");
+}
+function searchWords(q){ return searchNorm(q).split(" ").filter(Boolean); }
+function matchQuery(q, fields){
+  const words = searchWords(q);
+  if (!words.length) return true;
+  const hay = " " + searchNorm(fields.filter(x => x != null).join(" ")) + " ";
+  return words.every(w => hay.includes(w));
+}
+
 function postedOf(j){
   const s = v => typeof v === "string" ? v : "";
   return s(j.date_posted) || s(j.first_seen);
@@ -691,7 +702,7 @@ function setTab(name){
 
 function renderArchive(){
   document.getElementById("arch-n").textContent = archiveCount() ? "(" + archiveCount() + ")" : "";
-  const q = (document.getElementById("aq").value || "").trim().toLowerCase();
+  const q = document.getElementById("aq").value || "";
   // 還在 jobs.json 裡的視為仍上架；其餘標成已下架
   const live = new Set((DATA.jobs || []).map(j => j.id));
   const views = Object.entries(archive).map(([id, a]) => archiveView(id, a));
@@ -699,8 +710,8 @@ function renderArchive(){
   const broken = views.length - all.length;
   const todo = all.filter(a => !isContacted(a)).length;
   const rows = all
-    .filter(a => !q || [a.job.title, a.job.company, a.job.city || a.job.location]
-      .map(x => x == null ? "" : String(x)).join(" ").toLowerCase().includes(q))
+    .filter(a => matchQuery(q, [a.job.title, a.job.company, a.job.city, a.job.location,
+      a.job.description_snippet, ...a.job.sources.map(s => s.name)]))
     .filter(a => !archTodoOnly || !isContacted(a))
     // 待聯絡的排前面——這個分頁的用途就是看還有哪些沒做；
     // 同組內依卡片上顯示的公告日期新到舊，同一天再看封存日
@@ -717,7 +728,7 @@ function renderArchive(){
   if (archiveCount()) {
     parts.push("共 " + archiveCount() + " 筆");
     parts.push(todo ? todo + " 筆待聯絡" : "全部已聯絡 ✓");
-    if (q || archTodoOnly) parts.push("顯示 " + rows.length + " 筆");
+    if (searchWords(q).length || archTodoOnly) parts.push("顯示 " + rows.length + " 筆");
     if (broken) parts.push(broken + " 筆資料損壞無法顯示（仍保留，可匯出備份查看）");
   }
   document.getElementById("arch-count").textContent = parts.join("　·　");
