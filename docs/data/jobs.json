@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-16T14:34:58Z",
+ "generated_at": "2026-10-16T19:52:27Z",
  "source_stats": {
-  "Indeed": 1238,
-  "Welcome to the Jungle": 3556,
+  "Indeed": 1241,
+  "Welcome to the Jungle": 3571,
   "France Travail": 114,
   "APEC": 0,
-  "Isarta": 158
+  "Isarta": 159
  },
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1186,
- "new_today": 29,
+ "count": 1206,
+ "new_today": 49,
  "jobs": [
   {
    "id": "b7272db0106f9d2e",
@@ -1070,42 +1070,6 @@
    "first_seen": "2026-10-15"
   },
   {
-   "id": "2f14964cc1a8a7a8",
-   "title": "Fixed-term contract (6 months) - Product Marketing Manager Casino F/M",
-   "company": "Betclic Group",
-   "location": "Bordeaux, NA, France",
-   "city": "Bordeaux",
-   "region": "west",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_operations",
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "roadmap"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 20,
-   "date_posted": "2026-10-13",
-   "salary": null,
-   "description_snippet": "**WE ARE BETCLIC** Betclic, European leader in sports betting, is much more than just an online gaming site! Also offering Poker, Horse Racing, and Casino games across various countries and continents, it is an inspiring and forward-thinking company: every day brings new challenges in a modern and dynamic environment. As an influential player in the tech industry, with strong and sustained growth ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=5682f4364dcbd4eb"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/betclic/jobs/fixed-term-contract-6-months-product-marketing-manager-casino-f-m_bordeaux"
-    }
-   ],
-   "first_seen": "2026-10-13"
-  },
-  {
    "id": "46a522ed16eaad4b",
    "title": "Mobile User Acquisition Manager",
    "company": "medialicious",
@@ -1623,6 +1587,69 @@
    "first_seen": "2026-10-16"
   },
   {
+   "id": "0a5497741cc9377b",
+   "title": "Customer Success Manager Mid Market - CDI - Paris - H/F/X",
+   "company": "Partoo",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "cross-sell",
+    "retention",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 18,
+   "date_posted": "2026-10-16",
+   "salary": "47,060–53,000 EUR/yearly",
+   "description_snippet": "Après une phase de transformation réussie, Partoo (Saas B2B/ 40M ARR) entre en 2026 dans une nouvelle étape clé : celle de l’accélération. Nous sommes aujourd’hui une scale-up européenne solide, rentable et en croissance, avec une ambition claire : devenir la référence de l’expérience client locale pour les réseaux de points de vente. Notre mission est simple : aider les entreprises à mieux gérer ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ce8a6826e14f4280"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "388508645d2d2d47",
+   "title": "Customer Success Specialist B2C",
+   "company": "Octopus Energy",
+   "location": "Lille, HDF, France",
+   "city": "Lille",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 18,
+   "date_posted": "2026-10-16",
+   "salary": "29,500–29,500 EUR/yearly",
+   "description_snippet": "**Tu as envie de travailler dans un environnement bienveillant qui avance vite ?** 5ème fournisseur français en 10 ans, Octopus Energy est un fournisseur d’énergies renouvelables qui agit comme un véritable fer de lance pour la révolution électro tech. **Comment on fait ?** On ne peut pas révolutionner le monde en travaillant comme tout le monde On essaye de ne pas trop se prendre la tête, ici on ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b547bee2da2a34ab"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "ce77374e97bd7933",
    "title": "Web Analyst (H/F)",
    "company": "La Voix Groupe",
@@ -2078,6 +2105,34 @@
     {
      "name": "France Travail",
      "url": "https://api-v2-multidiff.xtramile.io/collect/c5f5a221c0e5d4cdec69d02325072921"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "8b2c6ec59bbb89d9",
+   "title": "PRODUCT OWNER IT Salesforce H/F – Bordeaux – CDI",
+   "company": "Credit Mutuel Arkea",
+   "location": "Bordeaux, NA, France",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-10-16",
+   "salary": "45,000–55,000 EUR/yearly",
+   "description_snippet": "**Description du poste** ------------------------ ### **Métier** METIERS - Projets / Études / MOA/ Chef de produit ### **Intitulé du poste** PRODUCT OWNER IT Salesforce H/F – Bordeaux – CDI ### **Contrat** CDI ### **Rémunération (brut/an en €) (hors package social)** 45000-55000 ### **Votre mission** **Vous intégrerez la squad CRM composée de :** * 2 **PO IT de proximité** (interface clients filia",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=cc6c5a44d3e3d758"
     }
    ],
    "first_seen": "2026-10-16"
@@ -3707,11 +3762,11 @@
    "score": 14,
    "date_posted": "2026-10-16",
    "salary": "80,000–100,000 EUR/yearly",
-   "description_snippet": "Fondé en 1969, **Cegedim** est un Groupe innovant de technologies et de services spécialisé dans la gestion des flux numériques de l’écosystème santé et BtoB, ainsi que dans la conception de logiciels métier destinés aux professionnels de santé et de l’assurance. Cegedim compte près de 6 500 collaborateurs dans plus de 10 pays et a réalisé un chiffre d’affaires de **649,2 millions d’euros** en 202",
+   "description_snippet": "* CDI * Temps plein * Entre 80000€ et 100000€ brut/an * Au moins 5 ans d'expérience * Master, Bac+5 * Communication / Digital / RP **Contexte** ------------ Fondé en 1969, **Cegedim** est un Groupe innovant de technologies et de services spécialisé dans la gestion des flux numériques de l’écosystème santé et BtoB, ainsi que dans la conception de logiciels métier destinés aux professionnels de sant",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=ea34b55ce28ee79a"
+     "url": "https://fr.indeed.com/viewjob?jk=a24b79aedec8119e"
     }
    ],
    "first_seen": "2026-10-16"
@@ -3797,6 +3852,67 @@
     {
      "name": "France Travail",
      "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6a8c4c53a9f7e898624c72d2/chargé-chargée-d-acquisition-online"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "0305a3c27a2716aa",
+   "title": "Customer Success Manager - ITA Logistique SAS",
+   "company": "LetMeShip",
+   "location": "Saint-Herblain, B5, France",
+   "city": "Saint-Herblain",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "cross-sell",
+    "satisfaction client",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-16",
+   "salary": "26,000–30,000 EUR/yearly",
+   "description_snippet": "Saint-Herblain Temps plein Contrat à durée indéterminée (CDI) 26 000 - 30 000 € par an **Votre mission** ----------------- En intégrant l’équipe Customer Success, vous assurez la **fidélisation et le développement** d’un portefeuille de clients B2B. **Votre objectif :** maximiser la satisfaction client, limiter le churn et développer la valeur client grâce à un accompagnement personnalisé et des a",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fcbf4d4444171e62"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "9d6930854b0273b4",
+   "title": "Chef de Produits Viennoiserie (H/F)",
+   "company": "GROUPE LE DUFF",
+   "location": "Rennes, A2, France",
+   "city": "Rennes",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-15",
+   "salary": null,
+   "description_snippet": "**Mission** ----------- Rattaché à la Responsable Marketing Offre & Innovation de chez Bridor, vos missions principales sont les suivantes : * Elaboration et déploiement du plan d’innovation et de rénovation des gammes Viennoiseries pour les marchés France et International, en collaboration avec les équipes R&D, Qualité, Achats, Contrôle de Gestion... * Mise en place des plans de lancement de ces ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=85203017f70c304e"
     }
    ],
    "first_seen": "2026-10-16"
@@ -3898,6 +4014,32 @@
     }
    ],
    "first_seen": "2026-10-14"
+  },
+  {
+   "id": "2f14964cc1a8a7a8",
+   "title": "Fixed-term contract (6 months) - Product Marketing Manager Casino F/M",
+   "company": "Betclic Group",
+   "location": "Bordeaux",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Fixed-term contract (6 months) - Product Marketing Manager Casino F/M",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/betclic/jobs/fixed-term-contract-6-months-product-marketing-manager-casino-f-m_bordeaux"
+    }
+   ],
+   "first_seen": "2026-10-13"
   },
   {
    "id": "77db7c0d00d2b290",
@@ -7544,7 +7686,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 12,
-   "date_posted": "2026-10-14",
+   "date_posted": "2026-10-16",
    "salary": null,
    "description_snippet": "customer success specialist F/H <p>Vous avez :</p> <ul type=\"disc\"> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">un go&ucirc;t pour la vente, la relation client et les objectifs commerciaux</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">une tr&egrave;s bonne capacit&eacute; d&rsquo;&eacute;coute active et de compr&eacute;hension des besoins</p> </li> <li",
    "sources": [
@@ -9063,6 +9205,39 @@
    "first_seen": "2026-10-16"
   },
   {
+   "id": "f582fb419413b8f8",
+   "title": "Customer Success Manager - ITA Logistique SAS",
+   "company": "ITA Logistics Group",
+   "location": "Saint-Herblain, B5, France",
+   "city": "Saint-Herblain",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "cross-sell",
+    "satisfaction client",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-16",
+   "salary": "26,000–30,000 EUR/yearly",
+   "description_snippet": "#### **Votre mission** En intégrant l’équipe Customer Success, vous assurez la **fidélisation et le développement** d’un portefeuille de clients B2B. **Votre objectif :** maximiser la satisfaction client, limiter le churn et développer la valeur client grâce à un accompagnement personnalisé et des actions ciblées d’upsell / cross-sell. #### **Vos responsabilités** * Cogérer un portefeuille clients",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=45dc24a525a8dc23"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "3dafc2fbfc399623",
    "title": "Sales Development Representative",
    "company": "Mandarin Blueprint",
@@ -10519,6 +10694,38 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "5b748ab572aa93ed",
+   "title": "Customer Experience (CX) & Satisfaction Manager",
+   "company": "Evaneos",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "csat",
+    "customer satisfaction",
+    "nps"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "Customer Experience (CX) & Satisfaction Manager **You may be a great fit for this position if:** * You have 5 to 7 years of experience in B2C Customer Insights, B2C Customer Experience, or a satisfaction-focused analytical role, ideally within a marketplace, travel, or services environment. * You've already designed, rolled out, and analyzed customer satisfaction surveys at scale, with a track rec",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/evaneos/jobs/customer-insights-satisfaction-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "2c648e4b19314b41",
    "title": "Traffic Manager",
    "company": "LeLynx.fr",
@@ -11066,38 +11273,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/crowe-rsa/jobs/comptables-juniors-et-ou-experimentes-bilingues-chinois-h-f_paris"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
-   "id": "5b748ab572aa93ed",
-   "title": "Customer Experience (CX) & Satisfaction Manager",
-   "company": "Evaneos",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "csat",
-    "customer satisfaction",
-    "nps"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-08-13",
-   "salary": null,
-   "description_snippet": "Customer Experience (CX) & Satisfaction Manager **You may be a great fit for this position if:** * You have 5 to 7 years of experience in B2C Customer Insights, Customer Experience, Market Research, or a satisfaction-focused analytical role, ideally within a marketplace, travel, or services environment. * You've already designed, rolled out, and analyzed customer satisfaction surveys at scale, wit",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/evaneos/jobs/customer-insights-satisfaction-manager_paris"
     }
    ],
    "first_seen": "2026-10-01"
@@ -12542,6 +12717,69 @@
     }
    ],
    "first_seen": "2026-09-16"
+  },
+  {
+   "id": "6e0b136c9c8b7c73",
+   "title": "CHEF DE PRODUIT GLOBAL RETAIL & TRADE MARKETING",
+   "company": "Expanscience",
+   "location": "La Défense, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "**Each person's potential contributes to success for all! We're Hiring!** **Job Description :** **CHEF DE PRODUIT GLOBAL RETAIL & TRADE MARKETING / GLOBAL RETAIL & TRADE MARKETING PROJECT MANAGER** **Mission** As a member of the Global Brand Experience team, you will shape and drive Mustela's retail excellence strategy across all channels and markets. You will be responsible for defining the globa",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1aa384ff1de7e65f"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/expanscience/jobs/chef-de-produit-global-retail-trade-marketing_courbevoie"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "6da0824748da3c6e",
+   "title": "Customer Success Manager (France)",
+   "company": "CM.COM",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "cross-sell",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "We turn every customer interaction into an opportunity. We connect conversations, customer data and payments with AI Agents so that companies can deliver personal customer journeys at scale: both online and in person. “The entire customer journey. One platform” **What we value** ----------------- Every CM.com colleague, connects to our **4 shared values**: ***Drive and Lead*** You take initiative,",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c4c2245b7a6b2c9f"
+    }
+   ],
+   "first_seen": "2026-10-16"
   },
   {
    "id": "71e1b16648f0143d",
@@ -16203,34 +16441,6 @@
    "first_seen": "2026-10-16"
   },
   {
-   "id": "6e0b136c9c8b7c73",
-   "title": "CHEF DE PRODUIT GLOBAL RETAIL & TRADE MARKETING",
-   "company": "Expanscience",
-   "location": "Courbevoie",
-   "city": "Courbevoie",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "CHEF DE PRODUIT GLOBAL RETAIL & TRADE MARKETING <p><span style=\"color: #000000;\"><strong>Leadership Expectations</strong></span></p> <p style=\"color: !important;\"><span style=\"color: #000000;\">The role requires:</span></p> <ul> <li><span style=\"color: #000000;\">Ability to connect brand, commercial and consumer objectives </span></li> </ul> <ul> <li><span style=\"color: #000000;\">Cross-functional co",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/expanscience/jobs/chef-de-produit-global-retail-trade-marketing_courbevoie"
-    }
-   ],
-   "first_seen": "2026-10-16"
-  },
-  {
    "id": "269a6660fc7ceb11",
    "title": "Chef de produit nouvelles plateformes, CDD, H/F",
    "company": "PepsiCo France",
@@ -16287,6 +16497,184 @@
    "first_seen": "2026-10-16"
   },
   {
+   "id": "e51c67d3595dfdd3",
+   "title": "Customer Success Manager Digital - France (m/f/d)",
+   "company": "Matrix42",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "cross-sell",
+    "retention",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "#### **Your mission** **Build digital customer journeys that improve adoption, retention and growth.** Matrix42 is the European choice in Intelligent Service Management (ISM). We help organizations realize the full potential of their technology and service management investments. We are establishing a global, company-wide Customer Success organization with a clear business value focus and a strong",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=95c21a2f690c3458"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "77d8e40cfdd8ed86",
+   "title": "Digital Manager",
+   "company": "H COMPANY",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "**About H:** H Company is a next-generation AI research and product company pioneering the future of autonomous, agentic AI. Founded to build intelligence that acts, H Company is creating the foundational infrastructure for autonomous AI systems that drive real-world outcomes across industries. **The Role** ------------ Large enterprises find H through a referral, an event or a headline, and then ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=49db695528b7c9d5"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "0550069da8c73338",
+   "title": "Content Manager",
+   "company": "H COMPANY",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "**About H:** H Company is a next-generation AI research and product company pioneering the future of autonomous, agentic AI. Founded to build intelligence that acts, H Company is creating the foundational infrastructure for autonomous AI systems that drive real-world outcomes across industries. **The Role** Today, H is known for its story: its founders, its funding rounds, its press. We want it to",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=64a000c92d3e9c3a"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "ba8d13fe7dc3b102",
+   "title": "Customer Success Manager Scaled Accounts - France (m/f/d)",
+   "company": "Matrix42",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "cross-sell",
+    "retention",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "#### **Your mission** **Deliver customer value and commercial impact across a broad portfolio.** Matrix42 is the European choice in Intelligent Service Management (ISM). We help organizations realize the full potential of their technology and service management investments. We are establishing a global, company-wide Customer Success organization with a clear business value focus and a strong comme",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=04e2eb4426a05f21"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "cf261f92df0e0f99",
+   "title": "Product Manager F/H",
+   "company": "PARIS FASHION SHOPS",
+   "location": "Saint-Denis, A8, France",
+   "city": "Saint-Denis",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-16",
+   "salary": "45,000–50,000 EUR/yearly",
+   "description_snippet": "**L'entreprise** ---------------- Rejoins l’aventure Paris Fashion Shops Paris Fashion Shops, c’est la 1ère marketplace B2B dédiée aux commerçants indépendants de la mode. Notre mission : proposer les bons produits et services au bon moment pour booster la performance des boutiques indépendantes grâce à la tech, la data et une logistique optimisée. Notre mission Donner du pouvoir aux commerçants i",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=15b8a531ea257072"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "71b733cf82509f2a",
+   "title": "Assistant Achats International (H/F)",
+   "company": "Market Maker",
+   "location": "Dardilly, ARA, France",
+   "city": "Dardilly",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "Le Groupe Market Maker, c’est bien plus qu’un nom : c’est un acteur engagé du commerce et du marketing, avec un ancrage international fort, notamment en Asie et en Europe de l’Est. Nous évoluons à travers 4 Business Units complémentaires : * Multimédia * Mobilier * Cadeaux d’affaires * Énergies renouvelables Nous combinons les forces du modèle BtoB traditionnel et les opportunités du commerce digi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5c4b9ace2c9d5aca"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "f1eba0a850e07bdd",
    "title": "Solution Architect",
    "company": "Euronext",
@@ -16315,6 +16703,62 @@
     }
    ],
    "first_seen": "2026-10-16"
+  },
+  {
+   "id": "01c6d2c841e333b1",
+   "title": "CDI Growth Marketing Manager",
+   "company": "Entreprise",
+   "location": "Clermont-Ferrand (63)",
+   "city": "Clermont-Ferrand",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-15",
+   "salary": null,
+   "description_snippet": "",
+   "sources": [
+    {
+     "name": "Isarta",
+     "url": "https://isarta.fr/?job=76334"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "8b588cd71055debd",
+   "title": "Global Traffic Manager (F/H)",
+   "company": "Younited",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "Global Traffic Manager (F/H) * You have a **Master’s degree** from a business school or an equivalent university program * You have at least **three years of experience** in traffic management, either in-house or at a consultancy, ideally in an international environment * You are an expert in advertising platforms, and search marketing holds no secrets for you * Excel and Power BI are your best al",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/younited-credit/jobs/global-traffic-manager-f-h_paris"
+    }
+   ],
+   "first_seen": "2026-10-15"
   },
   {
    "id": "4240f45925c7d760",
@@ -16561,36 +17005,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=c868b3239f9b1152"
-    }
-   ],
-   "first_seen": "2026-10-15"
-  },
-  {
-   "id": "8b588cd71055debd",
-   "title": "Global Traffic Manager (F/H)",
-   "company": "Younited",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "sea"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-09",
-   "salary": null,
-   "description_snippet": "Global Traffic Manager (F/H) * You have a **Master’s degree** from a business school or an equivalent university program * You have at least **three years of experience** in traffic management, either in-house or at a consultancy, ideally in an international environment * You are an expert in advertising platforms, and search marketing holds no secrets for you * Excel and Power BI are your best al",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/younited-credit/jobs/global-traffic-manager-f-h_paris"
     }
    ],
    "first_seen": "2026-10-15"
@@ -22322,6 +22736,60 @@
    "first_seen": "2026-10-16"
   },
   {
+   "id": "b63a65c40521003e",
+   "title": "Cuisinier / Commis de cuisine",
+   "company": "DIMDAN MAIDAN",
+   "location": "Paris 2e, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-16",
+   "salary": "1,900–2,500 EUR/monthly",
+   "description_snippet": "**À propos du poste** L’enseigne de restauration Hongkongaise, nous recherchons un(e) cuisinier ou un(e) commis de cuisine passionné(e) par la gastronomie, intéressé(e) par la cuisine asiatique. Votre sens de l'organisation et votre capacité à travailler sous pression seront des atouts précieux. Au sein de notre cuisine, vous participerez à la préparation de nos spécialités hongkongaises, alliant ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9cc8bc47b4884392"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "e1feca4b9a7064c2",
+   "title": "Serveur(se) - Employé(e) Polyvalent(e) H/F",
+   "company": "DIMDAN MAIDAN",
+   "location": "Paris 2e, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "L’enseigne de restauration Hongkongaise, nous recherchons des employé(e)s polyvalent(e)s souriant(e) et agréable. Ton rôle sera de : * **Accueillir, conseiller et ravir nos clients** avec sourire et amabilité * **Préparer les commandes** du bar / et commandes à emporter * **Gérer les encaissements** et participer à l'ouverture/fermeture du restaurant * **Maintenir le restaurant impeccable**, parti",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=690b0d67b1e7360b"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "2c34d81b26833e91",
    "title": "Senior Manager, Solutions Engineering, Strategic - France",
    "company": "Atlassian",
@@ -22349,6 +22817,32 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=5cedf18d8ee534b5"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
+   "id": "e2a431baf3f115b2",
+   "title": "Product Marketing Manager",
+   "company": "Nabla",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/nabla/jobs/lifecycle-marketing-manager_paris"
     }
    ],
    "first_seen": "2026-10-16"
@@ -27606,6 +28100,36 @@
    "first_seen": "2026-09-16"
   },
   {
+   "id": "c2044a8aeabc7794",
+   "title": "Senior Product Manager - Measurement & Reporting",
+   "company": "VIBE",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "kpi",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-10-16",
+   "salary": "99,000–216,000 EUR/yearly",
+   "description_snippet": "Streaming TV is no longer just a brand awareness channel. It’s becoming a core part of the performance marketing mix, alongside search and social. Vibe.co is building the platform that makes TV work like the rest of the acquisition stack: targeted, measurable, and optimized for results. Vibe.co is an **Audience First Streaming TV Advertising platform** that gives marketers the tools to reach the r",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=726e9fd9b72107c1"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "19d0ea7baadffd80",
    "title": "Chef de Produit Marketing H/F",
    "company": "Hellowork",
@@ -32835,6 +33359,33 @@
    "first_seen": "2026-09-22"
   },
   {
+   "id": "c8d77db26ef8124f",
+   "title": "Senior Director, Global Service Line Cyber Threat Intelligence",
+   "company": "FTI Consulting, Inc.",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": -4,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "**Qui sommes-nous ?** FTI Consulting est le premier cabinet d’expertise mondial pour les organisations confrontées à des crises et des transformations. Nous travaillons avec de nombreuses entreprises internationales de premier plan, des cabinets d’avocats, des banques et des sociétés de capital-investissement, qui nous confient leurs enjeux les plus importants. Qu'il s'agisse de résoudre des litig",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=14db4f2dc91096d0"
+    }
+   ],
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "683a466f78b2f6b1",
    "title": "Collaborateur(trice) comptable confirmé(e) – Mandarin (H/F)",
    "company": "SAS ADEXCO",
@@ -33452,6 +34003,34 @@
     }
    ],
    "first_seen": "2026-09-23"
+  },
+  {
+   "id": "be0b2f4e00c0848a",
+   "title": "Paid Search & Social Senior (F/H)",
+   "company": "POSITIVE GROUP",
+   "location": "Lille, HDF, France",
+   "city": "Lille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -6,
+   "date_posted": "2026-10-16",
+   "salary": "45,000–60,000 EUR/yearly",
+   "description_snippet": "**Notre entreprise** -------------------- **Positive est une entreprise tech en forte croissance, spécialiste du B2B SaaS, qui aide les équipes marketing à croître plus intelligemment. Nous rassemblons plusieurs produits innovants autour d’une ambition commune : devenir la référence européenne en MarTech. Les 400 collaborateurs du groupe, répartis entre la France, l’Allemagne, l’Italie et la Polog",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ac25354a6db76217"
+    }
+   ],
+   "first_seen": "2026-10-16"
   },
   {
    "id": "ad36e70cc07b0c1e",
