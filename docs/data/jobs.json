@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-17T13:31:36Z",
+ "generated_at": "2026-10-17T19:04:29Z",
  "source_stats": {
-  "Indeed": 1222,
+  "Indeed": 1168,
   "Welcome to the Jungle": 3569,
   "France Travail": 94,
   "APEC": 0,
@@ -11,8 +11,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1191,
- "new_today": 17,
+ "count": 1199,
+ "new_today": 25,
  "jobs": [
   {
    "id": "b7272db0106f9d2e",
@@ -1591,6 +1591,43 @@
     }
    ],
    "first_seen": "2026-09-18"
+  },
+  {
+   "id": "8dcb94bc75e7ca2b",
+   "title": "Growth & Marketing Specialist H/F",
+   "company": "Hellowork",
+   "location": "Marseille, B8, France",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "meta ads",
+    "roi",
+    "sea",
+    "seo",
+    "trafic"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 18,
+   "date_posted": "2026-10-17",
+   "salary": null,
+   "description_snippet": "Description À propos de MONAPP et MangezNotez Qui sommes-nous ? Leader en France de l'apport de réservations pour les restaurants, RestoPro accompagne plus de 2 000 établissements partenaires dans le développement de leur chiffre d'affaires grâce à des solutions web innovantes. Quelques chiffres clés : * 50 M€ de chiffre d'affaires générés pour nos clients ; * 2 000 restaurants partenaires ; * 40 ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=752ad3b2c8b71b4a"
+    }
+   ],
+   "first_seen": "2026-10-17"
   },
   {
    "id": "105e305a5565a8a3",
@@ -3642,6 +3679,36 @@
    "first_seen": "2026-10-17"
   },
   {
+   "id": "191ef5bb9513b832",
+   "title": "Chargé(e) de l’Expérience Client Terrain (H/F)",
+   "company": "PROTIM",
+   "location": "Bron, ARA, France",
+   "city": "Bron",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-15",
+   "salary": "31,000–33,000 EUR/yearly",
+   "description_snippet": "**Clearway recrute un(e) Chargé(e) de l’Expérience Client Terrain !** Envie de mettre vos compétences au service d’une PME dynamique et en pleine croissance ? Chez Clearway, la rigueur va de pair avec la bonne humeur, et chaque collaborateur a un vrai impact. **Votre sens du service client, votre leadership et votre organisation** seront vos meilleurs atouts pour évoluer dans un environnement à ta",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e1a1e01c3b8c460c"
+    }
+   ],
+   "first_seen": "2026-10-17"
+  },
+  {
    "id": "faa16fd2cf50cc9e",
    "title": "Product Manager Tiers-Payant & Gestion Déléguée H/F - Boulogne-Billancourt",
    "company": "CEGEDIM",
@@ -3907,42 +3974,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=dc131fe893d4c59b"
-    }
-   ],
-   "first_seen": "2026-10-14"
-  },
-  {
-   "id": "b0af23cad4f6a1a0",
-   "title": "Product Marketing manager Digital ID F/H",
-   "company": "Thales",
-   "location": "Meudon, A8, France",
-   "city": "Meudon",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement",
-    "roadmap"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 14,
-   "date_posted": "2026-10-14",
-   "salary": null,
-   "description_snippet": "Lieu : Meudon, France **Construisons ensemble un avenir de confiance** ------------------------------------------------ Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d’activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l’environnement et plus",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=18c9bd23160b2c22"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/thales/jobs/product-marketing-manager-digital-id-f-h_meudon"
     }
    ],
    "first_seen": "2026-10-14"
@@ -5824,6 +5855,36 @@
     }
    ],
    "first_seen": "2026-09-17"
+  },
+  {
+   "id": "e0db75430fb60fc8",
+   "title": "2D Graphic and Motion Designer",
+   "company": "Ruby Labs",
+   "location": "GE, France",
+   "city": "Ge",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "**About us** ============ Ruby Labs is a leading tech company that creates and operates innovative consumer products. We offer a diverse range of opportunities across the health, education, and entertainment industries. Our innovative teams are driving the future of consumer-led products, and we're always looking for passionate individuals to join us. Learn more about our story at: https://rubylab",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f3a4202469a8fd78"
+    }
+   ],
+   "first_seen": "2026-10-17"
   },
   {
    "id": "f1a2e68c9c23ee78",
@@ -16723,6 +16784,32 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "b0af23cad4f6a1a0",
+   "title": "Product Marketing manager Digital ID F/H",
+   "company": "Thales",
+   "location": "Meudon",
+   "city": "Meudon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-15",
+   "salary": null,
+   "description_snippet": "Product Marketing manager Digital ID F/H",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/thales/jobs/product-marketing-manager-digital-id-f-h_meudon"
+    }
+   ],
+   "first_seen": "2026-10-14"
+  },
+  {
    "id": "1ec5c575db292e8e",
    "title": "CHEF DE PRODUITS ACHATS JOUETS ET LOISIRS (H/F)",
    "company": "WDK GROUPE PARTNER",
@@ -22173,6 +22260,36 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=9778e2300aa4c025"
+    }
+   ],
+   "first_seen": "2026-10-17"
+  },
+  {
+   "id": "a5d5214b8777d36b",
+   "title": "Digital Product Manager H/F",
+   "company": "Hellowork",
+   "location": "Marseille, B8, France",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-17",
+   "salary": null,
+   "description_snippet": "Description Détenu par Artémis, société patrimoniale de la famille Pinault, le portefeuille d'activités du groupe - PONANT EXPLORATIONS, Paul Gauguin Croisières et Aqua Expeditions - s'appuie sur une flotte de 20 navires à taille humaine. PONANT EXPLORATIONS crée depuis 38 ans des voyages d'exploration porteurs de sens. Plus d'informations sur www.ponant.com Poste Le temps d'une mission de remplac",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=163ba79608f76a4d"
     }
    ],
    "first_seen": "2026-10-17"
@@ -27707,6 +27824,86 @@
    "first_seen": "2026-10-17"
   },
   {
+   "id": "9c564c0a1c9cf444",
+   "title": "Assistant Chefs de Produits Jardin H/F",
+   "company": "Hellowork",
+   "location": "Lisses, A8, France",
+   "city": "Lisses",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-10-17",
+   "salary": null,
+   "description_snippet": "Description Rejoindre TRUFFAUT, c'est intégrer une enseigne responsable et leader sur le marché de la jardinerie, riche d'une histoire de près de 200 ans où le vivant a toujours été au coeur de notre activité. « Connecter les hommes à la nature pour les connecter à la vie », telle est notre raison d'être. Chez TRUFFAUT, tous les métiers se conjuguent autant au masculin qu'au féminin et nous nous e",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=763d0f0bdc2abf15"
+    }
+   ],
+   "first_seen": "2026-10-17"
+  },
+  {
+   "id": "89affb6a457791d2",
+   "title": "Chef de Produit & Innovation H/F",
+   "company": "Hellowork",
+   "location": "Courbevoie, A8, France",
+   "city": "Courbevoie",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-10-17",
+   "salary": null,
+   "description_snippet": "Description Japcook est une marque de food service premium spécialisée dans les créations culinaires japonaises surgelées, à destination des professionnels de la restauration et de la grande distribution. Takumi est sa marque soeur dédiée à la pâtisserie franco-japonaise, avec 2 boutiques en propre à Paris et 1 boutique à Toulouse. Rejoindre notre équipe, c'est intégrer une aventure dans une entre",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7270cbf2517c5db0"
+    }
+   ],
+   "first_seen": "2026-10-17"
+  },
+  {
+   "id": "f078d6e8eb225684",
+   "title": "Assistant Chef de Produit Marketing Développement et Trade Marketing H/F",
+   "company": "Hellowork",
+   "location": "Gennevilliers, A8, France",
+   "city": "Gennevilliers",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-17",
+   "salary": "1,100–1,100 EUR/monthly",
+   "description_snippet": "Description Chez Evoluderm, nous cultivons l'amour du soin au quotidien depuis 20 ans. Notre marque se distingue par sa générosité et sa sincérité, avec une offre riche et diversifiée. Evoluderm, c'est avant tout une entreprise engagée à offrir des produits de qualité, fabriqués en France, pour répondre aux besoins de chacun. Si vous partagez nos valeurs et souhaitez participer à une aventure pass",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f31a8c5780dbe4b5"
+    }
+   ],
+   "first_seen": "2026-10-17"
+  },
+  {
    "id": "1bd77c2c11b56a6b",
    "title": "Des Agents recenseurs h/f",
    "company": "mairie de la courneuve",
@@ -32970,6 +33167,34 @@
     }
    ],
    "first_seen": "2026-09-22"
+  },
+  {
+   "id": "dbaae14e15403871",
+   "title": "Senior Java Software Developer",
+   "company": "Euronext",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -4,
+   "date_posted": "2026-10-15",
+   "salary": null,
+   "description_snippet": "**Join us as a Senior Java Software Developer !** Are you ready to shape the future of capital markets? We’re seeking a dynamic Senior Java Software Developer to join the Software Development team in Paris. **Euronext Corporate Solutions** is a fully integrated division of Euronext, including all the resources to pursue its business activities: Revenue, Growth Marketing, Product, Technology & Oper",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f4781b8517f94392"
+    }
+   ],
+   "first_seen": "2026-10-17"
   },
   {
    "id": "c8d77db26ef8124f",
