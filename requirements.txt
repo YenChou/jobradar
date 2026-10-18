@@ -1,4 +1,4 @@
-python-jobspy>=1.1.80
+python-jobspy>=1.3.0   # 1.3.0 起才有 HelloWork
 requests>=2.31
 PyYAML>=6.0
 beautifulsoup4>=4.12
