@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-10-17T19:04:29Z",
+ "generated_at": "2026-10-18T13:49:54Z",
  "source_stats": {
-  "Indeed": 1168,
-  "Welcome to the Jungle": 3569,
-  "France Travail": 94,
+  "Indeed": 1068,
+  "Welcome to the Jungle": 3546,
+  "France Travail": 67,
   "APEC": 0,
-  "Isarta": 155
+  "Isarta": 146
  },
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1199,
- "new_today": 25,
+ "count": 1176,
+ "new_today": 5,
  "jobs": [
   {
    "id": "b7272db0106f9d2e",
@@ -182,6 +182,43 @@
     }
    ],
    "first_seen": "2026-10-13"
+  },
+  {
+   "id": "a2e2dc9eba19b69a",
+   "title": "Traffic & Acquisition Manager SEO, SEA et GEO",
+   "company": "SIZE UP",
+   "location": "Rennes, A2, France",
+   "city": "Rennes",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "kpi",
+    "meta ads",
+    "roi",
+    "sea",
+    "seo",
+    "tracking",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 24,
+   "date_posted": "2026-10-18",
+   "salary": "1,800–2,300 EUR/yearly",
+   "description_snippet": "**CDI à mi-temps évolutif vers un temps plein** **17 h 30 par semaine** **Pacé, près de Rennes** **Prise de poste dès que possible** **-** Size Up est une agence de marketing et de communication qui accompagne ses clients de la stratégie de marque jusqu’à l’acquisition. * Notre conviction : du branding à l’acquisition, chaque détail compte. Nous travaillons principalement avec des entreprises B2B,",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9ea7d24377da0dcb"
+    }
+   ],
+   "first_seen": "2026-10-18"
   },
   {
    "id": "65bf05c1c08377c4",
@@ -932,40 +969,6 @@
     }
    ],
    "first_seen": "2026-09-21"
-  },
-  {
-   "id": "f557a3bffaff9bac",
-   "title": "Chargé(e) Communication digitale 360° (F/H)",
-   "company": "Temana",
-   "location": "Colomiers, O, FR",
-   "city": "Colomiers",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "kpi",
-    "roi",
-    "sea",
-    "seo",
-    "trafic"
-   ],
-   "bonus_tags": [],
-   "score": 22,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "Acteur de référence et leader en France dans la formation aux métiers du bien\\-être et de l’esthétique depuis plus de 15 ans, notre groupe accompagne chaque année plusieurs milliers d’apprenants dans leur parcours de formation et de reconversion professionnelle. Présents sur 10 sites en France, nous poursuivons une stratégie de développement soutenue et recrutons un(e) chargé(e) Marketing Digital ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e8557fdca5ac3e92"
-    }
-   ],
-   "first_seen": "2026-09-17"
   },
   {
    "id": "966d9d327bc2196e",
@@ -1998,6 +2001,37 @@
     }
    ],
    "first_seen": "2026-10-01"
+  },
+  {
+   "id": "f6ac2b64760b0a89",
+   "title": "Product Marketing Manager GEO / IA générative) (H/F)",
+   "company": "Traaker",
+   "location": "31 - Toulouse",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 18,
+   "date_posted": "2026-10-18",
+   "salary": null,
+   "description_snippet": "- Product Marketing Manager / Traaker (GEO / IA générative) H/F - Poste à pourvoir ASAP CDI à Toulouse (31) Le search change de camp. Vos futurs clients ne cherchent plus sur Google : ils demandent à ChatGPT, Claude, Gemini ou Perplexity, et ce sont ces IA qui décident quelles marques citer. Toutes les marques devront apprendre à exister dans ces réponses, et Traaker leur en donne les moyens. Traa",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.jobposting.pro/emploi-2726163-120"
+    }
+   ],
+   "first_seen": "2026-09-30"
   },
   {
    "id": "1ff66413972a29f9",
@@ -3561,70 +3595,6 @@
     }
    ],
    "first_seen": "2026-09-18"
-  },
-  {
-   "id": "406c367e25c85490",
-   "title": "Product Marketing Manager (H/F) @Chargemap",
-   "company": "Groupe Brakson (Chargemap, Mister EV, Saabre)",
-   "location": "Strasbourg",
-   "city": "Strasbourg",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 16,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "Product Marketing Manager (H/F) @Chargemap Vous rejoindrez une équipe soudée, où confiance, entraide et créativité font partie du quotidien. Vous travaillerez avec des profils experts dans leur domaine, dans un environnement collaboratif où les idées sont écoutées et où chacun contribue activement au développement européen de Chargemap. Vous disposez de minimum cinq d’expérience, dans une entrepri",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/chargemap/jobs/product-marketing-manager-h-f-chargemap_strasbourg"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "18c12e68b5f4e66c",
-   "title": "Responsable Acquisition Web et Growth Marketing (H/F)",
-   "company": "LHH RECRUITMENT SOLUTIONS",
-   "location": "92 - Levallois-Perret",
-   "city": "92 - Levallois-Perret",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "a/b testing",
-    "acquisition",
-    "conversion",
-    "roi",
-    "sea",
-    "seo"
-   ],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "Description du poste : LHH Recruitment Solutions , cabinet de conseil en recrutement, management de transition et évaluation de cadres et dirigeants, accompagne l'un de ses clients dans la recherche de son futur Head of Growth Acquisition BtoC (H/F Notre client est un acteur de référence dans les services destinés aux particuliers. Évoluant dans un environnement concurrentiel et fortement orienté ",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/6947467"
-    }
-   ],
-   "first_seen": "2026-09-17"
   },
   {
    "id": "cb8a080fd5afa70c",
@@ -5798,63 +5768,40 @@
    "first_seen": "2026-09-18"
   },
   {
-   "id": "8e97bf7859f05f2b",
-   "title": "Chargé Acquisition & Marketing Digital F/H",
-   "company": "Hellowork",
-   "location": "Palaiseau - 91",
-   "city": "Palaiseau - 91",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
+   "id": "c1c1e4e4954faba8",
+   "title": "Senior Performance Marketing Manager Meta & Google (H/F)",
+   "company": "scento",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
    "categories": [
     "performance_marketing"
    ],
    "skills": [
     "acquisition",
+    "conversion",
+    "google ads",
+    "meta ads",
     "roi",
-    "trafic"
+    "sea",
+    "tracking"
    ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-09-17",
-   "salary": "35 - 45 k€ brut annuel",
-   "description_snippet": "Notre équipe Marketing, recherche un(e) chargé(e) Acquisition & Marketing Digital pour accompagner la croissance de notre activité e-commerce et renforcer le trafic vers nos magasins. Nous recherchons avant tout un profil expérimenté, curieux et très opérationnel : quelqu'un ca...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179434480W"
-    }
+   "bonus_tags": [
+    "international"
    ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "15e8781a110ce8c6",
-   "title": "Brand Manager Sport & Fracture Management (H/F)",
-   "company": "Essity",
-   "location": "Saint-Ouen, A8, FR",
-   "city": "Saint-Ouen",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement",
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "**Brand Manager Sport \\& Fracture Management (H/F)** ==================================================== Domaine de l'orthopédie, du fracture management, de la physiothérapie Localisation : Saint\\-Ouen Essity est un leader mondial dans le domaine de l’hygiène et de la santé, engagé à améliorer le bien\\-être et à construire un avenir plus sain pour tous. Avec 36 000 collaborateurs et une présence ",
+   "score": 12,
+   "date_posted": "2026-10-17",
+   "salary": "95,000–125,000 EUR/yearly",
+   "description_snippet": "**À propos de Scento** ---------------------- Scento est le plus grand site de décants de parfum d'Europe. Fondée en 2024, l'entreprise a son siège à Paris, place Vendôme, et un second bureau à Berlin. Scento propose en décant plus de 1 000 parfums de créateurs et de niche, tous originaux, issus d'un portefeuille de 200 maisons : flacons de 2 ml, 5 ml et 8 ml, ainsi qu'un flacon de 30 ml pour la p",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=16a6cfc393da0efc"
+     "url": "https://fr.indeed.com/viewjob?jk=349db2f0dbcf5f3f"
     }
    ],
-   "first_seen": "2026-09-17"
+   "first_seen": "2026-10-18"
   },
   {
    "id": "e0db75430fb60fc8",
@@ -8886,60 +8833,37 @@
    "first_seen": "2026-09-18"
   },
   {
-   "id": "6dbefb90ee190190",
-   "title": "Chef de Projet Marketing Produits",
-   "company": "HEOMI",
-   "location": "Villeurbanne, ARA, FR",
-   "city": "Villeurbanne",
-   "region": "other",
+   "id": "8de430946b3aa05d",
+   "title": "VP Growth Europe (H/F)",
+   "company": "scento",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "remote",
    "contract": "CDI",
    "categories": [
-    "marketing_produit"
+    "performance_marketing"
    ],
    "skills": [
-    "roadmap"
+    "acquisition",
+    "conversion",
+    "roi",
+    "seo"
    ],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "**Description de l’offre d’emploi** ----------------------------------- **Qui sommes\\-nous ?** **Acteur incontournable du courtage en Assurances, Heomi construit depuis plus de 30 ans, des programmes d’Assurances à destination des particuliers, des travailleurs non salariés et des entreprises.** Leader Français dans la distribution de produits d’assurance en ligne et précurseur en la matière, Heom",
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-17",
+   "salary": "190,000–250,000 EUR/yearly",
+   "description_snippet": "**À propos de Scento** ---------------------- Scento est le plus grand site de décants de parfum d'Europe. Fondée en 2024, l'entreprise a son siège à Paris, place Vendôme, et un second bureau à Berlin. Scento propose en décant plus de 1 000 parfums de créateurs et de niche, tous originaux, issus d'un portefeuille de 200 maisons : flacons de 2 ml, 5 ml et 8 ml, ainsi qu'un flacon de 30 ml pour la p",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=0d82660c97efb6a3"
+     "url": "https://fr.indeed.com/viewjob?jk=9285304653c25a8e"
     }
    ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "5bcd8462cc5da629",
-   "title": "Content & Product Marketing Specialist h/f",
-   "company": "DNP PHOTO IMAGING EUROPE",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "roadmap"
-   ],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "CDI \\- Plein temps Localisation : Paris, France #### **Objectif du poste** Sous la supervision du Directeur Marketing et Communication, le ou la titulaire du poste est en charge de la mise en œuvre du plan marketing et de l'ensemble des supports nécessaires au lancement et à la promotion des produits et services pour la ligne Service Business. Il/elle met en œuvre la stratégie définie par la Direc",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=31259e3ee65f8573"
-    }
-   ],
-   "first_seen": "2026-09-17"
+   "first_seen": "2026-10-18"
   },
   {
    "id": "274358d44202e2fb",
@@ -11210,32 +11134,6 @@
    "first_seen": "2026-09-30"
   },
   {
-   "id": "f6ac2b64760b0a89",
-   "title": "Product Marketing Manager GEO / IA générative) F/H",
-   "company": "Traaker",
-   "location": "Toulouse - 31",
-   "city": "Toulouse",
-   "region": "west",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-30",
-   "salary": "38 - 47 k€ brut annuel",
-   "description_snippet": "Votre rôle Vous êtes au croisement du Produit, des Sales, du Customer Success et des utilisateurs. Vous êtes rattaché(e) au fondateur. Votre mission : comprendre comment chaque segment utilise Traaker, des agences SEO et marketing aux grands comptes, et quels use cases lui a...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179511328W"
-    }
-   ],
-   "first_seen": "2026-09-30"
-  },
-  {
    "id": "31f6181094e170ad",
    "title": "Chef de Produit Junior Oncologie, CDD 6 mois H/F",
    "company": "MSD",
@@ -12425,121 +12323,6 @@
     }
    ],
    "first_seen": "2026-09-18"
-  },
-  {
-   "id": "afb65c11aa65b868",
-   "title": "Product Marketing Manager H/F",
-   "company": "Septeo",
-   "location": "Montpellier",
-   "city": "Montpellier",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "Product Marketing Manager H/F <p><strong><u>Le profil que nous recherchons:&#xa0;</u></strong></p><ul><li><strong>Expérience en Product Marketing SaaS (4 à 7 ans)</strong>&#xa0;-&#xa0;dans des environnements logiciel B2B complexes</li><li>Expérience acquise dans un <strong>univers réglementé</strong>&#xa0;(édition logicielle, assurance, finance, immobilier, santé, secteur juridique, etc.).</li><li",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/septeo/jobs/product-marketing-manager-h-f_montpellier"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "7bf00d66c23f4313",
-   "title": "Product Owner F/H",
-   "company": "Mutuelle Nationale Territoriale (MNT)",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "### **Métier** Etudes/Marketing \\- Chef de produits ### **Contrat de travail** CDD ### **Temps de travail** Temps complet ### **Description de la mission** Pour accompagner notre direction Pilotage et Support au Développement, nous recherchons un.e Product Owner dans le cadre d'un CDD (du 12 octobre au 19 février). En tant que Product Owner, vous jouerez un rôle important dans la transformation st",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=97493ac5de64c578"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "73d39c681e7850b8",
-   "title": "Brand Manager incontinence TENA (H/F)",
-   "company": "Essity",
-   "location": "Saint-Ouen, A8, FR",
-   "city": "Saint-Ouen",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "**Brand Manager incontinence TENA (H/F)** ========================================= Essity est née de la contraction de deux mots : Essential et Necessity. C'est la raison pour laquelle le bien\\-être est au cœur de nos préoccupations. Vous avez envie de rejoindre une entreprise engagée et d’améliorer le bien\\-être grâce à des produits essentiels de la vie quotidienne ? Notre mission : développer, ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=369aca016837aba5"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "a2d244284f10ab57",
-   "title": "Global Head of Performance Marketing",
-   "company": "Pluxee",
-   "location": "Issy-les-Moulineaux, A8, FR",
-   "city": "Issy-Les-Moulineaux",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_analytics",
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "dashboard",
-    "ga4",
-    "kpi",
-    "seo"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-16",
-   "salary": null,
-   "description_snippet": "**At Pluxee, we shape the world of employee benefits and engagement by bringing to life a personalized and sustainable employee experience, at work and beyond.** Contractor \\- Standard **Job Description:** The role is a senior global leader responsible for designing and executing Pluxee’s digital marketing strategy across all geographies and digital channels. This role drives digital brand visibil",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=ee3a4b0746468c7a"
-    }
-   ],
-   "first_seen": "2026-09-17"
   },
   {
    "id": "0af9142a8eb7e642",
@@ -16013,88 +15796,30 @@
    "first_seen": "2026-09-18"
   },
   {
-   "id": "98be0ed1a5166907",
-   "title": "Chef de Produits – Logiciels (H/F) - CDI",
-   "company": "Rexel",
-   "location": "Saint-Étienne, ARA, FR",
-   "city": "Saint-Etienne",
+   "id": "ba3646c9de5f8488",
+   "title": "CUSTOMER SUCCESS MANAGER BTOB & BTOC H/F",
+   "company": "",
+   "location": "69 - Lyon",
+   "city": "69 - Lyon",
    "region": "other",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "marketing_produit"
+    "customer"
    ],
-   "skills": [
-    "roadmap"
-   ],
+   "skills": [],
    "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-17",
+   "score": 6,
+   "date_posted": "2026-10-18",
    "salary": null,
-   "description_snippet": "**Description de l'entreprise** **ESABORA :** Filiale du groupe Rexel, ESABORA accompagne ses clients dans la conception, le déploiement et l’évolution de solutions et services innovants pour répondre aux enjeux de la transformation digitale et énergétique. **REXEL :** Expert de la distribution multicanale dédiée au monde de l’énergie, Rexel accompagne ses clients professionnels dans la mise en œu",
+   "description_snippet": "descriptif du posteVotre quotidien sera rythmé par les interactions humaines, majoritairement par téléphone (appels entrants et sortants)Vous aurez la chance d'accompagner des profils très variés :Côté BtoB : Des professionnels exigeants (notaires, établissements bancaires). Côté BtoC : Des particuliers (acquéreurs) engagés dans un projet immobilier à fort enjeu émotionnel.Vos missions principales",
    "sources": [
     {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=2bbf80e441df91ae"
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/56741657?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
     }
    ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "64bebfc1a3db299f",
-   "title": "Product Marketing Manager W/M/NB",
-   "company": "Million Victories",
-   "location": "Lyon, ARA, FR",
-   "city": "Lyon",
-   "region": "other",
-   "work_mode": "remote",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "roadmap"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "Lyon, Auvergne\\-Rhône\\-Alpes, France Permanent contract 45ke to 55ke € per year **Job description** ------------------- **Your mission** You’ll play a key role in driving Million Lords’ growth and visibility. You’ll identify and develop new opportunities, lead strategic marketing initiatives, and build key partnerships to expand the game’s reach and deliver tangible business impact. As a Product M",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=526e3cec888cb7e4"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "bc82f3b96b02e99a",
-   "title": "Product Marketing Manager (H/F)",
-   "company": "Chargemap",
-   "location": "Strasbourg, GE, FR",
-   "city": "Strasbourg",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "**À propos** ------------ Chargemap est engagée depuis plus de dix ans dans la simplification de la recharge des véhicules électriques. Reconnue comme une référence en France et leader européen sur son marché, nous accompagnons des millions de conducteurs et de nombreuses entreprises grâce à des solutions fiables, accessibles et pensées pour répondre à la réalité du terrain. Nos produits couvrent ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=798c22b68d9758df"
-    }
-   ],
-   "first_seen": "2026-09-17"
+   "first_seen": "2026-10-18"
   },
   {
    "id": "5f2235dc83bc4550",
@@ -22072,141 +21797,31 @@
    "first_seen": "2026-09-18"
   },
   {
-   "id": "89d3df427ee494bf",
-   "title": "Chef de Projet Marketing F/H",
-   "company": "Walter Learning",
-   "location": "Marseille",
-   "city": "Marseille",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-10-14",
-   "salary": null,
-   "description_snippet": "Chef de Projet Marketing F/H <h5 dir=\"ltr\">Profil recherch&eacute; :&nbsp;</h5> <p dir=\"ltr\"><strong>Comp&eacute;tences organisationnelles</strong></p> <ul> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Faire preuve d&rsquo;autonomie.&nbsp;</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Avoir une certaine rigueur d'ex&eacute;cution et un sens du process :",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/chef-de-projet-marketing-f-h_marseille"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "ab0feb2b5e959862",
-   "title": "Chef de produit GEM F/H",
-   "company": "Groupe Fnac Darty",
-   "location": "Ivry-sur-Seine, A8, FR",
-   "city": "Ivry-Sur-Seine",
-   "region": "other",
+   "id": "b65ed74225e34bf8",
+   "title": "Assistant commercial Langue Mandarin H/F",
+   "company": "GOAL",
+   "location": "Paris 13e, A8, France",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
+   "categories": [],
    "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-17",
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-18",
    "salary": null,
-   "description_snippet": "**Description du poste** ------------------------ ### **Métier** MARKETING GENERALISTE ### **Intitulé du poste (F/H)** Chef de produit GEM F/H### **Contrat** CDI ### **Statut** Cadre ### **Description et profil** Au sein de la Direction Produits, vous participez au développement et à l'animation de l'offre Gros Électroménager. Vous contribuez à la gestion des gammes, au suivi des performances comm",
+   "description_snippet": "**À propos du poste** Nous recherchons un ou une assistant ou assistante commercial(e) en Langue Mandarin pour rejoindre notre équipe. En tant qu’assistant ou assistante commercial(e), vous serez le ou la référent(e) pour la gestion administrative et le support client, contribuant ainsi à la croissance et à la satisfaction de notre clientèle. Vous évoluerez dans un environnement dynamique, jeune o",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=464a1dc3c4cd56ea"
+     "url": "https://fr.indeed.com/viewjob?jk=1df56bbf009893f4"
     }
    ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "ebaa384902e65898",
-   "title": "Specialiste en gestion de projet senior specialist - Siège Social CMA CGM",
-   "company": "CMA CGM",
-   "location": "Marseille, B8, FR",
-   "city": "Marseille",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [
-    "automation",
-    "gestion de projet",
-    "salesforce"
-   ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "Identifiant: 591011 Lieu: Marseille, FR **Specialiste en gestion de projet senior specialist \\- Siège Social CMA CGM** ============================================================================== Dirigé par Rodolphe Saadé, le Groupe CMA CGM, un leader mondial du transport maritime et de la logistique, dessert plus de 420 ports dans le monde sur 5 continents. Avec sa filiale CEVA Logistics, et sa",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=f613153174133c35"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "ed97209aec71b7b4",
-   "title": "Sales & Marketing Operations Manager - France",
-   "company": "Lucid Motors",
-   "location": "Saint-Ouen-l'Aumône, A8, FR",
-   "city": "Saint-Ouen-L'Aumone",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [
-    "salesforce",
-    "workflow"
-   ],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "About Lucid At Lucid, we are creating exceptional mobility experiences through innovation to drive the world forward. Built on Lucid's proprietary technology and software\\-defined vehicle architecture, our award\\-winning vehicles bring our \"Compromise Nothing™\" approach to the global automotive market. That means refusing to choose between performance and sustainability, design and engineering, am",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=8cd258446d2fdb24"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "8251b3a2db1bf515",
-   "title": "Chef de Produit H/F",
-   "company": "Monin Gourmet Flavorings",
-   "location": "Bourges, CVL, FR",
-   "city": "Bourges",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "### **Rejoignez MONIN en tant que Chef de Produit H/F !** #### **À propos de MONIN :** MONIN est un leader mondial reconnu pour la création d’expériences boissons uniques. Entreprise familiale française fondée il y a plus d’un siècle par Georges Monin, la marque est aujourd’hui une référence internationale dans l’univers des sirops et concentrés premium pour boissons. Animée par un esprit d’innova",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=f905e72629222d83"
-    }
-   ],
-   "first_seen": "2026-09-17"
+   "first_seen": "2026-10-18"
   },
   {
    "id": "2f924dcbcfef3344",
@@ -24677,6 +24292,32 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "c63218ad361627f2",
+   "title": "CSM FR & Spain (Customer Success Manager)",
+   "company": "Loyoly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-18",
+   "salary": null,
+   "description_snippet": "CSM FR & Spain (Customer Success Manager) * Tu as un très bon niveau de français et d'espagnol à l’oral et à l’écrit * Tu as une première expérience en Customer Success/Sales * Tu as un esprit entrepreneurial et tu aimes les défis * Tu es autonome, fiable, et tu n’hésites pas à communiquer sur les difficultés rencontrées * Tu as une fibre commerciale : vous savez identifier les besoins et proposer",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/loyoly/jobs/csm-junior-fr-spain-customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "349bbd5ab94ce4b9",
    "title": "Customer Success Manager Mid Market",
    "company": "Modjo",
@@ -24939,32 +24580,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/garance-mutuelle/jobs/responsable-crm-salesforce-et-interactions-omnicanales-h-f-x_paris"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
-   "id": "c63218ad361627f2",
-   "title": "CSM FR & Spain (Customer Success Manager)",
-   "company": "Loyoly",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-04",
-   "salary": null,
-   "description_snippet": "CSM FR & Spain (Customer Success Manager) * Tu as un très bon niveau de français et d'espagnol à l’oral et à l’écrit * Tu as une première expérience en Customer Success/Sales * Tu as un esprit entrepreneurial et tu aimes les défis * Tu es autonome, fiable, et tu n’hésites pas à communiquer sur les difficultés rencontrées * Tu as une fibre commerciale : vous savez identifier les besoins et proposer",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/loyoly/jobs/csm-junior-fr-spain-customer-success-manager_paris"
     }
    ],
    "first_seen": "2026-10-01"
@@ -27657,117 +27272,6 @@
     }
    ],
    "first_seen": "2026-09-18"
-  },
-  {
-   "id": "a1d3543578c68918",
-   "title": "Chef de produit technique F/H",
-   "company": "APS FRANCE",
-   "location": "Beaucouzé - 49",
-   "city": "Beaucouze - 49",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-17",
-   "salary": "35 - 40 k€ brut annuel",
-   "description_snippet": "Rattaché(e) au pôle Commercial & Marketing , il/elle assure l’interface entre les équipes commerciales, les équipes techniques, les clients et les partenaires. Sa mission est de renforcer le positionnement d’APS Printers sur ses marchés, d’aider au développement des opportunités ...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179437159W"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "4c200236230f544b",
-   "title": "Product Migration & Project Manager H/F",
-   "company": "NEXTON",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "**Description de l'entreprise** **Qui sommes\\-nous ?** Rejoindre NEXTON, c'est intégrer une entreprise où convergent l'esprit d'un cabinet de conseil, la créativité d'une Factory et la dynamique d'une ESN ! Grâce à notre expertise, nous accompagnons des clients grands comptes et des pure players tels que SNCF, Orange, et BNP Paribas dans leurs stratégies d'évolution et d'innovation digitale. Fondé",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=639020d7cfcb56d6"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "b5ba5bdcbfd4fe8e",
-   "title": "Global Project Management Senior Specialist",
-   "company": "CMA CGM",
-   "location": "Marseille, B8, FR",
-   "city": "Marseille",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [
-    "automation",
-    "salesforce"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "ID: 591011 Location: Marseille, FR **Global Project Management Senior Specialist** =============================================== Led by Rodolphe Saadé, the CMA CGM Group, a global leader in shipping and logistics, serves more than 420 ports around the world on five continents. With its subsidiary CEVA Logistics, a world leader in logistics, and its air freight division CMA CGM AIR CARGO, the CMA",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=434a90a329d3f31b"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "6993e7ae4724c685",
-   "title": "Consultante/Consultant frog Data",
-   "company": "Groupe Talents Handicap",
-   "location": "Issy-les-Moulineaux, A8, FR",
-   "city": "Issy-Les-Moulineaux",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "sea"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-13",
-   "salary": null,
-   "description_snippet": "*En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises \\& organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums.* *L'entreprise* ***Capgemini*** *recherche actuellement des profils :* Partenaire mondial de la transformation business et technologique, Capgemini ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=c937d631678d4e48"
-    }
-   ],
-   "first_seen": "2026-09-17"
   },
   {
    "id": "85621d0b939bda0f",
@@ -30474,60 +29978,6 @@
    "first_seen": "2026-09-21"
   },
   {
-   "id": "fef597649412391b",
-   "title": "Manager – Chef de produits variateurs de fréquence et PLC H/F",
-   "company": "ABB",
-   "location": "Beynost, ARA, FR",
-   "city": "Beynost",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-28",
-   "salary": null,
-   "description_snippet": "At **ABB**, we help industries run leaner and cleaner—and every person here makes that happen. You’ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. **This position reports to:** Responsable de division locale – Motion Drives Products France \\_\\_ *Développez votre carrière avec ABB et contribuez à façonner un avenir pl",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=55deb3c62c07aae7"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "58d86117bc00c62d",
-   "title": "Responsable CRM (/X) F/H",
-   "company": "PMEJOB",
-   "location": "Paris 01 - 75",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "crm"
-   ],
-   "skills": [
-    "marketing automation"
-   ],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-09-16",
-   "salary": "40 - 45 k€ brut annuel",
-   "description_snippet": "En tant que Responsable CRM, vous pilotez la stratégie CRM, l'administration de la plateforme HubSpot et les actions de marketing automation. Véritable référent(e) de l'écosystème CRM, vous accompagnez les équipes marketing et commerciales dans l'optimisation de la connaissance c...",
-   "sources": [
-    {
-     "name": "APEC",
-     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi/detail-offre/179432540W"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
    "id": "5c51203d90e02c0f",
    "title": "Chef de Produit Senior San Pellegrino - F/H",
    "company": "Nestlé",
@@ -32184,84 +31634,6 @@
     }
    ],
    "first_seen": "2026-09-21"
-  },
-  {
-   "id": "8ccf8b861dac4b17",
-   "title": "Strategy Revenue Analyst",
-   "company": "PayPlug",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "**Description** --------------- Payplug est la **solution de paiement française** pensée pour les commerçants, e\\-commerçants de toutes tailles et fintechs. Avec notre plateforme technologique de pointe, nos outils dédiés à la conversion et notre maîtrise unique de la chaîne de paiement, nous vous invitons à viser le meilleur, et plus encore. Payplug, c’est une équipe de 300 passionnés dédiés à la",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d0ba88e59fc1d2ef"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "0fc82d1346fe8982",
-   "title": "Content Strategist, EMEA",
-   "company": "",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "Aircall is a unicorn, AI\\-powered customer communications platform used by 22,000\\+ companies worldwide to drive revenue, resolve issues faster, and scale customer\\-facing teams. We're redefining customer communications by bringing voice, SMS, WhatsApp, and AI together into one seamless workspace. Our momentum comes from a simple idea: help teams work smarter, not harder. Aircall's AI Voice Agent ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=082c2198ea5608c3"
-    }
-   ],
-   "first_seen": "2026-09-17"
-  },
-  {
-   "id": "f69d1ed946482032",
-   "title": "Content Strategist, EMEA",
-   "company": "Aircall",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-09-17",
-   "salary": null,
-   "description_snippet": "Aircall is a unicorn, AI\\-powered customer communications platform used by 22,000\\+ companies worldwide to drive revenue, resolve issues faster, and scale customer\\-facing teams. We’re redefining customer communications by bringing voice, SMS, WhatsApp, and AI together into one seamless workspace. Our momentum comes from a simple idea: help teams work smarter, not harder. Aircall’s AI Voice Agent ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=02fc2c5e9ddcb476"
-    }
-   ],
-   "first_seen": "2026-09-17"
   },
   {
    "id": "3bc01ccfb86c2158",
