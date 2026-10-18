@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-18T13:49:54Z",
+ "generated_at": "2026-10-18T19:17:00Z",
  "source_stats": {
-  "Indeed": 1068,
+  "Indeed": 958,
   "Welcome to the Jungle": 3546,
-  "France Travail": 67,
+  "France Travail": 66,
   "APEC": 0,
   "Isarta": 146
  },
@@ -11,8 +11,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 21 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1176,
- "new_today": 5,
+ "count": 1180,
+ "new_today": 9,
  "jobs": [
   {
    "id": "b7272db0106f9d2e",
@@ -2120,6 +2120,37 @@
     }
    ],
    "first_seen": "2026-09-21"
+  },
+  {
+   "id": "406c367e25c85490",
+   "title": "Product Marketing Manager (H/F) @Chargemap",
+   "company": "Groupe Brakson (Chargemap, Mister EV, Saabre)",
+   "location": "Strasbourg",
+   "city": "Strasbourg",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 16,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager (H/F) @Chargemap Vous rejoindrez une équipe soudée, où confiance, entraide et créativité font partie du quotidien. Vous travaillerez avec des profils experts dans leur domaine, dans un environnement collaboratif où les idées sont écoutées et où chacun contribue activement au développement européen de Chargemap. Vous disposez de minimum cinq d’expérience, dans une entrepri",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/chargemap/jobs/product-marketing-manager-h-f-chargemap_strasbourg"
+    }
+   ],
+   "first_seen": "2026-10-18"
   },
   {
    "id": "fd188da2ac30e855",
@@ -6121,41 +6152,6 @@
    "first_seen": "2026-10-15"
   },
   {
-   "id": "5a40c83807221d13",
-   "title": "Onboarding Manager (Customer Success)",
-   "company": "Greenly",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "csat",
-    "customer satisfaction"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 12,
-   "date_posted": "2026-10-15",
-   "salary": "34,000–37,000 EUR/yearly",
-   "description_snippet": "### **About us** Greenly was founded in 2019 by Alexis, Matthieu and Arnaud with one mission: **make carbon management as essential as financial management**. In 2026, Greenly joined forces with the Nordic-founded company Normative. Today, we are a **global leader in carbon accounting**, proudly B-Corp certified and part of the French Tech 120. Our climate suite combines smart data collection with",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=0f8e48d9f6b64cb5"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/greenly/jobs/onboarding-manager-customer-success_paris_GREEN_mNbKOYA"
-    }
-   ],
-   "first_seen": "2026-10-15"
-  },
-  {
    "id": "6101d0b883cfc7d7",
    "title": "Responsable Marketing Produit (h/f/x) - CDI - Courbevoie(92)",
    "company": "I-TRACING",
@@ -8861,6 +8857,35 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=9285304653c25a8e"
+    }
+   ],
+   "first_seen": "2026-10-18"
+  },
+  {
+   "id": "afb65c11aa65b868",
+   "title": "Product Marketing Manager H/F",
+   "company": "Septeo",
+   "location": "Montpellier",
+   "city": "Montpellier",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager H/F <p><strong><u>Le profil que nous recherchons:&#xa0;</u></strong></p><ul><li><strong>Expérience en Product Marketing SaaS (4 à 7 ans)</strong>&#xa0;-&#xa0;dans des environnements logiciel B2B complexes</li><li>Expérience acquise dans un <strong>univers réglementé</strong>&#xa0;(édition logicielle, assurance, finance, immobilier, santé, secteur juridique, etc.).</li><li",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/septeo/jobs/product-marketing-manager-h-f_montpellier"
     }
    ],
    "first_seen": "2026-10-18"
@@ -15822,6 +15847,60 @@
    "first_seen": "2026-10-18"
   },
   {
+   "id": "b04b771aa80038a9",
+   "title": "Chef de Produits Chaudières et Pac Hybrides H/F",
+   "company": "Hellowork",
+   "location": "Arcueil, A8, France",
+   "city": "Arcueil",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-15",
+   "salary": null,
+   "description_snippet": "Description REJOIGNEZ LE GROUPE ATLANTIC ! Rejoignez le GROUPE ATLANTIC, leader français du confort thermique, et devenez un acteur clé du développement de nos solutions de chauffage ! Au sein de notre Direction Marketing de l'Offre Atlantic Home Solutions, vous intégrez une équipe Marketing engagée, au coeur des enjeux de développement de nos gammes de chaudières domestiques et de pompes à chaleu",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7e253fa86f8f61d2"
+    }
+   ],
+   "first_seen": "2026-10-18"
+  },
+  {
+   "id": "89d3df427ee494bf",
+   "title": "Chef de Projet Marketing F/H",
+   "company": "Walter Learning",
+   "location": "Marseille",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Chef de Projet Marketing F/H <h5 dir=\"ltr\">Profil recherch&eacute; :&nbsp;</h5> <p dir=\"ltr\"><strong>Comp&eacute;tences organisationnelles</strong></p> <ul> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Faire preuve d&rsquo;autonomie.&nbsp;</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Avoir une certaine rigueur d'ex&eacute;cution et un sens du process :",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/chef-de-projet-marketing-f-h_marseille"
+    }
+   ],
+   "first_seen": "2026-10-18"
+  },
+  {
    "id": "5f2235dc83bc4550",
    "title": "Chef de Projets Marketing & Growth H/F",
    "company": "Hellowork",
@@ -22161,6 +22240,32 @@
    "first_seen": "2026-10-16"
   },
   {
+   "id": "5a40c83807221d13",
+   "title": "Onboarding Manager (Customer Success)",
+   "company": "Greenly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "Onboarding Manager (Customer Success)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/greenly/jobs/onboarding-manager-customer-success_paris_GREEN_mNbKOYA"
+    }
+   ],
+   "first_seen": "2026-10-15"
+  },
+  {
    "id": "d1f947eb31e0b8c9",
    "title": "Agent de Sécurité SSIAP 1 Mandarin",
    "company": "GROUPE BYBLOS",
@@ -22183,42 +22288,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=9af005ecf609f523"
-    }
-   ],
-   "first_seen": "2026-10-15"
-  },
-  {
-   "id": "d7525f8572408719",
-   "title": "Senior Customer Success Manager",
-   "company": "Gladia",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "churn",
-    "customer satisfaction",
-    "retention"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-15",
-   "salary": "50,000–75,000 EUR/yearly",
-   "description_snippet": "**About Gladia** ================ Gladia builds the **audio AI infrastructure** behind the new generation of voice products. Our mission is to **give every voice platform true conversational intelligence** — the **audio infrastructure** that **understands every conversation, turning voice into the world's most valuable data layer.** Our API turnsreal-world conversational audio into accurate, struc",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=aa2d4e0518f95c46"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/gladia/jobs/senior-customer-success-manager_paris"
     }
    ],
    "first_seen": "2026-10-15"
@@ -32594,6 +32663,32 @@
     }
    ],
    "first_seen": "2026-10-16"
+  },
+  {
+   "id": "d7525f8572408719",
+   "title": "Senior Customer Success Manager",
+   "company": "Gladia",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "Senior Customer Success Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/gladia/jobs/senior-customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-15"
   },
   {
    "id": "94bd7b2eefe3e237",
