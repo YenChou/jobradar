@@ -178,6 +178,29 @@ r = run("Customer Success Manager", "Réduire le churn, suivre le NPS.")
 ok({"churn", "nps"} <= set(r["skills"]), f"Customer 的技能關鍵字加分：{r['skills']}")
 ok(cfg["categories"]["customer"]["label"] == "Customer", "職類名稱是 Customer")
 
+# ── Études / Insights：市場研究，但不收統計、醫療、工程、金融研究 ──
+print()
+print("── Études / Insights ──")
+for t in ["customer insight", "marketing analytics", "market research", "études marketing", "consumer insights"]:
+    ok(t in cfg["search_terms"], f"搜尋詞有 {t!r}")
+for title in ["Chargé d'études marketing (H/F)", "Chargée d’études marketing", "Chargé(e) d'études marché",
+              "Market Research Analyst", "Marketing Research Manager", "Consumer Insights Manager",
+              "Chargé d'études consommateurs", "Chargé d'études quantitatives marketing",
+              "Responsable des études clients", "Customer Insights Analyst", "Market Intelligence Analyst",
+              "Chef de projet études marketing", "Shopper Insights Manager",
+              "Chargée d'étude consommateurs"]:
+    c = cats(title)
+    ok(c is not None and "insights" in c, f"{title} → {c}")
+ok("marketing_analytics" in (cats("Marketing Analyst (H/F)") or []), "Marketing Analyst → Analytics")
+for title in ["Chargé d'études statistiques", "Chargé d'études (H/F)", "Chargé d'études cliniques",
+              "Chargé d'études épidémiologiques", "Biostatisticien", "Ingénieur d'études",
+              "Chargé d'études BTP", "Chargé d'études en bureau d'études structure",
+              "Chargé d'études techniques", "Chargé d'études électricité", "Chargé d'études marchés publics",
+              "Chargé d'études marketing santé", "Clinical Research Associate", "Equity Research Analyst",
+              "Research Analyst - Market Risk", "Statistician - Market Research", "Research Engineer",
+              "Chargé d'études actuarielles", "Chargé d'étude hydraulique"]:
+    ok(cats(title) is None, f"不收：{title}")
+
 # ── 業務／客戶職類（Account Management、Sales Ops、BizDev APAC…）──
 print()
 print("── 業務／客戶職類 ──")

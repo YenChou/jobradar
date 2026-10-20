@@ -1,7 +1,7 @@
 # Jo's Chasse 📡
 
-每天自動抓取法國求職平台，篩出六類行銷職缺（Marketing Operations、Performance
-Marketing、CRM、Customer、Marketing Analytics、Marketing Produit）與六類業務／客戶職缺
+每天自動抓取法國求職平台，篩出七類行銷職缺（Marketing Operations、Performance
+Marketing、CRM、Customer、Marketing Analytics、Marketing Produit、Études / Insights）與六類業務／客戶職缺
 （Account Management、Sales Ops、BizDev APAC、International Project、Community、
 Taiwan / APAC），再加上明確要求中文的職缺（不限職類），發布成可篩選的靜態網站。
 
