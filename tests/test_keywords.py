@@ -158,6 +158,36 @@ ok(tagged("Chargé de CRM (H/F)", "Création vidéo.") is False and
    "video_content" in run("Chargé de CRM (H/F)", "Création vidéo.")["bonus_tags"],
    "影音內容標籤照舊")
 
+# ── 英文JD：內文用英文寫的 ──
+print()
+print("── 英文JD（看內文語言，不看職稱）──")
+EN_DESC = ("About the role: you will join our marketing team and work with the sales team. "
+           "We are looking for a CRM specialist who is passionate about data. This is a great "
+           "opportunity to grow with us and to have an impact on the product.")
+FR_DESC = ("Au sein de l'équipe marketing, vous serez en charge de la stratégie CRM et vous "
+           "travaillerez avec les équipes produit. Nous recherchons un profil autonome pour "
+           "développer la fidélisation de nos clients dans un environnement international.")
+ok(tagged("Chargé de CRM (H/F)", EN_DESC, tag="english_jd"), "英文內文 → 英文JD")
+ok(tagged("Chargé de CRM (H/F)", "<p><strong>About the role:</strong></p><p>" + EN_DESC + "</p>",
+          tag="english_jd"), "HTML 內文（WTTJ）也判斷得出來")
+ok(not tagged("CRM Specialist", FR_DESC, tag="english_jd"), "職稱英文、內文法文 → 不是英文JD")
+ok(not tagged("CRM Specialist", FR_DESC + " Fluent English required.", tag="english_jd"),
+   "法文內文只是要求英文 → 不是英文JD（那是「國際」）")
+ok(tagged("CRM Specialist", FR_DESC + " Fluent English required.", tag="international"), "……而是掛國際")
+ok(not tagged("CRM Specialist", "We are hiring. Join us.", tag="english_jd"), "太短的內文不判斷")
+ok(not tagged("CRM Specialist", "", tag="english_jd"), "沒有內文不判斷")
+ok(tagged("Chargé de CRM (H/F)", FR_DESC + " " + EN_DESC + " " + EN_DESC, tag="english_jd"),
+   "英法雙語、英文佔多數 → 英文JD")
+en_tag = cfg["bonus_tags"]["english_jd"]
+from scraper.util import norm as _norm
+snippet = _norm("Aircall is a unicorn, AI-powered customer communications platform used by 22,000+ "
+                "companies worldwide. We are building the future of work with our team and you.")
+ok(enrich.is_english(snippet, en_tag, en_tag["snippet_min_words"]) and not enrich.is_english(snippet, en_tag),
+   "補判舊職缺用 400 字摘要，門檻較低")
+ACCOUNTING_EN = ("You will join our finance team and work with the controllers. We are looking for an "
+                 "accountant who is rigorous. This is a great opportunity to grow with us and to have an impact.")
+ok(run("Comptable (H/F)", ACCOUNTING_EN) is None, "英文JD 只掛標籤，不會讓非目標職缺入庫")
+
 # ── 需求 3：Customer 職類 ──
 print()
 print("── Customer 職類 ──")
@@ -177,6 +207,73 @@ ok(c is not None and "customer" not in c and "marketing_produit" in c,
 r = run("Customer Success Manager", "Réduire le churn, suivre le NPS.")
 ok({"churn", "nps"} <= set(r["skills"]), f"Customer 的技能關鍵字加分：{r['skills']}")
 ok(cfg["categories"]["customer"]["label"] == "Customer", "職類名稱是 Customer")
+
+# ── Études / Insights：市場研究，但不收統計、醫療、工程、金融研究 ──
+print()
+print("── Études / Insights ──")
+for t in ["customer insight", "marketing analytics", "market research", "études marketing", "consumer insights"]:
+    ok(t in cfg["search_terms"], f"搜尋詞有 {t!r}")
+for title in ["Chargé d'études marketing (H/F)", "Chargée d’études marketing", "Chargé(e) d'études marché",
+              "Market Research Analyst", "Marketing Research Manager", "Consumer Insights Manager",
+              "Chargé d'études consommateurs", "Chargé d'études quantitatives marketing",
+              "Responsable des études clients", "Customer Insights Analyst", "Market Intelligence Analyst",
+              "Chef de projet études marketing", "Shopper Insights Manager",
+              "Chargée d'étude consommateurs"]:
+    c = cats(title)
+    ok(c is not None and "insights" in c, f"{title} → {c}")
+ok("marketing_analytics" in (cats("Marketing Analyst (H/F)") or []), "Marketing Analyst → Analytics")
+for title in ["Chargé d'études statistiques", "Chargé d'études (H/F)", "Chargé d'études cliniques",
+              "Chargé d'études épidémiologiques", "Biostatisticien", "Ingénieur d'études",
+              "Chargé d'études BTP", "Chargé d'études en bureau d'études structure",
+              "Chargé d'études techniques", "Chargé d'études électricité", "Chargé d'études marchés publics",
+              "Chargé d'études marketing santé", "Clinical Research Associate", "Equity Research Analyst",
+              "Research Analyst - Market Risk", "Statistician - Market Research", "Research Engineer",
+              "Chargé d'études actuarielles", "Chargé d'étude hydraulique"]:
+    ok(cats(title) is None, f"不收：{title}")
+
+# ── 業務／客戶職類（Account Management、Sales Ops、BizDev APAC…）──
+print()
+print("── 業務／客戶職類 ──")
+terms_raw = cfg["search_terms"]
+for t in ["Account Manager mandarin", "Customer Success Chinese", "APAC sales", "Sales Operations",
+          "Taiwan", "Client Development", "Key Account trilingue", "International Business Developer"]:
+    ok(t in terms_raw, f"搜尋詞有 {t!r}")
+for title, desc, want in [
+    ("Account Manager (H/F)", "", "account_management"),
+    ("Junior Account Manager", "", "account_management"),
+    ("Key Account Manager trilingue", "", "account_management"),
+    ("Client Relations Manager - Mandarin speaking", "", "account_management"),
+    ("Responsable grands comptes", "", "account_management"),
+    ("Client Development Manager", "", "account_management"),
+    ("Sales Operations Specialist", "", "sales_operations"),
+    ("Revenue Operations Analyst", "", "sales_operations"),
+    ("Account Executive - APAC", "", "business_development"),
+    ("Account Executive", "You will cover Greater China clients.", "business_development"),
+    ("Business Development Representative (BDR) - APAC", "", "business_development"),
+    ("International Business Developer", "", "business_development"),
+    ("Partnership Manager - Asia", "", "business_development"),
+    ("Responsable export", "", "business_development"),
+    ("International Project Coordinator", "", "international_project"),
+    ("Chef de projet international (H/F)", "", "international_project"),
+    ("Community Manager", "Profil multilingue (français, anglais, mandarin).", "community"),
+    ("Office Manager Taiwan", "", "taiwan_apac"),
+    ("Marketing Coordinator APAC", "", "taiwan_apac"),
+    ("Supply Chain Analyst Asie-Pacifique", "", "taiwan_apac"),
+]:
+    c = cats(title, desc)
+    ok(c is not None and want in c, f"{title} → {c}")
+for title, desc, why in [
+    ("Business Developer (H/F)", "Groupe international, prospection en France.",
+     "Business Developer 沒有亞洲脈絡（描述的 international 不算）"),
+    ("Account Executive", "Clients PME en Île-de-France.", "Account Executive 沒有亞洲脈絡"),
+    ("Chef de projet IT (H/F)", "Projet avec nos équipes en Chine.", "chef de projet 要職稱帶國際"),
+    ("Community Manager (H/F)", "Anglais courant.", "一般 community manager"),
+    ("Technicien de maintenance machine", "", "machine 不是 chine（整字比對）"),
+    ("Conseiller Account Manager (H/F)", "", "客服中心的 conseiller"),
+]:
+    ok(cats(title, desc) is None, f"不收：{why}")
+c = cats("Chargé de marketing produit", "En lien avec les account managers et sales operations.")
+ok(c == ["marketing_produit"], f"新職類只看職稱：描述提到 account managers 不會掛上 → {c}")
 
 # ── 英文實習（intern）要排除，但 international、interne 不能被誤殺 ──
 print()

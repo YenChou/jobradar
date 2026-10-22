@@ -44,6 +44,8 @@ def load_cfg() -> dict:
         cat["title_keywords"] = [norm(k) for k in cat["title_keywords"]]
         cat["skill_keywords"] = [norm(k) for k in cat["skill_keywords"]]
         cat["exclude_title"] = [norm(k) for k in cat.get("exclude_title") or []]
+        for key in ("require_title", "require_text"):
+            cat[key] = [norm(k) for k in cat.get(key) or []]
     for tag in cfg.get("bonus_tags", {}).values():
         # `or []`：清單項目全被註解掉時 YAML 給的是 None，不擋的話整輪抓取會直接崩潰
         for key in ("skill_keywords", "keep_keywords", "ignore_phrases"):
@@ -59,7 +61,7 @@ def load_cfg() -> dict:
 
 
 def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
-    from scraper.sources import apec, france_travail, indeed_jobspy, isarta, wttj
+    from scraper.sources import apec, france_travail, hellowork, indeed_jobspy, isarta, wttj
 
     hours_old = int(os.environ.get("HOURS_OLD", "72"))
     per_term = int(os.environ.get("RESULTS_PER_TERM", "50"))
@@ -74,6 +76,7 @@ def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
         ("Welcome to the Jungle", lambda: wttj.fetch(terms)),
         ("France Travail", lambda: france_travail.fetch(terms, max_days_old=max(1, hours_old // 24))),
         ("APEC", lambda: apec.fetch(terms, results_per_term=per_term)),
+        ("HelloWork", lambda: hellowork.fetch(terms, hours_old, known_urls)),
         # Fashion Jobs 已移除，詳見 README「注意」與模組 docstring。
         # 要重新啟用的話，除了這行註冊，還要把 detail_priority()（排詳情頁名額
         # 順序用）加回來——git log 找 remove-fashionjobs 那個 commit。
@@ -112,6 +115,18 @@ def local_apec() -> dict | None:
         return None
     log.info("併入本機 APEC 資料：%d 筆（%s）", len(d.get("jobs", [])), d["generated_at"])
     return {"generated_at": d["generated_at"], "jobs": d.get("jobs", [])}
+
+
+def keep_detail_info(j: dict, old: dict) -> None:
+    """詳情頁補過的職缺下一輪不再重抓（HelloWork），這次就只剩職稱可以分類。
+    別讓沒有內文的結果抹掉上次從內文得到的摘要、標籤與技能。"""
+    if j.get("description_snippet") or not old.get("description_snippet"):
+        return
+    j["description_snippet"] = old["description_snippet"]
+    for f in ("categories", "skills"):
+        j[f] = sorted(set(j[f]) | set(old.get(f) or []))
+    j["bonus_tags"] += [t for t in old.get("bonus_tags") or [] if t not in j["bonus_tags"]]
+    j["score"] = max(j["score"], old.get("score", j["score"]))
 
 
 def demo_jobs() -> tuple[list[dict], dict]:
@@ -175,6 +190,8 @@ def main() -> int:
         # 重抓同一頁，來回無限循環。所以先把上次拿到的真實公告日接回來。
         if old and not j.get("date_posted") and not old.get("date_assumed"):
             j["date_posted"] = old.get("date_posted")
+        if old:
+            keep_detail_info(j, old)
         history[j["id"]] = j
 
     # 30 天過期下架 + 用「目前的」排除規則重新清洗歷史（規則更新即回溯生效）
@@ -186,6 +203,16 @@ def main() -> int:
                                       requires_chinese="chinese" in (j.get("bonus_tags") or []))
     ]
 
+    # 英文JD 是新加的標籤：之前入庫的職缺沒判斷過，用存下來的摘要補判（只補不刪）。
+    # 摘要只有 400 字，所以用較低的門檻（snippet_min_words）。
+    en_tag = cfg.get("bonus_tags", {}).get("english_jd")
+    if en_tag:
+        for j in jobs:
+            tags = j.setdefault("bonus_tags", [])
+            if "english_jd" not in tags and enrich.is_english(
+                    norm(j.get("description_snippet")), en_tag, en_tag.get("snippet_min_words", 6)):
+                tags.append("english_jd")
+
     # 來源沒給公告日：假設「首次抓到的那天」就是公告日，並標記成推定值，
     # 讓前端顯示成「約 YYYY-MM-DD」而不是冒充精確資料。
     # 放在這裡而不是上面的迴圈，是為了連同「這次沒重抓到的歷史紀錄」一起補。
@@ -194,7 +221,7 @@ def main() -> int:
             j["date_posted"] = j.get("first_seen") or today
             j["date_assumed"] = True
 
-    # 排序：分數高在前，同分者新的在前
+    # 排序：分數高在前，同分者新的在前（網站畫面另外依公告日期重排，見 docs/index.html 的 render）
     jobs.sort(key=lambda j: (-j["score"], _desc(j.get("first_seen")), _desc(j.get("date_posted"))))
 
     OUT.parent.mkdir(parents=True, exist_ok=True)

@@ -123,6 +123,7 @@ categories:
       - "marketing data analyst"
       - "web analyst"
       - "analyste marketing"
+      - "marketing analyst"
       - "marketing analytics"
     skill_keywords:
       - "sql"
@@ -151,6 +152,403 @@ categories:
       - "etude de marche"
       - "veille concurrentielle"
       - "positionnement"
+
+  # Études / Insights：市場研究、消費者洞察。
+  # 「Chargé(e) d'études」本身太寬——統計、醫療、工程（bureau d'études）的缺都叫這個名字，
+  # 所以單獨出現時要接 marketing、marché、consommateurs 這類詞才算（require_title），
+  # 職稱帶統計、醫療、工程字眼的一律不算（exclude_title，整字比對）。
+  insights:
+    label: "Études / Insights"
+    title_only: true
+    whole_word: true
+    exclude_title:
+      # 統計
+      - "statistique"
+      - "statistiques"
+      - "statisticien"
+      - "statisticienne"
+      - "biostatistique"
+      - "biostatisticien"
+      - "biostatisticienne"
+      - "statistician"
+      - "biostatistician"
+      - "statistics"
+      - "actuariat"
+      - "actuariel"
+      # 醫療
+      - "clinique"
+      - "cliniques"
+      - "clinical"
+      - "medical"
+      - "medicale"
+      - "medicales"
+      - "medicaux"
+      - "sante"
+      - "health"
+      - "healthcare"
+      - "epidemiologie"
+      - "epidemiologique"
+      - "epidemiologiques"
+      - "epidemiologiste"
+      - "pharmacovigilance"
+      - "hopital"
+      - "hospitalier"
+      - "hospitaliere"
+      # 工程
+      - "ingenieur"
+      - "ingenieure"
+      - "engineer"
+      - "engineering"
+      - "bureau d'etudes"
+      - "technique"
+      - "techniques"
+      - "btp"
+      - "genie civil"
+      - "structure"
+      - "structures"
+      - "electrique"
+      - "electricite"
+      - "mecanique"
+      - "hydraulique"
+      - "thermique"
+      - "geotechnique"
+      - "methodes"
+      - "industrialisation"
+      - "marche public"     # 「Chargé d'études marchés publics」是公共採購
+      - "marches publics"
+      # 金融研究（Equity Research Analyst、Research Analyst - Market Risk）
+      - "equity"
+      - "risk"
+      - "risque"
+      - "risques"
+      - "investment"
+      - "investissement"
+      - "actions"
+    title_keywords:
+      # 職稱本身就是行銷研究
+      - "market research"
+      - "marketing research"
+      - "market researcher"
+      - "etudes marketing"
+      - "etude marketing"
+      - "etudes de marche"
+      - "etude de marche"
+      - "etudes consommateurs"
+      - "etudes consommateur"
+      - "consumer insight"
+      - "consumer insights"
+      - "customer insight"
+      - "customer insights"
+      - "market insight"
+      - "market insights"
+      - "marketing insights"
+      - "shopper insights"
+      - "insights manager"
+      - "insights analyst"
+      - "insight manager"
+      - "insight analyst"
+      - "market intelligence"
+      - "marketing intelligence"
+      # 泛稱：要接下面 require_title 的詞才算
+      - "charge d'etudes"
+      - "chargee d'etudes"
+      - "charge d'etude"        # 單數寫法也常見：「Chargé d'étude marketing」
+      - "chargee d'etude"
+      - "charge(e) d'etudes"
+      - "charge.e d'etudes"
+      - "responsable des etudes"
+      - "responsable etudes"
+      - "chef de projet etudes"
+      - "research analyst"
+      - "research manager"
+    require_title:
+      - "marketing"
+      - "market"
+      - "marche"
+      - "marches"
+      - "consommateur"
+      - "consommateurs"
+      - "consumer"
+      - "client"
+      - "clients"
+      - "clientele"
+      - "customer"
+      - "shopper"
+      - "insight"
+      - "insights"
+      - "marque"
+      - "brand"
+      - "satisfaction"
+    skill_keywords:
+      - "questionnaire"
+      - "enquete"
+      - "panel"
+      - "focus group"
+      - "qualitative"
+      - "quantitative"
+      - "qualitatif"
+      - "quantitatif"
+      - "segmentation"
+      - "nps"
+      - "satisfaction client"
+      - "veille concurrentielle"
+      - "spss"
+      - "qualtrics"
+      - "excel"
+      - "power bi"
+
+  # ── 以下是行銷以外、Yen 的業務／客戶經驗與中文能力對得上的職類 ──
+  # 全部 title_only：這些職稱常出現在別的職缺描述裡（「en lien avec les account managers」），
+  # 用描述補判會把一堆無關職缺掛上去。whole_word：整字比對，"chine" 不會中 "machine"。
+
+  # Account Manager／Key Account／Client Relations
+  account_management:
+    label: "Account Management"
+    title_only: true
+    whole_word: true
+    exclude_title:            # 跟 Customer 一樣，不收客服中心的缺
+      - "conseiller"
+      - "conseillere"
+      - "teleconseiller"
+      - "teleconseillere"
+      - "centre d'appels"
+      - "call center"
+      - "call centre"
+    title_keywords:
+      - "account manager"
+      - "account managers"
+      - "key account"         # Key Account Manager／Executive
+      - "kam"
+      # 「grands comptes」單獨用太寬（Solution Fiscale Grands Comptes 是產品線），要接職務
+      - "responsable grands comptes"
+      - "d'affaires grands comptes"   # Chargé(e) d'affaires grands comptes
+      - "commercial grands comptes"
+      - "commerciale grands comptes"
+      - "manager grands comptes"
+      - "gestionnaire grands comptes"
+      - "client relations"
+      - "client relationship"
+      - "client development"
+      - "developpement clients"
+    skill_keywords:
+      - "portefeuille clients"
+      - "portefeuille client"
+      - "upsell"
+      - "cross-sell"
+      - "renouvellement"
+      - "renewal"
+      - "fidelisation"
+      - "salesforce"
+      - "hubspot"
+      - "crm"
+
+  # Sales／Revenue Operations：reporting、pipeline、CRM
+  sales_operations:
+    label: "Sales Ops"
+    title_only: true
+    whole_word: true
+    title_keywords:
+      - "sales operations"
+      - "sales ops"
+      - "sales operation"
+      - "revenue operations"
+      - "revops"
+      - "sales enablement"
+      - "operations commerciales"   # Chargé(e) des opérations commerciales
+    skill_keywords:
+      - "pipeline"
+      - "forecast"
+      - "reporting"
+      - "dashboard"
+      - "salesforce"
+      - "hubspot"
+      - "crm"
+      - "sql"
+      - "excel"
+
+  # Account Executive／BDR／Business Developer／Partnership：法國這類缺多到爆，
+  # 所以要帶亞洲／國際脈絡才收（Account Executive - APAC、BDR Greater China、
+  # International Business Developer、Partnership Manager - Asia）。
+  business_development:
+    label: "BizDev APAC"
+    title_only: true
+    whole_word: true
+    title_keywords:
+      - "account executive"
+      - "business developer"
+      - "business development"   # Business Development Representative／Manager
+      - "bdr"
+      - "sdr"
+      - "sales development"
+      - "sales manager"
+      - "sales executive"
+      - "developpeur commercial"
+      - "developpeuse commerciale"
+      - "developpement commercial"
+      - "partnership manager"
+      - "partnerships manager"
+      - "partner manager"
+      - "partenariats"           # Chargé(e) de partenariats
+      # 不單收 export：「Assistant Achats Export」「Chef de produits Export」不是開發業務
+      - "responsable export"
+      - "export manager"
+      - "manager export"
+      - "export sales"
+      - "d'affaires export"      # Chargé(e) d'affaires export
+      - "commercial export"
+      - "commerciale export"
+    # 職稱有這些字就算（international 這種詞放描述會太寬：「groupe international」到處都是）
+    require_title:
+      - "international"
+      - "internationale"
+      - "internationaux"
+      - "export"
+      - "global"
+      - "apac"
+      - "asia"
+      - "asie"
+      - "asia-pacific"
+      - "greater china"
+      - "china"
+      - "chine"
+      - "chinese"
+      - "taiwan"
+      - "mandarin"
+    # 職稱或描述有這些字就算：只收明確指向亞洲、中文的詞
+    require_text:
+      - "apac"
+      - "asia"
+      - "asie"
+      - "asia-pacific"
+      - "asie-pacifique"
+      - "greater china"
+      - "china"
+      - "chine"
+      - "taiwan"
+      - "hong kong"
+      - "singapore"
+      - "singapour"
+      - "mandarin"
+      - "trilingue"
+      - "trilingual"
+    skill_keywords:
+      - "prospection"
+      - "prospecting"
+      - "outbound"
+      - "lead generation"
+      - "generation de leads"
+      - "pipeline"
+      - "salesforce"
+      - "hubspot"
+      - "linkedin"
+
+  # International Project Coordinator／Manager：chef de projet 本身太寬（IT、BTP…），
+  # 職稱要帶國際／亞洲才算
+  international_project:
+    label: "International Project"
+    title_only: true
+    whole_word: true
+    title_keywords:
+      - "project coordinator"
+      - "project manager"
+      - "project officer"
+      - "chef de projet"
+      - "cheffe de projet"
+      - "charge de projet"
+      - "chargee de projet"
+      - "coordinateur de projet"
+      - "coordinatrice de projet"
+      - "coordinateur projets"
+      - "coordinatrice projets"
+      - "coordinateur de projets"
+      - "coordinatrice de projets"
+    require_title:
+      - "international"
+      - "internationale"
+      - "internationaux"
+      - "global"
+      - "apac"
+      - "asia"
+      - "asie"
+      - "china"
+      - "chine"
+      - "taiwan"
+      - "multiculturel"
+      - "multicultural"
+    skill_keywords:
+      - "coordination"
+      - "parties prenantes"
+      - "stakeholder"
+      - "gestion de projet"
+      - "project management"
+      - "retroplanning"
+      - "jira"
+      - "notion"
+      - "asana"
+
+  # Community Manager（multilingual）：一般的 community manager 很多，要多語或亞洲脈絡才收
+  community:
+    label: "Community"
+    title_only: true
+    whole_word: true
+    title_keywords:
+      - "community manager"
+      - "community management"
+      - "charge de communaute"
+      - "chargee de communaute"
+      - "responsable communaute"
+    require_title:
+      - "international"
+      - "internationale"
+      - "global"
+      - "apac"
+      - "asia"
+      - "asie"
+      - "china"
+      - "chine"
+      - "chinese"
+      - "taiwan"
+      - "mandarin"
+    require_text:
+      - "multilingue"
+      - "multilingual"
+      - "trilingue"
+      - "trilingual"
+      - "mandarin"
+      - "apac"
+      - "asia"
+      - "asie"
+      - "taiwan"
+    skill_keywords:
+      - "youtube"
+      - "tiktok"
+      - "instagram"
+      - "linkedin"
+      - "reseaux sociaux"
+      - "social media"
+      - "creation video"
+      - "montage video"
+      - "moderation"
+
+  # Taiwan／APAC：職稱提到台灣或亞太，不論職能都收
+  taiwan_apac:
+    label: "Taiwan / APAC"
+    title_only: true
+    whole_word: true
+    title_keywords:
+      - "taiwan"
+      - "taiwanese"
+      - "taipei"
+      - "apac"
+      - "asia"
+      - "asie"
+      - "asia-pacific"
+      - "asie-pacifique"
+      - "greater china"
+      - "china"
+      - "chine"
+      - "hong kong"
+    skill_keywords: []
 
 # 跨類技能標籤：不成類，但命中會在職缺上顯示標籤（Yen 的加分技能）
 # 比對範圍是職稱＋描述。標籤只負責標示，唯一的例外是 keep_keywords／keep_patterns（見需中文）。
@@ -277,6 +675,17 @@ bonus_tags:
       - "nouvel an chinois"   # 零售行銷的檔期，不是國際業務
       - "chinese new year"
       - "cle anglaise"        # clé anglaise＝扳手
+
+  # 英文JD：職缺內文是用英文寫的（「要求英文」是上面的「國際」，不是這個）。
+  # 數內文裡英文、法文的常用虛詞（the、and、you… 對 le、et、vous…），英文佔多數才算。
+  # 只看內文、不看職稱：職稱常是英文（Customer Success Manager），內文卻是法文。
+  # 沒有內文的職缺（Isarta、HelloWork 還沒補詳情的）不判斷。只掛標籤，不影響收不收。
+  english_jd:
+    label: "英文JD"
+    language: "en"
+    min_words: 12     # 英文虛詞至少要這麼多個，太短的內文不判斷
+    snippet_min_words: 6   # 補判舊職缺只有 400 字摘要，門檻放低
+    min_ratio: 0.6    # 英文虛詞 ÷（英文＋法文虛詞）；英法雙語的 JD 通常也會過
 
 exclude_title:
   - "stage"
@@ -408,10 +817,29 @@ search_terms:
   - "marketing produit"
   - "product marketing"
   - "marketing automation"
+  # Études / Insights 與 Analytics：研究類搜回來的統計、醫療、工程缺由職類規則擋掉
+  - "marketing analytics"
+  - "customer insight"
+  - "consumer insights"
+  - "market research"
+  - "études marketing"
   # Customer 職類（英法兩種講法）
   - "customer marketing"
   - "customer success"
   - "marketing clientèle"
+  # 業務／客戶職類（Account Management、Sales Ops、BizDev APAC、Taiwan / APAC…）
+  - "Account Manager mandarin"
+  - "Customer Success Chinese"
+  - "APAC sales"
+  - "Sales Operations"
+  - "Taiwan"
+  - "Client Development"
+  - "Key Account trilingue"
+  - "International Business Developer"
+  - "account manager"
+  - "partnership manager"
+  - "international project"
+  - "community manager multilingue"
   # 以下是較寬的詞，刻意放最後：各來源有時間預算，萬一不夠用，被跳過的會是這些，
   # 上面核心的行銷詞照常跑完。英法兩種講法都列（CRM、mandarin 兩語同字）。
   # 搜到的職缺照樣要過分類：只有明確要求中文的才能不屬於任何職類也收（見 bonus_tags.chinese）。
