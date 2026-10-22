@@ -203,6 +203,16 @@ def main() -> int:
                                       requires_chinese="chinese" in (j.get("bonus_tags") or []))
     ]
 
+    # 英文JD 是新加的標籤：之前入庫的職缺沒判斷過，用存下來的摘要補判（只補不刪）。
+    # 摘要只有 400 字，所以用較低的門檻（snippet_min_words）。
+    en_tag = cfg.get("bonus_tags", {}).get("english_jd")
+    if en_tag:
+        for j in jobs:
+            tags = j.setdefault("bonus_tags", [])
+            if "english_jd" not in tags and enrich.is_english(
+                    norm(j.get("description_snippet")), en_tag, en_tag.get("snippet_min_words", 6)):
+                tags.append("english_jd")
+
     # 來源沒給公告日：假設「首次抓到的那天」就是公告日，並標記成推定值，
     # 讓前端顯示成「約 YYYY-MM-DD」而不是冒充精確資料。
     # 放在這裡而不是上面的迴圈，是為了連同「這次沒重抓到的歷史紀錄」一起補。

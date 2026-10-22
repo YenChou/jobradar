@@ -676,6 +676,17 @@ bonus_tags:
       - "chinese new year"
       - "cle anglaise"        # clé anglaise＝扳手
 
+  # 英文JD：職缺內文是用英文寫的（「要求英文」是上面的「國際」，不是這個）。
+  # 數內文裡英文、法文的常用虛詞（the、and、you… 對 le、et、vous…），英文佔多數才算。
+  # 只看內文、不看職稱：職稱常是英文（Customer Success Manager），內文卻是法文。
+  # 沒有內文的職缺（Isarta、HelloWork 還沒補詳情的）不判斷。只掛標籤，不影響收不收。
+  english_jd:
+    label: "英文JD"
+    language: "en"
+    min_words: 12     # 英文虛詞至少要這麼多個，太短的內文不判斷
+    snippet_min_words: 6   # 補判舊職缺只有 400 字摘要，門檻放低
+    min_ratio: 0.6    # 英文虛詞 ÷（英文＋法文虛詞）；英法雙語的 JD 通常也會過
+
 exclude_title:
   - "stage"
   - "stagiaire"

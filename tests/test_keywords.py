@@ -158,6 +158,36 @@ ok(tagged("Chargé de CRM (H/F)", "Création vidéo.") is False and
    "video_content" in run("Chargé de CRM (H/F)", "Création vidéo.")["bonus_tags"],
    "影音內容標籤照舊")
 
+# ── 英文JD：內文用英文寫的 ──
+print()
+print("── 英文JD（看內文語言，不看職稱）──")
+EN_DESC = ("About the role: you will join our marketing team and work with the sales team. "
+           "We are looking for a CRM specialist who is passionate about data. This is a great "
+           "opportunity to grow with us and to have an impact on the product.")
+FR_DESC = ("Au sein de l'équipe marketing, vous serez en charge de la stratégie CRM et vous "
+           "travaillerez avec les équipes produit. Nous recherchons un profil autonome pour "
+           "développer la fidélisation de nos clients dans un environnement international.")
+ok(tagged("Chargé de CRM (H/F)", EN_DESC, tag="english_jd"), "英文內文 → 英文JD")
+ok(tagged("Chargé de CRM (H/F)", "<p><strong>About the role:</strong></p><p>" + EN_DESC + "</p>",
+          tag="english_jd"), "HTML 內文（WTTJ）也判斷得出來")
+ok(not tagged("CRM Specialist", FR_DESC, tag="english_jd"), "職稱英文、內文法文 → 不是英文JD")
+ok(not tagged("CRM Specialist", FR_DESC + " Fluent English required.", tag="english_jd"),
+   "法文內文只是要求英文 → 不是英文JD（那是「國際」）")
+ok(tagged("CRM Specialist", FR_DESC + " Fluent English required.", tag="international"), "……而是掛國際")
+ok(not tagged("CRM Specialist", "We are hiring. Join us.", tag="english_jd"), "太短的內文不判斷")
+ok(not tagged("CRM Specialist", "", tag="english_jd"), "沒有內文不判斷")
+ok(tagged("Chargé de CRM (H/F)", FR_DESC + " " + EN_DESC + " " + EN_DESC, tag="english_jd"),
+   "英法雙語、英文佔多數 → 英文JD")
+en_tag = cfg["bonus_tags"]["english_jd"]
+from scraper.util import norm as _norm
+snippet = _norm("Aircall is a unicorn, AI-powered customer communications platform used by 22,000+ "
+                "companies worldwide. We are building the future of work with our team and you.")
+ok(enrich.is_english(snippet, en_tag, en_tag["snippet_min_words"]) and not enrich.is_english(snippet, en_tag),
+   "補判舊職缺用 400 字摘要，門檻較低")
+ACCOUNTING_EN = ("You will join our finance team and work with the controllers. We are looking for an "
+                 "accountant who is rigorous. This is a great opportunity to grow with us and to have an impact.")
+ok(run("Comptable (H/F)", ACCOUNTING_EN) is None, "英文JD 只掛標籤，不會讓非目標職缺入庫")
+
 # ── 需求 3：Customer 職類 ──
 print()
 print("── Customer 職類 ──")

@@ -35,7 +35,7 @@ def classify(job: dict, cfg: dict) -> dict | None:
     # 附加標籤（影音內容、需中文、國際）先算：「是否明確要求中文」會影響下面兩步
     # ——中文地區國旗放不放行，以及職類全沒中時收不收。比對職稱＋描述，語言要求
     # 常寫在職稱裡（例如 "Marketing Strategy Manager - Mandarin speaker"）。
-    bonus_tags, keep = _bonus_tags(text_n, cfg)
+    bonus_tags, keep = _bonus_tags(text_n, cfg, desc_n)
 
     # 1) 硬性排除：Stage/Alternance 與針對其他國家市場的職缺
     if excluded_title(clean_str(job.get("title")), cfg, requires_chinese=keep):
@@ -123,7 +123,25 @@ def _hit(kw: str, text: str, whole_word: bool | None) -> bool:
     return kw in text
 
 
-def _bonus_tags(text_n: str, cfg: dict) -> tuple[list[str], bool]:
+# 判斷內文語言用的虛詞：只收不會在另一種語言裡出現的字（英文的 on、as、or 法文也有，不收）
+EN_WORDS = frozenset("the and you your with will our are we this that for of to is be have an who what "
+                     "which from at by it".split())
+FR_WORDS = frozenset("le la les et vous votre vos avec pour nous notre nos des du une est dans sur au aux "
+                     "de en un que qui sont ce cette ces se il elle par plus ou son sa ses".split())
+TAG_PAT = re.compile(r"<[^>]+>")
+
+
+def is_english(text_n: str, tag: dict, min_words: int | None = None) -> bool:
+    """內文是不是英文寫的（text_n 已經過 norm：小寫、去重音）。HTML 標籤先拿掉——
+    WTTJ 的內文是 HTML，<strong>、<span> 不該被當成字。"""
+    words = re.findall(r"[a-z]+", TAG_PAT.sub(" ", text_n))
+    en = sum(1 for w in words if w in EN_WORDS)
+    fr = sum(1 for w in words if w in FR_WORDS)
+    need = min_words if min_words is not None else tag.get("min_words", 12)
+    return en >= max(need, 1) and en / (en + fr) >= tag.get("min_ratio", 0.6)
+
+
+def _bonus_tags(text_n: str, cfg: dict, desc_n: str = "") -> tuple[list[str], bool]:
     """回傳 (命中的標籤 key, 是否不論職類都要收)。
 
     標籤只負責標示，不影響收不收——唯一的例外是 keep_keywords／keep_patterns：
@@ -134,6 +152,10 @@ def _bonus_tags(text_n: str, cfg: dict) -> tuple[list[str], bool]:
     tags: list[str] = []
     keep = False
     for key, tag in cfg.get("bonus_tags", {}).items():
+        if tag.get("language") == "en":
+            if is_english(desc_n, tag):   # 只看內文，職稱常是英文、內文卻是法文
+                tags.append(key)
+            continue
         # 先刪掉含關鍵字卻無關的片語（"mandarin oriental" 是飯店，不是語言）
         text = text_n
         for phrase in tag.get("ignore_phrases", []):
