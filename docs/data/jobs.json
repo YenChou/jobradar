@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-25T14:51:52Z",
+ "generated_at": "2026-10-25T20:17:29Z",
  "source_stats": {
-  "Indeed": 1455,
+  "Indeed": 1245,
   "Welcome to the Jungle": 5290,
-  "France Travail": 189,
+  "France Travail": 187,
   "APEC": 0,
   "HelloWork": 0,
   "Isarta": 146
@@ -12,8 +12,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 38 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1570,
- "new_today": 18,
+ "count": 1571,
+ "new_today": 19,
  "jobs": [
   {
    "id": "914626767bb0b43e",
@@ -5019,8 +5019,8 @@
    "id": "86d1d5ac7953fca3",
    "title": "Ingénieur d'affaires Editeur Logiciel F/H",
    "company": "CIRIL GROUP",
-   "location": "Nantes, B5, France",
-   "city": "Nantes",
+   "location": "Rennes, A2, France",
+   "city": "Rennes",
    "region": "west",
    "work_mode": "remote",
    "contract": "CDI",
@@ -5038,7 +5038,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d70cbdce516c813a"
+     "url": "https://fr.indeed.com/viewjob?jk=a011c9179461ebb4"
     }
    ],
    "first_seen": "2026-10-24"
@@ -8056,42 +8056,6 @@
     {
      "name": "France Travail",
      "url": "https://www.meteojob.com/jobs/54728399?utm_source=pole-emploi&utm_medium=aggregator-free"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "4f685dc8e6a0e757",
-   "title": "Technical Account Manager",
-   "company": "Sekoia",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "renewal",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 12,
-   "date_posted": "2026-10-22",
-   "salary": null,
-   "description_snippet": "Want to give your **cybersecurity** career a boost? Join Sekoia as a **Technical Account Manager** in our Technical Account Management team. Trained on our innovative platform, you will become your customers' **trusted technical liaison**, orchestrating their **adoption and maximizing the value** of Sekoia, from **onboarding to renewal**. Working alongside a Customer Success Manager and in close c",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=b4522edc9a9f239b"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/sekoia/jobs/technical-account-manager_SEKOI_9ReAbwq"
     }
    ],
    "first_seen": "2026-10-22"
@@ -11993,6 +11957,32 @@
     }
    ],
    "first_seen": "2026-10-23"
+  },
+  {
+   "id": "4f685dc8e6a0e757",
+   "title": "Technical Account Manager",
+   "company": "Sekoia",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-10-23",
+   "salary": null,
+   "description_snippet": "Technical Account Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sekoia/jobs/technical-account-manager_SEKOI_9ReAbwq"
+    }
+   ],
+   "first_seen": "2026-10-22"
   },
   {
    "id": "a52fee58d193e499",
@@ -23010,39 +23000,6 @@
    "first_seen": "2026-10-22"
   },
   {
-   "id": "2d2f2b657f63c50d",
-   "title": "Customer Success Consultant",
-   "company": "Mirakl",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-22",
-   "salary": null,
-   "description_snippet": "**About Mirakl:** Founded in 2012, Mirakl has been at the forefront of marketplace innovation, empowering every business to compete in the platform economy. Today, Mirakl's operating system combines an enterprise marketplace solution (Mirakl Platform) that enables retailers and B2B organizations to launch, scale, and operate marketplaces and dropship, AI-powered multichannel selling (Mirakl Connec",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=f7e90ae8f7638ff2"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/mirakl/jobs/customer-success-consultant_paris_MIRAK_9dmLkoA"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
    "id": "d68869f0a22ee04f",
    "title": "Collaborateur comptable (H/F)",
    "company": "AGIFEX",
@@ -31120,6 +31077,214 @@
    "first_seen": "2026-10-23"
   },
   {
+   "id": "0ce1f15c70fcbaac",
+   "title": "Key Account Manager  - Media & Entertainment - CDI Paris - Theodo",
+   "company": "Theodo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Key Account Manager - Media & Entertainment - CDI Paris - Theodo <ul><li>Idéalement diplômé(e) d’une <strong>grande école d’ingénieur</strong>.</li> <li><strong>7+ ans d’expérience en vente dans le conseil</strong>, idéalement auprès de clients Media &amp; Entertainment </li> <li>Une <strong>bonne compréhension des enjeux tech du marché</strong> et des problématiques clients sur le secteur.</li> <",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/theodo/jobs/key-account-manager-media-entertainment-cdi-paris-theodo_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "619717a9afd57eba",
+   "title": "Key Account Manager - CDI Paris - Theodo Run TMA",
+   "company": "Theodo Cloud",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Key Account Manager - CDI Paris - Theodo Run TMA <ul><li>Tu as de l&#39;expérience dans une ESN tech ayant déjà vendu de la maintenance. </li> <li>Tu es diplômé(e) d’une grande école d’ingénieur ou école de commerce</li> <li>Tu as une compréhension des usages IA, et une forte curiosité</li> <li>Tu maîtrises les techniques et méthodologies de gestion de compte, idéalement dans le conseil</li> <li>T",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/padok/jobs/key-account-manager-cdi-paris-theodo-run_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "fe565581846e96ae",
+   "title": "Key Account Manager - Cloud x Santé - CDI Paris - Theodo",
+   "company": "Theodo Cloud",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Key Account Manager - Cloud x Santé - CDI Paris - Theodo <ul><li>Idéalement diplômé(e) d’une <strong>grande école d’ingénieur</strong>.</li> <li><strong>3+ ans d’expérience en vente de services ou de conseil</strong>, idéalement dans la tech.</li> <li>Un intérêt marqué pour les <strong>enjeux de santé et les problématiques Cloud</strong>.</li> <li>Une <strong>forte curiosité tech</strong> et l’env",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/padok/jobs/key-account-manager-cloud-x-sante-cdi-paris-theodo_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "be6c4241a2daccac",
+   "title": "Key Account Manager Secteur Public - CDI Paris - Theodo",
+   "company": "Theodo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Key Account Manager Secteur Public - CDI Paris - Theodo * Tu es diplômé(e) d’une grande école * Tu as 3 à 8 ans d'xp en vente dans le conseil (dont 3 années en mission de conseil) * Tu as une connaissance des enjeux du secteur public et de la commande publique * Tu maîtrises les techniques et méthodologies de gestion de compte * Tu as une forte curiosité pour la tech et le fonctionnement des produ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/theodo/jobs/key-account-manager-secteur-public-cdi-paris-theodo_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "0c4e0727ced38f9f",
+   "title": "AI-Modernisation - Key Account Manager - CDI Paris - Theodo",
+   "company": "Theodo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "AI-Modernisation - Key Account Manager - CDI Paris - Theodo <ul><li>Tu es diplômé(e) d’une grande école d’ingénieur</li> <li>Tu as une compréhension solide des usages IA, et une forte curiosité</li> <li>Tu maîtrises les techniques et méthodologies de gestion de compte, idéalement dans le conseil</li> <li>Tu sais faire preuve de leadership pour embarquer tes collaborateurs dans des cycles de ventes",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/theodo/jobs/ai-modernisation-business-developer-cdi-paris_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "0a5c9f9903cb64e7",
+   "title": "Key Account Manager - Paris CDI - Theodo Maroc",
+   "company": "Theodo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Key Account Manager - Paris CDI - Theodo Maroc **Formation** : Diplôme d'une grande école de commerce ou d’ingénieurs. **Expérience** : +5 ans d’expérience dans une entreprise de service tech / IT. **Compétences** : * Passion pour la tech et l’innovation digitale. * Sens du closing et excellentes capacités relationnelles. * Capacité à évoluer dans un environnement dynamique et collaboratif.",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/theodo/jobs/key-account-manager-paris-cdi-theodo_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "4987f2c4c2179916",
+   "title": "Key Account Manager - CDI Paris - Theodo HealthTech",
+   "company": "Theodo HealthTech",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Key Account Manager - CDI Paris - Theodo HealthTech <ul><li>Tu as 3 à 8 ans d&#39;expérience en vente complexe auprès de C-Level dont au moins 3 ans dans le conseil</li> <li>Tu as connais les enjeux HealthTech, ce qui te permet d’ouvrir les portes de nouveaux comptes chez nous</li> <li>Tu maîtrises les techniques et méthodologies de gestion de compte</li> <li>Tu as une forte appétence pour la tech",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hokla/jobs/key-account-manager-cdi-paris-theodo-healthtech_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "25aa5f6bd1e7ed7e",
+   "title": "Key Account Manager - CDI Paris - Theodo Cloud",
+   "company": "Theodo Cloud",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Key Account Manager - CDI Paris - Theodo Cloud <ul><li>Idéalement diplômé(e) d’une <strong>grande école d’ingénieur</strong>.</li> <li>Tu es expérimenté dans <strong>la vente de projets </strong>sur des sujets Cloud.</li> <li>Une <strong>bonne compréhension des enjeux du marché</strong> et des problématiques clients sur ces sujets.</li> <li>Maîtrise des <strong>techniques de vente et d’Account Man",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/padok/jobs/key-account-manager-cdi-paris-theodo-cloud_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "f3ec69ece47b7889",
    "title": "Account Manager Mid Market",
    "company": "Modjo",
@@ -31141,6 +31306,32 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/account-manager-mid-market_paris_MODJO_5pMzXRx"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "2d2f2b657f63c50d",
+   "title": "Customer Success Consultant",
+   "company": "Mirakl",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-23",
+   "salary": null,
+   "description_snippet": "Customer Success Consultant",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/mirakl/jobs/customer-success-consultant_paris_MIRAK_9dmLkoA"
     }
    ],
    "first_seen": "2026-10-22"
@@ -31993,214 +32184,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/hopwork/jobs/key-account-manager-smb_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "0ce1f15c70fcbaac",
-   "title": "Key Account Manager  - Media & Entertainment - CDI Paris - Theodo",
-   "company": "Theodo",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "Key Account Manager - Media & Entertainment - CDI Paris - Theodo <ul><li>Idéalement diplômé(e) d’une <strong>grande école d’ingénieur</strong>.</li> <li><strong>7+ ans d’expérience en vente dans le conseil</strong>, idéalement auprès de clients Media &amp; Entertainment </li> <li>Une <strong>bonne compréhension des enjeux tech du marché</strong> et des problématiques clients sur le secteur.</li> <",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/theodo/jobs/key-account-manager-media-entertainment-cdi-paris-theodo_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "619717a9afd57eba",
-   "title": "Key Account Manager - CDI Paris - Theodo Run TMA",
-   "company": "Theodo Cloud",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "Key Account Manager - CDI Paris - Theodo Run TMA <ul><li>Tu as de l&#39;expérience dans une ESN tech ayant déjà vendu de la maintenance. </li> <li>Tu es diplômé(e) d’une grande école d’ingénieur ou école de commerce</li> <li>Tu as une compréhension des usages IA, et une forte curiosité</li> <li>Tu maîtrises les techniques et méthodologies de gestion de compte, idéalement dans le conseil</li> <li>T",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/padok/jobs/key-account-manager-cdi-paris-theodo-run_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "fe565581846e96ae",
-   "title": "Key Account Manager - Cloud x Santé - CDI Paris - Theodo",
-   "company": "Theodo Cloud",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "Key Account Manager - Cloud x Santé - CDI Paris - Theodo <ul><li>Idéalement diplômé(e) d’une <strong>grande école d’ingénieur</strong>.</li> <li><strong>3+ ans d’expérience en vente de services ou de conseil</strong>, idéalement dans la tech.</li> <li>Un intérêt marqué pour les <strong>enjeux de santé et les problématiques Cloud</strong>.</li> <li>Une <strong>forte curiosité tech</strong> et l’env",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/padok/jobs/key-account-manager-cloud-x-sante-cdi-paris-theodo_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "be6c4241a2daccac",
-   "title": "Key Account Manager Secteur Public - CDI Paris - Theodo",
-   "company": "Theodo",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "Key Account Manager Secteur Public - CDI Paris - Theodo * Tu es diplômé(e) d’une grande école * Tu as 3 à 8 ans d'xp en vente dans le conseil (dont 3 années en mission de conseil) * Tu as une connaissance des enjeux du secteur public et de la commande publique * Tu maîtrises les techniques et méthodologies de gestion de compte * Tu as une forte curiosité pour la tech et le fonctionnement des produ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/theodo/jobs/key-account-manager-secteur-public-cdi-paris-theodo_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "0c4e0727ced38f9f",
-   "title": "AI-Modernisation - Key Account Manager - CDI Paris - Theodo",
-   "company": "Theodo",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "AI-Modernisation - Key Account Manager - CDI Paris - Theodo <ul><li>Tu es diplômé(e) d’une grande école d’ingénieur</li> <li>Tu as une compréhension solide des usages IA, et une forte curiosité</li> <li>Tu maîtrises les techniques et méthodologies de gestion de compte, idéalement dans le conseil</li> <li>Tu sais faire preuve de leadership pour embarquer tes collaborateurs dans des cycles de ventes",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/theodo/jobs/ai-modernisation-business-developer-cdi-paris_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "0a5c9f9903cb64e7",
-   "title": "Key Account Manager - Paris CDI - Theodo Maroc",
-   "company": "Theodo",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "Key Account Manager - Paris CDI - Theodo Maroc **Formation** : Diplôme d'une grande école de commerce ou d’ingénieurs. **Expérience** : +5 ans d’expérience dans une entreprise de service tech / IT. **Compétences** : * Passion pour la tech et l’innovation digitale. * Sens du closing et excellentes capacités relationnelles. * Capacité à évoluer dans un environnement dynamique et collaboratif.",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/theodo/jobs/key-account-manager-paris-cdi-theodo_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "4987f2c4c2179916",
-   "title": "Key Account Manager - CDI Paris - Theodo HealthTech",
-   "company": "Theodo HealthTech",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "Key Account Manager - CDI Paris - Theodo HealthTech <ul><li>Tu as 3 à 8 ans d&#39;expérience en vente complexe auprès de C-Level dont au moins 3 ans dans le conseil</li> <li>Tu as connais les enjeux HealthTech, ce qui te permet d’ouvrir les portes de nouveaux comptes chez nous</li> <li>Tu maîtrises les techniques et méthodologies de gestion de compte</li> <li>Tu as une forte appétence pour la tech",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/hokla/jobs/key-account-manager-cdi-paris-theodo-healthtech_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "25aa5f6bd1e7ed7e",
-   "title": "Key Account Manager - CDI Paris - Theodo Cloud",
-   "company": "Theodo Cloud",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "Key Account Manager - CDI Paris - Theodo Cloud <ul><li>Idéalement diplômé(e) d’une <strong>grande école d’ingénieur</strong>.</li> <li>Tu es expérimenté dans <strong>la vente de projets </strong>sur des sujets Cloud.</li> <li>Une <strong>bonne compréhension des enjeux du marché</strong> et des problématiques clients sur ces sujets.</li> <li>Maîtrise des <strong>techniques de vente et d’Account Man",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/padok/jobs/key-account-manager-cdi-paris-theodo-cloud_paris"
     }
    ],
    "first_seen": "2026-10-22"
@@ -36096,6 +36079,32 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "c63218ad361627f2",
+   "title": "CSM FR & Spain (Customer Success Manager)",
+   "company": "Loyoly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "CSM FR & Spain (Customer Success Manager) * Tu as un très bon niveau de français et d'espagnol à l’oral et à l’écrit * Tu as une première expérience en Customer Success/Sales * Tu as un esprit entrepreneurial et tu aimes les défis * Tu es autonome, fiable, et tu n’hésites pas à communiquer sur les difficultés rencontrées * Tu as une fibre commerciale : vous savez identifier les besoins et proposer",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/loyoly/jobs/csm-junior-fr-spain-customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-01"
+  },
+  {
    "id": "349bbd5ab94ce4b9",
    "title": "Customer Success Manager Mid Market",
    "company": "Modjo",
@@ -36224,32 +36233,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/partoo/jobs/customer-success-manager-key-accounts-cdi-paris-h-f-x_paris"
-    }
-   ],
-   "first_seen": "2026-10-01"
-  },
-  {
-   "id": "c63218ad361627f2",
-   "title": "CSM FR & Spain (Customer Success Manager)",
-   "company": "Loyoly",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-18",
-   "salary": null,
-   "description_snippet": "CSM FR & Spain (Customer Success Manager) * Tu as un très bon niveau de français et d'espagnol à l’oral et à l’écrit * Tu as une première expérience en Customer Success/Sales * Tu as un esprit entrepreneurial et tu aimes les défis * Tu es autonome, fiable, et tu n’hésites pas à communiquer sur les difficultés rencontrées * Tu as une fibre commerciale : vous savez identifier les besoins et proposer",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/loyoly/jobs/csm-junior-fr-spain-customer-success-manager_paris"
     }
    ],
    "first_seen": "2026-10-01"
@@ -38459,39 +38442,6 @@
     }
    ],
    "first_seen": "2026-10-24"
-  },
-  {
-   "id": "645c93b9e8037c45",
-   "title": "Key Account Manager (KAM) - Senior",
-   "company": "Phenix",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "cross-sell",
-    "upsell"
-   ],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-10-23",
-   "salary": "Mensuel de 60000.0 Euros à 83000.0 Euros",
-   "description_snippet": "Contexte et équipe Phenix aide les entreprises à valoriser leurs invendus, alimentaires et non alimentaires, grâce à la mise à disposition d'outils technologiques et d'experts anti-gaspi sur le terrain. Nous recherchons un Key Account Manager Senior (KAM) en CDI, motivé, avec un esprit de conquête et une forte envie de développer nos services chez des grands comptes. Tu travailles au sein de l'équ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/phenix-1/jobs/key-account-manager-kam-senior_paris"
-    },
-    {
-     "name": "France Travail",
-     "url": "https://jobs.makesense.org/fr/jobs/phenix-key-account-manager-kam-senior-pc5sZ1DyQ3PNQ8fJywEB?source=france_travail"
-    }
-   ],
-   "first_seen": "2026-10-23"
   },
   {
    "id": "00a5075372287247",
@@ -42870,6 +42820,32 @@
    "first_seen": "2026-09-25"
   },
   {
+   "id": "e20c49d6e1b5533e",
+   "title": "Directeur(trice) Expérience Client & Projets",
+   "company": "SAS MUSHIN LAB",
+   "location": "Marcq-en-Barœul, HDF, France",
+   "city": "Marcq-En-Barœul",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -2,
+   "date_posted": "2026-10-25",
+   "salary": "35,000–65,000 EUR/yearly",
+   "description_snippet": "**Description du poste :** Faire équipe avec nos clients, piloter leurs projets et les accompagner jusqu'à la réussite. **Nous ?** **Chez Mushin, nous aidons les marques et enseignes à mieux écouter leurs consommateurs pour concevoir et mettre sur le marché des offres plus pertinentes.** Notre méthode associe écoute client, co-création et intelligence collective pour transformer les enseignements ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fa8febe3b4e8cbba"
+    }
+   ],
+   "first_seen": "2026-10-25"
+  },
+  {
    "id": "422c007340d97217",
    "title": "Senior Product Marketing Manager",
    "company": "Fabriq",
@@ -44072,6 +44048,32 @@
    "first_seen": "2026-10-24"
   },
   {
+   "id": "645c93b9e8037c45",
+   "title": "Key Account Manager (KAM) - Senior",
+   "company": "Phenix",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-10-23",
+   "salary": null,
+   "description_snippet": "Key Account Manager (KAM) - Senior",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/phenix-1/jobs/key-account-manager-kam-senior_paris"
+    }
+   ],
+   "first_seen": "2026-10-23"
+  },
+  {
    "id": "b5f25a79c42542a9",
    "title": "Senior Data Analyst CRM / Customer Insights - Freelance (H/F)",
    "company": "Collective.work",
@@ -44151,6 +44153,58 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/alma/jobs/senior-account-manager_paris_ALMA_5lYxQjr"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "28d89883064a7a96",
+   "title": "Senior Key Account Manager - CDI Paris - Theodo Data & IA",
+   "company": "Theodo Data & AI",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Senior Key Account Manager - CDI Paris - Theodo Data & IA <ul><li>Tu es diplômé(e) d’une grande école d’ingénieur ou de commerce</li> <li>Tu as 3 à 8 ans d&#39;xp en vente dans le conseil</li> <li>Tu as une compréhension solide des architectures data, usages IA et GenAI et des enjeux du marché sur ces sujets</li> <li>Tu maîtrises les techniques et méthodologies de gestion de compte</li> <li>Tu as ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sicara/jobs/key-account-manager-cdi-paris-theodo-data-ia_paris_TDA_W1QWYV0"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "814e037e3e67b154",
+   "title": "Senior Key Account Manager - CDI Paris - Theodo FinTech",
+   "company": "Theodo FinTech",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Senior Key Account Manager - CDI Paris - Theodo FinTech <ul><li>Tu es diplômé(e) d’une grande école d’ingénieur ou de commerce </li> <li>Tu as expertise dans le secteur financier (banque, finTech...)</li> <li>Tu as 3 à 8 ans d&#39;xp en vente, dont au moins 3 en cabinet de conseil</li> <li>Tu as une appétence pour comprendre en profondeur les enjeux stratégiques et technologiques de nos clients ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sipios/jobs/key-account-manager-fintech-cdi-paris-theodo-fintech_paris"
     }
    ],
    "first_seen": "2026-10-22"
@@ -44259,58 +44313,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/pixmania/jobs/key-account-manager-senior-marketplace-cdi-h-f-x_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "28d89883064a7a96",
-   "title": "Senior Key Account Manager - CDI Paris - Theodo Data & IA",
-   "company": "Theodo Data & AI",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "Senior Key Account Manager - CDI Paris - Theodo Data & IA <ul><li>Tu es diplômé(e) d’une grande école d’ingénieur ou de commerce</li> <li>Tu as 3 à 8 ans d&#39;xp en vente dans le conseil</li> <li>Tu as une compréhension solide des architectures data, usages IA et GenAI et des enjeux du marché sur ces sujets</li> <li>Tu maîtrises les techniques et méthodologies de gestion de compte</li> <li>Tu as ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/sicara/jobs/key-account-manager-cdi-paris-theodo-data-ia_paris_TDA_W1QWYV0"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "814e037e3e67b154",
-   "title": "Senior Key Account Manager - CDI Paris - Theodo FinTech",
-   "company": "Theodo FinTech",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": -4,
-   "date_posted": "2026-10-16",
-   "salary": null,
-   "description_snippet": "Senior Key Account Manager - CDI Paris - Theodo FinTech <ul><li>Tu es diplômé(e) d’une grande école d’ingénieur ou de commerce </li> <li>Tu as expertise dans le secteur financier (banque, finTech...)</li> <li>Tu as 3 à 8 ans d&#39;xp en vente, dont au moins 3 en cabinet de conseil</li> <li>Tu as une appétence pour comprendre en profondeur les enjeux stratégiques et technologiques de nos clients ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/sipios/jobs/key-account-manager-fintech-cdi-paris-theodo-fintech_paris"
     }
    ],
    "first_seen": "2026-10-22"
