@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-26T17:14:00Z",
+ "generated_at": "2026-10-26T22:14:27Z",
  "source_stats": {
-  "Indeed": 979,
-  "Welcome to the Jungle": 5255,
-  "France Travail": 156,
+  "Indeed": 991,
+  "Welcome to the Jungle": 5258,
+  "France Travail": 160,
   "APEC": 0,
   "HelloWork": 0,
   "Isarta": 146
@@ -12,8 +12,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 38 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1586,
- "new_today": 47,
+ "count": 1609,
+ "new_today": 70,
  "jobs": [
   {
    "id": "914626767bb0b43e",
@@ -127,6 +127,47 @@
     }
    ],
    "first_seen": "2026-10-06"
+  },
+  {
+   "id": "6d092dc7e3791d08",
+   "title": "Responsable RevOps / Revenue Operations Manager",
+   "company": "Saisir",
+   "location": "Avignon, B8, France",
+   "city": "Avignon",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "marketing_operations",
+    "performance_marketing",
+    "sales_operations"
+   ],
+   "skills": [
+    "acquisition",
+    "automation",
+    "conversion",
+    "crm",
+    "dashboard",
+    "kpi",
+    "pipeline",
+    "processus",
+    "roi",
+    "salesforce",
+    "sql",
+    "tracking"
+   ],
+   "bonus_tags": [],
+   "score": 28,
+   "date_posted": "2026-10-26",
+   "salary": "55,000–75,000 EUR/yearly",
+   "description_snippet": "**L'ENTREPRISE** Notre client est un éditeur français de logiciels SaaS, leader sur son marché, qui accompagne plusieurs dizaines de milliers de professionnels au quotidien. Entreprise solide et innovante, stable et rentable, elle poursuit sa croissance et renforce sa structuration interne. Dans ce contexte, elle recrute un Responsable RevOps pour optimiser la performance de ses opérations marketi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b4bdaed7cf8e303c"
+    }
+   ],
+   "first_seen": "2026-10-26"
   },
   {
    "id": "85a4307e138cb571",
@@ -367,6 +408,44 @@
     }
    ],
    "first_seen": "2026-10-06"
+  },
+  {
+   "id": "5647f71bed8b2888",
+   "title": "Responsable CRM, Data & Automatisation H/F en CDI",
+   "company": "Terre Blanche Hotel Spa Golf Resort",
+   "location": "Tourrettes, B8, France",
+   "city": "Tourrettes",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm",
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "fidelisation",
+    "marketing automation",
+    "newsletter",
+    "parcours client",
+    "roi",
+    "segmentation"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 22,
+   "date_posted": "2026-10-26",
+   "salary": "45,000–45,000 EUR/yearly",
+   "description_snippet": "**Rejoignez un Resort d'exception et contribuez à sa transformation digitale !** Nous recherchons notre futur(e) Responsable CRM, Data & Automatisation. Poste à pourvoir immédiatement, en CDI. Véritable acteur de la performance commerciale et de l'expérience client, vous aurez pour mission de valoriser notre connaissance client, d'optimiser nos parcours relationnels et de piloter nos outils et pro",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c08eb4ba6dff951d"
+    }
+   ],
+   "first_seen": "2026-10-26"
   },
   {
    "id": "f4f9f808fa7baa5e",
@@ -738,7 +817,7 @@
     "international"
    ],
    "score": 22,
-   "date_posted": "2026-10-14",
+   "date_posted": "2026-10-26",
    "salary": null,
    "description_snippet": "Chargé de Marketing Digital (H/F) <p><br></p><p class=''><strong><u>Ton profil :</u></strong></p><p class=''><br></p><p class=''>Nous recherchons avant tout un profil <strong>très opérationnel, orienté acquisition, performance et génération de leads</strong>, capable de prendre en main les différents leviers du marketing digital.</p><p class=''><br></p><p class=''>Tu disposes idéalement de :</p><u",
    "sources": [
@@ -987,6 +1066,73 @@
     }
    ],
    "first_seen": "2026-09-26"
+  },
+  {
+   "id": "8834b36a58c99a90",
+   "title": "HEAD OF GROWTH (H/F)",
+   "company": "Eurécia",
+   "location": "Toulouse, O, France",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit",
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "google ads",
+    "gtm",
+    "positionnement",
+    "roi",
+    "sea",
+    "seo",
+    "tracking",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "**Conditions du poste** **Type de contrat :** CDI - 39H **Localisation :** Labège **Télétravail :** Hybride, 2 jours par semaine **Salaire :** Entre 60 et 80K bruts/an + variable **Date de démarrage :** ASAP **À propos d'Eurécia** ---------------------- Depuis sa création en 2006, Eurécia contribue à l’épanouissement des collaborateur(trice)s et des entreprises, en alignant leurs objectifs de perf",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1855fd842653c8c1"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "5d713903eddd8be7",
+   "title": "Chargé de l'expérience client (F/H) F/H",
+   "company": "Proxity",
+   "location": "Thiers, ARA, France",
+   "city": "Thiers",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "csat",
+    "nps"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-10-26",
+   "salary": "24,000–30,000 EUR/yearly",
+   "description_snippet": "Mise en ligne le 2026-10-26 Type de contrat : CDI Niveau de formation : BAC +2 / BAC +3 Expérience : 2 - 5 ans Spécialité(s) : Appui commercial et clientèle Pays / Région : France / Auvergne-Rhône-Alpes Ville : 196 Avenue Thiers **Description de l'offre** -------------------------- Gestion du support, résolution et triage inter-services : 1.1 : Support et autonomie : Prise en charge et traitement ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1eb08b00fba39dfd"
+    }
+   ],
+   "first_seen": "2026-10-26"
   },
   {
    "id": "24dd4ab29acb7d8e",
@@ -1672,6 +1818,35 @@
     }
    ],
    "first_seen": "2026-10-01"
+  },
+  {
+   "id": "df553f2c484e7326",
+   "title": "Account Manager - Limoges",
+   "company": "Néosoft",
+   "location": "Limoges, NA, France",
+   "city": "Limoges",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "portefeuille client",
+    "portefeuille clients"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "remote type Télétravail hybride locations Néosoft Limoges time type Temps plein posted on Offre publiée aujourd'hui job requisition id JR102893 Groupe indépendant de conseil en transformation digitale de près de 1800 collaborateurs, Néosoft s’est construit, depuis 2005, sur un modèle qui place l’excellence, le dépassement de soi et la RSE au cœur de sa stratégie. En nous rejoignant, vous intégrez ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f92ca1a673250a9f"
+    }
+   ],
+   "first_seen": "2026-10-26"
   },
   {
    "id": "8c2440c9cfe770dd",
@@ -2612,6 +2787,39 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=f69f19a4d653bd2b"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "8b24096d6cfeb465",
+   "title": "Chief Marketing Officer (CMO) - CDD 8 mois (H/F)",
+   "company": "Decathlon",
+   "location": "Annecy, ARA, France",
+   "city": "Annecy",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roas",
+    "roi",
+    "sea",
+    "seo",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "* CDD, 8 mois * Temps plein * Au moins 10 ans d'expérience * Master, Bac+5 * Directeur.rice marketing Pilote la stratégie marketing globale et la performance commerciale de Decathlon Travel Publiée le 26/10/2026 **Mission** ----------- **STRATÉGIE D'ACQUISITION & PERFORMANCE COMMERCIALE (PAID & ORGANIC GROWTH)** ----------------------------------------------------------------------------- * Pilote",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4b16506d39ff1b35"
     }
    ],
    "first_seen": "2026-10-26"
@@ -7441,7 +7649,7 @@
   },
   {
    "id": "f831e3d9539b20f2",
-   "title": "Chef produit marketing (H/F)",
+   "title": "Chef Produit Marketing (H/F)",
    "company": "Radiall",
    "location": "Voreppe, ARA, France",
    "city": "Voreppe",
@@ -11721,6 +11929,34 @@
    "first_seen": "2026-10-26"
   },
   {
+   "id": "1553eabaf48c7914",
+   "title": "Key Account Manager Marketplace - Sport Sector (W/M/X) CDI",
+   "company": "Veepee",
+   "location": "Saint-Denis, A8, France",
+   "city": "Saint-Denis",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou encore la beauté ... Veepee a réalisé en 2024 un chiffre d’affaires de 3,3 millia",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e4f0c8cb3e1a8e1d"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
    "id": "40b6410090aa6d65",
    "title": "Responsable Engagement Client F/H h/f",
    "company": "",
@@ -11742,6 +11978,38 @@
     {
      "name": "France Travail",
      "url": "http://www.missionhandicap.com/emploi/J0926-0679#utm_source=PoleEmploi"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "897dfb3a929c4dac",
+   "title": "Chef de projet CRM H/F",
+   "company": "NEXTON",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "marketing automation",
+    "parcours client",
+    "segmentation"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "Chef de projet CRM H/F <p>Tu justifies d’une expérience significative en <strong>gestion de projet CRM, Campaign Management ou Marketing Automation</strong>, idéalement dans un environnement international.</p><p>Tu as déjà travaillé sur des dispositifs CRM complexes impliquant plusieurs marchés, équipes ou parties prenantes.</p><p><strong>Maîtrise technique</strong></p><ul><li>Tu maîtrises <strong",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/nexton-consulting/jobs/chef-de-projet-crm-h-f_paris_NEXTO_P0LeDl7"
     }
    ],
    "first_seen": "2026-10-26"
@@ -11800,41 +12068,6 @@
     {
      "name": "France Travail",
      "url": "https://www.directemploi.com/candidatOffre/56818317?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
-    }
-   ],
-   "first_seen": "2026-10-24"
-  },
-  {
-   "id": "2a7636c27bd2f88c",
-   "title": "Product Marketing Lead",
-   "company": "Orakl Oncology",
-   "location": "Villejuif, A8, France",
-   "city": "Villejuif",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-23",
-   "salary": null,
-   "description_snippet": "**About Orakl Oncology** ======================== Every cancer patient deserves a treatment that works for them. Today, too many never get one in time: fewer than 5% of new cancer drugs make it through clinical trials and every failure costs patients precious time . Orakl exists to change those odds. We bridge biological and artificial intelligence by building large cohorts of virtual cancer patie",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=dd5246aa25a47328"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/orakl-oncology/jobs/product-marketing-lead_villejuif"
     }
    ],
    "first_seen": "2026-10-24"
@@ -15418,7 +15651,7 @@
     "international"
    ],
    "score": 10,
-   "date_posted": "2026-10-23",
+   "date_posted": "2026-10-26",
    "salary": null,
    "description_snippet": "Customer Success - Key Account Manager – Rétention & Expansion · EdTech SaaS **Savoir faire** * Expérience de 3 ans ou plus (Stages, alternances inclus) dans la relation client BtoB d'une solution SaaS (Logiciel) - **Obligatoire** * Connaissances des techniques commerciales et du développement de la satisfaction client (Full cycle) * Anglais professionnel lu, parlé, écrit obligatoire * Réelle aisa",
    "sources": [
@@ -16600,6 +16833,180 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/215QVNR"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "7f1f6519896bd0f2",
+   "title": "ASSISTANT CHEF DE PROJET MARKETING RELATIONNEL & DATA (F/H)",
+   "company": "l'Opcommerce",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "emailing",
+    "segmentation"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Graziella, ta future tutrice, recherche son/sa futur.e alternant.e ! Et si c’était toi ? **MISSIONS** Au sein de la Direction du Marketing et des Partenariats (DMP), tu intégreras le pôle Promotion de l'Offre de Services (PODS), une équipe transverse qui accompagne le déploiement et la promotion de l'offre de services de L'Opcommerce auprès des entreprises du commerce. Dans un contexte de développ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b40aee29cff92af2"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "1133df9bd905091b",
+   "title": "Chef(fe) de produit - VDD/Enfant - H/F",
+   "company": "E. LECLERC",
+   "location": "Ivry-sur-Seine, A8, France",
+   "city": "Ivry-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "**Mieux nous connaître** Les 598 adhérents E.Leclerc exploitant 751 magasins indépendants en France, emploient 155.000 salariés. L'enseigne E.Leclerc a réalisé un chiffre d'affaires de 48 milliards d'euros (hors carburant) en 2023 et est le leader de la distribution française avec une part de marché de 23.5%. Employeurs engagés, les centres E.Leclerc accueillent chaque année près de 4.000 alternan",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=97c818b6893b5396"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "344a79fb67d753c9",
+   "title": "Global product manager (H/F)",
+   "company": "Celink",
+   "location": "Val-de-Reuil, N, France",
+   "city": "Val-De-Reuil",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-26",
+   "salary": "60,000–70,000 EUR/yearly",
+   "description_snippet": "**Entreprise** ============== **CELINK recrute pour un groupe industriel international, reconnu pour son expertise technologique et sa capacité d'innovation : un global product manager Chimie.** Chez **CELINK**, nous croyons qu’un recrutement réussi repose sur deux piliers : **le professionnalisme** et **l’humanité**. Nous accompagnons les entreprises qui nous font confiance en trouvant leurs tale",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b71595ce9bee12da"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "0eb8d803a2f43b86",
+   "title": "Chef de produit international (H/F)",
+   "company": "Celink",
+   "location": "Val-de-Reuil, N, France",
+   "city": "Val-De-Reuil",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-26",
+   "salary": "60,000–65,000 EUR/yearly",
+   "description_snippet": "**Entreprise** ============== **CELINK recrute pour un groupe industriel international, reconnu pour son expertise technologique et sa capacité d'innovation : un chef de produit sur un périmètre international.** Chez **CELINK**, nous croyons qu’un recrutement réussi repose sur deux piliers : **le professionnalisme** et **l’humanité**. Nous accompagnons les entreprises qui nous font confiance en tr",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=37bc5b6a25dbed04"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "000d62801da106dc",
+   "title": "Customer Success Manager - H/F",
+   "company": "Orisha",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "retention",
+    "voix du client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-26",
+   "salary": "50,000–70,000 EUR/yearly",
+   "description_snippet": "**Devenez le partenaire stratégique des plus grands acteurs de l’Asset Management immobilier.** Rejoignez SONEKA, la solution SaaS de référence adoptée par les gestionnaires de patrimoine et fonds d'investissement immobilier de premier plan, intégrée à la Business Unit Real Estate du groupe Orisha. En tant que Customer Success Manager (CSM), vous travaillerez en étroite collaboration avec le Head ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d93b6b1adea2876b"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "f35b0baa2bba6914",
+   "title": "Chargé d'affaires grands comptes H/F",
+   "company": "L'industrie recrute",
+   "location": "Voiron, ARA, France",
+   "city": "Voiron",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-10-26",
+   "salary": "35,000–45,000 EUR/yearly",
+   "description_snippet": "**Contexte :** « ALLAMAN Réservoirs », est une entreprise familiale d’une vingtaine de salariés qui conçoit et fabrique des réservoirs en aciers pour le stockage de liquide (hydrocarbure (60% du CA), eau, produits chimiques…,) pour tous types d’applications industrielles. Nous concevons de nouveaux produits adaptés à la transition énergétique. **Nos clients exercent dans les domaines suivants :** ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=71b0fb5ff2d7c84d"
     }
    ],
    "first_seen": "2026-10-26"
@@ -21242,34 +21649,6 @@
    "first_seen": "2026-10-26"
   },
   {
-   "id": "1553eabaf48c7914",
-   "title": "Key Account Manager Marketplace - Sport Sector (W/M/X) CDI",
-   "company": "Veepee",
-   "location": "Saint-Denis, A8, France",
-   "city": "Saint-Denis",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-26",
-   "salary": null,
-   "description_snippet": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou encore la beauté ... Veepee a réalisé en 2024 un chiffre d’affaires de 3,3 millia",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=51bd0b65f44bb66f"
-    }
-   ],
-   "first_seen": "2026-10-26"
-  },
-  {
    "id": "175a36c7827acea9",
    "title": "Chef(fe) de cuisine – Cuisine chinoise traditionnelle (H/F)",
    "company": "simone",
@@ -21371,6 +21750,151 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/215RGPP"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "835a08e8ae739d58",
+   "title": "Digital Performance Insights Manager",
+   "company": "Hilti Group",
+   "location": "Boulogne-Billancourt, A8, France",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "insights"
+   ],
+   "skills": [
+    "excel",
+    "power bi"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "* Boulogne Billancourt, Ile-de-France, France * IT, Software & Digital * Experienced Professionals * 21916 **Brand to Impact!** -------------------- We are looking for a Digital Performance Insights Manager to coordinate and implement Business Intelligence solutions within the scope of HDMS services and to provide insights supporting data-driven decisions by relevant stakeholders. If you are an en",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fee4c6edf214bb2a"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "2f871b51c3cde0c8",
+   "title": "SAINT LAURENT Retail Client Development Assistant Western & Northern Europe H/F",
+   "company": "Saint Laurent",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "**Summary** Job Family Group Description - Communication & Marketing: This Job Family Group includes jobs relating to all areas of communication for every audience and channel. Conveys the image and identity of the brand. Job Family Description - Marketing: Proposes and presents our brand products in a creative and innovative way. Reinforces bonds with regular clients, engages new clients and demo",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0eb37f96e3402fa3"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "d466ce80beb37130",
+   "title": "Technical Account Manager IT F/H",
+   "company": "VINCI",
+   "location": "Aix-en-Provence, B8, France",
+   "city": "Aix-En-Provence",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "**Axians** est la marque de VINCI Energies dédiée aux solutions ICT, c’est-à-dire la maitrise de l’ensemble des technologies de l’information et de la communication : Infrastructures Télécoms, Cloud & Data Center, Réseaux d’entreprises, Digital Workspace, Business Applications & Data Analytics, Cyber Sécurité, Audiovisuel. Nous accompagnons nos clients – entreprises privées, secteur public, opérat",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c206c343eba371e8"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "2355855c733c6be0",
+   "title": "Commercial Grands Comptes - Marchés Publics H/F",
+   "company": "DESAUTEL",
+   "location": "Roissy-en-France, A8, France",
+   "city": "Roissy-En-France",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-26",
+   "salary": "65,000–85,000 EUR/yearly",
+   "description_snippet": "**L’entreprise** **Spécialisée dans le domaine de la protection incendie depuis 1932, DESAUTEL est une entreprise familiale employant près de 1 500 salariés. Acteur majeur sur son secteur, l’entreprise est aujourd’hui présente sur l’ensemble du territoire grâce à son réseau de 27 agences.** Vous souhaitez rejoindre une entreprise dynamique et en forte croissance qui œuvre pour des lieux de vie sai",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d67df32dcf80811b"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "12b234e0a88432a4",
+   "title": "Technical Account Manager IT F/H",
+   "company": "VINCI Energies en France",
+   "location": "Aix-En-Provence",
+   "city": "Aix-En-Provence",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Technical Account Manager IT F/H <p><strong>Vous êtes la personne idéale pour rejoindre notre équipe si …</strong></p><p> </p><p>- Vous avez au moins 8 ans d’expérience en tant qu’architecte SI </p><p>- Vous êtes expert confirmé sur : l’administration, l’exploitation et dépannage d’infrastructures complexes.</p><p>- Vous avez de l’expérience du support N3 et des escalades constructeurs ainsi qu’un",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/vinci-energies/jobs/technical-account-manager-it-f-h_aix-en-provence"
     }
    ],
    "first_seen": "2026-10-26"
@@ -21486,6 +22010,32 @@
     }
    ],
    "first_seen": "2026-10-25"
+  },
+  {
+   "id": "2a7636c27bd2f88c",
+   "title": "Product Marketing Lead",
+   "company": "Orakl Oncology",
+   "location": "Villejuif",
+   "city": "Villejuif",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Product Marketing Lead",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/orakl-oncology/jobs/product-marketing-lead_villejuif"
+    }
+   ],
+   "first_seen": "2026-10-24"
   },
   {
    "id": "339e7d932e39d2c7",
@@ -30901,6 +31451,120 @@
    "first_seen": "2026-10-26"
   },
   {
+   "id": "9c36c7e0cbab7e29",
+   "title": "Mandarin Speaking Business Developer - Mirakl Ads",
+   "company": "Mirakl",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "business_development"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international",
+    "english_jd"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "**About Mirakl:** Founded in 2012, Mirakl has been at the forefront of marketplace innovation, empowering every business to compete in the platform economy. Today, Mirakl's operating system combines an enterprise marketplace solution (Mirakl Platform) that enables retailers and B2B organizations to launch, scale, and operate marketplaces and dropship, AI-powered multichannel selling (Mirakl Connec",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d847cb60546ab292"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "5a3927ae260579cb",
+   "title": "CHEF DE PRODUIT – DIOR MEN RTW HIGH END (H/F)",
+   "company": "Christian Dior",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "### **Position** Au sein du pôle High End – RTW de la BU Dior Men, vous reporterez à la Chef de Produit Senior et contribuerez activement à la vie de ce Pôle aux missions transverses et riches à la fois en marketing produit et retail merchandising. Basé(e) à Paris, vous collaborerez à la fois avec nos interlocuteurs BU à Paris (développement produit, marketing client) et en zones (retail, merchand",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5e0c9b0f02b94142"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "39f78207ff997ec7",
+   "title": "Head of Product",
+   "company": "VERDA",
+   "location": "Eu, N, France",
+   "city": "Eu",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "At Verda, we're building a full-stack AI cloud, covering everything from data centers and hardware to our own cloud platform that the world's leading AI teams use to do serious AI work. We strive to make a positive mark on the world through the infrastructure we build and give leading teams a service they can truly depend on. Headquartered in Helsinki, we operate globally with offices in London an",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=371dafbbea669d4c"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "6f0fd85999d94df8",
+   "title": "CDI - Lead Traffic Manager (H/F)",
+   "company": "Hermès",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "CDI - Lead Traffic Manager (H/F)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hermes/jobs/cdi-lead-traffic-manager-h-f_paris_HERMS_mJGMYOw"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
    "id": "197b1c5a7168590a",
    "title": "Account Executive, German Market",
    "company": "Goodweek",
@@ -31309,7 +31973,7 @@
    "score": 4,
    "date_posted": "2026-10-23",
    "salary": null,
-   "description_snippet": "First Customer Success Manager (CDI) **✅ Ce qui compte vraiment** * Une expression claire, chaleureuse et sans faute, à l'oral comme à l'écrit : non négociable. * Une 1ère expérience réussie en CS / Account Management / Onboarding / Sales, idéalement en SaaS B2B (2-3 ans). * À l'aise au téléphone, tu mets les gens en confiance rapidement. * Débrouillard·e : face à l'inconnu, tu trouves une solutio",
+   "description_snippet": "First Customer Success Manager (CDI) **✅ Ce qui compte vraiment** * **Une 1ère expérience réussie en Customer Success / Account Management / Onboarding / Sales en SaaS B2B (2-3 ans).** * Une expression claire, chaleureuse et sans faute, à l'oral comme à l'écrit : non négociable. * À l'aise au téléphone, tu mets les gens en confiance rapidement. * Débrouillard·e : face à l'inconnu, tu trouves une s",
    "sources": [
     {
      "name": "Welcome to the Jungle",
@@ -31729,6 +32393,32 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/extracadabra/jobs/account-manager-h-f_paris_EXTRA_WxG55G2"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "2396becee599f07d",
+   "title": "Strategic Account Manager",
+   "company": "Edumapper",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Strategic Account Manager * Une première expérience auprès de marques ou d’annonceurs est un plus, mais on regardera surtout ta façon de raisonner face à des problèmes * Tu crées facilement une relation de confiance et tu sais la faire durer * Tu es sensible aux questions que se posent les lycéens, tu aimes passer du temps avec eux et comprendre comment Edumapper peut les aider * Tu as une vraie a",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/edumapper/jobs/strategic-account-manager_paris"
     }
    ],
    "first_seen": "2026-10-22"
@@ -33073,32 +33763,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/quicksign/jobs/key-account-manager_paris_QUICK_Apll8y7"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "2396becee599f07d",
-   "title": "Strategic Account Manager",
-   "company": "Edumapper",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-12",
-   "salary": null,
-   "description_snippet": "Strategic Account Manager * Une première expérience auprès de marques ou d’annonceurs est un plus, mais on regardera surtout ta façon de raisonner face à des problèmes * Tu crées facilement une relation de confiance et tu sais la faire durer * Tu es sensible aux questions que se posent les lycéens, tu aimes passer du temps avec eux et comprendre comment Edumapper peut les aider * Tu as une vraie a",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/edumapper/jobs/strategic-account-manager_paris"
     }
    ],
    "first_seen": "2026-10-22"
@@ -41655,6 +42319,35 @@
    "first_seen": "2026-10-22"
   },
   {
+   "id": "112f7dcfd9bf9746",
+   "title": "Key Account Manager (KAM) - Senior (H/F)",
+   "company": "TeamTailor Demo Company",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "cross-sell",
+    "upsell"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-10-26",
+   "salary": "Mensuel de 60000.0 Euros à 83000.0 Euros",
+   "description_snippet": "Contexte et équipe Phenix aide les entreprises à valoriser leurs invendus, alimentaires et non alimentaires, grâce à la mise à disposition d'outils technologiques et d'experts anti-gaspi sur le terrain. Nous recherchons un Key Account Manager Senior (KAM) en CDI, motivé, avec un esprit de conquête et une forte envie de développer nos services chez des grands comptes. Tu travailles au sein de l'équ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://jobs.makesense.org/fr/jobs/teamtailor-demo-company-key-account-manager-kam-senior-9pf4qE2WR9pj79Tz9zWJ?source=france_travail"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "205bea0da99306d2",
    "title": "Assistant Sales - Marketing Produits Structurés",
    "company": "Société Générale",
@@ -41789,35 +42482,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=e5505f1429c97741"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "112f7dcfd9bf9746",
-   "title": "Key Account Manager (KAM) - Senior (H/F)",
-   "company": "TeamTailor Demo Company",
-   "location": "75 - Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "cross-sell",
-    "upsell"
-   ],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-10-22",
-   "salary": "Mensuel de 60000.0 Euros à 83000.0 Euros",
-   "description_snippet": "Contexte et équipe Phenix aide les entreprises à valoriser leurs invendus, alimentaires et non alimentaires, grâce à la mise à disposition d'outils technologiques et d'experts anti-gaspi sur le terrain. Nous recherchons un Key Account Manager Senior (KAM) en CDI, motivé, avec un esprit de conquête et une forte envie de développer nos services chez des grands comptes. Tu travailles au sein de l'équ",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://jobs.makesense.org/fr/jobs/teamtailor-demo-company-key-account-manager-kam-senior-9pf4qE2WR9pj79Tz9zWJ?source=france_travail"
     }
    ],
    "first_seen": "2026-10-22"
@@ -43228,6 +43892,34 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=e454eff278161cec"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "217004b14a9c8713",
+   "title": "CDI - Chef de Produit Senior Développement Parfum L'Interdit (Parfums Givenchy)",
+   "company": "Groupe LVMH",
+   "location": "Levallois-Perret, A8, France",
+   "city": "Levallois-Perret",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "### **Position** ***Chez LVMH Fragrance Brands, nous sommes un incubateur et un accélérateur de marques et de talents.*** *Fortes d’un riche héritage couture, nos deux Maisons, Parfums Givenchy et Kenzo Parfums, opèrent sur trois axes clés - Parfum, Maquillage et Soin. Nous offrons un terrain de jeu unique aux esprits entrepreneurs désireux de façonner des expériences olfactives et sensorielles si",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d80970105c3a2a63"
     }
    ],
    "first_seen": "2026-10-26"
