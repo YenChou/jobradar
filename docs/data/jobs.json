@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-28T17:04:44Z",
+ "generated_at": "2026-10-28T22:08:41Z",
  "source_stats": {
-  "Indeed": 1673,
-  "Welcome to the Jungle": 5188,
-  "France Travail": 167,
+  "Indeed": 1744,
+  "Welcome to the Jungle": 5179,
+  "France Travail": 174,
   "APEC": 0,
   "HelloWork": 0,
   "Isarta": 143
@@ -12,8 +12,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 38 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1706,
- "new_today": 68,
+ "count": 1721,
+ "new_today": 83,
  "jobs": [
   {
    "id": "914626767bb0b43e",
@@ -2019,6 +2019,39 @@
    "first_seen": "2026-10-28"
   },
   {
+   "id": "55a17620ed44f056",
+   "title": "Account Manager secteur Public (H/F)",
+   "company": "Centreon",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "fidelisation",
+    "portefeuille client",
+    "portefeuille clients"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 18,
+   "date_posted": "2026-10-28",
+   "salary": "100,000–110,000 EUR/yearly",
+   "description_snippet": "En tant qu'**Account Manager**, venez compléter notre équipe et performer avec nous. Véritable ambassadeur ou ambassadrice de **notre plateforme d'observabilité constituée de nos 3 produits** (Centreon Infra Monitoring, Centreon Log management et Centreon Expérience Monitoring), vous aurez un impact direct en aidant nos clients à superviser leur infrastructure, leurs logs et l'expérience de leurs ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9f27b54b79e87eb7"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
    "id": "ee3f110a2ed47451",
    "title": "Creative Marketing Manager",
    "company": "Chouic",
@@ -3208,6 +3241,100 @@
     {
      "name": "France Travail",
      "url": "https://www.directemploi.com/candidatOffre/56850375?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "53cc220b18f0bf17",
+   "title": "Chef de produit ICT - IA F/H",
+   "company": "Bouygues Telecom",
+   "location": "Boulogne-Billancourt, A8, France",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "roadmap",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-10-28",
+   "salary": "45,000–55,000 EUR/yearly",
+   "description_snippet": "Publié le 28/10/2026 MARKETING CDI 45K€-55K€ Île-de-France **La description du poste** --------------------------- Si pour vous, construire une offre qui fait la différence sur le marché est une vraie source de motivation, alors on est fait pour être ensemble ! Vous aimez créer et développer un business en proposant des solutions innovantes ? Vous avez envie de rejoindre un opérateur engagé social",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=dfb84f326d670314"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "86208eaea6a73fce",
+   "title": "Coordinateur de Projets Internationaux / PMO H/F",
+   "company": "Groupe Ortec",
+   "location": "Lyon, ARA, France",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "international_project"
+   ],
+   "skills": [
+    "coordination",
+    "parties prenantes"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 16,
+   "date_posted": "2026-10-28",
+   "salary": "41,000–45,000 EUR/yearly",
+   "description_snippet": "### **À propos de nous** Le **Groupe Ortec** déploie des **solutions en ingénierie et travaux** dans de nombreux secteurs : énergies, mines, chimie, défense, transports, agroalimentaire, aéronautique, spatial, environnement, pharmaceutique… **SOM** est la filiale du Groupe ORTEC spécialisée en **ingénierie** depuis plus de **40 ans**. Nous accompagnons les grands industriels dans la **conception**",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=177360c5b9eec8a3"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "49f1012fbed061dc",
+   "title": "RESPONSABLE GROWTH MARKETING ET ACQUISITION - H/F",
+   "company": "Pleyce",
+   "location": "07 - Saint-Agrève",
+   "city": "07 - Saint-Agreve",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roi",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "Description : En tant que _Responsable Growth Marketing et Acquisition, _votre objectif sera d'augmenter durablement le nombre de leads qualifiés générés par le marketing. Pour y parvenir, vous prendrez en charge la stratégie d'acquisition digitale, l'optimisation du funnel, le pilotage des KPIs et le développement de nos dispositifs CRM et marketing automation. Vous travaillerez avec notre Brand ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://pleyce.softy.pro/offre/226121?idt=5&h=2261210"
     }
    ],
    "first_seen": "2026-10-28"
@@ -5728,6 +5855,67 @@
     {
      "name": "France Travail",
      "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6ae07cc8149b034bd05537d7/chargé-chargée-d-acquisition-online"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "1ac090500145306d",
+   "title": "Chef de produit F/H",
+   "company": "BERGER-LEVRAULT",
+   "location": "Boulogne-Billancourt, A8, France",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-10-28",
+   "salary": "50,000–55,000 EUR/yearly",
+   "description_snippet": "**Informations générales** -------------------------- **Chef de produit F/H** **Boulogne-Billancourt**, **FRANCE** **Télétravail** : 2 jours par semaine Rémunération annuelle : **Fixe :** **50000 - 55000 Euros (€ EUR)** **Variable :** **10%** Type de contrat : CDI Nature du contrat : Temps complet Label Pro Vélo - Niveau Argent : nous sommes en selle… vous venez ? (site de Labège) **BERGER-LEVRAUL",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1c75cfe04d5db522"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "76a50834ed45d9fa",
+   "title": "Assistant Chargée d'Études Sensorielles & Consommateurs H/F",
+   "company": "Hellowork",
+   "location": "Rungis, A8, France",
+   "city": "Rungis",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "insights"
+   ],
+   "skills": [
+    "excel",
+    "panel",
+    "questionnaire"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "Description La Coopérative U regroupe l'ensemble des activités commerciales et des fonctions supports au service des Magasins U. Ainsi, c'est au sein de la Coopérative que sont gérés les achats des filières alimentaire, textile, bazar et les achats non marchands. La Coopérative U regroupe aussi les fonctions transversales telles que la communication, le merchandising, le marketing, la finance, les",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9de86105102544ba"
     }
    ],
    "first_seen": "2026-10-28"
@@ -8761,38 +8949,6 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/215RKLY"
-    }
-   ],
-   "first_seen": "2026-10-26"
-  },
-  {
-   "id": "eac96910f9b8d2b2",
-   "title": "Responsable Grands Comptes H/F",
-   "company": "NICE FRANCE",
-   "location": "Lille, HDF, France",
-   "city": "Lille",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "crm",
-    "portefeuille client",
-    "portefeuille clients"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 12,
-   "date_posted": "2026-10-26",
-   "salary": null,
-   "description_snippet": "Nous recherchons un(e) **Responsable Grands Comptes H/F** pour tout le 1/4 Nord Est de la France de notre canal des Fabricants. Vous intégrerez une équipe de 4 personnes, et vous serez rattaché(e) hiérarchiquement au Directeur des Ventes de ce canal. **1- Développement commercial** * Respecter et appliquer la politique commerciale définie par la Direction. * Développer le chiffre d’affaires et la ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=73672c62e3fe83db"
     }
    ],
    "first_seen": "2026-10-26"
@@ -13077,6 +13233,40 @@
    "first_seen": "2026-10-28"
   },
   {
+   "id": "c8e7a87efabf7fab",
+   "title": "Chef de Projet Performances et Parcours client H/F",
+   "company": "Elis",
+   "location": "Puteaux, A8, France",
+   "city": "Puteaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "retention"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "**Description du poste** ------------------------ ### **Métier** Marketing - Expérience Client et CRM ### **Intitulé du poste** Chef de Projet Performances et Parcours client H/F ### **Contrat** CDI ### **Statut** Cadre ### **Description de la mission** **Ne venez pas chez Elis si vous pensez que l'expérience client se pilote uniquement à travers des indicateurs et des tableaux de bord.** Mais si ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=81a59ebce58747fd"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/elis-france/jobs/chef-de-projet-performances-et-parcours-client-h-f_puteaux"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
    "id": "b3fbd14083a7b761",
    "title": "Expert en web et digital marketing - Web & Digital Marketing Expert",
    "company": "Alcatel Lucent",
@@ -13100,6 +13290,34 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=7564998a1baa992f"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "63b368079a8dc263",
+   "title": "Key Account Manager Beverage (Vins et Spiritueux) - Marketplace F/H/X - CDI",
+   "company": "Veepee",
+   "location": "Saint-Denis, A8, France",
+   "city": "Saint-Denis",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Pionnier des ventes événementielles en ligne depuis 2001 et acteur incontournable du e-commerce en Europe, Veepee collabore avec plus de 7 000 marques pour proposer des produits à forte décote, disponibles sur une durée limitée. Présent dans de nombreux univers parmi lesquels la mode, la maison, le vin, le voyage, ou encore la beauté ... Veepee a réalisé en 2024 un chiffre d’affaires de 3,3 millia",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=599a1414151b28cf"
     }
    ],
    "first_seen": "2026-10-28"
@@ -13308,6 +13526,38 @@
     }
    ],
    "first_seen": "2026-10-27"
+  },
+  {
+   "id": "eac96910f9b8d2b2",
+   "title": "Responsable Grands Comptes H/F",
+   "company": "NICE FRANCE",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "portefeuille client",
+    "portefeuille clients"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Nous recherchons un(e) **Responsable Grands Comptes H/F** pour tout le 1/4 Nord Est de la France de notre canal des Fabricants. Vous intégrerez une équipe de 4 personnes, et vous serez rattaché(e) hiérarchiquement au Directeur des Ventes de ce canal. **1- Développement commercial** * Respecter et appliquer la politique commerciale définie par la Direction. * Développer le chiffre d’affaires et la ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=42ceb378372d3f1e"
+    }
+   ],
+   "first_seen": "2026-10-26"
   },
   {
    "id": "167408c2bcebf5a7",
@@ -23708,6 +23958,68 @@
    "first_seen": "2026-10-28"
   },
   {
+   "id": "f1deea08ed32ebea",
+   "title": "Inside Regional Account Manager - IDF",
+   "company": "Fortinet",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "salesforce"
+   ],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "Inside Regional Account Manager – Paris, France Role Overview: Join Fortinet, a cybersecurity pioneer with over two decades of excellence, as we continue to shape the future of cybersecurity and redefine the intersection of networking and security. At Fortinet, our mission is to safeguard people, devices, and data everywhere. We are currently seeking a dynamic Inside Regional Account Manager to co",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=39066eea5962678f"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "49d691a7b14dc55d",
+   "title": "Responsable de l'engagement client France, Benelux & Export H/F",
+   "company": "Filorga",
+   "location": "Colombes, A8, France",
+   "city": "Colombes",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client",
+    "zendesk"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-28",
+   "salary": "65,000–75,000 EUR/yearly",
+   "description_snippet": "No Relocation Assistance Offered Job Number #176991 - Colombes, Paris, France **Who We Are** Colgate-Palmolive Company is a global consumer products company operating in over 200 countries specialising in Oral Care, Personal Care, Home Care, Skin Care, and Pet Nutrition. Our products are trusted in more households than any other brand in the world, making us a household name! Join Colgate-Palmoliv",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1e0af37606c9e62b"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
    "id": "f45bf50518670fd8",
    "title": "KEY ACCOUNT MANAGER - SECTEUR PUBLIC F/H",
    "company": "Docaposte",
@@ -24067,8 +24379,8 @@
    "id": "c405df1c8c89d941",
    "title": "Conseiller vendeur Asie - Confirmé (F/H)",
    "company": "Comptoir Des Voyages",
-   "location": "Nantes, B5, France",
-   "city": "Nantes",
+   "location": "Toulouse, O, France",
+   "city": "Toulouse",
    "region": "west",
    "work_mode": "remote",
    "contract": "CDI",
@@ -24084,7 +24396,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d418a18750f53ef7"
+     "url": "https://fr.indeed.com/viewjob?jk=37fc00a24efab260"
     }
    ],
    "first_seen": "2026-10-27"
@@ -33942,6 +34254,61 @@
    "first_seen": "2026-10-28"
   },
   {
+   "id": "9dd17536debcfbf8",
+   "title": "Assistant(e) Chef de Produits / Approvisionneur (H/F)",
+   "company": "DRAEGER",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-28",
+   "salary": "32,000–34,000 EUR/yearly",
+   "description_snippet": "**Qui sommes-nous ?** Depuis 1886, Draeger Paris est un ambassadeur d'émotion. Rejoindre Draeger Paris, c'est intégrer une entreprise à l'histoire riche, reconnue pour la qualité et la créativité de ses produits, et participer à une aventure humaine où l'esprit d'équipe et l'innovation sont au cœur de notre stratégie. C’est aussi rejoindre une Maison Familiale engagée dans une démarche de développ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a2d779fb4da7556c"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "87a34b7301c7d0fd",
+   "title": "Supply Planner (H/F)",
+   "company": "Innovative Beauty Group",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "#### **À propos d’Innovative Beauty Group** *Innovative Beauty Group (IBG) est un groupe international qui accompagne les marques de beauté de la conception à la livraison de leurs produits. Véritable partenaire de ses clients, IBG intervient comme une extension de leurs équipes pour transformer leurs idées en solutions concrètes.* *Notre activité s’articule autour de deux expertises complémentair",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=10e8e6541cfbdd94"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
    "id": "a7e5ce33d3e2fd28",
    "title": "Chef de Projet POS Conformité Fiscale Internationale (IT) / Freelance",
    "company": "Naxotech",
@@ -34283,9 +34650,9 @@
    "id": "5300eb976553156b",
    "title": "Chef(fe) de Produit Confirmé(e) – International (H/F) - CDD 6 mois - à compter de Janvier 2027",
    "company": "LABEYRIE FINE FOODS",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
+   "location": "Saint-Geours-de-Maremne, NA, France",
+   "city": "Saint-Geours-De-Maremne",
+   "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
    "categories": [
@@ -34304,7 +34671,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=4426a2849f3c39d1"
+     "url": "https://fr.indeed.com/viewjob?jk=b691398abd94bb4a"
     }
    ],
    "first_seen": "2026-10-26"
@@ -42559,6 +42926,64 @@
    "first_seen": "2026-10-28"
   },
   {
+   "id": "2cdfe36dcacba8e4",
+   "title": "Global Sales Manager – Digital (Software)",
+   "company": "ABB",
+   "location": "Fin, BFC, France",
+   "city": "Fin",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "business_development"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "At ABB, we help industries outrun - leaner and cleaner. Here, progress is an expectation - for you, your team, and the world. As a global market leader, we’ll give you what you need to make it happen. It won’t always be easy, growing takes grit. But at ABB, you’ll never run alone. Run what runs the world. This role sits within ABB's Robotics business, a leading global robotics company. We're enter",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=cc24ee01c0b25c22"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
+   "id": "8edef48b36e44968",
+   "title": "Business Development - SKF Automotive Business Line Driveline",
+   "company": "SKF Vertevo",
+   "location": "Saint-Cyr-sur-Loire, CVL, France",
+   "city": "Saint-Cyr-Sur-Loire",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "business_development"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "*By creating bearings and solutions for everything from industrial applications to vehicles, SKF plays an essential role in our everyday lives. In Q4 2026, SKF intends to spin off its Automotive business and list it as a separate company under the name of SKF Vertevo. A company created to support the future of the automotive market, and to co-drive the future of mobility faster.* *This role will b",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b8fb770b343275e2"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
    "id": "a6a4e3a73ed8c57b",
    "title": "Chef de Produits Végétal H/F",
    "company": "Hellowork",
@@ -47924,6 +48349,36 @@
     }
    ],
    "first_seen": "2026-09-28"
+  },
+  {
+   "id": "600cfb4b30b9298d",
+   "title": "Chef de Produit confirmé Diabète et Obésité",
+   "company": "Novo",
+   "location": "Puteaux, A8, France",
+   "city": "Puteaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -4,
+   "date_posted": "2026-10-28",
+   "salary": "71,300–103,390 EUR/yearly",
+   "description_snippet": "Category: Commercial Marketing Location: Puteaux, Île-de-France, FR **Votre impact commence ici** En tant que Chef de Produit confirmé Diabète et Obésité, vous construisez la stratégie de marque au niveau national auprès des médecins généralistes, puis vous la faites vivre sur le terrain. Campagnes, outils marketing, soutien à la force de vente : vous mesurez ce qui fonctionne et vous ajustez sans",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=32546adf9c9f0b42"
+    }
+   ],
+   "first_seen": "2026-10-28"
   },
   {
    "id": "f9a5e189ce2737ea",
