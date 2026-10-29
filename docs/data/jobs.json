@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-29T17:24:57Z",
+ "generated_at": "2026-10-29T22:20:44Z",
  "source_stats": {
-  "Indeed": 1665,
+  "Indeed": 1917,
   "Welcome to the Jungle": 5177,
-  "France Travail": 199,
+  "France Travail": 202,
   "APEC": 0,
   "HelloWork": 0,
   "Isarta": 147
@@ -12,8 +12,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 38 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1741,
- "new_today": 48,
+ "count": 1759,
+ "new_today": 66,
  "jobs": [
   {
    "id": "914626767bb0b43e",
@@ -408,6 +408,43 @@
     }
    ],
    "first_seen": "2026-10-06"
+  },
+  {
+   "id": "1b0794ddcf9c7649",
+   "title": "Consultant.e RevOps / Sales Ops - CRM - Confirmé/Senior",
+   "company": "Markentive",
+   "location": "Bordeaux",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "crm",
+    "marketing_operations",
+    "sales_operations"
+   ],
+   "skills": [
+    "automation",
+    "crm",
+    "excel",
+    "hubspot",
+    "marketing automation",
+    "salesforce"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 22,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Consultant.e RevOps / Sales Ops - CRM - Confirmé/Senior Nous recherchons des profils motivés et autonomes, désireux de progresser vite dans un environnement exigeant (et passionnant) : * Tu as déjà travaillé pendant au moins 3 années consécutives en relation avec nos sujets d'expertise ou en tant que consultant.e : CRM / Sales Operations / Revenue Operations / Marketing Automation (ou précédentes ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/markentive/jobs/consultant-e-revops-sales-ops-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-10-29"
   },
   {
    "id": "a8fd0bbc78fef368",
@@ -3323,7 +3360,7 @@
    "score": 16,
    "date_posted": "2026-10-28",
    "salary": "45,000–55,000 EUR/yearly",
-   "description_snippet": "Publié le 28/10/2026 MARKETING CDI 45K€-55K€ Île-de-France **La description du poste** --------------------------- Si pour vous, construire une offre qui fait la différence sur le marché est une vraie source de motivation, alors on est fait pour être ensemble ! Vous aimez créer et développer un business en proposant des solutions innovantes ? Vous avez envie de rejoindre un opérateur engagé social",
+   "description_snippet": "Publié le 19/10/2026 MARKETING CDI 45K€-55K€ Île-de-France **La description du poste** --------------------------- Si pour vous, construire une offre qui fait la différence sur le marché est une vraie source de motivation, alors on est fait pour être ensemble ! Vous aimez créer et développer un business en proposant des solutions innovantes ? Vous avez envie de rejoindre un opérateur engagé social",
    "sources": [
     {
      "name": "Indeed",
@@ -5857,6 +5894,34 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=9a396366b46280ec"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "641520eeb8dc288e",
+   "title": "Chef de produit & Conseiller voyages Wellness - F/H",
+   "company": "Amplitudes",
+   "location": "Toulouse",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Chef de produit & Conseiller voyages Wellness - F/H Nous recherchons un profil entrepreneurial et orienté résultats, capable de bâtir une nouvelle gamme tout en assumant pleinement une responsabilité commerciale. **Vous êtes** * Curieux(se), structuré(e) et attentif(ve) aux détails * À l’aise pour passer de la vision stratégique à l’exécution opérationnelle * Animé(e) par la culture du résultat, l",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/amplitudes/jobs/chef-de-produit-conseiller-voyages-wellness-f-h_toulouse"
     }
    ],
    "first_seen": "2026-10-29"
@@ -8650,6 +8715,98 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "c6d7cfe52eb40874",
+   "title": "Responsable Commercial Grands Comptes Cybersécurité (F-H-X)",
+   "company": "Bureau Veritas",
+   "location": "Courbevoie, A8, France",
+   "city": "Courbevoie",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "cross-sell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-29",
+   "salary": "50,000–55,000 EUR/yearly",
+   "description_snippet": "Vous êtes attiré(e) par le développement commercial de prestations à forte valeur ajoutée autour de la cybersécurité, de l'intelligence artificielle et de la confiance numérique ? VOTRE QUOTIDIEN SI VOUS NOUS REJOIGNEZ Nous recrutons pour notre filiale Bureau Veritas Certification un(e) Responsable Commercial Grands Comptes Cybersécurité en CDI à Courbevoie (92). Rattaché(e) à Philippe, Directeur ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ba06724fc9284fa4"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "df852b963b630871",
+   "title": "Marketing operations - Webinaires & engagement F/H - Walter Learning",
+   "company": "Walter Learning",
+   "location": "13 - Marseille 8e Arrondissement",
+   "city": "13 - Marseille 8E Arrondissement",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations",
+    "marketing_produit"
+   ],
+   "skills": [
+    "gestion de projet",
+    "processus",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "Missions Nous cherchons quelqu'un d'autonome, capable de mettre en place un système robuste et scalable permettant de déployer des webinaires au service de l'acquisition client sur nos +130 formations. Vous travaillez pour Walter Learning Groupe en partenariat avec les équipes marketing produit, sales, production et tech. Vous définissez et maintenez les processus structurant ce projet, de la plan",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://careers.werecruit.io/fr/walter-learning/offres/marketing-operations---webinaires--engagement-e20f50?utm_source=francetravail&utm_medium=job-board"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "c70b222d9cfd4af4",
+   "title": "Marketing operations - SEO/GEO F/H - Walter Learning",
+   "company": "Walter Learning",
+   "location": "13 - Marseille 8e Arrondissement",
+   "city": "13 - Marseille 8E Arrondissement",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations",
+    "marketing_produit"
+   ],
+   "skills": [
+    "gestion de projet",
+    "processus",
+    "workflow"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "Missions Nous cherchons quelqu'un d'autonome, capable de mettre en place un système robuste et scalable permettant de déployer notre visibilité organique (SEO, GEO) au service de l'acquisition client sur nos +130 formations. Vous travaillez pour Walter Learning Groupe en partenariat avec les équipes marketing produit, sales, production et tech. Vous définissez et maintenez les processus structuran",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://careers.werecruit.io/fr/walter-learning/offres/marketing-operations---seogeo-6fcab4?utm_source=francetravail&utm_medium=job-board"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "b65df3c873ee0d52",
    "title": "Senior Director, Demand Generation",
    "company": "Aircall.io, Inc.",
@@ -8725,6 +8882,39 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=5e9fab6569d83d0f"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "2467a3761e19a491",
+   "title": "Key Account Manager Multi-produits/ SME",
+   "company": "KEEWE",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "cross-sell",
+    "hubspot",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "**Key Account Manager Multi-produit/SME FR - CDI - Paris** **Keewe recrute son/sa prochain(e) Key Account Manager Multi-produit/SME** Keewe est une fintech qui simplifie et rend plus durables les échanges internationaux des PME grâce à une plateforme multi-produit combinant change (FX), paiements internationaux, cartes et financement. En forte croissance, Keewe fait partie du classement France Fin",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0fc2e96679a87b32"
     }
    ],
    "first_seen": "2026-10-29"
@@ -13084,12 +13274,12 @@
    "bonus_tags": [],
    "score": 10,
    "date_posted": "2026-10-29",
-   "salary": "45,000–55,000 EUR/yearly",
+   "salary": "50,000–60,000 EUR/yearly",
    "description_snippet": "29 octobre 2026 / Commerce **Pour accompagner sa croissance, Blue crée une équipe de Customer Success Managers. Ce sont les interlocuteurs privilégiés de nos clients au quotidien.** ---------------------------------------------------------------------------------------------------------------------------------------------------------- Votre portefeuille comprend deux types de clients : * **Des cli",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=c13bb5050fb53214"
+     "url": "https://fr.indeed.com/viewjob?jk=6681599cf7369e6c"
     }
    ],
    "first_seen": "2026-10-29"
@@ -13147,6 +13337,67 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/tikamoon/jobs/traffic-manager-paid-social-f-h_englos"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "659de2edc1559ada",
+   "title": "BUSINESS DEVELOPER EN ASIE DU SUD-EST - VIE (F/H)",
+   "company": "AGRIAL",
+   "location": "Nantes, B5, France",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "business_development",
+    "taiwan_apac"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-29",
+   "salary": "30,000–35,000 EUR/yearly",
+   "description_snippet": "**BUSINESS DEVELOPER EN ASIE DU SUD-EST - VIE (F/H)** Rejoindre Agrial, c’est intégrer une coopérative d’agriculteurs, polyvalente, implantée en France et à l’international. C’est vivre une expérience humaine enrichissante et passionnante, au service du « bien manger » et du « plus durable ». C’est se sentir utile et donner un sens nouveau à son propre avenir. **Vivez une expérience humaine passio",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a720587f683d81cc"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "da5fa8c36c548611",
+   "title": "Chargé(e) de Développement commercial International – EXECUTIVE EDUCATION (GEMBA & DBA) H/F",
+   "company": "Neoma Business School",
+   "location": "Paris 13e, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "business_development"
+   ],
+   "skills": [
+    "pipeline",
+    "prospection"
+   ],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "### **À propos de nous** **NEOMA Business School** est une Ecole de premier rang international, dynamique et désireuse de dépasser constamment les frontières de la connaissance et de l’innovation. Nous recrutons régulièrement de nouveaux talents, souhaitant s’investir à nos côtés pour mener à bien notre mission : la formation et l’accompagnement des managers et entrepreneurs de demain. Rejoignez-n",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5a2448333b2a7540"
     }
    ],
    "first_seen": "2026-10-29"
@@ -18522,6 +18773,94 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "3cd93df8ee37e366",
+   "title": "Responsable hospitalité / évènements / expérience client (H/F)",
+   "company": "Château Cloître Rouge",
+   "location": "La Londe-les-Maures, B8, France",
+   "city": "La Londe-Les-Maures",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-29",
+   "salary": "50,000–80,000 EUR/yearly",
+   "description_snippet": "CDI La Londe-les-Maures (83) Postulez à cette offre Vous devez être connecté pour postuler. Merci de patienter, votre candidature est en cours de traitement Description du poste Œnotourisme Marketing / Communication Commerce **Caveau de vente – Œnotourisme – Hospitalité – Événementiel – Développement commercial – Administration des ventes** *Poste clé dans le développement de l'expérience client, ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0ac4e07679db2c5c"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "5c606008c0713df8",
+   "title": "Business Developer GNSS (Global Navigation Satellite System) F-H",
+   "company": "Safran",
+   "location": "Les Ulis, A8, France",
+   "city": "Les Ulis",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "business_development"
+   ],
+   "skills": [
+    "prospection"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "Published 10.29.2026 Company : Safran Trusted 4D Job field : Sales & Marketing Location : Les Ulis , Ile de France , France Contract type : Permanent Contract duration : Full-time Required degree : Master Degree Required experience : More than 3 years Professional status : Professional, Engineer & Manager Spoken language(s) : English Fluent Published 10.29.2026 **Job Description** ----------------",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f3c115a6856f42ab"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "9a221cd51ac95c52",
+   "title": "Ingénieur d'Affaires Grands Comptes H/F",
+   "company": "Cabinet Nova Human Recruitment",
+   "location": "Neuilly-sur-Seine, A8, France",
+   "city": "Neuilly-Sur-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "salesforce"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-10-29",
+   "salary": "32,600–50,000 EUR/yearly",
+   "description_snippet": "**À propos du poste** En tant qu’ingénieur d’affaires grands comptes ou ingénieure d’affaires grands comptes, vous développez les relations commerciales avec des clients professionnels et accompagnez leur croissance. Vous associez compréhension des besoins, stratégie de vente et coordination des actions pour construire des partenariats durables. Votre contribution: des échanges bien ciblés aident ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e41862d48a6526e1"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "42ce169c3cf8b752",
    "title": "Senior Product Marketing Manager - CDI H/F",
    "company": "Hellowork",
@@ -23797,6 +24136,90 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "202511d8bc7e0c32",
+   "title": "Business Analyst Data & Services H/F",
+   "company": "Credit Mutuel Arkea",
+   "location": "Le Relecq-Kerhuon, A2, France",
+   "city": "Le Relecq-Kerhuon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-29",
+   "salary": "35,000–40,000 EUR/yearly",
+   "description_snippet": "**Description du poste** ------------------------ ### **Métier** METIERS - Projets / Études / MOA/ Chef de produit ### **Intitulé du poste** Business Analyst Data & Services H/F ### **Contrat** CDI ### **Rémunération (brut/an en €) (hors package social)** 35 000-40 000 ### **Votre mission** En tant que **Business Analyst Data et Services**, vos missions sont les suivantes : * Participer aux phases",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=981c4da745912dee"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "cc615dadf20496fc",
+   "title": "Key Account Manager Aerospace - Fixed Wing Europe",
+   "company": "SKF",
+   "location": "Châteauneuf-sur-Isère, ARA, France",
+   "city": "Chateauneuf-Sur-Isere",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "Demande d’Identifiant (ID): 25543 Catégorie demploi: Ventes et Customer Service Niveau de Carrière: Ingénieur et Cadre Type de Contrat: Permanent Lieu: Châteauneuf Sur Isere, FR **Key Account Manager Aéronautique – Équipe commerciale Fixed Wing Europe** Chez SKF Aerospace, nous concevons et fabriquons des composants à haute technicité qui permettent aux plus grands constructeurs d’avions et de mot",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=97e12e7445b20bc2"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "d112d305cd3b3104",
+   "title": "Chef de Produit Consommables H/F",
+   "company": "Henry Schein",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "**Rejoignez Henry Schein France et devenez un acteur clé de la santé bucco-dentaire en France !** Depuis plus de 30 ans, Henry Schein France est le leader national de la distribution de solutions, matériels et consommables destinés aux professionnels de la santé bucco-dentaire. Bien plus qu’un distributeur, nous accompagnons nos clients à chaque étape de leurs projets — financement, formation, amé",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4991c4e27e4a2ae6"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "05031a1f366a95a6",
    "title": "Customer Success Manager (H/F)",
    "company": "PROXIMUM",
@@ -24656,7 +25079,7 @@
    "score": 6,
    "date_posted": "2026-10-27",
    "salary": null,
-   "description_snippet": "Published 10.27.2026 Company : Safran Aerosystems Job field : Sales & Marketing Location : Cognac , Nouvelle Aquitaine , France Contract type : Permanent Contract duration : Full-time Required degree : Master Degree Required experience : More than 8 years Professional status : Professional, Engineer & Manager Spoken language(s) : English Fluent Published 10.27.2026 **Job Description** ------------",
+   "description_snippet": "Published 10.29.2026 Company : Safran Aerosystems Job field : Sales & Marketing Location : Cognac , Nouvelle Aquitaine , France Contract type : Permanent Contract duration : Full-time Required degree : Master Degree Required experience : More than 8 years Professional status : Professional, Engineer & Manager Spoken language(s) : English Fluent Published 10.29.2026 **Job Description** ------------",
    "sources": [
     {
      "name": "Indeed",
@@ -24693,32 +25116,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=92c6da65b0a7c347"
-    }
-   ],
-   "first_seen": "2026-10-27"
-  },
-  {
-   "id": "c405df1c8c89d941",
-   "title": "Conseiller vendeur Asie - Confirmé (F/H)",
-   "company": "Comptoir Des Voyages",
-   "location": "Toulouse, O, France",
-   "city": "Toulouse",
-   "region": "west",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "taiwan_apac"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-10-27",
-   "salary": "31,000–32,000 EUR/yearly",
-   "description_snippet": "**Comptoir des Voyages**, spécialiste reconnu du voyage sur mesure et en immersion, c’est aujourd’hui une équipe de plus de **180** collaborateur·rices engagé·es au quotidien pour offrir à chaque client une expérience unique et personnalisée : * Plus de **110** destinations sur les **5** continents. * Des itinéraires conçus sur mesure par des expert·es passionné·es * Une application mobile exclusi",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=37fc00a24efab260"
     }
    ],
    "first_seen": "2026-10-27"
@@ -24785,20 +25182,20 @@
    "city": "Limonest",
    "region": "other",
    "work_mode": "onsite",
-   "contract": "CDI",
+   "contract": "CDD",
    "categories": [
     "marketing_produit"
    ],
    "skills": [],
    "bonus_tags": [],
    "score": 6,
-   "date_posted": "2026-10-26",
+   "date_posted": "2026-10-27",
    "salary": null,
-   "description_snippet": "Sysco est le leader mondial de distribution de produits alimentaires et non alimentaires pour les professionnels de la restauration. Au cœur de l’alimentation et du service, les 4000 collaborateurs de Sysco France contribuent avec passion à la réussite de nos clients. Notre raison d’être : Relier le monde en distribuant des produits alimentaires et en prenant soin les uns des autres. « ***ET SY VO",
+   "description_snippet": "### **DESCRIPTION DE L'ENTREPRISE:** Sysco est le leader mondial de distribution de produits alimentaires et non alimentaires pour les professionnels de la restauration. Près de 4000 collaborateurs avec la même raison d’être : Relier le monde en distribuant des produits alimentaires et en prenant soin les uns des autres. Pour accompagner notre développement, nous recrutons, dans le cadre d’un cont",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=4f32cd0129999c09"
+     "url": "https://fr.indeed.com/viewjob?jk=f62bf71401f265d4"
     }
    ],
    "first_seen": "2026-10-27"
@@ -25305,40 +25702,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/vinci-energies/jobs/technical-account-manager-it-f-h_aix-en-provence"
-    }
-   ],
-   "first_seen": "2026-10-26"
-  },
-  {
-   "id": "9c36c7e0cbab7e29",
-   "title": "Mandarin Speaking Business Developer - Mirakl Ads",
-   "company": "Mirakl",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "business_development"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international",
-    "english_jd"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-26",
-   "salary": null,
-   "description_snippet": "**About Mirakl:** Founded in 2012, Mirakl has been at the forefront of marketplace innovation, empowering every business to compete in the platform economy. Today, Mirakl's operating system combines an enterprise marketplace solution (Mirakl Platform) that enables retailers and B2B organizations to launch, scale, and operate marketplaces and dropship, AI-powered multichannel selling (Mirakl Connec",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d847cb60546ab292"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/mirakl/jobs/mandarin-speaking-business-developer-mirakl-ads_paris_MIRAK_0jkqOZQ"
     }
    ],
    "first_seen": "2026-10-26"
@@ -34539,6 +34902,63 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "1dd88a86d97ae053",
+   "title": "Chef de Projet Marketing Opérationnel H/F",
+   "company": "Hellowork",
+   "location": "Boulogne-Billancourt, A8, France",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "Description Mitsubishi Pencil, fondée à Tokyo, au Japon, en 1887, est une entreprise mondialement reconnue dans la fabrication d'articles d'écriture. Elle se distingue principalement par la combinaison de différentes innovations exclusives sur les encres, la densité et la richesse de ses couleurs, la qualité de ses mécanismes et de ses pointes. Ses marques Uni-ball, Posca et Lamy sont vendues dans",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b404fd7a2cfba30c"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "e9c115a921411704",
+   "title": "Customer Success Coordinator",
+   "company": "EF (Education First)",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "Cultural Care Au Pair is looking for an Customer Success Coordinator in Alternance based in our Paris office to help us meet our goal to be the largest and most trusted au pair program in the world. Our cultural exchange program builds global families by bringing together au pairs with American host families—providing meaningful childcare for families, an unforgettable year in the U.S.A. for au pa",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5e317f3f6a97e755"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "8a26c9e3e0a7edec",
    "title": "Chef de projet CRM / Emailing – Adobe Campaign (IT) / Freelance",
    "company": "BEEZEN",
@@ -35152,6 +35572,34 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/h-h-group/jobs/key-account-manager-e-commerce-h-f-cdd-6-mois_paris"
+    }
+   ],
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "9c36c7e0cbab7e29",
+   "title": "Mandarin Speaking Business Developer - Mirakl Ads",
+   "company": "Mirakl",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "business_development"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "chinese"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-27",
+   "salary": null,
+   "description_snippet": "Mandarin Speaking Business Developer - Mirakl Ads",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/mirakl/jobs/mandarin-speaking-business-developer-mirakl-ads_paris_MIRAK_0jkqOZQ"
     }
    ],
    "first_seen": "2026-10-26"
@@ -43378,6 +43826,64 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "e5b7d4e0442603d2",
+   "title": "Publisher Account Manager",
+   "company": "Adcovery",
+   "location": "Montpellier, O, France",
+   "city": "Montpellier",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "###### **Join the Adcovery community** ###### **Montpellier, France** ##### **Publisher** **Account** **Manager** ##### **Job Description:** Adcovery developed a technology in response to the growing phenomenon of the use of Adblockers among users. Thanks to our patented you will offer an advertising solution able to monetize the Adblock traffic of worldwide publishers. We seek to strengthen our s",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c69c696bd7b69990"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
+   "id": "53b899d249196708",
+   "title": "Account Manager Packet Core & Enterprise",
+   "company": "Ericsson",
+   "location": "Massy, A8, France",
+   "city": "Massy",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "**About this opportunity:** Solid knowledge of mobile Packet Core (vMME, AMF, UPF, SMF) with Cloud Infra (CNIS), Orchestration (ESOA) and Enterprise portfolio (LPG, EP5G), combined with the ability to translate technical capabilities into customer and business value. Experience engaging with telecom operators and enterprise-related use cases is important, together with strong communication, stakeh",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=cd4897beb179f42e"
+    }
+   ],
+   "first_seen": "2026-10-29"
+  },
+  {
    "id": "6188a3ea8fbdb697",
    "title": "Chef de projet Marketing - Moyens de paiement F/H",
    "company": "Galeries Lafayette",
@@ -43579,6 +44085,32 @@
     }
    ],
    "first_seen": "2026-10-28"
+  },
+  {
+   "id": "c405df1c8c89d941",
+   "title": "Conseiller vendeur Asie - Confirmé (F/H)",
+   "company": "Comptoir Des Voyages",
+   "location": "Lille, HDF, France",
+   "city": "Lille",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "taiwan_apac"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-10-27",
+   "salary": "31,000–32,000 EUR/yearly",
+   "description_snippet": "**Comptoir des Voyages**, spécialiste reconnu du voyage sur mesure et en immersion, c’est aujourd’hui une équipe de plus de **180** collaborateur·rices engagé·es au quotidien pour offrir à chaque client une expérience unique et personnalisée : * Plus de **110** destinations sur les **5** continents. * Des itinéraires conçus sur mesure par des expert·es passionné·es * Une application mobile exclusi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3df742efae959a67"
+    }
+   ],
+   "first_seen": "2026-10-27"
   },
   {
    "id": "a6a4e3a73ed8c57b",
@@ -47714,8 +48246,8 @@
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "insights",
-    "business_development"
+    "business_development",
+    "insights"
    ],
    "skills": [
     "pipeline"
