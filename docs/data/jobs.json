@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-31T16:04:26Z",
+ "generated_at": "2026-10-31T20:55:37Z",
  "source_stats": {
-  "Indeed": 1643,
+  "Indeed": 1538,
   "Welcome to the Jungle": 5201,
-  "France Travail": 210,
+  "France Travail": 202,
   "APEC": 0,
   "HelloWork": 0,
   "Isarta": 143
@@ -12,8 +12,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 38 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1789,
- "new_today": 23,
+ "count": 1794,
+ "new_today": 28,
  "jobs": [
   {
    "id": "914626767bb0b43e",
@@ -268,6 +268,51 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=646a8abe0a28b079"
+    }
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "b3887f93a922d363",
+   "title": "RESPONSABLE MARKETING",
+   "company": "Quarksup",
+   "location": "Paris 1er, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_analytics",
+    "marketing_produit",
+    "performance_marketing"
+   ],
+   "skills": [
+    "a/b testing",
+    "acquisition",
+    "conversion",
+    "google ads",
+    "kpi",
+    "positionnement",
+    "reporting",
+    "roi",
+    "sea",
+    "seo",
+    "sql",
+    "tableau",
+    "trafic",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 24,
+   "date_posted": "2026-10-31",
+   "salary": null,
+   "description_snippet": "A propos **\\*\\* Rejoignez quarksUp et participez à la transformation de la HR Tech !\\*\\*** --------------------------------------------------------------------------------- **quarksUp** est un éditeur français de solutions SaaS de gestion des ressources humaines (SIRH), qui accompagne les entreprises dans la digitalisation, l’automatisation et l’optimisation de leurs processus RH. Filiale du group",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4891c0adf3de646f"
     }
    ],
    "first_seen": "2026-10-31"
@@ -14031,40 +14076,6 @@
    "first_seen": "2026-10-28"
   },
   {
-   "id": "c8e7a87efabf7fab",
-   "title": "Chef de Projet Performances et Parcours client H/F",
-   "company": "Elis",
-   "location": "Puteaux, A8, France",
-   "city": "Puteaux",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "retention"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-28",
-   "salary": null,
-   "description_snippet": "**Description du poste** ------------------------ ### **Métier** Marketing - Expérience Client et CRM ### **Intitulé du poste** Chef de Projet Performances et Parcours client H/F ### **Contrat** CDI ### **Statut** Cadre ### **Description de la mission** **Ne venez pas chez Elis si vous pensez que l'expérience client se pilote uniquement à travers des indicateurs et des tableaux de bord.** Mais si ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=81a59ebce58747fd"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/elis-france/jobs/chef-de-projet-performances-et-parcours-client-h-f_puteaux"
-    }
-   ],
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "b3fbd14083a7b761",
    "title": "Expert en web et digital marketing - Web & Digital Marketing Expert",
    "company": "Alcatel Lucent",
@@ -24249,6 +24260,32 @@
    "first_seen": "2026-10-31"
   },
   {
+   "id": "d03855ff81eb0c0b",
+   "title": "Chef de projet CRM B2C",
+   "company": "Ulys",
+   "location": "Nanterre",
+   "city": "Nanterre",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Chef de projet CRM B2C Diplômé(e) d'une formation supérieure (niveau bac +5) en marketing / communication, vous possédez une expérience minimum de 5 ans dans une fonction similaire de gestion de campagnes et stratégie CRM dans le secteur des services idéalement. Vous avez à cœur d'innover au service du client ! Compétences et qualités requises : \\- expertise en CRM et digital, dans le secteur des ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/ulys-fr/jobs/chef-de-projet-crm-b2c_nanterre"
+    }
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "58f9c558111ebadb",
    "title": "Cheffe/Chef de produit international - Whisky",
    "company": "LA MARTINIQUAISE",
@@ -24552,11 +24589,11 @@
    "score": 6,
    "date_posted": "2026-10-30",
    "salary": null,
-   "description_snippet": "**About Cencora** ----------------- Our team members are at the heart of everything we do. At Cencora, we are united in our responsibility to create healthier futures, and every person here is essential to us being able to deliver on that purpose. If you want to make a difference at the center of health, come join our innovative company and help us improve the lives of people and animals everywher",
+   "description_snippet": "Available in 2 locationsAvailable in 2 locations **Chef de produit trade marketing OTC Para H/F** ------------------------------------------------ Available in 2 locations Paris, Paris, France Courbevoie, France Category: Marketing widget: Full time Posted Date: October 29th 2026 Job ID: R2617409 Our team members are at the heart of everything we do. At Cencora, we are united in our responsibility",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=2928123840b65048"
+     "url": "https://fr.indeed.com/viewjob?jk=53678307110ddebf"
     }
    ],
    "first_seen": "2026-10-30"
@@ -25083,6 +25120,34 @@
     }
    ],
    "first_seen": "2026-10-29"
+  },
+  {
+   "id": "c8e7a87efabf7fab",
+   "title": "Chef de Projet Performances et Parcours client H/F",
+   "company": "Elis",
+   "location": "Puteaux",
+   "city": "Puteaux",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "Chef de Projet Performances et Parcours client H/F Si vous aimez transformer les attentes clients en plans d'action concrets, piloter des projets transverses et faire parler la donnée pour améliorer la performance, direction ELIS !<br />-Une période d'intégration et de formation afin de découvrir Elis, ses services et le métier<br />-Un accompagnement en formation tout au long de votre parcours mé",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/elis-france/jobs/chef-de-projet-performances-et-parcours-client-h-f_puteaux"
+    }
+   ],
+   "first_seen": "2026-10-28"
   },
   {
    "id": "e597dfd7873358ed",
@@ -35435,6 +35500,34 @@
     {
      "name": "France Travail",
      "url": "https://app.beetween.com/WeaselWeb/p/#/apply/job/dl8esy9flp8/customer-success-manager-b2b-grands-comptes-f-h"
+    }
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "1501175adb748a04",
+   "title": "Assistant Chef de Produits Europe H/F",
+   "company": "Hellowork",
+   "location": "Noyal-sur-Vilaine, A2, France",
+   "city": "Noyal-Sur-Vilaine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-31",
+   "salary": null,
+   "description_snippet": "Description Entreprise familiale depuis 3 générations, le groupe Olga - anciennement Triballat Noyal - est leader historique et innovant sur les marchés de l'agroalimentaire et en particulier, sur celui de la bio et du végétal depuis 35 ans. Le groupe de 1200 personnes commercialise ses produits essentiellement en France sur les réseaux de distribution en GMS, en réseau Bio et en restauration hors",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=bf780887c6930073"
     }
    ],
    "first_seen": "2026-10-31"
@@ -47126,6 +47219,60 @@
    "first_seen": "2026-10-01"
   },
   {
+   "id": "c33a635b0d8f2666",
+   "title": "Assistant développement et financements export structurés pour l'Europe et l'Asie",
+   "company": "Société Générale",
+   "location": "La Défense, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "taiwan_apac"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 0,
+   "date_posted": "2026-10-30",
+   "salary": null,
+   "description_snippet": "**Vos missions au quotidien** ----------------------------- L’équipe Development & Structured Export Finance au sein de la division des financements d’actifs chez SG CIB Ce stage se déroule au sein de la banque de Financement et d'Investissement du Groupe Société Générale. En combinant notre expertise mondiale en banque d’investissement, financement et activités de marchés, nous accompagnons nos c",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0ef94834b2fe677d"
+    }
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
+   "id": "c8776901a1d16114",
+   "title": "Assistant(e) Chef de Produit Marketing TV & Digital",
+   "company": "France Télévisions Publicité",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Assistant(e) Chef de Produit Marketing TV & Digital * Connaissance et forte affinité pour l’univers des médias et des contenus * Goût prononcé pour les chiffres, capacité d’analyse et de synthèse * Rigueur, autonomie et sens de l’organisation * Créativité, excellente maîtrise de PowerPoint et Excel * Esprit d’équipe, curiosité et bonne humeur",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/francetvpub/jobs/assistant-chef-de-produit-marketing-tv-digital_paris_FTP_x991KXA"
+    }
+   ],
+   "first_seen": "2026-10-31"
+  },
+  {
    "id": "832cbbe7edf9669b",
    "title": "Business Development Manager",
    "company": "Goodman",
@@ -47592,6 +47739,35 @@
    "first_seen": "2026-10-23"
   },
   {
+   "id": "112f7dcfd9bf9746",
+   "title": "Key Account Manager (KAM) - Senior (H/F)",
+   "company": "TeamTailor Demo Company",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "cross-sell",
+    "upsell"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-10-31",
+   "salary": "Mensuel de 60000.0 Euros à 83000.0 Euros",
+   "description_snippet": "Contexte et équipe Phenix aide les entreprises à valoriser leurs invendus, alimentaires et non alimentaires, grâce à la mise à disposition d'outils technologiques et d'experts anti-gaspi sur le terrain. Nous recherchons un Key Account Manager Senior (KAM) en CDI, motivé, avec un esprit de conquête et une forte envie de développer nos services chez des grands comptes. Tu travailles au sein de l'équ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://jobs.makesense.org/fr/jobs/teamtailor-demo-company-key-account-manager-kam-senior-9pf4qE2WR9pj79Tz9zWJ?source=france_travail"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "075accfcabe92291",
    "title": "Senior Sales Operations Manager F/H",
    "company": "Walter Learning",
@@ -47674,35 +47850,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/wizville/jobs/key-account-manager-confirme-saas-b2b-h-f_paris_WIZVI_lK0WQV1"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "112f7dcfd9bf9746",
-   "title": "Key Account Manager (KAM) - Senior (H/F)",
-   "company": "TeamTailor Demo Company",
-   "location": "75 - Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "cross-sell",
-    "upsell"
-   ],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-10-26",
-   "salary": "Mensuel de 60000.0 Euros à 83000.0 Euros",
-   "description_snippet": "Contexte et équipe Phenix aide les entreprises à valoriser leurs invendus, alimentaires et non alimentaires, grâce à la mise à disposition d'outils technologiques et d'experts anti-gaspi sur le terrain. Nous recherchons un Key Account Manager Senior (KAM) en CDI, motivé, avec un esprit de conquête et une forte envie de développer nos services chez des grands comptes. Tu travailles au sein de l'équ",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://jobs.makesense.org/fr/jobs/teamtailor-demo-company-key-account-manager-kam-senior-9pf4qE2WR9pj79Tz9zWJ?source=france_travail"
     }
    ],
    "first_seen": "2026-10-22"
