@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-01T17:06:47Z",
+ "generated_at": "2026-11-01T21:38:02Z",
  "source_stats": {
-  "Indeed": 1229,
+  "Indeed": 1113,
   "Welcome to the Jungle": 5193,
-  "France Travail": 138,
+  "France Travail": 139,
   "APEC": 0,
   "HelloWork": 0,
   "Isarta": 132
@@ -12,8 +12,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 38 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1593,
- "new_today": 5,
+ "count": 1645,
+ "new_today": 57,
  "jobs": [
   {
    "id": "914626767bb0b43e",
@@ -1114,6 +1114,32 @@
     }
    ],
    "first_seen": "2026-10-02"
+  },
+  {
+   "id": "7afcc7e9b9010675",
+   "title": "Lead Product Specialist - Customer Success Enablement",
+   "company": "Lucca",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-10-09",
+   "salary": null,
+   "description_snippet": "Lead Product Specialist - Customer Success Enablement <p><b><strong>Avouez, ça vous ressemble un peu, non ?</strong></b></p><p><span>✔︎ </span><b><strong>Gestion de projet complexe</strong></b><span> : Vous avez des expériences de pilotage de projets impliquant plusieurs parties prenantes et une certaine complexité organisationnelle</span></p><p><span>✔︎ </span><b><strong>Leadership &amp; esprit d",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lucca/jobs/lead-product-specialist-customer-success-enablement_paris_LUCCA_gW7Z94Z"
+    }
+   ],
+   "first_seen": "2026-11-01"
   },
   {
    "id": "49543f0b753687b6",
@@ -2888,6 +2914,32 @@
     }
    ],
    "first_seen": "2026-10-02"
+  },
+  {
+   "id": "af226d900808b04d",
+   "title": "Customer Success Specialist H/F",
+   "company": "Dougs",
+   "location": "Bron",
+   "city": "Bron",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "Customer Success Specialist H/F",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/dougs/jobs/customer-success-specialist-h-f_bron_DOUGS_2G3zzXz"
+    }
+   ],
+   "first_seen": "2026-11-01"
   },
   {
    "id": "c88f30454b4f9fc2",
@@ -8335,6 +8387,59 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "c4a600c8989f0faa",
+   "title": "customer success specialist F/H",
+   "company": "Walter Learning",
+   "location": "Marseille",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-10-30",
+   "salary": null,
+   "description_snippet": "customer success specialist F/H <p>Vous avez :</p> <ul type=\"disc\"> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">un go&ucirc;t pour la vente, la relation client et les objectifs commerciaux</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">une tr&egrave;s bonne capacit&eacute; d&rsquo;&eacute;coute active et de compr&eacute;hension des besoins</p> </li> <li",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/customer-success-specialist-f-h_marseille_WL_3z6zZ42"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "c660c59ac0936de7",
+   "title": "Chargé d'étude marketing clientèle Premium  F/H - CDI",
+   "company": "Crédit Coopératif",
+   "location": "Nanterre",
+   "city": "Nanterre",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer",
+    "insights"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-09-01",
+   "salary": null,
+   "description_snippet": "Chargé d'étude marketing clientèle Premium F/H - CDI <p><strong>Et vous ? </strong>De formation Bac+5 dans le domaine du marketing, vous justifiez d'une première expérience dans le secteur bancaire, dans le domaine de la banque de détail ou du marketing</p> <ul> <li>Capacité à travailler en équipe.</li> <li>Maitrise des outils bureautiques et des bases de données.</li> <li>Qualités personnelles re",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/credit-cooperatif/jobs/charge-d-etude-marketing-clientele-premium-f-h-cdi_nanterre"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
    "id": "3ad76d975b6a6130",
    "title": "Business Development Manager",
    "company": "Megaport",
@@ -12467,6 +12572,186 @@
    "first_seen": "2026-11-01"
   },
   {
+   "id": "5b748ab572aa93ed",
+   "title": "Customer Experience (CX) & Satisfaction Manager",
+   "company": "Evaneos",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "csat",
+    "customer satisfaction",
+    "nps"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-30",
+   "salary": null,
+   "description_snippet": "Customer Experience (CX) & Satisfaction Manager **You may be a great fit for this position if:** * You have 5 to 7 years of experience in B2C Customer Insights, B2C Customer Experience, or a satisfaction-focused analytical role, ideally within a marketplace, travel, or services environment. * You've already designed, rolled out, and analyzed customer satisfaction surveys at scale, with a track rec",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/evaneos/jobs/customer-insights-satisfaction-manager_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "07364b8436c281ad",
+   "title": "Customer Success - Key Account Manager – Rétention & Expansion · EdTech SaaS",
+   "company": "Alumnforce - Alumni Success Platform",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management",
+    "customer"
+   ],
+   "skills": [
+    "hubspot",
+    "retention",
+    "satisfaction client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Customer Success - Key Account Manager – Rétention & Expansion · EdTech SaaS **Savoir faire** * Expérience de 3 ans ou plus (Stages, alternances inclus) dans la relation client BtoB d'une solution SaaS (Logiciel) - **Obligatoire** * Connaissances des techniques commerciales et du développement de la satisfaction client (Full cycle) * Anglais professionnel lu, parlé, écrit obligatoire * Réelle aisa",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/alumnforce/jobs/lead-customer-success-manager"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "2c648e4b19314b41",
+   "title": "Traffic Manager",
+   "company": "LeLynx.fr",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "tracking"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-12",
+   "salary": null,
+   "description_snippet": "Traffic Manager * 1 an d’expérience en traffic management ou acquisition digitale (en agence ou chez l’annonceur) * Fort esprit analytique et approche orientée données * Bonne maîtrise d’Excel / Google Sheets (analyse de données et reporting) * Personne rigoureuse, curieuse et motivée à apprendre * Bon esprit d’équipe et bonnes compétences en communication * Niveau professionnel en anglais (oral e",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lelynx-fr/jobs/traffic-manager_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "2415bbe71a6113dc",
+   "title": "CRM Spécialist (N/F/H)",
+   "company": "Leboncoin",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "CRM Spécialist (N/F/H)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/leboncoin/jobs/crm-specialist-n-f-h_paris_LEBON_88pMox"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "4d5a8299690a96db",
+   "title": "Junior Customer Success Manager - Small Business",
+   "company": "Modjo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-09-26",
+   "salary": null,
+   "description_snippet": "Junior Customer Success Manager - Small Business",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/junior-customer-success-manager-small-business_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "e1183b9cf4e6ca9a",
+   "title": "Junior Consultant - China & Asia",
+   "company": "WITH",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "taiwan_apac"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international",
+    "english_jd"
+   ],
+   "score": 10,
+   "date_posted": "2026-09-03",
+   "salary": null,
+   "description_snippet": "Junior Consultant - China & Asia * A degree in Business Administration or Management, Digital Marketing, Communications, or a related field. * Under 2 years of experience in a digital or e-commerce role, either in an agency or on the client side, through internships or an entry-level position. * Strong interest in digital & emerging technologies. Experience or successful projects in this domain ar",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/with/jobs/junior-consultant-china-asia_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
    "id": "d56971c3f399092a",
    "title": "Product Owner (Customer Experience)",
    "company": "Social Discovery Group",
@@ -12528,8 +12813,8 @@
    "id": "561523fac8ea31f6",
    "title": "Expert fonctionnel RH Publiques F/H",
    "company": "CIRIL GROUP",
-   "location": "Meylan, ARA, France",
-   "city": "Meylan",
+   "location": "La Roche-sur-Yon, B5, France",
+   "city": "La Roche-Sur-Yon",
    "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
@@ -12547,7 +12832,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=8a0fbf5d02a8e859"
+     "url": "https://fr.indeed.com/viewjob?jk=a5521c5812b7d854"
     }
    ],
    "first_seen": "2026-10-30"
@@ -17288,6 +17573,99 @@
     }
    ],
    "first_seen": "2026-10-02"
+  },
+  {
+   "id": "8eaade0a61b97b74",
+   "title": "Customer Success Manager B2B",
+   "company": "mobile.club",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "zendesk"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "Customer Success Manager B2B **Compétences** * 3 à 5 ans d'expérience en Customer Success, Care ou gestion de portefeuille clients B2B, idéalement dans un environnement de service, d'abonnement ou de SaaS * Vous avez déjà animé une équipe ou un prestataire externalisé, et vous savez faire progresser des agents sans les brusquer * Vous êtes à l'aise avec les chiffres : lire un SLA, suivre un taux d",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/mobile-club/jobs/customer-success-manager-b2b_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "c142f9241cd5c45e",
+   "title": "SEO Manager - CDI - Paris",
+   "company": "Orus",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-10-24",
+   "salary": null,
+   "description_snippet": "SEO Manager - CDI - Paris * **6 à 8 ans d'expérience** en SEO/GEO ou Growth Marketing * Expérience en startup ou scale-up, idéalement dans un contexte international, sur un produit B2B ou réglementé (assurance, fintech, legaltech…) * Solide expertise SEO et forte curiosité pour le GEO et l'AI Search * Expérience concrète en CRO et en expérimentation growth * Profil analytique, orienté data et résu",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/orus/jobs/growth-acquisition-manager-cdi-paris_paris_ORUS_z3e31W8"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "2677b0399b93112b",
+   "title": "Customer Success Manager",
+   "company": "Semji",
+   "location": "Lyon",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "retention"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 8,
+   "date_posted": "2026-09-29",
+   "salary": null,
+   "description_snippet": "Customer Success Manager * **2 to 4 years of experience** as a Customer Success Manager in a SaaS environment * Strong understanding of product adoption, client retention, and growth strategies * You know how to create trust and drive measurable results * Structured, data-driven, and action-oriented * Fluent in **English** (C2 level) ### Practical Info * 📍 **Location**: Lyon 9th (Metro D – Gare de",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/semji/jobs/customer-success-manager_lyon"
+    }
+   ],
+   "first_seen": "2026-11-01"
   },
   {
    "id": "de17bb1f2c29d481",
@@ -22333,6 +22711,290 @@
    "first_seen": "2026-11-01"
   },
   {
+   "id": "d03874541ae5a4e3",
+   "title": "Hachette Livre - Chef de produit Marketing & Digital - CDI - H/F",
+   "company": "Lagardère",
+   "location": "Vanves (92)",
+   "city": "Vanves",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-01",
+   "salary": null,
+   "description_snippet": "",
+   "sources": [
+    {
+     "name": "Isarta",
+     "url": "https://isarta.fr/?job=76528"
+    }
+   ],
+   "first_seen": "2026-11-01",
+   "date_assumed": true
+  },
+  {
+   "id": "667912ef17e97498",
+   "title": "Customer Success Manager",
+   "company": "Bluekango",
+   "location": "Cesson-Sévigné",
+   "city": "Cesson-Sevigne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-27",
+   "salary": null,
+   "description_snippet": "Customer Success Manager Vous êtes le profil idéal si vous : * Avez une **expérience significative dans l’accompagnement client**, le conseil ou la gestion de projets * Faites preuve d'une forte **curiosité technique** vous permettant de comprendre les mécanismes de paramétrage de la plateforme, d'accompagner les administrateurs clients dans leurs réflexions et de collaborer efficacement avec les ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/bluekango/jobs/customer-success-manager_cesson-sevigne"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "c0b8a570cb7f39ae",
+   "title": "Customer Success Manager B2B (H/F/X) - Études satisfaction client",
+   "company": "WizVille",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Customer Success Manager B2B (H/F/X) - Études satisfaction client * Diplômé.e de bac +5 en management, e-business, relation client, marketing ou assimilé * Au moins 3 ans d'expérience en tant que chargé.e d’études en institut d’études ou CSM chez un éditeur logiciel SaaS ou assimilé, idéalement dans le domaine de la relation client, de la satisfaction client ou du marketing * Français : courant * ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/wizville/jobs/customer-success-manager-b2b-h-f-x_paris_WIZVI_eZQzwrL"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "2dcf8c1214648843",
+   "title": "Technical Customer Success Manager",
+   "company": "Wake It Up",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "zendesk"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-19",
+   "salary": null,
+   "description_snippet": "Technical Customer Success Manager * Expérience de **+3 ans** dans un rôle similaire (support technique, customer experience, opérations), idéalement dans un environnement SaaS/éditeur logiciel. * Maîtrise avancée de **SQL Server** et des environnements Data. * Formation d’ingénieur ou expérience équivalente, de préférence dans la **supply chain** ou un environnement technique exigeant. * **Langue",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/wake-it-up/jobs/technical-customer-success-manager_paris_WIU_X3Xe1jZ"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "6f0972a4a3f8c0f2",
+   "title": "Customer success Manager / PMO (F/H)",
+   "company": "Abraxio",
+   "location": "Lyon",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-17",
+   "salary": null,
+   "description_snippet": "Customer success Manager / PMO (F/H) **Formation & expérience** * Idéalement Bac+5 avec minimum 7 ans d’expérience dans / ou au service d’une DSI: PMO, RSI, Chef de projet ou consultant IT / IS en ESN. * Bonne maîtrise des enjeux DSI : structuration budgétaire, portefeuille projets, ressources, contrats, reporting… **Compétences & savoir-être** * Très bonne maitrise d'Excel (pour l'intégration des",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/abraxio/jobs/customer-success-manager-pmo-f-h_lyon"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "8e132bbf5b4e8683",
+   "title": "Customer Success Manager",
+   "company": "Koala Interactive",
+   "location": "Levallois-Perret",
+   "city": "Levallois-Perret",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "Customer Success Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/undefined-9/jobs/customer-success-manager_levallois-perret"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "44a0abd5b05209bc",
+   "title": "Analyste CTI expérimenté(e) - Cybersécurité - Toulouse",
+   "company": "Sopra Steria",
+   "location": "Colomiers",
+   "city": "Colomiers",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-01",
+   "salary": null,
+   "description_snippet": "Analyste CTI expérimenté(e) - Cybersécurité - Toulouse <p>Diplômé(e) d’une école d’Ingénieur ou équivalent, vous justifiez d<strong>’au moins 3 à 4 ans d’expériences (hors expériences stage et alternance)</strong> dans le domaine de la gestion de la menaces cyber CTI, et plus particulièrement sur les thématiques de détection SOC.</p><p><strong>Votre profil</strong></p><ul><li>Diplômé(e) d&#39;une ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sopra-steria/jobs/analyste-cti-experimente-cybersecurite-toulouse_colomiers"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "feffd7389249745c",
+   "title": "Head of Customer Success | CCO @ VC backed company",
+   "company": "XAnge",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "csat",
+    "nps",
+    "retention",
+    "upsell",
+    "zendesk"
+   ],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Head of Customer Success | CCO @ VC backed company **Who we're looking for** > We care about track record and mindset, not pedigree. 10+ years is a guideline, not a hard rule: exceptional profiles below that threshold are welcome. **Preferred experience:** you have led CS in a B2B SaaS context (50 to 500 employees) and grown a CS team through hypergrowth. * **Hard skills:** retention and expansion",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/xange/jobs/head-of-customer-success-vc-backed-company_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "f7f92d808f886a78",
+   "title": "Analyste CTI expérimenté(e) - Cybersécurité- Ile-de-France",
+   "company": "Sopra Steria",
+   "location": "Courbevoie",
+   "city": "Courbevoie",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Analyste CTI expérimenté(e) - Cybersécurité- Ile-de-France <ul><li>Diplômé(e) d’une école d’Ingénieur ou équivalent, vous justifiez d<strong>’au moins 3 à 4 ans d’expériences (hors expériences stage et alternance)</strong> dans le domaine de la gestion de la menaces cyber CTI, et plus particulièrement sur les thématiques de détection SOC.</li></ul><p><strong>Votre profil</strong></p><ul><li>Diplôm",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sopra-steria/jobs/analyste-cti-experimente-cybersecurite-ile-de-france_courbevoie"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "de756d727b32be4c",
+   "title": "CUSTOMER SUCCESS MANAGER – DÉPLOIEMENT SaaS SANTÉ (F/H)",
+   "company": "Euris",
+   "location": "Boulogne-Billancourt",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-09-21",
+   "salary": null,
+   "description_snippet": "CUSTOMER SUCCESS MANAGER – DÉPLOIEMENT SaaS SANTÉ (F/H) Vous avez environ **3 à 5 ans d’expérience** dans l’accompagnement de clients et le déploiement de solutions SaaS, en tant que Customer Success Manager, consultant(e) fonctionnel(le), chef(fe) de projet client ou responsable de déploiement. Vous avez déjà travaillé chez un éditeur de logiciel ou dans un environnement digital et savez gérer pl",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/euris/jobs/customer-success-manager-deploiement-saas-sante-f-h_boulogne-billancourt"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
    "id": "9dfabf616d64493d",
    "title": "Responsable Marketing Performance & Outils H/F",
    "company": "Hellowork",
@@ -22825,11 +23487,11 @@
    "score": 6,
    "date_posted": "2026-10-30",
    "salary": null,
-   "description_snippet": "Available in 2 locationsAvailable in 2 locations **Chef de produit trade marketing OTC Para H/F** ------------------------------------------------ Available in 2 locations Paris, Paris, France Courbevoie, France Category: Marketing widget: Full time Posted Date: October 29th 2026 Job ID: R2617409 Our team members are at the heart of everything we do. At Cencora, we are united in our responsibility",
+   "description_snippet": "**About Cencora** ----------------- Our team members are at the heart of everything we do. At Cencora, we are united in our responsibility to create healthier futures, and every person here is essential to us being able to deliver on that purpose. If you want to make a difference at the center of health, come join our innovative company and help us improve the lives of people and animals everywher",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=53678307110ddebf"
+     "url": "https://fr.indeed.com/viewjob?jk=2928123840b65048"
     }
    ],
    "first_seen": "2026-10-30"
@@ -26231,6 +26893,32 @@
    "first_seen": "2026-10-23"
   },
   {
+   "id": "10f39b1cbc4e64a7",
+   "title": "🇫🇷 CDI Account Manager - Foodtech 🇫🇷",
+   "company": "Savour",
+   "location": "Marseille",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-01",
+   "salary": null,
+   "description_snippet": "🇫🇷 CDI Account Manager - Foodtech 🇫🇷 * Bac+5 (école de commerce, université ou équivalent) * Une première expérience en account management, business development ou conseil (stages ou alternance compris) * Aisance avec les chiffres et capacité à transformer une analyse en recommandation claire, maîtrise d’Excel / Google Sheets * Excellentes compétences relationnelles, sens de la négociation * Rigue",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/savour/jobs/cdi-account-manager-foodtech_marseille_SAVOU_ALAkzrP"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "ac9b55430775eb81",
    "title": "Customer Success Manager- CDI (M/F)",
    "company": "Revolt.eco",
@@ -27433,32 +28121,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/nxo-france/jobs/account-manager-secteur-public-h-f_puteaux_NF_DqR3z3A"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "10f39b1cbc4e64a7",
-   "title": "🇫🇷 CDI Account Manager - Foodtech 🇫🇷",
-   "company": "Savour",
-   "location": "Marseille",
-   "city": "Marseille",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-10-20",
-   "salary": null,
-   "description_snippet": "🇫🇷 CDI Account Manager - Foodtech 🇫🇷 * Bac+5 (école de commerce, université ou équivalent) * Une première expérience en account management, business development ou conseil (stages ou alternance compris) * Aisance avec les chiffres et capacité à transformer une analyse en recommandation claire, maîtrise d’Excel / Google Sheets * Excellentes compétences relationnelles, sens de la négociation * Rigue",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/savour/jobs/cdi-account-manager-foodtech_marseille_SAVOU_ZMoOyMb"
     }
    ],
    "first_seen": "2026-10-22"
@@ -32517,6 +33179,353 @@
     {
      "name": "France Travail",
      "url": "https://emploi.ouest-france.fr/offre-d-emploi/responsable-comptes-cles-distribution-b2b-h-f-13684486/?at_medium=affiliate&at_campaign=france-travail"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "349bbd5ab94ce4b9",
+   "title": "Customer Success Manager Mid Market",
+   "company": "Modjo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-31",
+   "salary": null,
+   "description_snippet": "Customer Success Manager Mid Market",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/customer-success-manager-mid-market_paris_MODJO_38dk6Xy"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "b6852cb04e1badc7",
+   "title": "Customer Success Manager H/F",
+   "company": "TWC - Rosk x Brigad",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-30",
+   "salary": null,
+   "description_snippet": "Customer Success Manager H/F * **2 à 4 ans d'expérience** minimum en **opérations**, **talent operations** ou **user facing**, idéalement en **start-up ou scale-up**. * Une première expérience en **gestion de projet** : savoir structurer un sujet, embarquer plusieurs équipes et tenir un planning. * Grande **adaptabilité** : à l'aise pour jongler entre run opérationnel, build et scalabilité. * Bon ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/brigad/jobs/customer-success-manager-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "9254f1f33e7674a2",
+   "title": "Customer Success Manager (H/F)",
+   "company": "Witco",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-30",
+   "salary": null,
+   "description_snippet": "Customer Success Manager (H/F)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/monbuilding/jobs/customer-success-manager-h-f_paris_WITCO_mDkJNbw"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "1d130b2a146a2308",
+   "title": "Customer Success Manager - Large Accounts (H/F)",
+   "company": "Wakeo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "Customer Success Manager - Large Accounts (H/F)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/wakeo/jobs/customer-success-manager-large-accounts_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "9c44ef53d5816ef9",
+   "title": "Customer Success Manager (Key Accounts) - CDI - Paris - H/F/X",
+   "company": "Partoo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-28",
+   "salary": null,
+   "description_snippet": "Customer Success Manager (Key Accounts) - CDI - Paris - H/F/X",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/partoo/jobs/customer-success-manager-key-accounts-cdi-paris-h-f-x_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "c63218ad361627f2",
+   "title": "CSM FR & Spain (Customer Success Manager)",
+   "company": "Loyoly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-25",
+   "salary": null,
+   "description_snippet": "CSM FR & Spain (Customer Success Manager) * Tu as un très bon niveau de français et d'espagnol à l’oral et à l’écrit * Tu as une première expérience en Customer Success/Sales * Tu as un esprit entrepreneurial et tu aimes les défis * Tu es autonome, fiable, et tu n’hésites pas à communiquer sur les difficultés rencontrées * Tu as une fibre commerciale : vous savez identifier les besoins et proposer",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/loyoly/jobs/csm-junior-fr-spain-customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "358c572385aa7891",
+   "title": "Customer Success Manager (CSM) - anglais bilingue F/H",
+   "company": "Skillup.co",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-10-12",
+   "salary": null,
+   "description_snippet": "Customer Success Manager (CSM) - anglais bilingue F/H Nous serions ravis de te rencontrer si : * Tu as un véritable **sens du service** et sais garder ton calme même sous pression * Tu es à l’écoute et tu as à cœur de trouver la meilleure solution à chaque situation * Tu sais créer du lien et instaurer une relation humaine authentique avec vos interlocuteurs * Tu es rigoureux(se), organisé(e) et r",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/skillup-co/jobs/csm_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "88f0d5d952d81c04",
+   "title": "Customer Success Manager",
+   "company": "SideCare",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-06",
+   "salary": null,
+   "description_snippet": "Customer Success Manager Diplômé(e) d'une formation Bac+5, tu es une personne : * Patient(e), empathique, avec une excellente maîtrise de l'orthographe ! * Organisé(e) et polyvalent(e), tu as déjà de l'expérience en support client ; * Maîtrise parfaite du français exigée ; * Curieux, tu aimes apporter des solutions et prendre le temps de comprendre les enjeux clients ✨",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hoggo/jobs/customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "8505fc5b2a179251",
+   "title": "Responsable CRM Salesforce et Interactions Omnicanales H/F/X",
+   "company": "GARANCE",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-05",
+   "salary": null,
+   "description_snippet": "Responsable CRM Salesforce et Interactions Omnicanales H/F/X <p><strong>Avons-nous des attentes particulières ?</strong></p><p>De formation supérieure en informatique, systèmes d’information ou équivalent, vous justifiez d’une expérience significative dans le pilotage de solutions CRM, idéalement Salesforce.</p><p>Vous&nbsp;Maîtrisez Salesforce Lightning et son modèle de données</p><p>Vous avez un",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/garance-mutuelle/jobs/responsable-crm-salesforce-et-interactions-omnicanales-h-f-x_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "bc72df474c60df1b",
+   "title": "Customer Success Manager (France) M/F/Mx",
+   "company": "Trustpair",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Customer Success Manager (France) M/F/Mx",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/trustpair/jobs/customer-success-manager-france-m-f-mx_paris_TRUST_Gw7gKGA"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "bc8a8f8c32b3122d",
+   "title": "Consultant Customer Success - Grands Comptes",
+   "company": "Lucca",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-25",
+   "salary": null,
+   "description_snippet": "Consultant Customer Success - Grands Comptes <p><b><strong>Avez-vous vu cette personne ?</strong></b><br><br><span>✔ Vous êtes diplômé(e) d’une grande école d’ingénieurs ou de commerce.</span><br><span>✔ Vous avez au moins une première expérience en gestion de projet (dans l’audit, la finance, le marketing, le conseil - management, IT, RH - ou autres domaines).</span><br><span>✔ Vous savez gérer p",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lucca/jobs/consultant-customer-success-grands-comptes_paris_LUCCA_5yj92QO"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "c46290b7719a99c2",
+   "title": "Customer Success Manager",
+   "company": "Wiztrust",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-09-17",
+   "salary": null,
+   "description_snippet": "Customer Success Manager * Bac+4/5 en Communication, Marketing digital, Business ou équivalent. * Tu as **2 à 5 ans d'expérience en Customer Success,** Account Management, Conseil ou dans un rôle similaire, idéalement en SaaS B2B. * Tu es à l'aise et **surperforme dans la gestion de plusieurs clients** et interlocuteurs en parallèle. * Tu sais comprendre les enjeux d'un client et **transformer les",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/wiztopic/jobs/customer-success-manager_paris_WIZTR_M2z5Vde"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "11bf4456e0c24922",
+   "title": "Analyste OSINT Asie-Pacifique - H/F",
+   "company": "VIGINUM",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "taiwan_apac"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-09-11",
+   "salary": null,
+   "description_snippet": "Analyste OSINT Asie-Pacifique - H/F Titulaire d’un diplôme d’ingénieur ou d’une formation universitaire (Bac+5) avec spécialisation en sciences politiques, en géopolitique, relations internationales, ou sciences de l’information et de la communication, l’analyste OSINT– Asie-Pacifique devra justifier d’au moins 1 an d’expérience sur un poste similaire. Les compétences suivantes sont requises pour ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/viginum/jobs/analyste-osint-asie-pacifique-h-f_paris"
     }
    ],
    "first_seen": "2026-11-01"
@@ -39838,6 +40847,62 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "c2e3e860a6b27c44",
+   "title": "Senior Regional Sales Representative - China",
+   "company": "Hubcycle",
+   "location": "Avignon",
+   "city": "Avignon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "taiwan_apac"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international",
+    "english_jd"
+   ],
+   "score": 2,
+   "date_posted": "2026-10-17",
+   "salary": null,
+   "description_snippet": "Senior Regional Sales Representative - China <p><strong>Who You Are</strong></p><ul><li>You are hungry — not comfortable. You thrive when there's ground to be won.</li><li>Flexible and agile, you know what it takes to operate in a fast-moving environment across multiple markets.</li><li>Autonomous and accountable — no BS, just solutions.</li><li>Team player AND lone wolf: you own your territory bu",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hubcycle/jobs/senior-regional-sales-representative-china_avignon"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "1f4b39871e2ebda7",
+   "title": "Chef de projet senior - Nouveaux Parcours et Experience Client H/F",
+   "company": "Groupement Mousquetaires",
+   "location": "Vert-Le-Grand",
+   "city": "Vert-Le-Grand",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Chef de projet senior - Nouveaux Parcours et Experience Client H/F <p><strong>Et si vos compétences venaient nourrir notre mission&#xa0;?</strong></p><p>De formation BAC + 5 en école de commerce ou d’ingénieur avec une spécialisation marketing digital, vous justifiez d’une expérience réussie de 5 ans minimum en tant que responsable des parcours clients.</p><p>Votre capacité à fédérer les équipes a",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/groupement-les-mousquetaires/jobs/responsable-nouveaux-parcours-et-experience-client-h-f_vert-le-grand"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
    "id": "861fdd89d3d68e89",
    "title": "Assistant Chef de Produits H/F",
    "company": "Hellowork",
@@ -42379,6 +43444,87 @@
    "first_seen": "2026-10-02"
   },
   {
+   "id": "6ae1fc0fdcef3f05",
+   "title": "Head of Customer Success / Account management",
+   "company": "JOBGLOBER",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn",
+    "retention"
+   ],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-10-30",
+   "salary": null,
+   "description_snippet": "Head of Customer Success / Account management Le profil recherché dispose d'une expérience confirmée en **Customer Success, Account Management ou dans un environnement SaaS B2B** et souhaite prendre davantage de responsabilités managériales et stratégiques. * 4 ans d'expérience minimum dans un environnement Customer Success, Account Management ou SaaS. * Une bonne maîtrise des enjeux de rétention,",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/jobglober/jobs/head-of-customer-success_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "591ef171265339e6",
+   "title": "Customer success - rénovation énergétique (H/F)",
+   "company": "Hello Watt",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Customer success - rénovation énergétique (H/F) * Formation : Bac + 4 à Bac + 5, école de management, formation relation client... * Tu es empathique, pédagogue et à l’écoute : tu aimes rendre service et vulgariser des informations pour rassurer les clients. * Tu fais preuve de rigueur et d'une grande organisation pour gérer le suivi de plusieurs chantiers en parallèle. * Capable d’apprendre vite,",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hello-watt/jobs/charge-e-de-relation-client-renovation-energetique_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "53211f944c6ce993",
+   "title": "Customer Success Application (H/F)",
+   "company": "Hello Watt",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-10-26",
+   "salary": null,
+   "description_snippet": "Customer Success Application (H/F) * Étudiant·e en BTS, licence, master en école de commerce, d’ingénieur ou université, avec une appétence pour le produit et la relation utilisateur. * Excellente communication écrite et orale, capacité à synthétiser clairement des problèmes complexes. * Rigueur, autonomie, sens du détail. * Un plus : une première expérience en startup, relation client, produit ou",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hello-watt/jobs/customer-success-h-f-stage_paris_HW_m8DMb1e"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
    "id": "c33a635b0d8f2666",
    "title": "Assistant développement et financements export structurés pour l'Europe et l'Asie",
    "company": "Société Générale",
@@ -43884,6 +45030,151 @@
    "first_seen": "2026-11-01"
   },
   {
+   "id": "5b71203af1bc86c3",
+   "title": "Customer Success Manager Senior (H/F)",
+   "company": "Diduenjoy",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-10-19",
+   "salary": null,
+   "description_snippet": "Customer Success Manager Senior (H/F) * 4 à 6 ans d’expérience dans un rôle mêlant **Account Management, CSM ou Chef de projet** * Appétence business, aisance dans l’identification d’opportunités d’upsell, sens de la négo * Rigueur dans le suivi des comptes, capacité à animer des projets complexes * Maîtrise de l’univers SaaS B2B (idéalement expérience avec des comptes retail ou luxe) * Anglais co",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/diduenjoy/jobs/customer-success-manager-senior-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "515fb2e0edfc2657",
+   "title": "Customer Success Manager Senior - Expert DSI (F/H)",
+   "company": "Abraxio",
+   "location": "Lyon",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-10-12",
+   "salary": null,
+   "description_snippet": "Customer Success Manager Senior - Expert DSI (F/H) **Formation & expérience** * Idéalement Bac+5 avec minimum 10 ans d’expérience dans /ou au service d’une DSI: PMO, RSI, Chef de projet ou consultant IT / IS en ESN. * Bonne maîtrise des enjeux DSI : structuration budgétaire, portefeuille projets, ressources, contrats, reporting… **Compétences & savoir-être** * Très bonne maitrise d'Excel (pour l'i",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/abraxio/jobs/customer-success-manager-senior-expert-dsi-f-h_lyon"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "ab0413d2e0aa1ede",
+   "title": "First Customer Success manager / Futur(e) Head of CS",
+   "company": "SweepBright",
+   "location": "Lyon",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "First Customer Success manager / Futur(e) Head of CS * **Expérience :** Minimum 5 ans d'expérience en Customer Success ou Account Management, avec une excellente connaissance de l'univers SaaS B2B et de ses enjeux spécifiques. Ainsi qu’une première expérience de management réussie. * **Outils :** Vous maîtrisez les outils de support client (comme Intercom), de monitoring utilisateurs, de plateform",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/sweep-bright/jobs/csm-head-of-cs_lyon"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "9b81d7358ffd547b",
+   "title": "Senior Customer Success Manager",
+   "company": "Dawex",
+   "location": "Lyon",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-09-28",
+   "salary": null,
+   "description_snippet": "Senior Customer Success Manager * Vous avez plus de 5 ans d’expérience en tant que Customer Success Manager chez un éditeur Enterprise software BtoB * Vous avez une appétence technique qui vous permet d’évoquer le produit et son environnement avec les clients et l’équipe Dawex * Vous savez conduire des analyses sous un angle business et présenter des recommandations convaincantes et claires, à la ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/dawex/jobs/senior-customer-success-manager_DAWEX_bgK6z8q"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "8f8e35794bbab50c",
+   "title": "Senior Customer Success Manager",
+   "company": "Elevo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": -2,
+   "date_posted": "2026-09-15",
+   "salary": null,
+   "description_snippet": "Senior Customer Success Manager **Who are we looking for?** We are looking for someone with a strong background in Customer Success, Customer Experience or another commercially oriented B2B SaaS environment. You do not need previous experience within HR or Talent Management. More important is your ability to understand a complex product, connect it to customer needs and build long-term commercial ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/elevo/jobs/senior-customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
    "id": "acdc784fd0a5d5ab",
    "title": "Senior Inside Sales Representative",
    "company": "Wolters Kluwer",
@@ -45143,6 +46434,172 @@
     }
    ],
    "first_seen": "2026-10-03"
+  },
+  {
+   "id": "e0b9ded6f350923c",
+   "title": "Senior Customer Success Manager - Mid Market",
+   "company": "Modjo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-10-31",
+   "salary": null,
+   "description_snippet": "Senior Customer Success Manager - Mid Market",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/senior-customer-success-manager-mid-market_paris_MODJO_N2JkWw7"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "5e2d16ccc7d1d76f",
+   "title": "Senior Strategic Customer Success Manager F/H/X",
+   "company": "Whoz",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -4,
+   "date_posted": "2026-10-23",
+   "salary": null,
+   "description_snippet": "Senior Strategic Customer Success Manager F/H/X **Profil** **Expérience :** Vous disposez d’au moins 5 ans d’expérience en Customer Success, Account Management dans un environnement SaaS B2B, avec une expérience confirmée sur des comptes complexes ou stratégiques. **Culture de la Data** : Vous êtes à l’aise avec l’analyse de données et savez transformer des KPIs d’usage en recommandations orientée",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/whoz/jobs/customer-succes-manager-w-m-x_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "73b1c71a3e9adcc5",
+   "title": "Head of Marketing",
+   "company": "Swan",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit",
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": -4,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "Head of Marketing **✨ You’re a great match if:** * You have 8+ years of experience in a marketing function including 2 years in payments * Already led a team (managed 4+ people), and are comfortable with people from different cultures and locations * Broad marketing experience including growth marketing, brand, content, events, product marketing * You are structured and execution-oriented, turning",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/head-of-marketing_paris_SWAN_J19gPJg"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "dfc5a8249eac2db8",
+   "title": "Consultant(e) Senior - Stratégie Marketing & Expérience Client (H/F)",
+   "company": "Thinkmarket",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -4,
+   "date_posted": "2026-10-16",
+   "salary": null,
+   "description_snippet": "Consultant(e) Senior - Stratégie Marketing & Expérience Client (H/F) Pour réussir dans ce poste : * Vous êtes diplômé(e) d’un Bac+5, idéalement en école de commerce ou d’ingénieur * Vous avez minimum 5 ans d’expérience post diplôme en cabinet de conseil ou au sein d’un grand compte * Vous avez une forte appétence pour les problématiques de **CX, Data, fidélisation, omnicanalité et performance busi",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/thinkmarket/jobs/consultant-senior-strategie-marketing-experience-client-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "86a03afaa80eabee",
+   "title": "Senior Customer Success Manager",
+   "company": "Mercateam",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": -4,
+   "date_posted": "2026-10-08",
+   "salary": null,
+   "description_snippet": "Senior Customer Success Manager * 4+ years in B2B SaaS or consulting: you've configured, integrated and taken projects live yourself. You’re not afraid of complexity and can get your hands dirty if needed. It means understanding what deployment team does, what integrations and API are for example. * Experience in a plant (operations, CI, quality, HR/training, Supply). You understand manufacturing ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/mercateam/jobs/senior-customer-success-manager_paris_MERCA_k7Ap8w"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "1d58b55ed82af6e2",
+   "title": "Head of CRM & customer engagement  H/F/NB",
+   "company": "lesfurets",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-09-09",
+   "salary": null,
+   "description_snippet": "Head of CRM & customer engagement H/F/NB **Formation :** Bac +5 en marketing, digital, data, commerce ou équivalent. **Expérience** : expérience confirmée en CRM, lifecycle marketing, fidélisation ou customer growth, avec management d’équipe et pilotage de projets transverses complexes. Une expérience concrète des outils d’orchestration client est attendue, ainsi qu’une bonne maîtrise des principe",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lesfurets-com/jobs/head-of-crm-customer-engagement-h-f-nb_paris"
+    }
+   ],
+   "first_seen": "2026-11-01"
   },
   {
    "id": "046057d77666936d",
