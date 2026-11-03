@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-02T20:44:25Z",
+ "generated_at": "2026-11-03T00:20:41Z",
  "source_stats": {
-  "Indeed": 1154,
-  "Welcome to the Jungle": 5186,
-  "France Travail": 141,
+  "Indeed": 1182,
+  "Welcome to the Jungle": 5190,
+  "France Travail": 80,
   "APEC": 0,
   "HelloWork": 0,
   "Isarta": 129
@@ -12,8 +12,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 38 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1680,
- "new_today": 76,
+ "count": 1686,
+ "new_today": 18,
  "jobs": [
   {
    "id": "914626767bb0b43e",
@@ -274,7 +274,7 @@
   },
   {
    "id": "b3887f93a922d363",
-   "title": "RESPONSABLE MARKETING",
+   "title": "RESPONSABLE MARKETING (H/F)",
    "company": "Quarksup",
    "location": "Paris 1er, A8, France",
    "city": "Paris",
@@ -308,11 +308,11 @@
    "score": 24,
    "date_posted": "2026-10-31",
    "salary": null,
-   "description_snippet": "A propos **\\*\\* Rejoignez quarksUp et participez à la transformation de la HR Tech !\\*\\*** --------------------------------------------------------------------------------- **quarksUp** est un éditeur français de solutions SaaS de gestion des ressources humaines (SIRH), qui accompagne les entreprises dans la digitalisation, l’automatisation et l’optimisation de leurs processus RH. Filiale du group",
+   "description_snippet": "\\*\\* Rejoignez quarksUp et participez à la transformation de la HR Tech !\\*\\* - \\*\\*quarksUp\\*\\* est un éditeur français de solutions SaaS de gestion des ressources humaines (SIRH), qui accompagne les entreprises dans la digitalisation, l’automatisation et l’optimisation de leurs processus RH. Filiale du groupe international \\*\\*Visma\\*\\*, acteur majeur européen des logiciels de gestion, quarksUp ",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=4891c0adf3de646f"
+     "url": "https://fr.indeed.com/viewjob?jk=bf7548c30ed0c320"
     }
    ],
    "first_seen": "2026-10-31"
@@ -2925,6 +2925,41 @@
     }
    ],
    "first_seen": "2026-10-06"
+  },
+  {
+   "id": "5dc67ed7f8e116ca",
+   "title": "Chef de projet Growth Marketing Acquisition & Data",
+   "company": "Nexity",
+   "location": "Nice",
+   "city": "Nice",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-10-03",
+   "salary": null,
+   "description_snippet": "Chef de projet Growth Marketing Acquisition & Data <p><strong>Formation &amp; expérience</strong></p><ul><li>Bac+5 en marketing, digital, data ou école de commerce.</li><li>Expérience de 5 ans minimum en Growth Marketing, CRM/Data ou marketing automation.</li><li>Parcours idéalement acquis en startup, scale-up, fintech, proptech, assurtech ou PME en croissance.</li><li>Expérience en environnement ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/nexity/jobs/chef-de-projet-growth-marketing-acquisition-data_nice"
+    },
+    {
+     "name": "Isarta",
+     "url": "https://isarta.fr/?job=76598"
+    }
+   ],
+   "first_seen": "2026-11-03"
   },
   {
    "id": "0608ff024da07878",
@@ -5823,6 +5858,32 @@
     }
    ],
    "first_seen": "2026-10-05"
+  },
+  {
+   "id": "48ac4e6dbc9c17d6",
+   "title": "Product Marketing Manager (PMM) H/F",
+   "company": "RCA",
+   "location": "Nantes",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-09-02",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager (PMM) H/F <p><strong>Ton profil</strong></p><ul><li>Entre 2 à 4 ans d’expérience dans une fonction similaire</li><li>1ere expérience chez un éditeur de logiciel, idéalement en SaaS ou dans une entreprise technologique.</li></ul> <h2>Informations supplémentaires</h2> <p>Poste en&#xa0;<strong>CDI</strong>, à pourvoir sur<strong> Saint-Herblain.</strong> Rémunération proposé",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/rca/jobs/product-marketing-manager-pmm-h-f_nantes"
+    }
+   ],
+   "first_seen": "2026-11-03"
   },
   {
    "id": "678832513bc9bd8e",
@@ -8784,44 +8845,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=ee9f5960951296be"
-    }
-   ],
-   "first_seen": "2026-10-30"
-  },
-  {
-   "id": "3e951dbdf8b415d2",
-   "title": "Account Manager - Mass Market",
-   "company": "PayPlug",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "crm",
-    "cross-sell",
-    "hubspot",
-    "salesforce",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 12,
-   "date_posted": "2026-10-30",
-   "salary": null,
-   "description_snippet": "**Description** --------------- Payplug est la **solution de paiement française** pensée pour les commerçants, e-commerçants de toutes tailles et fintechs. Avec notre plateforme technologique de pointe, nos outils dédiés à la conversion et notre maîtrise unique de la chaîne de paiement, nous vous invitons à viser le meilleur, et plus encore. Payplug, c’est une équipe de 300 passionnés dédiés à la ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=03616c79c249981f"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/payplug/jobs/account-manager-mass-market_paris"
     }
    ],
    "first_seen": "2026-10-30"
@@ -12599,66 +12622,32 @@
    "first_seen": "2026-10-05"
   },
   {
-   "id": "aff7d9dd7bf5b864",
-   "title": "Responsable CRM & Fidélisation (H/F)",
-   "company": "Ceebly",
-   "location": "13 - Aubagne",
-   "city": "13 - Aubagne",
+   "id": "9db02fc52e833ef9",
+   "title": "New Account Manager Marketplace H/F",
+   "company": "Leroy Merlin",
+   "location": "Lezennes, HDF, France",
+   "city": "Lezennes",
    "region": "other",
-   "work_mode": "onsite",
+   "work_mode": "remote",
    "contract": "CDI",
    "categories": [
-    "crm"
+    "account_management"
    ],
-   "skills": [
-    "fidelisation",
-    "marketing automation",
-    "segmentation"
-   ],
+   "skills": [],
    "bonus_tags": [
     "international"
    ],
-   "score": 12,
-   "date_posted": "2026-10-03",
+   "score": 10,
+   "date_posted": "2026-11-02",
    "salary": null,
-   "description_snippet": "Notre client est une entreprise française à taille humaine, en forte croissance, évoluant dans un univers premium et disposant d'une activité e-commerce à dimension internationale. La société connaît actuellement une phase importante de développement et de structuration de ses activités digitales. Elle souhaite notamment renforcer l'exploitation de sa donnée clients afin de mieux comprendre les co",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7624998"
-    }
-   ],
-   "first_seen": "2026-10-03"
-  },
-  {
-   "id": "a9ac5527bec756b6",
-   "title": "Chef de produits junior H/F",
-   "company": "MSD",
-   "location": "Paris, A8, FR",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 12,
-   "date_posted": "2026-10-02",
-   "salary": null,
-   "description_snippet": "Job Description **Description générale – Fonctions et responsabilités :** Dans une organisation centrée sur le Client, sous la supervision de son responsable et pour la gamme de produits sur laquelle il/elle intervient, les missions du Chef de Produit Junior s’articulent autour des activités principales suivantes : * Compréhension du marché intégrant la veille concurrentielle – 15% * Connaissance ",
+   "description_snippet": "**New Account Manager Marketplace H/F :** un poste pour celles et ceux qui veulent contribuer au développement stratégique de notre marketplace et à la croissance de nos partenaires marchands **Le contexte et votre futur rôle** Dans un environnement retail en pleine transformation digitale, Leroy Merlin poursuit son ambition de devenir une plateforme omnicanale de référence. Déjà leader sur ses po",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=1cc6d6644f5de240"
+     "url": "https://fr.indeed.com/viewjob?jk=ccfe1e6df5737b59"
     }
    ],
-   "first_seen": "2026-10-03"
+   "first_seen": "2026-11-03"
   },
   {
    "id": "1b606e1aa491d5ce",
@@ -13159,6 +13148,38 @@
     }
    ],
    "first_seen": "2026-10-31"
+  },
+  {
+   "id": "3e951dbdf8b415d2",
+   "title": "Account Manager - Mass Market",
+   "company": "PAYPLUG",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "hubspot",
+    "salesforce"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-30",
+   "salary": null,
+   "description_snippet": "Account Manager - Mass Market * **Tu as une formation Bac +5** assortie d'une première expérience concluante en vente ou account management, idéalement dans l'univers SaaS, fintech ou paiement. * **Tu as la fibre commerciale et le sens du résultat**, avec une réelle aisance pour négocier, convaincre au téléphone et atteindre tes objectifs. * **Tu fais preuve de rigueur et d'autonomie** pour pilote",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/payplug/jobs/account-manager-mass-market_paris"
+    }
+   ],
+   "first_seen": "2026-10-30"
   },
   {
    "id": "537b6d0ba5be1d60",
@@ -17716,36 +17737,68 @@
    "first_seen": "2026-10-05"
   },
   {
-   "id": "8f4e70f6866204c2",
-   "title": "Assistant(e) Achats & Approvisionnement – CDI",
-   "company": "Le Produit En Ligne",
-   "location": "Saint-Laurent-de-Mure, ARA, FR",
-   "city": "Saint-Laurent-De-Mure",
-   "region": "other",
-   "work_mode": "remote",
+   "id": "12763ff0c62dc981",
+   "title": "Ingénieur commercial / Ingénieure commerciale (H/F)",
+   "company": "UPTOO",
+   "location": "75 - Paris 1er Arrondissement",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
    "contract": "CDI",
-   "categories": [],
-   "skills": [],
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "roadmap"
+   ],
    "bonus_tags": [
-    "chinese",
     "international"
    ],
-   "score": 10,
-   "date_posted": "2026-10-03",
-   "salary": "26,000–30,000 EUR/yearly",
-   "description_snippet": "CELIMS conçoit et fait fabriquer en Asie des valises et accessoires de voyage, importés par bateau et vendus sur Amazon dans six pays européens, sur Cdiscount et sur notre site celims.com. Nous recherchons un(e) Assistant(e) Achats & Approvisionnement pour travailler en binôme direct avec le fondateur. Aujourd'hui, il porte seul toute la chaîne : recherche produit, fournisseurs, échantillons, négo",
+   "score": 8,
+   "date_posted": "2026-11-03",
+   "salary": "Annuel de 60000.0 Euros à 75000.0 Euros",
+   "description_snippet": "LES MISSIONS : Vous aurez 3 casquettes : technique, marketing et commerciale. 1. Une casquette technique : faire évoluer les produits En collaboration avec le bureau d'études et la RetD, vous piloterez la roadmap produit sur cinq ans afin de maintenir un haut niveau d'innovation et de répondre aux exigences des clients. Vous assurerez également le suivi du cycle de vie des produits, de leur évolut",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://uptoo.fr/emploi/postuler/50700/start?utm_source=poleemploi&utm_medium=affiliate&utm_campaign=plan-media"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "5a707fddaf611b3f",
+   "title": "RESPONSABLE GRANDS COMPTES ASSURANCE COLLECTIVITES TERRITORIALES F/H",
+   "company": "Relyens",
+   "location": "Olivet, CVL, France",
+   "city": "Olivet",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "fidelisation"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-11-02",
+   "salary": null,
+   "description_snippet": "**DEVIENS DÉFENSEUR DE L’INTÉRÊT GÉNÉRAL !** Chez Relyens, nous sommes bien plus qu’assureur, nous sommes risk manager. Piloter, prévenir les risques et les assurer, c’est notre engagement pour protéger plus efficacement les acteurs du soin et des territoires (hôpitaux, EHPAD, professionnels de santé, régions, mairies, SDIS…)., en Europe. Fidèles à notre modèle mutualiste et à notre engagement d’e",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=4c11dd6eb9fe42a7"
+     "url": "https://fr.indeed.com/viewjob?jk=ccc42c82b11bca0a"
     }
    ],
-   "first_seen": "2026-10-03"
+   "first_seen": "2026-11-03"
   },
   {
-   "id": "a47dcd5bc876091f",
-   "title": "Consultant(e) PRM / CRM & Marketing Automation",
-   "company": "Belacom",
+   "id": "69d683b3ad970d31",
+   "title": "Responsable développement marketing Modèle Ouvert H/F",
+   "company": "CNP Assurances",
    "location": "Issy-Les-Moulineaux",
    "city": "Issy-Les-Moulineaux",
    "region": "other",
@@ -17755,21 +17808,48 @@
     "performance_marketing"
    ],
    "skills": [
-    "conversion",
     "roi"
    ],
    "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-02",
+   "score": 8,
+   "date_posted": "2026-10-02",
    "salary": null,
-   "description_snippet": "Consultant(e) PRM / CRM & Marketing Automation ### Ce qui fait la différence * Expertise confirmée en **PRM / CRM & marketing automation** * Forte capacité à **analyser des funnels et à piloter la performance** * Solide culture **analytics orientée business** * Approche CRO centrée sur **l’impact et la rentabilité** * Capacité à gérer une **relation client dans la durée**, avec responsabilité des ",
+   "description_snippet": "Responsable développement marketing Modèle Ouvert H/F <p><strong>Pourquoi nous rejoindre ?</strong></p><p>Vous contribuerez directement à l’un des axes stratégiques majeurs de développement de CNP Assurances : la diversification et l’accélération de nos partenariats de distribution. Vous occuperez une position unique à l’interface entre les partenaires, les équipes de développement et les centres ",
    "sources": [
     {
      "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/belacom-1/jobs/consultant-prm-crm-marketing-automation_issy-les-moulineaux"
+     "url": "https://www.welcometothejungle.com/fr/companies/cnp-assurances/jobs/responsable-developpement-marketing-modele-ouvert-h-f_issy-les-moulineaux"
     }
    ],
-   "first_seen": "2026-10-03"
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "3469360b790f1bd2",
+   "title": "Responsable Marketing — Segment IDEL (F/H)",
+   "company": "Cba Informatique",
+   "location": "Avignon",
+   "city": "Avignon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-09-16",
+   "salary": null,
+   "description_snippet": "Responsable Marketing — Segment IDEL (F/H) <p><p><strong>Formation</strong></p> <ul> <li>Bac+5 en Marketing, Commerce ou École de Commerce</li> </ul> <p><strong>Expérience</strong></p> <ul> <li>Minimum 10 ans d'expérience sur un poste de Chef de Marché, Responsable Marketing ou Product Marketing Manager</li> <li>Les candidatures avec une expérience dans l'univers du logiciel ou du SaaS en BtoC ser",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/lead-cba-informatique/jobs/chef-fe-de-marche-segment-idel-f-h_avignon"
+    }
+   ],
+   "first_seen": "2026-11-03"
   },
   {
    "id": "486b99c711ce03da",
@@ -22754,122 +22834,141 @@
    "first_seen": "2026-10-05"
   },
   {
-   "id": "bdc7eb8bb267e378",
-   "title": "Chef de produit Marketing (H/F)",
-   "company": "Mersen",
-   "location": "69 - Saint-Bonnet-de-Mure",
-   "city": "69 - Saint-Bonnet-De-Mure",
+   "id": "07d08e8290548d5b",
+   "title": "Traffic Manager / Social Ads Manager",
+   "company": "Episto",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-02",
+   "salary": null,
+   "description_snippet": "Traffic Manager / Social Ads Manager * Tu es motivé(e) pour nous rejoindre et contribuer à la forte croissance d’Episto * Tu es dynamique et tu as l’esprit d’initiative * Tu as un très bon esprit analytique / logique et tu es à l’aise avec les chiffres * Tu aimes avoir des responsabilités et obtenir des résultats * Tu parles et tu écris parfaitement le français * Tu aimes utiliser l'IA au quotidie",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/episto/jobs/traffic-manager-social-ads-manager_paris_EPIST_Q1e91xl"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "1f2f9ab235c8494c",
+   "title": "Key Account Manager F/H",
+   "company": "Thales",
+   "location": "Rungis",
+   "city": "Rungis",
    "region": "other",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-02",
+   "salary": null,
+   "description_snippet": "Key Account Manager F/H",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/thales/jobs/key-account-manager-f-h_rungis"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "7a9aab0ca728c14c",
+   "title": "Responsable Marketing produits à l'international H/F",
+   "company": "Hays France",
+   "location": "82 - Bressols",
+   "city": "82 - Bressols",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "Intérim",
+   "categories": [
     "marketing_produit"
    ],
-   "skills": [
-    "roadmap"
-   ],
+   "skills": [],
    "bonus_tags": [
     "international"
    ],
-   "score": 8,
-   "date_posted": "2026-10-05",
-   "salary": null,
-   "description_snippet": "Dans 33 pays, les 7 500 salariés de Mersen produisent des composants-clefs et des solutions pour les industries d'avenir : satellite, véhicule électrique, semi-conducteur, aéronautique, ferroviaire, transition énergétique, distribution électrique etc. Le site de Saint Bonnet de Mure (69) est spécialisé dans la fabrication de fusibles spéciaux et de protection de semi-conducteurs, de fusibles et ap",
+   "score": 6,
+   "date_posted": "2026-11-02",
+   "salary": "Mensuel de 3750.0 Euros à 4500.0 Euros",
+   "description_snippet": "Rattaché à la Directrice Marketing, vous intervenez sur un périmètre Europe du Sud couvrant la France, l'Espagne et le Portugal. Votre nouveau rôle * Manager une équipe de 6 collaborateurs composée de 3 Chefs de projet, 2 Designers et 1 Assistant marketing. * Piloter l'activité de l'équipe, répartir les ressources, suivre la charge de travail et accompagner les collaborateurs au quotidien. * Pilot",
    "sources": [
     {
      "name": "France Travail",
-     "url": "https://www.handicap-job.com/recherche/detail/oid/6689799/chef-de-produit-marketing-fh.html"
+     "url": "https://www.aplitrak.com/?adid=bWFpc3RyZXRqYy43Njg3NS42NzA2QGhheXNmcmFuY2UuYXBsaXRyYWsuY29t"
     }
    ],
-   "first_seen": "2026-10-03"
+   "first_seen": "2026-11-03"
   },
   {
-   "id": "2aa340740ee43aae",
-   "title": "Responsable CRM / Marketing automation H/F",
-   "company": "",
-   "location": "75 - Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "crm"
-   ],
-   "skills": [
-    "marketing automation",
-    "segmentation"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-10-03",
-   "salary": null,
-   "description_snippet": "Galileo Global Education est le leader mondial de l'enseignement supérieur privé avec un réseau de 108 campus répartis sur 18 pays. Notre vision est de faire bouger les lignes du monde de l'éducation par l'innovation. Nous formons étudiants et apprenants, notamment dans les domaines des arts appliqués, du numérique, du management et de la santé. Nous sommes heureux de contribuer à la réussite de n",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7625536"
-    }
-   ],
-   "first_seen": "2026-10-03"
-  },
-  {
-   "id": "a6f0494abb5ea6ac",
-   "title": "Responsable CRM / Marketing automation (H/F)",
-   "company": "Galileo Global Education",
-   "location": "75 - Paris 12e Arrondissement",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "crm"
-   ],
-   "skills": [
-    "marketing automation",
-    "segmentation"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-10-03",
-   "salary": "Annuel de 40000.0 Euros à 45000.0 Euros",
-   "description_snippet": "Rejoignez Galileo Global Education en tant que Responsable CRM / Marketing Automation et contribuez à des projets data innovants au cœur de la transformation de l'enseignement supérieur. Vos missions seront les suivantes : Piloter l'architecture Salesforce Marketing Cloud * Concevoir et faire évoluer les campagnes et parcours automatisés. * Administrer les Business Units, Data Extensions et modèle",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7601002"
-    }
-   ],
-   "first_seen": "2026-10-03"
-  },
-  {
-   "id": "732369d5bfbd019a",
-   "title": "Chef de produit marketing (H/F)",
-   "company": "",
-   "location": "59 - Lille",
-   "city": "59 - Lille",
+   "id": "456c82e44d391a67",
+   "title": "Responsable Marketing Client & développement du partenariat LBP H/F",
+   "company": "CNP Assurances",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
    "region": "other",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "marketing_produit"
+    "customer"
    ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 8,
-   "date_posted": "2026-10-03",
-   "salary": "Annuel de 30000.0 Euros à 35000.0 Euros - Tickets restaurant, Télétravail",
-   "description_snippet": "Description du poste : Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Notre client est la filiale française de l'un des plus grands fabricants et fournisseurs européens de produits d'entretien automobile. Son catalogue complet couvre une large gamme de solutions pour l'entretien et la maintena",
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-02",
+   "salary": null,
+   "description_snippet": "Responsable Marketing Client & développement du partenariat LBP H/F <p>Diplômé(e) d’une formation supérieure (école de commerce, université ou équivalent), vous disposez d’une expérience confirmée en marketing client, CRM, marketing relationnel ou développement commercial en <strong>environnement assurantiel</strong>. Vous avez également <strong>une première expérience réussie en management</stron",
    "sources": [
     {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7602165"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/cnp-assurances/jobs/responsable-marketing-client-developpement-du-partenariat-lbp-h-f_issy-les-moulineaux"
     }
    ],
-   "first_seen": "2026-10-03"
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "5b9f3c1a35df2414",
+   "title": "Responsable marketing & communication (F/H) | CDD",
+   "company": "Pôle Digital Publishing",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDD",
+   "categories": [
+    "marketing_produit",
+    "performance_marketing"
+   ],
+   "skills": [
+    "positionnement"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-02",
+   "salary": null,
+   "description_snippet": "Responsable marketing & communication (F/H) | CDD Vous êtes diplômé·e d’une formation de niveau Bac +4/5 et disposez d’au moins **5 années d’expérience en marketing et communication**, idéalement dans un environnement média, digital ou santé. Votre parcours vous a permis de développer une solide maîtrise du : * brand et product marketing ; * pilotage de campagnes et plans de communication 360° ; *",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/1healthmedia/jobs/responsable-marketing-communication-f-h-cdd_paris"
+    }
+   ],
+   "first_seen": "2026-11-03"
   },
   {
    "id": "226bf76042a5f726",
@@ -27616,6 +27715,32 @@
    "first_seen": "2026-10-23"
   },
   {
+   "id": "4f5976e67d957614",
+   "title": "Key Account Manager - Energy Management H/f/x",
+   "company": "Hager",
+   "location": "Saverne",
+   "city": "Saverne",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Key Account Manager - Energy Management H/f/x",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hager-group/jobs/key-account-manager-energy-management-h-f-x_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "5965c78a33585cb0",
    "title": "Account Manager - Mid Market",
    "company": "PAYPLUG",
@@ -27639,6 +27764,34 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/payplug/jobs/account-manager-mid-market_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "760cc9f809124ce6",
+   "title": "INTERNATIONAL BUSINESS DEVELOPER – FINANCEMENT DE L’INNOVATION (H/F)",
+   "company": "EPSA",
+   "location": "Issy-Les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "business_development"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-02",
+   "salary": null,
+   "description_snippet": "INTERNATIONAL BUSINESS DEVELOPER – FINANCEMENT DE L’INNOVATION (H/F) <p><strong>Expérience</strong></p><ul><li>2 à 6 ans d’expérience en :<ul><li>Business Development</li><li>Conseil (Big4 / stratégie / advisory)</li><li>Financement de l’innovation / fiscalité / conseil financier</li></ul></li></ul><p><strong>Compétences</strong></p><ul><li>Forte capacité de négociation et sens du deal</li><li>Apt",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/epsa-france/jobs/international-business-developer-financement-de-l-innovation-h-f_issy-les-moulineaux"
     }
    ],
    "first_seen": "2026-10-22"
@@ -29230,32 +29383,6 @@
    "first_seen": "2026-10-22"
   },
   {
-   "id": "4f5976e67d957614",
-   "title": "Key Account Manager - Energy Management H/f/x",
-   "company": "Hager",
-   "location": "Saverne",
-   "city": "Saverne",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-10-12",
-   "salary": null,
-   "description_snippet": "Key Account Manager - Energy Management H/f/x",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/hager-group/jobs/key-account-manager-energy-management-h-f-x_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
    "id": "b9994860de42cc6a",
    "title": "Account Manager Famille - CDI",
    "company": "Click&Care",
@@ -29492,34 +29619,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/pumpup/jobs/lead-media-account-manager-csm-h-f_roubaix"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "760cc9f809124ce6",
-   "title": "INTERNATIONAL BUSINESS DEVELOPER – FINANCEMENT DE L’INNOVATION (H/F)",
-   "company": "EPSA",
-   "location": "Issy-Les-Moulineaux",
-   "city": "Issy-Les-Moulineaux",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "business_development"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 6,
-   "date_posted": "2026-09-04",
-   "salary": null,
-   "description_snippet": "INTERNATIONAL BUSINESS DEVELOPER – FINANCEMENT DE L’INNOVATION (H/F) <p><strong>Expérience</strong></p><ul><li>2 à 6 ans d’expérience en :<ul><li>Business Development</li><li>Conseil (Big4 / stratégie / advisory)</li><li>Financement de l’innovation / fiscalité / conseil financier</li></ul></li></ul><p><strong>Compétences</strong></p><ul><li>Forte capacité de négociation et sens du deal</li><li>Apt",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/epsa-france/jobs/international-business-developer-financement-de-l-innovation-h-f_issy-les-moulineaux"
     }
    ],
    "first_seen": "2026-10-22"
@@ -33604,6 +33703,112 @@
     }
    ],
    "first_seen": "2026-10-04"
+  },
+  {
+   "id": "1b4788c5e089210d",
+   "title": "Chef de Produit - Développement Formel Dior Men (F/H/X)",
+   "company": "Christian Dior",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-02",
+   "salary": null,
+   "description_snippet": "### **Position** Au sein du service développement produit PAPH Christian Dior Couture, et rattaché au Chef de Groupe Développement formel ; vous contribuez au développement de la catégorie chemise et pantalons sportswear. ### **Job responsibilities** Vos missions seront : * Le suivi du développement de la collection dans le respect des délais, de la qualité des modèles et du budget. * Être l'inter",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4b66ef40291a9735"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "f2389326d2bad75b",
+   "title": "CRM Manager",
+   "company": "Ornikar",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-02",
+   "salary": null,
+   "description_snippet": "CRM Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/ornikar/jobs/crm-manager_paris_ORNIK_ddGjV8r"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "36f4e21884185fc9",
+   "title": "Product Marketing Manager",
+   "company": "Greenly",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-29",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/greenly/jobs/senior-product-marketing-manager_paris"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "f4281684d13aa1e5",
+   "title": "Customer Success Manager",
+   "company": "Payflows",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-09-24",
+   "salary": null,
+   "description_snippet": "Customer Success Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/payflows/jobs/customer-success-manager_paris_PAYFL_70jOZwd"
+    }
+   ],
+   "first_seen": "2026-11-03"
   },
   {
    "id": "9f7af5a5985909a1",
@@ -41023,6 +41228,32 @@
    "first_seen": "2026-10-07"
   },
   {
+   "id": "b6107a3dda1abf27",
+   "title": "Product Marketing Manager",
+   "company": "Ornikar",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-02",
+   "salary": null,
+   "description_snippet": "Product Marketing Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/ornikar/jobs/product-marketing-manager_paris_ORNIK_NApD3Y7"
+    }
+   ],
+   "first_seen": "2026-10-06"
+  },
+  {
    "id": "1aa926524f8131ba",
    "title": "Customer Success Manager - Marché France & UK (H/F)",
    "company": "Flynt",
@@ -41494,32 +41725,6 @@
    "first_seen": "2026-10-06"
   },
   {
-   "id": "b6107a3dda1abf27",
-   "title": "Product Marketing Manager",
-   "company": "Ornikar",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-05",
-   "salary": null,
-   "description_snippet": "Product Marketing Manager",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/ornikar/jobs/product-marketing-manager_paris_ORNIK_NApD3Y7"
-    }
-   ],
-   "first_seen": "2026-10-06"
-  },
-  {
    "id": "d009a62698495b3f",
    "title": "Customer Success Manager SMB - France",
    "company": "AB Tasty",
@@ -41649,34 +41854,6 @@
     }
    ],
    "first_seen": "2026-10-05"
-  },
-  {
-   "id": "43f87caab2f20c6d",
-   "title": "Category Manager Marketing Produit (H/F)",
-   "company": "",
-   "location": "75 - Paris 9e Arrondissement",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-03",
-   "salary": "Annuel de 55000.0 Euros à 60000.0 Euros",
-   "description_snippet": "Description du poste : Rattaché(e) au Responsable marketing vous serez responsable de Analyser le marché pour identifier les opportunités de croissance * Élaborer un business plan et définir un plan d'offre national, segmenté par marché * Garantir une expérience client optimale grâce à un plan de stockage adapté et une expérience digitale enrichie * Collaborer avec le trade marketing pour promouvo",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7602402"
-    }
-   ],
-   "first_seen": "2026-10-03"
   },
   {
    "id": "18986bd66d1ce9bb",
@@ -44255,32 +44432,60 @@
    "first_seen": "2026-10-04"
   },
   {
-   "id": "cc6bc625c243c84d",
-   "title": "Customer Engagement Manager Dermatology France Immunologie",
-   "company": "Sanofi",
-   "location": "Gentilly, A8, FR",
-   "city": "Gentilly",
+   "id": "580cebeacdf98da9",
+   "title": "Chef de projet CRM & Data (H/F)",
+   "company": "Comet Meetings",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-11-02",
+   "salary": null,
+   "description_snippet": "Chef de projet CRM & Data (H/F) Vous avez un envie d’acquérir un super bagage à la croisée des Revenue Ops et du Marketing Digital ? Ce stage est fait pour vous ! Vous êtes la personne qu’il nous faut si : 🎓 Vous êtes en dernière année d'école de commerce, d'ingénieur ou en formation universitaire équivalente, avec une spécialisation en marketing ou data. 🖥️ Vous avez une très bonne maîtrise d’Exc",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/comet-meetings/jobs/chef-de-projet-crm-data-en-stage_paris"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "654780c6c171dddd",
+   "title": "Customer Success manager Senior H/F",
+   "company": "Elis",
+   "location": "Puteaux",
+   "city": "Puteaux",
    "region": "other",
    "work_mode": "hybrid",
-   "contract": null,
+   "contract": "CDI",
    "categories": [
     "customer"
    ],
-   "skills": [],
+   "skills": [
+    "satisfaction client"
+   ],
    "bonus_tags": [
     "international"
    ],
-   "score": 2,
+   "score": 0,
    "date_posted": "2026-10-02",
-   "salary": "48,000–64,000 EUR/yearly",
-   "description_snippet": "**Cette offre d'emploi est ouverte à toutes et tous, quel que soit le genre auquel s'identifie le candidat ou la candidate.** **Intitulé du poste :** Customer Engagement Manager Dermatology France, Immunologie **Lieu :** FR / Gentilly / Campus Val de Bièvre **À propos du poste** --------------------- Nous sommes une entreprise biopharmaceutique axée sur la R&D et propulsée par l'IA, engagée à amél",
+   "salary": null,
+   "description_snippet": "Customer Success manager Senior H/F Profil recherché :<br />Au-delà de votre parcours, c'est votre capacité à influencer, convaincre et embarquer qui fera la différence.<br />Orienté(e) résultats et satisfaction client, vous aimez analyser les usages, piloter la performance par les données et transformer des besoins métiers en actions concrètes. Vous évoluez avec aisance dans des organisations mat",
    "sources": [
     {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=f247bf3134c08d15"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/elis-france/jobs/customer-success-manager-senior-h-f_puteaux"
     }
    ],
-   "first_seen": "2026-10-03"
+   "first_seen": "2026-11-03"
   },
   {
    "id": "fa6d6236ab52c33d",
@@ -47360,34 +47565,6 @@
    "first_seen": "2026-10-06"
   },
   {
-   "id": "ba87664a3e16409e",
-   "title": "Customer Success manager Senior H/F",
-   "company": "",
-   "location": "92 - Puteaux",
-   "city": "92 - Puteaux",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": -2,
-   "date_posted": "2026-10-03",
-   "salary": null,
-   "description_snippet": "Ne venez pas chez Elis si vous pensez que le succès d'une plateforme digitale s'arrête à son lancement.Chez Elis, nous sommes convaincus que la valeur d'un produit se mesure avant tout à son adoption, à son utilisation et à son impact concret pour les clients.Si vous aimez accompagner le changement, fédérer des acteurs internationaux et transformer les retours utilisateurs en leviers de performanc",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/7626208"
-    }
-   ],
-   "first_seen": "2026-10-03"
-  },
-  {
    "id": "002b5d49875245ca",
    "title": "DIRECTEUR COMMERCIAL GRANDS COMPTES H/F",
    "company": "BRUNET",
@@ -48583,34 +48760,6 @@
     }
    ],
    "first_seen": "2026-10-06"
-  },
-  {
-   "id": "3eec2ad98dfa5665",
-   "title": "Head of Strategic & Offer Marketing",
-   "company": "Evaneos",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": -4,
-   "date_posted": "2026-09-02",
-   "salary": null,
-   "description_snippet": "Head of Strategic & Offer Marketing ### **Ce qu’on recherche** ✨ **Vous pourriez être la personne idéale pour ce poste si :** * Vous avez **8 à 12 ans d'expérience** en marketing stratégique, marketing de l'offre, product marketing ou management de catégories/offres dans un **environnement B2C digital**. Une expérience dans le voyage, les marketplaces ou les plateformes consumer/tech est un vrai p",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/evaneos/jobs/head-of-strategic-offer-marketing_paris"
-    }
-   ],
-   "first_seen": "2026-10-03"
   },
   {
    "id": "4f5428e8d7bb3614",
