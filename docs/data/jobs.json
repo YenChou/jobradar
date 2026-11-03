@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-03T18:20:20Z",
+ "generated_at": "2026-11-03T22:50:28Z",
  "source_stats": {
-  "Indeed": 1462,
-  "Welcome to the Jungle": 5207,
-  "France Travail": 154,
+  "Indeed": 1575,
+  "Welcome to the Jungle": 5208,
+  "France Travail": 163,
   "APEC": 0,
   "HelloWork": 0,
   "Isarta": 127
@@ -12,8 +12,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 38 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 1749,
- "new_today": 81,
+ "count": 1764,
+ "new_today": 96,
  "jobs": [
   {
    "id": "914626767bb0b43e",
@@ -1275,6 +1275,38 @@
    "first_seen": "2026-11-03"
   },
   {
+   "id": "7d5c74d07716056e",
+   "title": "Product Marketing Manager (H/F)",
+   "company": "Jes",
+   "location": "Nantes, B5, France",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market",
+    "positionnement",
+    "roadmap"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 20,
+   "date_posted": "2026-11-03",
+   "salary": "48,000–65,000 EUR/yearly",
+   "description_snippet": "Éditeur et Intégrateur de solutions digitales à destination des marchés de la **restauration collective, des loisirs**, des **collectivités**, et du **retail**, nous sommes reconnus pour notre sens du service et de **l’innovation**. Les solutions logicielles que nous proposons sont **entièrement développées par nos équipes**, ce qui nous permet une grande souplesse dans l’adaptation et le paramétr",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e2c46831b65d7e44"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
    "id": "800c684a53d9a775",
    "title": "CRM Manager (H/F) CDD Remp. Congé Maternité",
    "company": "Fusalp",
@@ -2165,6 +2197,34 @@
     }
    ],
    "first_seen": "2026-10-05"
+  },
+  {
+   "id": "7912b857efa469ee",
+   "title": "Chargé(e) de Campagnes CRM H/F",
+   "company": "OPTIC 2000",
+   "location": "Clamart, A8, France",
+   "city": "Clamart",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "crm"
+   ],
+   "skills": [
+    "segmentation"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Devenez notre futur(e) Chargé(e) de Campagnes CRM H/F ! **Mission** ----------- **CDD DE 6 MOIS A POURVOIR DES QUE POSSIBLE** Dans un contexte de fort développement des campagnes marketing sur toutes les enseignes, le/la **Chargé(e) de Campagnes CRM** **évolue** au sein du pôle Marketing opérationnel et CRM. Il/elle intervient sur l'ensemble des campagnes marketing, de la mise en place à l’analyse",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=48ae69abd1ae953d"
+    }
+   ],
+   "first_seen": "2026-11-03"
   },
   {
    "id": "c3c7d91207f6a9a1",
@@ -6279,6 +6339,38 @@
    "first_seen": "2026-11-03"
   },
   {
+   "id": "4ad4abd61e44ddbc",
+   "title": "Solution Key Account CLUB Sud-Ouest",
+   "company": "Technogym",
+   "location": "Bordeaux, NA, France",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "salesforce"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Location: Bordeaux, 33, FR Function/Branch: Sales Type of contract: Sales Agent **Our Company** --------------- Technogym inspires **70 million daily users** to train using our **innovative & engaging solutions for fitness, sport and health**. By promoting the **Healthness lifestyle** of exercise, a balanced diet, and a positive mental approach, AI Tracking & Longevity, Technogym has rapidly grown",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=652786d15d061d53"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
    "id": "48ac4e6dbc9c17d6",
    "title": "Product Marketing Manager (PMM) H/F",
    "company": "RCA",
@@ -9111,8 +9203,8 @@
    "id": "2b77158a6fdaedd6",
    "title": "Chef de produit cloud - h/f",
    "company": "Hexanet",
-   "location": "Serris, A8, France",
-   "city": "Serris",
+   "location": "Reims, GE, France",
+   "city": "Reims",
    "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
@@ -9130,7 +9222,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=b075074dc064fdb1"
+     "url": "https://fr.indeed.com/viewjob?jk=fe7e5165913dd371"
     }
    ],
    "first_seen": "2026-11-03"
@@ -9256,6 +9348,40 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=f8f3f7c912fb4bc1"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "adc54b9e7ff9305f",
+   "title": "Market Research & Intelligence Manager H/F",
+   "company": "Hellowork",
+   "location": "Colomiers, O, France",
+   "city": "Colomiers",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "insights"
+   ],
+   "skills": [
+    "excel",
+    "power bi",
+    "qualitative",
+    "quantitative",
+    "segmentation"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Description Safran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur tous les continents, le Groupe em",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=656d47b6cce1121f"
     }
    ],
    "first_seen": "2026-11-03"
@@ -13520,6 +13646,90 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/215ZMWR"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "a5e23fddf97e00b5",
+   "title": "Sr Group Marketing Manager",
+   "company": "Intuitive (Intuitive Surgical)",
+   "location": "Bordeaux, NA, France",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "* Bordeaux, Nouvelle-Aquitaine, France * Remote Available * Marketing * REF25194D ### **Company Description** At Intuitive, we are united behind our mission: we believe that minimally invasive care is life-enhancing care. Through ingenuity and intelligent technology, we expand the potential of physicians to heal without constraints. As pioneer and leading company in the field of robotic-assisted s",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0ebbf75e4daca04e"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "555ff024be4a0b94",
+   "title": "CUSTOMER SUCCESS MANAGER H/F",
+   "company": "GROUPE JVS",
+   "location": "Reims, GE, France",
+   "city": "Reims",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-11-03",
+   "salary": "31,000–36,000 EUR/yearly",
+   "description_snippet": "**Mairistem**, filiale du Groupe JVS, éditeur de logiciels depuis plus de 40 ans pour les collectivités locales. Notre mission : simplifier le quotidien des communes, agents et élus grâce à des logiciels performants, un accompagnement humain de proximité et une forte culture de l'innovation. Notre engagement : Être à leurs côtés à chaque étape : conseil, formation, assistance… pour qu’elles gagnen",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=73e7687af37e6f16"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "515c583b9e871458",
+   "title": "Key account manager (F/H)",
+   "company": "Michael Page",
+   "location": "74 - Haute-Savoie",
+   "city": "74 - Haute-Savoie",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "portefeuille client",
+    "portefeuille clients"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-11-03",
+   "salary": "Annuel de 81000.0 Euros à 100000.0 Euros",
+   "description_snippet": "En qualité de Key account Manager, vos missions principales sont les suivantes : * Définir et déployer la stratégie commerciale en cohérence avec les objectifs de ventes ; * Identifier de nouvelles opportunités commerciales et développer le portefeuille de clients ; * Suivre les négociations commerciales, de la qualification du besoin jusqu'à la conclusion des accords ; * Construire et suivre les ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.aplitrak.com/?adid=TVAuMDY1MTcuMTMwODdAcGFnZWZyYXV0b3Bvc3QuYXBsaXRyYWsuY29t"
     }
    ],
    "first_seen": "2026-11-03"
@@ -24487,6 +24697,146 @@
    "date_assumed": true
   },
   {
+   "id": "2c53f00224e5142f",
+   "title": "Assistant Chef de Produit Marketing Ingrédients BtoB H/F",
+   "company": "AIT Ingrédients",
+   "location": "Ris-Orangis, A8, France",
+   "city": "Ris-Orangis",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Lallemand est un leader mondial dans le développement, la production et la mise en marché de levures, bactéries et ingrédients dérivés, utilisés dans les domaines de la boulangerie, de l’œnologie, de la nutrition humaine et animale, de la pharmacie, de la production fromagère, la brasserie et la santé des plantes. Ayant rejoint le groupe Lallemand en tant qu'expert de la formulation d'ingrédients ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=507af8bcb8cbd880"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "5df75918c6432ed1",
+   "title": "Account Manager Secteur Energie & Utilities",
+   "company": "ITS GROUP",
+   "location": "Boulogne-Billancourt, A8, France",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "fidelisation"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "#### **Vos missions** ITS Services recrute un(e) Account Manager Secteur Énergie & Utilitie**s** pour développer un portefeuille de clients stratégiques. Rattaché(e) au Directeur d’Agence, vous êtes le/la garant(e) de la satisfaction client, de la fidélisation et de la croissance de vos comptes. Partenaire business des DSI et Directions Métiers, vous proposez des solutions autour de nos expertises",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9d6bd0b011a51fb2"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "b6c1933ae4ebf406",
+   "title": "Account Manager IDF",
+   "company": "ITS GROUP",
+   "location": "Boulogne-Billancourt, A8, France",
+   "city": "Boulogne-Billancourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "fidelisation"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "#### **Vos missions** ITS Services recrute un(e) Account Manager afin d’accompagner la croissance et le développement d’un portefeuille de clients stratégiques. Rattaché(e) au Directeur d’Agence, vous êtes le/la garant(e) de la satisfaction client, de la fidélisation et du développement commercial de vos comptes. Véritable partenaire business auprès des DSI et Directions Métiers, vous avez pour mi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4da4017f310517fc"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "69995b1451892a52",
+   "title": "Business data owner (F/M) / Responsable des données métier (H/F)",
+   "company": "Automotive Cells Company - ACC",
+   "location": "Billy-Berclau, HDF, France",
+   "city": "Billy-Berclau",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Automotive Cells Company (ACC) est une co-entreprise créée à l'été 2020 et soutenue par les groupes **Stellantis**, **Mercedes-Benz** et **Saft** (filiale de TotalEnergies). Notre ambition est de produire des batteries électriques au meilleur niveau technologique tout en développant une mobilité plus propre, et accessible au plus grand nombre. Nous sommes fiers de fabriquer, dans notre Gigafactory",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c62ecb554b2a4e80"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "5644c7fc8b3b87db",
+   "title": "Assistant(e) RH et administratif(ve) - bilingue chinois (H/F)",
+   "company": "",
+   "location": "92 - Hauts-de-Seine",
+   "city": "92 - Hauts-De-Seine",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Situé près de Paris, le Laboratoire Calebasse est spécialisé dans la confection de compléments alimentaires issus de la pharmacopée chinoise. Établi depuis plus de vingt ans en pleine croissance, nous sommes fiers de notre équipe de 50 employés passionnés et dévoués. Notre culture d'entreprise repose sur l'innovation, la qualité et le respect des traditions chinoises, tout en aspirant à une croiss",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/assistante-rh-et-administratifve-bilingue-chinois-9deb2f1adbab37b8?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
    "id": "07d08e8290548d5b",
    "title": "Traffic Manager / Social Ads Manager",
    "company": "Episto",
@@ -24871,7 +25221,7 @@
    "score": 6,
    "date_posted": "2026-11-02",
    "salary": null,
-   "description_snippet": "Published 11.02.2026 Company : Safran Electronics & Defense Job field : Sales & Marketing Location : Malakoff , Ile de France , France Contract type : Permanent Contract duration : Full-time Required degree : Master Degree Required experience : More than 8 years Professional status : Professional, Engineer & Manager Spoken language(s) : English Fluent Published 11.02.2026 **Job Description** -----",
+   "description_snippet": "Published 11.03.2026 Company : Safran Electronics & Defense Job field : Sales & Marketing Location : Malakoff , Ile de France , France Contract type : Permanent Contract duration : Full-time Required degree : Master Degree Required experience : More than 8 years Professional status : Professional, Engineer & Manager Spoken language(s) : English Fluent Published 11.03.2026 **Job Description** -----",
    "sources": [
     {
      "name": "Indeed",
@@ -35474,6 +35824,35 @@
    "first_seen": "2026-11-03"
   },
   {
+   "id": "d95dbd4fb4d797b7",
+   "title": "Manager Solution Consulting",
+   "company": "Contentsquare",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Contentsquare is the all-in-one experience intelligence platform designed to be easily used by anyone who cares about digital journeys. With our flexible and scalable platform, organizations quickly get a deep understanding of their customers’ whole online journey. We are a global leader in the experience analytics space, with a growing presence across 15 offices worldwide. We’re here to stay—and ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fff9e787ed4c9d0c"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
    "id": "1b4788c5e089210d",
    "title": "Chef de Produit - Développement Formel Dior Men (F/H/X)",
    "company": "Christian Dior",
@@ -43606,6 +43985,35 @@
    "first_seen": "2026-11-03"
   },
   {
+   "id": "861d40aacea14f55",
+   "title": "Senior Customer Success Engineer (NGFW) – French Speaking",
+   "company": "kairos people transformation",
+   "location": "Télétravail, France",
+   "city": "Teletravail",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 2,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "**Senior Customer Success Engineer (NGFW) – French Speaking** **About the Position** We are seeking an experienced Senior Customer Success Engineer (NGFW) who is fluent in French and English to support customers with the deployment, configuration, and troubleshooting of next-generation firewall solutions. This is a remote opportunity open to qualified candidates internationally. Candidates must be",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=6cf2186ea8194d36"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
    "id": "18986bd66d1ce9bb",
    "title": "Southern Europe B2B Marketing Manager",
    "company": "OpenAI",
@@ -49425,6 +49833,37 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=1c0ba7d677ff17db"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "fb843195b3f89ef9",
+   "title": "Senior Strategic Marketing Manager H/F",
+   "company": "Hellowork",
+   "location": "Grenoble, ARA, France",
+   "city": "Grenoble",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "go-to-market"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": -4,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Description Charlotte Rannaud Recrutement est un cabinet généraliste basé en région Rhône-Alpes. Depuis 2016, nous accompagnons les entreprises dans leurs recrutements middle et top management, avec une approche directe, sur-mesure et engagée. Notre offre s'étend aussi aux bilans de compétences, au management de transition et à la formation RH, pensés pour répondre aux besoins concrets des TPE et ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7351624b3af5f504"
     }
    ],
    "first_seen": "2026-11-03"
