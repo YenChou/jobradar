@@ -142,11 +142,13 @@ def test_apec_other_errors_skip_one_term_only():
 
 def test_scrape_all_reports_blocked_sources():
     """main.scrape_all 每輪先清空登記，被擋的來源會出現在 net.BLOCKED（寫進 jobs.json）"""
-    from scraper.sources import france_travail, indeed_jobspy, isarta, wttj
+    from scraper.sources import career_pages, france_travail, hellowork, indeed_jobspy, isarta, wttj
     net.BLOCKED["舊的"] = "上一輪留下的"
     stub = lambda *a, **k: []
     with patched(indeed_jobspy, fetch=stub), patched(wttj, fetch=stub), \
             patched(france_travail, fetch=stub), patched(isarta, fetch=stub), \
+            patched(hellowork, fetch=stub), \
+            patched(career_pages, fetch_greenhouse=stub, fetch_lever=stub), \
             patched(apec, HTTP=FakeHTTP([Resp(403, text="x")]),
                     time=types.SimpleNamespace(sleep=lambda s: None)), \
             contextlib.redirect_stdout(None):

@@ -13,6 +13,19 @@ categories:
       - "coordinatrice marketing"
       - "marketing operations"
       - "marketing ops"
+    # 只看職稱、不拿來做描述補判：這些詞在一般行銷職缺的描述裡太常見
+    # （「en lien avec les campaign managers」），補判會把無關職缺都掛上這一類
+    title_only_keywords:
+      - "marketing automation"
+      - "campaign manager"
+      - "campaign specialist"
+      - "charge de campagnes"
+      - "chargee de campagnes"
+      - "chef de projet marketing"
+      - "cheffe de projet marketing"
+      - "digital project manager"
+      - "chef de projet digital"
+      - "cheffe de projet digital"
     # 描述命中 → 加分（每個 +2，上限 +10）
     skill_keywords:
       - "automation"
@@ -35,6 +48,17 @@ categories:
       - "specialiste sea"
       - "performance marketing"
       - "growth marketing"
+    title_only_keywords:
+      - "marketing digital"     # Chargé(e) de Marketing Digital
+      - "digital marketing"     # Digital Marketing Specialist
+      - "acquisition marketing"
+      - "marketing acquisition"
+      - "growth manager"
+      - "growth specialist"
+      - "cro specialist"
+      - "cro manager"
+      - "conversion rate"
+      - "optimisation de la conversion"
     skill_keywords:
       - "roi"
       - "roas"
@@ -60,6 +84,13 @@ categories:
       - "crm specialist"
       - "crm manager"
       - "responsable crm"
+    title_only_keywords:
+      - "crm campaign"          # CRM Campaign Manager
+      - "campagnes crm"
+      - "crm analyst"           # Marketing CRM Analyst
+      - "analyste crm"
+      - "crm executive"
+      - "crm coordinator"
     skill_keywords:
       - "fidelisation"
       - "emailing"
@@ -103,6 +134,13 @@ categories:
       - "engagement client"
       - "parcours client"
       - "connaissance client"
+      - "lifecycle marketing"
+      - "lifecycle manager"
+      - "lifecycle specialist"
+      - "customer onboarding"
+      - "client onboarding"
+      - "onboarding client"
+      - "customer operations"
     skill_keywords:
       - "nps"
       - "csat"
@@ -125,6 +163,11 @@ categories:
       - "analyste marketing"
       - "marketing analyst"
       - "marketing analytics"
+    title_only_keywords:
+      - "digital analyst"
+      - "analyste digital"
+      - "web analyste"
+      - "marketing performance"   # Marketing Performance Analyst
     skill_keywords:
       - "sql"
       - "tableau"
@@ -355,6 +398,11 @@ categories:
       - "revops"
       - "sales enablement"
       - "operations commerciales"   # Chargé(e) des opérations commerciales
+      - "business operations"       # Business Operations Specialist
+      - "bizops"
+      - "sales coordinator"         # International Sales Coordinator
+      - "coordinateur commercial"
+      - "coordinatrice commerciale"
     skill_keywords:
       - "pipeline"
       - "forecast"
@@ -799,6 +847,107 @@ west_cities:
   - "toulouse"
   - "limoges"
 
+# 巴黎近郊（Île-de-France）：算進「巴黎」地區，跟巴黎一起篩選。
+# 地點寫成郵遞區號（92100）、「(92)」或 France Travail 的「92 - …」也認得出來（75、77、78、91–95）。
+# 寫連字號或空白都可以（Boulogne-Billancourt／Boulogne Billancourt）。
+idf_cities:
+  # 求職策略的次要地點
+  - "boulogne-billancourt"
+  - "issy-les-moulineaux"
+  - "levallois-perret"
+  - "neuilly-sur-seine"
+  - "la defense"
+  - "puteaux"
+  - "courbevoie"
+  - "saint-denis"
+  - "clichy"
+  - "montrouge"
+  # 其他交通方便的 Île-de-France 城市
+  - "nanterre"
+  - "rueil-malmaison"
+  - "suresnes"
+  - "saint-cloud"
+  - "sevres"
+  - "meudon"
+  - "clamart"
+  - "chatillon"
+  - "malakoff"
+  - "vanves"
+  - "gentilly"
+  - "arcueil"
+  - "le kremlin-bicetre"
+  - "ivry-sur-seine"
+  - "vitry-sur-seine"
+  - "charenton-le-pont"
+  - "saint-mande"
+  - "vincennes"
+  - "montreuil"
+  - "fontenay-sous-bois"
+  - "nogent-sur-marne"
+  - "pantin"
+  - "aubervilliers"
+  - "saint-ouen"
+  - "gennevilliers"
+  - "asnieres-sur-seine"
+  - "colombes"
+  - "bois-colombes"
+  - "la garenne-colombes"
+  - "neuilly-sur-marne"
+  - "noisy-le-grand"
+  - "creteil"
+  - "rungis"
+  - "massy"
+  - "palaiseau"
+  - "saclay"
+  - "versailles"
+  - "velizy-villacoublay"
+  - "guyancourt"
+  - "saint-quentin-en-yvelines"
+  - "saint-germain-en-laye"
+  - "cergy"
+  - "roissy"
+  - "marne-la-vallee"
+  - "evry"
+
+# ── 公司官網職缺頁（Greenhouse、Lever 的公開 API）──────────────
+# 格式：網址最後那段: 公司名。boards.greenhouse.io/datadog → datadog、jobs.lever.co/qonto → qonto。
+# 只收地點在法國、72 小時內刊登的職缺，再照職類規則篩。
+# 名單是加的時候依印象挑的巴黎有辦公室的公司，沒能逐一確認網址——打錯或公司換了 ATS
+# 會在 Actions 頁面列成「找不到的公司」，刪掉或改正就好。想追蹤的公司直接加進來。
+career_pages:
+  greenhouse:
+    datadog: "Datadog"
+    stripe: "Stripe"
+    airbnb: "Airbnb"
+    mongodb: "MongoDB"
+    pinterest: "Pinterest"
+    dataiku: "Dataiku"
+    backmarket: "Back Market"
+    blablacar: "BlaBlaCar"
+    contentsquare: "Contentsquare"
+    doctolib: "Doctolib"
+    vestiairecollective: "Vestiaire Collective"
+    amplitude: "Amplitude"
+    elastic: "Elastic"
+    sumup: "SumUp"
+    reddit: "Reddit"
+  lever:
+    qonto: "Qonto"
+    aircall: "Aircall"
+    mistral: "Mistral AI"
+    spendesk: "Spendesk"
+    algolia: "Algolia"
+    pigment: "Pigment"
+    sorare: "Sorare"
+    voodoo: "Voodoo"
+    malt: "Malt"
+    payfit: "PayFit"
+    swile: "Swile"
+    ankorstore: "Ankorstore"
+    agicap: "Agicap"
+    ledger: "Ledger"
+    alan: "Alan"
+
 # Remote 加分（+6）；巴黎 +0；其他城市 +2
 remote_boost: 6
 west_boost: 10
@@ -817,6 +966,17 @@ search_terms:
   - "marketing produit"
   - "product marketing"
   - "marketing automation"
+  # 求職策略的目標職稱（Priority 1–3）
+  - "marketing digital"
+  - "digital marketing"
+  - "performance marketing"
+  - "growth marketing"
+  - "campaign manager"
+  - "digital project manager"
+  - "digital analyst"
+  - "CRO marketing"            # 單獨的 CRO 會搜到一堆臨床研究（Clinical Research Organization）
+  - "lifecycle marketing"
+  - "customer experience"
   # Études / Insights 與 Analytics：研究類搜回來的統計、醫療、工程缺由職類規則擋掉
   - "marketing analytics"
   - "customer insight"
@@ -840,6 +1000,14 @@ search_terms:
   - "partnership manager"
   - "international project"
   - "community manager multilingue"
+  # 求職策略的目標職稱（Priority 4–5）
+  - "key account manager"
+  - "business development APAC"
+  - "sales coordinator"
+  - "customer onboarding"
+  - "customer operations"
+  - "business operations"
+  - "client relationship manager"
   # 以下是較寬的詞，刻意放最後：各來源有時間預算，萬一不夠用，被跳過的會是這些，
   # 上面核心的行銷詞照常跑完。英法兩種講法都列（CRM、mandarin 兩語同字）。
   # 搜到的職缺照樣要過分類：只有明確要求中文的才能不屬於任何職類也收（見 bonus_tags.chinese）。

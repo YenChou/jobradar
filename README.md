@@ -27,6 +27,7 @@ GitHub Actions（每天巴黎 12:00 與 19:00 兩輪）
        ├─ sources/apec.py              APEC（站內搜尋 webservice）
        ├─ sources/isarta.py            Isarta（行銷／傳播職缺板列表頁）
        ├─ sources/hellowork.py         HelloWork（列表走 JobSpy，詳情頁自己抓、有名額上限）
+       ├─ sources/career_pages.py      公司官網職缺頁：Greenhouse、Lever 的公開 API（公司名單在 keywords.yml）
        ├─ enrich.py                    分類、過濾、加權、去重
        └─ docs/data/jobs.json          （30 天滾動資料）
 docs/index.html                        GitHub Pages 網站（職缺／封存兩個分頁）
@@ -120,7 +121,7 @@ uv pip install --python .venv/bin/python -r requirements.txt       # Windows：.
   訂閱「API Offres d'emploi v2」→ repo Settings → Secrets and variables → Actions
   設 `FT_CLIENT_ID`、`FT_CLIENT_SECRET`。沒設金鑰時這個來源自動跳過。
 - **排程延遲**：GitHub 的排程可能延遲 10–30 分鐘，屬正常現象。
-- **時間預算**：每個來源都有上限（合計最壞 65 分鐘），`timeout-minutes: 75`（加了 HelloWork 後餘裕變小，可調到 85）。
+- **時間預算**：每個來源都有上限（合計最壞約 69 分鐘），`timeout-minutes: 75`（加了 HelloWork、Greenhouse、Lever 後餘裕變小，建議調到 85）。
   正常約 10 分鐘；會用到預算代表某個站在異常拖慢。
 - **來源被擋**：403／405／429／503 或挑戰頁（Cloudflare、DataDome）算「被擋」，
   該來源整組收工（判斷在 `net.blocked_reason`）。網站統計列會把它標成黃色的「被擋」，
@@ -150,6 +151,10 @@ uv pip install --python .venv/bin/python -r requirements.txt       # Windows：.
   所以程式每輪先讀 `robots.txt`，搜尋頁或詳情頁被 Disallow 就整組跳過並在 Actions 頁面警告；
   讀不到也跳過。列表上沒有內文，所以另外抓詳情頁（每輪最多 100 則、每則間隔 1.5 秒，
   中文相關搜尋詞的結果優先），補過的下一輪不重抓。
+- **Greenhouse、Lever（2026-11 加入）**：走兩家公開的 Job Board／Postings API（不用登入、本來就給人串接），
+  不是爬網頁。要查哪些公司寫在 `keywords.yml` 的 `career_pages`；名單是依印象挑的，網址沒能逐一確認，
+  找不到的公司會在 Actions 頁面列出來。只收地點在法國、72 小時內刊登的職缺，公告日用「第一次刊登」
+  （Greenhouse 的 first_published、Lever 的 createdAt），不用「最後更新」。
 - 其餘五個來源的 `robots.txt` 都查過：Indeed、Welcome to the Jungle、APEC、
   Isarta 均允許我們使用的路徑。France Travail 的 API 主機雖有 `Disallow: /`，
   但那是擋爬蟲用的；我們走的是註冊過、帶 `client_id`／`client_secret` 的官方
