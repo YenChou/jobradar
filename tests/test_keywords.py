@@ -302,6 +302,33 @@ for title in ["Coordinateur de travaux", "Coordinateur logistique", "Coordinateu
     ok(c is None or "coordination" not in c, f"不收：{title} → {c}")
 ok(run("Marketing Coordinator")["score"] >= 6, "Coordinator 也算目標職級（加分）")
 
+# ── Assistant：入門助理職，但不收醫療、照護、門市、人資、財會等助理職 ──
+print()
+print("── Assistant ──")
+for t in ["assistant marketing", "marketing assistant", "assistant communication", "assistant chef de produit",
+          "assistant commercial export", "assistant événementiel"]:
+    ok(t in cfg["search_terms"], f"搜尋詞有 {t!r}")
+for title in ["Assistant marketing (H/F)", "Assistante marketing", "Assistant(e) Marketing Digital",
+              "Marketing Assistant", "Assistant·e communication", "Assistante communication et événementiel",
+              "Assistant chef de produit", "Assistant(e) commercial(e) export", "Assistant ADV export",
+              "Assistant Brand Manager", "Assistant Product Manager", "Assistant trade marketing",
+              "Assistant e-commerce", "Assistante relations presse", "Assistant média planning", "Assistant CRM"]:
+    c = cats(title)
+    ok(c is not None and "assistant" in c, f"{title} → {c}")
+for title in ["Assistant dentaire", "Assistante de vie", "Assistant manager", "Assistant Store Manager",
+              "Assistant chef de rayon", "Assistante maternelle", "Assistant RH", "Assistant comptable",
+              "Assistant juridique", "Assistant administratif", "Assistant de direction", "Assistant qualité",
+              "Assistant logistique", "Assistant achats", "Assistant service client", "Assistante médicale",
+              "Assistant commercial immobilier", "Assistant de production",
+              "Assistant Director, Recruitment and Business Development",
+              "Assistant Sales - Marketing Produits Structurés - Banque de financement",
+              "Assistant(e) Chef de Produits / Approvisionneur (H/F)"]:
+    c = cats(title)
+    ok(c is None or "assistant" not in c, f"不收：{title} → {c}")
+ok(run("Assistant marketing alternance") is None and run("Stage - Assistant marketing") is None
+   and run("Marketing Assistant - Work Study F/M") is None,
+   "助理職的實習／建教照樣排除")
+
 # ── 巴黎近郊算進「巴黎」地區 ──
 print()
 print("── 巴黎近郊（Île-de-France）──")

@@ -341,6 +341,7 @@ categories:
       - "comptabilite"
       - "sinistres"
       - "juridique"
+      - "recruitment"
     skill_keywords:
       - "coordination"
       - "gestion de projet"
@@ -355,6 +356,144 @@ categories:
       - "notion"
       - "hubspot"
       - "salesforce"
+
+  # Assistant：入門的助理職（Assistant(e) marketing／communication、Marketing Assistant、
+  # Assistant chef de produit、Assistant(e) commercial export⋯），也是第一份全職的常見入口。
+  # 「assistant」也涵蓋 assistante、assistant(e)、assistant·e。
+  # 助理職比協調職更雜（牙醫助理、居家照護、門市副店長），規則同 Coordinator：
+  # 職稱要帶 require_title 的領域詞，帶 exclude_title 的字眼一律不算。實習／建教照樣全域排除。
+  assistant:
+    label: "Assistant"
+    title_only: true
+    title_keywords:
+      - "assistant"
+    require_title:
+      - "marketing"
+      - "communication"
+      - "communications"
+      - "brand"
+      - "marque"
+      - "marques"
+      - "event"
+      - "events"
+      - "evenement"
+      - "evenements"
+      - "evenementiel"
+      - "evenementielle"
+      - "digital"
+      - "digitale"
+      - "numerique"
+      - "content"
+      - "contenu"
+      - "social media"
+      - "reseaux sociaux"
+      - "community"
+      - "influence"
+      - "media"
+      - "medias"
+      - "presse"              # Assistant(e) relations presse
+      - "relations publiques"
+      - "pr"
+      - "campaign"
+      - "campagnes"
+      - "crm"
+      - "customer"
+      - "commercial"
+      - "commerciale"
+      - "sales"
+      - "ventes"
+      - "adv"
+      - "export"
+      - "international"
+      - "internationale"
+      - "product"
+      - "produit"
+      - "produits"            # Assistant(e) chef de produit
+      - "trade"
+      - "e-commerce"
+      - "ecommerce"
+      - "partenariats"
+      - "business"
+      - "operations"
+    exclude_title:
+      # 醫療、照護、教育
+      - "dentaire"
+      - "veterinaire"
+      - "medical"
+      - "medicale"
+      - "sante"
+      - "soins"
+      - "pharmacie"
+      - "de vie"              # Assistant(e) de vie（居家照護）
+      - "maternelle"
+      - "educatif"
+      - "education"
+      - "social"
+      - "sociale"
+      # 門市、餐飲：「Assistant Store Manager」「Assistant chef de rayon」是門市的副店長。
+      # 不能單收 manager：Assistant Brand／Product Manager 是快消業的入門行銷職。
+      # 只寫「Assistant Manager」的沒有領域詞，本來就不會收
+      - "store"
+      - "rayon"
+      - "magasin"
+      - "boutique"
+      - "restaurant"
+      - "cuisine"
+      # 工地、技術、物流、採購
+      - "travaux"
+      - "chantier"
+      - "btp"
+      - "technique"
+      - "techniques"
+      - "maintenance"
+      - "production"
+      - "qualite"
+      - "qhse"
+      - "logistique"
+      - "logistiques"
+      - "transport"
+      - "supply"
+      - "approvisionnement"
+      - "achats"
+      - "achat"
+      - "import"
+      - "douane"
+      - "informatique"
+      - "it"
+      # 人資、財會、法務
+      - "rh"
+      - "ressources humaines"
+      - "recrutement"
+      - "paie"
+      - "comptable"
+      - "comptabilite"
+      - "juridique"
+      - "notarial"
+      - "immobilier"
+      - "recruitment"
+      - "patients"
+      - "approvisionneur"
+      # 金融：「Assistant Sales - Produits Structurés - Banque de financement」
+      - "banque"
+      - "financement"
+      - "financements"
+      # 客服中心
+      - "service client"
+      - "centre d'appels"
+      - "call center"
+      - "hotline"
+    skill_keywords:
+      - "reporting"
+      - "planning"
+      - "retroplanning"
+      - "suivi"
+      - "salons"
+      - "evenementiel"
+      - "reseaux sociaux"
+      - "canva"
+      - "hubspot"
+      - "salesforce"
+      - "excel"
 
   insights:
     label: "Études / Insights"
@@ -900,6 +1039,8 @@ exclude_title:
   - "apprenti"
   - "apprentissage"
   - "internship"
+  - "work study"      # 英文的建教合作（Marketing Assistant - Work Study）
+  - "work-study"
   # 採購職：法文職缺常寫成「Acheteur / Chef de Produit」，是採購不是行銷
   - "acheteur"
   - "acheteuse"
@@ -964,6 +1105,7 @@ seniority_boost_title:
   - "coordinateur"
   - "coordinatrice"
   - "coordinator"
+  - "assistant"   # 也涵蓋 assistante、assistant(e)
 
 # 資深降權（-8）：明顯不是目標職級
 seniority_penalty_title:
@@ -1129,6 +1271,16 @@ search_terms:
   - "operations coordinator"
   - "coordinateur commercial"
   - "coordinateur export"
+  # 助理職（Assistant 職類）：同樣是第一份全職的入口；搜回來的實習／建教會被排除
+  - "assistant marketing"
+  - "marketing assistant"
+  - "assistant communication"
+  - "assistant marketing digital"
+  - "assistant chef de produit"
+  - "assistant commercial export"
+  - "assistant événementiel"
+  - "assistant trade marketing"
+  - "assistant e-commerce"
   - "acquisition marketing"
   - "traffic manager"
   - "CRM marketing"
