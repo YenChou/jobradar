@@ -278,6 +278,30 @@ ok(c is None, f"新職稱只看職稱：描述提到 campaign managers、marketi
 ok(cats("Micro-crédit conseiller") is None and cats("Chargé de projet CRO clinique") is None,
    "CRO 只收 CRO Specialist／Manager：不會中 micro、臨床研究")
 
+# ── Coordinator：入門協調職，但不收工地、物流、醫療、社工、人資的協調職 ──
+print()
+print("── Coordinator ──")
+for t in ["marketing coordinator", "communication coordinator", "event coordinator", "coordinateur événementiel",
+          "social media coordinator", "operations coordinator", "coordinateur export"]:
+    ok(t in cfg["search_terms"], f"搜尋詞有 {t!r}")
+for title in ["Marketing Coordinator", "Coordinateur(trice) Marketing", "Coordinateur.rice communication",
+              "Coordinatrice événementiel (H/F)", "Event Coordinator", "Social Media Coordinator",
+              "Content Coordinator", "Digital Marketing Coordinator", "Operations Coordinator",
+              "Brand Coordinator", "Trade Marketing Coordinator", "Product Marketing Coordinator",
+              "CRM Coordinator", "Coordinateur commercial export", "Chargé(e) de coordination marketing",
+              "Customer Operations Coordinator", "Coordonnatrice marketing"]:
+    c = cats(title)
+    ok(c is not None and "coordination" in c, f"{title} → {c}")
+for title in ["Coordinateur de travaux", "Coordinateur logistique", "Coordinateur des opérations logistiques",
+              "Coordinateur transport", "Coordinateur social", "Coordinatrice sociale", "Coordinateur pédagogique",
+              "Coordinateur RH", "Coordinateur maintenance", "Coordinateur QHSE", "Coordinateur service client",
+              "Coordinateur médical", "Operations Coordinator - Warehouse", "Coordinateur achats",
+              "Coordinateur de projet", "Coordinateur IT", "Coordinateur périscolaire",
+              "Coordinateur des opérations-Station de livraison H/F"]:
+    c = cats(title)
+    ok(c is None or "coordination" not in c, f"不收：{title} → {c}")
+ok(run("Marketing Coordinator")["score"] >= 6, "Coordinator 也算目標職級（加分）")
+
 # ── 巴黎近郊算進「巴黎」地區 ──
 print()
 print("── 巴黎近郊（Île-de-France）──")
