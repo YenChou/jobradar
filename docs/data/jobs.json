@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-10T16:18:59Z",
+ "generated_at": "2026-11-10T18:40:41Z",
  "source_stats": {
-  "Indeed": 2691,
-  "Welcome to the Jungle": 9173,
-  "France Travail": 387,
+  "Indeed": 2850,
+  "Welcome to the Jungle": 9193,
+  "France Travail": 389,
   "APEC": 0,
   "HelloWork": 0,
-  "Greenhouse": 4,
+  "Greenhouse": 5,
   "Lever": 0,
-  "Isarta": 119
+  "Isarta": 120
  },
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 78 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 2216,
- "new_today": 418,
+ "count": 2241,
+ "new_today": 443,
  "jobs": [
   {
    "id": "12b18490635b0302",
@@ -357,6 +357,38 @@
    "first_seen": "2026-11-10"
   },
   {
+   "id": "50a5507e1824d956",
+   "title": "Assistant(e) de gestion commerciale (H/F)",
+   "company": "MILAN PRESSE",
+   "location": "Toulouse, O, France",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDD",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 26,
+   "date_posted": "2026-11-09",
+   "salary": "25,220–25,220 EUR/yearly",
+   "description_snippet": "### **À propos de nous** **Milan** est depuis 40 ans l’éditeur engagé du côté des enfants dans tous les moments de leur vie. Avec 26 magazines, plus de 2 000 livres, des podcasts, des livres audio et des productions digitales, il s’adresse à plus de 6 millions d’enfants chaque année. Son engagement est de proposer des contenus qui nourrissent leur développement, leurs nombreux questionnements et l",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=79e7d7f1611e20ff"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "4814a85c7aea46e0",
    "title": "Growth Marketing Specialist (F/H/X)",
    "company": "iAdvize",
@@ -451,6 +483,42 @@
     {
      "name": "France Travail",
      "url": "https://www.jobposting.pro/emploi-2747212-120"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "dc7d92ea750a155d",
+   "title": "Account Manager (H/F)",
+   "company": "SAFETY-KLEEN FRANCE",
+   "location": "Tours, CVL, France",
+   "city": "Tours",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "cross-sell",
+    "portefeuille client",
+    "portefeuille clients",
+    "renouvellement",
+    "salesforce",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 24,
+   "date_posted": "2026-11-10",
+   "salary": "30,000–30,000 EUR/yearly",
+   "description_snippet": "**Votre rôle :** En tant qu'Account Manager chez Safetykleen, vous pilotez la croissance et la rentabilité d'un portefeuille clients stratégique sur les départements du 18-36-37-41. Vous êtes le partenaire de confiance de nos clients industriels, transformant leurs défis de nettoyage et de gestion des déchets en opportunités d'optimisation et d'économies. Votre mission combine intelligence commerc",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d1dc162636d84d99"
     }
    ],
    "first_seen": "2026-11-10"
@@ -951,6 +1019,72 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=01cb5374faa3fb79"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "5bed891f3bf6981d",
+   "title": "Stock - Assistant(e) marketing et commercial(e) - CDI - H/F",
+   "company": "Hachette Livre",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "planning",
+    "reseaux sociaux",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 22,
+   "date_posted": "2026-11-10",
+   "salary": "32,000–35,000 EUR/yearly",
+   "description_snippet": "Les Editions Stock, filiale du groupe Hachette Livre, sont spécialisées en littérature française et étrangère, ainsi qu'en essais et documents. La maison publie des personnalités et auteurs à succès tels qu'Erik Orsenna, Justine Lévy, Jean-Louis Fournier, Michel Cymes, etc… Au sein d’Hachette Livre, Les Editions Stock sont spécialisées en littérature française et étrangère, ainsi qu’en essais et d",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=bf32e70351184762"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "05dfe28bae77008e",
+   "title": "Assistant en Communication Digitale H/F",
+   "company": "Relief International",
+   "location": "Montrouge, A8, France",
+   "city": "Montrouge",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "reseaux sociaux",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "video_content",
+    "international",
+    "assistant_role"
+   ],
+   "score": 22,
+   "date_posted": "2026-11-10",
+   "salary": "28,000–28,000 EUR/yearly",
+   "description_snippet": "Nous recrutons actuellement un **Assistant** **en Communication Digitale H/F** pour rejoindre notre équipe Développement des ressources. Il s'agit d'un **CDI à temps plein** , basé à Montrouge, avec possibilité de télétravail, rémunéré **28 000 € bruts par an** . Ce poste est soumis à des vérifications préalables à l'embauche . **À propos de Relief International** Relief International (RI) est une",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=6a8f1c64f73dd74e"
     }
    ],
    "first_seen": "2026-11-10"
@@ -1864,6 +1998,38 @@
    "first_seen": "2026-11-10"
   },
   {
+   "id": "d5f502a0434a9949",
+   "title": "Junior Media Optimization Manager / Global",
+   "company": "AI Digital",
+   "location": "GE, France",
+   "city": "Ge",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "google ads",
+    "meta ads"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 20,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Kick-start your ad tech career by running real campaigns on platforms like DV360, The Trade Desk, and Amazon DSP — with senior mentors in your corner every step of the way. If you love data, dashboards, and making campaigns perform, this is your launchpad. * Execute audio, display, and video ad campaigns across multiple platforms, including DV360, The Trade Desk, Amazon DSP, and others, under the ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=836d82fdd869d141"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "89f1ab5346c0910b",
    "title": "Assistant(e) Marketing Franchise F/H",
    "company": "DESSANGE INTERNATIONAL",
@@ -2124,6 +2290,40 @@
     {
      "name": "France Travail",
      "url": "https://www.directemploi.com/candidatOffre/56991368?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "1a6ad940a60f890d",
+   "title": "Assistant(e) Administratif (ve) Commercial (e) H/F",
+   "company": "SARL TTI",
+   "location": "Roubaix, HDF, France",
+   "city": "Roubaix",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "evenementiel",
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 20,
+   "date_posted": "2026-11-09",
+   "salary": "23,000–26,500 EUR/yearly",
+   "description_snippet": "**La société TTI**, fabricant- concepteur de tissus techniques mailles à forte technicité. Notre société est spécialisée dans le tricotage des tissus Rachels et indémaillables. La maîtrise de ces technologies de tricotage caractérise notre société et permet de nous démarquer en s’appuyant sur la diversité de nos outils de production qui offre une grande souplesse dans la fabrication et assure la r",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3b323d8da7ca46b7"
     }
    ],
    "first_seen": "2026-11-10"
@@ -3594,6 +3794,71 @@
    "first_seen": "2026-11-10"
   },
   {
+   "id": "bdab7992991b951e",
+   "title": "UN(E) ASSISTANT(E) COMMERCIAL(E) ET ADMINISTRATIF(VE) – ACCUEIL",
+   "company": "IMMOBIS ENTREPRISES MONTPELLIER",
+   "location": "Montpellier, O, France",
+   "city": "Montpellier",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "salons",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-10",
+   "salary": "22,000–28,000 EUR/yearly",
+   "description_snippet": "**Description du poste** IMMOBIS, agence immobilière familiale implantée à Montpellier depuis 1981, au cœur de la Place de la Comédie, est un acteur reconnu du marché immobilier régional. Nos activités couvrent la transaction dans l'ancien et le neuf, la location et la gestion immobilière, ainsi que l'immobilier d'entreprise et les commerces. Chez IMMOBIS, nos collaborateurs sont au cœur de notre ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3542234d8425aa2e"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "a254dc4978149d01",
+   "title": "Assistant commercial H/F",
+   "company": "La Compagnie des Economies d'Energies",
+   "location": "Saint-Brès, O, France",
+   "city": "Saint-Bres",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Rejoignez une entreprise qui fait bouger les lignes de la transition énergétique ! Poste : Assistant(e) Commercial(e) (H/F) Localisation : Saint-Brès Disponibilité : Immédiate À propos de nous La Compagnie des Économies d’Énergie (C2E), entreprise indépendante et engagée, accompagne les acteurs publics et privés dans la réduction de leur empreinte énergétique au travers du dispositif des CEE. Entr",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7cc30b9125c4dfbf"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "c5fbac7df3dba5c0",
    "title": "Chargé(e) de développement éditorial & marketing digital (H/F)",
    "company": "CBZH",
@@ -4773,42 +5038,6 @@
    "first_seen": "2026-10-15"
   },
   {
-   "id": "dc7d92ea750a155d",
-   "title": "Account Manager (H/F)",
-   "company": "SAFETY-KLEEN FRANCE",
-   "location": "Vierzon, CVL, France",
-   "city": "Vierzon",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "crm",
-    "cross-sell",
-    "portefeuille client",
-    "portefeuille clients",
-    "renouvellement",
-    "salesforce",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 16,
-   "date_posted": "2026-11-10",
-   "salary": "30,000–30,000 EUR/yearly",
-   "description_snippet": "**Votre rôle :** En tant qu'Account Manager chez Safetykleen, vous pilotez la croissance et la rentabilité d'un portefeuille clients stratégique sur les départements du 18-36-37-41. Vous êtes le partenaire de confiance de nos clients industriels, transformant leurs défis de nettoyage et de gestion des déchets en opportunités d'optimisation et d'économies. Votre mission combine intelligence commerc",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=085c5f7e4ddae2db"
-    }
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
    "id": "11180096f4425f0b",
    "title": "Assistant Administratif et Commercial / Coordinateur de centre H/F",
    "company": "Audika",
@@ -4843,7 +5072,7 @@
   },
   {
    "id": "c7fb2d9b84c5fa2b",
-   "title": "Assistant commercial & ADV export H/F",
+   "title": "F/H Assistant commercial & ADV export",
    "company": "SGH Medical Pharma",
    "location": "Val-Revermont, ARA, France",
    "city": "Val-Revermont",
@@ -4863,11 +5092,11 @@
    "score": 16,
    "date_posted": "2026-11-10",
    "salary": null,
-   "description_snippet": "Le groupe **SGH Medical Pharma** **(Stiplastics, Rovipharm, SGH Tunisie)** est un leader Européen du dispositif médical et de l’administration du médicament. Fort de récents développements majeurs dans le domaine du Diagnostic In Vitro, lauréat du plan de relance « modernisation de l’industrie », notre groupe continue de grandir et se structurer. Le groupe **SGH Medical Pharma** propose aujourd’hu",
+   "description_snippet": "**Le groupe SGH Medical Pharma** -------------------------------- Le groupe **SGH Medical Pharma** propose aujourd’hui une offre complète, de la production standard au développement spécifique, en passant par la sous-traitance médicale. En plus de la fabrication multisites certifiés ISO 13485 / 15378 / 14001, dont une partie en salle blanche ISO 8, c’est toute notre expertise qualité, R&D, industr",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=edc8627e613367d1"
+     "url": "https://fr.indeed.com/viewjob?jk=846ac7752e632821"
     },
     {
      "name": "France Travail",
@@ -5319,6 +5548,39 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/216HHXD"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "8b9da3640478e9ab",
+   "title": "Assistant(e) Commercial(e) & ADV Export (H/F)",
+   "company": "Jacques BOGART SA",
+   "location": "Paris 7e, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "reporting",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Groupe Bogart, acteur français du parfum et de la cosmétique (Bogart, Ted Lapidus, Carven, Stendhal, Méthode Jeanne Piaubert, Aholic, Rose & Marius…), distribue ses marques à l'international et connaît une forte phase de développement en Europe. Rattaché(e) à la Direction Export, vous assistez les directeurs de zone dans le suivi et le développement de notre réseau de distributeurs, et assurez la ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a62df40b8d7dff21"
     }
    ],
    "first_seen": "2026-11-10"
@@ -9923,6 +10185,100 @@
     {
      "name": "France Travail",
      "url": "http://app.mytalentplug.com/description-offre.aspx?ojid=oaEEzOcoMK76XYqMgjtTAg=="
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "cf8e604f79a54705",
+   "title": "Assistant(e) administratif(ve) et commercial(e) H/F",
+   "company": "Omega Automotive",
+   "location": "Auterive, O, France",
+   "city": "Auterive",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-10",
+   "salary": "2,000–2,150 EUR/monthly",
+   "description_snippet": "OFFRE D’EMPLOI Assistant(e) administratif(ve) et commercial(e) H/F **OMEGA AUTOMOTIVE – Auterive (31190)** **CDD de 3 mois renouvelable – Évolution possible vers un CDI** **35 h/semaine – 1 650 € net/mois + primes** **Date limite de candidature : 27 novembre 2026** Qui sommes-nous ? Créée en 2021, **OMEGA AUTOMOTIVE** est une PME à taille humaine spécialisée dans la vente et le service après-vente",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b1023eb954ed808c"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "087490c6d3285fa0",
+   "title": "International Traffic Manager [CDI]",
+   "company": "Typology",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "conversion",
+    "google ads",
+    "roas",
+    "sea",
+    "seo",
+    "tracking"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Typology is the first skincare brand launched by Good Brands, an ambitious project to build a new generation of digital first consumer brands. Founded in 2019 by serial entrepreneur Ning Li, Typology became the #1 selling skincare brand online in France and operates also in Germany, the USA and Japan. **Location**: Paris (11th arrondissement). **Mission**: Typology is hiring an experienced Interna",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=865c9811fac6b9e1"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "7817a5135a833553",
+   "title": "Customer Success Manager - CSM - Rennes",
+   "company": "Digitevent",
+   "location": "Rennes",
+   "city": "Rennes",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Customer Success Manager - CSM - Rennes * **Excellent relationnel :** Vous savez écouter, comprendre les besoins de chacun et adapter votre communication pour créer une relation de confiance avec nos clients. * **Organisation :** Vous êtes très rigoureux(se) et méthodique dans la gestion de vos tâches * **Proactivité :** Vous aimez prendre les devants et être acteur(trice) de vos journées. Vous ne",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/digitevent/jobs/customer-success-manager-csm-rennes_rennes"
     }
    ],
    "first_seen": "2026-11-10"
@@ -14622,6 +14978,64 @@
     {
      "name": "France Travail",
      "url": "http://app.mytalentplug.com/redirection.aspx?ojid=KRKcGOJb/RL+OHuOfWZ92A=="
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "cdb9ed4c600e220f",
+   "title": "Assistant Commercial des Particuliers H/F",
+   "company": "Crédit Agricole",
+   "location": "Propriano, A5, France",
+   "city": "Propriano",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Dans le cadre des objectifs de l’unité et dans le respect des règles établies, en veillant à la continuité des réponses apportées, assurer et participer au service clientèle, à la promotion et à la vente de produits et services bancaires, parabancaires et financiers nécessitant des savoir pratiques homogènes, avec le souci de la qualité des relations et prestations, de l’efficacité commerciale, de",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=39eb49b9837e43c9"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "0da3064bdb091411",
+   "title": "Media Optimization Manager",
+   "company": "AI Digital",
+   "location": "GE, France",
+   "city": "Ge",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "kpi"
+   ],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "We're on the lookout for a talented **Media Optimization Manager**! **What you'll do:** * **Be the Architect of Campaigns:** Take the lead in executing and managing ad campaigns across multiple platforms, ensuring they resonate with our audience and deliver results.**‍** * **Unlock Insights:** Prepare in-depth reports and metrics that not only showcase campaign performance but also offer actionabl",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=11c615089d926f2a"
     }
    ],
    "first_seen": "2026-11-10"
@@ -27314,6 +27728,65 @@
    "first_seen": "2026-11-10"
   },
   {
+   "id": "c56b0e2b6c7ba128",
+   "title": "Assistant en communication H/F en Service civique",
+   "company": "Mairie de Bonnières-sur-seine",
+   "location": "Bonnières-sur-Seine, A8, France",
+   "city": "Bonnieres-Sur-Seine",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "reseaux sociaux"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 8,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "**PRÉSENTATION DE LA MISSION** Au sein de la mairie, le ou la volontaire contribue à rapprocher les habitants de la vie de leur commune en facilitant la découverte des informations, des services, des événements et des initiatives locales. Il ou elle participe à des actions de sensibilisation et de valorisation de la vie communale, en allant à la rencontre des habitants et en recueillant leurs idée",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c7cf86b827d6459a"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "c079427f9c00cec3",
+   "title": "Superman / Wonderwoman – Ingénieur(e) ou scientifique attiré(e) par le Growth Hacking / Business development et le marketing scientifique",
+   "company": "Elvesys - Elveflow",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Superman / Wonderwoman – Ingénieur(e) ou scientifique attiré(e) par le Growth Hacking / Business development et le marketing scientifique ### 🎓 Ta formation Tu as une formation **Bac +5 en sciences ou en ingénierie** ? Parfait ! Tu as moins d'années d'études, mais tu t'es formé(e) par toi-même, tu as développé de solides compétences et tu as des réalisations concrètes à nous montrer ? Ta candidatu",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/elvesys/jobs/scientifique-attire-par-le-growth-hacking-le-marketing-l-ia_paris"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "2cf1c11476243a48",
    "title": "Assistant-e ADV - F/H",
    "company": "Saint-Gobain",
@@ -34082,6 +34555,148 @@
    "date_assumed": true
   },
   {
+   "id": "bca580e46a64c97d",
+   "title": "Assistant Chef de Projet Marketing (H/F)",
+   "company": "LOSAM",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "assistant",
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Assistant Chef de Projet Marketing (H/F)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/losam-agency-1/jobs/assistant-chef-de-projet-marketing-h-f_paris_LOSAM_A4llzOd"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "c079db829f7864df",
+   "title": "Responsable Événementiel & Communication (H/F) Dispositif Médical – La Ciotat",
+   "company": "EUROS SAS",
+   "location": "La Ciotat, B8, France",
+   "city": "La Ciotat",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Pour postuler, merci d’envoyer votre candidature à recrutement@euros.fr EUROS, spécialiste de la chirurgie articulaire et rachidienne depuis plus de 30 ans, conçoit et fabrique des implants performants et innovants, pensés pour les équipes chirurgicales et le bien-être des patients. Basés à La Ciotat, nous maîtrisons toute la chaîne, du design à la fabrication, et sommes présents en France et dans",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1ca210c6732f1833"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "b4b73f93bfcfa145",
+   "title": "Technicien / Technicienne Datacenter (Data Center Customer Operations Technician IV shift)",
+   "company": "Equinix",
+   "location": "Pantin, A8, France",
+   "city": "Pantin",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "customer satisfaction"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "### **Technicien / Technicienne Datacenter (Data Center Customer Operations Technician IV shift)** * JR-164550 * On Site * Pantin * Operations * Full time * FR 7 W A **Who are we?** Equinix is the world’s digital infrastructure company®, shortening the path to connectivity to enable the innovations that enrich our work, life and planet. A place where bold ideas are welcomed, human connection is va",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=af04dae8cd89737a"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "f9725def87df301f",
+   "title": "INTERNATIONAL BUSINESS DEVELOPER – BATTERIES & SYSTÈMES D'ÉNERGIE (H/F)",
+   "company": "TYVA ENERGIE",
+   "location": "Annonay, ARA, France",
+   "city": "Annonay",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "business_development"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-10",
+   "salary": "45,000–54,000 EUR/yearly",
+   "description_snippet": "**La batterie du futur se fabrique à Annonay. Fais-la voyager.** Chez Tyva Énergie, on conçoit et on fabrique des batteries lithium et des systèmes d'énergie sur mesure, de la conception à la production. Défense, industrie, véhicules spéciaux, aéro : nos clients nous confient des projets qu'aucun catalogue ne sait résoudre. On a 13 ans au compteur, 22 personnes et une ambition claire : multiplier ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5127aa2cce504297"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "55335dd5e57f9764",
+   "title": "Key Account Manager Junior H/F",
+   "company": "Yoplait",
+   "location": "Boulogne-Billancourt, A8, France",
+   "city": "Boulogne-Billancourt",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "En tant que Key Account Manager Junior H/F Votre rôle sera de piloter le déploiement et l’optimisation du plan d’affaires sur les enseignes confiées, développer la relation commerciale et coordonner les équipes internes afin d’atteindre les objectifs commerciaux, en appui du Directeur d’Enseigne. **Vos missions** Vous mettez en place et optimisez le plan d’affaires négocié par le Directeur d’Ensei",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=038bd98066ccf1a4"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "26cbc527e3b13f19",
    "title": "CDD - Chef de Projets Marketing Transversaux Horlogerie-Joaillerie (H/F)",
    "company": "Christian Dior",
@@ -34474,35 +35089,6 @@
     {
      "name": "Isarta",
      "url": "https://isarta.fr/?job=76780"
-    }
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "bca580e46a64c97d",
-   "title": "Assistant Chef de Projet Marketing (H/F)",
-   "company": "LOSAM",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "assistant",
-    "marketing_operations"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-13",
-   "salary": null,
-   "description_snippet": "Assistant Chef de Projet Marketing (H/F)",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/losam-agency-1/jobs/assistant-chef-de-projet-marketing-h-f_paris_LOSAM_b0mVMoN"
     }
    ],
    "first_seen": "2026-11-10"
@@ -35224,6 +35810,37 @@
     }
    ],
    "first_seen": "2026-11-09"
+  },
+  {
+   "id": "e6d55a535f7168de",
+   "title": "International Customer Success Manager - CDI (F/M/X)",
+   "company": "Fairly Made",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "churn"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "International Customer Success Manager - CDI (F/M/X) **Must-have** * Experience (4 years) in Customer Success, Account Management, or client support in a B2B SaaS environment, ideally with Enterprise/strategic accounts. * You're comfortable with data: reading a usage dashboard, interpreting a churn signal, and turning it into a concrete action * You're rigorous and autonomous: you prioritize, keep",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/fairly-made/jobs/customer-success-manager-f-m-x_paris"
+    }
+   ],
+   "first_seen": "2026-11-08"
   },
   {
    "id": "f8bd12d50d5315b7",
@@ -36265,37 +36882,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "e6d55a535f7168de",
-   "title": "International Customer Success Manager - CDI (F/M/X)",
-   "company": "Fairly Made",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "churn"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-08",
-   "salary": null,
-   "description_snippet": "International Customer Success Manager - CDI (F/M/X) **Must-have** * Experience (2 years) in Customer Success, Account Management, or client support in a B2B SaaS environment * You're comfortable with data: reading a usage dashboard, interpreting a churn signal, and turning it into a concrete action * You're rigorous and autonomous: you prioritize, keep your commitments over time, and act ahead of",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/fairly-made/jobs/customer-success-manager-f-m-x_paris"
-    }
-   ],
-   "first_seen": "2026-11-08"
-  },
-  {
    "id": "ad3ac5507293dc29",
    "title": "Customer Success Manager H/F",
    "company": "Elax Energie",
@@ -37259,7 +37845,7 @@
   },
   {
    "id": "e50944d22c952ee4",
-   "title": "Traffic Manager - F/H",
+   "title": "TRAFFIC MANAGER - F/H",
    "company": "Oscaro",
    "location": "Gennevilliers",
    "city": "Gennevilliers",
@@ -37276,7 +37862,7 @@
    "score": 6,
    "date_posted": "2026-11-02",
    "salary": null,
-   "description_snippet": "Traffic Manager - F/H <p>Vous disposez d’une <strong>expérience d’au moins 2 ans sur des fonctions similaires</strong>, acquise idéalement en agence, chez un annonceur ou au sein d’un pure player, et avez déjà travaillé sur des problématiques SEA e-commerce complexes et des budgets significatifs. Vous êtes reconnu(e) pour :</p><ul><li><p>Votre capacité d’analyse et votre aisance avec les chiffres ",
+   "description_snippet": "TRAFFIC MANAGER - F/H <p>Vous disposez d’une <strong>expérience d’au moins 2 ans sur des fonctions similaires</strong>, acquise idéalement en agence, chez un annonceur ou au sein d’un pure player, et avez déjà travaillé sur des problématiques SEA e-commerce complexes et des budgets significatifs. Vous êtes reconnu(e) pour :</p><ul><li><p>Votre capacité d’analyse et votre aisance avec les chiffres ",
    "sources": [
     {
      "name": "Welcome to the Jungle",
@@ -41716,6 +42302,32 @@
    "first_seen": "2026-10-23"
   },
   {
+   "id": "10f39b1cbc4e64a7",
+   "title": "🇫🇷 CDI Account Manager - Foodtech 🇫🇷",
+   "company": "Savour",
+   "location": "Marseille",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "🇫🇷 CDI Account Manager - Foodtech 🇫🇷 * Bac+5 (école de commerce, université ou équivalent) * Une première expérience en account management, business development ou conseil (stages ou alternance compris) * Aisance avec les chiffres et capacité à transformer une analyse en recommandation claire, maîtrise d’Excel / Google Sheets * Excellentes compétences relationnelles, sens de la négociation * Rigue",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/savour/jobs/cdi-account-manager-foodtech_marseille_SAVOU_om6YONL"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "5965c78a33585cb0",
    "title": "Account Manager - Mid Market",
    "company": "PAYPLUG",
@@ -41897,32 +42509,6 @@
     {
      "name": "France Travail",
      "url": "https://candidat.francetravail.fr/offres/recherche/detail/216BKWG"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "10f39b1cbc4e64a7",
-   "title": "🇫🇷 CDI Account Manager - Foodtech 🇫🇷",
-   "company": "Savour",
-   "location": "Marseille",
-   "city": "Marseille",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-11-01",
-   "salary": null,
-   "description_snippet": "🇫🇷 CDI Account Manager - Foodtech 🇫🇷 * Bac+5 (école de commerce, université ou équivalent) * Une première expérience en account management, business development ou conseil (stages ou alternance compris) * Aisance avec les chiffres et capacité à transformer une analyse en recommandation claire, maîtrise d’Excel / Google Sheets * Excellentes compétences relationnelles, sens de la négociation * Rigue",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/savour/jobs/cdi-account-manager-foodtech_marseille_SAVOU_ALAkzrP"
     }
    ],
    "first_seen": "2026-10-22"
@@ -46286,6 +46872,60 @@
    "date_assumed": true
   },
   {
+   "id": "db1c83004208a93d",
+   "title": "Business Operations (Revenue & GTM)",
+   "company": "Vocca",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "sales_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Business Operations (Revenue & GTM) .",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/vocca/jobs/lead-revops-60-80k-bspce_paris"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "7aee4d10d1b26dc8",
+   "title": "Responsable Grands Comptes Sport EMEA H/F",
+   "company": "Thuasne USA",
+   "location": "Levallois-Perret, A8, France",
+   "city": "Levallois-Perret",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "**Chez Thuasne, nous avons une mission : restaurer la mobilité et améliorer la qualité de vie.** Forts de 180 ans d’expertise, nous imaginons, développons et fabriquons des dispositifs médicaux dans les domaines de l'orthopédie, de la compression médicale et du sport pour permettre à chacun de devenir acteur de sa santé. Rejoindre Thuasne, c’est évoluer au sein d’un groupe international à taille h",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d784f2edba2c9164"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "7d1d5a2223d4fd60",
    "title": "Digital Marketing / Commerce Product Owner",
    "company": "Pernod Ricard",
@@ -46392,32 +47032,6 @@
    "first_seen": "2026-11-10"
   },
   {
-   "id": "db1c83004208a93d",
-   "title": "Business Operations (Revenue & GTM)",
-   "company": "Vocca",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "sales_operations"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-11-06",
-   "salary": null,
-   "description_snippet": "Business Operations (Revenue & GTM) .",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/vocca/jobs/lead-revops-60-80k-bspce_paris"
-    }
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
    "id": "805dde26e8b035c5",
    "title": "Customer Success Manager",
    "company": "Obypay",
@@ -46439,6 +47053,34 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/obypay/jobs/account-manager-customer-success-manager_paris"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "2a6fa2a00b8be13f",
+   "title": "Customer Success Manager - CSM - Paris",
+   "company": "Digitevent",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-03",
+   "salary": null,
+   "description_snippet": "Customer Success Manager - CSM - Paris * **Excellent relationnel :** Vous savez écouter, comprendre les besoins de chacun et adapter votre communication pour créer une relation de confiance avec nos clients. * **Organisation :** Vous êtes très rigoureux(se) et méthodique dans la gestion de vos tâches * **Proactivité :** Vous aimez prendre les devants et être acteur(trice) de vos journées. Vous ne ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/digitevent/jobs/customer-success-manager-csm_paris_DIGIT_XDZlK8p"
     }
    ],
    "first_seen": "2026-11-10"
@@ -52740,6 +53382,32 @@
    "first_seen": "2026-10-22"
   },
   {
+   "id": "aa12839de088d6bb",
+   "title": "Business Developer / Account Manager (F/H) - CDI",
+   "company": "Milestone Advisory",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Business Developer / Account Manager (F/H) - CDI **TU ES FAIT(E) POUR MILESTONE ADVISORY SI :** * **Tu as un Bac+5** (école de commerce, ingénieurs ou université). * **Tu justifies de 1 à 3 ans d’expérience** en business development, idéalement en conseil ou finance. * Tu démontre un intérêt marqué pour le **secteur financier** et ses enjeux. * **Tu as une excellente communication** et forte capac",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/milestone-advisory/jobs/business-developer-account-manager-f-h-cdi_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "0dfdf71c0b41a0b5",
    "title": "ACCOUNT MANAGER - H/F",
    "company": "GLOBE GROUPE",
@@ -54033,32 +54701,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/hopwork/jobs/key-account-manager-public-sector_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "aa12839de088d6bb",
-   "title": "Business Developer / Account Manager (F/H) - CDI",
-   "company": "Milestone Advisory",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-14",
-   "salary": null,
-   "description_snippet": "Business Developer / Account Manager (F/H) - CDI **TU ES FAIT(E) POUR MILESTONE ADVISORY SI :** * **Tu as un Bac+5** (école de commerce, ingénieurs ou université). * **Tu justifies de 1 à 3 ans d’expérience** en business development, idéalement en conseil ou finance. * Tu démontre un intérêt marqué pour le **secteur financier** et ses enjeux. * **Tu as une excellente communication** et forte capac",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/milestone-advisory/jobs/business-developer-account-manager-f-h-cdi_paris"
     }
    ],
    "first_seen": "2026-10-22"
@@ -56460,6 +57102,96 @@
     {
      "name": "France Travail",
      "url": "https://www.meteojob.com/jobs/57976674?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "1fbf274ab512128d",
+   "title": "Chef de projet Marketing éditorial & Planning stratégique (IT) / Freelance",
+   "company": "BEEZEN",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "gestion de projet"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-11-10",
+   "salary": "450–520 EUR/daily",
+   "description_snippet": "Contexte : Vous accompagnerez les équipes du marketing éditorial (fiction, magazines, documentaires, divertissement) sur le positionnement des programmes et les projets transverses, en lien direct avec le responsable marketing éditorial. Vos missions : Coordonner les pôles du marketing éditorial et les services associés (antenne, produit, marketing) pour collecter et mettre en perspective les info",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9633ebcd2b5becd4"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "1e4458b6e51b9a85",
+   "title": "Chef de projet Marketing éditorial : planning stratégique et coordination (IT) / Freelance",
+   "company": "Insyco",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "gestion de projet"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-11-10",
+   "salary": "450–550 EUR/daily",
+   "description_snippet": "Bonjour, Nous recherchons pour notre client grand compte un Chef de projet Marketing éditorial : planning stratégique et coordination des programmes Nous étudions - prioritairement - les candidatures qui nous sont adressées à freelance à insyco . fr avec les informations suivantes : Argumentaire écrit répondant de façon ciblée au besoin ci-dessous CV à jour Date de prochaine disponibilité Tarif jo",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b2f8094d17aeda87"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "21e329ba07eb1fe1",
+   "title": "Talent Engagement Marketing Manager",
+   "company": "Datadog",
+   "location": "Dublin, Ireland; Paris, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "tracking"
+   ],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": 2,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "Help Datadog reach and engage priority talent through targeted campaigns, programmes and experiences. In this hands-on role, you will build relationships with internal and external audiences and help people connect with relevant opportunities at Datadog.. You will own agreed programmes from planning through delivery and evaluation. Working with the Director of Employer Brand, your regional counter",
+   "sources": [
+    {
+     "name": "Greenhouse",
+     "url": "https://careers.datadoghq.com/detail/8360403/?gh_jid=8360403"
     }
    ],
    "first_seen": "2026-11-10"
@@ -59335,6 +60067,32 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=53f33cfe53e2ce6e"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "9324b69697c65b01",
+   "title": "Chef de projet digital mobile",
+   "company": "First Conseil",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 0,
+   "date_posted": "2026-11-10",
+   "salary": null,
+   "description_snippet": "? Chef de projet mobile Senior ? Applications bancaires (H/F) ? Localisation non communiquée Chef de projet digital spécialisé en applications mobiles bancaires, avec plus de 11 ans d'expérience. Il pilote le projet de bout en bout, anime les ateliers métier et conçoit les parcours clients digitaux. Il garde une dimension technique forte : choix d'architecture mobile, encadrement des développeurs,",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=bec3bf659204a25b"
     }
    ],
    "first_seen": "2026-11-10"
