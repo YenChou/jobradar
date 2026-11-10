@@ -23,6 +23,12 @@ ZH_FLAGS = frozenset({"\U0001F1E8\U0001F1F3", "\U0001F1F9\U0001F1FC", "\U0001F1E
 REMOTE_PAT = re.compile(r"\b(remote|teletravail|full remote|100% remote)\b")
 HYBRID_PAT = re.compile(r"\b(hybride|hybrid|teletravail partiel)\b")
 CONTRACT_PAT = re.compile(r"\b(cdi|cdd|interim)\b")
+# Île-de-France 的郵遞區號（92100）、「(92)」、France Travail 的「92 - Boulogne-Billancourt」
+IDF_CODE_PAT = re.compile(r"\b(75|77|78|91|92|93|94|95)\d{3}\b|\((75|77|78|91|92|93|94|95)\)|^(75|77|78|91|92|93|94|95) - ")
+REUNION_PAT = re.compile(r"\b974\d{0,3}\b|reunion")   # Saint-Denis 也是留尼旺的首府
+# 地點自己帶的省碼、郵遞區號或 Indeed 的地區碼（「41 - Saint-Ouen」「Montreuil-Juigné (49)」
+# 「Lacroix-Saint-Ouen, HDF, France」）：帶了而且不是 Île-de-France 的，就不用城市名判斷
+LOC_CODE_PAT = re.compile(r"^(\d{2}|2a|2b) - |\((\d{2,3}|2a|2b)\)|\b\d{5}\b|, [a-z0-9]{1,4}, france$")
 
 
 def classify(job: dict, cfg: dict) -> dict | None:
@@ -46,22 +52,17 @@ def classify(job: dict, cfg: dict) -> dict | None:
     skills_hit: list[str] = []
     score = 0
     for key, cat in cfg["categories"].items():
-        if any(re.search(rf"\b{re.escape(kw)}\b", title_n) for kw in cat.get("exclude_title") or []):
-            continue  # 這一類的排除詞（例如 Customer 不收客服中心的 conseiller／agent）
-        matched = any(_hit(kw, title_n, cat.get("whole_word")) for kw in cat["title_keywords"])
-        if matched and (cat.get("require_title") or cat.get("require_text")):
-            # 寬泛的職稱（Business Developer、Chef de projet）要帶亞洲／國際脈絡才算：
-            # require_title 只看職稱，require_text 看職稱＋描述，都是整字比對，命中一個就行
-            matched = (any(_hit(kw, title_n, True) for kw in cat.get("require_title", []))
-                       or any(_hit(kw, text_n, True) for kw in cat.get("require_text", [])))
-        if not matched and not cat.get("title_only"):
-            # 描述補判：標題泛稱（如 "Marketing Specialist"）但描述明確時仍可歸類
-            matched = sum(1 for kw in cat["title_keywords"] if kw in desc_n) >= 1 and "marketing" in text_n
-        if matched:
+        if _in_category(cat, title_n, desc_n, text_n):
             categories.append(key)
             hits = [kw for kw in cat["skill_keywords"] if kw in desc_n]
             skills_hit += hits
             score += min(len(hits) * 2, 10)
+
+    # 職類衍生的標籤（Assistant）：跟職類同一套規則，但標籤篩選是「且」，
+    # 可以跟職類疊著用（Produit ＋ Assistant 標籤＝產品行銷的助理職）
+    for key, tag in cfg.get("bonus_tags", {}).items():
+        if tag.get("from_category") in categories and key not in bonus_tags:
+            bonus_tags.append(key)
 
     # 3) 職類全沒中就不收，除非明確要求中文
     if not categories and not keep:
@@ -82,7 +83,7 @@ def classify(job: dict, cfg: dict) -> dict | None:
     work_mode = clean_str(job.get("work_mode")) or _detect_work_mode(text_n) or "onsite"
 
     # 7) 地區加權
-    city, region = _detect_region(loc_n, cfg)
+    city, region = detect_region(loc_n, cfg)
     if region == "west":
         score += cfg.get("west_boost", 10)
     elif work_mode == "remote":
@@ -114,6 +115,29 @@ def classify(job: dict, cfg: dict) -> dict | None:
         # 前端 JSON.parse 失敗後整個網站空白。
         "sources": [{"name": clean_str(job["source"]), "url": clean_str(job.get("url"))}],
     }
+
+
+def _in_category(cat: dict, title_n: str, desc_n: str, text_n: str) -> bool:
+    if any(re.search(rf"\b{re.escape(kw)}\b", title_n) for kw in cat.get("exclude_title") or []):
+        return False  # 這一類的排除詞（例如 Customer 不收客服中心的 conseiller／agent）
+    matched = any(_hit(kw, title_n, cat.get("whole_word"))
+                  for kw in cat["title_keywords"] + cat.get("title_only_keywords", []))
+    if matched and (cat.get("require_title") or cat.get("require_text")):
+        # 寬泛的職稱（Business Developer、Chef de projet）要帶亞洲／國際脈絡才算：
+        # require_title 只看職稱，require_text 看職稱＋描述，都是整字比對，命中一個就行
+        matched = (any(_hit(kw, title_n, True) for kw in cat.get("require_title", []))
+                   or any(_hit(kw, text_n, True) for kw in cat.get("require_text", [])))
+    if not matched and not cat.get("title_only"):
+        # 描述補判：標題泛稱（如 "Marketing Specialist"）但描述明確時仍可歸類
+        matched = sum(1 for kw in cat["title_keywords"] if kw in desc_n) >= 1 and "marketing" in text_n
+    return matched
+
+
+def title_in_category(title: str, key: str, cfg: dict) -> bool:
+    """只看職稱判斷是否屬於某個 title_only 職類（main.py 替既有職缺補標籤用）。"""
+    cat = cfg["categories"].get(key)
+    t = norm(title)
+    return bool(cat and cat.get("title_only") and _in_category(cat, t, "", t))
 
 
 def _hit(kw: str, text: str, whole_word: bool | None) -> bool:
@@ -239,14 +263,29 @@ def _detect_work_mode(text_n: str) -> str | None:
     return None
 
 
-def _detect_region(loc_n: str, cfg: dict) -> tuple[str, str]:
+def detect_region(loc_n: str, cfg: dict) -> tuple[str, str]:
     if not loc_n:
         return "", "unknown"
     for city in cfg["west_cities"]:
         if city in loc_n:
             return city.title(), "west"
-    if "paris" in loc_n or "ile-de-france" in loc_n or "la defense" in loc_n:
+    if "paris" in loc_n:
         return "Paris", "paris"
+    # 巴黎近郊算進「巴黎」地區（城市名或 75、77、78、91–95 的郵遞區號／省碼）。
+    # 排在 ile-de-france 前面：「Boulogne-Billancourt, Île-de-France」要顯示城市名，不是 Paris
+    # Saint-Ouen、Montreuil、Saint-Denis 在外省也有同名或含這個名字的城市，所以：
+    # 地點帶的代碼指向別的地區就不比對；城市名要從地點開頭的那段比起（Lacroix-Saint-Ouen 不算）
+    outside = (LOC_CODE_PAT.search(loc_n) and not IDF_CODE_PAT.search(loc_n)
+               and not loc_n.endswith(", a8, france"))   # A8 是 Indeed 的 Île-de-France
+    seg = re.sub(r"^\d{2} - ", "", loc_n).split(",")[0].split("(")[0].replace("-", " ").strip()
+    for city in cfg.get("idf_cities", []):
+        c = city.replace("-", " ")
+        if (seg == c or seg.startswith(c + " ")) and not outside and not REUNION_PAT.search(loc_n):
+            return city.title(), "paris"
+    if "ile-de-france" in loc_n or "la defense" in loc_n:
+        return "Paris", "paris"
+    if IDF_CODE_PAT.search(loc_n) or loc_n.endswith(", a8, france"):
+        return loc_n.split(",")[0].split("(")[0].strip(" -0123456789").title(), "paris"
     if "france" == loc_n or "remote" in loc_n:
         return "", "unknown"
     city = loc_n.split(",")[0].split("(")[0].strip().title()

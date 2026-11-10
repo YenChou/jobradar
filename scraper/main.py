@@ -44,7 +44,7 @@ def load_cfg() -> dict:
         cat["title_keywords"] = [norm(k) for k in cat["title_keywords"]]
         cat["skill_keywords"] = [norm(k) for k in cat["skill_keywords"]]
         cat["exclude_title"] = [norm(k) for k in cat.get("exclude_title") or []]
-        for key in ("require_title", "require_text"):
+        for key in ("require_title", "require_text", "title_only_keywords"):
             cat[key] = [norm(k) for k in cat.get(key) or []]
     for tag in cfg.get("bonus_tags", {}).values():
         # `or []`：清單項目全被註解掉時 YAML 給的是 None，不擋的話整輪抓取會直接崩潰
@@ -55,18 +55,19 @@ def load_cfg() -> dict:
         tag["_keep_rx"] = enrich.keep_regexes(tag)
     for key in ("exclude_title", "exclude_title_foreign", "exclude_title_abbrev",
                 "seniority_boost_title",
-                "seniority_penalty_title", "contract_boost", "west_cities"):
+                "seniority_penalty_title", "contract_boost", "west_cities", "idf_cities"):
         cfg[key] = [norm(k) for k in cfg.get(key, [])]
     return cfg
 
 
 def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
-    from scraper.sources import apec, france_travail, hellowork, indeed_jobspy, isarta, wttj
+    from scraper.sources import apec, career_pages, france_travail, hellowork, indeed_jobspy, isarta, wttj
 
     hours_old = int(os.environ.get("HOURS_OLD", "72"))
     per_term = int(os.environ.get("RESULTS_PER_TERM", "50"))
 
     terms = cfg["search_terms"]
+    pages = cfg.get("career_pages") or {}
     net.BLOCKED.clear()   # 各來源被擋時會用 net.report_blocked 登記；main() 寫進 jobs.json
 
     raw: list[dict] = []
@@ -77,6 +78,8 @@ def scrape_all(cfg: dict, known_urls: set[str]) -> tuple[list[dict], dict]:
         ("France Travail", lambda: france_travail.fetch(terms, max_days_old=max(1, hours_old // 24))),
         ("APEC", lambda: apec.fetch(terms, results_per_term=per_term)),
         ("HelloWork", lambda: hellowork.fetch(terms, hours_old, known_urls)),
+        ("Greenhouse", lambda: career_pages.fetch_greenhouse(pages.get("greenhouse"), hours_old, cfg["idf_cities"])),
+        ("Lever", lambda: career_pages.fetch_lever(pages.get("lever"), hours_old, cfg["idf_cities"])),
         # Fashion Jobs 已移除，詳見 README「注意」與模組 docstring。
         # 要重新啟用的話，除了這行註冊，還要把 detail_priority()（排詳情頁名額
         # 順序用）加回來——git log 找 remove-fashionjobs 那個 commit。
@@ -202,6 +205,19 @@ def main() -> int:
         and not enrich.excluded_title(j.get("title", ""), cfg,
                                       requires_chinese="chinese" in (j.get("bonus_tags") or []))
     ]
+
+    # 地區用目前的規則重算（巴黎近郊這類規則更新後，舊職缺不用等重抓就套用）
+    for j in jobs:
+        if j.get("location"):
+            j["city"], j["region"] = enrich.detect_region(norm(j["location"]), cfg)
+
+    # 職類衍生的標籤（Assistant）：既有職缺不用等重抓，用職稱補判（只補不刪）
+    for key, tag in (cfg.get("bonus_tags") or {}).items():
+        if tag.get("from_category"):
+            for j in jobs:
+                tags = j.setdefault("bonus_tags", [])
+                if key not in tags and enrich.title_in_category(j.get("title", ""), tag["from_category"], cfg):
+                    tags.append(key)
 
     # 英文JD 是新加的標籤：之前入庫的職缺沒判斷過，用存下來的摘要補判（只補不刪）。
     # 摘要只有 400 字，所以用較低的門檻（snippet_min_words）。

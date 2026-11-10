@@ -231,6 +231,132 @@ for title in ["Chargé d'études statistiques", "Chargé d'études (H/F)", "Char
               "Chargé d'études actuarielles", "Chargé d'étude hydraulique"]:
     ok(cats(title) is None, f"不收：{title}")
 
+# ── 求職策略的目標職稱：只看職稱，不拿來做描述補判 ──
+print()
+print("── 求職策略的目標職稱 ──")
+for t in ["marketing digital", "digital marketing", "performance marketing", "campaign manager",
+          "digital project manager", "digital analyst", "lifecycle marketing", "key account manager",
+          "business development APAC", "sales coordinator", "customer onboarding", "business operations",
+          "client relationship manager"]:
+    ok(t in cfg["search_terms"], f"搜尋詞有 {t!r}")
+for title, want in [
+    ("Chargé(e) de Marketing Digital (H/F)", "performance_marketing"),
+    ("Digital Marketing Specialist", "performance_marketing"),
+    ("Acquisition Marketing Specialist", "performance_marketing"),
+    ("Growth Marketing Specialist", "performance_marketing"),
+    ("CRO Specialist", "performance_marketing"),
+    ("Marketing Operations Specialist", "marketing_operations"),
+    ("Marketing Campaign Manager", "marketing_operations"),
+    ("Marketing Automation Specialist", "marketing_operations"),
+    ("Digital Project Manager", "marketing_operations"),
+    ("Chef de projet marketing (H/F)", "marketing_operations"),
+    ("Marketing Performance Analyst", "marketing_analytics"),
+    ("Digital Analyst", "marketing_analytics"),
+    ("Marketing Data Analyst", "marketing_analytics"),
+    ("CRM Specialist", "crm"),
+    ("CRM Campaign Manager", "crm"),
+    ("Marketing CRM Analyst", "crm"),
+    ("Customer Marketing Specialist", "customer"),
+    ("Lifecycle Marketing Specialist", "customer"),
+    ("Customer Experience Analyst", "customer"),
+    ("Customer Success Manager", "customer"),
+    ("Customer Onboarding Specialist", "customer"),
+    ("Customer Operations Specialist", "customer"),
+    ("International Account Manager", "account_management"),
+    ("Key Account Manager", "account_management"),
+    ("B2B Account Manager", "account_management"),
+    ("Client Relationship Manager", "account_management"),
+    ("APAC Business Development", "business_development"),
+    ("International Sales Coordinator", "sales_operations"),
+    ("Business Operations Specialist", "sales_operations"),
+    ("International Project Coordinator", "international_project"),
+]:
+    c = cats(title)
+    ok(c is not None and want in c, f"{title} → {c}")
+c = cats("Responsable logistique", "Vous travaillerez avec nos campaign managers et l'équipe marketing digital.")
+ok(c is None, f"新職稱只看職稱：描述提到 campaign managers、marketing digital 不會因此入庫 → {c}")
+ok(cats("Micro-crédit conseiller") is None and cats("Chargé de projet CRO clinique") is None,
+   "CRO 只收 CRO Specialist／Manager：不會中 micro、臨床研究")
+
+# ── Coordinator：入門協調職，但不收工地、物流、醫療、社工、人資的協調職 ──
+print()
+print("── Coordinator ──")
+for t in ["marketing coordinator", "communication coordinator", "event coordinator", "coordinateur événementiel",
+          "social media coordinator", "operations coordinator", "coordinateur export"]:
+    ok(t in cfg["search_terms"], f"搜尋詞有 {t!r}")
+for title in ["Marketing Coordinator", "Coordinateur(trice) Marketing", "Coordinateur.rice communication",
+              "Coordinatrice événementiel (H/F)", "Event Coordinator", "Social Media Coordinator",
+              "Content Coordinator", "Digital Marketing Coordinator", "Operations Coordinator",
+              "Brand Coordinator", "Trade Marketing Coordinator", "Product Marketing Coordinator",
+              "CRM Coordinator", "Coordinateur commercial export", "Chargé(e) de coordination marketing",
+              "Customer Operations Coordinator", "Coordonnatrice marketing"]:
+    c = cats(title)
+    ok(c is not None and "coordination" in c, f"{title} → {c}")
+for title in ["Coordinateur de travaux", "Coordinateur logistique", "Coordinateur des opérations logistiques",
+              "Coordinateur transport", "Coordinateur social", "Coordinatrice sociale", "Coordinateur pédagogique",
+              "Coordinateur RH", "Coordinateur maintenance", "Coordinateur QHSE", "Coordinateur service client",
+              "Coordinateur médical", "Operations Coordinator - Warehouse", "Coordinateur achats",
+              "Coordinateur de projet", "Coordinateur IT", "Coordinateur périscolaire",
+              "Coordinateur des opérations-Station de livraison H/F"]:
+    c = cats(title)
+    ok(c is None or "coordination" not in c, f"不收：{title} → {c}")
+ok(run("Marketing Coordinator")["score"] >= 6, "Coordinator 也算目標職級（加分）")
+
+# ── Assistant：入門助理職，但不收醫療、照護、門市、人資、財會等助理職 ──
+print()
+print("── Assistant ──")
+for t in ["assistant marketing", "marketing assistant", "assistant communication", "assistant chef de produit",
+          "assistant commercial export", "assistant événementiel"]:
+    ok(t in cfg["search_terms"], f"搜尋詞有 {t!r}")
+for title in ["Assistant marketing (H/F)", "Assistante marketing", "Assistant(e) Marketing Digital",
+              "Marketing Assistant", "Assistant·e communication", "Assistante communication et événementiel",
+              "Assistant chef de produit", "Assistant(e) commercial(e) export", "Assistant ADV export",
+              "Assistant Brand Manager", "Assistant Product Manager", "Assistant trade marketing",
+              "Assistant e-commerce", "Assistante relations presse", "Assistant média planning", "Assistant CRM"]:
+    c = cats(title)
+    ok(c is not None and "assistant" in c, f"{title} → {c}")
+for title in ["Assistant dentaire", "Assistante de vie", "Assistant manager", "Assistant Store Manager",
+              "Assistant chef de rayon", "Assistante maternelle", "Assistant RH", "Assistant comptable",
+              "Assistant juridique", "Assistant administratif", "Assistant de direction", "Assistant qualité",
+              "Assistant logistique", "Assistant achats", "Assistant service client", "Assistante médicale",
+              "Assistant commercial immobilier", "Assistant de production",
+              "Assistant Director, Recruitment and Business Development",
+              "Assistant Sales - Marketing Produits Structurés - Banque de financement",
+              "Assistant(e) Chef de Produits / Approvisionneur (H/F)"]:
+    c = cats(title)
+    ok(c is None or "assistant" not in c, f"不收：{title} → {c}")
+r = run("Assistant chef de produit (H/F)")
+ok("assistant_role" in r["bonus_tags"] and {"assistant", "marketing_produit"} <= set(r["categories"]),
+   f"Assistant 也是標籤，可以跟職類疊著篩（Produit ＋ Assistant）：{r['bonus_tags']}")
+ok("assistant_role" not in run("Chargé de CRM (H/F)")["bonus_tags"], "不是助理職就不掛 Assistant 標籤")
+ok(enrich.title_in_category("Assistante marketing", "assistant", cfg)
+   and not enrich.title_in_category("Assistant dentaire", "assistant", cfg),
+   "既有職缺用職稱補判 Assistant 標籤（規則同職類）")
+ok(run("Assistant marketing alternance") is None and run("Stage - Assistant marketing") is None
+   and run("Marketing Assistant - Work Study F/M") is None,
+   "助理職的實習／建教照樣排除")
+
+# ── 巴黎近郊算進「巴黎」地區 ──
+print()
+print("── 巴黎近郊（Île-de-France）──")
+from scraper.util import norm as _n
+for loc, city in [("Boulogne-Billancourt", "Boulogne-Billancourt"), ("Issy-les-Moulineaux (92)", None),
+                  ("92 - BOULOGNE BILLANCOURT", "Boulogne-Billancourt"), ("La Défense", None),
+                  ("Courbevoie, Île-de-France, FR", "Courbevoie"), ("Levallois Perret", None),
+                  ("Neuilly-sur-Seine", None), ("Saint-Denis", None), ("Clichy", None), ("Montrouge", None),
+                  ("Puteaux", None), ("75008", None), ("Nanterre (92000)", None),
+                  ("Bois-Colombes, A8, France", "Bois-Colombes"), ("92 - Garenne-Colombes", "Garenne-Colombes"),
+                  ("Vert-Saint-Denis, A8, France", "Vert-Saint-Denis"),
+                  ("Saint-Ouen-l'Aumône, A8, France", None)]:
+    got = enrich.detect_region(_n(loc), cfg)
+    ok(got[1] == "paris" and (city is None or got[0] == city), f"{loc} → {got}")
+for loc in ["Saint-Denis (974)", "Boulogne-sur-Mer", "Lyon", "Marseille 13008",
+            "41 - Saint-Ouen", "80 - Saint-Ouen", "Lacroix-Saint-Ouen, HDF, France",
+            "Montreuil-Juigné (49)", "Bressuire, Deux-Sèvres"]:
+    got = enrich.detect_region(_n(loc), cfg)
+    ok(got[1] != "paris", f"不是巴黎近郊：{loc} → {got}")
+ok(enrich.detect_region(_n("Nantes"), cfg)[1] == "west", "西部城市照舊")
+
 # ── 業務／客戶職類（Account Management、Sales Ops、BizDev APAC…）──
 print()
 print("── 業務／客戶職類 ──")

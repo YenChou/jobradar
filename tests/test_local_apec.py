@@ -228,13 +228,14 @@ def test_cloud_merges_fresh_local_file():
 def test_scrape_all_adds_local_jobs_to_apec():
     """scrape_all：本機資料算進 APEC 的筆數，並登記在 LOCAL_SOURCES（寫進 jobs.json）"""
     import types
-    from scraper.sources import france_travail, indeed_jobspy, isarta, wttj
+    from scraper.sources import career_pages, france_travail, hellowork, indeed_jobspy, isarta, wttj
     stub = lambda *a, **k: []
     with tempfile.TemporaryDirectory() as tmp:
         t = pathlib.Path(tmp)
         with patched(main, LOCAL_APEC=_local_file(t, 1, n=4)), \
                 patched(indeed_jobspy, fetch=stub), patched(wttj, fetch=stub), \
-                patched(france_travail, fetch=stub), patched(isarta, fetch=stub), patched(apec, fetch=stub):
+                patched(france_travail, fetch=stub), patched(isarta, fetch=stub), patched(apec, fetch=stub), \
+                patched(hellowork, fetch=stub), patched(career_pages, fetch_greenhouse=stub, fetch_lever=stub):
             raw, stats = main.scrape_all(main.load_cfg(), set())
     assert stats["APEC"] == 4 and len(raw) == 4
     assert main.LOCAL_SOURCES["APEC"]["count"] == 4
