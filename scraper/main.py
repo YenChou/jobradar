@@ -211,6 +211,14 @@ def main() -> int:
         if j.get("location"):
             j["city"], j["region"] = enrich.detect_region(norm(j["location"]), cfg)
 
+    # 職類衍生的標籤（Assistant）：既有職缺不用等重抓，用職稱補判（只補不刪）
+    for key, tag in (cfg.get("bonus_tags") or {}).items():
+        if tag.get("from_category"):
+            for j in jobs:
+                tags = j.setdefault("bonus_tags", [])
+                if key not in tags and enrich.title_in_category(j.get("title", ""), tag["from_category"], cfg):
+                    tags.append(key)
+
     # 英文JD 是新加的標籤：之前入庫的職缺沒判斷過，用存下來的摘要補判（只補不刪）。
     # 摘要只有 400 字，所以用較低的門檻（snippet_min_words）。
     en_tag = cfg.get("bonus_tags", {}).get("english_jd")

@@ -1019,6 +1019,12 @@ bonus_tags:
       - "chinese new year"
       - "cle anglaise"        # clé anglaise＝扳手
 
+  # Assistant：職稱屬於 Assistant 職類（入門助理職）就掛。規則就是職類那一套（見上面的 assistant），
+  # 這裡只是讓它也能在「標籤」篩選：標籤是「且」，可以跟職類疊著用（Produit ＋ Assistant）。
+  assistant_role:
+    label: "Assistant"
+    from_category: "assistant"
+
   # 英文JD：職缺內文是用英文寫的（「要求英文」是上面的「國際」，不是這個）。
   # 數內文裡英文、法文的常用虛詞（the、and、you… 對 le、et、vous…），英文佔多數才算。
   # 只看內文、不看職稱：職稱常是英文（Customer Success Manager），內文卻是法文。

@@ -49,23 +49,17 @@ def classify(job: dict, cfg: dict) -> dict | None:
     skills_hit: list[str] = []
     score = 0
     for key, cat in cfg["categories"].items():
-        if any(re.search(rf"\b{re.escape(kw)}\b", title_n) for kw in cat.get("exclude_title") or []):
-            continue  # 這一類的排除詞（例如 Customer 不收客服中心的 conseiller／agent）
-        matched = any(_hit(kw, title_n, cat.get("whole_word"))
-                      for kw in cat["title_keywords"] + cat.get("title_only_keywords", []))
-        if matched and (cat.get("require_title") or cat.get("require_text")):
-            # 寬泛的職稱（Business Developer、Chef de projet）要帶亞洲／國際脈絡才算：
-            # require_title 只看職稱，require_text 看職稱＋描述，都是整字比對，命中一個就行
-            matched = (any(_hit(kw, title_n, True) for kw in cat.get("require_title", []))
-                       or any(_hit(kw, text_n, True) for kw in cat.get("require_text", [])))
-        if not matched and not cat.get("title_only"):
-            # 描述補判：標題泛稱（如 "Marketing Specialist"）但描述明確時仍可歸類
-            matched = sum(1 for kw in cat["title_keywords"] if kw in desc_n) >= 1 and "marketing" in text_n
-        if matched:
+        if _in_category(cat, title_n, desc_n, text_n):
             categories.append(key)
             hits = [kw for kw in cat["skill_keywords"] if kw in desc_n]
             skills_hit += hits
             score += min(len(hits) * 2, 10)
+
+    # 職類衍生的標籤（Assistant）：跟職類同一套規則，但標籤篩選是「且」，
+    # 可以跟職類疊著用（Produit ＋ Assistant 標籤＝產品行銷的助理職）
+    for key, tag in cfg.get("bonus_tags", {}).items():
+        if tag.get("from_category") in categories and key not in bonus_tags:
+            bonus_tags.append(key)
 
     # 3) 職類全沒中就不收，除非明確要求中文
     if not categories and not keep:
@@ -118,6 +112,29 @@ def classify(job: dict, cfg: dict) -> dict | None:
         # 前端 JSON.parse 失敗後整個網站空白。
         "sources": [{"name": clean_str(job["source"]), "url": clean_str(job.get("url"))}],
     }
+
+
+def _in_category(cat: dict, title_n: str, desc_n: str, text_n: str) -> bool:
+    if any(re.search(rf"\b{re.escape(kw)}\b", title_n) for kw in cat.get("exclude_title") or []):
+        return False  # 這一類的排除詞（例如 Customer 不收客服中心的 conseiller／agent）
+    matched = any(_hit(kw, title_n, cat.get("whole_word"))
+                  for kw in cat["title_keywords"] + cat.get("title_only_keywords", []))
+    if matched and (cat.get("require_title") or cat.get("require_text")):
+        # 寬泛的職稱（Business Developer、Chef de projet）要帶亞洲／國際脈絡才算：
+        # require_title 只看職稱，require_text 看職稱＋描述，都是整字比對，命中一個就行
+        matched = (any(_hit(kw, title_n, True) for kw in cat.get("require_title", []))
+                   or any(_hit(kw, text_n, True) for kw in cat.get("require_text", [])))
+    if not matched and not cat.get("title_only"):
+        # 描述補判：標題泛稱（如 "Marketing Specialist"）但描述明確時仍可歸類
+        matched = sum(1 for kw in cat["title_keywords"] if kw in desc_n) >= 1 and "marketing" in text_n
+    return matched
+
+
+def title_in_category(title: str, key: str, cfg: dict) -> bool:
+    """只看職稱判斷是否屬於某個 title_only 職類（main.py 替既有職缺補標籤用）。"""
+    cat = cfg["categories"].get(key)
+    t = norm(title)
+    return bool(cat and cat.get("title_only") and _in_category(cat, t, "", t))
 
 
 def _hit(kw: str, text: str, whole_word: bool | None) -> bool:

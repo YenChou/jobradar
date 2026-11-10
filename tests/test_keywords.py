@@ -325,6 +325,13 @@ for title in ["Assistant dentaire", "Assistante de vie", "Assistant manager", "A
               "Assistant(e) Chef de Produits / Approvisionneur (H/F)"]:
     c = cats(title)
     ok(c is None or "assistant" not in c, f"不收：{title} → {c}")
+r = run("Assistant chef de produit (H/F)")
+ok("assistant_role" in r["bonus_tags"] and {"assistant", "marketing_produit"} <= set(r["categories"]),
+   f"Assistant 也是標籤，可以跟職類疊著篩（Produit ＋ Assistant）：{r['bonus_tags']}")
+ok("assistant_role" not in run("Chargé de CRM (H/F)")["bonus_tags"], "不是助理職就不掛 Assistant 標籤")
+ok(enrich.title_in_category("Assistante marketing", "assistant", cfg)
+   and not enrich.title_in_category("Assistant dentaire", "assistant", cfg),
+   "既有職缺用職稱補判 Assistant 標籤（規則同職類）")
 ok(run("Assistant marketing alternance") is None and run("Stage - Assistant marketing") is None
    and run("Marketing Assistant - Work Study F/M") is None,
    "助理職的實習／建教照樣排除")
