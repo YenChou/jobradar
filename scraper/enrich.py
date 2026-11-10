@@ -26,6 +26,9 @@ CONTRACT_PAT = re.compile(r"\b(cdi|cdd|interim)\b")
 # Île-de-France 的郵遞區號（92100）、「(92)」、France Travail 的「92 - Boulogne-Billancourt」
 IDF_CODE_PAT = re.compile(r"\b(75|77|78|91|92|93|94|95)\d{3}\b|\((75|77|78|91|92|93|94|95)\)|^(75|77|78|91|92|93|94|95) - ")
 REUNION_PAT = re.compile(r"\b974\d{0,3}\b|reunion")   # Saint-Denis 也是留尼旺的首府
+# 地點自己帶的省碼、郵遞區號或 Indeed 的地區碼（「41 - Saint-Ouen」「Montreuil-Juigné (49)」
+# 「Lacroix-Saint-Ouen, HDF, France」）：帶了而且不是 Île-de-France 的，就不用城市名判斷
+LOC_CODE_PAT = re.compile(r"^(\d{2}|2a|2b) - |\((\d{2,3}|2a|2b)\)|\b\d{5}\b|, [a-z0-9]{1,4}, france$")
 
 
 def classify(job: dict, cfg: dict) -> dict | None:
@@ -270,13 +273,18 @@ def detect_region(loc_n: str, cfg: dict) -> tuple[str, str]:
         return "Paris", "paris"
     # 巴黎近郊算進「巴黎」地區（城市名或 75、77、78、91–95 的郵遞區號／省碼）。
     # 排在 ile-de-france 前面：「Boulogne-Billancourt, Île-de-France」要顯示城市名，不是 Paris
-    loc_sp = loc_n.replace("-", " ")
+    # Saint-Ouen、Montreuil、Saint-Denis 在外省也有同名或含這個名字的城市，所以：
+    # 地點帶的代碼指向別的地區就不比對；城市名要從地點開頭的那段比起（Lacroix-Saint-Ouen 不算）
+    outside = (LOC_CODE_PAT.search(loc_n) and not IDF_CODE_PAT.search(loc_n)
+               and not loc_n.endswith(", a8, france"))   # A8 是 Indeed 的 Île-de-France
+    seg = re.sub(r"^\d{2} - ", "", loc_n).split(",")[0].split("(")[0].replace("-", " ").strip()
     for city in cfg.get("idf_cities", []):
-        if re.search(rf"\b{re.escape(city.replace('-', ' '))}\b", loc_sp) and not REUNION_PAT.search(loc_n):
+        c = city.replace("-", " ")
+        if (seg == c or seg.startswith(c + " ")) and not outside and not REUNION_PAT.search(loc_n):
             return city.title(), "paris"
     if "ile-de-france" in loc_n or "la defense" in loc_n:
         return "Paris", "paris"
-    if IDF_CODE_PAT.search(loc_n):
+    if IDF_CODE_PAT.search(loc_n) or loc_n.endswith(", a8, france"):
         return loc_n.split(",")[0].split("(")[0].strip(" -0123456789").title(), "paris"
     if "france" == loc_n or "remote" in loc_n:
         return "", "unknown"

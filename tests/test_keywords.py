@@ -344,10 +344,15 @@ for loc, city in [("Boulogne-Billancourt", "Boulogne-Billancourt"), ("Issy-les-M
                   ("92 - BOULOGNE BILLANCOURT", "Boulogne-Billancourt"), ("La Défense", None),
                   ("Courbevoie, Île-de-France, FR", "Courbevoie"), ("Levallois Perret", None),
                   ("Neuilly-sur-Seine", None), ("Saint-Denis", None), ("Clichy", None), ("Montrouge", None),
-                  ("Puteaux", None), ("75008", None), ("Nanterre (92000)", None)]:
+                  ("Puteaux", None), ("75008", None), ("Nanterre (92000)", None),
+                  ("Bois-Colombes, A8, France", "Bois-Colombes"), ("92 - Garenne-Colombes", "Garenne-Colombes"),
+                  ("Vert-Saint-Denis, A8, France", "Vert-Saint-Denis"),
+                  ("Saint-Ouen-l'Aumône, A8, France", None)]:
     got = enrich.detect_region(_n(loc), cfg)
     ok(got[1] == "paris" and (city is None or got[0] == city), f"{loc} → {got}")
-for loc in ["Saint-Denis (974)", "Boulogne-sur-Mer", "Lyon", "Marseille 13008"]:
+for loc in ["Saint-Denis (974)", "Boulogne-sur-Mer", "Lyon", "Marseille 13008",
+            "41 - Saint-Ouen", "80 - Saint-Ouen", "Lacroix-Saint-Ouen, HDF, France",
+            "Montreuil-Juigné (49)", "Bressuire, Deux-Sèvres"]:
     got = enrich.detect_region(_n(loc), cfg)
     ok(got[1] != "paris", f"不是巴黎近郊：{loc} → {got}")
 ok(enrich.detect_region(_n("Nantes"), cfg)[1] == "west", "西部城市照舊")
