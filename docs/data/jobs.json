@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-14T17:04:28Z",
+ "generated_at": "2026-11-14T22:04:01Z",
  "source_stats": {
-  "Indeed": 3007,
+  "Indeed": 2958,
   "Welcome to the Jungle": 9170,
-  "France Travail": 580,
+  "France Travail": 583,
   "APEC": 0,
   "HelloWork": 0,
   "Greenhouse": 6,
@@ -14,8 +14,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 78 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 2576,
- "new_today": 67,
+ "count": 2584,
+ "new_today": 75,
  "jobs": [
   {
    "id": "12b18490635b0302",
@@ -2619,6 +2619,37 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "78939d87f3cd035c",
+   "title": "Chargé(e) de marketing digital et IA - sites web, intranet et applications SaaS (H/F)",
+   "company": "",
+   "location": "69 - Vourles",
+   "city": "69 - Vourles",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "conversion",
+    "sea",
+    "seo",
+    "trafic"
+   ],
+   "bonus_tags": [],
+   "score": 20,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Qui sommes-nous ? Hunamo est un groupe entrepreneurial indépendant de la région lyonnaise. Il développe plusieurs activités : construction de maisons individuelles, édition d'une solution SaaS de gestion de documents et de paiements,... Notre organisation est à taille humaine. Nous privilégions l'autonomie, l'initiative et l'efficacité, et nous utilisons l'intelligence artificielle au quotidien po",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/charg%C3%A9e-de-marketing-digital-ia-sites-web-intranet-et-applications-saas-hf-91616b84b5966775?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "1444058277dc4a48",
    "title": "Assistant e-commerce H/F",
    "company": "Body House Group",
@@ -2897,7 +2928,7 @@
    "score": 20,
    "date_posted": "2026-11-12",
    "salary": null,
-   "description_snippet": "Coordinateur Marketing (F/H) Nice, France Fondé en 2003, Horus Pharma est devenu un acteur majeur de l’ophtalmologie en France et Europe. Grâce à une forte dynamique d’innovation, la société commercialise aujourd’hui un portefeuille large de 70 produits et compte 240 collaborateurs. Depuis 2015, Horus Pharma a amorcé une politique d’expansion internationale et est désormais présent via des filiale",
+   "description_snippet": "**Coordinateur Marketing (F/H)** ================================ Nice, France Fondé en 2003, Horus Pharma est devenu un acteur majeur de l’ophtalmologie en France et Europe. Grâce à une forte dynamique d’innovation, la société commercialise aujourd’hui un portefeuille large de 70 produits et compte 240 collaborateurs. Depuis 2015, Horus Pharma a amorcé une politique d’expansion internationale et ",
    "sources": [
     {
      "name": "Indeed",
@@ -3013,8 +3044,8 @@
    "id": "c67b0eff46bece7b",
    "title": "ASSISTANT COMMERCIAL H/F",
    "company": "GROUPE JVS",
-   "location": "Châlons-en-Champagne, GE, France",
-   "city": "Chalons-En-Champagne",
+   "location": "Lattes, O, France",
+   "city": "Lattes",
    "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
@@ -3035,7 +3066,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=5b8303052180b89e"
+     "url": "https://fr.indeed.com/viewjob?jk=da9ae0d13759175f"
     }
    ],
    "first_seen": "2026-11-12"
@@ -4835,6 +4866,70 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "1558531f4cbcd335",
+   "title": "Assistant administratif et commercial H/F",
+   "company": "DOMORIA HABITAT",
+   "location": "Marseille 9e, B8, France",
+   "city": "Marseille 9E",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-14",
+   "salary": "1,400–1,600 EUR/weekly",
+   "description_snippet": "Assistant(e) administratif(ve) et commercial(e) – Bâtiment (H/F) DOMORIA HABITAT – Marseille (13) * Contrat : CDI * Temps de travail : 24 heures par semaine * Lieu : Marseille * Prise de poste : Janvier 2027 * Rémunération : Selon profil et expérience Qui sommes-nous ? DOMORIA HABITAT est une entreprise spécialisée dans la rénovation et l’amélioration de l’habitat, intervenant notamment dans les d",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7bd8939e31c5875c"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "3a27908a80524af4",
+   "title": "Secrétaire / Assistant(e) commercial(e) en auto-école (H/F)",
+   "company": "",
+   "location": "69 - Anse",
+   "city": "69 - Anse",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Secretaire /Administratif(ve) et commercial(e) en auto-école (H/F) - CDI - Lyon 9e Rejoignez CONDUITE PLUS, une auto-école familiale et reconnue depuis plus de 25 ans ! Vous aimez le contact humain, l'organisation et les journées qui ne se ressemblent pas ? Nous recherchons notre futur(e) collègue pour notre agence de Lyon 9e - Gorge de Loup. Votre quotidien Au cœur de l'agence, vous accompagnez n",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/secr%C3%A9taire-assistante-commerciale-en-auto-%C3%A9cole-hf-c44fea6755da9b62?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "9dc631e91cbfd648",
    "title": "Assistant(e) Direction et Communication (H/F)",
    "company": "",
@@ -4924,6 +5019,39 @@
     {
      "name": "France Travail",
      "url": "https://recrutement.odalys-groupe.com/fr/annonce/4693153-chargee-des-reseaux-sociaux-d-influence-fh-cdd-remplacement-31130-balma?s_o=France+Travail&s_b=DigitalRecruiters"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "81d200f54c516082",
+   "title": "Assistant(e) commercial(e) / ADV expérimenté(e) (F/H)",
+   "company": "BROSSERIE THOMAS",
+   "location": "Chevry-Cossigny, A8, France",
+   "city": "Chevry-Cossigny",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "reporting",
+    "salons",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-13",
+   "salary": "28,000–32,000 EUR/yearly",
+   "description_snippet": "**BROSSERIE THOMAS – CDI – Temps plein** **Lieu :** Chevry-Cossigny (77173) **Rémunération :** 28 000 € à 32 000 € brut annuel selon profil et expérience. **Avantages :** 10 jours de RTT par an. Qui sommes-nous ? La **Brosserie THOMAS**, fabricant français spécialisé dans la brosserie, recherche un(e) **Assistant(e) commercial(e) / Administration des Ventes (ADV)** expérimenté(e) pour renforcer so",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b8b94f9ae428054c"
     }
    ],
    "first_seen": "2026-11-14"
@@ -7791,6 +7919,37 @@
    "first_seen": "2026-11-14"
   },
   {
+   "id": "f833ae2c76e1a7aa",
+   "title": "Assistant(e) commercial et SAV H/F",
+   "company": "",
+   "location": "45 - Loiret",
+   "city": "45 - Loiret",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "À propos du poste Nous recherchons un(e) assistant(e) commercial et service après-vente dynamique(ve) et organisé(e) pour rejoindre notre équipe. En tant qu'assistant(e), vous serez le point de contact principal pour nos clients, assurant un support efficace et professionnel, vous contribuez au suivi des activités commerciales et à l'accompagnement des client(e)s. Vous facilitez le traitement admi",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/assistante-commercial-et-sav-hf-d41d7853950e0e78?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "589c2ad362e9f2b5",
    "title": "Chargé(e) Marketing H/F – Marketing Digital & Opérationnel",
    "company": "La Chaise Longue",
@@ -8163,37 +8322,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=c69995dbc5aa66b3"
-    }
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "53d3c6c70bbc38b3",
-   "title": "ASSISTANT ADMINISTRATIF ET COMMERCIAL (H/F)",
-   "company": "Bricomarché",
-   "location": "Issoudun, CVL, France",
-   "city": "Issoudun",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "excel",
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 16,
-   "date_posted": "2026-11-13",
-   "salary": null,
-   "description_snippet": "Acteur(trice) de la gestion commerciale du magasin Vous êtes garant(e) de la mise à jour de la base de données de gestion commerciale du point de vente : information sur les produits, tarification, tenue du fichier fournisseurs, gestion des stocks. Vous vous assurez de la bonne codification des articles (articles qui ont changé, modification de référencement, conditionnement, etc.), êtes très vigi",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=205250575ba7b15e"
     }
    ],
    "first_seen": "2026-11-13"
@@ -8671,8 +8799,8 @@
    "work_mode": "onsite",
    "contract": "CDD",
    "categories": [
-    "assistant",
-    "coordination"
+    "coordination",
+    "assistant"
    ],
    "skills": [
     "excel",
@@ -9174,42 +9302,6 @@
    "first_seen": "2026-11-12"
   },
   {
-   "id": "6bd30cb83ee239e5",
-   "title": "Strategic Customer Success Partner Coach - France",
-   "company": "360Learning",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "churn",
-    "retention"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 16,
-   "date_posted": "2026-11-11",
-   "salary": null,
-   "description_snippet": "### **Introduction to the Team & Role** As a Client Success Partner Coach (or CSP Coach), you will own the most critical customers in France and support, mentor and guide the CSPs that manage them. The Client Success Partners are guiding the learning and development strategies of our customers through the 360Learning platform. They develop a strong relationship with each client and make sure our c",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=2f417017f7929d07"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/360learning/jobs/strategic-customer-success-partner-coach-france_paris_360LE_RbpOq78"
-    }
-   ],
-   "first_seen": "2026-11-12"
-  },
-  {
    "id": "bf67dce779a7b420",
    "title": "Assistant ADV DRESCO H/F",
    "company": "ERAM",
@@ -9514,6 +9606,42 @@
     }
    ],
    "first_seen": "2026-11-11"
+  },
+  {
+   "id": "f75e53e6852c4a92",
+   "title": "Chef de projet SEO et Marketing Digital H/F h/f",
+   "company": "",
+   "location": "41 - Saint-Ouen",
+   "city": "41 - Saint-Ouen",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "a/b testing",
+    "acquisition",
+    "conversion",
+    "kpi",
+    "roi",
+    "seo",
+    "trafic"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Piloter la visibilité organique et la performance SEO / GEO - Décline et pilote la mise en œuvre de la stratégie de visibilité organique - Pilote les actions de référencement naturel en intégrant les dimensions sémantiques, techniques, de popularité et les principes EEAT. - Décline la stratégie éditoriale sur les supports digitaux et coordonne la production et l'optimisation des contenus. - Apport",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "http://www.missionhandicap.com/emploi/39078#utm_source=PoleEmploi"
+    }
+   ],
+   "first_seen": "2026-11-10"
   },
   {
    "id": "edda214e7277f32b",
@@ -10769,42 +10897,6 @@
     {
      "name": "France Travail",
      "url": "https://www.directemploi.com/candidatOffre/56983468?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
-    }
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "f75e53e6852c4a92",
-   "title": "Chef de projet SEO et Marketing Digital H/F h/f",
-   "company": "",
-   "location": "41 - Saint-Ouen",
-   "city": "41 - Saint-Ouen",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "a/b testing",
-    "acquisition",
-    "conversion",
-    "kpi",
-    "roi",
-    "seo",
-    "trafic"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 16,
-   "date_posted": "2026-11-07",
-   "salary": null,
-   "description_snippet": "Piloter la visibilité organique et la performance SEO / GEO - Décline et pilote la mise en œuvre de la stratégie de visibilité organique - Pilote les actions de référencement naturel en intégrant les dimensions sémantiques, techniques, de popularité et les principes EEAT. - Décline la stratégie éditoriale sur les supports digitaux et coordonne la production et l'optimisation des contenus. - Apport",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "http://www.missionhandicap.com/emploi/39078#utm_source=PoleEmploi"
     }
    ],
    "first_seen": "2026-11-10"
@@ -14668,6 +14760,37 @@
    "first_seen": "2026-11-13"
   },
   {
+   "id": "53d3c6c70bbc38b3",
+   "title": "ASSISTANT ADMINISTRATIF ET COMMERCIAL (H/F)",
+   "company": "Bricomarché",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-12",
+   "salary": "1,800–1,800 EUR/monthly",
+   "description_snippet": "Acteur(trice) de la gestion commerciale du magasin Vous êtes garant(e) de la mise à jour de la base de données de gestion commerciale du point de vente : information sur les produits, tarification, tenue du fichier fournisseurs, gestion des stocks. Vous vous assurez de la bonne codification des articles (articles qui ont changé, modification de référencement, conditionnement, etc.), êtes très vigi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e59f2700c3178748"
+    }
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
    "id": "291364211aae2ecf",
    "title": "Assistant commercial (H/F)",
    "company": "L'industrie recrute",
@@ -16069,42 +16192,6 @@
     {
      "name": "Isarta",
      "url": "https://isarta.fr/?job=77039"
-    }
-   ],
-   "first_seen": "2026-11-11"
-  },
-  {
-   "id": "3d5d8d1aaaa918c5",
-   "title": "Customer Success Manager (FR)",
-   "company": "Stoïk",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "cross-sell",
-    "retention",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 14,
-   "date_posted": "2026-11-11",
-   "salary": null,
-   "description_snippet": "**À propos de Stoïk** --------------------- Stoïk protège les PME et ETI européennes contre le risque cyber. Fondée en 2021, Stoïk est un assureur cyber qui associe assurance cyber, outils de sécurité propriétaires, services managés et une équipe interne de réponse à incident (CERT), pour accompagner les entreprises avant, pendant et après une attaque. Notre CERT voit au quotidien quelles attaques",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=ac6bd1aaa93c0cae"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/stoik/jobs/customer-success-manager-fr_paris_STOK_0k8DZgG"
     }
    ],
    "first_seen": "2026-11-11"
@@ -21341,6 +21428,37 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=b01b3558b46ca7f4"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "ae8fbf6248526f71",
+   "title": "Strategic Account Manager – Enterprise Hospitality (Lyon)",
+   "company": "Lightspeed",
+   "location": "Lyon, ARA, France",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "renewal"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-12",
+   "salary": null,
+   "description_snippet": "Lightspeed is looking for an experienced, strategically minded Strategic Account Manager to develop, engage, and closely support our most important enterprise customers in the hospitality segment over the long term. This role is remote-based in Lyon, France, with occasional travel to our Paris office. In this role, you will act as the primary point of contact for our largest hospitality customers ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=95f032e0451615e2"
     }
    ],
    "first_seen": "2026-11-14"
@@ -27847,7 +27965,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=fad9d5a3a1c0b716"
+     "url": "https://fr.indeed.com/viewjob?jk=0d113a94fa9173b9"
     }
    ],
    "first_seen": "2026-11-14"
@@ -27905,6 +28023,36 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=b9f4e79d42065187"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "f5a91eb05c2b3875",
+   "title": "Assistant(e) ADV H/F Confirmé(e)",
+   "company": "Univers des Boissons Artisanales",
+   "location": "Champigny-sur-Marne, A8, France",
+   "city": "Champigny-Sur-Marne",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-13",
+   "salary": "30,000–32,000 EUR/yearly",
+   "description_snippet": "En quelques années, notre petite entreprise est devenue le leader des Bières Artisanales sur la région Paris / Ile de France. Vous êtes sur le point de rejoindre une société familiale et dynamique qui a su bâtir sa réputation grâce à la diversité de son offre. Expert dans la distribution de bières spéciales, de vins et spiritueux auprès des professionnels du CHR. Afin d'accompagner le développemen",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=6572f9479fad83af"
     }
    ],
    "first_seen": "2026-11-14"
@@ -28317,6 +28465,34 @@
    "first_seen": "2026-11-13"
   },
   {
+   "id": "fc50d9a0826c65dc",
+   "title": "Assistant Commercial (H/F)",
+   "company": "AUTO1 Group",
+   "location": "Saint-Maur-des-Fossés, A8, France",
+   "city": "Saint-Maur-Des-Fosses",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-12",
+   "salary": "22,000–26,000 EUR/yearly",
+   "description_snippet": "**Description de l'entreprise** Si tu as l'appétit des plus ambitieux, bienvenue dans notre aventure où nos promesses sont aussi grandes que nos projets ! AUTO1 Group, leader européen de l'achat et la vente de véhicules d'occasion, révolutionne le secteur depuis plus de 10 ans via ses marques Vendezvotrevoiture.fr, AUTO1.com et Autohero. En tant qu’Assistant Commercial (H/F), tu rejoins l’une de n",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=789d60f43cbbc7e9"
+    }
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
    "id": "abf89ff684922bed",
    "title": "Senior Consumer, Market Insights & Business Analyst - M/F/X",
    "company": "Accor Tech & Digital",
@@ -28354,6 +28530,32 @@
     }
    ],
    "first_seen": "2026-11-13"
+  },
+  {
+   "id": "6bd30cb83ee239e5",
+   "title": "Strategic Customer Success Partner Coach - France",
+   "company": "360Learning",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-11-12",
+   "salary": null,
+   "description_snippet": "Strategic Customer Success Partner Coach - France",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/360learning/jobs/strategic-customer-success-partner-coach-france_paris_360LE_RbpOq78"
+    }
+   ],
+   "first_seen": "2026-11-12"
   },
   {
    "id": "3b1c1f8db162b8c8",
@@ -42991,34 +43193,6 @@
    "first_seen": "2026-11-13"
   },
   {
-   "id": "fc50d9a0826c65dc",
-   "title": "Assistant Commercial (H/F)",
-   "company": "AUTO1 Group",
-   "location": "Saint-Maur-des-Fossés, A8, France",
-   "city": "Saint-Maur-Des-Fosses",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "assistant"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 6,
-   "date_posted": "2026-11-12",
-   "salary": null,
-   "description_snippet": "**Notre entreprise** -------------------- Si tu as l'appétit des plus ambitieux, bienvenue dans notre aventure où nos promesses sont aussi grandes que nos projets ! AUTO1 Group, leader européen de l'achat et la vente de véhicules d'occasion, révolutionne le secteur depuis plus de 10 ans via ses marques Vendezvotrevoiture.fr , AUTO1.com et Autohero . En tant qu’Assistant Commercial (H/F), tu rejoin",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=9de6fa2dd8ae29ca"
-    }
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
    "id": "75100581953d0944",
    "title": "Superviseur Guest Experience Maker (H/F)",
    "company": "Hôtel The Brando",
@@ -56166,6 +56340,32 @@
     }
    ],
    "first_seen": "2026-11-12"
+  },
+  {
+   "id": "3d5d8d1aaaa918c5",
+   "title": "Customer Success Manager (FR)",
+   "company": "Stoïk",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-12",
+   "salary": null,
+   "description_snippet": "Customer Success Manager (FR)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/stoik/jobs/customer-success-manager-fr_paris_STOK_0k8DZgG"
+    }
+   ],
+   "first_seen": "2026-11-11"
   },
   {
    "id": "6f1ae3ee43069ab7",
@@ -69944,6 +70144,34 @@
     }
    ],
    "first_seen": "2026-10-15"
+  },
+  {
+   "id": "9aee4f0cd6c38547",
+   "title": "National Account Manager - France",
+   "company": "Joseph Joseph",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": 0,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "At Joseph Joseph, we are driven by a simple yet powerful belief — that intelligent design has the ability to transform everyday living. We create distinctive, thoughtfully engineered products that not only solve real-world problems but also bring joy, beauty, and functionality to daily life. Headquartered in London, we have grown into one of the world’s most admired houseware brands, with a presen",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=058147b4019b7c27"
+    }
+   ],
+   "first_seen": "2026-11-14"
   },
   {
    "id": "1e5ce94d7d6f96c9",
