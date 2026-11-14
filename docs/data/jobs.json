@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-13T23:17:31Z",
+ "generated_at": "2026-11-14T17:04:28Z",
  "source_stats": {
-  "Indeed": 3216,
-  "Welcome to the Jungle": 9175,
-  "France Travail": 499,
+  "Indeed": 3007,
+  "Welcome to the Jungle": 9170,
+  "France Travail": 580,
   "APEC": 0,
   "HelloWork": 0,
-  "Greenhouse": 9,
+  "Greenhouse": 6,
   "Lever": 1,
-  "Isarta": 136
+  "Isarta": 128
  },
  "blocked_sources": {
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 78 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 2538,
- "new_today": 29,
+ "count": 2576,
+ "new_today": 67,
  "jobs": [
   {
    "id": "12b18490635b0302",
@@ -289,6 +289,38 @@
    "first_seen": "2026-10-26"
   },
   {
+   "id": "cd113835d455445c",
+   "title": "Assistant(e) Administratif et Commercial (H/F)-56",
+   "company": "VILLADIM",
+   "location": "Vannes, A2, France",
+   "city": "Vannes",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "reporting",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 26,
+   "date_posted": "2026-11-14",
+   "salary": "25,000–35,000 EUR/yearly",
+   "description_snippet": "**La société** La société MORTIER CONSTRUCTION est un constructeur de maisons individuelles, connue sous l’enseigne MORTIER CONSTRUCTION pour son habitat sur mesure moyen-haut de gamme, créée il y a près de 40 ans, ainsi que sous la marque PRIMEA, qui propose des maisons personnalisables offrant un excellent rapport qualité/prix, destinées à une clientèle de primo-accédants ou d’investisseurs. MOR",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4774b418b2743d83"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "1326424a0dfee2d6",
    "title": "ASSISTANT(E) COMMERCIAL (H/F)",
    "company": "",
@@ -316,6 +348,45 @@
     {
      "name": "France Travail",
      "url": "https://fr.indeed.com/job/assistante-commercial-d359eafff2f05dfc?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "882d09f7c4072436",
+   "title": "Chef de Projet Marketing Digital CDD de remplacement 3 mois H/F",
+   "company": "RUN Services",
+   "location": "Nanterre, A8, France",
+   "city": "Nanterre",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDD",
+   "categories": [
+    "marketing_operations",
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "gestion de projet",
+    "kpi",
+    "processus",
+    "salesforce",
+    "sea",
+    "seo"
+   ],
+   "bonus_tags": [],
+   "score": 26,
+   "date_posted": "2026-11-13",
+   "salary": "40,000–41,000 EUR/yearly",
+   "description_snippet": "**À propos de RUN Services** ---------------------------- Filiale à 100% d’AXA France, RUN Services, basé à Nanterre (RER A – Nanterre Préfecture / RER E - Nanterre-La-Folie) est un acteur majeur de l’assurance Moto, Cyclo, Véhicules de Collection, Camping-Car et Plaisance. Connu via les marques commerciales AXA Passion et RUN Assurance, notamment en partenariat avec Direct Assurance, RUN Services",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=6e36dbfade0f466d"
+    },
+    {
+     "name": "France Travail",
+     "url": "https://join.com/companies/axa12/16948850-chef-de-projet-marketing-digital-cdd-de-remplacement-3-mois-h-f?pid=d0c6f59b69df21dc4528"
     }
    ],
    "first_seen": "2026-11-14"
@@ -556,41 +627,6 @@
     }
    ],
    "first_seen": "2026-11-10"
-  },
-  {
-   "id": "882d09f7c4072436",
-   "title": "Chef de Projet Marketing Digital CDD de remplacement 3 mois H/F",
-   "company": "RUN Services",
-   "location": "Nanterre, A8, France",
-   "city": "Nanterre",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDD",
-   "categories": [
-    "marketing_operations",
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "gestion de projet",
-    "kpi",
-    "processus",
-    "salesforce",
-    "sea",
-    "seo"
-   ],
-   "bonus_tags": [],
-   "score": 24,
-   "date_posted": "2026-11-13",
-   "salary": "40,000–41,000 EUR/yearly",
-   "description_snippet": "**À propos de RUN Services** ---------------------------- Filiale à 100% d’AXA France, RUN Services, basé à Nanterre (RER A – Nanterre Préfecture / RER E - Nanterre-La-Folie) est un acteur majeur de l’assurance Moto, Cyclo, Véhicules de Collection, Camping-Car et Plaisance. Connu via les marques commerciales AXA Passion et RUN Assurance, notamment en partenariat avec Direct Assurance, RUN Services",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=6e36dbfade0f466d"
-    }
-   ],
-   "first_seen": "2026-11-14"
   },
   {
    "id": "4b5ed67d8f303017",
@@ -1282,6 +1318,42 @@
     }
    ],
    "first_seen": "2026-10-15"
+  },
+  {
+   "id": "48d88f44e575989d",
+   "title": "Assistant marketing produits (H/F)",
+   "company": "BATI AVENUE",
+   "location": "Sainte-Florence, B5, France",
+   "city": "Sainte-Florence",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "assistant",
+    "marketing_produit"
+   ],
+   "skills": [
+    "excel",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 22,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "### **À propos de nous** Bati-avenue.com, filiale du Groupe Dubreuil et site e-commerce leader dans la fourniture aux professionnels du BTP et en équipements de chantier, a été élu meilleur site e-commerce 2025 dans sa catégorie par le magazine Capital et notée 4,4 sur Trustpilot. Notre start-up vendéenne se distingue par son esprit d’innovation, son agilité, et son management bienveillant. Notre ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=95206dd5d0a8dac9"
+    },
+    {
+     "name": "France Travail",
+     "url": "https://app.beetween.com/WeaselWeb/p/#/apply/job/x4fi1ira2n8/assistant-marketing-produits-h-f"
+    }
+   ],
+   "first_seen": "2026-11-14"
   },
   {
    "id": "d559c82dd6eafd5b",
@@ -2512,6 +2584,41 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "faa5ccabb40f0ed6",
+   "title": "Digital Marketing Officer (H/F/X)",
+   "company": "",
+   "location": "Luxembourg",
+   "city": "Luxembourg",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "kpi",
+    "roi",
+    "seo",
+    "tracking",
+    "trafic"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 20,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Foyer est le premier groupe d'assurance au Luxembourg et un acteur majeur du secteur financier. Sur un marché de plus en plus concurrentiel, le Groupe Foyer reste fidèle à ses valeurs : Confiance, Excellence, Innovation, Intégrité et Indépendance.Digital Marketing Officer (m/f)Rattaché(e) au Responsable Canaux Digitaux et Lead Management au sein du Service Marketing et Communication, vous contribu",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.moovijob.com/offres-emploi/foyer/digital-marketing-officer-hfx"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "1444058277dc4a48",
    "title": "Assistant e-commerce H/F",
    "company": "Body House Group",
@@ -2596,11 +2703,11 @@
    "score": 20,
    "date_posted": "2026-11-13",
    "salary": null,
-   "description_snippet": "France Comines L’assistant(e )/coordinateur(trice) Marketing (H/F) est en charge de la gestion du « service consommateurs » et d’apporter son assistance aux différents projets de l’équipe Marketing France. Au sein de l'équipe Marketing France, vous contribuerez au développement de nos marques (Biscoff, Lotus, TREK, nākd et Kiddylicious) à travers 4 missions clés : la gestion du service consommateu",
+   "description_snippet": "Frankrijk Comines L’assistant(e )/coordinateur(trice) Marketing (H/F) est en charge de la gestion du « service consommateurs » et d’apporter son assistance aux différents projets de l’équipe Marketing France. Au sein de l'équipe Marketing France, vous contribuerez au développement de nos marques (Biscoff, Lotus, TREK, nākd et Kiddylicious) à travers 4 missions clés : la gestion du service consomma",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=1071dbdca34909c3"
+     "url": "https://fr.indeed.com/viewjob?jk=b9ee4d4311c9585d"
     }
    ],
    "first_seen": "2026-11-13"
@@ -2906,8 +3013,8 @@
    "id": "c67b0eff46bece7b",
    "title": "ASSISTANT COMMERCIAL H/F",
    "company": "GROUPE JVS",
-   "location": "Lattes, O, France",
-   "city": "Lattes",
+   "location": "Châlons-en-Champagne, GE, France",
+   "city": "Chalons-En-Champagne",
    "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
@@ -2928,7 +3035,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=da9ae0d13759175f"
+     "url": "https://fr.indeed.com/viewjob?jk=5b8303052180b89e"
     }
    ],
    "first_seen": "2026-11-12"
@@ -4662,6 +4769,70 @@
     }
    ],
    "first_seen": "2026-10-15"
+  },
+  {
+   "id": "148413110aa91252",
+   "title": "ASSISTANT(E) COMMERCIAL",
+   "company": "INVICTA Shop",
+   "location": "Cholet, B5, France",
+   "city": "Cholet",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-14",
+   "salary": "2,000–2,200 EUR/monthly",
+   "description_snippet": "INVICTA/DEVILLE, fabricant et installateur français de solutions de chauffage à bois et granulés, recrute un(e) assistant(e) commercial(e) expérimenté(e) dans le cadre du développement de son magasin à Cholet (49). Rattaché(e) au responsable commercial du magasin, vous aurez en charge : - L’accueil des clients - La réception des appels téléphoniques - La gestion des mails - La présentation des pro",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=309c68d972b9cc8f"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "287ea038bce2752f",
+   "title": "Coordinateur commercial (H/F)",
+   "company": "Gojob",
+   "location": "68 - Hésingue",
+   "city": "68 - Hesingue",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "Intérim",
+   "categories": [
+    "coordination",
+    "sales_operations"
+   ],
+   "skills": [
+    "coordination",
+    "salesforce"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-14",
+   "salary": "Mensuel de 1842.0 Euros à 2229.0 Euros",
+   "description_snippet": "Description du poste : Nous recherchons pour notre client acteur de l'industrie, spécialisé dans la conception et la distribution d'équipements et de services techniques, des Coordinateur service client H/F pour démarrer dès que possible, avec expérience. Votre mission est essentielle pour assurer le suivi commercial et administratif des offres, des commandes et de la relation client sur des prest",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.meteojob.com/jobs/58005619?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-11-14"
   },
   {
    "id": "9dc631e91cbfd648",
@@ -7430,6 +7601,196 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "de0a3df3f99a7e22",
+   "title": "Assistant administratif et commercial H/F",
+   "company": "DYNA-TOURAINE",
+   "location": "Neuillé-Pont-Pierre, CVL, France",
+   "city": "Neuille-Pont-Pierre",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-14",
+   "salary": "1,900–2,500 EUR/monthly",
+   "description_snippet": "**Dans le cadre de notre activité, nous recherchons un(e) assistant(e) administratif(ve) et commercial(e) afin d’assurer l’accueil de nos clients ainsi que le suivi administratif et commercial de nos différentes activités.** **L'entreprise :** **DYNA-TOURAINE** est spécialisée dans la commercialisation de matériels neufs et d’occasion pour les secteurs des travaux publics (SANY), de l’agriculture ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=cbe0ba8536d9bbd7"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "a80572d9dc658e7a",
+   "title": "ASSISTANT COMMERCIAL FRANCE EN CDD H/F",
+   "company": "GROUPE SAVEL",
+   "location": "Hanvec, A2, France",
+   "city": "Hanvec",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "**Description** --------------- SAVEL, c’est une histoire de passion et de savoir-faire dans la production et la transformation de volailles de qualité. Depuis ses débuts, notre groupe s’est imposé comme un acteur majeur dans le secteur de la volaille, en offrant des produits tels que le poulet, le coquelet, la pintade et la dinde. Basé en Bretagne, au cœur d’un terroir riche et réputé pour son ex",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=738b2f7829f52cfe"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "36da342509bd0792",
+   "title": "Assistant(e) administratif(ve) et commercial(e) - Télétravail - temps partiel – 24 h/semaine",
+   "company": "S2C ENERGIE",
+   "location": "Thonon-les-Bains, ARA, France",
+   "city": "Thonon-Les-Bains",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-14",
+   "salary": "1,350–1,550 EUR/monthly",
+   "description_snippet": "**À propos du poste** S2C Energie installe, dépanne et entretient des systèmes de chauffage, de climatisation et des pompes à chaleur dans le Chablais. Entreprise en plein développement, nous recrutons notre secrétaire administratif(ve) et commercial(e) H/F, premier contact de nos clients **Responsabilités** * **Accueil téléphonique (priorité du poste)** : réception des appels, qualification des d",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5668c68c96851430"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "e3666379cfba7860",
+   "title": "Assistant(e) Commercial(e) F/H",
+   "company": "DOMALIANCE",
+   "location": "Auxonne, BFC, France",
+   "city": "Auxonne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-14",
+   "salary": "1,900–1,900 EUR/monthly",
+   "description_snippet": "### **Description de l'entreprise :** Domaliance Auxonne fait partie du groupe a2micile, spécialisé dans les services à la personne et représenté par deux marques : Azaé et Domaliance. C'est au travers de ses 386 agences de proximité sur l'ensemble de l'hexagone que le groupe propose ses services d'aide à domicile. Respect, bien être et considération sont les moteurs de nos actions. Ces valeurs in",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3b7c639afb1697e9"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "e2c49248852d0fa8",
+   "title": "Assistant-e Commercial-e ADV (H/F)",
+   "company": "Smart Impulse",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "salons",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "QUI SOMMES-NOUS ? Smart Impulse c'est l'histoire d'un projet de fin d'études qui se transforme en un projet entrepreneurial ambitieux et engagé ! C'est en 2011 que Charles et Henri, nos deux fondateurs, se lancent le défi de révolutionner la gestion de l'Énergie dans les bâtiments. Plus concrètement, nous concevons et développons des solutions de mesure électrique nouvelle génération avec un compt",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://smart-impulse.factorial.fr/apply/assistant-e-commercial-e-adv-333818?utm_source=francetravail.fr"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "124ce69a8a258347",
+   "title": "ACCOUNT MANAGER (H/F)",
+   "company": "",
+   "location": "69 - Lyon",
+   "city": "69 - Lyon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "fidelisation",
+    "portefeuille client",
+    "portefeuille clients",
+    "renouvellement"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Détail de poste Spécialiste de l'intérim et du recrutement par secteur, LIP compte plus de 190 agences en France et à l'étranger. Nos agences d'emploi Tertiaire, Commerce & Ingénierie recrutent en CDI, CDD et intérim. Comptabilité, finance, vente, commerce, informatique. Tous les domaines sont concernés. Avec LIP, menez votre projet professionnel vers la réussite ! Vous avez le goût du challenge c",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/57049857?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "589c2ad362e9f2b5",
    "title": "Chargé(e) Marketing H/F – Marketing Digital & Opérationnel",
    "company": "La Chaise Longue",
@@ -7582,6 +7943,38 @@
     {
      "name": "France Travail",
      "url": "https://careers.werecruit.io/fr/camif-habitat/offres/cheffe-de-projet-marketing-digital-et-communication-360-b38fb6?utm_source=francetravail&utm_medium=job-board"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "ba260946f7df9b27",
+   "title": "Traffic Manager Senior (SEA/SMA) F/H",
+   "company": "Digitaleo",
+   "location": "Rennes",
+   "city": "Rennes",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "google ads",
+    "meta ads",
+    "sea",
+    "tracking"
+   ],
+   "bonus_tags": [],
+   "score": 16,
+   "date_posted": "2026-09-30",
+   "salary": null,
+   "description_snippet": "Traffic Manager Senior (SEA/SMA) F/H <ul> <li dir=\"ltr\" role=\"presentation\">as <strong>au moins 4 &agrave; 5 ans d'exp&eacute;rience en agence</strong> dans le pilotage de campagnes &agrave; la performance, o&ugrave; tu as g&eacute;r&eacute; plusieurs comptes clients en parall&egrave;le.</li> <li dir=\"ltr\" role=\"presentation\">as d&eacute;j&agrave;&nbsp;<strong>construit et port&eacute; des strat&e",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/digitaleo-2/jobs/senior-paid-media-strategist-f-h_rennes"
     }
    ],
    "first_seen": "2026-11-14"
@@ -11438,13 +11831,13 @@
    "skills": [],
    "bonus_tags": [],
    "score": 16,
-   "date_posted": "2026-11-07",
+   "date_posted": "2026-11-14",
    "salary": null,
    "description_snippet": "Customer Success Specialist H/F",
    "sources": [
     {
      "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/dougs/jobs/customer-success-specialist-h-f_bron_DOUGS_kJW2AZ"
+     "url": "https://www.welcometothejungle.com/fr/companies/dougs/jobs/customer-success-specialist-h-f_bron_DOUGS_4DQ55za"
     }
    ],
    "first_seen": "2026-11-01"
@@ -13387,6 +13780,126 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "4f0a1f7239e7898f",
+   "title": "Coordinateur Wedding et Event (H/F)",
+   "company": "Hôtel St Regis Bora Bora Resort",
+   "location": "Bora-Bora, DTM, France",
+   "city": "Bora-Bora",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "coordination"
+   ],
+   "skills": [
+    "coordination"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "**Etablissement** Hôtel St Regis Bora Bora Resort Motu Ome’e – 98730 Bora Bora **Lieu** Bora-Bora (Polynésie Française) **Date de parution** 14/11/2026 **Intitulé du poste** **Coordinateur Wedding et Event** **(H/F)** **Activité** Hôtellerie - Restauration **Contrat** CDD Temps de travail : 39h00 Logement, repas, pris en charge par l'hôtel. Déplacement/Billet d'avion pris en charge. **Profil** * E",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1ba46d2dbc8a294c"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "0e38df848c6e9291",
+   "title": "Assistant commercial H/F",
+   "company": "NATIONAL RELAIS",
+   "location": "Issy-les-Moulineaux, A8, France",
+   "city": "Issy-Les-Moulineaux",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "reseaux sociaux",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-14",
+   "salary": "21,600–35,400 EUR/yearly",
+   "description_snippet": "**À propos du poste** En tant qu’assistant commercial ou assistante commerciale, vous contribuez au suivi administratif des activités commerciales et à la qualité du service apporté aux client(e)s. Vous facilitez la circulation des informations et l’organisation des dossiers au quotidien. **Responsabilités** * Assurez le suivi administratif des activités commerciales et classez les documents de ma",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7464f33103a6d6b2"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "f1a4cfcee759c7ae",
+   "title": "Key Account Manager H/F",
+   "company": "Skolae",
+   "location": "Lyon, ARA, France",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "fidelisation",
+    "portefeuille client"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-11-14",
+   "salary": "41,400–44,100 EUR/yearly",
+   "description_snippet": "SKOLAE est un réseau d’établissements d’enseignement supérieur et de formation professionnelle des entreprises. Le **pôle éducation** est composé de 23 écoles spécialisées réparties sur 25 campus en France et qui regroupe près de 22 000 étudiants. Le **Pôle formation** regroupe une trentaine de sites au niveau national et forme chaque année environ 150 000 apprenants (salariés, demandeurs d’emploi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4f8c4962c325bfa1"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "6a351659f2fe8d4a",
+   "title": "Assistant(e) COMMERCIALE BILINGUE H/F",
+   "company": "",
+   "location": "70 - Aboncourt-Gesincourt",
+   "city": "70 - Aboncourt-Gesincourt",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "Intérim",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Vos missions : - Gestion des demandes clients et prise de commande, - Gestion des bons de livraisons, des livraisons et des reprises, - Gestion du stock déporté, - Réalisation de suivi commerciale, établir les variations selon les chiffres, - Aide administrative aux négociations annuelles avec GMS, Grossistes et RHF, - Préparation des opérations commerciales pour GMS par région, - Gestion des prem",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/57039968?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "66cd90de78b0f087",
    "title": "Assistant(e) commercial(e) / direction",
    "company": "Chez Lease",
@@ -13550,7 +14063,7 @@
    "city": "Beaune",
    "region": "other",
    "work_mode": "onsite",
-   "contract": "CDD",
+   "contract": "CDI",
    "categories": [
     "assistant"
    ],
@@ -13561,7 +14074,7 @@
    "score": 14,
    "date_posted": "2026-11-13",
    "salary": null,
-   "description_snippet": "**Assistant(e) Commercial H/F** **CDD Beaune (21)** Vous aimez accompagner les équipes terrain, coordonner des actions commerciales et jouer un rôle central dans la dynamique réseau ? Rejoignez **Atol**, une coopérative innovante, responsable et engagée pour le bien voir de tous depuis plus de 50 ans. Nous recherchons un(e) **Assistant(e) Commercial(e)** en **CDD de 6 MOIS** renouvable pour souten",
+   "description_snippet": "**Assistant(e) Commercial H/F** **CDI Beaune (21)** Vous aimez accompagner les équipes terrain, coordonner des actions commerciales et jouer un rôle central dans la dynamique réseau ? Rejoignez **Atol**, une coopérative innovante, responsable et engagée pour le bien voir de tous depuis plus de 50 ans. Nous recherchons un(e) **Assistant(e) Commercial(e)** en **CDI** pour soutenir notre croissance e",
    "sources": [
     {
      "name": "Indeed",
@@ -13851,34 +14364,6 @@
    "first_seen": "2026-11-13"
   },
   {
-   "id": "31b21041f7488d2e",
-   "title": "Customer Success Specialist",
-   "company": "Askara",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": null,
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "satisfaction client"
-   ],
-   "bonus_tags": [],
-   "score": 14,
-   "date_posted": "2026-11-13",
-   "salary": "27,000–30,000 EUR/yearly",
-   "description_snippet": "**Finalité du poste** --------------------- Le.la Customer Success Specialist assure l’accompagnement opérationnel des clients dans l’utilisation des solutions de l’entreprise afin de garantir la qualité de service, la satisfaction client et le bon traitement des demandes utilisateurs. Il.Elle contribue à la fluidité des opérations clients dans le respect des procédures et des priorités définies p",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=2531f0244ac08811"
-    }
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
    "id": "3beae9f842b42f31",
    "title": "Revenue Operations Manager",
    "company": "Vizzia",
@@ -14148,6 +14633,36 @@
     {
      "name": "France Travail",
      "url": "https://www.directemploi.com/candidatOffre/57021918?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "1bd6814b0d93209c",
+   "title": "Assistant(e) ou Assistant Commercial(e) & Marketing H/F",
+   "company": "",
+   "location": "33 - Bassens",
+   "city": "33 - Bassens",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "Description Transdev recrute un(e) assistant(e) commercial(e) & marketing H/F Votre mission Au sein de l'équipe commerciale et marketing, vous contribuez au développement de la relation client, à la communication de l'entreprise et au bon fonctionnement administratif de l'activité. Véritable relais entre les clients, les équipes terrain et les différents services, vous participez activement à la q",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/56827946?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
     }
    ],
    "first_seen": "2026-11-13"
@@ -20713,6 +21228,92 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "d9897f1324e6f152",
+   "title": "Assistant commercial / deviseur imprimerie numérique grand format (H/F)",
+   "company": "Exhibit Group",
+   "location": "Stains, A8, France",
+   "city": "Stains",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "evenementiel"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Une demande arrive. Cent quatre-vingts panneaux contrecollés, découpés à la forme, livrés sur six points de vente, sous dix jours. Deux questions : est-ce qu’on sait le faire, et combien ça coûte. C’est vous qui répondez. Vous choisissez la matière, le procédé, la machine, le mode de finition. Vous arbitrez entre ce qui est le plus rapide et ce qui est le plus rentable. Et quand la demande ne tien",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e91b33915ebd8615"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "e7f2eed7f581e326",
+   "title": "Account Manager junior | Artificial Intelligence & Digital Transformation",
+   "company": "Groupe Talents Handicap",
+   "location": "Nanterre, A8, France",
+   "city": "Nanterre",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "*En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums.* *L'entreprise* ***Wavestone*** *recherche actuellement des profils :* Dans un monde où savoir se transformer est la clé du succès, l'ambition de Wav",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=39fd2acee596fe0b"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "b1d8a27de572c25d",
+   "title": "Chargé / Chargée marketing digital (H/F)",
+   "company": "ITIC PARIS",
+   "location": "75 - Paris 20e Arrondissement",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "roi"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Offre collectée par La bonne alternance : Le Chargé de marketing digital met en œuvre des stratégies marketing en ligne, pour accroître la visibilité et l'engagement autour d'un produit, d'une marque ou d'une entreprise sur divers canaux numériques Conçoit et met en œuvre des opérations de marketing digital pour optimiser la visibilité et l'engagement en ligne Analyse les performances des campagne",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://labonnealternance.apprentissage.beta.gouv.fr/emploi/offres_emploi_lba/6af71835c3367d6aa4c1fd62/chargé-chargée-marketing-digital"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "f94132c8c0cd9c58",
    "title": "Assistant(e) administratif(ve) et commercial(e) (H/F)",
    "company": "CE PREMIUM",
@@ -20743,6 +21344,34 @@
     }
    ],
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "31b21041f7488d2e",
+   "title": "Customer Success Specialist (H/F)",
+   "company": "Askara",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Finalité du poste Le.la Customer Success Specialist assure l'accompagnement opérationnel des clients dans l'utilisation des solutions de l'entreprise afin de garantir la qualité de service, la satisfaction client et le bon traitement des demandes utilisateurs. Il.Elle contribue à la fluidité des opérations clients dans le respect des procédures et des priorités définies par l'entreprise. Salaire 2",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://join.com/companies/askaraai/16947772-customer-success-specialist?pid=d0c6f59b69df21dc4528"
+    }
+   ],
+   "first_seen": "2026-11-13"
   },
   {
    "id": "4f0aa0c3e4a2697a",
@@ -21013,36 +21642,6 @@
    "first_seen": "2026-11-13"
   },
   {
-   "id": "1bd6814b0d93209c",
-   "title": "Assistant(e) ou Assistant Commercial(e) & Marketing H/F",
-   "company": "",
-   "location": "Île-de-France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 12,
-   "date_posted": "2026-11-13",
-   "salary": null,
-   "description_snippet": "Description Transdev recrute un(e) assistant(e) commercial(e) & marketing H/F Votre mission Au sein de l'équipe commerciale et marketing, vous contribuez au développement de la relation client, à la communication de l'entreprise et au bon fonctionnement administratif de l'activité. Véritable relais entre les clients, les équipes terrain et les différents services, vous participez activement à la q",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://www.directemploi.com/candidatOffre/56827946?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
-    }
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
    "id": "dc0361670b851ae5",
    "title": "Traffic Manager SEA & Ads H/F",
    "company": "",
@@ -21165,6 +21764,36 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/sopra-steria/jobs/ingenieur-commercial-account-manager-transport-ile-de-france_courbevoie"
+    }
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "5b8d81306aca334c",
+   "title": "Chef de produits IARD F/H - Paris",
+   "company": "Groupe BPCE",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "**Description de l'entreprise** ------------------------------- **Avant de commencer, quelques mots sur notre entreprise** : Intégrer BPCE Assurances IARD, c’est rejoindre une entreprise qui fait partie du 2èmegroupe bancaire en France : Le groupe BPCE. BPCE Assurances IARD conçoit et gère ses contrats d’assurances non-vie distribués par les réseaux Banque Populaire et Caisse d’Epargne à ses clien",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fffb0ac1b3af850d"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/groupe-bpce/jobs/chef-de-produits-iard-f-h-paris_paris"
     }
    ],
    "first_seen": "2026-11-13"
@@ -27198,6 +27827,144 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "f83716c4bfe8a0ec",
+   "title": "Spécialiste de l’offre (F/H)",
+   "company": "Carrefour",
+   "location": "Massy, A8, France",
+   "city": "Massy",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-11-14",
+   "salary": "3,202–3,202 EUR/monthly",
+   "description_snippet": "A propos de l'offre :: ### **Spécialiste de l’offre (F/H)** Vous êtes analytique, créatif et avez à cœur de bâtir une gamme de produits performante et adaptée aux attentes de nos clients ? En tant que Spécialiste de l’offre (F/H), vous définissez la stratégie, structurez l’assortiment et pilotez les projets merchandising de votre famille de produits. #### **Vos missions :** * **Stratégie et veille",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fad9d5a3a1c0b716"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "1e84bc99309e042a",
+   "title": "Coordinateur ADV Export H/F",
+   "company": "",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "coordination"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "TALENTS ADV-SUPPLY, cabinet de recrutement national spécialisé sur les métiers ADV, Assistanat Commercial, Import/Export, Relation client, Logistique, Transport, Achats et Supply Chain. Nous recrutons, pour l'un de nos clients, un Coordinateur ADV Export H/F. MISSIONS : - Gestion Opérationnelle Allemagne, UK & Grands Contrats : - Saisie, traitement et suivi complet des commandes sur les zones Alle",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/56967781?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "2153fc4c3d9ec747",
+   "title": "Assistant commercial H/F",
+   "company": "GROSSISTE EN FRUITS ET LEGUMES",
+   "location": "Chevilly-Larue, A8, France",
+   "city": "Chevilly-Larue",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "Acteur reconnu sur le MIN de Rungis, un grossiste historique en fruits et légumes recherche sa nouvelle pépite. Pour accompagner notre développement dans un environnement dynamique et exigeant, nous recherchons un(e) Assistant(e) Commercial(e) dont le rôle sera de renforcer notre équipe de livraison et d'assurer une fluidité optimale entre la vente, la gestion administrative et la satisfaction de ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b9f4e79d42065187"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "9ddc8d525507f2e3",
+   "title": "Key Account Manager / Customer Success Manager (Sud-Est) - Responsable Grands Comptes",
+   "company": "Tilak Healthcare",
+   "location": "Marseille",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management",
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "Key Account Manager / Customer Success Manager (Sud-Est) - Responsable Grands Comptes * 3 ans d’expérience professionnelle sur un poste similaire * Une forte motivation pour nous accompagner dans le développement de la médecine digitale * Un esprit curieux et de très bonnes capacités de communication * La capacité d’adapter votre discours en fonction de votre interlocuteur et de rendre simple les ",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/tilak-healthcare/jobs/key-account-manager-centre-est-responsable-grands-comptes_paris_TH_wg3dxmo"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "c63d243c50cb4edb",
+   "title": "CHARGE DE MARKETING CLIENT SOLUTIONS H/F",
+   "company": "Groupe M6",
+   "location": "Neuilly-Sur-Seine",
+   "city": "Neuilly-Sur-Seine",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-10-14",
+   "salary": null,
+   "description_snippet": "CHARGE DE MARKETING CLIENT SOLUTIONS H/F Indispensable : • Formation supérieure Bac+4/5 en marketing, communication, publicité, médias ou école de commerce • Au moins 3 à 5 ans d&#39;expérience sur un poste similaire en régie publicitaire ou en agence média, hors stages et alternances • Maîtrise des recommandations stratégiques, des argumentaires commerciaux et des présentations destinées aux anno",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/m6-publicite/jobs/charge-de-marketing-client-solutions-h-f_neuilly-sur-seine"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "1c86dec3aa53d59a",
    "title": "France Insights Business Partner - Partenaire Analyses Etudes de Marché (d/f/m)",
    "company": "Roche",
@@ -27863,7 +28630,7 @@
    ],
    "bonus_tags": [],
    "score": 10,
-   "date_posted": "2026-11-13",
+   "date_posted": "2026-11-14",
    "salary": null,
    "description_snippet": "Consultant marketing digital SEA - Montpellier CDI H/F **Ce qu’on cherche chez toi :** 🔍 Tu as une formation en marketing digital ou une passion avérée pour le sujet 💡 Tu sais bosser avec méthode, mais t’as aussi un côté “créatif malin” 📊 Tu aimes les chiffres (et ils te le rendent bien) 🧠 Tu veux apprendre des meilleurs pour devenir une référence de ton domaine **Pourquoi JVWEB ?** Ici, on mise s",
    "sources": [
@@ -41562,6 +42329,62 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "28fdf62199b1314e",
+   "title": "Ingénieur(e) Commercial(e) / Account Manager - Transport - Ile-de-France",
+   "company": "Groupe Talents Handicap",
+   "location": "Nanterre, A8, France",
+   "city": "Nanterre",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "*En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums.* *L'entreprise* ***Sopra Steria*** *recherche actuellement des profils :* Sopra Steria, acteur majeur de la Tech en Europe avec 56000 collaborateurs ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c748742e600aa52f"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "4047828ee086c014",
+   "title": "Customer success manager - defense & ia f/h (H/F)",
+   "company": "",
+   "location": "92 - Issy-les-Moulineaux",
+   "city": "Issy-Les-Moulineaux",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Lieu : Issy-les-Moulineaux, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.jobdefense.com/emploi-defense/customer-success-manager-defense-et-ia-fh~32771.html?fromref=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "4f7c413c47a3fb0a",
    "title": "CDD - Chef de Produit Prêt-à-Porter Homme - Chemises/Pantalons/Denim/Plage",
    "company": "Hermès",
@@ -41643,6 +42466,36 @@
     {
      "name": "France Travail",
      "url": "https://fr.indeed.com/job/vendeurse-polyvalente-v%C3%A9los-%C3%A9lectriques-r%C3%A9paration-et-marketing-digital-bfc0e1c6e9d96dd1?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "b0af23cad4f6a1a0",
+   "title": "Product Marketing manager Digital ID F/H",
+   "company": "Thales",
+   "location": "Meudon",
+   "city": "Meudon",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-10-15",
+   "salary": null,
+   "description_snippet": "Product Marketing manager Digital ID F/H",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/thales/jobs/product-marketing-manager-digital-id-f-h_meudon"
+    },
+    {
+     "name": "Isarta",
+     "url": "https://isarta.fr/?job=77079"
     }
    ],
    "first_seen": "2026-11-14"
@@ -42613,6 +43466,34 @@
    "first_seen": "2026-11-12"
   },
   {
+   "id": "a5273e4d64bf2d90",
+   "title": "Adjoint / Adjointe à la direction marketing (H/F)",
+   "company": "Direct Emploi",
+   "location": "69 - Lyon",
+   "city": "69 - Lyon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Description du poste : - Communication & partenariats - 30 % Rendre Hyggle visible auprès des bons interlocuteurs. - Améliorer la visibilité de notre site web et son référencement sur les sujets EnergyTech, IA et optimisation énergétique. - Concevoir et publier des contenus LinkedIn pertinents pour les décideurs professionnels. - Identifier et qualifier des partenaires stratégiques : intégrateurs,",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://emploi.inzejob.com/offre-emploi/19657350/alternance-adjoint-adjointe-a-la-direction-marketing-lyon-f-h?utm_source=poleEmploi&utm_medium=referral&utm_campaign=affiliate"
+    }
+   ],
+   "first_seen": "2026-11-11"
+  },
+  {
    "id": "6ece4b30fd6e9905",
    "title": "Regional Demand Planning Manager, Europe+APAC",
    "company": "Antech Diagnostics",
@@ -42722,34 +43603,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=6a6073e599ed149e"
-    }
-   ],
-   "first_seen": "2026-11-11"
-  },
-  {
-   "id": "a5273e4d64bf2d90",
-   "title": "Adjoint / Adjointe à la direction marketing (H/F)",
-   "company": "Direct Emploi",
-   "location": "69 - Lyon",
-   "city": "69 - Lyon",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 6,
-   "date_posted": "2026-11-11",
-   "salary": null,
-   "description_snippet": "Description du poste : - Communication & partenariats - 30 % Rendre Hyggle visible auprès des bons interlocuteurs. - Améliorer la visibilité de notre site web et son référencement sur les sujets EnergyTech, IA et optimisation énergétique. - Concevoir et publier des contenus LinkedIn pertinents pour les décideurs professionnels. - Identifier et qualifier des partenaires stratégiques : intégrateurs,",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://emploi.inzejob.com/offre-emploi/19643495/alternance-adjoint-adjointe-a-la-direction-marketing-lyon-f-h?utm_source=poleEmploi&utm_medium=referral&utm_campaign=affiliate"
     }
    ],
    "first_seen": "2026-11-11"
@@ -54491,6 +55344,142 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "326f8f1d04a15a03",
+   "title": "Key Account Manager F/H",
+   "company": "",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Rattaché(e) au Directeur des Ventes Grands Comptes, vous intervenez dans le développement du portefeuille d'accords nationaux auprès de clients-prospects d'envergure : - Reprendre et développer un portefeuille de clients actifs, multisecteurs d'activités - Prospecter de nouveaux comptes cibles- Répondre à des appels d'offre privés et conduire des négociations financières et de services- Élaborer d",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/57039982?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "9203e00eabc8a330",
+   "title": "Key Account Manager H/F",
+   "company": "",
+   "location": "92 - Courbevoie",
+   "city": "Courbevoie",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Notre client est un groupe international qui évolue dans le secteur des solutions de merchandising dédiées à la GMS et accompagne de grandes enseignes dans l'amélioration de leur performance commerciale en magasin. Elle conçoit et déploie des solutions de merchandising, d'aménagement, de visibilité en point de vente et d'optimisation des opérations terrain. Réputée pour son approche innovante, sa ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/57041042?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "f13bda3335112329",
+   "title": "Key Account Manager GSB H/F",
+   "company": "",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Notre client est une entreprise espagnole fondée en . Elle est spécialisée dans la conception et la fabrication de peintures en aérosol et d'accessoires destinés aux artistes urbains et aux professionnels de la décoration. Elle distribue ses produits dans plus de 80 pays. L'entreprise investit continuellement dans la recherche et le développement afin d'améliorer les performances de ses peintures.",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/57040734?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "7402c724976535df",
+   "title": "Sales account manager - Industries H/F",
+   "company": "",
+   "location": "91 - Ulis",
+   "city": "Ulis",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Notre client est un fabricant d'infrastructure réseau, reconnu du secteur, spécialisé dans l'accompagnement de ses clients dans leurs projets de transformation et de modernisation des réseaux. Présent sur des marchés en forte croissance, il propose des solutions innovantes couvrant la connectivité, les architectures réseaux, la cybersécurité ainsi que les services associés. L'entreprise s'appuie s",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/57040747?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "4062114309b425dc",
+   "title": "Key Account Executive Grands Magasins France H/F",
+   "company": "",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Enjeux du poste : Le poste de Key Account Executive Grands Magasins s'inscrit dans la refonte globale portée par la marque sur son réseau de partenaires Grands Magasins. Il / elle est responsable de définir, mettre en oeuvre et suivre, les plans de commercialisation des collections Hommes, dans les enseignes dont il a la responsabilité et dans le respect de la stratégie catégorielle groupe. Ce pos",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.directemploi.com/candidatOffre/57040565?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "2b4f84aa0b42871a",
    "title": "Head of Hospitals & Home Care",
    "company": "Doctolib",
@@ -54662,32 +55651,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=eed60c7d19bf4dca"
-    }
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "5b8d81306aca334c",
-   "title": "Chef de produits IARD F/H - Paris",
-   "company": "Groupe BPCE",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-11-13",
-   "salary": null,
-   "description_snippet": "Chef de produits IARD F/H - Paris <h2 style=\"text-align: justify;\"><span style=\"font-size: 14px;\">Votre profil</span></h2> <p style=\"text-align: justify;\"><span style=\"font-size: 14px;\">Vous êtes titulaire d'une formation supérieure de niveau Bac+4/5, idéalement en école de commerce. Vous appréciez les environnements transverses et savez faire avancer des projets en coordonnant des interlocuteurs ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/groupe-bpce/jobs/chef-de-produits-iard-f-h-paris_paris"
     }
    ],
    "first_seen": "2026-11-13"
@@ -55312,6 +56275,34 @@
    "first_seen": "2026-11-11"
   },
   {
+   "id": "761a27ceda6c8967",
+   "title": "DIRECTEUR / DIRECTRICE COMMUNICATION ET MARKETING DIGITAL (H/F)",
+   "company": "Bras Droit des Dirigeants",
+   "location": "49 - Cholet",
+   "city": "49 - Cholet",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Vos missions Selon vos expertises, vous interviendrez quelques jours par semaine auprès de dirigeants pour des missions telles que : - Direction Communication et Marketing Digital externalisée à temps partagé - Structurer et piloter la stratégie de communication et de marketing digital de l'entreprise - Acquérir des clients grâce au digital, faire ou refaire son site web, piloter ses réseaux socia",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.pmejob.fr/emploi/directeur-directrice-communication-et-marketing-digital-1107782?utm_source=francetravail&utm_medium=partner&utm_campaign=francetravail"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "01d36976e739168a",
    "title": "Key Account Manager en Logistique (H/F) - CDD - Secteur Nord IDF/Hauts de France (95-59)",
    "company": "Gojob",
@@ -55385,34 +56376,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/dilitrust/jobs/key-account-manager-france_paris_DILIT_LxRg685"
-    }
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "761a27ceda6c8967",
-   "title": "DIRECTEUR / DIRECTRICE COMMUNICATION ET MARKETING DIGITAL (H/F)",
-   "company": "Bras Droit des Dirigeants",
-   "location": "60 - Compiègne",
-   "city": "60 - Compiegne",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "sea"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-11-12",
-   "salary": null,
-   "description_snippet": "Vos missions Selon vos expertises, vous interviendrez quelques jours par semaine auprès de dirigeants pour des missions telles que : - Direction Communication et Marketing Digital externalisée à temps partagé - Structurer et piloter la stratégie de communication et de marketing digital de l'entreprise - Acquérir des clients grâce au digital, faire ou refaire son site web, piloter ses réseaux socia",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://www.pmejob.fr/emploi/directeur-directrice-communication-et-marketing-digital-1055592?utm_source=francetravail&utm_medium=partner&utm_campaign=francetravail"
     }
    ],
    "first_seen": "2026-11-10"
@@ -56895,6 +57858,32 @@
    "first_seen": "2026-11-10"
   },
   {
+   "id": "55c985f271c7081b",
+   "title": "Key account manager marketplace (H/F)",
+   "company": "Teamis",
+   "location": "75 - Paris 9e Arrondissement",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": "Annuel de 65000.0 Euros à 95000.0 Euros - Il en faut plus pour vous convaincre",
+   "description_snippet": "Description du poste : En postulant à cette offre, vous aurez l'opportunité de rejoindre un groupe leader accompagnant les entreprises innovantes dans la conception, le développement et le déploiement de produits digitaux. Au sein d'une entité experte dédiée au secteur de la santé, l'équipe conçoit et développe des dispositifs médicaux numériques sur-mesure (thérapies digitales, essais cliniques v",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.meteojob.com/jobs/58048887?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-11-09"
+  },
+  {
    "id": "f6c32b8c8dce75d7",
    "title": "Key Account Manager",
    "company": "Hiflow",
@@ -57301,32 +58290,6 @@
     {
      "name": "France Travail",
      "url": "https://www.meteojob.com/jobs/57835329?utm_source=pole-emploi&utm_medium=aggregator-free"
-    }
-   ],
-   "first_seen": "2026-11-09"
-  },
-  {
-   "id": "55c985f271c7081b",
-   "title": "Key account manager marketplace (H/F)",
-   "company": "Teamis",
-   "location": "75 - Paris 9e Arrondissement",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-11-07",
-   "salary": "Annuel de 60000.0 Euros à 95000.0 Euros - Il en faut plus pour vous convaincre",
-   "description_snippet": "Description du poste : En postulant à cette offre, vous aurez l'opportunité de rejoindre un groupe innovant spécialisé dans la conception, le développement et le déploiement de produits digitaux ingénieux, qui accompagne des entreprises et institutions financières pour rendre la finance plus utile. Ils sont à la recherche d'un(e) Key Account Manager pour développer un compte bancaire stratégique d",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://www.meteojob.com/jobs/57935699?utm_source=pole-emploi&utm_medium=aggregator-free"
     }
    ],
    "first_seen": "2026-11-09"
@@ -59252,6 +60215,32 @@
    "first_seen": "2026-11-02"
   },
   {
+   "id": "349bbd5ab94ce4b9",
+   "title": "Customer Success Manager Mid Market",
+   "company": "Modjo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Customer Success Manager Mid Market",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/customer-success-manager-mid-market_paris_MODJO_2gYk1qP"
+    }
+   ],
+   "first_seen": "2026-11-01"
+  },
+  {
    "id": "b6852cb04e1badc7",
    "title": "Customer Success Manager H/F",
    "company": "TWC - Rosk x Brigad",
@@ -59363,32 +60352,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/partoo/jobs/customer-success-manager-key-accounts-cdi-paris-h-f-x_paris"
-    }
-   ],
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "349bbd5ab94ce4b9",
-   "title": "Customer Success Manager Mid Market",
-   "company": "Modjo",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-11-07",
-   "salary": null,
-   "description_snippet": "Customer Success Manager Mid Market",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/customer-success-manager-mid-market_paris_MODJO_D2ARxm"
     }
    ],
    "first_seen": "2026-11-01"
@@ -62317,6 +63280,58 @@
    "first_seen": "2026-10-22"
   },
   {
+   "id": "2396becee599f07d",
+   "title": "Strategic Account Manager",
+   "company": "Edumapper",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Strategic Account Manager * Une première expérience auprès de marques ou d’annonceurs est un plus, mais on regardera surtout ta façon de raisonner face à des problèmes * Tu crées facilement une relation de confiance et tu sais la faire durer * Tu es sensible aux questions que se posent les lycéens, tu aimes passer du temps avec eux et comprendre comment Edumapper peut les aider * Tu as une vraie a",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/edumapper/jobs/strategic-account-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "f3ec69ece47b7889",
+   "title": "Account Manager Mid Market",
+   "company": "Modjo",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Account Manager Mid Market",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/account-manager-mid-market_paris_MODJO_ewO2LZQ"
+    }
+   ],
+   "first_seen": "2026-10-22"
+  },
+  {
    "id": "2deb9472d79c6d9b",
    "title": "CDI - Account Manager Sport H/F",
    "company": "Klox",
@@ -62685,58 +63700,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/onepilot/jobs/customer-care-account-manager-h-f_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "2396becee599f07d",
-   "title": "Strategic Account Manager",
-   "company": "Edumapper",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-11-09",
-   "salary": null,
-   "description_snippet": "Strategic Account Manager * Une première expérience auprès de marques ou d’annonceurs est un plus, mais on regardera surtout ta façon de raisonner face à des problèmes * Tu crées facilement une relation de confiance et tu sais la faire durer * Tu es sensible aux questions que se posent les lycéens, tu aimes passer du temps avec eux et comprendre comment Edumapper peut les aider * Tu as une vraie a",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/edumapper/jobs/strategic-account-manager_paris"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
-   "id": "f3ec69ece47b7889",
-   "title": "Account Manager Mid Market",
-   "company": "Modjo",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-11-07",
-   "salary": null,
-   "description_snippet": "Account Manager Mid Market",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/account-manager-mid-market_paris_MODJO_kMy1Mzl"
     }
    ],
    "first_seen": "2026-10-22"
@@ -65574,6 +66537,94 @@
     }
    ],
    "first_seen": "2026-10-15"
+  },
+  {
+   "id": "494800a9e806fe36",
+   "title": "Directeur(trice) Systèmes Revenue Operations H/F",
+   "company": "Groupe Talents Handicap",
+   "location": "Paris 1er, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations",
+    "sales_operations"
+   ],
+   "skills": [
+    "crm",
+    "excel",
+    "gestion de projet",
+    "salesforce"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "*En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums.* *L'entreprise* ***LECTRA*** *recherche actuellement des profils :* Acteur majeur sur les marchés de la mode, de l’automobile et de l’ameublement, Le",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=6baaa37c8f66ad2c"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "de8ad683c3391fa2",
+   "title": "Directeur category manager - F/H",
+   "company": "ENTREMONT",
+   "location": "Lyon, ARA, France",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 2,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "Dans le cadre d’une création de poste, ENTREMONT ALLIANCE recherche son futur(e) **DIRECTEUR CATEGORY MANAGEMENT** **- F/H** dans le cadre d’un CDI à pourvoir sur Lyon (Part Dieu) avec des déplacements à prévoir. **FINALITES DE LA MISSION** Passionné/e par l’univers agro-alimentaire, le modèle coopératif agricole et la richesse des fromages de nos terroirs français, vous souhaitez vous investir pl",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=cb70851373d40c98"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "0f5b0b0638b10cd4",
+   "title": "Account Manager Senior Partenariats (F/H) | CDI",
+   "company": "Alpes 2030",
+   "location": "Décines-Charpieu, ARA, France",
+   "city": "Decines-Charpieu",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 2,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "En 2030, la France vibrera au rythme des Jeux Olympiques (1 au 17 février) et Paralympiques (1er au 10 mars) d'hiver Alpes 2030. Derrière chaque exploit qui marquera ces Jeux, et chaque athlète qui franchira la ligne d'arrivée sous les encouragements du monde entier, il y aura eu des années de travail, d’engagement et de passion. Une équipe est déjà à l’œuvre pour rendre ces moments possibles, et ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5ab8f71abc874e69"
+    }
+   ],
+   "first_seen": "2026-11-14"
   },
   {
    "id": "16164e3571c7cbd7",
@@ -70965,6 +72016,64 @@
    "first_seen": "2026-10-15"
   },
   {
+   "id": "fc9070fec19cd5be",
+   "title": "Head of Revenue Marketing",
+   "company": "Dust",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm"
+   ],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": -2,
+   "date_posted": "2026-11-14",
+   "salary": "245,000–300,000 EUR/yearly",
+   "description_snippet": "**About Dust** ============== **Work is being rewritten, and the people holding the pen are the ones who actually run it.** With enterprise-grade governance, flexible model choice, and a collaborative interface for humans and agents to work together, Dust empowers AI Operators at the world’s fastest-moving companies to rewire how work gets done. With 70%+ weekly active users, people stick with Dus",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=41d9d2b21edfd0ed"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "d111012d3379a8c2",
+   "title": "Directeur(trice) Expérience Client & Projets (H/F)",
+   "company": "COALLIS",
+   "location": "Marcq-en-Barœul, HDF, France",
+   "city": "Marcq-En-Barœul",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-11-14",
+   "salary": "38,000–50,000 EUR/yearly",
+   "description_snippet": "Directeur(trice) Expérience Client & Projets **Description du poste :** Faites équipe avec vos clients. Orchestrez leurs projets. Accompagnez leur réussite. Faites d'eux des ambassadeurs de Mushin. Nous ? **Chez Mushin, nous aidons les marques et enseignes à mieux écouter leurs consommateurs pour concevoir des offres et des expériences plus pertinentes.** Notre plateforme et notre méthode associen",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a8cbcb90994b3167"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "2964b3d0a977a5d5",
    "title": "Head of Marketing France",
    "company": "Levi Strauss",
@@ -71873,6 +72982,34 @@
    "first_seen": "2026-10-29"
   },
   {
+   "id": "99dca8696b00590d",
+   "title": "Directeur Key Account Manager Grande Distribution & FMCG (H/F)",
+   "company": "Michael Page",
+   "location": "94 - Créteil",
+   "city": "Creteil",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-11-14",
+   "salary": null,
+   "description_snippet": "Description du poste : Vous disposez d'une solide expérience de Directeur d'Enseigne / Key Account Manager GMS avec une forte exposition à la catégorie épicerie. Vos missions seront les suivantes:***Gestion et développement de comptes nationaux majeurs en GMS , dans l'univers de l'épicerie * Pilotage des négociations commerciales nationales et régionales, suivi des accords annuels, optimisation de",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.meteojob.com/jobs/58052451?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-10-28"
+  },
+  {
    "id": "dbf28495ef469772",
    "title": "Account Manager Senior - H/F",
    "company": "Comet",
@@ -71896,34 +73033,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/skillee/jobs/account-manager-h-f_neuilly-sur-seine"
-    }
-   ],
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "99dca8696b00590d",
-   "title": "Directeur Key Account Manager Grande Distribution & FMCG (H/F)",
-   "company": "Michael Page",
-   "location": "94 - Créteil",
-   "city": "Creteil",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": null,
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": -2,
-   "date_posted": "2026-10-28",
-   "salary": null,
-   "description_snippet": "Description du poste : Vous disposez d'une solide expérience de Directeur d'Enseigne / Key Account Manager GMS avec une forte exposition à la catégorie épicerie. Vos missions seront les suivantes:***Gestion et développement de comptes nationaux majeurs en GMS , dans l'univers de l'épicerie * Pilotage des négociations commerciales nationales et régionales, suivi des accords annuels, optimisation de",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://www.meteojob.com/jobs/57527493?utm_source=pole-emploi&utm_medium=aggregator-free"
     }
    ],
    "first_seen": "2026-10-28"
@@ -72026,15 +73135,17 @@
     "customer"
    ],
    "skills": [],
-   "bonus_tags": [],
+   "bonus_tags": [
+    "international"
+   ],
    "score": -2,
-   "date_posted": "2026-10-25",
+   "date_posted": "2026-11-14",
    "salary": "35,000–65,000 EUR/yearly",
-   "description_snippet": "**Description du poste :** Faire équipe avec nos clients, piloter leurs projets et les accompagner jusqu'à la réussite. **Nous ?** **Chez Mushin, nous aidons les marques et enseignes à mieux écouter leurs consommateurs pour concevoir et mettre sur le marché des offres plus pertinentes.** Notre méthode associe écoute client, co-création et intelligence collective pour transformer les enseignements ",
+   "description_snippet": "Directeur(trice) Expérience Client & Projets **Description du poste :** Faites équipe avec vos clients. Orchestrez leurs projets. Accompagnez leur réussite. Faites d'eux des ambassadeurs de Mushin. Nous ? **Chez Mushin, nous aidons les marques et enseignes à mieux écouter leurs consommateurs pour concevoir des offres et des expériences plus pertinentes.** Notre plateforme et notre méthode associen",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=fa8febe3b4e8cbba"
+     "url": "https://fr.indeed.com/viewjob?jk=bf8011731cc70069"
     }
    ],
    "first_seen": "2026-10-25"
@@ -73354,13 +74465,13 @@
    "skills": [],
    "bonus_tags": [],
    "score": -4,
-   "date_posted": "2026-11-07",
+   "date_posted": "2026-11-14",
    "salary": null,
    "description_snippet": "Senior Customer Success Manager - Mid Market",
    "sources": [
     {
      "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/senior-customer-success-manager-mid-market_paris_MODJO_bNRPjWo"
+     "url": "https://www.welcometothejungle.com/fr/companies/modjo/jobs/senior-customer-success-manager-mid-market_paris_MODJO_pPZeNb"
     }
    ],
    "first_seen": "2026-11-01"
@@ -74342,6 +75453,37 @@
     }
    ],
    "first_seen": "2026-10-15"
+  },
+  {
+   "id": "e4eda1543eb38bc9",
+   "title": "HEAD OF CUSTOMER SUCCESS & ACTIVATION",
+   "company": "Market pay",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "retention"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": -6,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "##### **Who we are** Founded in 2016, MarketPay is a European payment company delivering innovative payment solutions across in-store, online and mobile channels. Born within one of Europe's largest retail groups, retail is in our DNA. Today, we support major retailers, distributors and service companies with comprehensive payment solutions adapted to their business needs. Following several intern",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=ec9693223e4b0fd2"
+    }
+   ],
+   "first_seen": "2026-11-14"
   },
   {
    "id": "8962cd86b25b540c",
