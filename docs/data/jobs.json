@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-15T17:45:45Z",
+ "generated_at": "2026-11-15T22:32:16Z",
  "source_stats": {
-  "Indeed": 2583,
-  "Welcome to the Jungle": 9126,
-  "France Travail": 553,
+  "Indeed": 2407,
+  "Welcome to the Jungle": 9127,
+  "France Travail": 555,
   "APEC": 0,
   "HelloWork": 0,
   "Greenhouse": 3,
@@ -14,8 +14,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 78 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 2545,
- "new_today": 15,
+ "count": 2555,
+ "new_today": 25,
  "jobs": [
   {
    "id": "12b18490635b0302",
@@ -425,38 +425,6 @@
    "first_seen": "2026-11-13"
   },
   {
-   "id": "7b9aea23f6cf09c5",
-   "title": "Assistante administrative et commerciale automobile (H/F)",
-   "company": "Groupe Autosphere",
-   "location": "Niort, NA, France",
-   "city": "Niort",
-   "region": "west",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "excel",
-    "planning",
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 26,
-   "date_posted": "2026-11-13",
-   "salary": null,
-   "description_snippet": "**Rejoignez la révolution de la mobilité électrique !** Vous souhaitez relever un nouveau défi au sein d'une marque en pleine expansion et participer au développement en France du leader mondial du véhicule électrique et hybride ? Le Groupe Autosphere 1er distributeur automobile en France, poursuit le développement de sa concession de Niort (79) et recrute une Assistante Administrative et Commerci",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=f875fd43f26ea83d"
-    }
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
    "id": "f6e0a201913c8e74",
    "title": "Assistant(e) commercial(e) H/F",
    "company": "",
@@ -625,6 +593,40 @@
     }
    ],
    "first_seen": "2026-11-10"
+  },
+  {
+   "id": "65bf05c1c08377c4",
+   "title": "Traffic Manager International (CDI)",
+   "company": "Asphalte",
+   "location": "Bordeaux",
+   "city": "Bordeaux",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "google ads",
+    "meta ads",
+    "roas",
+    "roi",
+    "sea"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 24,
+   "date_posted": "2026-10-15",
+   "salary": null,
+   "description_snippet": "Traffic Manager International (CDI) Au-delà de la maîtrise technique des plateformes, la personne recherchée à ce poste devra avoir une vraie culture growth : face à un objectif ambitieux, elle cherche des opportunités en dehors du cadre, les teste et tranche. Voici ce qu’on aimerait retrouver chez tous les postulant·es : * Entre **3 et 6 ans d’expérience** sur un poste similaire, chez l’annonceur",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/asphalte/jobs/traffic-manager-international-cdi_bordeaux"
+    }
+   ],
+   "first_seen": "2026-11-15"
   },
   {
    "id": "4b5ed67d8f303017",
@@ -4733,6 +4735,102 @@
    "first_seen": "2026-11-15"
   },
   {
+   "id": "2e7d57425936ac88",
+   "title": "Assistant(e) commerciale",
+   "company": "Jacquot cyril",
+   "location": "Beaune, BFC, France",
+   "city": "Beaune",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-15",
+   "salary": null,
+   "description_snippet": "Entreprise spécialisée dans le secteur des antiquités nous poursuivons notre développement et renforçons notre équipe commerciale. Basée à **Beaune**, l’entreprise a structuré et professionnalisé le métier de commerçant ambulant. Dans le cadre de notre développement, nous recrutons un(e) **assistant(e) commercial(e)**, véritable **binôme du commercial terrain**. Votre rôle au quotidien : En lien d",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=77c87fbbdaa9c4dc"
+    }
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "56a9b063c695359f",
+   "title": "Assistant(e) commerciale (H/F)",
+   "company": "",
+   "location": "21 - Beaune",
+   "city": "21 - Beaune",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-15",
+   "salary": null,
+   "description_snippet": "Entreprise spécialisée dans le secteur des antiquités nous poursuivons notre développement et renforçons notre équipe commerciale. Basée à Beaune, l'entreprise a structuré et professionnalisé le métier de commerçant ambulant. Dans le cadre de notre développement, nous recrutons un(e) assistant(e) commercial(e), véritable binôme du commercial terrain. Votre rôle au quotidien : En lien direct avec u",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/assistante-commerciale-77c87fbbdaa9c4dc?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "1558531f4cbcd335",
+   "title": "Assistant administratif et commercial H/F",
+   "company": "DOMORIA HABITAT",
+   "location": "Draguignan, B8, France",
+   "city": "Draguignan",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-15",
+   "salary": "1,350–1,900 EUR/monthly",
+   "description_snippet": "Assistant(e) administratif(ve) et commercial(e) – DOMORIA HABITAT (H/F) DOMORIA HABITAT recrute dans le Var (83) ! Dans le cadre de son développement dans le département du Var, DOMORIA HABITAT recherche un(e) assistant(e) administratif(ve) et commercial(e), sérieux(se), organisé(e) et dynamique pour accompagner la gestion quotidienne et le développement de son activité sur le secteur. Vos mission",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=907d8ff5fbb65531"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "148413110aa91252",
    "title": "ASSISTANT(E) COMMERCIAL",
    "company": "INVICTA Shop",
@@ -4792,38 +4890,6 @@
     {
      "name": "France Travail",
      "url": "https://www.meteojob.com/jobs/58005619?utm_source=pole-emploi&utm_medium=aggregator-free"
-    }
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "1558531f4cbcd335",
-   "title": "Assistant administratif et commercial H/F",
-   "company": "DOMORIA HABITAT",
-   "location": "Marseille 9e, B8, France",
-   "city": "Marseille 9E",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "excel",
-    "planning",
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 18,
-   "date_posted": "2026-11-14",
-   "salary": "1,400–1,600 EUR/weekly",
-   "description_snippet": "Assistant(e) administratif(ve) et commercial(e) – Bâtiment (H/F) DOMORIA HABITAT – Marseille (13) * Contrat : CDI * Temps de travail : 24 heures par semaine * Lieu : Marseille * Prise de poste : Janvier 2027 * Rémunération : Selon profil et expérience Qui sommes-nous ? DOMORIA HABITAT est une entreprise spécialisée dans la rénovation et l’amélioration de l’habitat, intervenant notamment dans les d",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=7bd8939e31c5875c"
     }
    ],
    "first_seen": "2026-11-14"
@@ -4986,6 +5052,38 @@
     }
    ],
    "first_seen": "2026-11-14"
+  },
+  {
+   "id": "7b9aea23f6cf09c5",
+   "title": "Assistante administrative et commerciale automobile (H/F)",
+   "company": "Groupe Autosphere",
+   "location": "Aubière, ARA, France",
+   "city": "Aubiere",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "**Rejoignez la révolution de la mobilité électrique !** Vous souhaitez relever un nouveau défi au sein d'une marque en pleine expansion et participer au développement en France du leader mondial du véhicule électrique et hybride ? Le Groupe Autosphere 1er distributeur automobile en France, poursuit le développement de sa concession de Clermont Ferrand (63) et recrute une Assistante Administrative ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=237ac20d64a86b83"
+    }
+   ],
+   "first_seen": "2026-11-13"
   },
   {
    "id": "0ab63d6c9d1b8b7d",
@@ -7594,6 +7692,37 @@
    "first_seen": "2026-11-15"
   },
   {
+   "id": "64e25d192c6fff5d",
+   "title": "Assistant(e) ADV (H/F)",
+   "company": "",
+   "location": "21 - Dijon",
+   "city": "21 - Dijon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-15",
+   "salary": null,
+   "description_snippet": "Javel Barbizier, acteur incontournable de l'hygiène en Bourgogne-Franche-Comté et en Côte-d'Or. Nous conseillons les professionnels qui souhaitent améliorer leurs conditions de travail et celles de leurs équipes, avec des produits et du matériel d'hygiène de qualité et respectueux de l'environnement. Pour accompagner notre croissance, nous recrutons un(e) assistant(e) ADV. VOS MISSIONS : Sous la r",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/assistante-adv-c63cbdbf4bff2053?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
    "id": "6b8ad43989b5d883",
    "title": "Assistant(e) de direction et commercial(e)",
    "company": "MAISON FABRIK",
@@ -8557,6 +8686,37 @@
     {
      "name": "France Travail",
      "url": "https://api-v2-multidiff.xtramile.io/collect/8c4da4b9d547f1033cccedff0f498430"
+    }
+   ],
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "53d3c6c70bbc38b3",
+   "title": "ASSISTANT ADMINISTRATIF ET COMMERCIAL (H/F)",
+   "company": "Bricomarché",
+   "location": "Issoudun, CVL, France",
+   "city": "Issoudun",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "Acteur(trice) de la gestion commerciale du magasin Vous êtes garant(e) de la mise à jour de la base de données de gestion commerciale du point de vente : information sur les produits, tarification, tenue du fichier fournisseurs, gestion des stocks. Vous vous assurez de la bonne codification des articles (articles qui ont changé, modification de référencement, conditionnement, etc.), êtes très vigi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=205250575ba7b15e"
     }
    ],
    "first_seen": "2026-11-13"
@@ -14650,37 +14810,6 @@
    "first_seen": "2026-11-13"
   },
   {
-   "id": "53d3c6c70bbc38b3",
-   "title": "ASSISTANT ADMINISTRATIF ET COMMERCIAL (H/F)",
-   "company": "Bricomarché",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "excel",
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 14,
-   "date_posted": "2026-11-12",
-   "salary": "1,800–1,800 EUR/monthly",
-   "description_snippet": "Acteur(trice) de la gestion commerciale du magasin Vous êtes garant(e) de la mise à jour de la base de données de gestion commerciale du point de vente : information sur les produits, tarification, tenue du fichier fournisseurs, gestion des stocks. Vous vous assurez de la bonne codification des articles (articles qui ont changé, modification de référencement, conditionnement, etc.), êtes très vigi",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e59f2700c3178748"
-    }
-   ],
-   "first_seen": "2026-11-13"
-  },
-  {
    "id": "291364211aae2ecf",
    "title": "Assistant commercial (H/F)",
    "company": "L'industrie recrute",
@@ -18033,38 +18162,6 @@
    "first_seen": "2026-11-10"
   },
   {
-   "id": "376009dd2dab530c",
-   "title": "ASSISTANT MARKETING F/H",
-   "company": "Etablissement français du sang",
-   "location": "Pointe A Pitre",
-   "city": "Pointe A Pitre",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "canva",
-    "excel",
-    "reseaux sociaux"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 14,
-   "date_posted": "2026-10-20",
-   "salary": null,
-   "description_snippet": "ASSISTANT MARKETING F/H <p><span>Tu prépares un MASTER en marketing et tu souhaites développer tes compétences dans un environnement engagé et formateur.</span></p><p><span><strong>Tu as :</strong></span></p><p><span>🩸 une aisance rédactionnelle et bonne orthographe</span></p><p><span>🩸 une bonne créativité, de la rigueur et un esprit d’équipe </span></p><p><span>🩸 bonne capacité à travailler en a",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/etablissement-francais-du-sang-1/jobs/assistant-marketing-f-h_pointe-a-pitre_EFDS_8gXwxjd"
-    }
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
    "id": "407fef747ef47348",
    "title": "Assistant·e de direction / Assistant·e commercial·e",
    "company": "RSM",
@@ -18117,6 +18214,38 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/groupe-credit-agricole/jobs/customer-success-manager-h-f_bordeaux"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "376009dd2dab530c",
+   "title": "Assistant Marketing F/H",
+   "company": "Etablissement français du sang",
+   "location": "Pointe-À-Pitre",
+   "city": "Pointe-A-Pitre",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "canva",
+    "excel",
+    "reseaux sociaux"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 14,
+   "date_posted": "2026-09-23",
+   "salary": null,
+   "description_snippet": "Assistant Marketing F/H <p><span>Tu prépares une formation en Marketing et Communication et tu souhaites développer tes compétences dans un environnement engagé et formateur.</span></p><p><span><strong>Tu es :</strong></span></p><p><span>🩸 Créatif/créatif</span></p><p><span>🩸 Rigoureux/rigoureuse</span></p><p><span>🩸 Autonome</span></p><p><span> </span></p><p><span>🩸Compétences appréciées :</span>",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/etablissement-francais-du-sang-1/jobs/assistant-marketing-f-h_pointe-a-pitre"
     }
    ],
    "first_seen": "2026-11-10"
@@ -27752,6 +27881,65 @@
     {
      "name": "France Travail",
      "url": "https://www.talents-handicap.com/165-sopra-steria/350354-ingenieur-e-commercial-e-account-manager-transport-ile-de-france?src=FranceTravail"
+    }
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "65017e76115cb9da",
+   "title": "Assistant(e) ADV H/F Confirmé(e)",
+   "company": "",
+   "location": "94 - Val-de-Marne",
+   "city": "Val-De-Marne",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-15",
+   "salary": null,
+   "description_snippet": "En quelques années, notre petite entreprise est devenue le leader des Bières Artisanales sur la région Paris / Ile de France. Vous êtes sur le point de rejoindre une société familiale et dynamique qui a su bâtir sa réputation grâce à la diversité de son offre. Expert dans la distribution de bières spéciales, de vins et spiritueux auprès des professionnels du CHR. Afin d'accompagner le développemen",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/assistante-adv-hf-confirm%C3%A9e-6572f9479fad83af?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "19d0ea7baadffd80",
+   "title": "Chef de Produit Marketing H/F",
+   "company": "Hellowork",
+   "location": "Essarts en Bocage, B5, France",
+   "city": "Essarts En Bocage",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [
+    "positionnement",
+    "veille concurrentielle"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "Description « La Boulangère & Co est un fabricant français de pains et viennoiseries pré-emballés. Fondée en Vendée et riche d'héritages familiaux, elle allie aujourd'hui savoir-faire boulanger, culture de l'innovation et engagement en faveur des filières agricoles françaises. Elle compte à ce jour, plus de 2400 collaborateurs répartis sur 1 siège social aux Essarts-en-Bocage (85) et 7 sites de pr",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7ed1fc2c9c203424"
     }
    ],
    "first_seen": "2026-11-15"
@@ -42009,6 +42197,68 @@
    "first_seen": "2026-11-15"
   },
   {
+   "id": "3696e98ec30c9efd",
+   "title": "Chef de Produits H/F",
+   "company": "Hellowork",
+   "location": "Cluses, ARA, France",
+   "city": "Cluses",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "Description OTTEO ? C'est une société de conseil et un cabinet de recrutement. Eh oui, « une de plus », mais attendez, on vous en dit davantage ! Si on devait se définir en quelques phrases, on dirait qu'OTTEO c'est : * « Une PME d'une centaine de collaborateurs. » On se considère donc à taille humaine ! « A taille humaine » pour nous, ça signifie que nous nous organisons pour maintenir la fréquen",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9340bb1bb0a04e03"
+    }
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "69f2ca934fc4a34d",
+   "title": "Senior Growth Manager (H/F)",
+   "company": "Stairling Technologies",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "a/b testing",
+    "acquisition",
+    "kpi",
+    "roi",
+    "trafic"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-10-15",
+   "salary": null,
+   "description_snippet": "Senior Growth Manager (H/F) Nous recherchons avant tout une personne **autonome, entrepreneuriale et orientée résultats**, assez senior pour avancer sans cadre et pour être jugée sur un chiffre. ### **Expérience** * **5 ans d'expérience minimum** en Growth, Performance Marketing ou Acquisition. * Expérience significative sur des problématiques d'acquisition B2C / marketplace / app / mobilité idéal",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/stairling/jobs/senior-growth-manager-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
    "id": "28fdf62199b1314e",
    "title": "Ingénieur(e) Commercial(e) / Account Manager - Transport - Ile-de-France",
    "company": "Groupe Talents Handicap",
@@ -54773,6 +55023,32 @@
    "first_seen": "2026-11-15"
   },
   {
+   "id": "6101d0b883cfc7d7",
+   "title": "Responsable Marketing Produit (h/f/x) - CDI - Courbevoie(92)",
+   "company": "I-Tracing",
+   "location": "Courbevoie (92)",
+   "city": "Courbevoie",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-10-20",
+   "salary": null,
+   "description_snippet": "",
+   "sources": [
+    {
+     "name": "Isarta",
+     "url": "https://isarta.fr/?job=76765"
+    }
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
    "id": "326f8f1d04a15a03",
    "title": "Key Account Manager F/H",
    "company": "",
@@ -55730,6 +56006,32 @@
    "first_seen": "2026-11-11"
   },
   {
+   "id": "db1c83004208a93d",
+   "title": "Business Operations (Revenue & GTM)",
+   "company": "Vocca",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "sales_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-15",
+   "salary": null,
+   "description_snippet": "Business Operations (Revenue & GTM) .",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/vocca/jobs/lead-revops-60-80k-bspce_paris"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "761a27ceda6c8967",
    "title": "DIRECTEUR / DIRECTRICE COMMUNICATION ET MARKETING DIGITAL (H/F)",
    "company": "Bras Droit des Dirigeants",
@@ -56335,32 +56637,6 @@
    ],
    "first_seen": "2026-11-10",
    "date_assumed": true
-  },
-  {
-   "id": "db1c83004208a93d",
-   "title": "Business Operations (Revenue & GTM)",
-   "company": "Vocca",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "sales_operations"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-11-10",
-   "salary": null,
-   "description_snippet": "Business Operations (Revenue & GTM) .",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/vocca/jobs/lead-revops-60-80k-bspce_paris"
-    }
-   ],
-   "first_seen": "2026-11-10"
   },
   {
    "id": "7aee4d10d1b26dc8",
@@ -71239,6 +71515,34 @@
     }
    ],
    "first_seen": "2026-10-17"
+  },
+  {
+   "id": "66b46e2029988816",
+   "title": "Directeur Marketing Opérationnel / Growth Marketing B2B H/F",
+   "company": "EPSA",
+   "location": "Lyon",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": -2,
+   "date_posted": "2026-09-19",
+   "salary": null,
+   "description_snippet": "Directeur Marketing Opérationnel / Growth Marketing B2B H/F <p>Profil recherché :</p><ul><li>10+ ans d’expérience en marketing opérationnel / growth marketing B2B</li><li>Forte expertise lead generation, data marketing et outils MarTech</li><li>Culture business, data-driven et orientée performance</li><li>Maitrise de Salesforce et/ou Microsoft Dynamics</li><li>Maitrise de l’anglais souhaité</li></",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/epsa-france/jobs/directeur-marketing-operationnel-growth-marketing-b2b-h-f_lyon"
+    }
+   ],
+   "first_seen": "2026-11-15"
   },
   {
    "id": "fc9070fec19cd5be",
