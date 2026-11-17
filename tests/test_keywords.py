@@ -231,6 +231,48 @@ for title in ["Chargé d'études statistiques", "Chargé d'études (H/F)", "Char
               "Chargé d'études actuarielles", "Chargé d'étude hydraulique"]:
     ok(cats(title) is None, f"不收：{title}")
 
+# ── 主力 A：International Business／Asia ──
+print()
+print("── International Business（主力）──")
+A_TERMS = ["développement international", "chargé de développement international", "import export",
+           "coordinateur import export", "assistant achats international", "international account manager",
+           "chargé de clientèle internationale", "clientèle internationale"]
+B_TERMS = ["marketing operations", "CRM coordinator", "digital marketing", "marketing analyst",
+           "international marketing coordinator"]
+st = cfg["search_terms"]
+ok(all(t in st for t in A_TERMS + B_TERMS), "A、B 的搜尋詞都在")
+ok(max(st.index(t) for t in A_TERMS) < min(st.index(t) for t in B_TERMS),
+   "A（International Business）排在 B（Digital Marketing）前面")
+ok(max(st.index(t) for t in B_TERMS) < st.index("customer marketing"),
+   "B 排在其他原本就有的詞前面（時間預算不夠時被跳過的是後面的詞）")
+ok(len(st) == len(set(st)), "搜尋詞沒有重複")
+for title in ["Chargée de développement international (H/F)", "Chargé(e) de développement international",
+              "Coordinateur import-export (H/F)", "Coordinatrice Import/Export", "Assistant achats internationaux",
+              "International Account Manager", "Chargée de clientèle internationale",
+              "Chargé de clientèle internationale - ADV", "Commercial export zone Asie", "Assistant(e) ADV export",
+              "Business Developer International", "Chargé d'affaires export", "International Marketing Coordinator",
+              "Key Account Manager Asia Pacific", "Assistant import export bilingue chinois",
+              "Business Development Manager EMEA"]:
+    c = cats(title)
+    ok(c is not None and "international_business" in c, f"{title} → {c}")
+for title in ["Chauffeur poids lourd international", "Déclarant en douane import-export", "Ingénieur export",
+              "Comptable international", "Professeur école internationale", "Technicien SAV international",
+              "Software Engineer International", "Juriste droit international",
+              "Téléconseiller international",
+              "Chef de Projet - Hydrogéologue pour la Direction Internationale (H/F)",
+              "CDI - Chef de Projet SAP Master Data - Retail International (H/F)"]:
+    c = cats(title)
+    ok(c is None or "international_business" not in c, f"不收：{title} → {c}")
+c = cats("Chargé de clientèle (H/F)", "Vous gérez un portefeuille de clientèle internationale.")
+ok(c is not None and "international_business" in c, f"職稱泛稱、內文明講國際客戶 → 也算：{c}")
+ok(cats("Chargé de clientèle (H/F)", "Banque de détail, clients particuliers.") is None,
+   "沒有國際脈絡的 chargé de clientèle 不收")
+ok(cats("Chargé de projet (H/F)", "Groupe international, leader de son marché.") is None,
+   "內文只說「groupe international」不算（太常見）")
+plain = run("Chargé de clientèle (H/F)", "Clientèle internationale.")["score"]
+ok(run("Chargé de CRM (H/F)")["score"] < plain, "International Business 加分，同一天排在前面")
+ok(list(cfg["categories"])[0] == "international_business", "職類排第一（網站篩選也排第一）")
+
 # ── 求職策略的目標職稱：只看職稱，不拿來做描述補判 ──
 print()
 print("── 求職策略的目標職稱 ──")

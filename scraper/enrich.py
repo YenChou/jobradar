@@ -56,7 +56,7 @@ def classify(job: dict, cfg: dict) -> dict | None:
             categories.append(key)
             hits = [kw for kw in cat["skill_keywords"] if kw in desc_n]
             skills_hit += hits
-            score += min(len(hits) * 2, 10)
+            score += min(len(hits) * 2, 10) + cat.get("boost", 0)   # boost：主力職類（International Business）
 
     # 職類衍生的標籤（Assistant）：跟職類同一套規則，但標籤篩選是「且」，
     # 可以跟職類疊著用（Produit ＋ Assistant 標籤＝產品行銷的助理職）

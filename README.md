@@ -1,6 +1,7 @@
 # Jo's Chasse 📡
 
-每天自動抓取法國求職平台，篩出九類行銷職缺（Marketing Operations、Performance
+每天自動抓取法國求職平台。主力是 **International Business／Asia**（國際業務、進出口、國際客戶、
+國際採購，能當國際團隊之間的橋樑）：這一類排第一、加分，搜尋詞也排最前面。其次篩出九類行銷職缺（Marketing Operations、Performance
 Marketing、CRM、Customer、Marketing Analytics、Marketing Produit、Études / Insights、Coordinator、Assistant）與六類業務／客戶職缺
 （Account Management、Sales Ops、BizDev APAC、International Project、Community、
 Taiwan / APAC），再加上明確要求中文的職缺（不限職類），發布成可篩選的靜態網站。
