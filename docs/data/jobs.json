@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-17T19:46:33Z",
+ "generated_at": "2026-11-18T00:28:31Z",
  "source_stats": {
-  "Indeed": 2601,
-  "Welcome to the Jungle": 9164,
-  "France Travail": 362,
+  "Indeed": 3105,
+  "Welcome to the Jungle": 9168,
+  "France Travail": 260,
   "APEC": 0,
   "HelloWork": 0,
   "Greenhouse": 6,
@@ -14,8 +14,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 78 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 2761,
- "new_today": 145,
+ "count": 2791,
+ "new_today": 39,
  "jobs": [
   {
    "id": "12b18490635b0302",
@@ -789,6 +789,68 @@
     }
    ],
    "first_seen": "2026-11-10"
+  },
+  {
+   "id": "a14c1e1af47a4f7b",
+   "title": "Temporary Business Support Assistant",
+   "company": "DNV",
+   "location": "Saint-Nazaire, B5, France",
+   "city": "Saint-Nazaire",
+   "region": "west",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd",
+    "assistant_role"
+   ],
+   "score": 24,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Location: Saint-Nazaire, France Business: Maritime Position type: Full Time Contract type: Time Limited Employee Job ID: 8012 **Overview** ------------ ### **About us** We are the independent expert in assurance and risk management. Driven by our purpose, to safeguard life, property, and the environment, we empower our customers and their stakeholders with facts and reliable insights so that criti",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=db7ddac613b18933"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "17214ad0912b2f59",
+   "title": "Chargé d’études et projets marketing F/H",
+   "company": "GROUPE LA DÉPÊCHE DU MIDI",
+   "location": "Toulouse, O, France",
+   "city": "Toulouse",
+   "region": "west",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "insights"
+   ],
+   "skills": [
+    "excel",
+    "questionnaire"
+   ],
+   "bonus_tags": [],
+   "score": 24,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Le Groupe La Dépêche du Midi, acteur incontournable de l'information et de la communication en région Occitanie et au-delà, rayonne à l’échelle nationale à travers des marques emblématiques telles que La Dépêche du Midi, Midi Libre, L’Indépendant, Centre Presse, La Nouvelle République des Pyrénées, Le Petit Bleu et Midi Olympique - Rugbyrama. Notre activité ne s’arrête pas là : nous innovons dans ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b3f9f590d6b4be7d"
+    }
+   ],
+   "first_seen": "2026-11-18"
   },
   {
    "id": "65707b51d385e5c1",
@@ -1578,40 +1640,36 @@
    "first_seen": "2026-10-19"
   },
   {
-   "id": "a2e2dc9eba19b69a",
-   "title": "Traffic & Acquisition Manager SEO, SEA et GEO (H/F)",
-   "company": "SIZE UP",
-   "location": "35 - Rennes",
-   "city": "Rennes",
-   "region": "west",
-   "work_mode": "onsite",
+   "id": "20de9170a6ba5ef3",
+   "title": "Chargé(e) de Campagnes Marketing Digital & Communication Externe H/F - CDI",
+   "company": "Maïki",
+   "location": "78 - Saint-Germain-en-Laye",
+   "city": "Saint-Germain-En-Laye",
+   "region": "paris",
+   "work_mode": "remote",
    "contract": "CDI",
    "categories": [
     "performance_marketing"
    ],
    "skills": [
-    "acquisition",
-    "conversion",
-    "google ads",
     "kpi",
-    "meta ads",
     "roi",
-    "sea",
-    "seo",
-    "trafic"
+    "sea"
    ],
-   "bonus_tags": [],
-   "score": 24,
-   "date_posted": "2026-11-06",
-   "salary": null,
-   "description_snippet": "CDI à mi-temps évolutif vers un temps plein 17 h 30 par semaine Pacé, près de Rennes Prise de poste dès que possible \\--- Size Up est une agence de marketing et de communication qui accompagne ses clients de la stratégie de marque jusqu'à l'acquisition. * Notre conviction : du branding à l'acquisition, chaque détail compte. Nous travaillons principalement avec des entreprises B2B, mais également s",
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 22,
+   "date_posted": "2026-11-17",
+   "salary": "Annuel de 35000.0 Euros à 40000.0 Euros",
+   "description_snippet": "DESCRIPTION Rattaché(e) au Product & Marketing Manager Europe de l'Ouest, vous jouez un rôle central dans la conception, le pilotage et l'optimisation des campagnes marketing multicanales déployées auprès des différentes filiales du Groupe. Votre objectif : renforcer la visibilité des marques, développer l'engagement des clients et prospects et contribuer à la génération de nouvelles opportunités ",
    "sources": [
     {
      "name": "France Travail",
-     "url": "https://join.com/companies/wibiz/16905559-traffic-et-acquisition-manager-seo-sea-et-geo?pid=d0c6f59b69df21dc4528"
+     "url": "https://aptic-maiki.nicoka.com/2021-34e9f5e6a4ccef9/?source=90"
     }
    ],
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-11-18"
   },
   {
    "id": "a13eba5bfa750946",
@@ -2942,6 +3000,38 @@
    "first_seen": "2026-10-21"
   },
   {
+   "id": "d50bff27dc83f7ba",
+   "title": "People & Operations Coordinator",
+   "company": "PROGRESS PARTNERS",
+   "location": "Eu, N, France",
+   "city": "Eu",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "coordination"
+   ],
+   "skills": [
+    "coordination",
+    "stakeholders"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 20,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "**About Progress Partners** =========================== Progress Partners is a fast-growing technology company building and scaling next-generation SaaS and mobile platforms. We blend creativity with data-driven execution to ship high-impact products, including AI-powered tools, productivity platforms, and workflow software, used by millions of people in more than 160 countries. Our global team of",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f4cd8cad5291ac5d"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "bf7568ca5c86cc13",
    "title": "Assistant Commercial (H/F) Bourgbarré (35)",
    "company": "Lactalis",
@@ -3071,6 +3161,37 @@
     }
    ],
    "first_seen": "2026-11-17"
+  },
+  {
+   "id": "d4abd2fa76d8dd82",
+   "title": "ASSISTANT COMMERCIAL (F/H)",
+   "company": "GROUPE PAREDES",
+   "location": "Verneuil-sur-Vienne, NA, France",
+   "city": "Verneuil-Sur-Vienne",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 20,
+   "date_posted": "2026-11-17",
+   "salary": "26,400–26,400 EUR/yearly",
+   "description_snippet": "A propos:Vous souhaitez rejoindre un groupe français ambitieux, en pleine croissance et tourné vers l’Europe ? Vous avez envie de contribuer à un projet porté par l’innovation, l’excellence opérationnelle et l’engagement de ses équipes ? Rejoignez GPO, leader français de l’hygiène professionnelle ! Fort de plus de 80 ans d’expertise, GPO accompagne les entreprises et les collectivités avec des sol",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a897876951461498"
+    }
+   ],
+   "first_seen": "2026-11-16"
   },
   {
    "id": "d345c64b3b14c8c8",
@@ -5420,6 +5541,70 @@
    "first_seen": "2026-10-19"
   },
   {
+   "id": "346870e064db0f79",
+   "title": "Assistant Business Administration - CDD H/F",
+   "company": "ARESIA",
+   "location": "Baccarat, GE, France",
+   "city": "Baccarat",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "reporting",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "ARESIA contribue à l'excellence industrielle pour l'aéronautique civile et de défense depuis plus de 100 ans. Groupe de 850 salariés répartis sur 12 sites en France. De la conception à la production en passant par la maintenance, nous fournissons des équipements pour tout type d'aéronef. Dans le cadre de notre croissance continue, nous recherchons un(e) **Assistant business administration - CDD de",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e185fd669b35e46d"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "ca932af6545b6979",
+   "title": "Assistant communication H/F",
+   "company": "",
+   "location": "30 - Gard",
+   "city": "30 - Gard",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "reseaux sociaux",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Descriptif de l'offre : Sous la responsabilité du responsable communication, vous participerez à : - L'élaboration du plan de communication annuel. - Le suivi des catalogues BAZARLAND : correction des maquettes, suivi de production et des livraisons. - L'élaboration des supports imprimés et digitaux. - La mise en place de campagnes emailing, SMS et fidélisation clients. - La mise en place de nouve",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/assistant-communication-hf-b871631e745be780?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "8ed55d8b56992e5a",
    "title": "Assistant marketing et traduction H/F",
    "company": "Gifrer Barbezat",
@@ -5669,6 +5854,38 @@
     {
      "name": "France Travail",
      "url": "https://www.meteojob.com/jobs/58095211?utm_source=pole-emploi&utm_medium=aggregator-free"
+    }
+   ],
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "adfc7d5040ee1a18",
+   "title": "Key Account Manager en Logistique H/F - (CDI) - Nantes/Carquefou (44)",
+   "company": "Gojob",
+   "location": "Nantes, B5, France",
+   "city": "Nantes",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "fidelisation"
+   ],
+   "bonus_tags": [],
+   "score": 18,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Implanté en France et aux Etats-Unis, Gojob est le pionnier du recrutement par l’IA. **Notre mission** : Développer de l’innovation de pointe pour rendre le marché du travail plus fluide et accessible, et accompagner chaque individu avec dignité. Chez Gojob, “We staff instantly, at scale and with care”. Membre de la promotion French Tech 120 (FT120) depuis 2021 & élue au **Next 40 en 2025**, deux ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e9a7851c3c9e4354"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/gojob/jobs/key-account-manager-en-logistique-h-f-cdi-nantes-carquefou-44_nantes"
     }
    ],
    "first_seen": "2026-11-17"
@@ -6060,6 +6277,38 @@
    "first_seen": "2026-11-16"
   },
   {
+   "id": "56a9b063c695359f",
+   "title": "Assistant(e) commerciale (H/F)",
+   "company": "",
+   "location": "21 - Beaune",
+   "city": "21 - Beaune",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Entreprise spécialisée dans le secteur des antiquités nous poursuivons notre développement et renforçons notre équipe commerciale. Basée à Beaune, l'entreprise a structuré et professionnalisé le métier de commerçant ambulant. Dans le cadre de notre développement, nous recrutons un(e) assistant(e) commercial(e), véritable binôme du commercial terrain. Votre rôle au quotidien : En lien direct avec u",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/assistante-commerciale-77c87fbbdaa9c4dc?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-15"
+  },
+  {
    "id": "f078c871ccc8276d",
    "title": "UN(E) ASSISTANT(E) COMMERCIAL(E) EXPERIMENTEE",
    "company": "THE PET COMPANY",
@@ -6125,11 +6374,11 @@
    "first_seen": "2026-11-15"
   },
   {
-   "id": "56a9b063c695359f",
-   "title": "Assistant(e) commerciale (H/F)",
+   "id": "295d8b6164773b71",
+   "title": "Assistant(e) commercial(e) et administratif(ve) Formation (H/F)",
    "company": "",
-   "location": "21 - Beaune",
-   "city": "21 - Beaune",
+   "location": "59 - Marcq-en-Barœul",
+   "city": "59 - Marcq-En-Barœul",
    "region": "other",
    "work_mode": "onsite",
    "contract": "CDI",
@@ -6145,16 +6394,16 @@
     "assistant_role"
    ],
    "score": 18,
-   "date_posted": "2026-11-15",
+   "date_posted": "2026-11-17",
    "salary": null,
-   "description_snippet": "Entreprise spécialisée dans le secteur des antiquités nous poursuivons notre développement et renforçons notre équipe commerciale. Basée à Beaune, l'entreprise a structuré et professionnalisé le métier de commerçant ambulant. Dans le cadre de notre développement, nous recrutons un(e) assistant(e) commercial(e), véritable binôme du commercial terrain. Votre rôle au quotidien : En lien direct avec u",
+   "description_snippet": "À propos du poste Au sein du service Formation de la Fédération Française du Bâtiment Nord Pas-de-Calais, l'assistant(e) commercial(e) et administratif(ve) Formation contribue à l'organisation, au suivi administratif et au développement de l'activité de formation destinée aux entreprises du bâtiment. Il/elle assure la qualité du traitement administratif des dossiers et participe activement à l'opt",
    "sources": [
     {
      "name": "France Travail",
-     "url": "https://fr.indeed.com/job/assistante-commerciale-77c87fbbdaa9c4dc?from=poleemploi"
+     "url": "https://fr.indeed.com/job/assistante-commerciale-et-administratifve-formation-772df7fe4990d4a9?from=poleemploi"
     }
    ],
-   "first_seen": "2026-11-15"
+   "first_seen": "2026-11-14"
   },
   {
    "id": "1558531f4cbcd335",
@@ -6312,38 +6561,6 @@
     {
      "name": "France Travail",
      "url": "https://fr.indeed.com/job/assistante-direction-et-communication-e4614939c2f6535d?from=poleemploi"
-    }
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "295d8b6164773b71",
-   "title": "Assistant(e) commercial(e) et administratif(ve) Formation (H/F)",
-   "company": "",
-   "location": "59 - Marcq-en-Barœul",
-   "city": "59 - Marcq-En-Barœul",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "excel",
-    "planning",
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 18,
-   "date_posted": "2026-11-13",
-   "salary": null,
-   "description_snippet": "À propos du poste Au sein du service Formation de la Fédération Française du Bâtiment Nord Pas-de-Calais, l'assistant(e) commercial(e) et administratif(ve) Formation contribue à l'organisation, au suivi administratif et au développement de l'activité de formation destinée aux entreprises du bâtiment. Il/elle assure la qualité du traitement administratif des dossiers et participe activement à l'opt",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://fr.indeed.com/job/assistante-commerciale-et-administratifve-formation-772df7fe4990d4a9?from=poleemploi"
     }
    ],
    "first_seen": "2026-11-14"
@@ -8892,6 +9109,166 @@
    "first_seen": "2026-10-19"
   },
   {
+   "id": "5241eea70bb90e43",
+   "title": "Assistant(e) commercial(e) H/F",
+   "company": "CAMPING-CAR PARK",
+   "location": "Pornic",
+   "city": "Pornic",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "hubspot"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "Assistant(e) commercial(e) H/F <ul><li>Aisance forte au téléphone : capacité à appeler, relancer, obtenir des informations et engager un décideur.</li><li>Maîtrise des fondamentaux SDR : qualification, traitement des objections, prise de RDV, relances, discipline d’activité.</li><li>Capacité à produire des livrables administratifs fiables : rigueur, organisation, sens du détail.</li><li>Excellente",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/camping-car-park-1/jobs/assistant-commercial-h-f_pornic"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "8d5c55405197b7b1",
+   "title": "ASSISTANT(E) COMMERCIAL(E) (F/H)",
+   "company": "Textile Alsace",
+   "location": "Lutterbach, GE, France",
+   "city": "Lutterbach",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "* 6, Rue du Kleindorf, Lutterbach, Grand Est, 68460, France * Publiée il y a 0 jours. * CDI **Description** --------------- **VOS MISSIONS** *Général* * Accueil téléphonique * Assistance aux commerciaux itinérants * Gestion et suivi des appels d’offres * Participation à la création de nouveaux articles et de leurs cahiers des charges * Saisie d’informations (articles, prix, CA) sur les sites des c",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=aaa647f549a3f51c"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "5489f9e74110471b",
+   "title": "Assistant commercial H/F",
+   "company": "MAISON KLEIN",
+   "location": "Strasbourg, GE, France",
+   "city": "Strasbourg",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-17",
+   "salary": "1,944–1,944 EUR/monthly",
+   "description_snippet": "Maison KLEIN recherche pour compléter son équipe PENDANT LA PERIODE DE NOEL une **assistante commerciale**. Prise, saisie et contrôle des commandes clients de NOEL Facturation, suivi des commandes sur le e-shop Edition des étiquettes pour la gamme des produits de la carte de NOEL **CDD 35H du lundi au vendredi : du 03/12/2026 au 23/12/2026** Faire preuve de rigueur, avoir un excellent sens de la r",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d9734b6a7bea477b"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "b7c1c4ac1cfdcd57",
+   "title": "Experienced Analytics Engineer - Customer Experience",
+   "company": "Back Market",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "retention"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "**Location** ------------ Bordeaux; Paris **Employment Type** ------------------- Full time **Location Type** ----------------- Hybrid **Department** -------------- DATA **Hi, we’re Back Market.** -------------------------- We’re here to help **make tech reliable, affordable, and better than new**. We're a global marketplace for refurbished devices, helping lower our collective environmental impac",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=eeacc0ed09184337"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/back-market/jobs/experienced-analytics-engineer-customer-experience_bordeaux"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "f93a3741fbcd467a",
+   "title": "Assistant commercial et SAV export H/F",
+   "company": "TALENTIA",
+   "location": "63 - Cournon-d'Auvergne",
+   "city": "63 - Cournon-D'Auvergne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "reporting",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-17",
+   "salary": "Annuel de 35000.0 Euros à 40000.0 Euros",
+   "description_snippet": "DESCRIPTION Vous souhaitez devenir une interface essentielle entre nos Clients et nos équipes internes (commerciale, ADV, logistique, SAV, règlementaire, .), gérer les commandes et demandes diverses en provenance de la zone géographique confiée (Amérique et Europe de l'Est principalement) et participer activement au succès de l'entreprise ? N'hésitez plus ! Missions : Vos missions principales cons",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://talentiagroup.nicoka.com/public/jobs/2162-14438cd16388804/?source=90"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "2ff67cad22628661",
    "title": "(H/F) ASSISTANT(E) RELATION MEDIA ET CONTENUS POUR LES VINS DE BOURGOGNE",
    "company": "Comité des vins de Bourgogne",
@@ -9240,34 +9617,6 @@
    "first_seen": "2026-11-17"
   },
   {
-   "id": "adfc7d5040ee1a18",
-   "title": "Key Account Manager en Logistique H/F - (CDI) - Nantes/Carquefou (44)",
-   "company": "Gojob",
-   "location": "Nantes, B5, France",
-   "city": "Nantes",
-   "region": "west",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "fidelisation"
-   ],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-11-17",
-   "salary": null,
-   "description_snippet": "Implanté en France et aux Etats-Unis, Gojob est le pionnier du recrutement par l’IA. **Notre mission** : Développer de l’innovation de pointe pour rendre le marché du travail plus fluide et accessible, et accompagner chaque individu avec dignité. Chez Gojob, “We staff instantly, at scale and with care”. Membre de la promotion French Tech 120 (FT120) depuis 2021 & élue au **Next 40 en 2025**, deux ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e9a7851c3c9e4354"
-    }
-   ],
-   "first_seen": "2026-11-17"
-  },
-  {
    "id": "b56e54d316c7476d",
    "title": "Assistant administratif et commercial VO (H/F)",
    "company": "Groupe Autosphere",
@@ -9393,6 +9742,41 @@
     {
      "name": "France Travail",
      "url": "https://www.jobposting.pro/emploi-2753380-120"
+    }
+   ],
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "c9085221bbfe74ab",
+   "title": "Assistant(e) Commercial(e) Secteur Public - H/F",
+   "company": "Open",
+   "location": "Levallois-Perret, A8, France",
+   "city": "Levallois-Perret",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "reporting",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "**Contexte de la mission** Le Groupe OPEN est un acteur majeur du numérique en France, accompagnant depuis plus de 35 ans les grandes entreprises et administrations publiques dans leurs projets de transformation digitale. Au sein de notre Business Unit Secteur Public, nous contribuons chaque jour à la réussite de projets stratégiques pour les administrations, ministères, établissements publics et ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e19a3437abfc37d3"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/open/jobs/assistant-commercial-secteur-public-h-f_levallois-perret"
     }
    ],
    "first_seen": "2026-11-17"
@@ -9653,37 +10037,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "d4abd2fa76d8dd82",
-   "title": "ASSISTANT COMMERCIAL (F/H)",
-   "company": "GROUPE PAREDES",
-   "location": "Fegersheim, GE, France",
-   "city": "Fegersheim",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "excel",
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 16,
-   "date_posted": "2026-11-16",
-   "salary": "25,200–25,200 EUR/yearly",
-   "description_snippet": "A propos:Vous souhaitez rejoindre un groupe français ambitieux, en pleine croissance et tourné vers l’Europe ? Vous avez envie de contribuer à un projet porté par l’innovation, l’excellence opérationnelle et l’engagement de ses équipes ? Rejoignez GPO, leader français de l’hygiène professionnelle ! Fort de plus de 80 ans d’expertise, GPO accompagne les entreprises et les collectivités avec des sol",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=bd5e99684c91a0a9"
-    }
-   ],
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "be2301ba83e3e6df",
    "title": "Mid-Market Customer Success Manager - EMEA (German speaking)",
    "company": "ASHBY",
@@ -9900,6 +10253,37 @@
    "first_seen": "2026-11-15"
   },
   {
+   "id": "f833ae2c76e1a7aa",
+   "title": "Assistant(e) commercial et SAV H/F",
+   "company": "",
+   "location": "45 - Loiret",
+   "city": "45 - Loiret",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "À propos du poste Nous recherchons un(e) assistant(e) commercial et service après-vente dynamique(ve) et organisé(e) pour rejoindre notre équipe. En tant qu'assistant(e), vous serez le point de contact principal pour nos clients, assurant un support efficace et professionnel, vous contribuez au suivi des activités commerciales et à l'accompagnement des client(e)s. Vous facilitez le traitement admi",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/assistante-commercial-et-sav-hf-d41d7853950e0e78?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-14"
+  },
+  {
    "id": "de0a3df3f99a7e22",
    "title": "Assistant administratif et commercial H/F",
    "company": "DYNA-TOURAINE",
@@ -10085,37 +10469,6 @@
     {
      "name": "France Travail",
      "url": "https://www.directemploi.com/candidatOffre/57049857?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
-    }
-   ],
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "f833ae2c76e1a7aa",
-   "title": "Assistant(e) commercial et SAV H/F",
-   "company": "",
-   "location": "45 - Loiret",
-   "city": "45 - Loiret",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "excel",
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 16,
-   "date_posted": "2026-11-14",
-   "salary": null,
-   "description_snippet": "À propos du poste Nous recherchons un(e) assistant(e) commercial et service après-vente dynamique(ve) et organisé(e) pour rejoindre notre équipe. En tant qu'assistant(e), vous serez le point de contact principal pour nos clients, assurant un support efficace et professionnel, vous contribuez au suivi des activités commerciales et à l'accompagnement des client(e)s. Vous facilitez le traitement admi",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://fr.indeed.com/job/assistante-commercial-et-sav-hf-d41d7853950e0e78?from=poleemploi"
     }
    ],
    "first_seen": "2026-11-14"
@@ -15887,35 +16240,94 @@
    "first_seen": "2026-10-19"
   },
   {
-   "id": "406c367e25c85490",
-   "title": "Product Marketing Manager (H/F) @Chargemap",
-   "company": "Groupe Brakson (Chargemap, Mister EV, Saabre)",
-   "location": "Strasbourg",
-   "city": "Strasbourg",
+   "id": "79dc38711baf422f",
+   "title": "Assistant commercial Mercedes- Benz H/F",
+   "company": "Groupe CLIM",
+   "location": "Dax, NA, France",
+   "city": "Dax",
    "region": "other",
-   "work_mode": "hybrid",
+   "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "marketing_produit"
+    "assistant"
    ],
    "skills": [
-    "go-to-market",
-    "positionnement"
+    "suivi"
    ],
    "bonus_tags": [
-    "international"
+    "assistant_role"
    ],
-   "score": 16,
-   "date_posted": "2026-09-17",
+   "score": 14,
+   "date_posted": "2026-11-17",
    "salary": null,
-   "description_snippet": "Product Marketing Manager (H/F) @Chargemap Vous rejoindrez une équipe soudée, où confiance, entraide et créativité font partie du quotidien. Vous travaillerez avec des profils experts dans leur domaine, dans un environnement collaboratif où les idées sont écoutées et où chacun contribue activement au développement européen de Chargemap. Vous disposez de minimum cinq d’expérience, dans une entrepri",
+   "description_snippet": "**Vue d'ensemble** ------------------ ### **À propos de nous** Le Groupe Clim est une entreprise aux valeurs familiales et locales implantée depuis plus de 40 ans dans le Sud-Ouest de la France. Nous comptons aujourd’hui plus de 700 salariés et réalisons un chiffre d’affaires de 400 millions d’Euros. Présent sur près de 55 sites implantés sur 10 départements en Nouvelle-Aquitaine et Occitanie, le ",
    "sources": [
     {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/chargemap/jobs/product-marketing-manager-h-f-chargemap_strasbourg"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=108d6f108068a642"
     }
    ],
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "83c7def1a657bf4f",
+   "title": "Assistant Technico-commercial sédentaire F/H",
+   "company": "VINCI",
+   "location": "Cambrai, HDF, France",
+   "city": "Cambrai",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "**ACTEMIUM Cambrai** (50 personnes), entreprise du groupe VINCI Energies et spécialisée en installations électriques, automatismes et transmissions mécaniques à destination des industriels (agroalimentaire, cosmétique, environnement, métallurgie, chimie, …) recherche dans le cadre du développement de son activité réparation, maintenance et négoce de moteurs électriques, pompes, réducteurs et ensem",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e7933715fe1b0701"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "0ba235aff2038d43",
+   "title": "Assistant ADV H/F",
+   "company": "Crea Design",
+   "location": "Varces-Allières-et-Risset, ARA, France",
+   "city": "Varces-Allieres-Et-Risset",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-17",
+   "salary": "2,200–2,200 EUR/monthly",
+   "description_snippet": "Au sein de notre siège social et intégré(e) au département Maintenance Multitechnique, vous êtes l'interlocuteur privilégié entre nos clients, nos techniciens et nos prestataires afin d'organiser et de suivre les opérations de maintenance préventive sur l'ensemble du territoire. Suite à une forte affluence de demandes clients, nous sommes à la recherche d'un/une Assistant(e) ADV au sein de notre é",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fa8d938a26858d50"
+    }
+   ],
+   "first_seen": "2026-11-18"
   },
   {
    "id": "88ca8c144c39bdca",
@@ -16069,37 +16481,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=28c9dd8cc49c1fc9"
-    }
-   ],
-   "first_seen": "2026-11-17"
-  },
-  {
-   "id": "c9085221bbfe74ab",
-   "title": "Assistant(e) Commercial(e) Secteur Public - H/F",
-   "company": "Open",
-   "location": "Levallois-Perret, A8, France",
-   "city": "Levallois-Perret",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "reporting",
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 14,
-   "date_posted": "2026-11-17",
-   "salary": null,
-   "description_snippet": "**Contexte de la mission** Le Groupe OPEN est un acteur majeur du numérique en France, accompagnant depuis plus de 35 ans les grandes entreprises et administrations publiques dans leurs projets de transformation digitale. Au sein de notre Business Unit Secteur Public, nous contribuons chaque jour à la réussite de projets stratégiques pour les administrations, ministères, établissements publics et ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e19a3437abfc37d3"
     }
    ],
    "first_seen": "2026-11-17"
@@ -16764,7 +17145,7 @@
    "score": 14,
    "date_posted": "2026-11-16",
    "salary": null,
-   "description_snippet": "Siège Arcueil * Type de contrat CDI * Temps de travail Temps plein * Salaire mensuel Salaire selon profil * Date du contrat Dès que possible Publiée il y a 1 jour 4 heures * Partager * sauvegarder * postuler **Descriptif du poste** ----------------------- Rejoins la DSI de l'UCPA en tant que Chef·fe de projet Digitalisation & Transformation SI ! Tu joueras un rôle clé dans la modernisation de nos ",
+   "description_snippet": "Siège Arcueil * Type de contrat CDI * Temps de travail Temps plein * Salaire mensuel Salaire selon profil * Date du contrat Dès que possible Publiée il y a 1 jour 11 heures * Partager * sauvegarder * postuler **Descriptif du poste** ----------------------- Rejoins la DSI de l'UCPA en tant que Chef·fe de projet Digitalisation & Transformation SI ! Tu joueras un rôle clé dans la modernisation de nos",
    "sources": [
     {
      "name": "Indeed",
@@ -19620,8 +20001,8 @@
    "id": "dc7d92ea750a155d",
    "title": "Account Manager (H/F)",
    "company": "SAFETY-KLEEN FRANCE",
-   "location": "Créteil, A8, France",
-   "city": "Creteil",
+   "location": "Meaux, A8, France",
+   "city": "Meaux",
    "region": "paris",
    "work_mode": "onsite",
    "contract": "CDI",
@@ -19647,7 +20028,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=816d26fa7271da9e"
+     "url": "https://fr.indeed.com/viewjob?jk=72dc49c55711d8bb"
     }
    ],
    "first_seen": "2026-11-10"
@@ -24459,6 +24840,177 @@
    "first_seen": "2026-10-19"
   },
   {
+   "id": "562d893acbf63778",
+   "title": "Marketing Automation Platform Specialist (m/f/d)",
+   "company": "Hager",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "automation"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "Marketing Automation Platform Specialist (m/f/d)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hager-group/jobs/marketing-automation-platform-specialist-m-f-d_paris"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "3825fdf59f11c6a4",
+   "title": "Assistant ADV trilingue (fr-ang-all) H/F",
+   "company": "COFFRA GROUP",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "salesforce",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "### **Coffra group** **Coffra group** est l’un des premiers cabinets pluridisciplinaires en France déployant un éventail d'expertises aussi large : juridique, restructuration, fiscalité, audit, finance, comptabilité, gestion du personnel, conseil SAP, etc. Cette complémentarité, associée à notre savoir-faire international, notre culture franco-allemande en particulier et notre multilinguisme, nous",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b3b7bb21bf0ea326"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "9fc64f67c9ef8c1e",
+   "title": "Assistant Commercial - Téléconseiller (H/F)",
+   "company": "DEALINKA",
+   "location": "Anzin, HDF, France",
+   "city": "Anzin",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-17",
+   "salary": "1,900–1,900 EUR/monthly",
+   "description_snippet": "Dans le cadre de notre développement, nous renforçons notre **équipe commerciale** et recherchons notre futur(e) **Assistant Commercial - Téléconseiller (H/F).** **Présentation de l'entreprise** -------------------------------- Basée à Valenciennes, dans les Hauts de France, Dealinka est la jeune entreprise qui bouscule les codes ! Fondée en 2023, la société propose plusieurs solutions pour les en",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=2adba59a27139e70"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "53879d9266b956b3",
+   "title": "Customer Success Manager Mobilité F/H",
+   "company": "LUMIPLAN",
+   "location": "Saint-Herblain, B5, France",
+   "city": "Saint-Herblain",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "satisfaction client"
+   ],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "**Description de l'entreprise** ------------------------------- LUMIPLAN acteur majeur de la communication dynamique sur le territoire conçoit, fabrique et installe des solutions innovantes d’information : écrans, apps citoyennes, bornes et afficheurs dans les transports publics (aux arrêts ou dans les véhicules), logiciels de pilotage… Notre valeur ajoutée réside dans la valorisation des territoi",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=c5b10eba5b3f8cc7"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "72d3678a6844e558",
+   "title": "Assistante Commerciale DMR (PGC) - (F/H)",
+   "company": "Carrefour",
+   "location": "Salon-De-Provence",
+   "city": "Salon-De-Provence",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Assistante Commerciale DMR (PGC) - (F/H)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/carrefour/jobs/assistante-commerciale-dmr-pgc-f-h_salon-de-provence"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "bd9f7a45031a4723",
+   "title": "Infirmier coordinateur commercial H/F",
+   "company": "",
+   "location": "34 - Cébazan",
+   "city": "34 - Cebazan",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "sales_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "En premier lieu, vous rencontrerez les acteurs de santé des services hospitaliers afin qu'ils vous confient leurs patients pour un retour à domicile, en assurant un développement commercial selon un plan sectoriel. Ainsi, vous coordonnerez des protocoles de soins particuliers, spécialisés en perfusion / insuline /nutrition artificielle, et vous vous chargerez initialement de la prise en charge de ",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/infirmier-coordinateur-commercial-hf-f02a2e4abdb9bc13?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "6c7510a1cdd7f4fd",
    "title": "Assistant(e) ADV & support opérationnel (H/F)",
    "company": "L'industrie recrute",
@@ -26818,6 +27370,59 @@
    "first_seen": "2026-11-11"
   },
   {
+   "id": "c0cf8bad6c3c1fa3",
+   "title": "AIDE SOIGNANT COORDINATEUR COMMERCIAL H/F",
+   "company": "DOM PERFUSION",
+   "location": "Narbonne, O, France",
+   "city": "Narbonne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "coordination",
+    "sales_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-11-17",
+   "salary": "2,000–2,285 EUR/monthly",
+   "description_snippet": "En premier lieu, vous rencontrerez les acteurs de santé des services hospitaliers afin qu'ils vous confient leurs patients pour un retour à domicile, en assurant un développement commercial selon un plan sectoriel. Ainsi, vous coordonnerez des protocoles de soins particuliers, spécialisés en perfusion / insuline /nutrition artificielle, et vous vous chargerez initialement de la prise en charge de ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3a400e724fc2190f"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "0e4c2e70e8e43921",
+   "title": "Infirmier coordinateur commercial H/F",
+   "company": "DOM PERFUSION",
+   "location": "Narbonne, O, France",
+   "city": "Narbonne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "sales_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 12,
+   "date_posted": "2026-11-17",
+   "salary": "2,300–2,500 EUR/monthly",
+   "description_snippet": "En premier lieu, vous rencontrerez les acteurs de santé des services hospitaliers afin qu'ils vous confient leurs patients pour un retour à domicile, en assurant un développement commercial selon un plan sectoriel. Ainsi, vous coordonnerez des protocoles de soins particuliers, spécialisés en perfusion / insuline /nutrition artificielle, et vous vous chargerez initialement de la prise en charge de ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e0ae47b7b3b1a0e6"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
    "id": "b01ec562103660b8",
    "title": "Assistant consultant médias pole déco design F/H",
    "company": "Extreme Agency",
@@ -26873,33 +27478,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/kingfisher-france/jobs/assistant-chef-de-produit-h-f-product-assistant_templemars"
-    }
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "c0cf8bad6c3c1fa3",
-   "title": "AIDE SOIGNANT COORDINATEUR COMMERCIAL H/F",
-   "company": "DOM PERFUSION",
-   "location": "Montpellier, O, France",
-   "city": "Montpellier",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "coordination",
-    "sales_operations"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-11-13",
-   "salary": "2,000–2,285 EUR/monthly",
-   "description_snippet": "En premier lieu, vous rencontrerez les acteurs de santé des services hospitaliers afin qu'ils vous confient leurs patients pour un retour à domicile, en assurant un développement commercial selon un plan sectoriel. Ainsi, vous coordonnerez des protocoles de soins particuliers, spécialisés en perfusion / insuline /nutrition artificielle, et vous vous chargerez initialement de la prise en charge de ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=3451c173a29cca4f"
     }
    ],
    "first_seen": "2026-11-10"
@@ -27318,32 +27896,6 @@
     {
      "name": "France Travail",
      "url": "https://financeplus.softy.pro/offre/227794?idt=5&h=2277940"
-    }
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "0e4c2e70e8e43921",
-   "title": "Infirmier coordinateur commercial H/F",
-   "company": "DOM PERFUSION",
-   "location": "Mérignac, NA, France",
-   "city": "Merignac",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "sales_operations"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-11-09",
-   "salary": "2,200–2,600 EUR/monthly",
-   "description_snippet": "En premier lieu, vous rencontrerez les acteurs de santé des services hospitaliers afin qu'ils vous confient leurs patients pour un retour à domicile, en assurant un développement commercial selon un plan sectoriel. Ainsi, vous coordonnerez des protocoles de soins particuliers, spécialisés en perfusion / insuline /nutrition artificielle, et vous vous chargerez initialement de la prise en charge de ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=3b5c66ba4c43105d"
     }
    ],
    "first_seen": "2026-11-10"
@@ -31295,6 +31847,44 @@
    "first_seen": "2026-10-22"
   },
   {
+   "id": "04fb89cc3ca753e7",
+   "title": "Lifecycle Marketing Manager",
+   "company": "ALMA",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "customer",
+    "marketing_produit"
+   ],
+   "skills": [
+    "gtm",
+    "retention",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 12,
+   "date_posted": "2026-11-17",
+   "salary": "544–544 EUR/yearly",
+   "description_snippet": "### **About Alma** At Alma, we believe sustainable commerce depends on fair, well-balanced trade. Because finance plays a pivotal role in business, our mission is to put it back in its rightful place, serving merchants and consumers. Our installment and deferred payment solutions help merchants boost sales by 20% or more, increase customer loyalty, and deliver a seamless shopping experience, witho",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=144eb9c374e7103b"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/alma/jobs/lifecycle-marketing-manager_paris"
+    }
+   ],
+   "first_seen": "2026-10-21"
+  },
+  {
    "id": "802b442d4501b761",
    "title": "Coordinateur Marketing Tactique Véhicules Particuliers (H/F)",
    "company": "MSX International",
@@ -31694,40 +32284,118 @@
    "first_seen": "2026-10-19"
   },
   {
-   "id": "c1c1e4e4954faba8",
-   "title": "Senior Performance Marketing Manager Meta & Google (H/F)",
-   "company": "scento",
+   "id": "d0dc6d276ddc8c2e",
+   "title": "Key Account Manager (h/f) – CDD",
+   "company": "Fossil Group",
    "location": "Paris, A8, France",
    "city": "Paris",
    "region": "paris",
    "work_mode": "remote",
    "contract": "CDI",
    "categories": [
-    "performance_marketing"
+    "account_management"
    ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "google ads",
-    "meta ads",
-    "roi",
-    "sea",
-    "tracking"
-   ],
+   "skills": [],
    "bonus_tags": [
     "international"
    ],
-   "score": 12,
-   "date_posted": "2026-10-17",
-   "salary": "95,000–125,000 EUR/yearly",
-   "description_snippet": "**À propos de Scento** ---------------------- Scento est le plus grand site de décants de parfum d'Europe. Fondée en 2024, l'entreprise a son siège à Paris, place Vendôme, et un second bureau à Berlin. Scento propose en décant plus de 1 000 parfums de créateurs et de niche, tous originaux, issus d'un portefeuille de 200 maisons : flacons de 2 ml, 5 ml et 8 ml, ainsi qu'un flacon de 30 ml pour la p",
+   "score": 10,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Qui sommes-nous Chez Fossil Group, nous écrivons notre prochain chapitre, et il commence dès aujourd’hui. Notre vision : devenir le leader de notre secteur en innovant à travers nos produits, nos expériences et les liens que nous tissons avec nos clients. Pour y parvenir, nous constituons une équipe internationale portée par l'énergie, l'innovation et l'ambition d'accélérer notre stratégie de croi",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=349db2f0dbcf5f3f"
+     "url": "https://fr.indeed.com/viewjob?jk=734c74d2000619d6"
     }
    ],
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "be6c40438ce13988",
+   "title": "Responsable Activation Commerciale & Marketing Clients",
+   "company": "AkzoNobel",
+   "location": "Montataire, HDF, France",
+   "city": "Montataire",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Depuis 1792, nous fournissons des peintures et revêtements innovants qui ont vocation à mettre de la couleur dans la vie des gens et à protéger ce qui compte le plus pour eux. Notre portefeuille de marques internationales, notamment Dulux, International, Sikkens et Interpon, a la confiance de nos clients à travers le monde. Nous opérons dans plus de 150 pays et nous utilisons notre expertise pour ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d55c3880b31b14cb"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "bdbbcfe55bd2df0e",
+   "title": "Customer Success",
+   "company": "Ensol Group",
+   "location": "La Ciotat, B8, France",
+   "city": "La Ciotat",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "nps",
+    "satisfaction client"
+   ],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-11-17",
+   "salary": "30,000–35,000 EUR/yearly",
+   "description_snippet": "Rejoins une équipe Customer Success où tout est encore à construire ! Chez Ensol, le Customer Success est au cœur de l’expérience client. Notre mission : accompagner nos clients de la signature de leur projet jusqu’à sa finalisation, en leur offrant un service irréprochable. En rejoignant notre équipe, tu évolueras dans un environnement dynamique où chaque journée est différente. Tu travailleras a",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f06688724db7fb65"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "a5e46afcf9235f50",
+   "title": "Chef de Produit - Chinois courant H/F",
+   "company": "",
+   "location": "13 - Aix-en-Provence",
+   "city": "13 - Aix-En-Provence",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "chinese",
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Un de nos clients, spécialisé dans le marketing opérationnel et les objets promotionnels, recrute un Chef de produits H/F pour renforcer son équipe. Votre mission sera d'assurer le sourcing et les achats auprès de fournisseurs asiatiques, de coordonner la fabrication et le suivi de production, d'accompagner les commerciaux dans la construction des offres et d'assurer le suivi des projets jusqu'à l",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/chef-de-produit-chinois-courant-hf-393352529c6d1429?from=poleemploi"
+    }
+   ],
+   "first_seen": "2026-11-18"
   },
   {
    "id": "ced5be80c9766b40",
@@ -32344,6 +33012,36 @@
     {
      "name": "France Travail",
      "url": "https://jobs.fourniergroupe.com/jobs/job-redirect?extId=8nqkco69ja&source=groupe-fournier&tc=8"
+    }
+   ],
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "9a963459436aa1fb",
+   "title": "Assistant commercial H/F",
+   "company": "Econocom",
+   "location": "Chantepie, A2, France",
+   "city": "Chantepie",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-16",
+   "salary": null,
+   "description_snippet": "### **À propos de nous** Econocom est un groupe européen, qui met en œuvre la transformation digitale des entreprises et des organisations publiques en plaçant les utilisateurs finaux au coeur de chaque projet. Première Entreprise Générale du Digital en Europe, le groupe Econocom conçoit, finance et facilite la transformation digitale des grandes entreprises et des organisations publiques. ### **M",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=1c534c5efa39ad08"
     }
    ],
    "first_seen": "2026-11-16"
@@ -39933,66 +40631,124 @@
    "first_seen": "2026-10-19"
   },
   {
-   "id": "8de430946b3aa05d",
-   "title": "VP Growth Europe (H/F)",
-   "company": "scento",
-   "location": "Paris 1er, A8, France",
-   "city": "Paris",
-   "region": "paris",
+   "id": "f1006cea125d0596",
+   "title": "AVP, Customer Success",
+   "company": "Seek Now",
+   "location": "GE, France",
+   "city": "Ge",
+   "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
    "categories": [
-    "performance_marketing"
+    "customer"
    ],
    "skills": [
-    "acquisition",
-    "conversion",
-    "roi",
-    "seo"
+    "customer satisfaction",
+    "retention",
+    "voice of the customer"
    ],
    "bonus_tags": [
-    "international"
+    "english_jd"
    ],
-   "score": 10,
-   "date_posted": "2026-10-18",
-   "salary": "190,000–250,000 EUR/yearly",
-   "description_snippet": "À propos de Scento Scento est le plus grand site de décants de parfum d'Europe. Fondée en 2024, l'entreprise a son siège à Paris, place Vendôme, et un second bureau à Berlin. Scento propose en décant plus de 1 000 parfums de créateurs et de niche, tous originaux, issus d'un portefeuille de 200 maisons : flacons de 2 ml, 5 ml et 8 ml, ainsi qu'un flacon de 30 ml pour la plupart des parfums. Le parf",
+   "score": 8,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "**Company Overview** Founded in 2012, Seek Now has become one of the fastest growing companies in both the insurance tech and real estate tech spaces by enabling a gig-economy (called our Seeker network) for property inspections and real estate digital twins. In industries generally not known for being \"high-tech,\" we pride ourselves on creating solutions previously thought impossible while at the",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=1bf16e9474fbd3b5"
+     "url": "https://fr.indeed.com/viewjob?jk=c8e938642c48cffe"
     }
    ],
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-11-18"
   },
   {
-   "id": "afb65c11aa65b868",
-   "title": "Product Marketing Manager H/F",
-   "company": "Septeo",
-   "location": "Montpellier",
-   "city": "Montpellier",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
+   "id": "4cdbb1cb3ac5bd60",
+   "title": "Responsable Marketing Produit Assurance-Vie",
+   "company": "Groupe CORUM Butler",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
    "categories": [
     "marketing_produit"
    ],
    "skills": [
-    "go-to-market",
     "positionnement"
    ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-09-17",
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-11-17",
    "salary": null,
-   "description_snippet": "Product Marketing Manager H/F <p><strong><u>Le profil que nous recherchons:&#xa0;</u></strong></p><ul><li><strong>Expérience en Product Marketing SaaS (4 à 7 ans)</strong>&#xa0;-&#xa0;dans des environnements logiciel B2B complexes</li><li>Expérience acquise dans un <strong>univers réglementé</strong>&#xa0;(édition logicielle, assurance, finance, immobilier, santé, secteur juridique, etc.).</li><li",
+   "description_snippet": "**Objectif du poste** --------------------- Nous recherchons un(e) Responsable Marketing Produit Assurance-Vie pour définir et piloter la stratégie marketing de notre gamme, accompagner le lancement et l'animation de nos offres et renforcer leur attractivité auprès de nos clients. **Qui sommes-nous ?** --------------------- Le Groupe CORUM, plus connu en France sous la marque **CORUM L’Épargne**, ",
    "sources": [
     {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/septeo/jobs/product-marketing-manager-h-f_montpellier"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=be9460bab45a8847"
     }
    ],
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "a0e7e03da05edb3c",
+   "title": "National Contract Logistics Customer Retention Specialist m/f",
+   "company": "Kuehne+Nagel",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "customer"
+   ],
+   "skills": [
+    "retention"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "C'est plus qu'un métier Au sein de l’équipe Contract Logistics de Kuehne+Nagel, vous contribuez chaque jour à imaginer et améliorer des solutions qui permettent aux marchandises de circuler sans accroc. Que vous prépariez des commandes, pilotiez une équipe, meniez des projets ou dirigiez un site, votre rôle est essentiel pour offrir à nos clients des standards opérationnels exigeants, qui soutienn",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=70cdf76beea65632"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "89ab53325507f573",
+   "title": "Responsable Grands Comptes en CDD (F/H)",
+   "company": "APRR",
+   "location": "Saint-Apollinaire, BFC, France",
+   "city": "Saint-Apollinaire",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "renouvellement"
+   ],
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "**Responsable Grands Comptes en CDD (F/H****)** Mobilis, la filiale d’APRR et d’AREA, qui développe et commercialise des produits et services de mobilité sous la marque Fulli, recrute un(e) **Responsable Grands Compte (F/H)** en CDD à Saint-Apollinaire (21) ou Jonage (69). Rattaché(e) à la Cheffe de Service Innovation & Développement, **vous commercialisez, pour la marque Fulli, l’offre Grands Com",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a6bf48d7f24b0518"
+    }
+   ],
+   "first_seen": "2026-11-18"
   },
   {
    "id": "31437dc41460bac6",
@@ -40297,36 +41053,6 @@
    "first_seen": "2026-11-16"
   },
   {
-   "id": "9a963459436aa1fb",
-   "title": "Assistant commercial H/F",
-   "company": "Econocom",
-   "location": "Vélizy-Villacoublay, A8, France",
-   "city": "Velizy-Villacoublay",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "assistant"
-   ],
-   "skills": [
-    "suivi"
-   ],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 8,
-   "date_posted": "2026-11-16",
-   "salary": null,
-   "description_snippet": "### **À propos de nous** Econocom est un groupe européen, qui met en œuvre la transformation digitale des entreprises et des organisations publiques en plaçant les utilisateurs finaux au coeur de chaque projet. Première Entreprise Générale du Digital en Europe, le groupe Econocom conçoit, finance et facilite la transformation digitale des grandes entreprises et des organisations publiques. ### **M",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=56e41e61be4c4505"
-    }
-   ],
-   "first_seen": "2026-11-16"
-  },
-  {
    "id": "eb74fcb5d8bed7c4",
    "title": "Responsable Marketing Produit (H/F) – CDI – Statut cadre",
    "company": "Vistalid",
@@ -40469,11 +41195,11 @@
    "score": 8,
    "date_posted": "2026-11-16",
    "salary": null,
-   "description_snippet": "**Votre mission :** Au sein du département Airframe, vous serez en charge d'animer et de gérer un portefeuille de clients pour les chantiers aviation civile Airframe. Vous serez le/la référent.e contractuel.le tout au long du cycle de vie du chantier, en coordination avec les équipes Commerce, Avant-Projets, Project Management. Vous garantissez la bonne application des engagements contractuels, la",
+   "description_snippet": "**À propos** ------------ ✈ Sabena technics est un fournisseur de services européen de premier plan dédié à l’aéronautique civile et gouvernementale internationale. Avec 4000 collaborateurs répartis sur 20 sites dans le monde , son expertise couvre le support de tous types de compagnies aériennes, une complémentarité technique avec les plus grands industriels, une large gamme de services technique",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e8c7e578b78ceca6"
+     "url": "https://fr.indeed.com/viewjob?jk=ab0ecc44a0b91905"
     }
    ],
    "first_seen": "2026-11-16"
@@ -46935,6 +47661,96 @@
    "first_seen": "2026-10-19"
   },
   {
+   "id": "31400a652463124c",
+   "title": "Chef de Projet Marketing Home Care",
+   "company": "dsm-firmenich",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "marketing_operations"
+   ],
+   "skills": [
+    "gestion de projet",
+    "outils marketing",
+    "processus"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "**Chef de Projet Marketing Home Care H/F (83336)** **Neuilly-sur-Seine (92200), France** Dans le cadre d’un remplacement de congé maternité, nous recherchons un(e) Marketing Manager Home Care pour rejoindre notre équipe dynamique dédiée aux clients globaux Home & Scent. Vous jouerez un rôle important dans le développement et l’exécution de la stratégie marketing Home & Scent Europe pour nos client",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f68bcbb8cf471f70"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "addabf6eac8c14bc",
+   "title": "Copywriter · US (Freelance)",
+   "company": "HomeExchange",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "crm"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-17",
+   "salary": "50–75 EUR/hourly",
+   "description_snippet": "#### **Who are we?** *Welcome to the #1 home exchange community in the world* **At HomeExchange, we believe there is a different way to travel.** You stay in someone's home while they stay in yours, or you host now and travel later. No rent, no fees per night. Just members who trust each other with the place they love most. HomeExchange is the world's leading home exchange platform: over 600,000 h",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=84cba321bb441297"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "31ad455d48f288f5",
+   "title": "Responsable Marque et Contenus H/F",
+   "company": "Puy Du Fou",
+   "location": "Les Epesses, B5, France",
+   "city": "Les Epesses",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "conversion",
+    "sea"
+   ],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-16",
+   "salary": null,
+   "description_snippet": "### **À propos de nous** Le Puy du Fou est devenu un phénomène dans le monde du spectacle. Il a brisé les codes et inventé une nouvelle génération de parc avec un concept artistique unique, cinq fois récompensé dans le monde depuis 2012. 6 000 hommes et femmes le font vivre et grandir avec passion. Quel que soit leur poste, ils n’ont qu’un seul objectif : rechercher l’excellence pour créer l’émoti",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4e51f20737e546df"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "78f2111b3868623e",
    "title": "Telecom Account Manager China Unicom (Europe)",
    "company": "China Unicom (Europe) Operations Limited French Branch",
@@ -50803,6 +51619,37 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "3a469513ea13bdbc",
+   "title": "Senior User Acquisition Manager",
+   "company": "CLERA",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roas"
+   ],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-17",
+   "salary": "60,000–70,000 EUR/yearly",
+   "description_snippet": "### **About the Role** Own and scale Meta paid acquisition for a SaaS business, with a focus on growing SMB and business audiences. You will work across performance marketing, creative, product, and measurement to build a fast-learning acquisition program. ### **What You'll Do** * Manage Meta campaign strategy and budget allocation, optimizing for ROAS and LTV:CAC targets. * Analyze creative perfo",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fab16e816a9d52d7"
+    }
+   ],
+   "first_seen": "2026-11-08"
+  },
+  {
    "id": "86436d0507b9f7d6",
    "title": "KEY ACCOUNT MANAGER - CHEF DE MARCHÉ (H/F)",
    "company": "",
@@ -50857,37 +51704,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/fairly-made/jobs/customer-success-manager-f-m-x_paris"
-    }
-   ],
-   "first_seen": "2026-11-08"
-  },
-  {
-   "id": "3a469513ea13bdbc",
-   "title": "Senior User Acquisition Manager",
-   "company": "CLERA",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "roas"
-   ],
-   "bonus_tags": [
-    "english_jd"
-   ],
-   "score": 6,
-   "date_posted": "2026-11-10",
-   "salary": "60,000–70,000 EUR/yearly",
-   "description_snippet": "### **About the Role** Lead Meta acquisition strategy for a SaaS business, combining performance analysis, creative direction, and measurement. You will help grow SMB and business audiences while building a fast, evidence-led testing approach. ### **What You'll Do** * Own Meta budget allocation and campaign strategy, optimizing toward ROAS and LTV:CAC targets while shifting investment toward SMB a",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=fc435b4ea359b837"
     }
    ],
    "first_seen": "2026-11-08"
@@ -52259,6 +53075,32 @@
    "first_seen": "2026-11-04"
   },
   {
+   "id": "1fbe80a2d3ffc237",
+   "title": "Customer Success Manager",
+   "company": "Steeple",
+   "location": "Saint-Jacques-De-La-Lande",
+   "city": "Saint-Jacques-De-La-Lande",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "Customer Success Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/steeple/jobs/customer-success-manager_saint-jacques-de-la-lande_STEEP_WlRNPD0"
+    }
+   ],
+   "first_seen": "2026-11-03"
+  },
+  {
    "id": "515334af60516ef0",
    "title": "Responsable Vente Indirecte F/H",
    "company": "Koesio",
@@ -52387,32 +53229,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/mutuelle-des-motards/jobs/chef-de-produits-et-services-h-f_perols_MDM_gl3wyZN"
-    }
-   ],
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "1fbe80a2d3ffc237",
-   "title": "Customer Success Manager",
-   "company": "Steeple",
-   "location": "Saint-Jacques-De-La-Lande",
-   "city": "Saint-Jacques-De-La-Lande",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-11-03",
-   "salary": null,
-   "description_snippet": "Customer Success Manager",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/steeple/jobs/customer-success-manager_saint-jacques-de-la-lande_STEEP_77y2qoA"
     }
    ],
    "first_seen": "2026-11-03"
@@ -59912,12 +60728,12 @@
    "first_seen": "2026-10-19"
   },
   {
-   "id": "ba3646c9de5f8488",
-   "title": "CUSTOMER SUCCESS MANAGER BTOB & BTOC H/F",
-   "company": "",
-   "location": "69 - Lyon",
-   "city": "69 - Lyon",
-   "region": "other",
+   "id": "9599e4b4a0722812",
+   "title": "Leader Customer Success Digital Europe",
+   "company": "Quadient",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
@@ -59925,50 +60741,50 @@
    ],
    "skills": [],
    "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-11-10",
+   "score": 4,
+   "date_posted": "2026-11-18",
    "salary": null,
-   "description_snippet": "descriptif du posteVotre quotidien sera rythmé par les interactions humaines, majoritairement par téléphone (appels entrants et sortants)Vous aurez la chance d'accompagner des profils très variés :Côté BtoB : Des professionnels exigeants (notaires, établissements bancaires). Côté BtoC : Des particuliers (acquéreurs) engagés dans un projet immobilier à fort enjeu émotionnel.Vos missions principales",
+   "description_snippet": "Leader Customer Success Digital Europe",
    "sources": [
     {
-     "name": "France Travail",
-     "url": "https://www.directemploi.com/candidatOffre/56741657?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/quadient/jobs/leader-customer-success-digital-europe_paris"
     }
    ],
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-11-18"
   },
   {
-   "id": "89d3df427ee494bf",
-   "title": "Chef de Projet Marketing F/H",
-   "company": "Walter Learning",
-   "location": "Marseille",
-   "city": "Marseille",
-   "region": "other",
+   "id": "4a942a17c3faa761",
+   "title": "Chef de produit loisirs créatifs H/F",
+   "company": "La petite épicerie",
+   "location": "Montreuil, A8, France",
+   "city": "Montreuil",
+   "region": "paris",
    "work_mode": "onsite",
-   "contract": "CDD",
+   "contract": "CDI",
    "categories": [
     "marketing_produit"
    ],
    "skills": [],
    "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-10-23",
+   "score": 4,
+   "date_posted": "2026-11-17",
    "salary": null,
-   "description_snippet": "Chef de Projet Marketing F/H <h5 dir=\"ltr\">Profil recherch&eacute; :&nbsp;</h5> <p dir=\"ltr\"><strong>Comp&eacute;tences organisationnelles</strong></p> <ul> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Faire preuve d&rsquo;autonomie.&nbsp;</p> </li> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Avoir une certaine rigueur d'ex&eacute;cution et un sens du process :",
+   "description_snippet": "LA PETITE ÉPICERIE, propose une large gamme de **produits de loisirs créatifs**. Bien plus qu'une enseigne ou un site de vente en ligne, c’est aussi pour nos clients **un lieu de partage, de créativité de conseils sur une large gamme de produits,** et toute **une communauté** **passionnée** par le **Do It Yourself**. Rejoignez notre équipe et contribuez à faire rayonner les loisirs créatifs ! **De",
    "sources": [
     {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/chef-de-projet-marketing-f-h_marseille"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=7480654c5ed1d7bf"
     }
    ],
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-11-18"
   },
   {
-   "id": "b04b771aa80038a9",
-   "title": "Chef de Produits Chaudières et Pac Hybrides H/F",
-   "company": "Hellowork",
-   "location": "Arcueil, A8, France",
-   "city": "Arcueil",
+   "id": "ac12d2b0370e75c9",
+   "title": "Product Marketing & Growth Lead",
+   "company": "Payflows",
+   "location": "Paris",
+   "city": "Paris",
    "region": "paris",
    "work_mode": "onsite",
    "contract": "CDI",
@@ -59977,19 +60793,101 @@
    ],
    "skills": [],
    "bonus_tags": [
-    "international"
+    "international",
+    "english_jd"
    ],
-   "score": 6,
-   "date_posted": "2026-10-15",
+   "score": 4,
+   "date_posted": "2026-11-17",
    "salary": null,
-   "description_snippet": "Description REJOIGNEZ LE GROUPE ATLANTIC ! Rejoignez le GROUPE ATLANTIC, leader français du confort thermique, et devenez un acteur clé du développement de nos solutions de chauffage ! Au sein de notre Direction Marketing de l'Offre Atlantic Home Solutions, vous intégrez une équipe Marketing engagée, au coeur des enjeux de développement de nos gammes de chaudières domestiques et de pompes à chaleu",
+   "description_snippet": "Product Marketing & Growth Lead **Who you are** * **A product marketer at heart.** You love understanding how products work, identifying the value they create and finding ways to communicate that to the market. You don't just want to write about products; you want to bring them to life. * **Deeply curious about technology and AI.** You enjoy getting under the hood of products, experimenting with n",
    "sources": [
     {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=7e253fa86f8f61d2"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/payflows/jobs/product-marketing-growth-lead_paris"
     }
    ],
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "aaa60b4d96c252eb",
+   "title": "L'Opcommerce - Chef / Cheffe de projet marketing digital (H/F)",
+   "company": "L'Opcommerce",
+   "location": "75 - Paris 17e Arrondissement",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "marketing_operations",
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "Au sein de la Direction du Marketing et des Partenariats, vous intégrerez le pôle Promotion de l'Offre de Services (PODS), une équipe transverse qui contribue à mieux faire connaître et valoriser les services proposés par L'Opcommerce auprès des entreprises du commerce et de ses partenaires. Dans le cadre du développement de notre stratégie marketing, nous souhaitons renforcer notre connaissance c",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://carrieres.lopcommerce.com/fr/annonce/4696879-alternant-assistant-chef-de-projet-data-marketing-connaissance-client-fh-75017-paris?s_o=France+Travail&s_b=DigitalRecruiters"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "018df70bdde6e56e",
+   "title": "Responsable du développement commercial Grands comptes F/H",
+   "company": "TALENTED PEOPLE GROUP",
+   "location": "75 - Paris 17e Arrondissement",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-17",
+   "salary": "Annuel de 60000.0 Euros à 70000.0 Euros",
+   "description_snippet": "DESCRIPTION CreditJob, cabinet de recrutement, recherche pour son client, acteur spécialisé dans l'expertise et la gestion de sinistres en assurance, un Responsable Développement Commercial Grands Comptes H/F, dans le cadre d'un CDI, basé à Rueil-Malmaison (92). Au sein de la Direction Commerciale et Marketing, vous serez rattaché(e) au Directeur Commercial et Marketing et aurez pour mission de dé",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://emplois.creditjob.fr/2049-237b8ae55b7d36d/?source=90"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "52c3c19a50e101e6",
+   "title": "Growth Marketing International",
+   "company": "Doctrine",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-13",
+   "salary": null,
+   "description_snippet": "Growth Marketing International",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/doctrine-1/jobs/growth-marketing-germany_paris"
+    }
+   ],
+   "first_seen": "2026-11-18"
   },
   {
    "id": "09449dc3efd80711",
@@ -62134,7 +63032,7 @@
    "skills": [],
    "bonus_tags": [],
    "score": 4,
-   "date_posted": "2026-11-17",
+   "date_posted": "2026-11-18",
    "salary": null,
    "description_snippet": "Lead Stratégie Data-Driven Marketing Digital (F/H)",
    "sources": [
@@ -71123,32 +72021,6 @@
    "first_seen": "2026-10-21"
   },
   {
-   "id": "04fb89cc3ca753e7",
-   "title": "Lifecycle Marketing Manager",
-   "company": "Alma",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-22",
-   "salary": null,
-   "description_snippet": "Lifecycle Marketing Manager",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/alma/jobs/lifecycle-marketing-manager_paris"
-    }
-   ],
-   "first_seen": "2026-10-21"
-  },
-  {
    "id": "2bbe50fdcb2d1fd1",
    "title": "PRODUCT MARKETING MANAGER F/H",
    "company": "SNCF Connect & Tech",
@@ -71814,32 +72686,31 @@
    "first_seen": "2026-10-19"
   },
   {
-   "id": "b65ed74225e34bf8",
-   "title": "Assistant commercial Langue Mandarin H/F",
-   "company": "GOAL",
-   "location": "Paris 13e, A8, France",
-   "city": "Paris",
-   "region": "paris",
+   "id": "143fdf066ddcb2f6",
+   "title": "Bénévole (H/F) en marketing et prospection – Association en cours de création",
+   "company": "cooperesto-3",
+   "location": "Lyon, ARA, France",
+   "city": "Lyon",
+   "region": "other",
    "work_mode": "onsite",
-   "contract": "CDI",
+   "contract": null,
    "categories": [],
    "skills": [],
    "bonus_tags": [
     "chinese",
-    "international",
-    "assistant_role"
+    "international"
    ],
-   "score": 4,
-   "date_posted": "2026-10-18",
+   "score": 2,
+   "date_posted": "2026-11-17",
    "salary": null,
-   "description_snippet": "**À propos du poste** Nous recherchons un ou une assistant ou assistante commercial(e) en Langue Mandarin pour rejoindre notre équipe. En tant qu’assistant ou assistante commercial(e), vous serez le ou la référent(e) pour la gestion administrative et le support client, contribuant ainsi à la croissance et à la satisfaction de notre clientèle. Vous évoluerez dans un environnement dynamique, jeune o",
+   "description_snippet": "Nous recherchons des bénévoles pour participer à la création d'une nouvelle association d'échanges culturels. L'objectif est simple : permettre à des passionnés de langues de se rencontrer régulièrement, pratiquer ensemble et partager leurs connaissances dans une ambiance conviviale. Missions possibles Selon vos envies et vos disponibilités : Identifier les publics cibles et étudier les besoins du",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=1df56bbf009893f4"
+     "url": "https://fr.indeed.com/viewjob?jk=16849b12c0c924c0"
     }
    ],
-   "first_seen": "2026-10-18"
+   "first_seen": "2026-11-18"
   },
   {
    "id": "49143a49de5a75fc",
@@ -77705,6 +78576,42 @@
    "first_seen": "2026-11-17"
   },
   {
+   "id": "58b93fd1171f62da",
+   "title": "Senior Account Manager Demand, France",
+   "company": "EQUATIV",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "cross-sell",
+    "upsell"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": -2,
+   "date_posted": "2026-11-17",
+   "salary": null,
+   "description_snippet": "**About the role** ------------------ As Senior Account Manager Demand, you will own and grow our key demand relationships in your European market: DSPs, curators, agencies and holding company trading desks. You will be the trusted post-sale partner for these clients, making sure their programmatic campaigns on our curation platform deliver, perform and scale as well as our Managed Service campaig",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e90767b7bfd9933e"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/smart-adserver/jobs/senior-account-manager-demand-france_paris"
+    }
+   ],
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "66b46e2029988816",
    "title": "Directeur Marketing Opérationnel / Growth Marketing B2B H/F",
    "company": "EPSA",
@@ -77721,7 +78628,7 @@
     "international"
    ],
    "score": -2,
-   "date_posted": "2026-09-19",
+   "date_posted": "2026-11-17",
    "salary": null,
    "description_snippet": "Directeur Marketing Opérationnel / Growth Marketing B2B H/F <p>Profil recherché :</p><ul><li>10+ ans d’expérience en marketing opérationnel / growth marketing B2B</li><li>Forte expertise lead generation, data marketing et outils MarTech</li><li>Culture business, data-driven et orientée performance</li><li>Maitrise de Salesforce et/ou Microsoft Dynamics</li><li>Maitrise de l’anglais souhaité</li></",
    "sources": [
@@ -79006,39 +79913,6 @@
    "first_seen": "2026-10-22"
   },
   {
-   "id": "01e66dc2411f41b6",
-   "title": "Global Head of Growth Marketing (m/f/d)",
-   "company": "Hager",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "kpi"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": -2,
-   "date_posted": "2026-10-22",
-   "salary": null,
-   "description_snippet": "Hager Marketing Paris, France Frankfurt am Main, Germany Obernai, France Blieskastel, Germany Permanent **Why join the Global Marketing & Digital department?** Marketing is becoming a **strategic growth engine**, connecting customer needs, business priorities, data and digital capabilities to create measurable impact. Join our Global Marketing & Digital team to **shape this transformation** and dr",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=63648d9f8e21367b"
-    }
-   ],
-   "first_seen": "2026-10-22"
-  },
-  {
    "id": "872077485963f04b",
    "title": "Data Scientist Senior - Marketing Analytics & Attribution - Freelance (H/F)",
    "company": "Collective.work",
@@ -79240,6 +80114,33 @@
    "first_seen": "2026-10-20"
   },
   {
+   "id": "a26a15642fa19978",
+   "title": "Senior Customer Success / Account Manager",
+   "company": "Beamy",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management",
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "Senior Customer Success / Account Manager",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/beamy/jobs/senior-customer-success_paris"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "88283540eb84ae41",
    "title": "Senior Customer Success Manager Enterprise - France m/f/d",
    "company": "AB Tasty",
@@ -79261,38 +80162,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/ab-tasty/jobs/senior-customer-success-manager-enterprise-france-m-f-d_paris"
-    }
-   ],
-   "first_seen": "2026-11-17"
-  },
-  {
-   "id": "58b93fd1171f62da",
-   "title": "Senior Account Manager Demand, France",
-   "company": "EQUATIV",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "cross-sell",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": -4,
-   "date_posted": "2026-11-17",
-   "salary": null,
-   "description_snippet": "**About the role** ------------------ As Senior Account Manager Demand, you will own and grow our key demand relationships in your European market: DSPs, curators, agencies and holding company trading desks. You will be the trusted post-sale partner for these clients, making sure their programmatic campaigns on our curation platform deliver, perform and scale as well as our Managed Service campaig",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e90767b7bfd9933e"
     }
    ],
    "first_seen": "2026-11-17"
@@ -80785,6 +81654,32 @@
     }
    ],
    "first_seen": "2026-10-23"
+  },
+  {
+   "id": "01e66dc2411f41b6",
+   "title": "Global Head Of Growth Marketing (m/f/d)",
+   "company": "Hager",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": -4,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "Global Head Of Growth Marketing (m/f/d)",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/hager-group/jobs/global-head-of-growth-marketing-m-f-d_paris"
+    }
+   ],
+   "first_seen": "2026-10-22"
   },
   {
    "id": "2ebe8717f9b3dfd2",
