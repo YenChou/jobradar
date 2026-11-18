@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-18T19:29:18Z",
+ "generated_at": "2026-11-18T23:58:52Z",
  "source_stats": {
-  "Indeed": 3498,
-  "Welcome to the Jungle": 9230,
-  "France Travail": 409,
+  "Indeed": 3351,
+  "Welcome to the Jungle": 9243,
+  "France Travail": 386,
   "APEC": 0,
   "HelloWork": 0,
   "Greenhouse": 7,
@@ -14,8 +14,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 78 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 2930,
- "new_today": 178,
+ "count": 2894,
+ "new_today": 24,
  "jobs": [
   {
    "id": "12b18490635b0302",
@@ -887,6 +887,42 @@
     }
    ],
    "first_seen": "2026-11-10"
+  },
+  {
+   "id": "b5e21dc7fb668af5",
+   "title": "Performance Marketing / Media Specialist",
+   "company": "numberly",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "performance_marketing"
+   ],
+   "skills": [
+    "acquisition",
+    "roi",
+    "sea"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 24,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "Numberly est reconnu comme l’un des meilleurs spécialistes mondiaux du Data Marketing avec près de 500 collaborateurs et 11 bureaux dans le monde au service de plus de 300 clients de premier plan (L'Oréal, Arte, Groupe Seb, Pernod Ricard, SNCF, Aigle, HSBC..). En mettant la technologie au service des marques et des consommateurs, Numberly est au cœur de la croissance des entreprises et de l’aspira",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=2acbfaa880b21c11"
+    },
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/1000mercis-group/jobs/performance-marketing-media-specialist_paris-9e-arrondissement"
+    }
+   ],
+   "first_seen": "2026-11-19"
   },
   {
    "id": "e33ebaf9df8a951e",
@@ -1839,39 +1875,6 @@
     }
    ],
    "first_seen": "2026-10-20"
-  },
-  {
-   "id": "8f05bd0c13bb5aa6",
-   "title": "Traffic Manager H/F",
-   "company": "Agence LM",
-   "location": "Bordeaux, NA, France",
-   "city": "Bordeaux",
-   "region": "west",
-   "work_mode": "hybrid",
-   "contract": "CDD",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "google ads",
-    "roi",
-    "sea",
-    "tracking"
-   ],
-   "bonus_tags": [],
-   "score": 24,
-   "date_posted": "2026-10-19",
-   "salary": "30,000–35,000 EUR/yearly",
-   "description_snippet": "**Agence LM** est une agence d’acquisition payante basée à Bordeaux. Nous pilotons les campagnes Meta et Google Ads de réseaux nationaux de franchisés et d’e-commerçants. Pour accompagner notre croissance, nous recrutons un ou une media buyer opérationnel(le), rattaché(e) directement à notre CEO, Clément Soulisse. **Vos missions :** * Lancer et paramétrer les campagnes sur Meta Business (Facebook,",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=3b7c3713c7c0a386"
-    }
-   ],
-   "first_seen": "2026-10-19"
   },
   {
    "id": "15d8e5a806909487",
@@ -3155,37 +3158,6 @@
     }
    ],
    "first_seen": "2026-10-28"
-  },
-  {
-   "id": "956712cc66c1c6b3",
-   "title": "Account Manager IT F/H",
-   "company": "Constellation",
-   "location": "Nantes, B5, France",
-   "city": "Nantes",
-   "region": "west",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [
-    "crm",
-    "cross-sell",
-    "fidelisation",
-    "upsell"
-   ],
-   "bonus_tags": [],
-   "score": 22,
-   "date_posted": "2026-11-12",
-   "salary": "110,000–180,000 EUR/yearly",
-   "description_snippet": "**L'entreprise** ---------------- Constellation est un groupe IT en forte croissance, organisé autour de 4 directions regroupant 10 étoiles spécialisées (Cloud et DataCenter, Cybersecurite, Connectivité et Business transformation). Nous accompagnons nos clients dans leurs transformations les plus critiques, avec la puissance d'un groupe et l'agilité de filiales expertes. Notre métier est de concev",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=6b66e0775d0e6bdc"
-    }
-   ],
-   "first_seen": "2026-10-27"
   },
   {
    "id": "5647f71bed8b2888",
@@ -6066,99 +6038,97 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "a1b03c0a26fab723",
-   "title": "Customer Success Consultant SIRH Mid-Market Junior",
-   "company": "Lucca",
-   "location": "Bordeaux",
-   "city": "Bordeaux",
-   "region": "west",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 20,
-   "date_posted": "2026-10-23",
-   "salary": null,
-   "description_snippet": "Customer Success Consultant SIRH Mid-Market Junior <p><b><strong>▶︎ Avez-vous vu cette personne ?</strong></b><br><br><span>- Vous êtes diplômé(e) d’une grande école d’ingénieurs ou de commerce ;</span><br><span>- Vous avez une première expérience en gestion de projets ;</span><br><span>- Vous avez le goût du contact humain tout en étant attiré(e) par la résolution de problèmes pratiques et parfoi",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/lucca/jobs/customer-success-consultant-sirh-mid-market-junior_bordeaux_LUCCA_Zbmy5pp"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "e852f401bf2948d0",
-   "title": "Graduate Growth Marketing Manager (Performance Marketing)",
-   "company": "Revolut",
-   "location": "Télétravail, France",
-   "city": "Teletravail",
+   "id": "ce53043edb11ec92",
+   "title": "Assistant Commercial F/H",
+   "company": "Evoriel",
+   "location": "Montpellier",
+   "city": "Montpellier",
    "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
    "categories": [
-    "performance_marketing"
+    "assistant"
    ],
    "skills": [
-    "acquisition",
-    "kpi",
-    "roas",
-    "sea",
-    "tracking"
+    "excel"
    ],
    "bonus_tags": [
-    "english_jd"
+    "assistant_role"
    ],
-   "score": 20,
-   "date_posted": "2026-10-19",
+   "score": 18,
+   "date_posted": "2026-11-19",
    "salary": null,
-   "description_snippet": "**About Revolut** People deserve more from their money. More visibility, more control, and more freedom. Since 2015, Revolut has been on a mission to deliver just that. Our powerhouse of products — including spending, saving, investing, exchanging, travelling, and more — help our 80+ million customers get more from their money every day. As we continue our lightning-fast growth,‌ 2 things are esse",
+   "description_snippet": "Assistant Commercial F/H <ul><li>Formation Bac +2 minimum (type BTS Assistant(e) Manager).</li><li>Expérience de 2 ans minimum dans un poste similaire ; une première expérience dans l’immobilier est un atout.</li><li>Rigueur, autonomie et sens de l’organisation.</li><li>Excellente aisance rédactionnelle et relationnelle, sens du service et de la communication.</li><li>Maîtrise des outils bureautiq",
    "sources": [
     {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=0413390e3171cbef"
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/evoriel/jobs/assistant-commercial-f-h_montpellier_EVORI_26alXG"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
   },
   {
-   "id": "d5b2b1708d4af503",
-   "title": "Customer Success Manager Junior - ITA Logistique SAS",
-   "company": "LetMeShip",
-   "location": "Saint-Herblain, B5, France",
-   "city": "Saint-Herblain",
-   "region": "other",
+   "id": "7848bdecdeb4b05c",
+   "title": "Account Manager Life Science Research Northwest France",
+   "company": "Leica Microsystems",
+   "location": "Rennes, A2, France",
+   "city": "Rennes",
+   "region": "west",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "customer"
+    "account_management"
    ],
    "skills": [
-    "churn",
-    "cross-sell",
-    "satisfaction client",
-    "upsell"
+    "crm",
+    "salesforce"
    ],
    "bonus_tags": [
-    "international"
+    "international",
+    "english_jd"
    ],
-   "score": 20,
-   "date_posted": "2026-10-16",
-   "salary": "26,000–30,000 EUR/yearly",
-   "description_snippet": "Saint-Herblain Temps plein Contrat à durée indéterminée (CDI) 26 000 - 30 000 € par an **Votre mission** ----------------- En intégrant l’équipe Customer Success, vous assurez la **fidélisation et le développement** d’un portefeuille de clients B2B. **Votre objectif :** maximiser la satisfaction client, limiter le churn et développer la valeur client grâce à un accompagnement personnalisé et des a",
+   "score": 18,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "**Bring more to life.** Are you ready to accelerate your potential and make a real difference within life sciences, diagnostics and biotechnology? At Leica Microsystems, one of Danaher’s 15+ operating companies, our work saves lives—and we’re all united by a shared commitment to innovate for tangible impact. You’ll thrive in a culture of belonging where you and your unique viewpoint matter. And by",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=fcbf4d4444171e62"
+     "url": "https://fr.indeed.com/viewjob?jk=f8ebe0f9c934ac15"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "7fe39aa17b44f9e7",
+   "title": "Junior Sales Enablement Manager (f/m/d)",
+   "company": "instagrid",
+   "location": "A8, France",
+   "city": "A8",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "sales_operations"
+   ],
+   "skills": [
+    "salesforce"
+   ],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "Pure instant power. Anywhere. We have created the world’s most advanced portable power supplies, bringing freedom to the way our customers work. With you we want to shape a world where advanced technology meets environmental responsibility and create lasting impact. We are working from all over Europe and the US, whether onsite, hybrid or fully remote. Driven by our curiosity and the desire to lea",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0c9215410d3108cc"
+    }
+   ],
+   "first_seen": "2026-11-19"
   },
   {
    "id": "8ec9c990a2d10032",
@@ -9893,37 +9863,129 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "0c80eae4aabc5cbb",
-   "title": "Customer Success Manager Mid Market - CDI - Paris - H/F/X h/f",
-   "company": "",
-   "location": "75 - Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
+   "id": "4c7d2aada85cf242",
+   "title": "Assistant ADV - Temps partiel F/H",
+   "company": "Eiffage Énergie Systèmes",
+   "location": "Condé-sur-Vire, N, France",
+   "city": "Conde-Sur-Vire",
+   "region": "other",
+   "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "customer"
+    "assistant"
    ],
    "skills": [
-    "churn",
-    "cross-sell",
-    "retention",
-    "upsell"
+    "excel",
+    "suivi"
    ],
    "bonus_tags": [
-    "international"
+    "assistant_role"
    ],
-   "score": 18,
-   "date_posted": "2026-10-18",
+   "score": 16,
+   "date_posted": "2026-11-18",
    "salary": null,
-   "description_snippet": "Après une phase de transformation réussie, Partoo (Saas B2B/ 40M ARR) entre en 2026 dans une nouvelle étape clé : celle de l'accélération.Nous sommes aujourd'hui une scale-up européenne solide, rentable et en croissance, avec une ambition claire : devenir la référence de l'expérience client locale pour les réseaux de points de vente.Notre mission est simple : aider les entreprises à mieux gérer le",
+   "description_snippet": "**Vos missions** ---------------- Dans le cadre du développement de nos activités au sein de notre agence **basée à Condé-sur-Vire dans la Manche (50)**, proche de Saint-Lô, nous **recrutons un(e) Assistant(e) ADV F/H en CDI - 3 jours par semaine** ***Vos missions*** Rattaché(e) au responsable de département et en étroite collaboration avec les Responsables d’Affaires et les équipes travaux, vous ",
    "sources": [
     {
-     "name": "France Travail",
-     "url": "http://www.missionhandicap.com/emploi/partoo-8330941#utm_source=PoleEmploi"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=56bb87e993c3000b"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "10525820a33eb7a6",
+   "title": "Assistant Commercial H/F",
+   "company": "Réseau CTH",
+   "location": "Montpellier, O, France",
+   "city": "Montpellier",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "salons"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "**Rejoignez une aventure professionnelle ambitieuse avec** **Réseau CTH** ------------------------------------------------------------------------- Vous souhaitez vous investir dans un projet structuré, en forte croissance, au sein d’un réseau reconnu ? CTH recrute. Acteur majeur de la **rénovation et de l’amélioration de l’habitat**, le réseau CTH compte aujourd’hui **185 collaborateurs** réparti",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=b432cee62e8597d7"
+    }
+   ],
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "39d18b4e71c1f7c5",
+   "title": "Assistant(e) Commerciale B2B (H/F)",
+   "company": "tecplast",
+   "location": "Challes-les-Eaux, ARA, France",
+   "city": "Challes-Les-Eaux",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "**Intitulé du poste :** Assistant(e) Commerciale B2B (H/F) **Lieu :** Challes les eaux (73) **Type de contrat :** CDI – Temps plein (35h) **Rémunération :** A convenir **À propos de nous:** Rejoignez Tecplast, entreprise dynamique spécialisée dans la conception et la distribution de bâches techniques et sur mesure. Dans le cadre de notre développement auprès de nos clients professionnels et distri",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=4b6e094dc609c52c"
+    }
+   ],
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "94a98fd8689932ec",
+   "title": "Assistant/e Administratif/ve des ventes H/F - TIGNES",
+   "company": "CIMALPES",
+   "location": "Tignes, ARA, France",
+   "city": "Tignes",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 16,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "***Au cœur des Alpes, entre sommets et excellence*** Cimalpes réunit une équipe de passionnés de montagne et d’immobilier, au cœur des plus belles stations alpines. Notre mission : créer avec passion et attention des expériences uniques, et sélectionner à la vente ou à la location les plus belles propriétés des Alpes. Travailler chez Cimalpes, c’est rejoindre une entreprise jeune et dynamique, anc",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=9e1cdb167f4b7a0d"
+    }
+   ],
+   "first_seen": "2026-11-19"
   },
   {
    "id": "5241eea70bb90e43",
@@ -10191,8 +10253,8 @@
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "assistant",
-    "marketing_produit"
+    "marketing_produit",
+    "assistant"
    ],
    "skills": [
     "excel",
@@ -12173,11 +12235,11 @@
    "score": 16,
    "date_posted": "2026-11-17",
    "salary": null,
-   "description_snippet": "**Description de l'entreprise** Le Groupement Mousquetaires, ce sont 7 enseignes de la grande distribution, 160 000 collaborateurs et plus de 3 100 chefs d'entreprise indépendants ! Bricomarché, enseigne de bricolage emblématique du Groupement, classée 3ème en France dans sa catégorie, accueille quotidiennement amateurs de jardinage et bricoleurs chevronnés. Envie de rejoindre la Tribu Brico ? Bon",
+   "description_snippet": "**Acteur(trice) de la gestion commerciale** du magasin et de la bonne tenue de la base de données*,* vos principales missions sont : * **Garantir la fiabilité et la mise à jour de la base de données** du point de vente : information sur les produits, tarification, tenue du fichier fournisseurs, gestion des stocks ; * S'assurer de la **codification des articles** et gérer les modifications nécessai",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=9dc5c971cd0f299c"
+     "url": "https://fr.indeed.com/viewjob?jk=fe29398340104e85"
     }
    ],
    "first_seen": "2026-11-13"
@@ -13684,8 +13746,8 @@
    "id": "dc7d92ea750a155d",
    "title": "Account Manager (H/F)",
    "company": "SAFETY-KLEEN FRANCE",
-   "location": "Créteil, A8, France",
-   "city": "Creteil",
+   "location": "Melun, A8, France",
+   "city": "Melun",
    "region": "paris",
    "work_mode": "onsite",
    "contract": "CDI",
@@ -13711,7 +13773,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=816d26fa7271da9e"
+     "url": "https://fr.indeed.com/viewjob?jk=e89f4008786efbf6"
     }
    ],
    "first_seen": "2026-11-10"
@@ -17664,105 +17726,94 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "6f4ecea41239b495",
-   "title": "Chef(fe) de projet Marketing – France / Espagne",
-   "company": "Delko Europe",
-   "location": "Rousset, B8, France",
-   "city": "Rousset",
+   "id": "b66c53d653d01841",
+   "title": "Assistante administrative et commerciale H/F",
+   "company": "LAZEO",
+   "location": "Cagnes-sur-Mer, B8, France",
+   "city": "Cagnes-Sur-Mer",
    "region": "other",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
-    "performance_marketing"
+    "assistant"
    ],
    "skills": [
-    "acquisition",
-    "conversion",
-    "kpi",
-    "roi",
-    "sea"
+    "excel"
    ],
-   "bonus_tags": [],
-   "score": 16,
-   "date_posted": "2026-10-19",
-   "salary": "42,000–50,000 EUR/yearly",
-   "description_snippet": "*DELKO est une franchise française de garages automobiles.* *Historiquement implanté dans le Sud de la France, les garages DELKO se déploient aujourd'hui sur tout le territoire avec près de 170 garages.* *Vous voulez en savoir plus :* *n'hésitez pas à visiter le site de Delko :* *delko.com* *et notre page carrière !* **Description du poste** ------------------------ *Rattaché(e) directement à la D",
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 14,
+   "date_posted": "2026-11-18",
+   "salary": "1,900–1,900 EUR/monthly",
+   "description_snippet": "**Sous la vision du Dr Sillam, Président de la Fédération Française d'Esthétique Médicale et Dentaire, le groupe LAZEO, leader en Médecine Esthétique et Épilation Laser, incarne l'excellence et le prestige dans ces domaines. Avec plus de 130 centres en France et en Europe, nous sommes les artisans d'une nouvelle ère de beauté.** **Rejoignez nous en tant qu'Assistant(e) Administratif(ve) et Commerc",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=576199f0059bf7c2"
+     "url": "https://fr.indeed.com/viewjob?jk=471c5254f5f49b58"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
   },
   {
-   "id": "309cb52a9ae9445e",
-   "title": "Customer Success Manager Junior - ITA Logistique SAS",
-   "company": "ITA Logistics Group",
-   "location": "Saint-Herblain, B5, France",
-   "city": "Saint-Herblain",
+   "id": "fc0be05c36e91512",
+   "title": "Assistant(e) Administration des Ventes (ADV) H/F",
+   "company": "PLACEL CHUPIN",
+   "location": "Sautron, B5, France",
+   "city": "Sautron",
    "region": "other",
    "work_mode": "onsite",
-   "contract": null,
+   "contract": "CDI",
    "categories": [
-    "customer"
+    "assistant"
    ],
    "skills": [
-    "churn",
-    "cross-sell",
-    "satisfaction client",
-    "upsell"
+    "suivi"
    ],
    "bonus_tags": [
-    "international"
+    "assistant_role"
    ],
-   "score": 16,
-   "date_posted": "2026-10-16",
-   "salary": "26,000–30,000 EUR/yearly",
-   "description_snippet": "#### **Votre mission** En intégrant l’équipe Customer Success, vous assurez la **fidélisation et le développement** d’un portefeuille de clients B2B. **Votre objectif :** maximiser la satisfaction client, limiter le churn et développer la valeur client grâce à un accompagnement personnalisé et des actions ciblées d’upsell / cross-sell. #### **Vos responsabilités** * Cogérer un portefeuille clients",
+   "score": 14,
+   "date_posted": "2026-11-18",
+   "salary": "24,000–28,000 EUR/yearly",
+   "description_snippet": "PLACEL CHUPIN est une entreprise industrielle familiale implantée à Sautron, près de Nantes. Nous fabriquons et imprimons des emballages souples destinés principalement Dans le cadre d'un départ à la retraite, nous recherchons un(e) Assistant(e) Administration des Ventes. **À propos du poste** En tant qu’assistant(e) Administration des Ventes (ADV), vous êtes l'interface entre les clients, le serv",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=45dc24a525a8dc23"
+     "url": "https://fr.indeed.com/viewjob?jk=b641fb5f2925ac50"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
   },
   {
-   "id": "0a8dfd8db9727e46",
-   "title": "CDD - Responsable Acquisition E-commerce F/H",
-   "company": "JJA",
-   "location": "Gonesse",
-   "city": "Gonesse",
+   "id": "be5565938fcf4c7e",
+   "title": "Assistant(e) commercial(e) / ADV - Objets publicitaires (H/F)",
+   "company": "",
+   "location": "33 - Naujac-sur-Mer",
+   "city": "33 - Naujac-Sur-Mer",
    "region": "other",
    "work_mode": "onsite",
-   "contract": "CDD",
+   "contract": "CDI",
    "categories": [
-    "performance_marketing"
+    "assistant"
    ],
    "skills": [
-    "acquisition",
-    "conversion",
-    "kpi",
-    "roas",
-    "roi",
-    "sea",
-    "seo"
+    "suivi"
    ],
    "bonus_tags": [
-    "international"
+    "assistant_role"
    ],
-   "score": 16,
-   "date_posted": "2026-09-18",
+   "score": 14,
+   "date_posted": "2026-11-18",
    "salary": null,
-   "description_snippet": "CDD - Responsable Acquisition E-commerce F/H ### Formation & expérience : * Formation supérieure **Bac+5** en marketing digital, e-commerce, communication, école de commerce ou formation équivalente. * **Minimum 5 ans d’expérience** en acquisition digitale, performance marketing ou e-commerce. * Une expérience dans l’univers du **e-commerce, du retail ou de la décoration** serait un plus. ### Comp",
+   "description_snippet": "Début de contrat : Dès que possible Heures hebdomadaires : 39h Salaire : 2 300 € brut mensuel, + prime annuelle sur objectif pouvant atteindre 3 000 €, versée sous réserve d'atteinte des objectifs Lieu du poste : En présentiel, à Bordeaux Spécialisé dans la vente d'objets promotionnels sur les marchés publics, depuis 2013 Goodiz Print accompagne les organismes publics dans leur campagne de communi",
    "sources": [
     {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/jja/jobs/cdd-responsable-acquisition-e-commerce-f-h_gonesse"
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/assistante-commerciale-adv-objets-publicitaires-a0cdb24737a92f2a?from=poleemploi"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
   },
   {
    "id": "daea484043cf8f0a",
@@ -18129,38 +18180,6 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=1156b1907e2c3c9c"
-    }
-   ],
-   "first_seen": "2026-11-18"
-  },
-  {
-   "id": "607f37072b33c25f",
-   "title": "Business Operations Specialist H/F",
-   "company": "Marso Robotics",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "sales_operations"
-   ],
-   "skills": [
-    "dashboard",
-    "reporting"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 14,
-   "date_posted": "2026-11-18",
-   "salary": "45,000–65,000 EUR/yearly",
-   "description_snippet": "At Marso, as a **Business Operations Specialist**, you will build and run Marso OS, the company’s operating system: the management cadence, the KPI system, the processes and the tools that help Marso Robotics execute well as it grows. You design how the company works, roll it out with the teams, automate it through Marsonet and lead cross-functional strategic projects. **Responsibilities** =======",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=10c4c8b86a2ab4b7"
     }
    ],
    "first_seen": "2026-11-18"
@@ -18976,8 +18995,8 @@
    "id": "720265856b3c7d19",
    "title": "Customer Success Manager (H/F)",
    "company": "instagrid",
-   "location": "B5, France",
-   "city": "B5",
+   "location": "NA, France",
+   "city": "Na",
    "region": "other",
    "work_mode": "remote",
    "contract": "CDI",
@@ -18999,7 +19018,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=45ba75c00be0b9c2"
+     "url": "https://fr.indeed.com/viewjob?jk=900a467293fca6a5"
     }
    ],
    "first_seen": "2026-11-17"
@@ -19414,7 +19433,7 @@
    "score": 14,
    "date_posted": "2026-11-16",
    "salary": null,
-   "description_snippet": "Siège Arcueil * Type de contrat CDI * Temps de travail Temps plein * Salaire mensuel Salaire selon profil * Date du contrat Dès que possible Publiée il y a 2 jours 4 heures * Partager * sauvegarder * postuler **Descriptif du poste** ----------------------- Rejoins la DSI de l'UCPA en tant que Chef·fe de projet Digitalisation & Transformation SI ! Tu joueras un rôle clé dans la modernisation de nos",
+   "description_snippet": "Siège Arcueil * Type de contrat CDI * Temps de travail Temps plein * Salaire mensuel Salaire selon profil * Date du contrat Dès que possible Publiée il y a 2 jours 11 heures * Partager * sauvegarder * postuler **Descriptif du poste** ----------------------- Rejoins la DSI de l'UCPA en tant que Chef·fe de projet Digitalisation & Transformation SI ! Tu joueras un rôle clé dans la modernisation de no",
    "sources": [
     {
      "name": "Indeed",
@@ -25879,6 +25898,37 @@
    "first_seen": "2026-10-28"
   },
   {
+   "id": "956712cc66c1c6b3",
+   "title": "Account Manager IT F/H",
+   "company": "Constellation",
+   "location": "Amiens, HDF, France",
+   "city": "Amiens",
+   "region": "other",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [
+    "crm",
+    "cross-sell",
+    "fidelisation",
+    "upsell"
+   ],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-11-18",
+   "salary": "90,000–130,000 EUR/yearly",
+   "description_snippet": "**L'entreprise** ---------------- Constellation est un groupe IT en forte croissance, organisé autour de 4 directions regroupant 10 étoiles spécialisées (Cloud et DataCenter, Cybersecurite, Connectivité et Business transformation). Nous accompagnons nos clients dans leurs transformations les plus critiques, avec la puissance d'un groupe et l'agilité de filiales expertes. Notre métier est de concev",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=a6ca162e2b4cb03a"
+    }
+   ],
+   "first_seen": "2026-10-27"
+  },
+  {
    "id": "c048491f7c1e6d07",
    "title": "Account Manager IT F/H - Constellation",
    "company": "Constellation",
@@ -27043,39 +27093,6 @@
     }
    ],
    "first_seen": "2026-10-20"
-  },
-  {
-   "id": "7e6cb6d120678506",
-   "title": "Chef de produit DATA H/F",
-   "company": "Veolia",
-   "location": "Aubervilliers, A8, France",
-   "city": "Aubervilliers",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement",
-    "roadmap",
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 14,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "**Description de l'entreprise** Leader mondial des services à l'environnement, Veolia est présent sur les 5 continents avec près de 218 000 salariés. Expert dans les métier de l'eau, l'énergie et les déchets, le Groupe VEOLIA conçoit et met en oeuvre des solutions innovantes de décarbonation, de dépollution et de régénération des ressources pour accompagner les collectivités et les industriels dan",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=338c81e84d584e05"
-    }
-   ],
-   "first_seen": "2026-10-19"
   },
   {
    "id": "562d893acbf63778",
@@ -34893,155 +34910,119 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "1138a7aea43c1f62",
-   "title": "Global Media Planner, Operations & Transformation (all genders)",
-   "company": "Decathlon",
-   "location": "Villeneuve-d'Ascq, HDF, France",
-   "city": "Villeneuve-D'Ascq",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "kpi",
-    "roi",
-    "sea"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 12,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "* CDI * Temps plein * Au moins 10 ans d'expérience * Maitrise, IEP, IUP, Bac+4 * Media & Growth Marketing Owner Publiée le 12/10/2026 **Mission** ----------- #### **Global Media Planner, Operations & Transformation** **Département :** Global Marketing UNITED / Media Lab **Rattachement hiérarchique :** Global Head of Media **Localisation :** Siège Monde - France (Lille/Paris) / Hybride **Type de co",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=f7c5540026e595c8"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "d43d5618b149aea2",
-   "title": "Responsable marketing Data Center F/H/X",
-   "company": "Socomec Group",
-   "location": "Benfeld, GE, France",
-   "city": "Benfeld",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement",
-    "roadmap"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 12,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Porté notamment par l’essor de l’ **intelligence artificielle** , le marché du Data Center connaît une forte accélération et fait évoluer rapidement les besoins en infrastructures électriques critiques. Dans ce contexte, Socomec renforce ses équipes pour accompagner ses ambitions sur ce segment. Au contact des équipes et des clients, vous êtes au cœur des transformations du marché Data Center. Sou",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=2c1907d8e1cde4f8"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "f52d723570fa5c52",
-   "title": "Chargé d'Affaires Industrielles - Achats & International (H/F)",
-   "company": "WE UP ENGINEERING",
-   "location": "13 - Fos-sur-Mer",
-   "city": "13 - Fos-Sur-Mer",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international"
-   ],
-   "score": 12,
-   "date_posted": "2026-10-19",
-   "salary": "Annuel de 40000.0 Euros à 50000.0 Euros",
-   "description_snippet": "Dans le cadre du développement de nos activités industrielles, nous recherchons un Chargé d'Affaires Industrielles pour assurer la gestion technique, commerciale et financière de projets à dimension internationale. Vos principales missions sont : Analyser les appels d'offres : lecture de plans, procédés industriels et faisabilité technique Élaborer les offres techniques et commerciales en français",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/215KDNS"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "7cafb283e04410aa",
-   "title": "Coordinateur Marketing Marketplace F/H",
-   "company": "Groupe Fnac Darty",
-   "location": "Ivry-sur-Seine, A8, France",
-   "city": "Ivry-Sur-Seine",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_operations"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 12,
-   "date_posted": "2026-10-19",
-   "salary": "40,000–45,000 EUR/yearly",
-   "description_snippet": "**Description du poste** ------------------------ ### **Métier** MARKETPLACE ### **Intitulé du poste (F/H)** Coordinateur Marketing Marketplace F/H ### **Contrat** CDI ### **Statut** Cadre ### **Description et profil** Au sein de l’équipe Marketplace et rattaché(e) à la Head of Business Performance, vous contribuez directement à la visibilité, au trafic et à la performance commerciale des offres M",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=78fbaf22beb286eb"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "a0a5e2021caa948c",
-   "title": "Enterprise Customer Success Manager",
-   "company": "UpSlide",
-   "location": "Paris, A8, France",
+   "id": "6c9bd4a1a4b4b20a",
+   "title": "Assistant(e) attaché(e) de presse Hospitality (gastronomie / tourisme) de janvier à juillet",
+   "company": "Bureau de Presse Pascale Venot",
+   "location": "Paris 8e, A8, France",
    "city": "Paris",
    "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
+   "work_mode": "onsite",
+   "contract": null,
    "categories": [
-    "customer"
+    "assistant"
    ],
    "skills": [
-    "churn",
-    "cross-sell",
-    "retention",
-    "upsell"
+    "reporting",
+    "suivi"
    ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-18",
+   "salary": "4–4 EUR/hourly",
+   "description_snippet": "**À propos du poste** En tant qu’assistant ou assistante attaché(e) de presse Hospitality, vous contribuez aux relations presse dans les secteurs de la gastronomie, du tourisme et du lifestyle. **Responsabilités** * Rédigez et mettez en forme des communiqués, dossiers de presse et contenus destinés aux médias. * Assister aux événements des clients * Appuyez la gestion des relations avec les journa",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=e765966db0cc253c"
+    }
+   ],
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "8217a5ab00b70ec6",
+   "title": "Technico-Commercial Export H/F",
+   "company": "NTN Europe",
+   "location": "Lyon, ARA, France",
+   "city": "Lyon",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "business_development"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-18",
+   "salary": "40,000–50,000 EUR/yearly",
+   "description_snippet": "### **Famille d'emplois** COMMERCIAL - VENTES ### **Intitulé du poste** Technico-Commercial Export H/F ### **Contrat** CDI ### **Fourchette de salaire** 40 000 € - 50 000 € ### **Missions** NTN recrute un / une Technico-Commercial Export H/F ! **Ce que nous vous proposons :** En tant que Technico-Commercial Export, vous êtes rattaché(e) à Pascal, Responsable Commercial et votre mission principale ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5ef64142a79ff667"
+    }
+   ],
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "4d33f0bdffd79fde",
+   "title": "Responsable Prescription & Key Account Contractor (H/F)",
+   "company": "Xylem",
+   "location": "Nanterre, A8, France",
+   "city": "Nanterre",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
    "bonus_tags": [
     "international",
     "english_jd"
    ],
-   "score": 12,
-   "date_posted": "2026-10-19",
-   "salary": "45,000–63,000 EUR/yearly",
-   "description_snippet": "UpSlide is the **document production layer** for **financial services**. We orchestrate LLMs, machine learning, and workflow agents within Microsoft 365 to deliver **reliable, quality outputs** in the most efficient and cost-effective way. As a **Microsoft Solutions Partner**, with 14+ years supporting financial services teams, we bring together **expertise from the tech, finance and design fields",
+   "score": 10,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of addressing the world's most critical water challenges. We invite passionate individuals to join our team, dedicated to exceed",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=003d97f77101251f"
+     "url": "https://fr.indeed.com/viewjob?jk=56aae94e66608ed1"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "607f37072b33c25f",
+   "title": "Business Operations Specialist H/F",
+   "company": "MARSO Robotics",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "sales_operations"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 10,
+   "date_posted": "2026-11-19",
+   "salary": null,
+   "description_snippet": "Business Operations Specialist H/F",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/marso-robotics/jobs/business-operations-specialist-h-f_paris"
+    }
+   ],
+   "first_seen": "2026-11-18"
   },
   {
    "id": "2c4922c2b246e4ea",
@@ -35508,7 +35489,7 @@
    "bonus_tags": [],
    "score": 10,
    "date_posted": "2026-11-17",
-   "salary": null,
+   "salary": "30,000–35,000 EUR/yearly",
    "description_snippet": "Rejoins une équipe Customer Success où tout est encore à construire ! Chez Ensol, le Customer Success est au cœur de l’expérience client. Notre mission : accompagner nos clients de la signature de leur projet jusqu’à sa finalisation, en leur offrant un service irréprochable. En rejoignant notre équipe, tu évolueras dans un environnement dynamique où chaque journée est différente. Tu travailleras a",
    "sources": [
     {
@@ -43536,255 +43517,62 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "34e6450d59779804",
-   "title": "CDI – Global Travel Retail Marketing Coordinator",
-   "company": "Groupe Clarins",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
+   "id": "d6888a8c00d7735b",
+   "title": "Assistant Commercial Produits/ Projets Service H/F",
+   "company": "ABB",
+   "location": "Marseille, B8, France",
+   "city": "Marseille",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": null,
    "categories": [
-    "marketing_produit"
+    "assistant"
    ],
    "skills": [],
    "bonus_tags": [
     "international",
+    "assistant_role",
     "english_jd"
    ],
-   "score": 10,
-   "date_posted": "2026-10-20",
+   "score": 8,
+   "date_posted": "2026-11-18",
    "salary": null,
-   "description_snippet": "CLARINS Date: Oct 19, 2026 Paris, FR, 75017 **Ready to bring passion into your career?** Clarins Group is a trusted French family-owned company, a leader in skincare and make-up, operating in more than 150 countries. We are looking for a **Global Travel Retail Marketing Coordinator**, based in Paris. **Mission 1: Strengthen & Grow TREX Portfolio** * Support the end-to-end management of the TREX po",
+   "description_snippet": "At **ABB**, we help industries run leaner and cleaner—and every person here makes that happen. You’ll be empowered to lead, supported to grow, and proud of the impact we create together. Join us and help run what runs the world. **This position reports to:** Sales Support Manager - Customer Support \\_\\_ L’Assistant Commercial assure auprès des clients internes et externes ABB une assistance admini",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=8b83292fbfb41150"
+     "url": "https://fr.indeed.com/viewjob?jk=2ecd3f413ec3fe38"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
   },
   {
-   "id": "629aec32f404bf5e",
-   "title": "Customer Success Manager  – CDD 9 mois",
-   "company": "Kactus",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDD",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "churn",
-    "retention",
-    "satisfaction client"
-   ],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-10-20",
-   "salary": null,
-   "description_snippet": "Customer Success Manager – CDD 9 mois Ton parcours idéal : de formation **grande école ou universitaire équivalente** et idéalement doté(e) d’une première expérience commerciale. * **Aisance Relationnelle :** Tu adores le contact humain. Le téléphone et la visio sont tes meilleurs amis. * **Mindset Commercial :** Tu as le sens du service mais tu gardes toujours un œil sur les résultats business. *",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/kactus/jobs/customer-success-manager-cdd-9-mois_paris"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "29bfa0cc0ca619a6",
-   "title": "Digital Product Lead H/F",
-   "company": "Egis Group",
-   "location": "Montreuil, A8, France",
-   "city": "Montreuil",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": null,
+   "id": "9af3fe971393216a",
+   "title": "Responsable Marketing Produit (H/F) - CDI - Statut cadre",
+   "company": "",
+   "location": "33 - Coimères",
+   "city": "33 - Coimeres",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
    "categories": [
     "marketing_produit"
    ],
    "skills": [
-    "positionnement",
     "roadmap"
    ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-19",
+   "bonus_tags": [],
+   "score": 8,
+   "date_posted": "2026-11-18",
    "salary": null,
-   "description_snippet": "* Permanent Contract * Mid-Senior Level * Montreuil * Digital, Information and Technology About Us Egis est un groupe international d’ingénierie, de conseil, d’exploitation et de services à fort contenu technologique, présent dans plus de 120 pays. Dans le cadre de l’évolution de son **Operating Model (OM2)**, Egis renforce l’autonomie de ses entités tout en s’appuyant sur un cadre commun à l’éche",
+   "description_snippet": "Responsable Marketing Produit (H/F) Vistalid est une agence de communication spécialisée dans la création de sites internet et les solutions digitales à destination des TPE et PME. Avec près de 200 collaborateurs et 10 agences en France et en Belgique, nous accompagnons chaque jour des milliers de professionnels dans leur développement numérique. Pour accélérer notre croissance, nous créons le pos",
    "sources": [
     {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=c6f1c29a0c4e25f8"
+     "name": "France Travail",
+     "url": "https://fr.indeed.com/job/responsable-marketing-produit-hf-cdi-statut-cadre-7e5e630b2ef55215?from=poleemploi"
     }
    ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "d327723a7db25bc1",
-   "title": "Chef de Produit Maquillage H/F - CDI",
-   "company": "Sisley Paris",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "**Description de l'entreprise** Marque française, **Sisley** est un des leaders mondiaux de la cosmétique haut de gamme. Présent dans plus de 100 pays à travers le monde, le Groupe recherche pour sa **Direction Marketing International** située à Paris (75), un **Chef de Produit Maquillage axe Teint H/F** en **CDI.** **Description du poste** **EN NOUS REJOIGNANT, VOUS SEREZ EN CHARGE DE :** * Dével",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d86a3dbf6b8bf37b"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "a8f3f1fea51fb077",
-   "title": "Chef(fe) Produit h/f",
-   "company": "T'NB SA France",
-   "location": "Salon-de-Provence, B8, France",
-   "city": "Salon-De-Provence",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "**T’nb : Make your Life Easier !** Depuis plus de 35 ans, notre vocation est de démocratiser les accessoires high tech au grand public. **Une aventure qui dure depuis plus de 35 ans** Dans les années 80-90, la musique et le cinéma s’invitaient de plus en plus à la maison. En 1990, les ventes des appareils à cassette et des supports magnétiques ont explosé. M. Lenoir, Fondateur de la société T’nB, ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=b76c998c271aa360"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "d3a578a7dfe67432",
-   "title": "Responsable marketing Data Center F/H/X",
-   "company": "Socomec",
-   "location": "Benfeld",
-   "city": "Benfeld",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Responsable marketing Data Center F/H/X <p><strong>- Bac+5 </strong>en ingénierie, idéalement avec une dominante en génie électrique, ou présenter un parcours marketing/business associé à une forte appétence technique ou une expérience Data Center. <br />- Minimum <strong>3 ans d'expérience</strong> dans un environnement industriel proche, avec la capacité à comprendre et défendre une offre techni",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/socomec-1/jobs/responsable-marketing-data-center-f-h-x_benfeld"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "e2fa81b377938b74",
-   "title": "Demand Generation Manager",
-   "company": "PropheSee",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": null,
-   "categories": [
-    "marketing_produit",
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "conversion",
-    "kpi",
-    "roi",
-    "sea",
-    "seo",
-    "tracking"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "**Location:** Paris, France (on site with 2 days a week home office) **About** **Prophesee** Prophesee is pioneering a new generation of machine vision inspired by the human eye and brain. Its breakthrough event-based vision technology enables machines to see and respond to changes in their environment with unprecedented speed and efficiency, opening up new possibilities across industrial automati",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=86478a7fabbb389b"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "3e5d46097f39f209",
-   "title": "Mid-market Customer Success Manager",
-   "company": "UpSlide",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "churn",
-    "retention",
-    "upsell"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 10,
-   "date_posted": "2026-10-19",
-   "salary": "43,000–61,920 EUR/yearly",
-   "description_snippet": "UpSlide is the **document production layer** for **financial services**. We orchestrate LLMs, machine learning, and workflow agents within Microsoft 365 to deliver reliable, quality outputs in the most efficient and cost-effective way. As a Microsoft Solutions Partner, with 14+ years supporting financial services teams, we **bring together expertise from the tech, finance and design fields** to he",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=f3e4922de5b6efe5"
-    }
-   ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
   },
   {
    "id": "82e1605f963769f8",
@@ -44709,11 +44497,11 @@
    "score": 8,
    "date_posted": "2026-11-16",
    "salary": null,
-   "description_snippet": "**Votre mission :** Au sein du département Airframe, vous serez en charge d'animer et de gérer un portefeuille de clients pour les chantiers aviation civile Airframe. Vous serez le/la référent.e contractuel.le tout au long du cycle de vie du chantier, en coordination avec les équipes Commerce, Avant-Projets, Project Management. Vous garantissez la bonne application des engagements contractuels, la",
+   "description_snippet": "**À propos** ------------ ✈ Sabena technics est un fournisseur de services européen de premier plan dédié à l’aéronautique civile et gouvernementale internationale. Avec 4000 collaborateurs répartis sur 20 sites dans le monde , son expertise couvre le support de tous types de compagnies aériennes, une complémentarité technique avec les plus grands industriels, une large gamme de services technique",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=e8c7e578b78ceca6"
+     "url": "https://fr.indeed.com/viewjob?jk=ab0ecc44a0b91905"
     }
    ],
    "first_seen": "2026-11-16"
@@ -50877,242 +50665,89 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "5952c507e68337c3",
-   "title": "Chef de produit marketing (H/F)",
-   "company": "ANDROS",
-   "location": "28 - Auneau-Bleury-Saint-Symphorien",
-   "city": "28 - Auneau-Bleury-Saint-Symphorien",
-   "region": "other",
-   "work_mode": "onsite",
+   "id": "1a9f43219d119a3b",
+   "title": "Senior Enterprise Account Executive - France",
+   "company": "Camunda Careers",
+   "location": "France",
+   "city": "",
+   "region": "unknown",
+   "work_mode": "remote",
    "contract": "CDI",
+   "categories": [
+    "business_development"
+   ],
+   "skills": [
+    "pipeline",
+    "prospecting"
+   ],
+   "bonus_tags": [
+    "english_jd"
+   ],
+   "score": 6,
+   "date_posted": "2026-11-18",
+   "salary": "176,600–453,500 EUR/yearly",
+   "description_snippet": "**Location** ------------ France **Employment Type** ------------------- Full time **Location Type** ----------------- Remote **Department** -------------- SalesSales (Division) Camunda is **the enterprise platform for agentic orchestration**, enabling organizations to coordinate **AI agents, people, and systems** across complex, end-to-end business processes. With built-in governance, auditabilit",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=0982586826688bed"
+    }
+   ],
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "a9898553d0cb34f8",
+   "title": "Cheffe ou chef de produits offres d'énergies (F/H)",
+   "company": "Groupe Electricité de Strasbourg",
+   "location": "Strasbourg, GE, France",
+   "city": "Strasbourg",
+   "region": "other",
+   "work_mode": "remote",
+   "contract": null,
+   "categories": [
+    "marketing_produit"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 6,
+   "date_posted": "2026-11-18",
+   "salary": "40,000–47,000 EUR/yearly",
+   "description_snippet": "Au sein d'une équipe de 8 personnes en charge des offres d'énergie du groupe ÉS, vous **participez à la définition de sa stratégie commerciale**. Vous assurez la construction de la politique commerciale en termes de structure d'offres, de conditions contractuelles de fourniture d'énergies, de gamme de services de gestion ainsi que des modalités de paiement. Vous déployez cette politique commercial",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f20fc40df0abbe7e"
+    }
+   ],
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "c913be69edc5e314",
+   "title": "Chef de Produit Marketing H/F",
+   "company": "Michael Page",
+   "location": "75 - Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDD",
    "categories": [
     "marketing_produit"
    ],
    "skills": [
-    "veille concurrentielle"
+    "positionnement"
    ],
    "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-10-21",
-   "salary": "Annuel de 38000.0 Euros à 42000.0 Euros - 13ème mois, CET",
-   "description_snippet": "Description du poste : Pour accompagner ses projets de transformationindustrielle Andros, recherche pour sa Direction Commerciale et Marketing àAuneau un CHEF DE PRODUITMARKETING H/F Rattaché au Responsable Marketing et Comptes Clés MDD (marque de distributeur),vous assurez ledéveloppement et le suivi de notre portefeuille produits en étroitecollaboration avec les équipes commerciales et nos clien",
+   "score": 6,
+   "date_posted": "2026-11-18",
+   "salary": "Annuel de 42000.0 Euros à 48000.0 Euros",
+   "description_snippet": "Au sein de l'équipe marketing de notre client, le Chef de Produit Marketing contribue à la définition, à la conception et au lancement des innovations, ainsi qu'à la gestion des gammes existantes. Il coordonne les différentes parties prenantes internes et externes afin de garantir la qualité et le respect du calendrier des projets : * Gestion des lancements produits : définition des cahiers des ch",
    "sources": [
     {
      "name": "France Travail",
-     "url": "https://www.meteojob.com/jobs/57591899?utm_source=pole-emploi&utm_medium=aggregator-free"
+     "url": "https://www.aplitrak.com/?adid=TVAuOTkyMzguMTMwODdAcGFnZWZyYXV0b3Bvc3QuYXBsaXRyYWsuY29t"
     }
    ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "cf1c00a2a02cb5df",
-   "title": "Chef de produits marketing H/F",
-   "company": "Gifrer Barbezat",
-   "location": "Vaulx-en-Velin, ARA, France",
-   "city": "Vaulx-En-Velin",
-   "region": "other",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-10-19",
-   "salary": "46,000–51,000 EUR/yearly",
-   "description_snippet": "**Qui sommes-nous ?** Chez GIFRER, nous sommes une équipe passionnée et engagée, qui conçoit des solutions simples, efficaces et accessibles pour accompagner le bien-être des familles. Laboratoire pharmaceutique français à taille humaine de 70 collaborateurs, nous entrons aujourd’hui dans un nouveau cycle de croissance, porté par quatre valeurs fortes : Naturalité – Confiance – Proximité – Efficac",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=4c4230c73db14db7"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "05cd07616a2ce80e",
-   "title": "Customer Success Manager - compte unique Retail",
-   "company": "Vusion",
-   "location": "Nanterre, A8, France",
-   "city": "Nanterre",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "nps"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 8,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "**Description de l'entreprise** ------------------------------- **Êtes-vous prêt à bâtir l’avenir du retail****?** Vusion est une entreprise de retail tech en forte croissance. Implanté dans 19 pays sur 3 continents, nous sommes leader mondial des solutions de digitalisation du commerce physique fondées sur l’intelligence artificielles. Nous inventons des technologies qui créent un impact positif ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=eb40f0de8355dd92"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "46c7b40adb97d3e1",
-   "title": "Customer Success Management Associate (French Speaking)",
-   "company": "Moody's",
-   "location": "Puteaux, A8, France",
-   "city": "Puteaux",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "customer satisfaction",
-    "retention",
-    "voice of the customer"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 8,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "At Moody's, we unite the brightest minds to turn today’s risks into tomorrow’s opportunities. We do this by striving to create an inclusive environment where everyone feels welcome to be who they are—with the freedom to exchange ideas, think innovatively, and listen to each other and customers in meaningful ways. Moody’s is transforming how the world sees risk. As a global leader in ratings and in",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=bc3572634764db55"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "54075254785f27fc",
-   "title": "Growth Marketing & IA – Profil scientifique ou ingénieur (H/F)",
-   "company": "Elvesys - Elveflow",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "seo"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Growth Marketing & IA – Profil scientifique ou ingénieur (H/F) ### 🎓 Ton formation Tu as une formation **Bac +5 en sciences ou en ingénierie** ? Parfait ! Tu as moins d'années d'études, mais tu t'es formé(e) par toi-même, tu as développé de solides compétences et tu as des réalisations concrètes à nous montrer ? Ta candidature nous intéresse tout autant ! Ce qu'on recherche avant tout, c'est quelq",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/elvesys/jobs/scientifique-attire-par-le-growth-hacking-le-marketing-l-ia_paris"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "67955e1bbc56c98a",
-   "title": "Chef de Produit H/F",
-   "company": "FDG Group",
-   "location": "Orly, A8, France",
-   "city": "Orly",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 8,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "**Qui sommes-nous ?** FDG est un acteur majeur du non-alimentaire en grande distribution. Nous assurons la **conception**, le **développement** et la **commercialisation** de gammes complètes de produits pour les GMS. Notre portefeuille s’articule autour de **4 grands pôles** : * **Textile** : mercerie, tricot, DIY * **Hygiène Beauté** : accessoires coiffure, maquillage, parapharmacie * **Maison**",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=fd972243330bfc3a"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "f570b26a23950679",
-   "title": "Chef de produit développement topicrem - h/f",
-   "company": "Mayoly",
-   "location": "Rueil-Malmaison, A8, France",
-   "city": "Rueil-Malmaison",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 8,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "**Description entreprise :** ============================ MAYOLY est un groupe pharmaceutique français, acteur international de la santé grand public qui a toujours su se réinventer avec succès et se transformer pour répondre aux évolutions de notre monde. C’est fort de cet esprit entrepreneurial et de notre culture familiale qu’aujourd’hui, MAYOLY a pour ambition de devenir un leader avec une off",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=9f3d512397f4ec35"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "b1353b4dc9b526d5",
-   "title": "Senior Customer Success Manager, Enterprise - France (French Speaking)",
-   "company": "Atlassian",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [
-    "churn",
-    "retention",
-    "voice of the customer"
-   ],
-   "bonus_tags": [
-    "english_jd"
-   ],
-   "score": 8,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Overview: **Overview** Atlassians have flexibility in where they work – whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity. Interviews and onboarding are conducted virtually, as part of being a distributed-first company",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=ad36681fcfc54ef0"
-    }
-   ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
   },
   {
    "id": "2d3bd8ac425e4d60",
@@ -64102,168 +63737,116 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "10c07dd1b2792819",
-   "title": "CHEF DE PRODUIT MARKETING LEASING (F/H)",
-   "company": "Crédit Mutuel Alliance Fédérale",
-   "location": "Courbevoie",
-   "city": "Courbevoie",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "CHEF DE PRODUIT MARKETING LEASING (F/H)",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/credit-mutuel-alliance-federale/jobs/chef-de-produit-marketing-leasing-h-f_courbevoie"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "16e50b246ea52b36",
-   "title": "Assistant chef de produit H/F",
-   "company": "Artapisserie.fr",
-   "location": "Lezennes, HDF, France",
-   "city": "Lezennes",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "assistant_role"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-19",
-   "salary": "2,125–2,125 EUR/monthly",
-   "description_snippet": "**Rejoins Artapisserie.fr, leader du e-commerce spécialisé en plein essor !** Passionné(e) par le marketing digital, l'e-commerce et la gestion de produit ? Nous recherchons un(e) assistant(e) chef de produit pour accompagner au quotidien nos 2 chefs de produits seniors. **Qui sommes-nous ?** Artapisserie.fr, filiale du Groupe R2S, est le leader français de la vente en ligne de fournitures et outi",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=834fe01058ccf297"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "8529c12844a4b519",
-   "title": "Professeur(e) de français et/ou de mathématiques niveaux primaire et collège",
-   "company": "Numéro 1 Scolarité",
-   "location": "Boissy-sous-Saint-Yon, A8, France",
-   "city": "Boissy-Sous-Saint-Yon",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-19",
-   "salary": "12–27 EUR/hourly",
-   "description_snippet": "**Salaire :** 12,31€ à 27,57€ par heure Description du poste : **À propos du poste** Numéro1 Scolarité recherche un(e) **professeur(e) de français et/ou de mathématiques niveaux primaire et collège** pour des cours particuliers sur le **secteur de Boissy sous Saint Yon (91),** pour des élèves atypiques. Nous sommes très impliqués dans la réussite de nos élèves et le bien-être de nos professeurs. N",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=5b364acfdff34329"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "092ad2025d022b51",
-   "title": "Customer Success Manager ESG/RSE",
-   "company": "Zei",
-   "location": "Paris",
-   "city": "Paris",
+   "id": "4308d5db5c5fd9f9",
+   "title": "Consultant, Customer Insights - H/F",
+   "company": "McDonald's France",
+   "location": "Guyancourt",
+   "city": "Guyancourt",
    "region": "paris",
    "work_mode": "hybrid",
    "contract": "CDI",
    "categories": [
-    "customer"
+    "customer",
+    "insights"
    ],
-   "skills": [
-    "satisfaction client"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 6,
-   "date_posted": "2026-10-19",
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-19",
    "salary": null,
-   "description_snippet": "Customer Success Manager ESG/RSE **Must Have :** * Expérience en gestion de portefeuille clients, avec un focus sur des clients Grands Comptes dans un environnement SaaS B2B. * Solide expérience en gestion de projet (déploiement, formation, suivi client, etc.). * Maîtrise de l’anglais, à l’écrit comme à l’oral. * Capacité à interagir avec des interlocuteurs de haut niveau (DG, Direction RSE, DAF, ",
+   "description_snippet": "Consultant, Customer Insights - H/F",
    "sources": [
     {
      "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/zei/jobs/customer-success-manager-grands-comptes_paris"
+     "url": "https://www.welcometothejungle.com/fr/companies/mcdonald-s-france/jobs/consultant-customer-insights-h-f_guyancourt"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
   },
   {
-   "id": "0dc86005918a222d",
-   "title": "CDI - DevSecOps Engineer – Customer Success - H/F",
-   "company": "Naval Group [FR]",
-   "location": "Ollioules",
-   "city": "Ollioules",
-   "region": "other",
+   "id": "9a8f4f7dff6b6ec6",
+   "title": "Chef de Projet E-commerce et Parcours Clients H/F/X",
+   "company": "Pixmania",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": "CDI",
    "categories": [
     "customer"
    ],
    "skills": [],
-   "bonus_tags": [],
-   "score": 6,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "CDI - DevSecOps Engineer – Customer Success - H/F <p><strong>Votre Profil&nbsp;</strong><br><strong>Nous recherchons un ingénieur passionné.&nbsp;</strong><br>- Expérience : Vous avez une expérience solide sur la partie CI/CD Gitlab<br>- Mindset : Vous embrassez la culture DevSecOps. Pour vous, une tâche répétée deux fois doit être automatisée<br>- Agilité : Vous êtes à l'aise avec le modèle Spoti",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/naval-group-fr/jobs/cdi-tech-lead-devsecops-h-f_ollioules"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "ece6fb9240b6e414",
-   "title": "Opérateur/opératrice logistique en entrepôt (H/F)",
-   "company": "SHEN ZHEN LESIGOU",
-   "location": "67 - BISCHHEIM",
-   "city": "67 - Bischheim",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
    "bonus_tags": [
-    "chinese",
     "international"
    ],
-   "score": 6,
-   "date_posted": "2026-10-19",
-   "salary": "Horaire de 12.31 Euros à 15.0 Euros",
-   "description_snippet": "Nous recherchons 2 opérateurs/opératrices logistique en entrepôt, avec une date d'arrivée souhaitée dans un mois. Il est souhaitable que les candidats aient une maitrise suffisante du mandarin ou l'anglais, car ils seront amenés à échanger avec des clients parlant mandarin. Ce poste est principalement responsable des opérations quotidiennes d'entrée et de sortie des stocks ainsi que de la planific",
+   "score": 4,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "**Envie d’en savoir un peu plus ?** Relancée en mars 2022 par Steve et Jean-Emile Rosenblum, entrepreneurs passionnés, Pixmania est une Marketplace tech qui propose des produits neufs et reconditionnés. Notre mission ? Réinventer la manière de consommer la tech : plus responsable, plus accessible, plus flexible. Soutenus par notre atelier de reconditionnement parisien, RVR – Nest.Green, nous donno",
    "sources": [
     {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/215JXXC"
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=80f97c21c3e7b32b"
     }
    ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "505182cd1f77688d",
+   "title": "Consultant expérimenté Marketing et expérience client",
+   "company": "Licorne Society",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "### **Poste de Consultant expérimenté Marketing et expérience client** **Qui sont-ils ?** L'entreprise est accélérateur de transformations. Créé il y a 3 ans, c'est un cabinet de conseil à mission, certifié B Corp, qui accompagne les entreprises dans leurs transformations stratégiques et opérationnelles. Leurs transformations s’appuient sur cinq piliers essentiels : * Stratégie à impact * Engageme",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f991bdb6a9f4230c"
+    }
+   ],
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "b4a36b21b5891e1b",
+   "title": "Technical Account Manager",
+   "company": "Vertex",
+   "location": "Ury, A8, France",
+   "city": "Ury",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international",
+    "english_jd"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-18",
+   "salary": "1,296,000–1,728,000 EUR/yearly",
+   "description_snippet": "**Job Description:** **Technical Account Manager** Hybrid | São Paulo, Brazil **Job Description Summary** * Own a portfolio of client relationships from onboarding through steady-state operations, serving as the primary point of contact and internal advocate for each account. * Lead structured onboarding engagements, ensuring clients go live on time with full clarity on platform configuration and ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3ec1b2044da532d9"
+    }
+   ],
+   "first_seen": "2026-11-19"
   },
   {
    "id": "9599e4b4a0722812",
@@ -65021,8 +64604,8 @@
    "work_mode": "hybrid",
    "contract": "CDI",
    "categories": [
-    "performance_marketing",
-    "marketing_produit"
+    "marketing_produit",
+    "performance_marketing"
    ],
    "skills": [
     "go-to-market",
@@ -67043,13 +66626,39 @@
    "skills": [],
    "bonus_tags": [],
    "score": 4,
-   "date_posted": "2026-11-18",
+   "date_posted": "2026-11-19",
    "salary": null,
    "description_snippet": "Lead Stratégie Data-Driven Marketing Digital (F/H)",
    "sources": [
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/carrefour/jobs/lead-strategie-data-driven-marketing-digital-f-h_massy"
+    }
+   ],
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "aa93646d07ff5691",
+   "title": "Key Account Manager en Evènementiel H/F - IDF",
+   "company": "Gojob",
+   "location": "Paris",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "hybrid",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-19",
+   "salary": null,
+   "description_snippet": "Key Account Manager en Evènementiel H/F - IDF",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/gojob/jobs/key-account-manager-en-evenementiel-h-f-idf_paris"
     }
    ],
    "first_seen": "2026-11-10"
@@ -68496,32 +68105,6 @@
     {
      "name": "Welcome to the Jungle",
      "url": "https://www.welcometothejungle.com/fr/companies/sharkninja/jobs/key-account-manager-amazon_paris_SHARK_NwJaK5o"
-    }
-   ],
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "aa93646d07ff5691",
-   "title": "Key Account Manager en Evènementiel H/F - IDF",
-   "company": "Gojob",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-09-15",
-   "salary": null,
-   "description_snippet": "Key Account Manager en Evènementiel H/F - IDF",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/gojob/jobs/key-account-manager-en-evenementiel-h-f-idf_paris"
     }
    ],
    "first_seen": "2026-11-10"
@@ -76202,475 +75785,6 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "9f0819a256bc0500",
-   "title": "Customer Success Manager France",
-   "company": "Planon",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-20",
-   "salary": null,
-   "description_snippet": "Customer Success Manager France",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/planon/jobs/customer-success-manager-france_paris"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "d40c551941357d51",
-   "title": "Chef de Produit Marketing H/F",
-   "company": "Savoie Outillage Service / Clickoutil",
-   "location": "Sainte-Hélène-du-Lac, ARA, France",
-   "city": "Sainte-Helene-Du-Lac",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "veille concurrentielle"
-   ],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": "25,604–28,000 EUR/yearly",
-   "description_snippet": "**BIENVENUE CHEZ CLICKOUTIL !** Voyage dans le temps avec nous jusqu'à 1973, l'année où SAVOIE OUTILLAGE SERVICE a fait son entrée en scène, devenant rapidement un leader incontesté dans la vente d'outillage électroportatif et de quincaillerie de fixation en Rhône-Alpes. Nos racines sont solidement ancrées à Saint Baldoph, où notre site e-commerce CLICKOUTIL voit le jour en 2011 ! Un site e-commer",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=7a78023b59bad7e9"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "fd4a16e49c59d714",
-   "title": "Communications & Marketing Senior Specialist France",
-   "company": "CEVA Logistics",
-   "location": "Courbevoie, A8, France",
-   "city": "Courbevoie",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Req ID: 592597 Posting Start Date: 19/10/2026 Communications & Marketing Senior Specialist France **Req ID:** 592597 **Posting Start Date:** 19/10/2026 Courbevoie - 7 All. de l'Arche, FRA CEVALogistics Communication Permanent contract Full Time CEVA Logistics provides global supply chain solutions to connect people, products, and providers all around the world. Present in 170+ countries and with m",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d52c8b9b7c218b6f"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "6d1a019275c33431",
-   "title": "Secrétaire commercial VN",
-   "company": "HARMONY AUTO FRANCE",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Intégré(e) à l'équipe commerciale, vous contribuerez activement au développement du site sous la supervision du directeur de site. Vos missions principales seront : **1. Gestion des commandes clients** * Saisir et suivre les commandes clients dans les outils internes. * Gérer les commandes auprès du constructeur et l'affectation des véhicules en stock. * Assurer le suivi des aides commerciales et ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=2a2d88042e326cb3"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "8cc1035a75a13176",
-   "title": "Barista (H/F)",
-   "company": "SOHO Group",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "% ARABICA et SOHO Group sont ravis d'annoncer l'ouverture d'un autre magasin Arabica à Paris, France, et nous recherchons des baristas passionnés et qualifiés pour rejoindre notre équipe. **À propos de % ARABICA** Un concept unique de café spécialité originaire du Japon, qui sert et torréfie les meilleurs cafés du monde entier, y compris ceux de leur propre ferme. % Arabica est réputé pour sa tass",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=a5af9a065687c20c"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "1f3f6894ae84327a",
-   "title": "Vendeur Mode Beauté Design",
-   "company": "SNC DRUGSTORE CHAMPS ELYSEES",
-   "location": "Paris 8e, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "**Intitulé du poste :** Hôte(sse) de vente polyvalent rayon Mode, Beauté et Design (H/F) **Département :** Mode Beauté et Design **Reporte à :** Chef de rayon MBD**,** Assistant(e) Chef de rayon, 1ère vendeuse Joaillerie **Relation intérieures / extérieures :** Direction du magasin/Responsable de magasin **Date de prise de fonction :** Immédiatement **Statut** : Employé **Type de contrat :** CDI *",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=1010069586a8328a"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "c2fba86193831a52",
-   "title": "CDI - International Traffic Manager (H/F)",
-   "company": "Bonsoirs",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "CDI - International Traffic Manager (H/F) * Au-delà des diplômes, nous recherchons quelqu’un qui partagera nos valeurs : avant tout il faut être positif(ve), hyper déterminé(e), et avoir un véritable esprit entrepreneurial. * Vous avez 3 à 5 ans d’expérience en gestion de campagnes paid social, en agence ou chez l’annonceur, avec des objectifs eCommerce. * Vous maîtrisez le Business Manager Meta e",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/bonsoirs/jobs/cdi-international-traffic-manager-h-f-l-intitule-du-poste-est-cdi-international-traffic-manager-h-f_paris"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "a3ad0bbdc4ae72c8",
-   "title": "Partner Success Manager (Strategic Customer Success Manager)",
-   "company": "Swan",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Partner Success Manager (Strategic Customer Success Manager) ✨ **You’re a great match if:** * You have **3 to 7 years of experience** as a Partner Success Manager, Account Manager, or in an operational client-facing role in a start-up, scale-up, or fast-paced environment * **You have experience managing a limited number of high-value clients.** * You are **fluent both French and English** - anothe",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/swan/jobs/strategic-customer-success-manager_paris"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "a6680dcaf598850d",
-   "title": "Customer Success Manager",
-   "company": "WeChooz",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Customer Success Manager Ce CDD est fait pour toi si : * Tu es diplômé(e) d'un Master (école de commerce, droit, gestion ou formation équivalente). * Tu es attiré(e) par les environnements où la relation client, la gestion de projet et l'accompagnement occupent une place centrale. * Tu as une forte curiosité pour les sujets juridiques et l'univers du dialogue social. Une formation en droit est un ",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/wechooz/jobs/customer-success-manager_paris_WECHO_4LlJXjJ"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "5e9beeb3e84ce78f",
-   "title": "Customer Success Manager",
-   "company": "EGERIE",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Customer Success Manager * Tu es diplômé·e d’une école d’ingénieur ou d’un master (informatique, cybersécurité, management des SI…). * Tu as au moins 2 ans d’expérience en Customer Success, en conseil en cybersécurité ou GRC, ou dans le déploiement de logiciels B2B complexes. Nous ouvrons le poste à différents niveaux d’expérience : ton périmètre et ton autonomie seront adaptés à ton parcours. * T",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/egerie/jobs/customer-success-manager_paris_EGERI_Mo6d4oR"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "321c0ac03e8821b3",
-   "title": "Customer success manager / chef de projet",
-   "company": "JOBGLOBER",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "customer"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Customer success manager / chef de projet Compétences requises : * 0-2 ans d'expérience * Formation top 10 école de commerce/ingénieur * Compétences analytiques * Compétences en gestion de projet * Excellent relationnel * Intérêt pour l'éducation et les nouvelles technologies",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/jobglober/jobs/responsable-client-junior_paris"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "1d40d8225f74d5bc",
-   "title": "Comis de cuisine (H/F)",
-   "company": "ETIENNE",
-   "location": "75 - PARIS",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": "Mensuel de 2134.0 Euros à 2300.0 Euros",
-   "description_snippet": "Recherche un(e) commis de cuisine motivé(e) pour renforcer notre équipe en contrat CDI de 39h par semaine. Salaire brut mensuel : Missions : Préparation des ingrédients (découpe, épluchage). Participation à la cuisson et au dressage des plats. Respect rigoureux des normes d'hygiène et de sécurité (HACCP). Nettoyage et entretien du poste de cuisine et du matériel. Profil recherché : Dynamique, rigo",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/215KPLB"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "3411ef6885bb4672",
-   "title": "Assistant(e) Fiscal(e) Trilingue - Français / Anglais / Chinois (H/F)",
-   "company": "KJFISCALE",
-   "location": "75 - PARIS",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": "Mensuel de 1868.0 Euros à 2300.0 Euros",
-   "description_snippet": "Lieu : France Type de contrat : CDI Temps de travail : Temps plein Rémunération : 2000 À propos du poste Dans le cadre du développement de notre activité, nous recherchons un(e) Assistant(e) Fiscal(e) Trilingue pour rejoindre notre équipe. Vous participerez au suivi fiscal et administratif de sociétés françaises, notamment dans un contexte international et e-commerce. Missions principales -Prépare",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/215KKKM"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "dad977e3f6c9c067",
-   "title": "Lead Product Manager Groupe (H/F)",
-   "company": "L'industrie recrute",
-   "location": "Reims, GE, France",
-   "city": "Reims",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "roadmap"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "L’Entreprise Depuis 1937, CITEL participe à travers le monde à protéger les installations des surtensions transitoires notamment dues à la foudre. Aujourd’hui, CITEL s’impose comme un des leaders incontestés sur ses marchés traditionnels, mais aussi comme le plus innovant, ouvrant de plus en plus de perspectives de développement au sein d’un groupe familial, industriel, international en forte croi",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=1e3b6200bcfdb9fd"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "c43536474f22c1ad",
-   "title": "Senior Analytics Engineer - EMEA",
-   "company": "SEEQ",
-   "location": "France",
-   "city": "",
-   "region": "unknown",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "roadmap"
-   ],
-   "bonus_tags": [
-    "english_jd"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Seeq builds advanced analytics software that unlocks insights from industrial process data—empowering companies in sectors like pharmaceuticals, oil & gas, chemicals, and power generation to optimize operations and drive business value. As a remote-first company since our founding, we’re built for collaboration across time zones. Our engineering and customer-facing teams thrive in a supportive, ag",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=dfd1463c90377013"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "b6458810435179d5",
-   "title": "Responsable de Restaurant - Chinois Courant (H/F)",
-   "company": "MIMI LOUBNA",
-   "location": "75 - Paris 13e Arrondissement",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [],
-   "skills": [],
-   "bonus_tags": [
-    "chinese",
-    "international"
-   ],
-   "score": 4,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Le cabinet VILLAGE RECRUTEMENT recherche un(e) Responsable de Restaurant (H/F) pour la filiale de son partenaire, un groupe agroalimentaire propriétaire d'un Restaurant asiatique situé dans le 13e arrondissement. Nous recherchons quelqu'un maîtrisant le Mandarin et/ou le Cantonais. Vous assurez la gestion globale du restaurant, dans une démarche d'efficacité opérationnelle, de conformité réglement",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://candidat.francetravail.fr/offres/recherche/detail/215KSZT"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "c759477dee3d305c",
-   "title": "Technical Content & Developer Experience Lead",
-   "company": "Mindee",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 4,
-   "date_posted": "2026-09-18",
-   "salary": null,
-   "description_snippet": "Technical Content & Developer Experience Lead Required: * You have shipped code and integrated third-party APIs. You can read our SDKs, run our examples and spot when something is wrong before a user does * You write clearly for a technical audience in English. Concise, precise, no marketing filler * You use AI coding agents daily and understand what makes documentation work or fail when an LLM is",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/mindee/jobs/technical-content-developer-experience-lead_paris"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
    "id": "0024c060858d17cd",
    "title": "Chef de Produits Senior H/F",
    "company": "Hellowork",
@@ -80179,59 +79293,32 @@
    "first_seen": "2026-10-20"
   },
   {
-   "id": "6e5de5fd832a40b0",
-   "title": "Assistant Webmarketing H/F",
-   "company": "Savoie Outillage Service / Clickoutil",
-   "location": "Sainte-Hélène-du-Lac, ARA, France",
-   "city": "Sainte-Helene-Du-Lac",
-   "region": "other",
+   "id": "daecb88ae3930ec3",
+   "title": "Operations Manager – France",
+   "company": "CGN EUROPE ENERGY",
+   "location": "Puteaux, A8, France",
+   "city": "Puteaux",
+   "region": "paris",
    "work_mode": "onsite",
    "contract": null,
-   "categories": [
-    "marketing_produit"
-   ],
+   "categories": [],
    "skills": [],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-10-19",
-   "salary": "25,604–28,000 EUR/yearly",
-   "description_snippet": "**BIENVENUE CHEZ CLICKOUTIL !** Voyage dans le temps avec nous jusqu'à 1973, l'année où SAVOIE OUTILLAGE SERVICE a fait son entrée en scène, devenant rapidement un leader incontesté dans la vente d'outillage électroportatif et de quincaillerie de fixation en Rhône-Alpes. Nos racines sont solidement ancrées à Saint Baldoph, où notre site e-commerce CLICKOUTIL voit le jour en 2011 ! Un site e-commer",
+   "bonus_tags": [
+    "chinese",
+    "international",
+    "english_jd"
+   ],
+   "score": 0,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "#### **About the role** Within the OMD Power Station team, you will independently coordinate and optimise operational activities relating to assigned renewable energy assets. You will follow operational performance, coordinate maintenance, manage contractor performance, resolve operational issues and contribute to continuous improvement across the assigned asset portfolio. You will provide operati",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=0c5456c6e2e68eba"
+     "url": "https://fr.indeed.com/viewjob?jk=e8f9441381f90a07"
     }
    ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "fc13079b853f9d58",
-   "title": "Responsable Marketing Senior F/H - Walter Learning",
-   "company": "Walter Learning",
-   "location": "13 - Marseille 8e Arrondissement",
-   "city": "13 - Marseille 8E Arrondissement",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market",
-    "positionnement"
-   ],
-   "bonus_tags": [],
-   "score": 2,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Walter Learning forme chaque année des milliers de professionnels en ligne. Nous vendons plus de 80 formations, chacune avec son public, ses arguments, ses canaux et son mode de financement. Rattaché au DG en charge des opérations, du produit et du marketing, vous prenez la responsabilité de l'acquisition : amener, au bon coût, des prospects qualifiés à nos équipes de vente à distance. Contexte : ",
-   "sources": [
-    {
-     "name": "France Travail",
-     "url": "https://careers.werecruit.io/fr/walter-learning/offres/responsable-marketing-senior-9799ca?utm_source=francetravail&utm_medium=job-board"
-    }
-   ],
-   "first_seen": "2026-10-19"
+   "first_seen": "2026-11-19"
   },
   {
    "id": "45f43db3fd5bc315",
@@ -82573,125 +81660,6 @@
     }
    ],
    "first_seen": "2026-10-20"
-  },
-  {
-   "id": "e32d0b6fac49224d",
-   "title": "Responsable Marketing Senior F/H",
-   "company": "Walter Learning",
-   "location": "Marseille",
-   "city": "Marseille",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market"
-   ],
-   "bonus_tags": [],
-   "score": 0,
-   "date_posted": "2026-10-23",
-   "salary": null,
-   "description_snippet": "Responsable Marketing Senior F/H <h5 dir=\"ltr\">Profil recherch&eacute; :&nbsp;</h5> <p dir=\"ltr\">Exp&eacute;rience : 6 &agrave; 8 ans en marketing produit, marketing op&eacute;rationnel ou go-to-market.&nbsp;</p> <p dir=\"ltr\">&nbsp;</p> <p dir=\"ltr\">Ce qui compte</p> <ul> <li dir=\"ltr\" aria-level=\"1\"> <p dir=\"ltr\" role=\"presentation\">Autonomie r&eacute;elle : avoir d&eacute;j&agrave; tenu un p&eac",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/walter-learning/jobs/responsable-marketing-senior-f-h_marseille"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "8da96a2d39442cdf",
-   "title": "Senior Marketing Manager",
-   "company": "Align Technology",
-   "location": "Asnières-sur-Seine, A8, France",
-   "city": "Asnieres-Sur-Seine",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [
-    "go-to-market"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 0,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "### **Description** The Senior Marketing Manager is responsible for driving sustainable business growth by developing and executing strategic marketing initiatives that strengthen brand awareness, accelerate customer acquisition and engagement, and increase adoption of the company's solutions and services. The role acts as a strategic business partner to Commercial, Clinical, Customer Success and ",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=08aba43a605faca4"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "b1c4ab20210ac356",
-   "title": "Senior Affiliate Manager",
-   "company": "Ledger",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "performance_marketing"
-   ],
-   "skills": [
-    "acquisition",
-    "roi"
-   ],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": 0,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "**About Ledger** We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=cf36202ddcd2a70d"
-    }
-   ],
-   "first_seen": "2026-10-19"
-  },
-  {
-   "id": "c227e36185741ad7",
-   "title": "Product Owner / Chef de projet CRM — Salesforce Service Cloud (Freelance) (IT) / Freelance",
-   "company": "DEV AND CONNECT",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "onsite",
-   "contract": null,
-   "categories": [
-    "crm"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 0,
-   "date_posted": "2026-10-19",
-   "salary": null,
-   "description_snippet": "Dans le cadre d'une mission en régie (« in team ») pour un grand groupe, vous pilotez des projets d'intégration CRM au plus près des équipes métiers et techniques. **Pilotage de bout en bout des projets d'intégration CRM :** cadrage, animation des ateliers fonctionnels, priorisation du backlog, suivi des développements, recettes et mises en production. Coordination des équipes techniques internes,",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=25b6d501bb0ce8b9"
-    }
-   ],
-   "first_seen": "2026-10-19"
   },
   {
    "id": "b3eb89d7559efb98",
@@ -86182,35 +85150,6 @@
     }
    ],
    "first_seen": "2026-10-20"
-  },
-  {
-   "id": "f1bde3519a24d4e0",
-   "title": "Senior Product Marketing Manager",
-   "company": "Metroscope",
-   "location": "Paris",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "hybrid",
-   "contract": "CDI",
-   "categories": [
-    "marketing_produit"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international",
-    "english_jd"
-   ],
-   "score": -4,
-   "date_posted": "2026-10-18",
-   "salary": null,
-   "description_snippet": "Senior Product Marketing Manager ### What we are looking for We are looking for seniority in **judgment, ownership and execution**, more than a specific number of years. You will likely have: * Strong Product Marketing experience in B2B SaaS or another complex technical product environment. * Evidence that you have worked closely with Sales and Product and owned initiatives from diagnosis to deliv",
-   "sources": [
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/metroscope/jobs/product-marketing-manager_paris_METRO_dRojZOa"
-    }
-   ],
-   "first_seen": "2026-10-19"
   },
   {
    "id": "e4eda1543eb38bc9",
