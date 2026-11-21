@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-21T18:07:07Z",
+ "generated_at": "2026-11-21T22:52:38Z",
  "source_stats": {
-  "Indeed": 3125,
-  "Welcome to the Jungle": 9276,
-  "France Travail": 599,
+  "Indeed": 3054,
+  "Welcome to the Jungle": 9275,
+  "France Travail": 600,
   "APEC": 0,
   "HelloWork": 0,
   "Greenhouse": 2,
@@ -14,8 +14,8 @@
   "APEC": "HTTP 403（DataDome）；整組跳過，剩下 78 個搜尋詞不送"
  },
  "local_sources": {},
- "count": 3178,
- "new_today": 77,
+ "count": 3182,
+ "new_today": 81,
  "jobs": [
   {
    "id": "12b18490635b0302",
@@ -2250,6 +2250,37 @@
    "first_seen": "2026-11-21"
   },
   {
+   "id": "0ebcb8b441f173ae",
+   "title": "Un(e) assistant(e) commercial(e) F/H",
+   "company": "OXYLIS",
+   "location": "Bayonne, NA, France",
+   "city": "Bayonne",
+   "region": "west",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "suivi"
+   ],
+   "bonus_tags": [
+    "international",
+    "assistant_role"
+   ],
+   "score": 22,
+   "date_posted": "2026-11-21",
+   "salary": "1,850–2,050 EUR/monthly",
+   "description_snippet": "**L'entreprise** ---------------- Prestataire de santé à domicile, ISIS MEDICAL assure une couverture nationale. Société en perpétuel développement, la structure de Lahonce intervient sur l'ensemble du secteur Landes / Pays basque / une partie du Gers. Depuis 25 ans, nos équipes sont à l’écoute des patients et des médecins afin de répondre au mieux à leurs besoins. **Description du poste** -------",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=fa7b758e36c3eaa0"
+    }
+   ],
+   "first_seen": "2026-11-21"
+  },
+  {
    "id": "fc5068b6e4b72528",
    "title": "Customer Marketing & CRM Manager H/F",
    "company": "SANEF",
@@ -2442,11 +2473,11 @@
    "score": 22,
    "date_posted": "2026-11-20",
    "salary": null,
-   "description_snippet": "**Réf. de l'offre :** 31010 **Localisation :** FONTENAY SOUS BOIS - 94 **Contrat :** CDI Dispositifs handicap **Société :** AXA Banque Télétravail (selon profil poste) **Expérience :** Expérimentés **Salaire :** Selon profil et expérience VOTRE RÔLE ET VOS MISSIONS À propos du rôle Rejoignez l'équipe Marketing opérationnel et relationnel d'AXA Banque ! En tant que Chargé(e) de campagnes marketing,",
+   "description_snippet": "Description du poste: VOTRE RÔLE ET VOS MISSIONS À propos du rôle Rejoignez l'équipe Marketing opérationnel et relationnel d'AXA Banque ! En tant que Chargé(e) de campagnes marketing, vous serez au cœur de la mise en œuvre de nos stratégies marketing client et distributeur. Vous piloterez l'exécution opérationnelle des campagnes, du paramétrage à l'analyse des performances, en garantissant la qual",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=577a68ff90460a87"
+     "url": "https://fr.indeed.com/viewjob?jk=5650916312962cb1"
     }
    ],
    "first_seen": "2026-11-20"
@@ -7320,6 +7351,38 @@
    "first_seen": "2026-11-21"
   },
   {
+   "id": "5c4ba09010f4387f",
+   "title": "Assistant(e) administrative et commerciale (80%)",
+   "company": "BDS DEVELOPPEMENT",
+   "location": "Saint-Romain-en-Gal, ARA, France",
+   "city": "Saint-Romain-En-Gal",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "assistant"
+   ],
+   "skills": [
+    "excel",
+    "planning",
+    "suivi"
+   ],
+   "bonus_tags": [
+    "assistant_role"
+   ],
+   "score": 18,
+   "date_posted": "2026-11-19",
+   "salary": "1,493–1,700 EUR/monthly",
+   "description_snippet": "**Assistant(e) en administration des ventes (Temps partiel à** **80% - 28h / semaine)** Un poste polyvalent où ton sens de l’organisation et ton relationnel feront la différence ! **La Boutique du store**, entreprise familiale à taille humaine, fabrique et installe depuis plus de 40 ans des protections solaires et fermetures (stores, pergolas, volets, moustiquaires…) pour les particuliers comme po",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=f63c3c9ee8b8b6a0"
+    }
+   ],
+   "first_seen": "2026-11-21"
+  },
+  {
    "id": "b12fb2ba67e08e6e",
    "title": "Chef.fe de produit junior (H/F)",
    "company": "VENTE UNIQUE",
@@ -7877,7 +7940,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=18dcdc4ff370cc2d"
+     "url": "https://fr.indeed.com/viewjob?jk=6f6b2a15c41e5eb6"
     }
    ],
    "first_seen": "2026-11-20"
@@ -21792,7 +21855,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=ec70c32b910dfc75"
+     "url": "https://fr.indeed.com/viewjob?jk=1bc23bbfbcf86098"
     }
    ],
    "first_seen": "2026-11-20"
@@ -21887,7 +21950,7 @@
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=abd2e7ea77ae0d91"
+     "url": "https://fr.indeed.com/viewjob?jk=09b99dfb3f358985"
     }
    ],
    "first_seen": "2026-11-20"
@@ -22743,6 +22806,32 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=0c8b75696cbae9ce"
+    }
+   ],
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "207eb4bf344d056a",
+   "title": "Key Account Manager - Domaine santé - H/F",
+   "company": "ASTEN SANTE",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "account_management"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 14,
+   "date_posted": "2026-11-19",
+   "salary": "50,000–75,000 EUR/yearly",
+   "description_snippet": "Asten Santé, filiale du Groupe La Poste, est un acteur majeur de la santé à domicile, avec plus de 110 000 patients accompagnés partout en France. Nous intervenons sur l’apnée du sommeil, l’insuffisance respiratoire, la perfusion, la nutrition et l’insulinothérapie par pompe. Employeur engagé et labellisé Great Place to Work, nous plaçons l’humain au cœur de nos priorités Vous souhaitez intégrer u",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=d53332dab94bcf6e"
     }
    ],
    "first_seen": "2026-11-19"
@@ -34151,38 +34240,6 @@
    "first_seen": "2026-11-18"
   },
   {
-   "id": "67284cdc091eb622",
-   "title": "E-Business Developer International – Marketplaces & B2B (H/F)",
-   "company": "ZeTrace",
-   "location": "Marne-la-Vallée, A8, France",
-   "city": "Marne-La-Vallee",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "business_development"
-   ],
-   "skills": [],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 12,
-   "date_posted": "2026-11-18",
-   "salary": null,
-   "description_snippet": "**A propos** ------------ Notre client, acteur de la distribution de produits grand public sous marques internationales à forte notoriété, connaît une forte croissance de son activité e-commerce et marketplaces. Pour accélérer son développement, notamment hors Europe, nous recherchons un E-Business Developer International (H/F), rattaché directement à la Directrice Digitale, pour piloter la croiss",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=ccdee6fba8660246"
-    },
-    {
-     "name": "France Travail",
-     "url": "https://www.jobposting.pro/emploi-2755553-120"
-    }
-   ],
-   "first_seen": "2026-11-18"
-  },
-  {
    "id": "3825fdf59f11c6a4",
    "title": "Assistant ADV trilingue (fr-ang-all) H/F",
    "company": "COFFRA GROUP",
@@ -41811,32 +41868,6 @@
    "first_seen": "2026-11-19"
   },
   {
-   "id": "207eb4bf344d056a",
-   "title": "Key Account Manager - Domaine santé - H/F",
-   "company": "ASTEN SANTE",
-   "location": "Paris, A8, France",
-   "city": "Paris",
-   "region": "paris",
-   "work_mode": "remote",
-   "contract": "CDI",
-   "categories": [
-    "account_management"
-   ],
-   "skills": [],
-   "bonus_tags": [],
-   "score": 10,
-   "date_posted": "2026-11-19",
-   "salary": "50,000–75,000 EUR/yearly",
-   "description_snippet": "Asten Santé, filiale du Groupe La Poste, est un acteur majeur de la santé à domicile, avec plus de 110 000 patients accompagnés partout en France. Nous intervenons sur l’apnée du sommeil, l’insuffisance respiratoire, la perfusion, la nutrition et l’insulinothérapie par pompe. Employeur engagé et labellisé Great Place to Work, nous plaçons l’humain au cœur de nos priorités Vous souhaitez intégrer u",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d53332dab94bcf6e"
-    }
-   ],
-   "first_seen": "2026-11-19"
-  },
-  {
    "id": "a68ae50af6a2e7a2",
    "title": "Gallery & Events Assistant",
    "company": "Invisible Collection",
@@ -42186,6 +42217,34 @@
    "first_seen": "2026-11-19"
   },
   {
+   "id": "67284cdc091eb622",
+   "title": "E-Business Developer International - Marketplaces & B2B (H/F)",
+   "company": "ZeTrace",
+   "location": "77 - Melun",
+   "city": "Melun",
+   "region": "paris",
+   "work_mode": "remote",
+   "contract": "CDI",
+   "categories": [
+    "business_development"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 10,
+   "date_posted": "2026-11-19",
+   "salary": null,
+   "description_snippet": "Notre client, acteur de la distribution de produits grand public sous marques internationales à forte notoriété, connaît une forte croissance de son activité e-commerce et marketplaces. Pour accélérer son développement, notamment hors Europe, nous recherchons un E-Business Developer International (H/F), rattaché directement à la Directrice Digitale, pour piloter la croissance des canaux de vente e",
+   "sources": [
+    {
+     "name": "France Travail",
+     "url": "https://www.jobposting.pro/emploi-2755553-120"
+    }
+   ],
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "607f37072b33c25f",
    "title": "Business Operations Specialist H/F",
    "company": "MARSO Robotics",
@@ -42449,40 +42508,6 @@
     {
      "name": "France Travail",
      "url": "https://www.directemploi.com/candidatOffre/56262085?utm_source=pole-emploi&utm_medium=referral&utm_campaign=Pôle-Emploi"
-    }
-   ],
-   "first_seen": "2026-11-18"
-  },
-  {
-   "id": "f1d565a2fc1e65ba",
-   "title": "Chef de Projet International F/H",
-   "company": "Opteven",
-   "location": "Villeurbanne, ARA, France",
-   "city": "Villeurbanne",
-   "region": "other",
-   "work_mode": "onsite",
-   "contract": "CDD",
-   "categories": [
-    "international_project"
-   ],
-   "skills": [
-    "gestion de projet"
-   ],
-   "bonus_tags": [
-    "international"
-   ],
-   "score": 10,
-   "date_posted": "2026-11-18",
-   "salary": null,
-   "description_snippet": "Le/La Chef de Projet International intervient dans la conduite et le pilotage de projets et lancements majeurs destinés à soutenir la croissance de l’activité du groupe dans les différents pays où nous opérons. Il/Elle participe à la définition de la cible, la conception et assure le suivi des livrables. Vous coordonnez les différents services impliqués pour servir les projets et lancements majeur",
-   "sources": [
-    {
-     "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=d628c9180db16c6d"
-    },
-    {
-     "name": "Welcome to the Jungle",
-     "url": "https://www.welcometothejungle.com/fr/companies/opteven/jobs/chef-de-projet-international-f-h_villeurbanne_OPTEV_VYpQXrk"
     }
    ],
    "first_seen": "2026-11-18"
@@ -50424,12 +50449,12 @@
    "bonus_tags": [],
    "score": 8,
    "date_posted": "2026-11-20",
-   "salary": "53,000–53,000 EUR/yearly",
-   "description_snippet": "* Energies Conventionnelles * CDI / Digital * Courbevoie * France * 21/11/26 * Sur site * 35 000 - 53 000 €/an A propos d’Assystem ------------------- Répondre aux défis de la **transition énergétique** et renforcer **notre souveraineté** sont des priorités du XXIᵉ siècle. Au cœur de ces enjeux, Assystem accompagne ses clients dans **la réalisation de leurs projets les plus stratégiques**. Et pour",
+   "salary": "35,000–53,000 EUR/yearly",
+   "description_snippet": "**Description de l'entreprise** Répondre aux défis de la **transition énergétique** et renforcer **notre souveraineté** sont des priorités du XXIᵉ siècle. Au cœur de ces enjeux, Assystem accompagne ses clients dans **la réalisation de leurs projets les plus stratégiques**. Et pour y parvenir, nos **8 000 Switchers** mobilisent leur **expertise en ingénierie, management de projet et digital.** Prés",
    "sources": [
     {
      "name": "Indeed",
-     "url": "https://fr.indeed.com/viewjob?jk=f49e9113e75396db"
+     "url": "https://fr.indeed.com/viewjob?jk=a8d0195316d6400b"
     }
    ],
    "first_seen": "2026-11-20"
@@ -50843,6 +50868,36 @@
     }
    ],
    "first_seen": "2026-11-19"
+  },
+  {
+   "id": "f1d565a2fc1e65ba",
+   "title": "Chef de Projet International F/H",
+   "company": "Opteven",
+   "location": "Villeurbanne",
+   "city": "Villeurbanne",
+   "region": "other",
+   "work_mode": "onsite",
+   "contract": "CDD",
+   "categories": [
+    "international_project"
+   ],
+   "skills": [
+    "gestion de projet"
+   ],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 8,
+   "date_posted": "2026-11-18",
+   "salary": null,
+   "description_snippet": "Chef de Projet International F/H - Vous êtes diplômé d'un BAC + 5 en gestion de projet. - Vous avez de l'expérience dans la gestion de projet. - Vous avez déjà évolué professionnellement dans un contexte international. - La maîtrise du français et l'anglais est obligatoire. Il est nécessaire de maitriser une troisième langue comme l'italien ou l'espagnol. Le portugais serait un plus pour ce poste.",
+   "sources": [
+    {
+     "name": "Welcome to the Jungle",
+     "url": "https://www.welcometothejungle.com/fr/companies/opteven/jobs/chef-de-projet-international-f-h_villeurbanne_OPTEV_VYpQXrk"
+    }
+   ],
+   "first_seen": "2026-11-18"
   },
   {
    "id": "82e1605f963769f8",
@@ -71189,6 +71244,60 @@
     {
      "name": "Indeed",
      "url": "https://fr.indeed.com/viewjob?jk=162e5e037d5ef335"
+    }
+   ],
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "0e4503479608141e",
+   "title": "Responsable Delivery et Expérience Client (Customer Success Manager) H/F",
+   "company": "SforSales Academy",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [],
+   "score": 4,
+   "date_posted": "2026-11-21",
+   "salary": "33,000–38,000 EUR/yearly",
+   "description_snippet": "SforSales Academy recrute un(e) Responsable Delivery et Expérience Client (Customer Success Manager) en CDI à temps plein à Paris, pour un démarrage dès que possible. Pour postuler, envoie ton CV et une courte vidéo de présentation d'environ une minute via notre formulaire : https://jobs.sforsales.academy/cdi-delivery-csm À propos de SforSales Academy Nous accompagnons nos clients dans leur progre",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=5df572cfc5bd8940"
+    }
+   ],
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "81046702130bb90b",
+   "title": "Réceptionniste / Ambassadeur Expérience Client - F/H (CDD à partir du 04.01.2027)",
+   "company": "Marriott International",
+   "location": "Paris, A8, France",
+   "city": "Paris",
+   "region": "paris",
+   "work_mode": "onsite",
+   "contract": "CDI",
+   "categories": [
+    "customer"
+   ],
+   "skills": [],
+   "bonus_tags": [
+    "international"
+   ],
+   "score": 4,
+   "date_posted": "2026-11-21",
+   "salary": null,
+   "description_snippet": "**Additional Information** **Job Number**26152759 **Job Category**Rooms & Guest Services Operations **Location**17 boulevard Saint-Jacques, Paris Paris 75014, France **Schedule**Full Time **Located Remotely?**N **Position Type** Non-Management **Rejoignez l'un des plus grands hôtels Marriott d'Europe au cœur de Paris** Au sein du Paris Marriott Rive Gauche Hotel & Conference Center, chaque séjour ",
+   "sources": [
+    {
+     "name": "Indeed",
+     "url": "https://fr.indeed.com/viewjob?jk=3eb9d7ff8bbc74a3"
     }
    ],
    "first_seen": "2026-11-21"
